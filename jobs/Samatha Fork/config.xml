@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <maven2-moduleset plugin="maven-plugin@1.504">
   <actions/>
-  <description>RUNS UNIT tests against a master&apos;s branch</description>
+  <description>RUNS UNIT tests against a master&apos;s branch from Smatha Fork.</description>
   <keepDependencies>false</keepDependencies>
   <properties/>
   <scm class="hudson.plugins.git.GitSCM" plugin="git@1.2.0">
