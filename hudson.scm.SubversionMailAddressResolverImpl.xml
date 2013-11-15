@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.scm.SubversionMailAddressResolverImpl_-DescriptorImpl plugin="subversion@1.44">
+  <rules>
+    <hudson.scm.SubversionMailAddressResolverImpl_-Rule>
+      <pattern>https://[^.]+.dev.java.net/svn/([^/]+)(/.*)?</pattern>
+      <domain>@dev.java.net</domain>
+    </hudson.scm.SubversionMailAddressResolverImpl_-Rule>
+    <hudson.scm.SubversionMailAddressResolverImpl_-Rule>
+      <pattern>(http|https)://[^.]+.svn.(sourceforge|sf).net/svnroot/([^/]+)(/.*)?</pattern>
+      <domain>@users.sourceforge.net</domain>
+    </hudson.scm.SubversionMailAddressResolverImpl_-Rule>
+  </rules>
+</hudson.scm.SubversionMailAddressResolverImpl_-DescriptorImpl>

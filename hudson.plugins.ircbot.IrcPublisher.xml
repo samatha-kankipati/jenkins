@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.plugins.ircbot.IrcPublisher_-DescriptorImpl plugin="ircbot@2.21">
+  <enabled>false</enabled>
+  <port>194</port>
+  <ssl>false</ssl>
+  <login>PircBotx</login>
+  <nick>jenkins-bot</nick>
+  <scrambledPasswords>true</scrambledPasswords>
+  <commandPrefix>!jenkins</commandPrefix>
+  <useNotice>false</useNotice>
+  <charset>UTF-8</charset>
+  <useColors>false</useColors>
+</hudson.plugins.ircbot.IrcPublisher_-DescriptorImpl>
