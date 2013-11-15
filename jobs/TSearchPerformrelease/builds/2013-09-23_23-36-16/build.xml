@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@1.504">
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UpstreamCause>
+          <upstreamProject>TSearchFunctionalTests</upstreamProject>
+          <upstreamUrl>job/TSearchFunctionalTests/</upstreamUrl>
+          <upstreamBuild>200</upstreamBuild>
+          <upstreamCauses>
+            <hudson.model.Cause_-UpstreamCause>
+              <upstreamProject>TSearchUnitTest</upstreamProject>
+              <upstreamUrl>job/TSearchUnitTest/</upstreamUrl>
+              <upstreamBuild>218</upstreamBuild>
+              <upstreamCauses>
+                <hudson.model.Cause_-UserIdCause/>
+              </upstreamCauses>
+            </hudson.model.Cause_-UpstreamCause>
+          </upstreamCauses>
+        </hudson.model.Cause_-UpstreamCause>
+      </causes>
+    </hudson.model.CauseAction>
+    <hudson.plugins.git.util.BuildData plugin="git@1.2.0">
+      <buildsByBranchName>
+        <entry>
+          <string>origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <revision plugin="git-client@1.0.2">
+              <sha1>bdcc8a989f2306efbb4fae5d065c84e99a21acbb</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </revision>
+            <hudsonBuildNumber>141</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <scmName></scmName>
+      <remoteUrls>
+        <string>git@github.com:rackerlabs/search.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@1.2.0">
+      <build class="hudson.maven.MavenModuleSetBuild" reference="../../.."/>
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/lib/jenkins/jobs/TSearchPerformrelease/workspace</ws>
+    </hudson.plugins.git.GitTagAction>
+    <hudson.scm.SCMRevisionState_-None/>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <build class="hudson.maven.MavenModuleSetBuild" reference="../../.."/>
+      <record>
+        <entry>
+          <string>com.rackspace.api:search-pom:pom.xml</string>
+          <string>ff8e0cee144d9810d4c2a745ad6d19b7</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <org.jvnet.hudson.plugins.DownstreamBuildViewAction plugin="downstream-buildview@1.8">
+      <build class="hudson.maven.MavenModuleSetBuild" reference="../../.."/>
+      <downstreamBuilds class="concurrent-hash-map">
+        <entry>
+          <string>TSearchDeployToTest</string>
+          <int>170</int>
+        </entry>
+      </downstreamBuilds>
+    </org.jvnet.hudson.plugins.DownstreamBuildViewAction>
+  </actions>
+  <number>141</number>
+  <startTime>1379979377006</startTime>
+  <result>SUCCESS</result>
+  <duration>573940</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/jobs/TSearchPerformrelease/workspace</workspace>
+  <hudsonVersion>1.504</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@1.2.0">
+    <authorOrCommitter>false</authorOrCommitter>
+  </scm>
+  <culprits class="com.google.common.collect.RegularImmutableSortedSet">
+    <string>jenkins</string>
+    <string>samatha.kankipati</string>
+  </culprits>
+  <mavenVersionUsed>3.0.4</mavenVersionUsed>
+</hudson.maven.MavenModuleSetBuild>

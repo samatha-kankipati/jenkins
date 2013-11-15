@@ -1,0 +1,29 @@
+2013-07-29 08:49:40,418: DEBUG: root: 
+========================================================
+SETTING UP testrepo.tq_search.core_ongoing_sync.test_core_ongoing_sync.TestCoreOngoingSync at 2013-07-29 08:49:40.418451
+========================================================
+2013-07-29 08:49:40,421: ERROR: ccengine.domain.configuration.AuthConfig: No option 'api_key' in section: 'auth'
+2013-07-29 08:49:40,421: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.auth.auth_client.AuthClient object at 0x1cde7750>, 'POST', 'https://ws.staging.core.rackspace.com/ctkapi//login/melissa.biles') {'headers': {'Content-Type': 'application/json', 'Accept': 'application/json'}, 'params': {}, 'data': '{"password": "qwerty"}', 'auth': None, 'verify': False}
+2013-07-29 08:49:40,422: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): ws.staging.core.rackspace.com
+2013-07-29 08:49:40,684: DEBUG: requests.packages.urllib3.connectionpool: "POST /ctkapi//login/melissa.biles HTTP/1.1" 200 None
+2013-07-29 08:49:40,747: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://ws.staging.core.rackspace.com/ctkapi//login/melissa.biles
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'22', 'Content-Type': 'application/json', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/1.2.3 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : {"password": "qwerty"}
+
+2013-07-29 08:49:40,748: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.325742959976
+response headers : CaseInsensitiveDict({'date': 'Mon, 29 Jul 2013 08:38:14 GMT', 'transfer-encoding': 'chunked', 'content-type': 'application/json', 'server': 'Apache/2.2.3 (Red Hat)'})
+response body    : {"authtoken": "91f2e5c18744f56c9649784a77354f66"}
+-------------------------------------------------------------------------------
+2013-07-29 08:49:40,751: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.core.ticket_api.TicketAPIClient object at 0x1cde7e10>, 'POST', 'https://ws.staging.core.rackspace.com/ctkapi/query') {'headers': {'Content-Type': 'application/json', 'X-Auth': '91f2e5c18744f56c9649784a77354f66', 'Accept': 'application/json'}, 'params': {}, 'data': '[{"load_arg": 11, "args": [11, 11206, 1, 1, "Generic core ticket", "Ticket Text Message"], "class": "Account.Account", "result_map": {"assignee.name": "assignee.name", "number": "number", "status.name": "status.name", "last_public_response_date": "last_public_response_date", "subject": "subject", "queue.name": "queue.name", "created": "created", "account.number": "account.number", "modified": "modified", "category.name": "category.name", "priority": "priority.id"}, "method": "addTicket"}]', 'auth': None, 'verify': False}
+2013-07-29 08:49:40,752: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): ws.staging.core.rackspace.com

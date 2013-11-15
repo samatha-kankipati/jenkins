@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@1.504">
+  <actions>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <build class="hudson.maven.MavenBuild" reference="../../.."/>
+      <record>
+        <entry>
+          <string>com.rackspace.api:search-pom:pom.xml</string>
+          <string>b5d11fd1bad26dcc94daaeb80a3cee5f</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <hudson.maven.reporters.MavenArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+      <pomArtifact>
+        <groupId>com.rackspace.api</groupId>
+        <artifactId>search-pom</artifactId>
+        <version>0.1.0_b182-SNAPSHOT</version>
+        <type>pom</type>
+        <fileName>pom.xml</fileName>
+        <canonicalName>search-pom-0.1.0_b182-SNAPSHOT.pom</canonicalName>
+        <md5sum>b5d11fd1bad26dcc94daaeb80a3cee5f</md5sum>
+      </pomArtifact>
+      <mainArtifact reference="../pomArtifact"/>
+      <attachedArtifacts/>
+      <repositoryId>snapshots</repositoryId>
+      <repositoryUrl>http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/snapshots</repositoryUrl>
+    </hudson.maven.reporters.MavenArtifactRecord>
+  </actions>
+  <number>212</number>
+  <startTime>1380922768204</startTime>
+  <result>SUCCESS</result>
+  <duration>4034</duration>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace</workspace>
+  <executedMojos class="java.util.concurrent.CopyOnWriteArrayList">
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-clean-plugin</artifactId>
+      <version>2.4.1</version>
+      <goal>clean</goal>
+      <executionId>default-clean</executionId>
+      <duration>927</duration>
+      <digest>039798515986413679ca6ddda1a8b5ec</digest>
+    </hudson.maven.ExecutedMojo>
+  </executedMojos>
+</hudson.maven.MavenBuild>

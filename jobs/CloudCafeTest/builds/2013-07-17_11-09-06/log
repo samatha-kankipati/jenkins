@@ -1,0 +1,57 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /var/lib/jenkins/jobs/CloudCafeTest/workspace
+Checkout:workspace / /var/lib/jenkins/jobs/CloudCafeTest/workspace - hudson.remoting.LocalChannel@6788af79
+Using strategy: Default
+Last Built Revision: Revision f06f5682a1a34bc5df0e159db85005270d02163c (remotes/origin/new_regression_run)
+Fetching changes from 1 remote Git repository
+Fetching upstream changes from origin
+Commencing build of Revision f06f5682a1a34bc5df0e159db85005270d02163c (remotes/origin/new_regression_run)
+Checking out Revision f06f5682a1a34bc5df0e159db85005270d02163c (remotes/origin/new_regression_run)
+[workspace] $ /bin/bash /tmp/hudson458036374773223415.sh
+**> virtualenv exists
+test_health_check_after_installation (testrepo.tq_search.test_health_check.TestHealthCheck)
+B-41831::Testing the health after deployment ... ok
+test_info_check_after_installation (testrepo.tq_search.test_health_check.TestHealthCheck)
+B-41831::Testing the info after deployment ... ok
+test_ticket_created_in_core_reflects_in_one_minute_in_tqsearch (testrepo.tq_search.core_ongoing_sync.test_core_ongoing_sync.TestCoreOngoingSync) ... ok
+test_ticket_updated_in_core_reflects_in_one_minute_in_tqsearch (testrepo.tq_search.core_ongoing_sync.test_core_ongoing_sync.TestCoreOngoingSync) ... ok
+test_updating_priority_in_core_marks_ticket_as_updated_in_search (testrepo.tq_search.core_ongoing_sync.test_core_ongoing_sync.TestCoreOngoingSync) ... ok
+test_updating_queue_in_core_marks_ticket_as_updated_in_tq_search (testrepo.tq_search.core_ongoing_sync.test_core_ongoing_sync.TestCoreOngoingSync) ... ok
+test_updating_status_in_core_marks_ticket_as_updated_in_search (testrepo.tq_search.core_ongoing_sync.test_core_ongoing_sync.TestCoreOngoingSync) ... ok
+test_ascending_sorting_order_when_fetching_the_tickets (testrepo.tq_search.search_existing_ticket.test_pagination.TestPagination) ... ok
+test_default_sorting_order_is_ascending (testrepo.tq_search.search_existing_ticket.test_pagination.TestPagination) ... ok
+test_descending_sorting_order_when_fetching_the_tickets (testrepo.tq_search.search_existing_ticket.test_pagination.TestPagination) ... ok
+test_first_link_of_pagination_during_list_ticket (testrepo.tq_search.search_existing_ticket.test_pagination.TestPagination) ... ok
+test_last_link_of_pagination_during_list_ticket (testrepo.tq_search.search_existing_ticket.test_pagination.TestPagination) ... ok
+test_next_previous_link_of_pagination_during_list_tickets (testrepo.tq_search.search_existing_ticket.test_pagination.TestPagination) ... ok
+test_all_the_dates_are_converted_to_UTC_format (testrepo.tq_search.search_existing_ticket.test_fetch_existing_core_tickets.TestFetchExistingCoreTickets) ... ok
+test_content_type_of_response (testrepo.tq_search.search_existing_ticket.test_fetch_existing_core_tickets.TestFetchExistingCoreTickets) ... ok
+test_load_existing_tickets_to_ticket_search (testrepo.tq_search.search_existing_ticket.test_fetch_existing_core_tickets.TestFetchExistingCoreTickets) ... ok
+test_list_tickets_and_verify_the_account_data (testrepo.tq_search.search_existing_ticket.test_account_information.TestAccountInformation) ... ok
+test_same_number_of_accounts_in_account_svs_and_elastic_search (testrepo.tq_search.search_existing_ticket.test_account_information.TestAccountInformation) ... ok
+test_update_ticket_attributes_and_verify_the_account_data (testrepo.tq_search.search_existing_ticket.test_account_information.TestAccountInformation) ... ok
+test_get_specific_ticket_and_verify_it_exists_in_the_list (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_get_specific_ticket_using_query_parameters (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_list_tickets_by_date_range_in_query_params_with_eql_op (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_list_tickets_by_date_range_in_query_params_with_not_eql_op (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_list_tickets_by_multiple_values_for_equal_operator (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_list_tickets_by_single_value_for_equal_operator (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_list_tickets_eql_and_not_eql_op_single_val_in_query_params (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_list_tickets_eql_and_noteql_op_multiple_vals_in_query_parms (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_list_tickets_query_params_with_multiple_vals_and_not_eql_op (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_list_tickets_query_params_with_single_value_and_eql_op (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_list_tickets_query_params_with_single_value_and_not_eql_op (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 530.827s
+
+OK
+======================================================================================================================================================
+Log File Path: /var/lib/jenkins/jobs/CloudCafeTest/workspace/.cloudcafe/logs/tq_search/local.search.config/2013-07-17_11_09_07.933928
+======================================================================================================================================================
+424752
+424752
+Archiving artifacts
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at BUILD level /var/lib/jenkins/jobs/CloudCafeTest/workspace to /var/lib/jenkins/jobs/CloudCafeTest/builds/2013-07-17_11-09-06/htmlreports/HTML_Report
+Finished: SUCCESS

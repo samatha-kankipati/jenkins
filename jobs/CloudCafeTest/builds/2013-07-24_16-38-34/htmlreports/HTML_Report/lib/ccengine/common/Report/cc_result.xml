@@ -1,0 +1,201 @@
+<testsuite errors="0" failures="10" name="" skips="0" tests="30" time="667.566176891"><testcase classname="TestHealthCheck" name="test_health_check_after_installation" result="PASSED" /><testcase classname="TestPagination" name="test_next_previous_link_of_pagination_during_list_tickets" result="PASSED" /><testcase classname="TestListTickets" name="test_get_specific_ticket_and_verify_it_exists_in_the_list" result="PASSED" /><testcase classname="TestPagination" name="test_ascending_sorting_order_when_fetching_the_tickets" result="PASSED" /><testcase classname="TestListTickets" name="test_list_tickets_query_params_with_single_value_and_eql_op" result="PASSED" /><testcase classname="TestCoreOngoingSync" name="test_ticket_created_in_core_reflects_in_one_minute_in_tqsearch" result="PASSED" /><testcase classname="TestHealthCheck" name="test_info_check_after_installation" result="PASSED" /><testcase classname="TestPagination" name="test_last_link_of_pagination_during_list_ticket" result="PASSED" /><testcase classname="TestPagination" name="test_default_sorting_order_is_ascending" result="PASSED" /><testcase classname="TestFetchExistingCoreTickets" name="test_load_existing_tickets_to_ticket_search" result="PASSED" /><testcase classname="TestCoreOngoingSync" name="test_ticket_updated_in_core_reflects_in_one_minute_in_tqsearch" result="PASSED" /><testcase classname="TestCoreOngoingSync" name="test_updating_queue_in_core_marks_ticket_as_updated_in_tq_search" result="PASSED" /><testcase classname="TestPagination" name="test_first_link_of_pagination_during_list_ticket" result="PASSED" /><testcase classname="TestPagination" name="test_descending_sorting_order_when_fetching_the_tickets" result="PASSED" /><testcase classname="TestCoreOngoingSync" name="test_updating_status_in_core_marks_ticket_as_updated_in_search" result="PASSED" /><testcase classname="TestFetchExistingCoreTickets" name="test_content_type_of_response" result="PASSED" /><testcase classname="TestCoreOngoingSync" name="test_updating_priority_in_core_marks_ticket_as_updated_in_search" result="PASSED" /><testcase classname="TestFetchExistingCoreTickets" name="test_all_the_dates_are_converted_to_UTC_format" result="PASSED" /><testcase classname="TestAccountInformation" name="test_list_tickets_and_verify_the_account_data" result="PASSED" /><testcase classname="TestListTickets" name="test_list_tickets_by_date_range_in_query_params_with_not_eql_op" result="PASSED" /><testcase classname="TestAccountInformation" name="test_same_number_of_accounts_in_account_svs_and_elastic_search" result="FAILED"><failure message="The number of accounts are not same in elastic                           search and account services" type="AssertionError">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_account_information.py", line 114, in test_same_number_of_accounts_in_account_svs_and_elastic_search
+    search and account services")
+AssertionError: '290823' != '348852' : The number of accounts are not same in elastic                           search and account services
+</failure></testcase><testcase classname="TestAccountInformation" name="test_update_ticket_attributes_and_verify_the_account_data" result="FAILED"><failure message="&lt;AccountServices object&gt; &#10;status = Active&#10;name = Rebel Aliance&#10;number = 829213&#10;rcn = RCN-111-222-333&#10;team = Team CS2&#10;highProfile = False&#10;updatedAt = None&#10;type = MANAGED_HOSTING&#10; != &lt;AccountServices object&gt; &#10;status = Active&#10;hybridNetworking = false&#10;name = Rebel Aliance&#10;region = US&#10;team = Team UK M24&#10;salesForceSubType = large_opportunity&#10;number = 829213&#10;slaType = PLATINUM&#10;rcn = RCN-111-222-333&#10;highProfile = False&#10;accountManagerGeoLocation = UK&#10;type = MANAGED_HOSTING&#10;serverSupport = CORE_SERVICES_US" type="AssertionError">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_account_information.py", line 94, in test_update_ticket_attributes_and_verify_the_account_data
+    get_account_info_from_acc_svs)
+AssertionError: &lt;AccountServices object&gt; 
+status = Active
+name = Rebel Aliance
+number = 829213
+rcn = RCN-111-222-333
+team = Team CS2
+highProfile = False
+updatedAt = None
+type = MANAGED_HOSTING
+ != &lt;AccountServices object&gt; 
+status = Active
+hybridNetworking = false
+name = Rebel Aliance
+region = US
+team = Team UK M24
+salesForceSubType = large_opportunity
+number = 829213
+slaType = PLATINUM
+rcn = RCN-111-222-333
+highProfile = False
+accountManagerGeoLocation = UK
+type = MANAGED_HOSTING
+serverSupport = CORE_SERVICES_US
+
+</failure></testcase><testcase classname="TestListTickets" name="test_get_specific_ticket_using_query_parameters" result="FAILED"><failure message="23" type="AssertionError">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_list_tickets.py", line 383, in test_get_specific_ticket_using_query_parameters
+    .format(tq_search_ticket.tickets[0], core_ticket))
+AssertionError: &lt;TicketDetails object&gt; 
+hasLinuxServers = False
+number = 130312-01315
+assignee = None
+accountServiceLevel = Intensive
+updatedAt = 2013-03-12T08:59:23.000+0000
+statusTypes = [u'Alive', u'Awake', u'New']
+createdAt = 2013-03-12T08:59:21.000+0000
+subject = Problem allocating IP Block in Autonomous System: Rackspace UK
+category = IP QC fail
+priority = Normal
+subCategory = IP QC fail
+hasWindowsServers = False
+status = New
+difficulty = 1
+link = {u'href': u'http://test.search.api.rackspace.com/tickets/130312-01315', u'rel': u'via'}
+sourceSystem = CORE
+accountTeamTerritoryCode = US
+severityName = Standard
+account = &lt;AccountServices object&gt; 
+status = Active
+name = Autohost-test11
+number = 607647
+highProfile = False
+rcn = RCN-000-048-321
+team = Team B M2
+updatedAt = 2013-07-02T21:41:29.460+0000
+type = MANAGED_HOSTING
+
+lastPublicCommentDate = None
+queue = &lt;Queue object&gt; 
+name = Foundations Network Services
+id = 471
+
+updateEventDate = 2013-03-12T08:59:21.000+0000
+ != &lt;Core object&gt; 
+subject = Problem allocating IP Block in Autonomous System: Rackspace UK
+has_linux_servers = False
+number = 130312-01315
+difficulty = 1
+ : Failed Expected:&lt;TicketDetails object&gt; 
+hasLinuxServers = False
+number = 130312-01315
+assignee = None
+accountServiceLevel = Intensive
+updatedAt = 2013-03-12T08:59:23.000+0000
+statusTypes = [u'Awake', u'New', u'Alive']
+createdAt = 2013-03-12T08:59:21.000+0000
+subject = Problem allocating IP Block in Autonomous System: Rackspace UK
+category = IP QC fail
+priority = Normal
+subCategory = IP QC fail
+hasWindowsServers = False
+status = New
+difficulty = 1
+link = {u'href': u'http://test.search.api.rackspace.com/tickets/130312-01315', u'rel': u'via'}
+sourceSystem = CORE
+accountTeamTerritoryCode = US
+severityName = Standard
+account = &lt;AccountServices object&gt; 
+status = Active
+name = Autohost-test11
+number = 607647
+highProfile = False
+rcn = RCN-000-048-321
+team = Team B M2
+updatedAt = 2013-07-02T21:41:29.460+0000
+type = MANAGED_HOSTING
+
+lastPublicCommentDate = None
+queue = &lt;Queue object&gt; 
+name = Foundations Network Services
+id = 471
+
+updateEventDate = 2013-03-12T08:59:21.000+0000
+ Actual:&lt;Core object&gt; 
+severity.name = Standard
+status.name = New
+account.service_level_name = Intensive
+subcategory.name = IP QC fail
+subject = Problem allocating IP Block in Autonomous System: Rackspace UK
+account.support_team.support_territory.code = EMEA
+queue.name = Foundations Network Services
+status.types.name = [u'Awake', u'New', u'Alive']
+account.number = 607647
+category.name = IP QC fail
+assignee.employee_userid = None
+queue.id = 471
+has_linux_servers = False
+has_windows_servers = False
+assignee.name = None
+number = 130312-01315
+difficulty = 1
+last_public_response_date = None
+priority.name = Normal
+created = 2013-03-12 03:59:21
+modified = 2013-03-12 03:59:23
+
+</failure></testcase><testcase classname="TestListTickets" name="test_list_tickets_by_date_range_in_query_params_with_eql_op" result="FAILED"><failure message="The length of two lists does not match. 1 != 2" type="AssertionError">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_list_tickets.py", line 302, in test_list_tickets_by_date_range_in_query_params_with_eql_op
+    len(results.tickets)))
+AssertionError: False is not True : The length of two lists does not match. 1 != 2
+</failure></testcase><testcase classname="TestListTickets" name="test_list_tickets_by_multiple_values_for_equal_operator" result="FAILED"><failure message="The length of two lists does not match. 4 != 5" type="AssertionError">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_list_tickets.py", line 80, in test_list_tickets_by_multiple_values_for_equal_operator
+    len(results.tickets)))
+AssertionError: False is not True : The length of two lists does not match. 4 != 5
+</failure></testcase><testcase classname="TestListTickets" name="test_list_tickets_by_single_value_for_equal_operator" result="FAILED"><failure message="130312-013150" type="AssertionError">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_list_tickets.py", line 54, in test_list_tickets_by_single_value_for_equal_operator
+    format(results.tickets[i].number) + str(i))
+AssertionError: &lt;TicketDetails object&gt; 
+hasLinuxServers = False
+number = 130312-01315
+assignee = None
+accountServiceLevel = Intensive
+updatedAt = 2013-03-12T08:59:23.000+0000
+statusTypes = [u'Alive', u'Awake', u'New']
+createdAt = 2013-03-12T08:59:21.000+0000
+subject = Problem allocating IP Block in Autonomous System: Rackspace UK
+category = IP QC fail
+priority = Normal
+subCategory = IP QC fail
+hasWindowsServers = False
+status = New
+difficulty = 1
+link = {u'href': u'http://test.search.api.rackspace.com/tickets/130312-01315', u'rel': u'via'}
+sourceSystem = CORE
+accountTeamTerritoryCode = US
+severityName = Standard
+account = &lt;AccountServices object&gt; 
+status = Active
+name = Autohost-test11
+number = 607647
+highProfile = False
+rcn = RCN-000-048-321
+team = Team B M2
+updatedAt = 2013-07-02T21:41:29.460+0000
+type = MANAGED_HOSTING
+
+lastPublicCommentDate = None
+queue = &lt;Queue object&gt; 
+name = Foundations Network Services
+id = 471
+
+updateEventDate = 2013-03-12T08:59:21.000+0000
+ != &lt;Core object&gt; 
+subject = Problem allocating IP Block in Autonomous System: Rackspace UK
+has_linux_servers = False
+number = 130312-01315
+difficulty = 1
+ : The data does not match for Ticket: 130312-013150
+</failure></testcase><testcase classname="TestListTickets" name="test_list_tickets_eql_and_not_eql_op_single_val_in_query_params" result="FAILED"><failure message="The length of two lists does not match. 3 != 100" type="AssertionError">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_list_tickets.py", line 229, in test_list_tickets_eql_and_not_eql_op_single_val_in_query_params
+    len(results.tickets)))
+AssertionError: False is not True : The length of two lists does not match. 3 != 100
+</failure></testcase><testcase classname="TestListTickets" name="test_list_tickets_eql_and_noteql_op_multiple_vals_in_query_parms" result="FAILED"><failure message="The length of two lists does not match. 3 != 12" type="AssertionError">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_list_tickets.py", line 271, in test_list_tickets_eql_and_noteql_op_multiple_vals_in_query_parms
+    len(results.tickets)))
+AssertionError: False is not True : The length of two lists does not match. 3 != 12
+</failure></testcase><testcase classname="TestListTickets" name="test_list_tickets_query_params_with_multiple_vals_and_not_eql_op" result="FAILED"><failure message="The length of two lists does not match. 1 != 4" type="AssertionError">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_list_tickets.py", line 193, in test_list_tickets_query_params_with_multiple_vals_and_not_eql_op
+    len(results.tickets)))
+AssertionError: False is not True : The length of two lists does not match. 1 != 4
+</failure></testcase><testcase classname="TestListTickets" name="test_list_tickets_query_params_with_single_value_and_not_eql_op" result="FAILED"><failure message="The length of two lists does not match. 3 != 12" type="AssertionError">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_list_tickets.py", line 153, in test_list_tickets_query_params_with_single_value_and_not_eql_op
+    len(results.tickets)))
+AssertionError: False is not True : The length of two lists does not match. 3 != 12
+</failure></testcase></testsuite>

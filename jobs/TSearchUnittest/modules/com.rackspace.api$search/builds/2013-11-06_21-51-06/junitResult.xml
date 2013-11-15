@@ -1,0 +1,1510 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result>
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.elasticsearch.SyncJobTest.xml</file>
+      <name>com.rackspace.search.elasticsearch.SyncJobTest</name>
+      <duration>0.0</duration>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.elasticsearch.SyncJobTest</className>
+          <testName>verifying health status for Ongoing sync job</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.elasticsearch.SyncJobTest</className>
+          <testName>verifying health status for Onetime sync job</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.elasticsearch.SyncJobTest</className>
+          <testName>verifying sync job type</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.elasticsearch.client.ElasticSearchClientFactoryBeanTest.xml</file>
+      <name>com.rackspace.search.elasticsearch.client.ElasticSearchClientFactoryBeanTest</name>
+      <duration>14.068</duration>
+      <cases>
+        <case>
+          <duration>14.011</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientFactoryBeanTest</className>
+          <testName>is Index exist</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.057</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientFactoryBeanTest</className>
+          <testName>validate Index Settings</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.elasticsearch.client.QueryParserTest.xml</file>
+      <name>com.rackspace.search.elasticsearch.client.QueryParserTest</name>
+      <duration>0.151</duration>
+      <cases>
+        <case>
+          <duration>0.151</duration>
+          <className>com.rackspace.search.elasticsearch.client.QueryParserTest</className>
+          <testName>should test query parser --- url query params are handled</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.elasticsearch.client.QueryParserTest</className>
+          <testName>should test query parser --- one single filter</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.elasticsearch.client.QueryParserTest</className>
+          <testName>should test query parser --- not filter</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.elasticsearch.client.QueryParserTest</className>
+          <testName>should test query parser --- range filter</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.elasticsearch.client.QueryParserTest</className>
+          <testName>should test query parser --- and filter</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.elasticsearch.client.QueryParserTest</className>
+          <testName>should test query parser --- or filter</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.elasticsearch.client.QueryParserTest</className>
+          <testName>should test query parser --- exists filter</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.elasticsearch.client.QueryParserTest</className>
+          <testName>should test query parser --- missing filter</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.endpoint.JobResourceTest.xml</file>
+      <name>com.rackspace.search.endpoint.JobResourceTest</name>
+      <duration>1.5379999</duration>
+      <cases>
+        <case>
+          <duration>1.438</duration>
+          <className>com.rackspace.search.endpoint.JobResourceTest</className>
+          <testName>Job should stop .. If the request Json has is_enabled = false</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.017</duration>
+          <className>com.rackspace.search.endpoint.JobResourceTest</className>
+          <testName>Job already running .. should throw exception</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.083</duration>
+          <className>com.rackspace.search.endpoint.JobResourceTest</className>
+          <testName>sync job not exists.. create new one</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.gateway.account.AccountGatewayTest.xml</file>
+      <name>com.rackspace.search.gateway.account.AccountGatewayTest</name>
+      <duration>0.09700001</duration>
+      <cases>
+        <case>
+          <duration>0.0050</duration>
+          <className>com.rackspace.search.gateway.account.AccountGatewayTest</className>
+          <testName>should get account data</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.079</duration>
+          <className>com.rackspace.search.gateway.account.AccountGatewayTest</className>
+          <testName>get accounts -- should throw exception</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0050</duration>
+          <className>com.rackspace.search.gateway.account.AccountGatewayTest</className>
+          <testName>should get account details </testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0080</duration>
+          <className>com.rackspace.search.gateway.account.AccountGatewayTest</className>
+          <testName>get account details -- should throw exception</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.gateway.core.CoreAuthGatewayTest.xml</file>
+      <name>com.rackspace.search.gateway.core.CoreAuthGatewayTest</name>
+      <duration>0.076000005</duration>
+      <cases>
+        <case>
+          <duration>0.075</duration>
+          <className>com.rackspace.search.gateway.core.CoreAuthGatewayTest</className>
+          <testName>should get authtoken</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0010</duration>
+          <className>com.rackspace.search.gateway.core.CoreAuthGatewayTest</className>
+          <testName>should not call core when authtoken is valid</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.gateway.core.CoreTicketGatewayTest.xml</file>
+      <name>com.rackspace.search.gateway.core.CoreTicketGatewayTest</name>
+      <duration>0.151</duration>
+      <cases>
+        <case>
+          <duration>0.059</duration>
+          <className>com.rackspace.search.gateway.core.CoreTicketGatewayTest</className>
+          <testName>should get tickets</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.081</duration>
+          <className>com.rackspace.search.gateway.core.CoreTicketGatewayTest</className>
+          <testName>should get tickets -- session key expired</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.011</duration>
+          <className>com.rackspace.search.gateway.core.CoreTicketGatewayTest</className>
+          <testName>get core tickets -- should throw exception</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.gateway.zendesk.ZendeskGatewayTest.xml</file>
+      <name>com.rackspace.search.gateway.zendesk.ZendeskGatewayTest</name>
+      <duration>0.029000001</duration>
+      <cases>
+        <case>
+          <duration>0.026</duration>
+          <className>com.rackspace.search.gateway.zendesk.ZendeskGatewayTest</className>
+          <testName>should get query string -- without date</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0030</duration>
+          <className>com.rackspace.search.gateway.zendesk.ZendeskGatewayTest</className>
+          <testName>should get query string -- with date</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.AccountCacheServiceTest.xml</file>
+      <name>com.rackspace.search.service.AccountCacheServiceTest</name>
+      <duration>0.056</duration>
+      <cases>
+        <case>
+          <duration>0.041</duration>
+          <className>com.rackspace.search.service.AccountCacheServiceTest</className>
+          <testName>freshenCache: should check isLatest</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.015</duration>
+          <className>com.rackspace.search.service.AccountCacheServiceTest</className>
+          <testName>test cleanCache </testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.CoreAccountServiceTest.xml</file>
+      <name>com.rackspace.search.service.CoreAccountServiceTest</name>
+      <duration>0.055999998</duration>
+      <cases>
+        <case>
+          <duration>0.053</duration>
+          <className>com.rackspace.search.service.CoreAccountServiceTest</className>
+          <testName>should get core account details</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0030</duration>
+          <className>com.rackspace.search.service.CoreAccountServiceTest</className>
+          <testName>should return null If job is not exist</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.SyncRequestServiceTest.xml</file>
+      <name>com.rackspace.search.service.SyncRequestServiceTest</name>
+      <duration>0.088</duration>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.SyncRequestServiceTest</className>
+          <testName>should get sync request</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.SyncRequestServiceTest</className>
+          <testName>should get sync request\u002C no sync request exists</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.021</duration>
+          <className>com.rackspace.search.service.SyncRequestServiceTest</className>
+          <testName>update sync request to scheduled</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.SyncRequestServiceTest</className>
+          <testName>update sync request to processed</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.SyncRequestServiceTest</className>
+          <testName>update sync request to error</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.067</duration>
+          <className>com.rackspace.search.service.SyncRequestServiceTest</className>
+          <testName>validateDocumentIds for account Type</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.SyncRequestServiceTest</className>
+          <testName>validateDocumentIds for core ticket Type</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.SyncRequestServiceTest</className>
+          <testName>validateDocumentIds for zendesk ticket Type</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.TicketCacheServiceTest.xml</file>
+      <name>com.rackspace.search.service.TicketCacheServiceTest</name>
+      <duration>0.038</duration>
+      <cases>
+        <case>
+          <duration>0.0090</duration>
+          <className>com.rackspace.search.service.TicketCacheServiceTest</className>
+          <testName>freshenCache: should check isLatest</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0090</duration>
+          <className>com.rackspace.search.service.TicketCacheServiceTest</className>
+          <testName>test cleanCache </testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.017</duration>
+          <className>com.rackspace.search.service.TicketCacheServiceTest</className>
+          <testName>isLatest should consider milliseconds</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0030</duration>
+          <className>com.rackspace.search.service.TicketCacheServiceTest</className>
+          <testName>freshenCache should consider milliseconds</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.account.AccountOnetimeSyncActorTest.xml</file>
+      <name>com.rackspace.search.service.account.AccountOnetimeSyncActorTest</name>
+      <duration>0.014</duration>
+      <cases>
+        <case>
+          <duration>0.0090</duration>
+          <className>com.rackspace.search.service.account.AccountOnetimeSyncActorTest</className>
+          <testName>should post data to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0020</duration>
+          <className>com.rackspace.search.service.account.AccountOnetimeSyncActorTest</className>
+          <testName>multiple messages to actor result in posting multiple payloads to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0030</duration>
+          <className>com.rackspace.search.service.account.AccountOnetimeSyncActorTest</className>
+          <testName>should test when completed message is sent</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.account.AccountOnetimeSyncJobTest.xml</file>
+      <name>com.rackspace.search.service.account.AccountOnetimeSyncJobTest</name>
+      <duration>0.0060</duration>
+      <cases>
+        <case>
+          <duration>0.0060</duration>
+          <className>com.rackspace.search.service.account.AccountOnetimeSyncJobTest</className>
+          <testName>should test starting job</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.account.AccountOngoingSyncActorTest.xml</file>
+      <name>com.rackspace.search.service.account.AccountOngoingSyncActorTest</name>
+      <duration>0.020000001</duration>
+      <cases>
+        <case>
+          <duration>0.013</duration>
+          <className>com.rackspace.search.service.account.AccountOngoingSyncActorTest</className>
+          <testName>should post data to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0040</duration>
+          <className>com.rackspace.search.service.account.AccountOngoingSyncActorTest</className>
+          <testName>multiple messages to actor result in posting multiple payloads to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0030</duration>
+          <className>com.rackspace.search.service.account.AccountOngoingSyncActorTest</className>
+          <testName>should post data to searchClient If syncJob status is not STOPPED</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.account.AccountOngoingSyncJobTest.xml</file>
+      <name>com.rackspace.search.service.account.AccountOngoingSyncJobTest</name>
+      <duration>0.319</duration>
+      <cases>
+        <case>
+          <duration>0.319</duration>
+          <className>com.rackspace.search.service.account.AccountOngoingSyncJobTest</className>
+          <testName>should test starting job</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.account.AccountOngoingSyncJobTest</className>
+          <testName>should test sync accounts</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.account.AccountOngoingSyncJobTest</className>
+          <testName>ongoing sync should not go beyond threshold days into past</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.account.AccountOngoingSyncJobTest</className>
+          <testName>ongoing sync should move forward with new Synctime when within threshold even if it is in the past</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.account.AccountOngoingSyncJobTest</className>
+          <testName>should filter data if cache is enabled</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.account.AccountOngoingSyncJobTest</className>
+          <testName>should not filter the data is cache is disabled</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.account.AccountOngoingSyncJobTest</className>
+          <testName>should test is account changed</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.account.CoreAccountProcessorTest.xml</file>
+      <name>com.rackspace.search.service.account.CoreAccountProcessorTest</name>
+      <duration>0.0060</duration>
+      <cases>
+        <case>
+          <duration>0.0060</duration>
+          <className>com.rackspace.search.service.account.CoreAccountProcessorTest</className>
+          <testName>make sure date in millis is converted to UTC time zone</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.account.CoreAccountUpdateSyncJobTest.xml</file>
+      <name>com.rackspace.search.service.account.CoreAccountUpdateSyncJobTest</name>
+      <duration>0.118</duration>
+      <cases>
+        <case>
+          <duration>0.115</duration>
+          <className>com.rackspace.search.service.account.CoreAccountUpdateSyncJobTest</className>
+          <testName>testing: is Fields Changed</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0030</duration>
+          <className>com.rackspace.search.service.account.CoreAccountUpdateSyncJobTest</className>
+          <testName>testing: is Fields Changed -- no coreaccount in ES</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.admin.AccountOndemandSyncJobTest.xml</file>
+      <name>com.rackspace.search.service.admin.AccountOndemandSyncJobTest</name>
+      <duration>0.098000005</duration>
+      <cases>
+        <case>
+          <duration>0.057</duration>
+          <className>com.rackspace.search.service.admin.AccountOndemandSyncJobTest</className>
+          <testName>should test starting job</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.041</duration>
+          <className>com.rackspace.search.service.admin.AccountOndemandSyncJobTest</className>
+          <testName>should test sync Accounts job</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.admin.ZendeskTicketOndemandSyncJobTest.xml</file>
+      <name>com.rackspace.search.service.admin.ZendeskTicketOndemandSyncJobTest</name>
+      <duration>0.011</duration>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.admin.ZendeskTicketOndemandSyncJobTest</className>
+          <testName>should test starting job</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.011</duration>
+          <className>com.rackspace.search.service.admin.ZendeskTicketOndemandSyncJobTest</className>
+          <testName>should test sync Tickets job</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.core.CoreTicketOnetimeSyncActorTest.xml</file>
+      <name>com.rackspace.search.service.core.CoreTicketOnetimeSyncActorTest</name>
+      <duration>0.0010</duration>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.core.CoreTicketOnetimeSyncActorTest</className>
+          <testName>should post data to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.core.CoreTicketOnetimeSyncActorTest</className>
+          <testName>multiple messages to actor result in posting multiple payloads to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0010</duration>
+          <className>com.rackspace.search.service.core.CoreTicketOnetimeSyncActorTest</className>
+          <testName>should test when completed message is sent</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.core.CoreTicketOnetimeSyncJobTest.xml</file>
+      <name>com.rackspace.search.service.core.CoreTicketOnetimeSyncJobTest</name>
+      <duration>0.205</duration>
+      <cases>
+        <case>
+          <duration>0.205</duration>
+          <className>com.rackspace.search.service.core.CoreTicketOnetimeSyncJobTest</className>
+          <testName>should test starting job</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.core.CoreTicketOngoingSyncActorTest.xml</file>
+      <name>com.rackspace.search.service.core.CoreTicketOngoingSyncActorTest</name>
+      <duration>0.0</duration>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.core.CoreTicketOngoingSyncActorTest</className>
+          <testName>should post data to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.core.CoreTicketOngoingSyncActorTest</className>
+          <testName>multiple messages to actor result in posting multiple payloads to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.core.CoreTicketOngoingSyncActorTest</className>
+          <testName>should post data to searchClient If syncJob status is not STOPPED</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.core.CoreTicketOngoingSyncJobTest.xml</file>
+      <name>com.rackspace.search.service.core.CoreTicketOngoingSyncJobTest</name>
+      <duration>0.34399998</duration>
+      <cases>
+        <case>
+          <duration>0.28</duration>
+          <className>com.rackspace.search.service.core.CoreTicketOngoingSyncJobTest</className>
+          <testName>should test starting job</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.059</duration>
+          <className>com.rackspace.search.service.core.CoreTicketOngoingSyncJobTest</className>
+          <testName>should filter data if cache is enabled</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0050</duration>
+          <className>com.rackspace.search.service.core.CoreTicketOngoingSyncJobTest</className>
+          <testName>should not filter the data is cache is disabled</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.core.CoreTicketProcessorTest.xml</file>
+      <name>com.rackspace.search.service.core.CoreTicketProcessorTest</name>
+      <duration>0.876</duration>
+      <cases>
+        <case>
+          <duration>0.876</duration>
+          <className>com.rackspace.search.service.core.CoreTicketProcessorTest</className>
+          <testName>make sure date in millis is converted to UTC time zone</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.core.CoreTicketSecondpassSyncJobTest.xml</file>
+      <name>com.rackspace.search.service.core.CoreTicketSecondpassSyncJobTest</name>
+      <duration>0.62</duration>
+      <cases>
+        <case>
+          <duration>0.266</duration>
+          <className>com.rackspace.search.service.core.CoreTicketSecondpassSyncJobTest</className>
+          <testName>should test starting job</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0060</duration>
+          <className>com.rackspace.search.service.core.CoreTicketSecondpassSyncJobTest</className>
+          <testName>scondpass Sync job shouldn\&apos;t run when ongoing sync job is not running</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0070</duration>
+          <className>com.rackspace.search.service.core.CoreTicketSecondpassSyncJobTest</className>
+          <testName>should iterate when there are more than one page of records</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.316</duration>
+          <className>com.rackspace.search.service.core.CoreTicketSecondpassSyncJobTest</className>
+          <testName>shouldn\&apos;t pass already synced records to actor</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0060</duration>
+          <className>com.rackspace.search.service.core.CoreTicketSecondpassSyncJobTest</className>
+          <testName>should create syncRequest when there are tickets to sync</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.019</duration>
+          <className>com.rackspace.search.service.core.CoreTicketSecondpassSyncJobTest</className>
+          <testName>shouldn\&apos;t create syncRequest when no tickets to sync</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActorTest.xml</file>
+      <name>com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActorTest</name>
+      <duration>0.132</duration>
+      <cases>
+        <case>
+          <duration>0.108</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActorTest</className>
+          <testName>should post data to searchClient</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>Too few invocations for:
+
+1 * mockSearchClient.postBulkData(mockProcessedData, groupOnetimeSyncActor.indexName, groupOnetimeSyncActor.documentType, groupOnetimeSyncActor.idName, null)   (0 invocations)
+
+Unmatched invocations (ordered by similarity):
+
+1 * mockSearchClient.postBulkData(null, &apos;zendesk&apos;, &apos;group&apos;, null, null)
+1 * mockSearchResultProcessor.processRawGroupResult([])
+1 * mockLogger.error(&apos;Got exception while posting data from actor. Exception. Cannot invoke method size() on null object \n[org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112), com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActor.handleMessage(ZendeskGroupOnetimeSyncActor.groovy:61), com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActor.this$7$handleMessage(ZendeskGroupOnetimeSyncActor.groovy), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141), com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActor$_act_closure1_closure2.doCall(ZendeskGroupOnetimeSyncActor.groovy:50), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), groovy.lang.Closure.call(Closure.java:411), groovy.lang.Closure.call(Closure.java:427), groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92), groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38), groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291), groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30), groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93), groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132), java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908), java.lang.Thread.run(Thread.java:662)]&apos;)
+1 * mockLogger.debug(&apos;Posting zendesk groups to Elastic Search&apos;)
+
+Too few invocations for:
+
+1 * mockJobService.reportJobProgress(SyncJob.SyncJobDetail.ZendeskGroupOnetimeSyncJob, _, _)   (0 invocations)
+
+Unmatched invocations (ordered by similarity):
+
+1 * mockSearchClient.postBulkData(null, &apos;zendesk&apos;, &apos;group&apos;, null, null)
+1 * mockSearchResultProcessor.processRawGroupResult([])
+1 * mockLogger.error(&apos;Got exception while posting data from actor. Exception. Cannot invoke method size() on null object \n[org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112), com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActor.handleMessage(ZendeskGroupOnetimeSyncActor.groovy:61), com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActor.this$7$handleMessage(ZendeskGroupOnetimeSyncActor.groovy), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141), com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActor$_act_closure1_closure2.doCall(ZendeskGroupOnetimeSyncActor.groovy:50), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), groovy.lang.Closure.call(Closure.java:411), groovy.lang.Closure.call(Closure.java:427), groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92), groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38), groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291), groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30), groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93), groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132), java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908), java.lang.Thread.run(Thread.java:662)]&apos;)
+1 * mockLogger.debug(&apos;Posting zendesk groups to Elastic Search&apos;)
+
+
+	at org.spockframework.mock.runtime.InteractionScope.verifyInteractions(InteractionScope.java:78)
+	at org.spockframework.mock.runtime.MockController.leaveScope(MockController.java:76)
+	at com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActorTest.should post data to searchClient(ZendeskGroupOnetimeSyncActorTest.groovy:44)
+</errorStackTrace>
+          <errorDetails>Too few invocations for:  1 * mockSearchClient.postBulkData(mockProcessedData, groupOnetimeSyncActor.indexName, groupOnetimeSyncActor.documentType, groupOnetimeSyncActor.idName, null)   (0 invocations)  Unmatched invocations (ordered by similarity):  1 * mockSearchClient.postBulkData(null, &apos;zendesk&apos;, &apos;group&apos;, null, null) 1 * mockSearchResultProcessor.processRawGroupResult([]) 1 * mockLogger.error(&apos;Got exception while posting data from actor. Exception. Cannot invoke method size() on null object \n[org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112), com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActor.handleMessage(ZendeskGroupOnetimeSyncActor.groovy:61), com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActor.this$7$handleMessage(ZendeskGroupOnetimeSyncActor.groovy), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141), com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActor$_act_closure1_closure2.doCall(ZendeskGroupOnetimeSyncActor.groovy:50), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), groovy.lang.Closure.call(Closure.java:411), groovy.lang.Closure.call(Closure.java:427), groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92), groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38), groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291), groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30), groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93), groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132), java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908), java.lang.Thread.run(Thread.java:662)]&apos;) 1 * mockLogger.debug(&apos;Posting zendesk groups to Elastic Search&apos;)  Too few invocations for:  1 * mockJobService.reportJobProgress(SyncJob.SyncJobDetail.ZendeskGroupOnetimeSyncJob, _, _)   (0 invocations)  Unmatched invocations (ordered by similarity):  1 * mockSearchClient.postBulkData(null, &apos;zendesk&apos;, &apos;group&apos;, null, null) 1 * mockSearchResultProcessor.processRawGroupResult([]) 1 * mockLogger.error(&apos;Got exception while posting data from actor. Exception. Cannot invoke method size() on null object \n[org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112), com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActor.handleMessage(ZendeskGroupOnetimeSyncActor.groovy:61), com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActor.this$7$handleMessage(ZendeskGroupOnetimeSyncActor.groovy), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141), com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActor$_act_closure1_closure2.doCall(ZendeskGroupOnetimeSyncActor.groovy:50), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), groovy.lang.Closure.call(Closure.java:411), groovy.lang.Closure.call(Closure.java:427), groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92), groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38), groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291), groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30), groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93), groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132), java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908), java.lang.Thread.run(Thread.java:662)]&apos;) 1 * mockLogger.debug(&apos;Posting zendesk groups to Elastic Search&apos;)  </errorDetails>
+          <stderr>An exception occurred in the Actor thread Actor Thread 2
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112)
+	at com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActor.handleMessage(ZendeskGroupOnetimeSyncActor.groovy:61)
+	at com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActor.this$7$handleMessage(ZendeskGroupOnetimeSyncActor.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActor$_act_closure1_closure2.doCall(ZendeskGroupOnetimeSyncActor.groovy:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at groovy.lang.Closure.call(Closure.java:427)
+	at groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92)
+	at groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38)
+	at groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291)
+	at groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30)
+	at groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93)
+	at groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</stderr>
+          <failedSince>59</failedSince>
+        </case>
+        <case>
+          <duration>0.02</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActorTest</className>
+          <testName>multiple messages to actor result in posting multiple payloads to searchClient</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.IllegalStateException: The actor cannot accept messages at this point.
+	at groovyx.gpars.actor.Actor.createActorMessage(Actor.java:269)
+	at groovyx.gpars.actor.AbstractLoopingActor.send(AbstractLoopingActor.java:237)
+	at com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActorTest.multiple messages to actor result in posting multiple payloads to searchClient(ZendeskGroupOnetimeSyncActorTest.groovy:63)
+</errorStackTrace>
+          <errorDetails>The actor cannot accept messages at this point.</errorDetails>
+          <stderr>An exception occurred in the Actor thread Actor Thread 2
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112)
+	at com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActor.handleMessage(ZendeskGroupOnetimeSyncActor.groovy:61)
+	at com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActor.this$7$handleMessage(ZendeskGroupOnetimeSyncActor.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActor$_act_closure1_closure2.doCall(ZendeskGroupOnetimeSyncActor.groovy:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at groovy.lang.Closure.call(Closure.java:427)
+	at groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92)
+	at groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38)
+	at groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291)
+	at groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30)
+	at groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93)
+	at groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</stderr>
+          <failedSince>59</failedSince>
+        </case>
+        <case>
+          <duration>0.0040</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActorTest</className>
+          <testName>should test when completed message is sent</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncJobTest.xml</file>
+      <name>com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncJobTest</name>
+      <duration>0.398</duration>
+      <cases>
+        <case>
+          <duration>0.262</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncJobTest</className>
+          <testName>should test starting job</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.132</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncJobTest</className>
+          <testName>should test sync groups</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0040</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncJobTest</className>
+          <testName>should test sync groups -- stopping the sync</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActorTest.xml</file>
+      <name>com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActorTest</name>
+      <duration>0.066</duration>
+      <cases>
+        <case>
+          <duration>0.026</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActorTest</className>
+          <testName>should post data to searchClient</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>Too few invocations for:
+
+1 * mockSearchClient.postBulkData(mockProcessedData, groupOngoingSyncActor.indexName, groupOngoingSyncActor.documentType, groupOngoingSyncActor.idName, null)   (0 invocations)
+
+Unmatched invocations (ordered by similarity):
+
+1 * mockSearchClient.postBulkData(null, &apos;zendesk&apos;, &apos;group&apos;, null, null)
+1 * mockLogger.debug(&apos;Posting zendesk groups to Elastic Search&apos;)
+1 * mockLogger.error(&apos;Got exception while posting data from actor. Exception. Cannot invoke method size() on null object \n[org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor.handleMessage(ZendeskGroupOngoingSyncActor.groovy:89), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor.this$7$handleMessage(ZendeskGroupOngoingSyncActor.groovy), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor$_act_closure1_closure3.doCall(ZendeskGroupOngoingSyncActor.groovy:67), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), groovy.lang.Closure.call(Closure.java:411), groovy.lang.Closure.call(Closure.java:427), groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92), groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38), groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291), groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30), groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93), groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132), java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908), java.lang.Thread.run(Thread.java:662)]&apos;)
+1 * mockSearchResultProcessor.processRawGroupResult([[&apos;id&apos;:1, &apos;name&apos;:&apos;testing&apos;, &apos;updated_at&apos;:&apos;2013-01-01T00:00:00.000Z&apos;], [&apos;id&apos;:2, &apos;name&apos;:&apos;testing&apos;, &apos;updated_at&apos;:&apos;2012-01-01T00:00:00.000Z&apos;]])
+
+Too few invocations for:
+
+1 * mockJobService.reportJobProgress(SyncJob.SyncJobDetail.ZendeskGroupOngoingSyncJob, resultEventDate, _)   (0 invocations)
+
+Unmatched invocations (ordered by similarity):
+
+1 * mockSearchClient.postBulkData(null, &apos;zendesk&apos;, &apos;group&apos;, null, null)
+1 * mockLogger.debug(&apos;Posting zendesk groups to Elastic Search&apos;)
+1 * mockLogger.error(&apos;Got exception while posting data from actor. Exception. Cannot invoke method size() on null object \n[org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor.handleMessage(ZendeskGroupOngoingSyncActor.groovy:89), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor.this$7$handleMessage(ZendeskGroupOngoingSyncActor.groovy), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor$_act_closure1_closure3.doCall(ZendeskGroupOngoingSyncActor.groovy:67), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), groovy.lang.Closure.call(Closure.java:411), groovy.lang.Closure.call(Closure.java:427), groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92), groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38), groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291), groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30), groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93), groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132), java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908), java.lang.Thread.run(Thread.java:662)]&apos;)
+1 * mockSearchResultProcessor.processRawGroupResult([[&apos;id&apos;:1, &apos;name&apos;:&apos;testing&apos;, &apos;updated_at&apos;:&apos;2013-01-01T00:00:00.000Z&apos;], [&apos;id&apos;:2, &apos;name&apos;:&apos;testing&apos;, &apos;updated_at&apos;:&apos;2012-01-01T00:00:00.000Z&apos;]])
+
+
+	at org.spockframework.mock.runtime.InteractionScope.verifyInteractions(InteractionScope.java:78)
+	at org.spockframework.mock.runtime.MockController.leaveScope(MockController.java:76)
+	at com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActorTest.should post data to searchClient(ZendeskGroupOngoingSyncActorTest.groovy:62)
+</errorStackTrace>
+          <errorDetails>Too few invocations for:  1 * mockSearchClient.postBulkData(mockProcessedData, groupOngoingSyncActor.indexName, groupOngoingSyncActor.documentType, groupOngoingSyncActor.idName, null)   (0 invocations)  Unmatched invocations (ordered by similarity):  1 * mockSearchClient.postBulkData(null, &apos;zendesk&apos;, &apos;group&apos;, null, null) 1 * mockLogger.debug(&apos;Posting zendesk groups to Elastic Search&apos;) 1 * mockLogger.error(&apos;Got exception while posting data from actor. Exception. Cannot invoke method size() on null object \n[org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor.handleMessage(ZendeskGroupOngoingSyncActor.groovy:89), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor.this$7$handleMessage(ZendeskGroupOngoingSyncActor.groovy), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor$_act_closure1_closure3.doCall(ZendeskGroupOngoingSyncActor.groovy:67), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), groovy.lang.Closure.call(Closure.java:411), groovy.lang.Closure.call(Closure.java:427), groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92), groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38), groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291), groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30), groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93), groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132), java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908), java.lang.Thread.run(Thread.java:662)]&apos;) 1 * mockSearchResultProcessor.processRawGroupResult([[&apos;id&apos;:1, &apos;name&apos;:&apos;testing&apos;, &apos;updated_at&apos;:&apos;2013-01-01T00:00:00.000Z&apos;], [&apos;id&apos;:2, &apos;name&apos;:&apos;testing&apos;, &apos;updated_at&apos;:&apos;2012-01-01T00:00:00.000Z&apos;]])  Too few invocations for:  1 * mockJobService.reportJobProgress(SyncJob.SyncJobDetail.ZendeskGroupOngoingSyncJob, resultEventDate, _)   (0 invocations)  Unmatched invocations (ordered by similarity):  1 * mockSearchClient.postBulkData(null, &apos;zendesk&apos;, &apos;group&apos;, null, null) 1 * mockLogger.debug(&apos;Posting zendesk groups to Elastic Search&apos;) 1 * mockLogger.error(&apos;Got exception while posting data from actor. Exception. Cannot invoke method size() on null object \n[org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor.handleMessage(ZendeskGroupOngoingSyncActor.groovy:89), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor.this$7$handleMessage(ZendeskGroupOngoingSyncActor.groovy), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor$_act_closure1_closure3.doCall(ZendeskGroupOngoingSyncActor.groovy:67), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), groovy.lang.Closure.call(Closure.java:411), groovy.lang.Closure.call(Closure.java:427), groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92), groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38), groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291), groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30), groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93), groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132), java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908), java.lang.Thread.run(Thread.java:662)]&apos;) 1 * mockSearchResultProcessor.processRawGroupResult([[&apos;id&apos;:1, &apos;name&apos;:&apos;testing&apos;, &apos;updated_at&apos;:&apos;2013-01-01T00:00:00.000Z&apos;], [&apos;id&apos;:2, &apos;name&apos;:&apos;testing&apos;, &apos;updated_at&apos;:&apos;2012-01-01T00:00:00.000Z&apos;]])  </errorDetails>
+          <stderr>An exception occurred in the Actor thread Actor Thread 2
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112)
+	at com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor.handleMessage(ZendeskGroupOngoingSyncActor.groovy:89)
+	at com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor.this$7$handleMessage(ZendeskGroupOngoingSyncActor.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor$_act_closure1_closure3.doCall(ZendeskGroupOngoingSyncActor.groovy:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at groovy.lang.Closure.call(Closure.java:427)
+	at groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92)
+	at groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38)
+	at groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291)
+	at groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30)
+	at groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93)
+	at groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</stderr>
+          <failedSince>59</failedSince>
+        </case>
+        <case>
+          <duration>0.04</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActorTest</className>
+          <testName>multiple messages to actor result in posting multiple payloads to searchClient</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>Too few invocations for:
+
+3 * mockSearchClient.postBulkData(mockProcessedData, groupOngoingSyncActor.indexName, groupOngoingSyncActor.documentType, groupOngoingSyncActor.idName, null)   (0 invocations)
+
+Unmatched invocations (ordered by similarity):
+
+1 * mockSearchClient.postBulkData(null, &apos;zendesk&apos;, &apos;group&apos;, null, null)
+1 * mockLogger.error(&apos;Got exception while posting data from actor. Exception. Cannot invoke method size() on null object \n[org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor.handleMessage(ZendeskGroupOngoingSyncActor.groovy:89), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor.this$7$handleMessage(ZendeskGroupOngoingSyncActor.groovy), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor$_act_closure1_closure3.doCall(ZendeskGroupOngoingSyncActor.groovy:67), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), groovy.lang.Closure.call(Closure.java:411), groovy.lang.Closure.call(Closure.java:427), groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92), groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38), groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291), groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30), groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93), groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132), java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908), java.lang.Thread.run(Thread.java:662)]&apos;)
+1 * mockSearchResultProcessor.processRawGroupResult([])
+1 * mockLogger.debug(&apos;Posting zendesk groups to Elastic Search&apos;)
+
+Too few invocations for:
+
+3 * mockJobService.reportJobProgress(SyncJob.SyncJobDetail.ZendeskGroupOngoingSyncJob, _, _)   (0 invocations)
+
+Unmatched invocations (ordered by similarity):
+
+1 * mockLogger.error(&apos;Got exception while posting data from actor. Exception. Cannot invoke method size() on null object \n[org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor.handleMessage(ZendeskGroupOngoingSyncActor.groovy:89), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor.this$7$handleMessage(ZendeskGroupOngoingSyncActor.groovy), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor$_act_closure1_closure3.doCall(ZendeskGroupOngoingSyncActor.groovy:67), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), groovy.lang.Closure.call(Closure.java:411), groovy.lang.Closure.call(Closure.java:427), groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92), groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38), groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291), groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30), groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93), groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132), java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908), java.lang.Thread.run(Thread.java:662)]&apos;)
+1 * mockSearchClient.postBulkData(null, &apos;zendesk&apos;, &apos;group&apos;, null, null)
+1 * mockSearchResultProcessor.processRawGroupResult([])
+1 * mockLogger.debug(&apos;Posting zendesk groups to Elastic Search&apos;)
+
+
+	at org.spockframework.mock.runtime.InteractionScope.verifyInteractions(InteractionScope.java:78)
+	at org.spockframework.mock.runtime.MockController.leaveScope(MockController.java:76)
+	at com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActorTest.multiple messages to actor result in posting multiple payloads to searchClient(ZendeskGroupOngoingSyncActorTest.groovy:86)
+</errorStackTrace>
+          <errorDetails>Too few invocations for:  3 * mockSearchClient.postBulkData(mockProcessedData, groupOngoingSyncActor.indexName, groupOngoingSyncActor.documentType, groupOngoingSyncActor.idName, null)   (0 invocations)  Unmatched invocations (ordered by similarity):  1 * mockSearchClient.postBulkData(null, &apos;zendesk&apos;, &apos;group&apos;, null, null) 1 * mockLogger.error(&apos;Got exception while posting data from actor. Exception. Cannot invoke method size() on null object \n[org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor.handleMessage(ZendeskGroupOngoingSyncActor.groovy:89), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor.this$7$handleMessage(ZendeskGroupOngoingSyncActor.groovy), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor$_act_closure1_closure3.doCall(ZendeskGroupOngoingSyncActor.groovy:67), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), groovy.lang.Closure.call(Closure.java:411), groovy.lang.Closure.call(Closure.java:427), groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92), groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38), groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291), groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30), groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93), groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132), java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908), java.lang.Thread.run(Thread.java:662)]&apos;) 1 * mockSearchResultProcessor.processRawGroupResult([]) 1 * mockLogger.debug(&apos;Posting zendesk groups to Elastic Search&apos;)  Too few invocations for:  3 * mockJobService.reportJobProgress(SyncJob.SyncJobDetail.ZendeskGroupOngoingSyncJob, _, _)   (0 invocations)  Unmatched invocations (ordered by similarity):  1 * mockLogger.error(&apos;Got exception while posting data from actor. Exception. Cannot invoke method size() on null object \n[org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor.handleMessage(ZendeskGroupOngoingSyncActor.groovy:89), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor.this$7$handleMessage(ZendeskGroupOngoingSyncActor.groovy), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141), com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor$_act_closure1_closure3.doCall(ZendeskGroupOngoingSyncActor.groovy:67), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), groovy.lang.Closure.call(Closure.java:411), groovy.lang.Closure.call(Closure.java:427), groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92), groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38), groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291), groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30), groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93), groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132), java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908), java.lang.Thread.run(Thread.java:662)]&apos;) 1 * mockSearchClient.postBulkData(null, &apos;zendesk&apos;, &apos;group&apos;, null, null) 1 * mockSearchResultProcessor.processRawGroupResult([]) 1 * mockLogger.debug(&apos;Posting zendesk groups to Elastic Search&apos;)  </errorDetails>
+          <stderr>An exception occurred in the Actor thread Actor Thread 3
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112)
+	at com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor.handleMessage(ZendeskGroupOngoingSyncActor.groovy:89)
+	at com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor.this$7$handleMessage(ZendeskGroupOngoingSyncActor.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActor$_act_closure1_closure3.doCall(ZendeskGroupOngoingSyncActor.groovy:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at groovy.lang.Closure.call(Closure.java:427)
+	at groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92)
+	at groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38)
+	at groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291)
+	at groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30)
+	at groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93)
+	at groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</stderr>
+          <failedSince>59</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncJobTest.xml</file>
+      <name>com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncJobTest</name>
+      <duration>0.071</duration>
+      <cases>
+        <case>
+          <duration>0.071</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncJobTest</className>
+          <testName>should test sync groups</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncJobTest</className>
+          <testName>should test sync groups -- stopping the sync</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.zendesk.ZendeskSearchResultProcessorTest.xml</file>
+      <name>com.rackspace.search.service.zendesk.ZendeskSearchResultProcessorTest</name>
+      <duration>0.0080</duration>
+      <cases>
+        <case>
+          <duration>0.0080</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskSearchResultProcessorTest</className>
+          <testName>make sure date in millis is converted to UTC time zone</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.zendesk.ZendeskTicketOnetimeSyncActorTest.xml</file>
+      <name>com.rackspace.search.service.zendesk.ZendeskTicketOnetimeSyncActorTest</name>
+      <duration>0.046000004</duration>
+      <cases>
+        <case>
+          <duration>0.032</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskTicketOnetimeSyncActorTest</className>
+          <testName>should post data to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0040</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskTicketOnetimeSyncActorTest</className>
+          <testName>multiple messages to actor result in posting multiple payloads to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.01</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskTicketOnetimeSyncActorTest</className>
+          <testName>should test when completed message is sent</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.zendesk.ZendeskTicketOnetimeSyncJobTest.xml</file>
+      <name>com.rackspace.search.service.zendesk.ZendeskTicketOnetimeSyncJobTest</name>
+      <duration>0.187</duration>
+      <cases>
+        <case>
+          <duration>0.179</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskTicketOnetimeSyncJobTest</className>
+          <testName>should test starting job</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0080</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskTicketOnetimeSyncJobTest</className>
+          <testName>should test sync tickets</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskTicketOnetimeSyncJobTest</className>
+          <testName>should test sync users -- stopping the sync</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.zendesk.ZendeskTicketOngoingSyncActorTest.xml</file>
+      <name>com.rackspace.search.service.zendesk.ZendeskTicketOngoingSyncActorTest</name>
+      <duration>0.139</duration>
+      <cases>
+        <case>
+          <duration>0.139</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskTicketOngoingSyncActorTest</className>
+          <testName>should post data to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskTicketOngoingSyncActorTest</className>
+          <testName>multiple messages to actor result in posting multiple payloads to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.zendesk.ZendeskTicketOngoingSyncJobTest.xml</file>
+      <name>com.rackspace.search.service.zendesk.ZendeskTicketOngoingSyncJobTest</name>
+      <duration>0.439</duration>
+      <cases>
+        <case>
+          <duration>0.439</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskTicketOngoingSyncJobTest</className>
+          <testName>should test sync tickets</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskTicketOngoingSyncJobTest</className>
+          <testName>should test sync tickets -- stopping the sync</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.zendesk.ZendeskTicketProcessorTest.xml</file>
+      <name>com.rackspace.search.service.zendesk.ZendeskTicketProcessorTest</name>
+      <duration>0.235</duration>
+      <cases>
+        <case>
+          <duration>0.229</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskTicketProcessorTest</className>
+          <testName>make sure date in millis is converted to UTC time zone</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0040</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskTicketProcessorTest</className>
+          <testName>make sure millis is added</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0020</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskTicketProcessorTest</className>
+          <testName>make sure millis is not added</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.zendesk.ZendeskUserOnetimeSyncActorTest.xml</file>
+      <name>com.rackspace.search.service.zendesk.ZendeskUserOnetimeSyncActorTest</name>
+      <duration>0.048</duration>
+      <cases>
+        <case>
+          <duration>0.038</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskUserOnetimeSyncActorTest</className>
+          <testName>should post data to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0060</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskUserOnetimeSyncActorTest</className>
+          <testName>multiple messages to actor result in posting multiple payloads to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0040</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskUserOnetimeSyncActorTest</className>
+          <testName>should test when completed message is sent</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.zendesk.ZendeskUserOnetimeSyncJobTest.xml</file>
+      <name>com.rackspace.search.service.zendesk.ZendeskUserOnetimeSyncJobTest</name>
+      <duration>0.038</duration>
+      <cases>
+        <case>
+          <duration>0.038</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskUserOnetimeSyncJobTest</className>
+          <testName>should test starting job</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskUserOnetimeSyncJobTest</className>
+          <testName>should test sync users</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskUserOnetimeSyncJobTest</className>
+          <testName>should test sync users -- stopping the sync</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActorTest.xml</file>
+      <name>com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActorTest</name>
+      <duration>0.299</duration>
+      <cases>
+        <case>
+          <duration>0.296</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActorTest</className>
+          <testName>should post data to searchClient</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>Too few invocations for:
+
+1 * mockSearchClient.postBulkData(mockProcessedData, userOngoingSyncActor.indexName, userOngoingSyncActor.documentType, userOngoingSyncActor.idName, null)   (0 invocations)
+
+Unmatched invocations (ordered by similarity):
+
+1 * mockSearchClient.postBulkData(null, &apos;zendesk&apos;, &apos;group&apos;, null, null)
+1 * mockLogger.debug(&apos;Posting zendesk tickets to Elastic Search&apos;)
+1 * mockSearchResultProcessor.processRawUserResult([[&apos;id&apos;:1, &apos;name&apos;:&apos;testing&apos;, &apos;updated_at&apos;:&apos;2013-01-01T00:00:00.000Z&apos;], [&apos;id&apos;:2, &apos;name&apos;:&apos;testing&apos;, &apos;updated_at&apos;:&apos;2012-01-01T00:00:00.000Z&apos;]])
+1 * mockLogger.error(&apos;Got exception while posting data from actor. Exception. Cannot invoke method size() on null object \n[org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor.handleMessage(ZendeskUserOngoingSyncActor.groovy:89), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor.this$7$handleMessage(ZendeskUserOngoingSyncActor.groovy), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor$_act_closure1_closure3.doCall(ZendeskUserOngoingSyncActor.groovy:67), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), groovy.lang.Closure.call(Closure.java:411), groovy.lang.Closure.call(Closure.java:427), groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92), groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38), groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291), groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30), groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93), groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132), java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908), java.lang.Thread.run(Thread.java:662)]&apos;)
+
+Too few invocations for:
+
+1 * mockJobService.reportJobProgress(SyncJob.SyncJobDetail.ZendeskUserOngoingSyncJob, resultEventDate, _)   (0 invocations)
+
+Unmatched invocations (ordered by similarity):
+
+1 * mockLogger.debug(&apos;Posting zendesk tickets to Elastic Search&apos;)
+1 * mockSearchClient.postBulkData(null, &apos;zendesk&apos;, &apos;group&apos;, null, null)
+1 * mockSearchResultProcessor.processRawUserResult([[&apos;id&apos;:1, &apos;name&apos;:&apos;testing&apos;, &apos;updated_at&apos;:&apos;2013-01-01T00:00:00.000Z&apos;], [&apos;id&apos;:2, &apos;name&apos;:&apos;testing&apos;, &apos;updated_at&apos;:&apos;2012-01-01T00:00:00.000Z&apos;]])
+1 * mockLogger.error(&apos;Got exception while posting data from actor. Exception. Cannot invoke method size() on null object \n[org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor.handleMessage(ZendeskUserOngoingSyncActor.groovy:89), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor.this$7$handleMessage(ZendeskUserOngoingSyncActor.groovy), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor$_act_closure1_closure3.doCall(ZendeskUserOngoingSyncActor.groovy:67), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), groovy.lang.Closure.call(Closure.java:411), groovy.lang.Closure.call(Closure.java:427), groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92), groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38), groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291), groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30), groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93), groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132), java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908), java.lang.Thread.run(Thread.java:662)]&apos;)
+
+
+	at org.spockframework.mock.runtime.InteractionScope.verifyInteractions(InteractionScope.java:78)
+	at org.spockframework.mock.runtime.MockController.leaveScope(MockController.java:76)
+	at com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActorTest.should post data to searchClient(ZendeskUserOngoingSyncActorTest.groovy:62)
+</errorStackTrace>
+          <errorDetails>Too few invocations for:  1 * mockSearchClient.postBulkData(mockProcessedData, userOngoingSyncActor.indexName, userOngoingSyncActor.documentType, userOngoingSyncActor.idName, null)   (0 invocations)  Unmatched invocations (ordered by similarity):  1 * mockSearchClient.postBulkData(null, &apos;zendesk&apos;, &apos;group&apos;, null, null) 1 * mockLogger.debug(&apos;Posting zendesk tickets to Elastic Search&apos;) 1 * mockSearchResultProcessor.processRawUserResult([[&apos;id&apos;:1, &apos;name&apos;:&apos;testing&apos;, &apos;updated_at&apos;:&apos;2013-01-01T00:00:00.000Z&apos;], [&apos;id&apos;:2, &apos;name&apos;:&apos;testing&apos;, &apos;updated_at&apos;:&apos;2012-01-01T00:00:00.000Z&apos;]]) 1 * mockLogger.error(&apos;Got exception while posting data from actor. Exception. Cannot invoke method size() on null object \n[org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor.handleMessage(ZendeskUserOngoingSyncActor.groovy:89), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor.this$7$handleMessage(ZendeskUserOngoingSyncActor.groovy), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor$_act_closure1_closure3.doCall(ZendeskUserOngoingSyncActor.groovy:67), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), groovy.lang.Closure.call(Closure.java:411), groovy.lang.Closure.call(Closure.java:427), groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92), groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38), groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291), groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30), groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93), groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132), java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908), java.lang.Thread.run(Thread.java:662)]&apos;)  Too few invocations for:  1 * mockJobService.reportJobProgress(SyncJob.SyncJobDetail.ZendeskUserOngoingSyncJob, resultEventDate, _)   (0 invocations)  Unmatched invocations (ordered by similarity):  1 * mockLogger.debug(&apos;Posting zendesk tickets to Elastic Search&apos;) 1 * mockSearchClient.postBulkData(null, &apos;zendesk&apos;, &apos;group&apos;, null, null) 1 * mockSearchResultProcessor.processRawUserResult([[&apos;id&apos;:1, &apos;name&apos;:&apos;testing&apos;, &apos;updated_at&apos;:&apos;2013-01-01T00:00:00.000Z&apos;], [&apos;id&apos;:2, &apos;name&apos;:&apos;testing&apos;, &apos;updated_at&apos;:&apos;2012-01-01T00:00:00.000Z&apos;]]) 1 * mockLogger.error(&apos;Got exception while posting data from actor. Exception. Cannot invoke method size() on null object \n[org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor.handleMessage(ZendeskUserOngoingSyncActor.groovy:89), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor.this$7$handleMessage(ZendeskUserOngoingSyncActor.groovy), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor$_act_closure1_closure3.doCall(ZendeskUserOngoingSyncActor.groovy:67), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), groovy.lang.Closure.call(Closure.java:411), groovy.lang.Closure.call(Closure.java:427), groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92), groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38), groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291), groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30), groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93), groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132), java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908), java.lang.Thread.run(Thread.java:662)]&apos;)  </errorDetails>
+          <stderr>An exception occurred in the Actor thread Actor Thread 3
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112)
+	at com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor.handleMessage(ZendeskUserOngoingSyncActor.groovy:89)
+	at com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor.this$7$handleMessage(ZendeskUserOngoingSyncActor.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor$_act_closure1_closure3.doCall(ZendeskUserOngoingSyncActor.groovy:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at groovy.lang.Closure.call(Closure.java:427)
+	at groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92)
+	at groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38)
+	at groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291)
+	at groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30)
+	at groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93)
+	at groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</stderr>
+          <failedSince>59</failedSince>
+        </case>
+        <case>
+          <duration>0.0030</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActorTest</className>
+          <testName>multiple messages to actor result in posting multiple payloads to searchClient</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>Too few invocations for:
+
+3 * mockSearchClient.postBulkData(mockProcessedData, userOngoingSyncActor.indexName, userOngoingSyncActor.documentType, userOngoingSyncActor.idName, null)   (0 invocations)
+
+Unmatched invocations (ordered by similarity):
+
+1 * mockSearchClient.postBulkData(null, &apos;zendesk&apos;, &apos;group&apos;, null, null)
+1 * mockLogger.error(&apos;Got exception while posting data from actor. Exception. Cannot invoke method size() on null object \n[org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor.handleMessage(ZendeskUserOngoingSyncActor.groovy:89), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor.this$7$handleMessage(ZendeskUserOngoingSyncActor.groovy), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor$_act_closure1_closure3.doCall(ZendeskUserOngoingSyncActor.groovy:67), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), groovy.lang.Closure.call(Closure.java:411), groovy.lang.Closure.call(Closure.java:427), groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92), groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38), groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291), groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30), groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93), groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132), java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908), java.lang.Thread.run(Thread.java:662)]&apos;)
+1 * mockLogger.debug(&apos;Posting zendesk tickets to Elastic Search&apos;)
+1 * mockSearchResultProcessor.processRawUserResult([])
+
+Too few invocations for:
+
+3 * mockJobService.reportJobProgress(SyncJob.SyncJobDetail.ZendeskUserOngoingSyncJob, _, _)   (0 invocations)
+
+Unmatched invocations (ordered by similarity):
+
+1 * mockSearchClient.postBulkData(null, &apos;zendesk&apos;, &apos;group&apos;, null, null)
+1 * mockLogger.error(&apos;Got exception while posting data from actor. Exception. Cannot invoke method size() on null object \n[org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor.handleMessage(ZendeskUserOngoingSyncActor.groovy:89), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor.this$7$handleMessage(ZendeskUserOngoingSyncActor.groovy), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor$_act_closure1_closure3.doCall(ZendeskUserOngoingSyncActor.groovy:67), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), groovy.lang.Closure.call(Closure.java:411), groovy.lang.Closure.call(Closure.java:427), groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92), groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38), groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291), groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30), groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93), groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132), java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908), java.lang.Thread.run(Thread.java:662)]&apos;)
+1 * mockLogger.debug(&apos;Posting zendesk tickets to Elastic Search&apos;)
+1 * mockSearchResultProcessor.processRawUserResult([])
+
+
+	at org.spockframework.mock.runtime.InteractionScope.verifyInteractions(InteractionScope.java:78)
+	at org.spockframework.mock.runtime.MockController.leaveScope(MockController.java:76)
+	at com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActorTest.multiple messages to actor result in posting multiple payloads to searchClient(ZendeskUserOngoingSyncActorTest.groovy:86)
+</errorStackTrace>
+          <errorDetails>Too few invocations for:  3 * mockSearchClient.postBulkData(mockProcessedData, userOngoingSyncActor.indexName, userOngoingSyncActor.documentType, userOngoingSyncActor.idName, null)   (0 invocations)  Unmatched invocations (ordered by similarity):  1 * mockSearchClient.postBulkData(null, &apos;zendesk&apos;, &apos;group&apos;, null, null) 1 * mockLogger.error(&apos;Got exception while posting data from actor. Exception. Cannot invoke method size() on null object \n[org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor.handleMessage(ZendeskUserOngoingSyncActor.groovy:89), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor.this$7$handleMessage(ZendeskUserOngoingSyncActor.groovy), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor$_act_closure1_closure3.doCall(ZendeskUserOngoingSyncActor.groovy:67), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), groovy.lang.Closure.call(Closure.java:411), groovy.lang.Closure.call(Closure.java:427), groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92), groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38), groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291), groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30), groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93), groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132), java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908), java.lang.Thread.run(Thread.java:662)]&apos;) 1 * mockLogger.debug(&apos;Posting zendesk tickets to Elastic Search&apos;) 1 * mockSearchResultProcessor.processRawUserResult([])  Too few invocations for:  3 * mockJobService.reportJobProgress(SyncJob.SyncJobDetail.ZendeskUserOngoingSyncJob, _, _)   (0 invocations)  Unmatched invocations (ordered by similarity):  1 * mockSearchClient.postBulkData(null, &apos;zendesk&apos;, &apos;group&apos;, null, null) 1 * mockLogger.error(&apos;Got exception while posting data from actor. Exception. Cannot invoke method size() on null object \n[org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32), org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54), org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor.handleMessage(ZendeskUserOngoingSyncActor.groovy:89), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor.this$7$handleMessage(ZendeskUserOngoingSyncActor.groovy), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66), org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141), com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor$_act_closure1_closure3.doCall(ZendeskUserOngoingSyncActor.groovy:67), sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method), sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39), sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25), java.lang.reflect.Method.invoke(Method.java:597), org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90), groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233), org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272), groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909), groovy.lang.Closure.call(Closure.java:411), groovy.lang.Closure.call(Closure.java:427), groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92), groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38), groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291), groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30), groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93), groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132), java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886), java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908), java.lang.Thread.run(Thread.java:662)]&apos;) 1 * mockLogger.debug(&apos;Posting zendesk tickets to Elastic Search&apos;) 1 * mockSearchResultProcessor.processRawUserResult([])  </errorDetails>
+          <stderr>An exception occurred in the Actor thread Actor Thread 2
+java.lang.NullPointerException: Cannot invoke method size() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:77)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:32)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:54)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112)
+	at com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor.handleMessage(ZendeskUserOngoingSyncActor.groovy:89)
+	at com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor.this$7$handleMessage(ZendeskUserOngoingSyncActor.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:361)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActor$_act_closure1_closure3.doCall(ZendeskUserOngoingSyncActor.groovy:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:272)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at groovy.lang.Closure.call(Closure.java:427)
+	at groovyx.gpars.actor.DefaultActor.onMessage(DefaultActor.java:92)
+	at groovyx.gpars.actor.DefaultActorClosure.call(DefaultActorClosure.java:38)
+	at groovyx.gpars.actor.AbstractLoopingActor.runEnhancedWithoutRepliesOnMessages(AbstractLoopingActor.java:291)
+	at groovyx.gpars.actor.AbstractLoopingActor.access$400(AbstractLoopingActor.java:30)
+	at groovyx.gpars.actor.AbstractLoopingActor$1.handleMessage(AbstractLoopingActor.java:93)
+	at groovyx.gpars.util.AsyncMessagingCore.run(AsyncMessagingCore.java:132)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+</stderr>
+          <failedSince>59</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncJobTest.xml</file>
+      <name>com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncJobTest</name>
+      <duration>0.098</duration>
+      <cases>
+        <case>
+          <duration>0.098</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncJobTest</className>
+          <testName>should test sync users</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncJobTest</className>
+          <testName>should test sync users -- stopping the sync</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports/TEST-com.rackspace.search.util.DateUtilTest.xml</file>
+      <name>com.rackspace.search.util.DateUtilTest</name>
+      <duration>0.0030</duration>
+      <cases>
+        <case>
+          <duration>0.0030</duration>
+          <className>com.rackspace.search.util.DateUtilTest</className>
+          <testName>test parse core date</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>21.192997</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

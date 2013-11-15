@@ -1,0 +1,65 @@
+Changes in branch origin/master, between f30b318b1edbb264e50770fcc11754717a3f7933 and 6243b5a01d4b26101bbe914a571cb28163da8ec5
+commit f125cfbafddf3428eebee4ec051775815e0b2381
+tree cf8c7269b188927a7e6995c57b1c44affc1237e6
+parent e68d120f42bf66397ab0640cc125d3da17c599bb
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1374005544 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1374005544 -0500
+
+    [B-52097] : raised cache.expiration.time to 2 hours.
+
+:100644 100644 98578728561da9cf8dfdf31d08a310c9457a7ca1 8ccb1389cccfd2f9f54ba14f7369512a208953ee M	service/src/main/config/search.properties
+
+commit e68d120f42bf66397ab0640cc125d3da17c599bb
+tree 4f97e825d26780de7c73a0a07eb0248116d9923d
+parent 9ccd7b6360bcbacf9aa5866abb135a1215bd29f0
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1374005232 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1374005232 -0500
+
+    [B-52097] : refactored secondpassJob scheduling. added cacing in onDemandsync.
+
+:100644 100644 70f3a418c505fb6ea78ecc82bc7a644fb5ed01c8 9bf96eef4dff099bb83ca1238e06927a216884bf M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncJob.groovy
+:100644 100644 658dd0d806d97e224ba49d7f9ac4d1665e151ee0 c58221fb0c745d1ad82b95efba22350e19b2f186 M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreDBGateway.groovy
+:100644 100644 dffaaf0c4af85f66c0cf643197076a7e22713260 50b41d23659051d90145b1c9752eb21e0d6cdeaf M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+:100644 100644 e5d1b25d59e6b0a141746b0befbdbe6c650e16b7 083735de921d26d29ca931b547d6ad926d1a94dd M	service/src/main/groovy/com/rackspace/search/service/admin/CoreTicketOndemandSyncJob.groovy
+:100644 100644 5c6b48c2805907f6a26b6082bd76618bc7f2e548 31f51928f209fcba543b2245663f3504f363e738 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketSecondPassSyncJob.groovy
+:100644 100644 49f16618517e96f56d84374844a12f73c4ca8b58 210604ad7f59d17864efe45385ca160731ca8bd4 M	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+:100644 100644 44b9f2c13b7f822541bde46877fdffca3de3a45d 51b7326c593945ac7df8a3ba143969823903d7c9 M	service/src/main/java/com/rackspace/search/scheduling/CoreTicketOndemandScheduler.java
+:100644 100644 4d29fc7298bbededc022e888dc844db3ba6ac44f 94601198f118ab604dc2746af5db97e34cbdd88c M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketSecondpassSyncJobTest.groovy
+
+commit 9ccd7b6360bcbacf9aa5866abb135a1215bd29f0
+tree a5e0432796a91f6c13d319dcf34a338408eb8651
+parent cf7dd4f33f5c6be8d95f8e75665e2eed4dffbca5
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1373959715 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1373959715 -0500
+
+    [B-52097] : fixed issues for secondPass. added scheduler for 2ndpass. updaqted code for calculating date range.
+
+:100644 100644 6b93d55d96d195594f2461eb71a4305c21cf62a8 658dd0d806d97e224ba49d7f9ac4d1665e151ee0 M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreDBGateway.groovy
+:100644 100644 5537e9db28ba2139cebd9b4c1f00e01a81a159a9 dffaaf0c4af85f66c0cf643197076a7e22713260 M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+:100644 100644 3014670a90d9b8a6f8aa12b7194b21890f023844 5c6b48c2805907f6a26b6082bd76618bc7f2e548 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketSecondPassSyncJob.groovy
+:100644 100644 68ec98527f77a605e4479e22abb2098b61589e56 49f16618517e96f56d84374844a12f73c4ca8b58 M	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+:100644 100644 04064c930510910a96325011fac020253993871c 4d29fc7298bbededc022e888dc844db3ba6ac44f M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketSecondpassSyncJobTest.groovy
+
+commit fff7a15574b620305b04d565a811fbc445647a47
+tree 4fe5b9a1bb7499961b41fe2c8c3208ca7a599963
+parent b16413b8635953f580be0300de41be6a15c34563
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1373927835 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1373927835 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 b6d4aa6b3bee2f79405083bbdfe390287369be00 e7d1fb9b88434b08a601d7d087f763ea022074da M	cucumber/pom.xml
+:100644 100644 c71c939ae4327515542508dfb70a9579ca47d3f1 7684d7eb2f7b7de794a5313d903731d4b7fe428a M	pom.xml
+:100644 100644 4afe53bf87888ddc0074a26a81efa6cee68ccc8a bda9a587c596471e3c0349a9192f156be9ecd0b1 M	service/pom.xml
+
+commit b16413b8635953f580be0300de41be6a15c34563
+tree f79791f6e43d69bb532e78da68952bdc265389db
+parent f30b318b1edbb264e50770fcc11754717a3f7933
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1373927830 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1373927830 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b125
+
+:100644 100644 e813552d34f6bb0c3881dae1e7c958a95fdb47b0 b6d4aa6b3bee2f79405083bbdfe390287369be00 M	cucumber/pom.xml
+:100644 100644 aa500bdcc656e32b86b9fe95072aea288fa4e550 c71c939ae4327515542508dfb70a9579ca47d3f1 M	pom.xml
+:100644 100644 de54b1b979b641f8d3ea0f0d4ee2f7f04392954d 4afe53bf87888ddc0074a26a81efa6cee68ccc8a M	service/pom.xml

@@ -1,0 +1,50 @@
+Started by user [8mha:AAAAox+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/dLi1CL94sTcxJKMRL3sxLzszILEkkwA5i9UUswAAAA=[0msamatha.kankipati
+Building in workspace /var/lib/jenkins/jobs/TSearchDeployToStaging/workspace
+Checkout:workspace / /var/lib/jenkins/jobs/TSearchDeployToStaging/workspace - hudson.remoting.LocalChannel@5261bde0
+Using strategy: Default
+Cloning the remote Git repository
+Cloning repository git@github.com:rackerlabs/search.git
+git --version
+git version 1.7.4.1
+Fetching upstream changes from origin
+Commencing build of Revision 4f5c15b7dfecf7504c0a8137090029d7ce79b7f9 (origin/master)
+Checking out Revision 4f5c15b7dfecf7504c0a8137090029d7ce79b7f9 (origin/master)
+No change to record in branch origin/master
+[workspace] $ /bin/sh -xe /tmp/hudson7966961128677878970.sh
++ sh /var/lib/jenkins/jobs/TSearchDeployToStaging/workspace/service/src/main/scripts/deploy-application.sh 0.1.0_b71 staging
+environment in warhammer is staging
+environment is staging
+======================= Starting Deployment =======================
+Version:	'0.1.0_b71'
+Server:		'node1.staging.search.api.rackspace.com'
+===================================================================
+
+
+Using temporary directory '/tmp/deploy.21752'.
+
+
+Fetching files...
+--2013-05-23 14:35:39--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b71/search-0.1.0_b71.war
+Resolving d-build1.iad2.corp.rackspace.com... 10.4.39.20
+Connecting to d-build1.iad2.corp.rackspace.com|10.4.39.20|:8100... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2013-05-23 14:35:39 ERROR 404: Not Found.
+
+--2013-05-23 14:35:39--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b71/search-0.1.0_b71.war.md5
+Reusing existing connection to d-build1.iad2.corp.rackspace.com:8100.
+HTTP request sent, awaiting response... 404 Not Found
+2013-05-23 14:35:39 ERROR 404: Not Found.
+
+--2013-05-23 14:35:39--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b71/search-0.1.0_b71-config.zip
+Reusing existing connection to d-build1.iad2.corp.rackspace.com:8100.
+HTTP request sent, awaiting response... 404 Not Found
+2013-05-23 14:35:39 ERROR 404: Not Found.
+
+--2013-05-23 14:35:39--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b71/search-0.1.0_b71-config.zip.md5
+Reusing existing connection to d-build1.iad2.corp.rackspace.com:8100.
+HTTP request sent, awaiting response... 404 Not Found
+2013-05-23 14:35:39 ERROR 404: Not Found.
+
+Error: Failed to fetch deployment artifacts from repository.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

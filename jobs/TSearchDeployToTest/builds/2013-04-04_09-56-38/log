@@ -1,0 +1,117 @@
+Started by upstream project "[8mha:AAAApx+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgZp/az8JP2Q4NTEouSMgNSitPyi3KDUnNTE4lR9AB1RPVXQAAAA[0mTSearchPerformRelease" build number [8mha:AAAAqR+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZZ/az8JP2Q4NTEouSMgNSitPyi3KDUnNTE4lR9CxMAqbmmRNIAAAA=[0m84
+originally caused by:
+ Started by upstream project "[8mha:AAAAmx+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH3nnPzSFGdHN1d9ALwYXv7EAAAA[0mCloudCAFE" build number [8mha:AAAAnR+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxmoBn6WflJ+s45+aUpzo5urvpGZgYAoO6dBscAAAA=[0m260
+ originally caused by:
+  Started by user [8mha:AAAAmh+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/dLi1CL9rMTKFAMLcwMAyU1QQ8MAAAA=[0mjayd0870
+Building in workspace /var/lib/jenkins/jobs/TSearchDeployToTest/workspace
+Checkout:workspace / /var/lib/jenkins/jobs/TSearchDeployToTest/workspace - hudson.remoting.LocalChannel@76312c50
+Using strategy: Default
+Last Built Revision: Revision 1a344a6f50067357f9e4b0de2fb34eda9b1e5118 (origin/master)
+Fetching changes from 1 remote Git repository
+Fetching upstream changes from origin
+Commencing build of Revision 3d9cc3cbdaf7992f97822aa5fb0ac080aac3b5ba (origin/master)
+Checking out Revision 3d9cc3cbdaf7992f97822aa5fb0ac080aac3b5ba (origin/master)
+[workspace] $ /bin/sh -xe /tmp/hudson3067922386726914630.sh
++ sh /var/lib/jenkins/jobs/TSearchDeployToTest/workspace/service/src/main/scripts/deploy-application.sh 0.1.0_b48 test
+environment in warhammer is test
+environment is test
+======================= Starting Deployment =======================
+Version:	'0.1.0_b48'
+Server:		'10.14.209.119'
+===================================================================
+
+
+Using temporary directory '/tmp/deploy.J8015'.
+
+
+Fetching files...
+--2013-04-04 09:56:41--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b48/search-0.1.0_b48.war
+Resolving d-build1.iad2.corp.rackspace.com... 10.4.39.20
+Connecting to d-build1.iad2.corp.rackspace.com|10.4.39.20|:8100... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 31788598 (30M) [application/octet-stream]
+Saving to: `/tmp/deploy.J8015/search-0.1.0_b48.war'
+
+     0K ........ ........ ........ ........ ........ ........  9% 4.29M 6s
+  3072K ........ ........ ........ ........ ........ ........ 19% 5.85M 5s
+  6144K ........ ........ ........ ........ ........ ........ 29% 16.1M 3s
+  9216K ........ ........ ........ ........ ........ ........ 39% 25.4M 2s
+ 12288K ........ ........ ........ ........ ........ ........ 49% 21.7M 2s
+ 15360K ........ ........ ........ ........ ........ ........ 59% 25.7M 1s
+ 18432K ........ ........ ........ ........ ........ ........ 69% 25.0M 1s
+ 21504K ........ ........ ........ ........ ........ ........ 79% 23.2M 1s
+ 24576K ........ ........ ........ ........ ........ ........ 89% 26.1M 0s
+ 27648K ........ ........ ........ ........ ........ ........ 98% 26.0M 0s
+ 30720K .....                                                100% 13.0M=2.3s
+
+2013-04-04 09:56:43 (13.3 MB/s) - `/tmp/deploy.J8015/search-0.1.0_b48.war' saved [31788598/31788598]
+
+--2013-04-04 09:56:43--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b48/search-0.1.0_b48.war.md5
+Reusing existing connection to d-build1.iad2.corp.rackspace.com:8100.
+HTTP request sent, awaiting response... 200 OK
+Length: 32 [text/plain]
+Saving to: `/tmp/deploy.J8015/search-0.1.0_b48.war.md5'
+
+     0K                                                      100% 2.54M=0s
+
+2013-04-04 09:56:43 (2.54 MB/s) - `/tmp/deploy.J8015/search-0.1.0_b48.war.md5' saved [32/32]
+
+--2013-04-04 09:56:43--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b48/search-0.1.0_b48-config.zip
+Reusing existing connection to d-build1.iad2.corp.rackspace.com:8100.
+HTTP request sent, awaiting response... 200 OK
+Length: 18808 (18K) [application/zip]
+Saving to: `/tmp/deploy.J8015/search-0.1.0_b48-config.zip'
+
+     0K                                                      100%  156M=0s
+
+2013-04-04 09:56:43 (156 MB/s) - `/tmp/deploy.J8015/search-0.1.0_b48-config.zip' saved [18808/18808]
+
+--2013-04-04 09:56:43--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b48/search-0.1.0_b48-config.zip.md5
+Reusing existing connection to d-build1.iad2.corp.rackspace.com:8100.
+HTTP request sent, awaiting response... 200 OK
+Length: 32 [text/plain]
+Saving to: `/tmp/deploy.J8015/search-0.1.0_b48-config.zip.md5'
+
+     0K                                                      100% 2.77M=0s
+
+2013-04-04 09:56:43 (2.77 MB/s) - `/tmp/deploy.J8015/search-0.1.0_b48-config.zip.md5' saved [32/32]
+
+FINISHED --2013-04-04 09:56:43--
+Downloaded: 4 files, 30M in 2.3s (13.3 MB/s)
+...done.
+
+
+Verifying MD5s...
+OK 1b268f79ee0c01a35f6eabdc59cf3664  /tmp/deploy.J8015/search-0.1.0_b48.war
+OK 6fbdcf091ae5075a4a340848ba04b46a  /tmp/deploy.J8015/search-0.1.0_b48-config.zip
+done.
+
+
+Copying files to server '10.14.209.119'...
+...done.
+
+Verifying MD5s...
+OK 1b268f79ee0c01a35f6eabdc59cf3664  10.14.209.119:/home/search/artifacts/search-0.1.0_b48.war
+OK 6fbdcf091ae5075a4a340848ba04b46a  10.14.209.119:/home/search/artifacts/search-0.1.0_b48-config.zip
+...done.
+
+
+
+Deploying to server '10.14.209.119'...Waiting for the domain to stop ...
+Command stop-domain executed successfully.
+done.
+Waiting for search to start .........................................
+Successfully started the domain : search
+domain  Location: /usr/local/glassfish/glassfish/domains/search
+Log File: /usr/local/glassfish/glassfish/domains/search/logs/server.log
+Admin Port: 4848
+Command start-domain executed successfully.
+
+
+
+Cleaning up...done.
+
+
+======================= Deployment Complete =======================
+
+Finished: SUCCESS

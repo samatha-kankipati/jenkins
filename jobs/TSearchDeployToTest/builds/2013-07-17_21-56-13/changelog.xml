@@ -1,0 +1,47 @@
+Changes in branch origin/master, between 3ecac3ddbb6e831dad0feff0c5c8e9301578955c and 91c59b4834afaaba21d5f40bff815882012ab018
+commit 91c59b4834afaaba21d5f40bff815882012ab018
+tree ecbe69266bd5550f1f8f01d2d8f8b27eef66d2a1
+parent dd33effec8b0c5b62eb890e6a31c0d276b72dac4
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374097964 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374097964 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 c57439f66ec60516ccc8d1dbd4dc944e27e3daf9 87f17ecd8acd278b654140858314859b7b96f5e6 M	cucumber/pom.xml
+:100644 100644 a96fb6b25184e0061e22bd44d508c84b786f6219 a635468b99ba3c723057f1a0c2ea72a454097aa8 M	pom.xml
+:100644 100644 6a4a9f97e3ef946f4ca631e25d6a5438c0daacff 3a71f5b202b2919221a2a640f01e741fa6b81f10 M	service/pom.xml
+
+commit dd33effec8b0c5b62eb890e6a31c0d276b72dac4
+tree 04b19e7cd94201d87b0c499078ad403828950853
+parent 1a2cad8a120aca736f5d328c530e27a6b1d82d91
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374097959 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374097959 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b127
+
+:100644 100644 96417b6debb7b374a31ec3fa445f62a585d5fa5d c57439f66ec60516ccc8d1dbd4dc944e27e3daf9 M	cucumber/pom.xml
+:100644 100644 2b6daab84d01aaf07db3b8691cd4ea8b5068a90f a96fb6b25184e0061e22bd44d508c84b786f6219 M	pom.xml
+:100644 100644 1d819dc8057d72e5740e4abad8c51fd1a3758815 6a4a9f97e3ef946f4ca631e25d6a5438c0daacff M	service/pom.xml
+
+commit 389b7a24f5b06e32f8d923f5b12200cb928e2dae
+tree cca978e7a5ff276701a8c68ee4411103797092e8
+parent 3ecac3ddbb6e831dad0feff0c5c8e9301578955c
+author unknown <surendra.appalaneni@L7FNKCS1.RACKSPACE.CORP> 1374081233 -0500
+committer unknown <surendra.appalaneni@L7FNKCS1.RACKSPACE.CORP> 1374081233 -0500
+
+    [B-52097] : fixed job stopping error
+
+:100644 100644 50b41d23659051d90145b1c9752eb21e0d6cdeaf c79f31fd077cee5d7cc5c7622ff622d8a466ac5a M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+:100644 100644 31f51928f209fcba543b2245663f3504f363e738 144f2a51357d4f3e5f087c1b8f9d3f7f0bf042a6 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketSecondPassSyncJob.groovy
+:100644 100644 94601198f118ab604dc2746af5db97e34cbdd88c 09c13f1f7e94744b5d625e9bf81c58768dbea82c M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketSecondpassSyncJobTest.groovy
+
+commit 1f77a442f2fd57f400498cfecd3ae9fe9f5cb1bc
+tree 700345ada6f72f7311a1e683d4fa77d706d6b77d
+parent 6243b5a01d4b26101bbe914a571cb28163da8ec5
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1374009498 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1374009498 -0500
+
+    [B-51736]: fixing review comments
+
+:100644 100644 083735de921d26d29ca931b547d6ad926d1a94dd 4282251c84c099e7ad9be79a46908a82dff6c00c M	service/src/main/groovy/com/rackspace/search/service/admin/CoreTicketOndemandSyncJob.groovy
+:100644 100644 51b7326c593945ac7df8a3ba143969823903d7c9 ff74c78c79e88d6e7bfb5ef65e6f5079cf12ed5e M	service/src/main/java/com/rackspace/search/scheduling/CoreTicketOndemandScheduler.java

@@ -1,0 +1,69 @@
+2013-06-26 10:56:36,896: DEBUG: root: 
+========================================================
+SETTING UP testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets at 2013-06-26 10:56:36.896706
+========================================================
+2013-06-26 10:56:36,899: ERROR: ccengine.domain.configuration.AuthConfig: No option 'api_key' in section: 'auth'
+2013-06-26 10:56:36,899: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.auth.auth_client.AuthClient object at 0x1f7c8a50>, 'POST', 'https://ws.staging.core.rackspace.com/ctkapi/login/melissa.biles') {'headers': {}, 'params': {}, 'data': '{"password": "qwerty"}', 'auth': None, 'verify': False}
+2013-06-26 10:56:36,901: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): ws.staging.core.rackspace.com
+2013-06-26 10:56:38,554: DEBUG: requests.packages.urllib3.connectionpool: "POST /ctkapi/login/melissa.biles HTTP/1.1" 200 None
+2013-06-26 10:56:38,555: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://ws.staging.core.rackspace.com/ctkapi/login/melissa.biles
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'22', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/1.2.3 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : {"password": "qwerty"}
+
+2013-06-26 10:56:38,555: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 1.65492677689
+response headers : CaseInsensitiveDict({'date': 'Wed, 26 Jun 2013 10:48:36 GMT', 'transfer-encoding': 'chunked', 'content-type': 'application/json', 'server': 'Apache/2.2.3 (Red Hat)'})
+response body    : {"authtoken": "592ce347667fb6aeda334deeb5d8fa1e"}
+-------------------------------------------------------------------------------
+2013-06-26 10:56:38,558: DEBUG: root: 
+========================================================
+test_incorrect_query_parameter_returns_bad_request_400 STARTING at 2013-06-26 10:56:38.558323
+========================================================
+2013-06-26 10:56:38,558: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.SearchApiClient object at 0x1f7bfe10>, 'GET', 'http://staging.search.api.rackspace.com/tickets') {'headers': {}, 'params': {'status': None, 'sort': None, 'queue': None, 'updatedAt': None, 'number': None, 'priority': None, '1': '1', 'limit': 100, 'createdAt_range': None, 'offset': 0, 'category': None, 'createdAt': None, 'subject': None}, 'data': None, 'auth': None, 'verify': False}
+2013-06-26 10:56:38,560: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-06-26 10:56:38,583: DEBUG: requests.packages.urllib3.connectionpool: "GET /tickets?1=1&limit=100&offset=0 HTTP/1.1" 400 None
+2013-06-26 10:56:38,584: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/tickets
+request params  : 1=1&limit=100&offset=0
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/1.2.3 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-06-26 10:56:38,584: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [400]>
+response time    : 0.0251770019531
+response headers : CaseInsensitiveDict({'date': 'Wed, 26 Jun 2013 10:49:23 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"badRequest":{"message":"Bad Request","detail":"Invalid query parameter: 1","code":400}}
+-------------------------------------------------------------------------------
+2013-06-26 10:56:38,584: ERROR: ccengine.domain.tq_search.response.tq_search.Search: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafe(Negative)/workspace/lib/ccengine/domain/base_domain.py", line 93, in deserialize
+    ret = getattr(cls, '_%s_to_obj' % format_type)(serialized_str)
+  File "/var/lib/jenkins/jobs/CloudCafe(Negative)/workspace/lib/ccengine/domain/tq_search/response/tq_search.py", line 90, in _json_to_obj
+    ret.ticket = TicketDetails(response)
+  File "/var/lib/jenkins/jobs/CloudCafe(Negative)/workspace/lib/ccengine/domain/tq_search/response/tq_search.py", line 107, in __init__
+    if not "source_system" in ticket:
+TypeError: argument of type 'NoneType' is not iterable
+2013-06-26 10:56:38,585: DEBUG: ccengine.domain.tq_search.response.tq_search.Search: Deserialization Error: Attempted to deserialize type using type: json
+2013-06-26 10:56:38,585: DEBUG: ccengine.domain.tq_search.response.tq_search.Search: Deserialization Error: Unble to deserialize the following:
+{"badRequest":{"message":"Bad Request","detail":"Invalid query parameter: 1","code":400}}
+2013-06-26 10:56:38,585: DEBUG: root: 
+========================================================
+TEARING DOWN TestListTickets at 2013-06-26 10:56:38.585659
+========================================================

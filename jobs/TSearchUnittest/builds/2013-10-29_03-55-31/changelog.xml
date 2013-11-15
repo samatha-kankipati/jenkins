@@ -1,0 +1,10 @@
+Changes in branch origin/master, between 0b42a9384d64c787502808305fa1fb532869e134 and 507f49e6495d0f7c9e821bbf4fb8677a0de48dcd
+commit 2f75c2d488dda80b30761e415d05f1c77ff3fb55
+tree 364bbb1fac9450f1b0bd50df709fc8d0d1838e03
+parent dfcef8fd7ead740e8056c82a05d69236b30f8899
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1383018660 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1383018660 -0500
+
+    [B-59068] :  fixing exists for nested obj
+
+:100644 100644 60b3fc2a732e3dfa1438247b1357dadfe536ce66 75d0c736f09e275dbad8dc95457638d5474f094c M	service/src/test/groovy/com/rackspace/search/elasticsearch/client/QueryParserTest.groovy

@@ -1,0 +1,48 @@
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building cucumber 0.1.0_b51-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-clean-plugin:2.4.1:clean (default-clean) @ cucumber ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:generateStubs (buildGroovies) @ cucumber ---
+[INFO] No sources found for Java stub generation
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-resources-plugin:2.5:resources (default-resources) @ cucumber ---
+[INFO] [debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/TSearchUnittest/workspace/cucumber/src/main/resources
+[INFO] No sources to compile
+
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-compiler-plugin:2.3.2:compile (default-compile) @ cucumber ---
+[INFO] [INFO] No sources found to compile
+
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:compile (buildGroovies) @ cucumber ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:generateTestStubs (buildGroovies) @ cucumber ---
+[INFO] Generated 9 Java stubs
+[INFO] [debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-resources-plugin:2.5:testResources (default-testResources) @ cucumber ---
+[INFO] Copying 3 resources to /var/lib/jenkins/jobs/TSearchUnittest/workspace/cucumber/target/test-classes/features
+[INFO] [INFO] Compiling 9 source files to /var/lib/jenkins/jobs/TSearchUnittest/workspace/cucumber/target/test-classes
+
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ cucumber ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:testCompile (buildGroovies) @ cucumber ---
+[INFO] Compiled 39 Groovy classes
+[INFO] [INFO] Surefire report directory: /var/lib/jenkins/jobs/TSearchUnittest/workspace/cucumber/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-surefire-plugin:2.10:test (default-test) @ cucumber ---
+[JENKINS] Recording test results
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+

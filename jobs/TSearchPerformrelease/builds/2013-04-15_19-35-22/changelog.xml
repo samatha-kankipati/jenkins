@@ -1,0 +1,54 @@
+Changes in branch origin/master, between 261ecc618cc0ae0974eed5a92e726f6e4de9ebc2 and 6afbfe4959d7f3092d57df63c89c1587773e1d25
+commit 34d1aac0db5202caffbaa6e3fef58d1a04325f61
+tree acced701791d85b9ab19426f63927ee34b076932
+parent bfb35c6c660910335c4399e93c5c691b689544b1
+author Satya Boddu <satya.boddu@rackspace.com> 1366053230 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1366053230 -0500
+
+    Fixed review comments
+
+:100644 100644 6557e45f787f281cc81c64ba1a5b847e6be92abd 3840cc1789943ecfedfd2169db53949c23e64fe8 M	service/src/main/filters/filter.yaml
+
+commit bfb35c6c660910335c4399e93c5c691b689544b1
+tree c29b98a000cdcfc5b505690dc54ee7699035ccc5
+parent f3374f6b48d16deb8fb14a6e2a46c41802092864
+author Satya Boddu <satya.boddu@rackspace.com> 1366052807 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1366052807 -0500
+
+    Fixed review comments
+
+:100644 100644 b977dd88c40b127c48cf546455ef22ca4782ce2a 6557e45f787f281cc81c64ba1a5b847e6be92abd M	service/src/main/filters/filter.yaml
+
+commit f3374f6b48d16deb8fb14a6e2a46c41802092864
+tree 9ec1410f813b1bc805b228be5e74516541d19536
+parent b231373c8eff189390c1cb2dfd718fe700b14e1c
+author Satya Boddu <satya.boddu@rackspace.com> 1366052118 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1366052118 -0500
+
+    Added DB URL's for staging and production
+
+:100644 100644 6970836424855302c672a617792fce126186064c b977dd88c40b127c48cf546455ef22ca4782ce2a M	service/src/main/filters/filter.yaml
+
+commit b967bd2940a7d65581ecc317d1a4b70269dc0794
+tree 1c4586bf7130370d33fbdcc507602585045f1a67
+parent d87b0970fc27d39df8da58de25565c0ccbcd9daa
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1366050465 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1366050465 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 91985586241b44f7596675b35add71447a8ac005 7b513fd2c85ec378072bd5170a8f691bd8d16254 M	cucumber/pom.xml
+:100644 100644 ddd56e53ed7e658e0228fda2b5c9c37647985eab 3c2a2310a00873df00428b83e508a6758acf173f M	pom.xml
+:100644 100644 950268c8bae7fb42d2e92032d753cdcb7de03b78 7ac037efa082beaa0395a415997916c5ce88fcb0 M	service/pom.xml
+
+commit d87b0970fc27d39df8da58de25565c0ccbcd9daa
+tree a64025fdc0c5d2c69afff909f777ea42ae274a55
+parent 261ecc618cc0ae0974eed5a92e726f6e4de9ebc2
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1366050460 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1366050460 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b55
+
+:100644 100644 5a8a85e9dab3835a2d8e076d962aa25cfed4135e 91985586241b44f7596675b35add71447a8ac005 M	cucumber/pom.xml
+:100644 100644 5e96249553fe3343a7f390551462763b6f6cb932 ddd56e53ed7e658e0228fda2b5c9c37647985eab M	pom.xml
+:100644 100644 2d5803f2ad7a2eeb07a92ffc6bf16376adf64c3c 950268c8bae7fb42d2e92032d753cdcb7de03b78 M	service/pom.xml

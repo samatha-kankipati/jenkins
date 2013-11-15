@@ -1,0 +1,46 @@
+Changes in branch origin/master, between 852763714be4c316f15b00b7305f54601700ef84 and bb8186c9d73162df990cad31376a69501016e2cf
+commit d7b5dfaf606394aa73e579a2a26e2e01dbc6b6b5
+tree af26f9d501d7d3dde8bf39e42f4d60e69b30b3e4
+parent 32ee79456418c21847dc7acc4e00bc2a5fe98490
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370970141 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370970141 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 9ca6a75d3c47683a6e6c409ac35dc7e0d0f58517 b065830c4c9af2877ad45ce570db91d951b788de M	cucumber/pom.xml
+:100644 100644 0bbfc12b77abd84f8fbbe6fb96f3dff29ff1f992 5d970715840ecf4bfea57a695c8a1ab3a2282c69 M	pom.xml
+:100644 100644 3c0444ac6640b3797f05e2c5aa0b27574178c88a c5e2a9d4743f40d4f5e36ae6d50570274d9f4eaa M	service/pom.xml
+
+commit 32ee79456418c21847dc7acc4e00bc2a5fe98490
+tree 0caba82f2aa42ad72196e40a9cb6ca2eb9975f0d
+parent 852763714be4c316f15b00b7305f54601700ef84
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370970136 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370970136 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b92
+
+:100644 100644 1c10749d909646973df57fb78c034c773623a3af 9ca6a75d3c47683a6e6c409ac35dc7e0d0f58517 M	cucumber/pom.xml
+:100644 100644 5989c57f0ff8c47b53fa4eab957b6d49bfcce072 0bbfc12b77abd84f8fbbe6fb96f3dff29ff1f992 M	pom.xml
+:100644 100644 a8b8dfd1f019b1c9cc3b10afb89ca49d0bf95092 3c0444ac6640b3797f05e2c5aa0b27574178c88a M	service/pom.xml
+
+commit e83c8de5575c6c144516f354b383d403bbbf30c7
+tree d53e4057030cdd7768e849e13924205985d8a98a
+parent 955f9cd474c91c67de77386c666aa3e692da098f
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1370968349 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1370968891 -0500
+
+    [D-13160] : fixed core Ticket onetime sync job to catch DB exception.added job name to logging
+
+:100644 100644 7ca554e5b5f5ce73152a4b0998a8e0dfc92daf65 923821830b9d297bfffe5fb5d96d19474dd29739 M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+:100644 100644 c7212ee2811ae1725c0a84ef3f1381ebc1b51f2c 08cab1c42a37d671e9c388be451aea4107fa74cd M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOneTimeSyncJob.groovy
+
+commit b73f35aad91289e7eac18400d43272899233a575
+tree d53e4057030cdd7768e849e13924205985d8a98a
+parent 955f9cd474c91c67de77386c666aa3e692da098f
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1370968349 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1370968349 -0500
+
+    fixed core Ticket onetime sync job to catch DB exception.added job name to logging
+
+:100644 100644 7ca554e5b5f5ce73152a4b0998a8e0dfc92daf65 923821830b9d297bfffe5fb5d96d19474dd29739 M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+:100644 100644 c7212ee2811ae1725c0a84ef3f1381ebc1b51f2c 08cab1c42a37d671e9c388be451aea4107fa74cd M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOneTimeSyncJob.groovy

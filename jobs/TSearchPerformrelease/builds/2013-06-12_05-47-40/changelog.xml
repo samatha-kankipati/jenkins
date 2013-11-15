@@ -1,0 +1,34 @@
+Changes in branch origin/master, between 0865b73bdd8e7a5605fbfa00edd3feca5a7cb4e9 and f9b2e145c168a8f84303f9de79048f9a2e809576
+commit e84932d22939a6dbca1fd49f0a1ac5f2b03e5576
+tree 36835c68f4fe3c21241c51e90cf181aae1911cd4
+parent 1d01ab4f559ce62749e21db8c49db8d1a6a81ea1
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1371015281 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1371015281 -0500
+
+    [D-13268] : Core ticket ongoing sync is having hard time catchingup with updates. raising batch size to 250, to speed up.
+
+:100644 100644 b39f01acb2d00d1e919cd35e9b70fc85d40e4c73 121242e0ef20f774679a42eb16934ae3f5ecee37 M	service/src/main/groovy/com/rackspace/search/Constants.groovy
+
+commit 0af71edd37f3bb9c4b20a539c1dabd93f48f92ff
+tree bc7675015cc5e786134d462eb97f098c1f9cdf42
+parent 287b75b67be0e4143a6cebe97699bf0ae70f505b
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370991418 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370991418 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 477ffbb08fa2c9fe5ca8f0648d43c9f832c4fb88 5fde574504348e94688fdaa54cbbfc9e43b622d8 M	cucumber/pom.xml
+:100644 100644 50f4db9eb6d8d991e5dfe1df5e1d7ee43d5cadb4 ffaed1692f673002233af893a67a2537c38cd3b8 M	pom.xml
+:100644 100644 9fed6d2f7ff1de4446fc7e6ffccf604e15993f7a 1f16397e04dd8168754a564d7da2b079aab99c2c M	service/pom.xml
+
+commit 287b75b67be0e4143a6cebe97699bf0ae70f505b
+tree 8e038a6de9f61b7f53bcc8ed1e8029f0872f286f
+parent 0865b73bdd8e7a5605fbfa00edd3feca5a7cb4e9
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370991413 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370991413 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b94
+
+:100644 100644 609166069046eede72b02289fff4a6d691722fe0 477ffbb08fa2c9fe5ca8f0648d43c9f832c4fb88 M	cucumber/pom.xml
+:100644 100644 2ba26f1233766da49387c03343586e58300cb689 50f4db9eb6d8d991e5dfe1df5e1d7ee43d5cadb4 M	pom.xml
+:100644 100644 bbe79ddea66e198e1716fad9e26fcc066c802e83 9fed6d2f7ff1de4446fc7e6ffccf604e15993f7a M	service/pom.xml

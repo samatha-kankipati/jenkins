@@ -1,0 +1,15 @@
+Changes in branch origin/B-43056-db, between c8b3b1ccbbd863de1edfb5629fb4b0dfe9e44a59 and 41e30895c5cded84e883b3b9d3c27dc3715165d6
+commit 41e30895c5cded84e883b3b9d3c27dc3715165d6
+tree e7177154e543b0ab9a845e35fc09e59fe3951ba1
+parent c8b3b1ccbbd863de1edfb5629fb4b0dfe9e44a59
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1364920144 -0500
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1364920144 -0500
+
+    B-43056: adding db properties to yaml and using mock datasource for testing
+
+:100644 100644 2f1d93e907e1926d33f86f2fe1d662d33205f28f a8a456cb6fe0d67d153eb0bdfa8f20cf1e80e80f M	service/pom.xml
+:100644 100644 d150aeaf3748275d6ca8ca0f1bc1367d344f7a15 6d03c4ef01f3c47b999ea9c7f493432615178d87 M	service/src/main/config/search.properties
+:100644 100644 0362b560b6c661b858912bc9af9caba5bdec3ed1 f4ed49a15eac1279d8506fc76d265d7e82b6b04e M	service/src/main/filters/filter.yaml
+:100644 100644 05a22800f6dd94dce4e7aebb4a1599c21c2bc016 53335933129d3988da7e6ee1ca8c7800f7289c24 M	service/src/main/resources/coreDbContext.xml
+:100644 100644 13d33fef60d0fecbf1b4d3ea94ac737f3f90858b c34254e1fa2d13dfa880241dd1b083bef69083ca M	service/src/test/resources/test-context.xml
+:000000 100644 0000000000000000000000000000000000000000 a3ffbf3bc47977c693c9b3363dde91ab884a2645 A	service/src/test/resources/test-coreDbContext.xml

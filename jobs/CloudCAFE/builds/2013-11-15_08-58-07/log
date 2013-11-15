@@ -1,0 +1,76 @@
+Started by user [8mha:AAAAnR+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/dLi1CL9gqLMykS9vNKC0iIAXV2pVsYAAAA=[0mPriya Nupur
+Building in workspace /var/lib/jenkins/jobs/CloudCAFE/workspace
+Checkout:workspace / /var/lib/jenkins/jobs/CloudCAFE/workspace - hudson.remoting.LocalChannel@1e820764
+Using strategy: Default
+Last Built Revision: Revision c31d9819fa47898f7076098bdf5ba7c73e81a08c (remotes/origin/feedback_zendesk)
+Fetching changes from 1 remote Git repository
+Fetching upstream changes from origin
+Commencing build of Revision c31d9819fa47898f7076098bdf5ba7c73e81a08c (remotes/origin/feedback_zendesk)
+Checking out Revision c31d9819fa47898f7076098bdf5ba7c73e81a08c (remotes/origin/feedback_zendesk)
+[workspace] $ /bin/bash /tmp/hudson3505240542141825672.sh
+**> virtualenv exists
+test_contacts_roles_in_the_ticket (testrepo.tq_search.core_ongoing_sync.test_core_ongoing_sync.TestCoreOngoingSync) ... ok
+test_ticket_created_in_core_reflects_in_one_minute_in_tqsearch (testrepo.tq_search.core_ongoing_sync.test_core_ongoing_sync.TestCoreOngoingSync) ... ok
+test_ticket_updated_in_core_reflects_in_one_minute_in_tqsearch (testrepo.tq_search.core_ongoing_sync.test_core_ongoing_sync.TestCoreOngoingSync) ... ok
+test_updating_priority_in_core_marks_ticket_as_updated_in_search (testrepo.tq_search.core_ongoing_sync.test_core_ongoing_sync.TestCoreOngoingSync) ... ok
+test_updating_queue_in_core_marks_ticket_as_updated_in_tq_search (testrepo.tq_search.core_ongoing_sync.test_core_ongoing_sync.TestCoreOngoingSync) ... ok
+test_updating_status_in_core_marks_ticket_as_updated_in_search (testrepo.tq_search.core_ongoing_sync.test_core_ongoing_sync.TestCoreOngoingSync) ... ok
+test_tkt_create_zen_desk (testrepo.tq_search.core_ongoing_sync.test_zendesk_ongoing_sync.TestZenDeskOngoingSync) ... FAIL
+test_tkt_faceting (testrepo.tq_search.core_ongoing_sync.test_zendesk_ongoing_sync.TestZenDeskOngoingSync) ... ok
+test_tkt_update_zen_desk_assignee (testrepo.tq_search.core_ongoing_sync.test_zendesk_ongoing_sync.TestZenDeskOngoingSync) ... ok
+test_tkt_update_zen_desk_devices (testrepo.tq_search.core_ongoing_sync.test_zendesk_ongoing_sync.TestZenDeskOngoingSync) ... ok
+test_tkt_update_zen_desk_priority (testrepo.tq_search.core_ongoing_sync.test_zendesk_ongoing_sync.TestZenDeskOngoingSync) ... ok
+test_tkt_update_zen_desk_status (testrepo.tq_search.core_ongoing_sync.test_zendesk_ongoing_sync.TestZenDeskOngoingSync) ... ok
+test_ascending_sorting_order_when_fetching_the_tickets (testrepo.tq_search.search_existing_ticket.test_pagination.TestPagination) ... ok
+test_default_sorting_order_is_ascending (testrepo.tq_search.search_existing_ticket.test_pagination.TestPagination) ... ok
+test_descending_sorting_order_when_fetching_the_tickets (testrepo.tq_search.search_existing_ticket.test_pagination.TestPagination) ... ok
+test_first_link_of_pagination_during_list_ticket (testrepo.tq_search.search_existing_ticket.test_pagination.TestPagination) ... ok
+test_last_link_of_pagination_during_list_ticket (testrepo.tq_search.search_existing_ticket.test_pagination.TestPagination) ... ok
+test_next_previous_link_of_pagination_during_list_tickets (testrepo.tq_search.search_existing_ticket.test_pagination.TestPagination) ... ok
+test_all_the_dates_are_converted_to_UTC_format (testrepo.tq_search.search_existing_ticket.test_fetch_existing_core_tickets.TestFetchExistingCoreTickets) ... ok
+test_content_type_of_response (testrepo.tq_search.search_existing_ticket.test_fetch_existing_core_tickets.TestFetchExistingCoreTickets) ... ok
+test_load_existing_tickets_to_ticket_search (testrepo.tq_search.search_existing_ticket.test_fetch_existing_core_tickets.TestFetchExistingCoreTickets) ... ok
+test_list_tickets_and_verify_the_account_data (testrepo.tq_search.search_existing_ticket.test_account_information.TestAccountInformation) ... ok
+test_updating_acc_svs_team_attribute_not_syncing_in_tq_search (testrepo.tq_search.search_existing_ticket.test_account_information.TestAccountInformation) ... ok
+test_updating_ctkapi_team_attribute_sync_in_tq_search (testrepo.tq_search.search_existing_ticket.test_account_information.TestAccountInformation) ... ok
+test_get_specific_ticket_and_verify_it_exists_in_the_list (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_get_specific_ticket_using_query_parameters (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_list_tickets_by_date_range_in_query_params_with_eql_op (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_list_tickets_by_multiple_values_for_equal_operator (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_list_tickets_by_single_value_for_equal_operator (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_list_tickets_eql_and_not_eql_op_single_val_in_query_params (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_list_tickets_eql_and_noteql_op_multiple_vals_in_query_parms (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_list_tickets_query_params_with_multiple_vals_and_not_eql_op (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_list_tickets_queue_view_id (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_and_operator (testrepo.tq_search.search_existing_ticket.test_complex_queries.TestComplexQueries) ... ok
+test_list_query (testrepo.tq_search.search_existing_ticket.test_complex_queries.TestComplexQueries) ... ok
+test_multi_operators (testrepo.tq_search.search_existing_ticket.test_complex_queries.TestComplexQueries) ... ok
+test_not_operator (testrepo.tq_search.search_existing_ticket.test_complex_queries.TestComplexQueries) ... ok
+test_or_operator (testrepo.tq_search.search_existing_ticket.test_complex_queries.TestComplexQueries) ... ok
+test_range_query (testrepo.tq_search.search_existing_ticket.test_complex_queries.TestComplexQueries) ... ok
+test_result_sorting (testrepo.tq_search.search_existing_ticket.test_complex_queries.TestComplexQueries) ... ok
+test_submitter_operator (testrepo.tq_search.search_existing_ticket.test_complex_queries.TestComplexQueries) ... ok
+
+======================================================================
+FAIL: test_tkt_create_zen_desk (testrepo.tq_search.core_ongoing_sync.test_zendesk_ongoing_sync.TestZenDeskOngoingSync)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCAFE/workspace/lib/testrepo/tq_search/core_ongoing_sync/test_zendesk_ongoing_sync.py", line 57, in test_tkt_create_zen_desk
+    self.zen_desk_tkt.id))
+AssertionError: False is not True : The ticket1968741 is not present in tq_search
+
+----------------------------------------------------------------------
+Ran 41 tests in 1099.893s
+
+FAILED (failures=1)
+======================================================================================================================================================
+Log File Path: /var/lib/jenkins/jobs/CloudCAFE/workspace/.cloudcafe/logs/tq_search/local.search.config/2013-11-15_08_58_08.759809
+======================================================================================================================================================
+TICKET NUMBER:
+1968741
+1968742
+Build step 'Execute shell' marked build as failure
+Archiving artifacts
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at BUILD level /var/lib/jenkins/jobs/CloudCAFE/workspace to /var/lib/jenkins/jobs/CloudCAFE/builds/2013-11-15_08-58-07/htmlreports/HTML_Report
+Finished: FAILURE

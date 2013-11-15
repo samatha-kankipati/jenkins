@@ -1,0 +1,305 @@
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building search 0.1.0_b207-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-clean-plugin:2.4.1:clean (default-clean) @ search ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.0:execute (default) @ search ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:generateStubs (buildGroovies) @ search ---
+[INFO] Generated 101 Java stubs
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-resources-plugin:2.6:copy-resources (copy-webapp) @ search ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-antrun-plugin:1.3:run (default) @ search ---
+[INFO] Executing tasks
+    [unzip] Expanding: /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/src/main/webapp/_plugin/bigdesk.zip into /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/search-0.1.0_b207-SNAPSHOT/_plugin
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-resources-plugin:2.6:resources (default-resources) @ search ---
+    [unzip] Expanding: /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/src/main/webapp/_plugin/paramedic.zip into /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/search-0.1.0_b207-SNAPSHOT/_plugin
+[INFO] Executed tasks
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 8 resources
+[INFO] Copying 1 resource to ../
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-compiler-plugin:2.3.2:compile (default-compile) @ search ---
+[INFO] Compiling 99 source files to /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/classes
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:compile (buildGroovies) @ search ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:execute (filterResources) @ search ---
+[INFO] Compiled 214 Groovy classes
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:generateTestStubs (buildGroovies) @ search ---
+[INFO] Generated 46 Java stubs
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-resources-plugin:2.6:testResources (default-testResources) @ search ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ search ---
+[INFO] Compiling 46 source files to /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/test-classes
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:testCompile (buildGroovies) @ search ---
+[INFO] Compiled 57 Groovy classes
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-surefire-plugin:2.10:test (default-test) @ search ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-war-plugin:2.3:war (default-war) @ search ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [search] in [/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/search-0.1.0_b207-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Webapp assembled in [553 msecs]
+[INFO] Building war: /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/search-0.1.0_b207-SNAPSHOT.war
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-assembly-plugin:2.2:single (make-assembly) @ search ---
+[INFO] Reading assembly descriptor: /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/src/main/assembly/search.xml
+[INFO] Reading assembly descriptor: /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/src/main/assembly/config.xml
+[INFO] Building jar: /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/search-0.1.0_b207-SNAPSHOT-service.jar
+[INFO] Building zip: /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/search-0.1.0_b207-SNAPSHOT-config.zip
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.0:execute (default) @ search ---
+Nov 14, 2013 3:33:37 AM hudson.maven.ExecutedMojo <init>
+WARNING: Failed to getClass for org.mortbay.jetty.plugin.JettyDeployWar
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- jetty-maven-plugin:7.1.5.v20100705:deploy-war (start-jetty) @ search ---
+[INFO] Configuring Jetty for project: search
+[INFO] Context path = /
+[INFO] Tmp directory = /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/tmp
+[INFO] Web defaults = org/eclipse/jetty/webapp/webdefault.xml
+[INFO] Web overrides =  none
+[INFO] Starting jetty 7.1.5.v20100705 ...
+2013-11-14 03:33:37.604:INFO::jetty-7.1.5.v20100705
+2013-11-14 03:33:37.646:INFO::Extract jar:file:/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/search-0.1.0_b207-SNAPSHOT.war!/ to /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/search-0.1.0_b207-SNAPSHOT
+2013-11-14 03:33:40.532:INFO::No Transaction manager found - if your webapp requires one, please configure one.
+2013-11-14 03:33:41.597:WARN::Skipping PostConstruct annotation on com.sun.jersey.server.impl.ejb.EJBInjectionInterceptor.init: has parameters
+2013-11-14 03:33:48.172:WARN::Skipping PostConstruct annotation on org.springframework.ejb.interceptor.SpringBeanAutowiringInterceptor.autowireBean: has parameters
+2013-11-14 03:33:48.172:WARN::Skipping PreDestroy annotation on org.springframework.ejb.interceptor.SpringBeanAutowiringInterceptor.releaseBean: has parameters
+03:33:58,861 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/test-classes/logback-jetty.xml] at [file:/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/test-classes/logback-jetty.xml]
+03:33:59,129 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+03:33:59,132 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+03:33:59,136 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [ROLLING]
+03:33:59,197 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use gz compression
+03:33:59,198 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/search-%d{yyyy-MM-dd_HH}.%i for the active file
+03:33:59,201 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@136abff1 - The date pattern is 'yyyy-MM-dd_HH' from file name pattern '/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/search-%d{yyyy-MM-dd_HH}.%i.gz'.
+03:33:59,201 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@136abff1 - Roll-over at the top of every hour.
+03:33:59,202 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@136abff1 - Setting initial period to Thu Nov 14 03:33:59 UTC 2013
+03:33:59,222 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[ROLLING] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+03:33:59,222 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[ROLLING] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+03:33:59,222 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[ROLLING] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+03:33:59,223 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ROLLING] - Active log file name: /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/search.log
+03:33:59,223 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ROLLING] - File property is set to [/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/search.log]
+03:33:59,224 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+03:33:59,224 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [RESPONSE_LOG]
+03:33:59,226 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use gz compression
+03:33:59,227 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/response-%d{yyyy-MM-dd_HH}.%i for the active file
+03:33:59,227 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@455f712c - The date pattern is 'yyyy-MM-dd_HH' from file name pattern '/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/response-%d{yyyy-MM-dd_HH}.%i.gz'.
+03:33:59,227 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@455f712c - Roll-over at the top of every hour.
+03:33:59,227 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@455f712c - Setting initial period to Thu Nov 14 03:33:59 UTC 2013
+03:33:59,229 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[RESPONSE_LOG] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+03:33:59,229 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[RESPONSE_LOG] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+03:33:59,229 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[RESPONSE_LOG] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+03:33:59,229 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RESPONSE_LOG] - Active log file name: /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/response.log
+03:33:59,229 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RESPONSE_LOG] - File property is set to [/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/response.log]
+03:33:59,229 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+03:33:59,229 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FAILURE_LOG]
+03:33:59,232 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use gz compression
+03:33:59,232 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern com.sun.aas.instanceRoot_IS_UNDEFINED/logs/failure-%d{yyyy-MM-dd}.%i for the active file
+03:33:59,233 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@7cff2348 - The date pattern is 'yyyy-MM-dd' from file name pattern 'com.sun.aas.instanceRoot_IS_UNDEFINED/logs/failure-%d{yyyy-MM-dd}.%i.gz'.
+03:33:59,233 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@7cff2348 - Roll-over at midnight.
+03:33:59,233 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@7cff2348 - Setting initial period to Thu Nov 14 03:33:59 UTC 2013
+03:33:59,234 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[FAILURE_LOG] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+03:33:59,234 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[FAILURE_LOG] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+03:33:59,234 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[FAILURE_LOG] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+03:33:59,234 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FAILURE_LOG] - Active log file name: /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/failure.log
+03:33:59,234 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FAILURE_LOG] - File property is set to [/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/failure.log]
+03:33:59,234 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+03:33:59,234 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [ELASTICSEARCH_LOG]
+03:33:59,237 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use gz compression
+03:33:59,237 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/elasticsearch-%d{yyyy-MM-dd}.%i for the active file
+03:33:59,238 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@52658c14 - The date pattern is 'yyyy-MM-dd' from file name pattern '/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/elasticsearch-%d{yyyy-MM-dd}.%i.gz'.
+03:33:59,238 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@52658c14 - Roll-over at midnight.
+03:33:59,238 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@52658c14 - Setting initial period to Thu Nov 14 03:33:59 UTC 2013
+03:33:59,239 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[ELASTICSEARCH_LOG] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+03:33:59,239 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[ELASTICSEARCH_LOG] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+03:33:59,239 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[ELASTICSEARCH_LOG] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+03:33:59,239 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ELASTICSEARCH_LOG] - Active log file name: /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/elasticsearch.log
+03:33:59,239 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ELASTICSEARCH_LOG] - File property is set to [/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/elasticsearch.log]
+03:33:59,239 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+03:33:59,239 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CORE_TICKET_LATENCY_LOG]
+03:33:59,241 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use gz compression
+03:33:59,242 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/coreTicketLatency-%d{yyyy-MM-dd}.%i for the active file
+03:33:59,243 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@8cf9f4f - The date pattern is 'yyyy-MM-dd' from file name pattern '/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/coreTicketLatency-%d{yyyy-MM-dd}.%i.gz'.
+03:33:59,243 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@8cf9f4f - Roll-over at midnight.
+03:33:59,243 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@8cf9f4f - Setting initial period to Thu Nov 14 03:33:59 UTC 2013
+03:33:59,244 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[CORE_TICKET_LATENCY_LOG] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+03:33:59,244 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[CORE_TICKET_LATENCY_LOG] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+03:33:59,244 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[CORE_TICKET_LATENCY_LOG] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+03:33:59,244 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[CORE_TICKET_LATENCY_LOG] - Active log file name: /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/coreTicketLatency.log
+03:33:59,244 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[CORE_TICKET_LATENCY_LOG] - File property is set to [/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/coreTicketLatency.log]
+03:33:59,244 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - com.rackspace.search level set to INFO
+03:33:59,244 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to INFO
+03:33:59,244 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [ROLLING] to Logger[ROOT]
+03:33:59,246 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [RESPONSE_LOG] to Logger[ROOT]
+03:33:59,246 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FAILURE_LOG] to Logger[ROOT]
+03:33:59,246 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [ELASTICSEARCH_LOG] to Logger[ROOT]
+03:33:59,246 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CORE_TICKET_LATENCY_LOG] to Logger[ROOT]
+
+2013-11-14 03:33:59.251:INFO:/:Initializing Spring root WebApplicationContext null null
+Nov 14, 2013 3:34:09 AM com.mchange.v2.log.MLog <clinit>
+INFO: MLog clients using java 1.4+ standard logging.
+Nov 14, 2013 3:34:09 AM com.mchange.v2.c3p0.C3P0Registry banner
+INFO: Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+Exception in thread "Timer-0" com.rackspace.search.exception.NotFoundException: Index is missing
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:102)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:182)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient.getDocument(ElasticSearchClient.groovy:212)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient$getDocument.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:124)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:56)
+	at com.rackspace.search.service.JobService$getJob$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:52)
+	at com.rackspace.search.service.JobService$getJob.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at com.rackspace.search.service.core.CoreTicketOngoingSyncJob.setupJob(CoreTicketOnGoingSyncJob.groovy:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78)
+	at com.rackspace.search.service.core.CoreTicketOngoingSyncJob.this$dist$invoke$1(CoreTicketOnGoingSyncJob.groovy)
+	at com.rackspace.search.service.core.CoreTicketOngoingSyncJob$1.methodMissing(CoreTicketOnGoingSyncJob.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:837)
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1134)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1087)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137)
+	at com.rackspace.search.service.core.CoreTicketOngoingSyncJob$1.run(CoreTicketOnGoingSyncJob.groovy:72)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+Nov 14, 2013 3:34:15 AM com.sun.jersey.spi.spring.container.servlet.SpringServlet getContext
+INFO: Using default applicationContext
+Nov 14, 2013 3:34:15 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, searchResource, of type com.rackspace.search.endpoint.SearchResource as a root resource class
+Nov 14, 2013 3:34:15 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, syncRequestResource, of type com.rackspace.search.endpoint.SyncRequestResource as a root resource class
+Nov 14, 2013 3:34:15 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, notFoundExceptionMapper, of type com.rackspace.search.endpoint.fault.mapper.NotFoundExceptionMapper as a provider class
+Nov 14, 2013 3:34:15 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, badRequestExceptionMapper, of type com.rackspace.search.endpoint.fault.mapper.BadRequestExceptionMapper as a provider class
+Nov 14, 2013 3:34:15 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, staticResource, of type com.rackspace.search.endpoint.StaticResource as a root resource class
+Nov 14, 2013 3:34:15 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, jobResource, of type com.rackspace.search.endpoint.JobResource as a root resource class
+Nov 14, 2013 3:34:15 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Nov 14, 2013 3:34:16 AM com.sun.jersey.spi.inject.Errors processErrorMessages
+WARNING: The following warnings have been detected with resource and/or provider classes:
+  WARNING: A sub-resource method, public javax.ws.rs.core.Response com.rackspace.search.endpoint.SearchResource.getTickets(javax.ws.rs.core.UriInfo,int,int) throws java.lang.Exception, with URI template, "/", is treated as a resource method
+  WARNING: A sub-resource method, public javax.ws.rs.core.Response com.rackspace.search.endpoint.SearchResource.getTickets(java.lang.String,javax.ws.rs.core.UriInfo,int,int) throws java.lang.Exception, with URI template, "/", is treated as a resource method
+  WARNING: A sub-resource method, public javax.ws.rs.core.Response com.rackspace.search.endpoint.StaticResource.getServiceProfile() throws java.lang.Exception, with URI template, "/", is treated as a resource method
+2013-11-14 03:34:17.215:INFO::Started SelectChannelConnector@0.0.0.0:9296
+[INFO] Started Jetty Server
+[INFO] [INFO] Stopping server 0
+
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- jetty-maven-plugin:7.1.5.v20100705:stop (stop-jetty) @ search ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Search POM ........................................ SUCCESS [2.790s]
+[INFO] search ............................................ SUCCESS [1:22.947s]
+[INFO] cucumber .......................................... SUCCESS [1:06.736s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2:33.122s
+[INFO] Finished at: Thu Nov 14 03:35:24 UTC 2013
+[INFO] Final Memory: 127M/1246M
+[INFO] ------------------------------------------------------------------------
+[JENKINS] Archiving /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/pom.xml to /var/lib/jenkins/jobs/TSearchFunctionalTests/modules/com.rackspace.api$cucumber/builds/2013-11-14_03-32-46/archive/com.rackspace.api/cucumber/0.1.0_b207-SNAPSHOT/cucumber-0.1.0_b207-SNAPSHOT.pom
+[JENKINS] Archiving /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/cucumber-0.1.0_b207-SNAPSHOT.jar to /var/lib/jenkins/jobs/TSearchFunctionalTests/modules/com.rackspace.api$cucumber/builds/2013-11-14_03-32-46/archive/com.rackspace.api/cucumber/0.1.0_b207-SNAPSHOT/cucumber-0.1.0_b207-SNAPSHOT.jar
+2013-11-14 03:35:26.037:INFO:/:Closing Spring root WebApplicationContext
+Nov 14, 2013 3:35:26 AM com.mchange.v2.resourcepool.BasicResourcePool prelimCheckoutResource
+INFO: com.mchange.v2.resourcepool.BasicResourcePool@7b896df2 -- an attempt to checkout a resource was interrupted, because the pool is now closed. [Thread: Timer-20]
+Exception in thread "Timer-20" com.rackspace.search.exception.NotFoundException: Index is missing
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:102)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:182)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient.getDocument(ElasticSearchClient.groovy:212)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient$getDocument.call(Unknown Source)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:56)
+	at com.rackspace.search.service.JobService$getJob$0.callCurrent(Unknown Source)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:52)
+	at com.rackspace.search.service.JobService.reportJobError(JobService.groovy:251)
+	at com.rackspace.search.service.JobService$reportJobError.call(Unknown Source)
+	at com.rackspace.search.service.core.CoreTicketOnetimeSyncJob.syncTickets(CoreTicketOneTimeSyncJob.groovy:118)
+	at com.rackspace.search.service.core.CoreTicketOnetimeSyncJob.this$2$syncTickets(CoreTicketOneTimeSyncJob.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78)
+	at com.rackspace.search.service.core.CoreTicketOnetimeSyncJob.this$dist$invoke$1(CoreTicketOneTimeSyncJob.groovy)
+	at com.rackspace.search.service.core.CoreTicketOnetimeSyncJob$1.methodMissing(CoreTicketOneTimeSyncJob.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:837)
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1134)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1087)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:145)
+	at com.rackspace.search.service.core.CoreTicketOnetimeSyncJob$1.run(CoreTicketOneTimeSyncJob.groovy:95)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+[JENKINS] Archiving /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/pom.xml to /var/lib/jenkins/jobs/TSearchFunctionalTests/modules/com.rackspace.api$search-pom/builds/2013-11-14_03-32-46/archive/com.rackspace.api/search-pom/0.1.0_b207-SNAPSHOT/search-pom-0.1.0_b207-SNAPSHOT.pom
+[JENKINS] Archiving /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/pom.xml to /var/lib/jenkins/jobs/TSearchFunctionalTests/modules/com.rackspace.api$search/builds/2013-11-14_03-32-46/archive/com.rackspace.api/search/0.1.0_b207-SNAPSHOT/search-0.1.0_b207-SNAPSHOT.pom
+2013-11-14 03:35:26.533:INFO:oejsl.ELContextCleaner:javax.el.BeanELResolver purged
+2013-11-14 03:35:26.533:INFO:oejsh.ContextHandler:stopped o.m.j.p.JettyWebAppContext{/,file:/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/tmp/webapp/},/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/war/search.war
+[JENKINS] Archiving /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/search-0.1.0_b207-SNAPSHOT.war to /var/lib/jenkins/jobs/TSearchFunctionalTests/modules/com.rackspace.api$search/builds/2013-11-14_03-32-46/archive/com.rackspace.api/search/0.1.0_b207-SNAPSHOT/search-0.1.0_b207-SNAPSHOT.war
+[JENKINS] Archiving /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/search-0.1.0_b207-SNAPSHOT-service.jar to /var/lib/jenkins/jobs/TSearchFunctionalTests/modules/com.rackspace.api$search/builds/2013-11-14_03-32-46/archive/com.rackspace.api/search/0.1.0_b207-SNAPSHOT/search-0.1.0_b207-SNAPSHOT-service.jar
+[JENKINS] Archiving /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/search-0.1.0_b207-SNAPSHOT-config.zip to /var/lib/jenkins/jobs/TSearchFunctionalTests/modules/com.rackspace.api$search/builds/2013-11-14_03-32-46/archive/com.rackspace.api/search/0.1.0_b207-SNAPSHOT/search-0.1.0_b207-SNAPSHOT-config.zip
+Waiting for Jenkins to finish collecting data

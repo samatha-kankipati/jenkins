@@ -1,0 +1,34 @@
+Changes in branch origin/master, between 3504218d46d2ca45924e1b8f57980616751fd8e7 and b45b67bf45bdfb0708acca36e4180f2b602e32e8
+commit 6521cdc061c2c57b71fab2931e380aac9d905962
+tree 63507cb52429928720ab401b31a3c272ff27e5ca
+parent f10dbd2c3ebb8e8b12b3e96d62491a15dab3282c
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1376605173 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1376605173 -0500
+
+    [B-54780] : Updated complexQuery to suppport Array list of values
+
+:100644 100644 e42e05aae1081aa2b9fdae9b7b8efbc85b80bab9 828a66a3775d6ecc948daaaa5065e9b1b392fc3f M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/QueryParser.groovy
+
+commit f10dbd2c3ebb8e8b12b3e96d62491a15dab3282c
+tree 13827c05f033f7c8a6968fc713982f5c207d2168
+parent 7ffd6a4e33d6ed1ee2d0484656a8666f58f14370
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1376444259 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1376444259 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 f2c6e97966e6cdf5b2a32e06b35052043c24f070 ab15f7c066309cec5c1865d5bf79ebe3df3f8b38 M	cucumber/pom.xml
+:100644 100644 9fb4a01a3947b57e8daf9fa7a2e51afb96210989 a3aab9881acb77f8687618641d0e93cc8ad7b9fc M	pom.xml
+:100644 100644 078f23425b753c2e28fa2df977977487a7dbe119 d113e4826937247197a08b10f7a71196a3c3030d M	service/pom.xml
+
+commit 7ffd6a4e33d6ed1ee2d0484656a8666f58f14370
+tree 1aabd5d0d61ec13c460abae0029d87b44e883200
+parent 3504218d46d2ca45924e1b8f57980616751fd8e7
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1376444255 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1376444255 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b147
+
+:100644 100644 26cf81ca1ad8c34e397fe5186d8178c7d746624c f2c6e97966e6cdf5b2a32e06b35052043c24f070 M	cucumber/pom.xml
+:100644 100644 8dc29f9a99f99046624db29394196dda5a354803 9fb4a01a3947b57e8daf9fa7a2e51afb96210989 M	pom.xml
+:100644 100644 dc88b03d9db5f100e644492aeb80176e6f443e19 078f23425b753c2e28fa2df977977487a7dbe119 M	service/pom.xml

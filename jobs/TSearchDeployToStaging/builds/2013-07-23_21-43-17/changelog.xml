@@ -1,0 +1,44 @@
+Changes in branch origin/master, between 49bb1a9e9920b94ec64d1dd308d77da9bd4e6d0f and cfd84805c904ce927ca371fadf5622c6c691bbdc
+commit cfd84805c904ce927ca371fadf5622c6c691bbdc
+tree 47b0a6d612caadb177dc2dfb184f5140dec878fd
+parent a9292d075d1189c543d86fe02dfda9a0f2a34241
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374615500 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374615500 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 d4ad20bbf82f967d2b3ebf9cf8fb399ebf5b4f23 2189ea25c3a8a8a7ec44e3a3a784e6c5cbc1d53e M	cucumber/pom.xml
+:100644 100644 79fb65cdaa200319c2d391bfcbd3ef2cd163a837 87df704af884c59eb3d14043e1f468b9ccd2300a M	pom.xml
+:100644 100644 f781ff00a91232b7a733781d57517d641edb0f09 24cf0109a927425c566a6e059eb28950146589ff M	service/pom.xml
+
+commit a9292d075d1189c543d86fe02dfda9a0f2a34241
+tree 62ab43ce49597d45c43da32568c450a2bef76e5a
+parent 2b8d775c0025e381f65825a6389e20fbf23b3609
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374615496 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374615496 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b133
+
+:100644 100644 6131321dbc2eed00cedb21ecc80f19cc3d0ad0fd d4ad20bbf82f967d2b3ebf9cf8fb399ebf5b4f23 M	cucumber/pom.xml
+:100644 100644 e21cdd6804abd988669ce8b62c9fd8d478ec5810 79fb65cdaa200319c2d391bfcbd3ef2cd163a837 M	pom.xml
+:100644 100644 f1f373804414535ca046efa4ba2f4469bd1285f0 f781ff00a91232b7a733781d57517d641edb0f09 M	service/pom.xml
+
+commit 16e7103f60a082dde58f86bf97c7568148b915de
+tree 1c7fd648da5fa579aee1c5dc371745636ea87ffe
+parent d8cbfa37b558d4009fc0ec68f9f22d9d3b35731d
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1374613332 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1374613332 -0500
+
+    [B-52758]: removed version check
+
+:100644 100644 c19e48311208f8d29242732364b3a65efb3f39fd 79bfcb4cd4cdc8fc782a15f7808bf47cea439770 M	service/src/main/groovy/com/rackspace/search/service/account/AccountUpdatesSyncActor.groovy
+
+commit 4cb838200b3cb5eba6339d6e2f70e95cd77a87d8
+tree e06dbaa63e51f437ba2fbf3e4346a70bcc24174e
+parent 25c578b370f5e65af5e9e9036b997c3efcf21c36
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1374269028 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1374269028 -0500
+
+    [B-52758]:  need to set job type...
+
+:100644 100644 6dce1f53370152d1cef327587b9eeca352b63dde 94748b5f06452d05e50f4d2ad4ef80699c77c24d M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncJob.groovy

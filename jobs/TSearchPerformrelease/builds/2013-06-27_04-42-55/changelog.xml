@@ -1,0 +1,146 @@
+Changes in branch origin/master, between 66b523bcc1427cfcd8d552d24a48bd5b26df068c and ea5d475d8d77b8812f20f0dfe41696859b39ee62
+commit 7e74cc985a0852da86a52ab873f85f3bd58b5293
+tree a31433fda19e45a5737eec120196ddc0aa0383b7
+parent 7375038e01b06f94f7db918ad49663e1a775b4ee
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1372286707 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1372286707 -0500
+
+    [B-49775]:  checking for npe
+
+:100644 100644 ef541cde202a27674150909208730dce6c4777ee 8f2bec810054e39fefdc447d504291308c81d38a M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/QueryParser.groovy
+
+commit 7375038e01b06f94f7db918ad49663e1a775b4ee
+tree 6dea265b193962d025414c5249a2996ac0e8e60e
+parent 42f4d1dabf806e29a49bd590abcadf413ee54405
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1372284244 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1372284244 -0500
+
+    [B-49775]:  refactoring filters
+
+:100644 100644 dd4d3b3c10c93edb83cabeffe5eb20233f76325a 8c46c036e9e4ff682e79f071c6692abfbeea9e36 M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy
+:100644 100644 03b0c276d1f96e435b00f59bcf21ae6254ebb7aa ef541cde202a27674150909208730dce6c4777ee M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/QueryParser.groovy
+:100644 100644 7bd8d0200539701e652e1f28418609f8e09ff4a4 5802747df44d14c93b371a4817261bdbfa923136 M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/SimpleQueryParser.groovy
+:100644 100644 b1499e13dcbbe0a60113bc12f8f0ffbc9282883e 5537e9db28ba2139cebd9b4c1f00e01a81a159a9 M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+:100644 100644 138f53492bcae512deb447ee54a9ac148a38139d 7ab1cd8fe3f679d1d5d7011ce97970d717bc7f84 M	service/src/main/groovy/com/rackspace/search/service/TicketSearchService.groovy
+:100644 100644 291f6996cd05842413b8b1075f6b9bc72369fc3a 07470f185ac76c89443bc9d5e9bbad113f38619e M	service/src/test/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClientTest.groovy
+
+commit 42f4d1dabf806e29a49bd590abcadf413ee54405
+tree 48bf1df591ec39e184ff6ed25766a205ad48a912
+parent 590476cd01efedbe4bd4491daf62eefbf460306d
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1372280266 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1372280266 -0500
+
+    [B-49775]:  fixing review comments
+
+:100644 100644 b06e3acfe81b6322378907f5f884110bdadd2710 03b0c276d1f96e435b00f59bcf21ae6254ebb7aa M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/QueryParser.groovy
+
+commit 590476cd01efedbe4bd4491daf62eefbf460306d
+tree 78e8cdfe04affc09bb942ca2a9d029835da60e25
+parent 2fba6b349e17fa761dda90a212a97f6063022b7c
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1372221221 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1372221221 -0500
+
+    [B-49775]:  supporting range criteria
+
+:100644 100644 0ea66d9e0cccd64f65bdfe537cb2c3bb241a8d9f bfbecb74441f735dd9fdbef79c52259527d1d46d M	service/src/main/groovy/com/rackspace/search/Constants.groovy
+:100644 100644 24c18de00c4b7ba9f3c19fc34aad193dcaf791be b06e3acfe81b6322378907f5f884110bdadd2710 M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/QueryParser.groovy
+
+commit 2fba6b349e17fa761dda90a212a97f6063022b7c
+tree 2b3f9c816919f9ae17036071bc4ae7e5e7da0906
+parent 18cb0560e4d4ba07ae73d8b19817372d066ec201
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1372220199 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1372220199 -0500
+
+    [B-49775]:  supporting in criteria
+
+:100644 100644 573f9054100a2f30433a4ec546606b9de228edf7 24c18de00c4b7ba9f3c19fc34aad193dcaf791be M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/QueryParser.groovy
+
+commit 18cb0560e4d4ba07ae73d8b19817372d066ec201
+tree fc33ef9d6dd360f3bf534584f8f61d946bd7b1d7
+parent fa4d6013dd8173175e7478b5e0577c4f7deae9f0
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1372193700 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1372193700 -0500
+
+    [B-49775]:  fixing compilation
+
+:100644 100644 fa5dd42cbd4e6a86074a4cc457029c6c87f84048 dd4d3b3c10c93edb83cabeffe5eb20233f76325a M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy
+:100644 100644 227d9b7051f458c655f6f7967264a09c93af599d 7bd8d0200539701e652e1f28418609f8e09ff4a4 M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/SimpleQueryParser.groovy
+
+commit fa4d6013dd8173175e7478b5e0577c4f7deae9f0
+tree 6b249b4ecb264d873c317d9a110211dad7fd0989
+parent 42e5dc72d5282726ad5164a1fbbb4fd16dc0cda0
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1372192262 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1372192262 -0500
+
+    [B-49775]:  code changes for complex querying
+
+:100644 100644 17952e954e06e4773bd626c9e4b28c58e69380e3 573f9054100a2f30433a4ec546606b9de228edf7 M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/QueryParser.groovy
+:100644 100644 41a93b8749e7d9ad0177fb839447d7015de5201f 138f53492bcae512deb447ee54a9ac148a38139d M	service/src/main/groovy/com/rackspace/search/service/TicketSearchService.groovy
+
+commit 42e5dc72d5282726ad5164a1fbbb4fd16dc0cda0
+tree a2a69d1260b65daf45827453548e1f5b68eafc72
+parent 9601f8a0eb323f1aee7a1408b0291e10403998b7
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1372189625 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1372189625 -0500
+
+    [B-49775]:  initial code changes for complex querying
+
+:100644 000000 6ac318d61cb3073cba0093e8c4301e29e5383678 0000000000000000000000000000000000000000 D	service/src/main/groovy/com/rackspace/search/QueryParser.groovy
+:000000 100644 0000000000000000000000000000000000000000 17952e954e06e4773bd626c9e4b28c58e69380e3 A	service/src/main/groovy/com/rackspace/search/elasticsearch/client/QueryParser.groovy
+:100644 100644 115fec71e24fae95775aa122535383418ed91079 227d9b7051f458c655f6f7967264a09c93af599d R085	service/src/main/groovy/com/rackspace/search/elasticsearch/client/GetQueryParser.groovy	service/src/main/groovy/com/rackspace/search/elasticsearch/client/SimpleQueryParser.groovy
+:100644 100644 0b8ee5680e0114ed97886cb11471209ee7d852ee b1499e13dcbbe0a60113bc12f8f0ffbc9282883e M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+:100644 100644 369ae3a08a1cca8cca96b529d9e41398325d02c9 41a93b8749e7d9ad0177fb839447d7015de5201f M	service/src/main/groovy/com/rackspace/search/service/TicketSearchService.groovy
+:100644 100644 ed5f6f5691834e3290fade27acf754169108836d 2812e092fe8a67b6adcc6730b4c328675eae0a1f M	service/src/main/java/com/rackspace/search/endpoint/SearchResource.java
+:100644 100644 f7a0317ab012a123f3ebd3fbf24b855ce554c2e1 291f6996cd05842413b8b1075f6b9bc72369fc3a M	service/src/test/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClientTest.groovy
+
+commit 9601f8a0eb323f1aee7a1408b0291e10403998b7
+tree 0148ed3d73c300693a227895eb948c8382f44826
+parent 857fc08c8b5e45338a0101b15a6c65f6f54afc5b
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1372182642 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1372182642 -0500
+
+    [B-49775]:  Separating the query parsing logic to new class
+
+:100644 100644 e8f785d29dd04cd804e137b9d6dee8a88d2ab1dd 0ea66d9e0cccd64f65bdfe537cb2c3bb241a8d9f M	service/src/main/groovy/com/rackspace/search/Constants.groovy
+:100644 100644 64036dcf3c83341dc8c7b4e030a05733f6fc2916 6ac318d61cb3073cba0093e8c4301e29e5383678 M	service/src/main/groovy/com/rackspace/search/QueryParser.groovy
+:100644 100644 63669c4624393e6ca0dcdc3c59fab60f472c6ab9 d0274e4f7c8abaa2422974795ae99742e6d45901 M	service/src/main/groovy/com/rackspace/search/elasticsearch/ElasticSearchServer.groovy
+:100644 100644 c18ddf214681879b3f5d6e48e9c8cc1d42c64fb0 fa5dd42cbd4e6a86074a4cc457029c6c87f84048 M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy
+:000000 100644 0000000000000000000000000000000000000000 115fec71e24fae95775aa122535383418ed91079 A	service/src/main/groovy/com/rackspace/search/elasticsearch/client/GetQueryParser.groovy
+:100644 100644 c03d0d49153296d045ddf85ad9bb7ca805c33613 0b8ee5680e0114ed97886cb11471209ee7d852ee M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+:100644 100644 066dba798e32203013748ba67c8061f016b25c19 369ae3a08a1cca8cca96b529d9e41398325d02c9 M	service/src/main/groovy/com/rackspace/search/service/TicketSearchService.groovy
+:100644 100644 c9d552de4b93b2122d6a49c038ee78ba9c22e0dd 46ca42ac00603212dd8b42267ce36057beef2930 M	service/src/main/java/com/rackspace/search/endpoint/StaticResource.java
+:100644 100644 5264da0964b92a3e24e02abb94c609972dbacfdb f7a0317ab012a123f3ebd3fbf24b855ce554c2e1 M	service/src/test/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClientTest.groovy
+
+commit 857fc08c8b5e45338a0101b15a6c65f6f54afc5b
+tree e20faa713fb973e3e56abff204dd0219064628d2
+parent 407e7b38981895ca40c6b531fe90ea11f24883f1
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1372131000 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1372131000 -0500
+
+    [B-49775 ]: initial code changes for complex queries
+
+:000000 100644 0000000000000000000000000000000000000000 64036dcf3c83341dc8c7b4e030a05733f6fc2916 A	service/src/main/groovy/com/rackspace/search/QueryParser.groovy
+
+commit 407e7b38981895ca40c6b531fe90ea11f24883f1
+tree 60e525805d95813b958842c5c7b8b8d5b393c3a2
+parent 0933cc850263c2ed5d930157d5d54495dd265cd9
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372085535 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372085535 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 5327211c6e2d1eb13675fe6b42806713642aa203 eab7d339d4dbc50ac32dec5b075175faff2c3a83 M	cucumber/pom.xml
+:100644 100644 82666462b4da2f8a038bab6d0a01822b50b76aac e6c5d33ed07916ca004080efbba90cbc6145cb58 M	pom.xml
+:100644 100644 30b73286c40ded4864a71177b92990a263c3a827 ad0a8e418773fd5fbd381fada168c04d073ac0da M	service/pom.xml
+
+commit 0933cc850263c2ed5d930157d5d54495dd265cd9
+tree 8e734c63ce73ff079ab2f9c1d4c3f29e91495bec
+parent 66b523bcc1427cfcd8d552d24a48bd5b26df068c
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372085530 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372085530 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b111
+
+:100644 100644 b640e50560300fc84e9f59d2e685f6884ac62834 5327211c6e2d1eb13675fe6b42806713642aa203 M	cucumber/pom.xml
+:100644 100644 edf7879c0822772b1f0e0c435cbd82650c925452 82666462b4da2f8a038bab6d0a01822b50b76aac M	pom.xml
+:100644 100644 81007bc4cf27e61f20cdb9e5126ab4777ffa501a 30b73286c40ded4864a71177b92990a263c3a827 M	service/pom.xml

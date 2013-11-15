@@ -1,0 +1,1124 @@
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building search 0.1.0_b184-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/groups/public/org/codehaus/groovy/maven/gmaven-plugin/maven-metadata.xml
+Downloaded: http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/groups/public/org/codehaus/groovy/maven/gmaven-plugin/maven-metadata.xml (583 B at 1.6 KB/sec)
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-clean-plugin:2.4.1:clean (default-clean) @ search ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.0:execute (default) @ search ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:generateStubs (buildGroovies) @ search ---
+[INFO] Generated 95 Java stubs
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-resources-plugin:2.6:copy-resources (copy-webapp) @ search ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-antrun-plugin:1.3:run (default) @ search ---
+[INFO] Executing tasks
+    [unzip] Expanding: /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/src/main/webapp/_plugin/bigdesk.zip into /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/search-0.1.0_b184-SNAPSHOT/_plugin
+    [unzip] Expanding: /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/src/main/webapp/_plugin/paramedic.zip into /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/search-0.1.0_b184-SNAPSHOT/_plugin
+[INFO] Executed tasks
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-resources-plugin:2.6:resources (default-resources) @ search ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 8 resources
+[INFO] Copying 1 resource to ../
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-compiler-plugin:2.3.2:compile (default-compile) @ search ---
+[INFO] Compiling 94 source files to /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/classes
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:compile (buildGroovies) @ search ---
+[INFO] Compiled 204 Groovy classes
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:execute (filterResources) @ search ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:generateTestStubs (buildGroovies) @ search ---
+[INFO] Generated 45 Java stubs
+[INFO] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-resources-plugin:2.6:testResources (default-testResources) @ search ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ search ---
+[INFO] Compiling 45 source files to /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/test-classes
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:testCompile (buildGroovies) @ search ---
+[INFO] Compiled 56 Groovy classes
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-surefire-plugin:2.10:test (default-test) @ search ---
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.rackspace.search.endpoint.JobResourceTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.004 sec
+Running com.rackspace.search.service.core.CoreTicketOnetimeSyncJobTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.888 sec
+Running com.rackspace.search.service.core.CoreTicketOngoingSyncJobTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.821 sec
+Running com.rackspace.search.service.core.CoreTicketProcessorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 sec
+Running com.rackspace.search.service.core.CoreTicketOnetimeSyncActorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.233 sec
+Running com.rackspace.search.service.core.CoreTicketOngoingSyncActorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.328 sec
+Running com.rackspace.search.service.core.CoreTicketSecondpassSyncJobTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.063 sec
+Running com.rackspace.search.service.CoreAccountServiceTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.rackspace.search.service.zendesk.ZendeskTicketProcessorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.rackspace.search.service.zendesk.ZendeskUserOnetimeSyncActorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.142 sec
+Running com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncJobTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.769 sec
+Running com.rackspace.search.service.zendesk.ZendeskSearchResultProcessorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncJobTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 sec
+Running com.rackspace.search.service.zendesk.ZendeskTicketOnetimeSyncJobTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.793 sec
+Running com.rackspace.search.service.zendesk.ZendeskGroupOnetimeSyncActorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.858 sec
+Running com.rackspace.search.service.zendesk.ZendeskTicketOnetimeSyncActorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncActorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.rackspace.search.service.zendesk.ZendeskTicketOngoingSyncJobTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.rackspace.search.service.zendesk.ZendeskUserOnetimeSyncJobTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec
+Running com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncJobTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.095 sec
+Running com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncActorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.975 sec
+Running com.rackspace.search.service.zendesk.ZendeskTicketOngoingSyncActorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.rackspace.search.service.SyncRequestServiceTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.rackspace.search.service.JobServiceTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.rackspace.search.service.TicketSearchServiceTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.rackspace.search.service.account.CoreAccountUpdateSyncJobTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.rackspace.search.service.account.AccountOngoingSyncActorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.rackspace.search.service.account.AccountOngoingSyncJobTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.564 sec
+Running com.rackspace.search.service.account.AccountOnetimeSyncJobTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+Running com.rackspace.search.service.account.CoreAccountProcessorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.rackspace.search.service.account.AccountOnetimeSyncActorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.555 sec
+Running com.rackspace.search.service.admin.AccountOndemandSyncJobTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.rackspace.search.service.AccountCacheServiceTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.rackspace.search.service.TicketCacheServiceTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.rackspace.search.util.DateUtilTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.rackspace.search.gateway.core.CoreAuthGatewayTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.828 sec
+Running com.rackspace.search.gateway.core.CoreTicketGatewayTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.rackspace.search.gateway.zendesk.ZendeskGatewayTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.rackspace.search.gateway.account.AccountGatewayTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.rackspace.search.elasticsearch.client.ElasticSearchClientFactoryBeanTest
+20:12:30.224 [main] INFO  c.r.s.common.property.PropertyProvider - Loading properties file from file [/var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/properties/local/search.properties]
+20:12:30.229 [main] INFO  c.r.s.common.property.PropertyProvider - Loading properties file from file [/var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/properties/local/search.secrets.properties]
+20:12:30.229 [main] INFO  c.r.s.common.property.PropertyProvider - Loading properties file from file [/var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/properties/local/elasticsearch.properties]
+20:12:30.598 [main] INFO  c.r.s.elasticsearch.ElasticSearchServer - Starting the Elastic Search server node:
+20:12:30.823 [main] INFO  org.elasticsearch.node - [ticket.node] {0.90.2}[19659]: initializing ...
+20:12:30.869 [main] INFO  org.elasticsearch.plugins - [ticket.node] loaded [action-updatebyquery], sites []
+20:12:35.405 [main] INFO  org.elasticsearch.node - [ticket.node] {0.90.2}[19659]: initialized
+20:12:35.406 [main] INFO  c.r.s.elasticsearch.ElasticSearchServer - Starting the Elastic Search server node with these settings:
+20:12:35.436 [main] INFO  c.r.s.elasticsearch.ElasticSearchServer - Elasticsearch Settings :  [zendesk.user.document.idName:id, elastic.config.path:/var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/properties/local/elasticsearch, path.data:/var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/elasticsearch/data, cluster.name:ticket.cluster, core.secondpass.lookbacktime.minutes:15, tsl.driver.class:oracle.jdbc.driver.OracleDriver, zendesk.group.document.versionParam:updatedAt, cluster.health.check.wait.time.seconds:120, path.conf:/var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/properties/local/elasticsearch, syncRequest.max.documents.size:250, core.account.caching.enabled:true, http.enabled:true, core.api.endpoint:https://ws.integration.core.rackspace.com/ctkapi, account.cache.expiration.time.minutes:120, zendesk.group.document.idName:id, default.page.size:100, admin.index.name:admin, zendesk.api.endpoint:https://mosso.zendesk.com/api/, index.store.fs.memory.enabled:false, admin.document.type:syncJob, node.data:true, node.name:ticket.node, ticket.core.date.timezone:CST, ticket.search.allowedRangeParams:createdAt,updatedAt,lastPublicCommentDate,updateEventDate,documentLastUpdatedTimestamp, core.driver.class:org.postgresql.Driver, ticket.cache.expiration.time.minutes:120, account.document.type:account, category.custom.field.id:102692, tsl.db.username:ISLDB_TEST_READ, core.db.url:jdbc:postgresql://integration.db.core.rackspace.com:5432/core_dev, core.account.updates.enabled:true, zendesk.user.document.type:user, index.analysis.analyzer.search_standard.filter:[lowercase], bootstrap.mlockall:true, zendesk.group.document.type:group, coreaccount.document.type:coreaccount, coreticket.onetimesync.usedb:true, node.master:true, core.account.filter.necessary.updates:true, index.number_of_replicas:0, core.account.cache.expiration.time.minutes:120, coreaccount.document.versionParam:updatedAt, ticket.caching.enabled:true, zendesk.api.username:itsm_api@lists.mosso.com, syncRequest.search.allowedTermParams:documentType,status,createdAt,lastRunAt,documentLastUpdatedTimestamp, core.secondpass.enabled:true, cluster.routing.allocation.awareness.attributes:machine, account.api.accounts.path:v1.0/accounts, node.machine:ticket.node, updated.timestamp.field.name:documentLastUpdatedTimestamp, ticket.elastic.dateformat:yyyy-MM-dd'T'HH:mm:ss.SSSZ, account.document.idName:id, action.auto_create_index:1, ticket.search.allowedNestedParams:account.contacts.name,account.contacts.role,account.contacts.sso, index.analysis.analyzer.search_standard.type:standard, http.connection.timeout.in.milliseconds:65000, ticket.ongoingsync.delay.seconds:2, path.logs:/var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/elasticsearch/logs, ticket.document.idName:number, technology.custom.field.id:108885, transport.tcp.compress:true, account.highprofile.name:HIGH_PROFILE, core.ongoingsync.loopback.time.seconds:120, ticket.index.name:ticket, tsl.db.url:jdbc:oracle:thin:@d-oradb1.iad2.corp.rackspace.com:1521:draxiad, account.api.username:hybrid_ui, indices.structure:/indices_structure.json, account.filter.necessary.updates:true, index.number_of_shards:5, syncRequest.search.allowedRangeParams:createdAt,lastRunAt,documentLastUpdatedTimestamp, max.page.size:500, core.api.username:rcameron, zendesk.api.search.path:v2/search.json, syncRequest.document.idName:id, discovery.zen.ping.multicast.enabled:false, account.update.tickets.pageSize:250, account.document.versionParam:updatedAt, ticket.core.dateformat:yyyy-MM-dd HH:mm:ss, zendesk.user.document.versionParam:updatedAt, coreaccount.document.idName:id, syncRequest.document.type:syncRequest, account.api.events.path:v1.0/accounts/events.atom, account.index.name:account, ticket.document.versionParam:updateEventDate, ticket.core.dateformat.with.millis:yyyy-MM-dd HH:mm:ss.SSSSSS, zendesk.index.name:zendesk, account.caching.enabled:true, ticket.document.type:ticket, zendesk.api.tickets.path:v2/views/25462223/tickets.json, admin.document.idName:name, facets.display.count:100, core.db.username:usq_read, syncRequest.index.name:admin, use.updateByQueryPlugin:false, ticket.search.allowedTermParams:sourceSystem,number,createdAt,updatedAt,updateEventDate,lastPublicCommentDate,status,queue.name,category,categoryObj.name,categoryObj.id,priority,assignee.name,hasWindowsServers,hasLinuxServers,severityName,assignee.sso,queue.id,accountServiceLevel,accountTeamTerritoryCode,account.serviceLevel,account.teamTerritoryCode,statusTypes,account.team,account.id,account.rcn,account.status,account.highProfile,documentLastUpdatedTimestamp,account.teamSegment,submitter.name,submitter.sso,account.contacts.name,account.contacts.role,account.contacts.sso,subCategoryObj.name,subCategoryObj.id,assignee.id,submitter.id, account.api.endpoint:https://test.account.api.rackspace.com/, name:ticket.node] 
+20:12:35.441 [main] INFO  org.elasticsearch.node - [ticket.node] {0.90.2}[19659]: starting ...
+20:12:35.621 [main] INFO  org.elasticsearch.transport - [ticket.node] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/10.14.208.252:9300]}
+20:12:38.708 [elasticsearch[ticket.node][clusterService#updateTask][T#1]] INFO  org.elasticsearch.cluster.service - [ticket.node] new_master [ticket.node][cjiIbPmhSzO017ePzIVgRA][inet[/10.14.208.252:9300]]{machine=ticket.node, master=true}, reason: zen-disco-join (elected_as_master)
+20:12:39.961 [main] INFO  org.elasticsearch.discovery - [ticket.node] ticket.cluster/cjiIbPmhSzO017ePzIVgRA
+20:12:40.564 [elasticsearch[ticket.node][clusterService#updateTask][T#1]] INFO  org.elasticsearch.gateway - [ticket.node] recovered [0] indices into cluster_state
+20:12:40.750 [main] INFO  org.elasticsearch.http - [ticket.node] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/10.14.208.252:9200]}
+20:12:40.751 [main] INFO  org.elasticsearch.node - [ticket.node] {0.90.2}[19659]: started
+20:12:40.751 [main] INFO  c.r.s.elasticsearch.ElasticSearchServer - Elastic Search server is started.
+20:12:40.788 [main] INFO  c.r.s.elasticsearch.ElasticSearchServer - ES cluster status is GREEN. Waiting for ES recovery.
+20:12:40.792 [main] INFO  c.r.s.elasticsearch.ElasticSearchServer - Elastic Search Cluster Staus is GREEN
+20:12:44.985 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Starting ElasticSearch client
+20:12:44.988 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /indices_structure.json
+20:12:45.001 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Index does not exist. Creating the Index ticket 
+20:12:45.025 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/properties/local/elasticsearch/mappings/ticket/index.json
+20:12:45.858 [Timer-5] INFO  c.r.s.elasticsearch.ElasticSearchServer - ES cluster status is GREEN. Waiting for ES recovery.
+20:12:46.561 [Timer-6] INFO  c.r.s.elasticsearch.ElasticSearchServer - ES cluster status is GREEN. Waiting for ES recovery.
+20:12:46.809 [Timer-7] INFO  c.r.s.elasticsearch.ElasticSearchServer - ES cluster status is GREEN. Waiting for ES recovery.
+20:12:46.810 [Timer-8] INFO  c.r.s.elasticsearch.ElasticSearchServer - ES cluster status is GREEN. Waiting for ES recovery.
+20:12:46.866 [Timer-5] ERROR c.r.s.e.client.ElasticSearchClient - Index is missing
+org.elasticsearch.indices.IndexMissingException: [admin] missing
+	at org.elasticsearch.cluster.metadata.MetaData.concreteIndex(MetaData.java:616) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.TransportGetAction.resolveRequest(TransportGetAction.java:90) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.TransportGetAction.resolveRequest(TransportGetAction.java:42) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction$AsyncSingleAction.<init>(TransportShardSingleOperationAction.java:114) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction$AsyncSingleAction.<init>(TransportShardSingleOperationAction.java:94) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction.doExecute(TransportShardSingleOperationAction.java:71) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction.doExecute(TransportShardSingleOperationAction.java:46) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:61) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.client.node.NodeClient.execute(NodeClient.java:92) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.client.support.AbstractClient.get(AbstractClient.java:179) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.GetRequestBuilder.doExecute(GetRequestBuilder.java:112) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:62) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:57) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder$execute.call(Unknown Source) ~[na:na]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient.getDocument(ElasticSearchClient.groovy:209) ~[classes/:na]
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient$getDocument.call(Unknown Source) [classes/:na]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:124) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:56) [classes/:na]
+	at com.rackspace.search.service.JobService$getJob$0.callCurrent(Unknown Source) [classes/:na]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:52) [classes/:na]
+	at com.rackspace.search.service.JobService$getJob.call(Unknown Source) [classes/:na]
+	at com.rackspace.search.service.core.CoreTicketOngoingSyncJob.setupJob(CoreTicketOnGoingSyncJob.groovy:90) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_38]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_38]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_38]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_38]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.core.CoreTicketOngoingSyncJob.this$dist$invoke$1(CoreTicketOnGoingSyncJob.groovy) [classes/:na]
+	at com.rackspace.search.service.core.CoreTicketOngoingSyncJob$1.methodMissing(CoreTicketOnGoingSyncJob.groovy) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_38]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_38]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_38]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_38]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:837) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1134) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1087) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.core.CoreTicketOngoingSyncJob$1.run(CoreTicketOnGoingSyncJob.groovy:72) [classes/:na]
+	at java.util.TimerThread.mainLoop(Timer.java:512) [na:1.6.0_38]
+	at java.util.TimerThread.run(Timer.java:462) [na:1.6.0_38]
+Exception in thread "Timer-5" 20:12:46.895 [Timer-10] INFO  c.r.s.elasticsearch.ElasticSearchServer - ES cluster status is GREEN. Waiting for ES recovery.
+com.rackspace.search.exception.NotFoundException: Index is missing
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:102)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:182)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient.getDocument(ElasticSearchClient.groovy:212)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient$getDocument.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:124)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:56)
+	at com.rackspace.search.service.JobService$getJob$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:52)
+	at com.rackspace.search.service.JobService$getJob.call(Unknown Source)
+	at com.rackspace.search.service.core.CoreTicketOngoingSyncJob.setupJob(CoreTicketOnGoingSyncJob.groovy:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78)
+	at com.rackspace.search.service.core.CoreTicketOngoingSyncJob.this$dist$invoke$1(CoreTicketOnGoingSyncJob.groovy)
+	at com.rackspace.search.service.core.CoreTicketOngoingSyncJob$1.methodMissing(CoreTicketOnGoingSyncJob.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:837)
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1134)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1087)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137)
+	at com.rackspace.search.service.core.CoreTicketOngoingSyncJob$1.run(CoreTicketOnGoingSyncJob.groovy:72)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+20:12:46.917 [Timer-11] INFO  c.r.s.elasticsearch.ElasticSearchServer - ES cluster status is GREEN. Waiting for ES recovery.
+20:12:46.919 [Timer-12] INFO  c.r.s.elasticsearch.ElasticSearchServer - ES cluster status is GREEN. Waiting for ES recovery.
+20:12:47.738 [Timer-9] INFO  c.r.s.elasticsearch.ElasticSearchServer - ES cluster status is GREEN. Waiting for ES recovery.
+20:12:47.758 [Timer-13] INFO  c.r.s.elasticsearch.ElasticSearchServer - ES cluster status is GREEN. Waiting for ES recovery.
+20:12:47.800 [Timer-12] ERROR c.r.s.e.client.ElasticSearchClient - Index is missing
+org.elasticsearch.indices.IndexMissingException: [admin] missing
+	at org.elasticsearch.cluster.metadata.MetaData.concreteIndex(MetaData.java:616) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.TransportGetAction.resolveRequest(TransportGetAction.java:90) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.TransportGetAction.resolveRequest(TransportGetAction.java:42) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction$AsyncSingleAction.<init>(TransportShardSingleOperationAction.java:114) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction$AsyncSingleAction.<init>(TransportShardSingleOperationAction.java:94) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction.doExecute(TransportShardSingleOperationAction.java:71) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction.doExecute(TransportShardSingleOperationAction.java:46) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:61) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.client.node.NodeClient.execute(NodeClient.java:92) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.client.support.AbstractClient.get(AbstractClient.java:179) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.GetRequestBuilder.doExecute(GetRequestBuilder.java:112) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:62) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:57) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder$execute.call(Unknown Source) ~[na:na]
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient.getDocument(ElasticSearchClient.groovy:209) ~[classes/:na]
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient$getDocument.call(Unknown Source) [classes/:na]
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:56) [classes/:na]
+	at com.rackspace.search.service.JobService$getJob$0.callCurrent(Unknown Source) [classes/:na]
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:52) [classes/:na]
+	at com.rackspace.search.service.JobService$getJob.call(Unknown Source) [classes/:na]
+	at com.rackspace.search.service.admin.AccountOndemandSyncJob.setupJob(AccountOndemandSyncJob.groovy:127) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_38]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_38]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_38]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_38]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.admin.AccountOndemandSyncJob.this$dist$invoke$1(AccountOndemandSyncJob.groovy) [classes/:na]
+	at com.rackspace.search.service.admin.AccountOndemandSyncJob$1.methodMissing(AccountOndemandSyncJob.groovy) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_38]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_38]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_38]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_38]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:837) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1134) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1087) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.admin.AccountOndemandSyncJob$1.run(AccountOndemandSyncJob.groovy:110) [classes/:na]
+	at java.util.TimerThread.mainLoop(Timer.java:512) [na:1.6.0_38]
+	at java.util.TimerThread.run(Timer.java:462) [na:1.6.0_38]
+Exception in thread "Timer-12" com.rackspace.search.exception.NotFoundException: Index is missing
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:102)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient.getDocument(ElasticSearchClient.groovy:212)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient$getDocument.call(Unknown Source)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:56)
+	at com.rackspace.search.service.JobService$getJob$0.callCurrent(Unknown Source)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:52)
+	at com.rackspace.search.service.JobService$getJob.call(Unknown Source)
+	at com.rackspace.search.service.admin.AccountOndemandSyncJob.setupJob(AccountOndemandSyncJob.groovy:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78)
+	at com.rackspace.search.service.admin.AccountOndemandSyncJob.this$dist$invoke$1(AccountOndemandSyncJob.groovy)
+	at com.rackspace.search.service.admin.AccountOndemandSyncJob$1.methodMissing(AccountOndemandSyncJob.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:837)
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1134)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1087)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137)
+	at com.rackspace.search.service.admin.AccountOndemandSyncJob$1.run(AccountOndemandSyncJob.groovy:110)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+20:12:47.804 [Timer-8] ERROR c.r.s.e.client.ElasticSearchClient - Index is missing
+org.elasticsearch.indices.IndexMissingException: [admin] missing
+	at org.elasticsearch.cluster.metadata.MetaData.concreteIndex(MetaData.java:616) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.TransportGetAction.resolveRequest(TransportGetAction.java:90) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.TransportGetAction.resolveRequest(TransportGetAction.java:42) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction$AsyncSingleAction.<init>(TransportShardSingleOperationAction.java:114) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction$AsyncSingleAction.<init>(TransportShardSingleOperationAction.java:94) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction.doExecute(TransportShardSingleOperationAction.java:71) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction.doExecute(TransportShardSingleOperationAction.java:46) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:61) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.client.node.NodeClient.execute(NodeClient.java:92) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.client.support.AbstractClient.get(AbstractClient.java:179) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.GetRequestBuilder.doExecute(GetRequestBuilder.java:112) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:62) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:57) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder$execute.call(Unknown Source) ~[na:na]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient.getDocument(ElasticSearchClient.groovy:209) ~[classes/:na]
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient$getDocument.call(Unknown Source) [classes/:na]
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:56) [classes/:na]
+	at com.rackspace.search.service.JobService$getJob$0.callCurrent(Unknown Source) [classes/:na]
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:52) [classes/:na]
+	at com.rackspace.search.service.JobService$getJob.call(Unknown Source) [classes/:na]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncJob.setupJob(ZendeskGroupOngoingSyncJob.groovy:75) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_38]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_38]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_38]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_38]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncJob.this$dist$invoke$1(ZendeskGroupOngoingSyncJob.groovy) [classes/:na]
+	at com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncJob$1.methodMissing(ZendeskGroupOngoingSyncJob.groovy) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_38]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_38]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_38]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_38]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:837) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1134) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1087) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncJob$1.run(ZendeskGroupOngoingSyncJob.groovy:56) [classes/:na]
+	at java.util.TimerThread.mainLoop(Timer.java:512) [na:1.6.0_38]
+	at java.util.TimerThread.run(Timer.java:462) [na:1.6.0_38]
+Exception in thread "Timer-8" com.rackspace.search.exception.NotFoundException: Index is missing
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:102)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient.getDocument(ElasticSearchClient.groovy:212)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient$getDocument.call(Unknown Source)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:56)
+	at com.rackspace.search.service.JobService$getJob$0.callCurrent(Unknown Source)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:52)
+	at com.rackspace.search.service.JobService$getJob.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncJob.setupJob(ZendeskGroupOngoingSyncJob.groovy:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78)
+	at com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncJob.this$dist$invoke$1(ZendeskGroupOngoingSyncJob.groovy)
+	at com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncJob$1.methodMissing(ZendeskGroupOngoingSyncJob.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:837)
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1134)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1087)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137)
+	at com.rackspace.search.service.zendesk.ZendeskGroupOngoingSyncJob$1.run(ZendeskGroupOngoingSyncJob.groovy:56)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+20:12:47.808 [Timer-10] ERROR c.r.s.e.client.ElasticSearchClient - Index is missing
+org.elasticsearch.indices.IndexMissingException: [admin] missing
+	at org.elasticsearch.cluster.metadata.MetaData.concreteIndex(MetaData.java:616) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.TransportGetAction.resolveRequest(TransportGetAction.java:90) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.TransportGetAction.resolveRequest(TransportGetAction.java:42) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction$AsyncSingleAction.<init>(TransportShardSingleOperationAction.java:114) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction$AsyncSingleAction.<init>(TransportShardSingleOperationAction.java:94) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction.doExecute(TransportShardSingleOperationAction.java:71) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction.doExecute(TransportShardSingleOperationAction.java:46) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:61) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.client.node.NodeClient.execute(NodeClient.java:92) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.client.support.AbstractClient.get(AbstractClient.java:179) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.GetRequestBuilder.doExecute(GetRequestBuilder.java:112) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:62) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:57) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder$execute.call(Unknown Source) ~[na:na]
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient.getDocument(ElasticSearchClient.groovy:209) ~[classes/:na]
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient$getDocument.call(Unknown Source) [classes/:na]
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:56) [classes/:na]
+	at com.rackspace.search.service.JobService$getJob$0.callCurrent(Unknown Source) [classes/:na]
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:52) [classes/:na]
+	at com.rackspace.search.service.JobService$getJob.call(Unknown Source) [classes/:na]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.account.CoreAccountUpdateSyncJob.setupJob(CoreAccountUpdateSyncJob.groovy:96) [classes/:na]
+	at com.rackspace.search.service.account.CoreAccountUpdateSyncJob.this$2$setupJob(CoreAccountUpdateSyncJob.groovy) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_38]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_38]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_38]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_38]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.account.CoreAccountUpdateSyncJob.this$dist$invoke$1(CoreAccountUpdateSyncJob.groovy) [classes/:na]
+	at com.rackspace.search.service.account.CoreAccountUpdateSyncJob$1.methodMissing(CoreAccountUpdateSyncJob.groovy) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_38]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_38]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_38]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_38]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:837) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1134) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1087) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.account.CoreAccountUpdateSyncJob$1.run(CoreAccountUpdateSyncJob.groovy:78) [classes/:na]
+	at java.util.TimerThread.mainLoop(Timer.java:512) [na:1.6.0_38]
+	at java.util.TimerThread.run(Timer.java:462) [na:1.6.0_38]
+Exception in thread "Timer-10" com.rackspace.search.exception.NotFoundException: Index is missing
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:102)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient.getDocument(ElasticSearchClient.groovy:212)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient$getDocument.call(Unknown Source)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:56)
+	at com.rackspace.search.service.JobService$getJob$0.callCurrent(Unknown Source)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:52)
+	at com.rackspace.search.service.JobService$getJob.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at com.rackspace.search.service.account.CoreAccountUpdateSyncJob.setupJob(CoreAccountUpdateSyncJob.groovy:96)
+	at com.rackspace.search.service.account.CoreAccountUpdateSyncJob.this$2$setupJob(CoreAccountUpdateSyncJob.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78)
+	at com.rackspace.search.service.account.CoreAccountUpdateSyncJob.this$dist$invoke$1(CoreAccountUpdateSyncJob.groovy)
+	at com.rackspace.search.service.account.CoreAccountUpdateSyncJob$1.methodMissing(CoreAccountUpdateSyncJob.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:837)
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1134)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1087)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137)
+	at com.rackspace.search.service.account.CoreAccountUpdateSyncJob$1.run(CoreAccountUpdateSyncJob.groovy:78)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+20:12:47.816 [Timer-11] ERROR c.r.s.e.client.ElasticSearchClient - Index is missing
+org.elasticsearch.indices.IndexMissingException: [admin] missing
+	at org.elasticsearch.cluster.metadata.MetaData.concreteIndex(MetaData.java:616) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.TransportGetAction.resolveRequest(TransportGetAction.java:90) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.TransportGetAction.resolveRequest(TransportGetAction.java:42) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction$AsyncSingleAction.<init>(TransportShardSingleOperationAction.java:114) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction$AsyncSingleAction.<init>(TransportShardSingleOperationAction.java:94) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction.doExecute(TransportShardSingleOperationAction.java:71) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction.doExecute(TransportShardSingleOperationAction.java:46) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:61) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.client.node.NodeClient.execute(NodeClient.java:92) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.client.support.AbstractClient.get(AbstractClient.java:179) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.GetRequestBuilder.doExecute(GetRequestBuilder.java:112) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:62) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:57) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder$execute.call(Unknown Source) ~[na:na]
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient.getDocument(ElasticSearchClient.groovy:209) ~[classes/:na]
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient$getDocument.call(Unknown Source) [classes/:na]
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:56) [classes/:na]
+	at com.rackspace.search.service.JobService$getJob$0.callCurrent(Unknown Source) [classes/:na]
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:52) [classes/:na]
+	at com.rackspace.search.service.JobService$getJob.call(Unknown Source) [classes/:na]
+	at com.rackspace.search.service.account.AccountOngoingSyncJob.setupJob(AccountOngoingSyncJob.groovy:97) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_38]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_38]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_38]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_38]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.account.AccountOngoingSyncJob.this$dist$invoke$1(AccountOngoingSyncJob.groovy) [classes/:na]
+	at com.rackspace.search.service.account.AccountOngoingSyncJob$1.methodMissing(AccountOngoingSyncJob.groovy) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_38]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_38]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_38]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_38]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:837) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1134) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1087) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.account.AccountOngoingSyncJob$1.run(AccountOngoingSyncJob.groovy:78) [classes/:na]
+	at java.util.TimerThread.mainLoop(Timer.java:512) [na:1.6.0_38]
+	at java.util.TimerThread.run(Timer.java:462) [na:1.6.0_38]
+Exception in thread "Timer-11" com.rackspace.search.exception.NotFoundException: Index is missing
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:102)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient.getDocument(ElasticSearchClient.groovy:212)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient$getDocument.call(Unknown Source)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:56)
+	at com.rackspace.search.service.JobService$getJob$0.callCurrent(Unknown Source)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:52)
+	at com.rackspace.search.service.JobService$getJob.call(Unknown Source)
+	at com.rackspace.search.service.account.AccountOngoingSyncJob.setupJob(AccountOngoingSyncJob.groovy:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78)
+	at com.rackspace.search.service.account.AccountOngoingSyncJob.this$dist$invoke$1(AccountOngoingSyncJob.groovy)
+	at com.rackspace.search.service.account.AccountOngoingSyncJob$1.methodMissing(AccountOngoingSyncJob.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:837)
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1134)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1087)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137)
+	at com.rackspace.search.service.account.AccountOngoingSyncJob$1.run(AccountOngoingSyncJob.groovy:78)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+20:12:47.843 [elasticsearch[ticket.node][clusterService#updateTask][T#1]] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticket] creating index, cause [api], shards [5]/[0], mappings [index, ticket]
+20:12:47.853 [Timer-6] ERROR c.r.s.e.client.ElasticSearchClient - Index is missing
+org.elasticsearch.indices.IndexMissingException: [admin] missing
+	at org.elasticsearch.cluster.metadata.MetaData.concreteIndex(MetaData.java:616) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.TransportGetAction.resolveRequest(TransportGetAction.java:90) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.TransportGetAction.resolveRequest(TransportGetAction.java:42) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction$AsyncSingleAction.<init>(TransportShardSingleOperationAction.java:114) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction$AsyncSingleAction.<init>(TransportShardSingleOperationAction.java:94) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction.doExecute(TransportShardSingleOperationAction.java:71) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction.doExecute(TransportShardSingleOperationAction.java:46) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:61) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.client.node.NodeClient.execute(NodeClient.java:92) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.client.support.AbstractClient.get(AbstractClient.java:179) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.GetRequestBuilder.doExecute(GetRequestBuilder.java:112) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:62) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:57) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder$execute.call(Unknown Source) ~[na:na]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient.getDocument(ElasticSearchClient.groovy:209) ~[classes/:na]
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient$getDocument.call(Unknown Source) [classes/:na]
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:56) [classes/:na]
+	at com.rackspace.search.service.JobService$getJob$0.callCurrent(Unknown Source) [classes/:na]
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:52) [classes/:na]
+	at com.rackspace.search.service.JobService$getJob.call(Unknown Source) [classes/:na]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.core.CoreTicketSecondPassSyncJob.setupJob(CoreTicketSecondPassSyncJob.groovy:91) [classes/:na]
+	at com.rackspace.search.service.core.CoreTicketSecondPassSyncJob.this$2$setupJob(CoreTicketSecondPassSyncJob.groovy) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_38]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_38]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_38]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_38]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.core.CoreTicketSecondPassSyncJob.this$dist$invoke$1(CoreTicketSecondPassSyncJob.groovy) [classes/:na]
+	at com.rackspace.search.service.core.CoreTicketSecondPassSyncJob$1.methodMissing(CoreTicketSecondPassSyncJob.groovy) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_38]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_38]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_38]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_38]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:837) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1134) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1087) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.core.CoreTicketSecondPassSyncJob$1.run(CoreTicketSecondPassSyncJob.groovy:74) [classes/:na]
+	at java.util.TimerThread.mainLoop(Timer.java:512) [na:1.6.0_38]
+	at java.util.TimerThread.run(Timer.java:462) [na:1.6.0_38]
+Exception in thread "Timer-6" com.rackspace.search.exception.NotFoundException: Index is missing
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:102)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient.getDocument(ElasticSearchClient.groovy:212)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient$getDocument.call(Unknown Source)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:56)
+	at com.rackspace.search.service.JobService$getJob$0.callCurrent(Unknown Source)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:52)
+	at com.rackspace.search.service.JobService$getJob.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at com.rackspace.search.service.core.CoreTicketSecondPassSyncJob.setupJob(CoreTicketSecondPassSyncJob.groovy:91)
+	at com.rackspace.search.service.core.CoreTicketSecondPassSyncJob.this$2$setupJob(CoreTicketSecondPassSyncJob.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78)
+	at com.rackspace.search.service.core.CoreTicketSecondPassSyncJob.this$dist$invoke$1(CoreTicketSecondPassSyncJob.groovy)
+	at com.rackspace.search.service.core.CoreTicketSecondPassSyncJob$1.methodMissing(CoreTicketSecondPassSyncJob.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:837)
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1134)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1087)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137)
+	at com.rackspace.search.service.core.CoreTicketSecondPassSyncJob$1.run(CoreTicketSecondPassSyncJob.groovy:74)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+20:12:47.857 [Timer-13] ERROR c.r.s.e.client.ElasticSearchClient - Index is missing
+org.elasticsearch.indices.IndexMissingException: [admin] missing
+	at org.elasticsearch.cluster.metadata.MetaData.concreteIndex(MetaData.java:616) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.TransportGetAction.resolveRequest(TransportGetAction.java:90) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.TransportGetAction.resolveRequest(TransportGetAction.java:42) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction$AsyncSingleAction.<init>(TransportShardSingleOperationAction.java:114) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction$AsyncSingleAction.<init>(TransportShardSingleOperationAction.java:94) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction.doExecute(TransportShardSingleOperationAction.java:71) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction.doExecute(TransportShardSingleOperationAction.java:46) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:61) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.client.node.NodeClient.execute(NodeClient.java:92) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.client.support.AbstractClient.get(AbstractClient.java:179) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.GetRequestBuilder.doExecute(GetRequestBuilder.java:112) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:62) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:57) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder$execute.call(Unknown Source) ~[na:na]
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient.getDocument(ElasticSearchClient.groovy:209) ~[classes/:na]
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient$getDocument.call(Unknown Source) [classes/:na]
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:56) [classes/:na]
+	at com.rackspace.search.service.JobService$getJob$0.callCurrent(Unknown Source) [classes/:na]
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:52) [classes/:na]
+	at com.rackspace.search.service.JobService$getJob.call(Unknown Source) [classes/:na]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.admin.CoreTicketOndemandSyncJob.setupJob(CoreTicketOndemandSyncJob.groovy:99) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_38]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_38]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_38]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_38]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.admin.CoreTicketOndemandSyncJob.this$dist$invoke$1(CoreTicketOndemandSyncJob.groovy) [classes/:na]
+	at com.rackspace.search.service.admin.CoreTicketOndemandSyncJob$1.methodMissing(CoreTicketOndemandSyncJob.groovy) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_38]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_38]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_38]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_38]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:837) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1134) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1087) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.admin.CoreTicketOndemandSyncJob$1.run(CoreTicketOndemandSyncJob.groovy:82) [classes/:na]
+	at java.util.TimerThread.mainLoop(Timer.java:512) [na:1.6.0_38]
+	at java.util.TimerThread.run(Timer.java:462) [na:1.6.0_38]
+Exception in thread "Timer-13" com.rackspace.search.exception.NotFoundException: Index is missing
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:102)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient.getDocument(ElasticSearchClient.groovy:212)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient$getDocument.call(Unknown Source)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:56)
+	at com.rackspace.search.service.JobService$getJob$0.callCurrent(Unknown Source)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:52)
+	at com.rackspace.search.service.JobService$getJob.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at com.rackspace.search.service.admin.CoreTicketOndemandSyncJob.setupJob(CoreTicketOndemandSyncJob.groovy:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78)
+	at com.rackspace.search.service.admin.CoreTicketOndemandSyncJob.this$dist$invoke$1(CoreTicketOndemandSyncJob.groovy)
+	at com.rackspace.search.service.admin.CoreTicketOndemandSyncJob$1.methodMissing(CoreTicketOndemandSyncJob.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:837)
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1134)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1087)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137)
+	at com.rackspace.search.service.admin.CoreTicketOndemandSyncJob$1.run(CoreTicketOndemandSyncJob.groovy:82)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+20:12:47.940 [Timer-9] ERROR c.r.s.e.client.ElasticSearchClient - Index is missing
+org.elasticsearch.indices.IndexMissingException: [admin] missing
+	at org.elasticsearch.cluster.metadata.MetaData.concreteIndex(MetaData.java:616) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.TransportGetAction.resolveRequest(TransportGetAction.java:90) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.TransportGetAction.resolveRequest(TransportGetAction.java:42) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction$AsyncSingleAction.<init>(TransportShardSingleOperationAction.java:114) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction$AsyncSingleAction.<init>(TransportShardSingleOperationAction.java:94) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction.doExecute(TransportShardSingleOperationAction.java:71) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction.doExecute(TransportShardSingleOperationAction.java:46) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:61) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.client.node.NodeClient.execute(NodeClient.java:92) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.client.support.AbstractClient.get(AbstractClient.java:179) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.GetRequestBuilder.doExecute(GetRequestBuilder.java:112) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:62) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:57) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder$execute.call(Unknown Source) ~[na:na]
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient.getDocument(ElasticSearchClient.groovy:209) ~[classes/:na]
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient$getDocument.call(Unknown Source) [classes/:na]
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:56) [classes/:na]
+	at com.rackspace.search.service.JobService$getJob$0.callCurrent(Unknown Source) [classes/:na]
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:52) [classes/:na]
+	at com.rackspace.search.service.JobService$getJob.call(Unknown Source) [classes/:na]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncJob.setupJob(ZendeskUserOngoingSyncJob.groovy:75) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_38]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_38]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_38]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_38]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncJob.this$dist$invoke$1(ZendeskUserOngoingSyncJob.groovy) [classes/:na]
+	at com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncJob$1.methodMissing(ZendeskUserOngoingSyncJob.groovy) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_38]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_38]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_38]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_38]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:837) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1134) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1087) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncJob$1.run(ZendeskUserOngoingSyncJob.groovy:56) [classes/:na]
+	at java.util.TimerThread.mainLoop(Timer.java:512) [na:1.6.0_38]
+	at java.util.TimerThread.run(Timer.java:462) [na:1.6.0_38]
+Exception in thread "Timer-9" com.rackspace.search.exception.NotFoundException: Index is missing
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:102)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient.getDocument(ElasticSearchClient.groovy:212)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient$getDocument.call(Unknown Source)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:56)
+	at com.rackspace.search.service.JobService$getJob$0.callCurrent(Unknown Source)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:52)
+	at com.rackspace.search.service.JobService$getJob.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncJob.setupJob(ZendeskUserOngoingSyncJob.groovy:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78)
+	at com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncJob.this$dist$invoke$1(ZendeskUserOngoingSyncJob.groovy)
+	at com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncJob$1.methodMissing(ZendeskUserOngoingSyncJob.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:837)
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1134)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1087)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137)
+	at com.rackspace.search.service.zendesk.ZendeskUserOngoingSyncJob$1.run(ZendeskUserOngoingSyncJob.groovy:56)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+20:12:47.944 [Timer-7] ERROR c.r.s.e.client.ElasticSearchClient - Index is missing
+org.elasticsearch.indices.IndexMissingException: [admin] missing
+	at org.elasticsearch.cluster.metadata.MetaData.concreteIndex(MetaData.java:616) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.TransportGetAction.resolveRequest(TransportGetAction.java:90) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.TransportGetAction.resolveRequest(TransportGetAction.java:42) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction$AsyncSingleAction.<init>(TransportShardSingleOperationAction.java:114) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction$AsyncSingleAction.<init>(TransportShardSingleOperationAction.java:94) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction.doExecute(TransportShardSingleOperationAction.java:71) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.single.shard.TransportShardSingleOperationAction.doExecute(TransportShardSingleOperationAction.java:46) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:61) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.client.node.NodeClient.execute(NodeClient.java:92) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.client.support.AbstractClient.get(AbstractClient.java:179) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.get.GetRequestBuilder.doExecute(GetRequestBuilder.java:112) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:62) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:57) ~[elasticsearch-0.90.2.jar:na]
+	at org.elasticsearch.action.ActionRequestBuilder$execute.call(Unknown Source) ~[na:na]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:112) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient.getDocument(ElasticSearchClient.groovy:209) ~[classes/:na]
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient$getDocument.call(Unknown Source) [classes/:na]
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:56) [classes/:na]
+	at com.rackspace.search.service.JobService$getJob$0.callCurrent(Unknown Source) [classes/:na]
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:52) [classes/:na]
+	at com.rackspace.search.service.JobService$getJob.call(Unknown Source) [classes/:na]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.zendesk.ZendeskTicketOngoingSyncJob.setupJob(ZendeskTicketOngoingSyncJob.groovy:79) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_38]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_38]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_38]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_38]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.zendesk.ZendeskTicketOngoingSyncJob.this$dist$invoke$1(ZendeskTicketOngoingSyncJob.groovy) [classes/:na]
+	at com.rackspace.search.service.zendesk.ZendeskTicketOngoingSyncJob$1.methodMissing(ZendeskTicketOngoingSyncJob.groovy) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.6.0_38]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39) ~[na:1.6.0_38]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25) ~[na:1.6.0_38]
+	at java.lang.reflect.Method.invoke(Method.java:597) ~[na:1.6.0_38]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:837) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1134) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1087) [groovy-all-2.1.1.jar:2.1.1]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133) [groovy-all-2.1.1.jar:2.1.1]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137) [groovy-all-2.1.1.jar:2.1.1]
+	at com.rackspace.search.service.zendesk.ZendeskTicketOngoingSyncJob$1.run(ZendeskTicketOngoingSyncJob.groovy:60) [classes/:na]
+	at java.util.TimerThread.mainLoop(Timer.java:512) [na:1.6.0_38]
+	at java.util.TimerThread.run(Timer.java:462) [na:1.6.0_38]
+Exception in thread "Timer-7" com.rackspace.search.exception.NotFoundException: Index is missing
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:102)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient.getDocument(ElasticSearchClient.groovy:212)
+	at com.rackspace.search.elasticsearch.client.ElasticSearchClient$getDocument.call(Unknown Source)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:56)
+	at com.rackspace.search.service.JobService$getJob$0.callCurrent(Unknown Source)
+	at com.rackspace.search.service.JobService.getJob(JobService.groovy:52)
+	at com.rackspace.search.service.JobService$getJob.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at com.rackspace.search.service.zendesk.ZendeskTicketOngoingSyncJob.setupJob(ZendeskTicketOngoingSyncJob.groovy:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1085)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnCurrentN(ScriptBytecodeAdapter.java:78)
+	at com.rackspace.search.service.zendesk.ZendeskTicketOngoingSyncJob.this$dist$invoke$1(ZendeskTicketOngoingSyncJob.groovy)
+	at com.rackspace.search.service.zendesk.ZendeskTicketOngoingSyncJob$1.methodMissing(ZendeskTicketOngoingSyncJob.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaClassImpl.invokeMissingMethod(MetaClassImpl.java:837)
+	at groovy.lang.MetaClassImpl.invokePropertyOrMissing(MetaClassImpl.java:1134)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1087)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:909)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:133)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:137)
+	at com.rackspace.search.service.zendesk.ZendeskTicketOngoingSyncJob$1.run(ZendeskTicketOngoingSyncJob.groovy:60)
+	at java.util.TimerThread.mainLoop(Timer.java:512)
+	at java.util.TimerThread.run(Timer.java:462)
+20:12:49.365 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Successfully setup Index ticket 
+20:12:49.368 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/properties/local/elasticsearch/mappings/ticket/ticket.json
+20:12:49.408 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Setting up Mapping for [ticket]/[ticket]: {"ticket":{"_source":{"enabled":true},"properties":{"queue":{"dynamic":"true","properties":{"id":{"analyzer":"keyword_lowercase","type":"string"},"name":{"analyzer":"keyword_lowercase","type":"string"}},"type":"object"},"subject":{"analyzer":"keyword_lowercase","type":"string"},"submitter":{"dynamic":"true","properties":{"id":{"type":"long"},"name":{"analyzer":"keyword_lowercase","type":"string"},"sso":{"analyzer":"keyword_lowercase","type":"string"}},"type":"object"},"categoryObj":{"dynamic":"true","properties":{"id":{"analyzer":"keyword_lowercase","type":"string"},"name":{"analyzer":"keyword_lowercase","type":"string"}},"type":"object"},"difficulty":{"analyzer":"keyword_lowercase","type":"string"},"documentLastUpdatedTimestamp":{"format":"date_time","type":"date"},"accountTeamTerritoryCode":{"analyzer":"keyword_lowercase","type":"string"},"priority":{"analyzer":"keyword_lowercase","type":"string"},"createdAt":{"format":"date_time","type":"date"},"statusTypes":{"analyzer":"keyword_lowercase","type":"string"},"status":{"analyzer":"keyword_lowercase","type":"string"},"subCategory":{"analyzer":"keyword_lowercase","type":"string"},"lastPublicCommentDate":{"format":"date_time","type":"date"},"updateEventDate":{"format":"date_time","type":"date"},"assignee":{"dynamic":"true","properties":{"id":{"type":"long"},"name":{"analyzer":"keyword_lowercase","type":"string"},"sso":{"analyzer":"keyword_lowercase","type":"string"}},"type":"object"},"accountServiceLevel":{"analyzer":"keyword_lowercase","type":"string"},"number":{"analyzer":"keyword_lowercase","type":"string"},"severityName":{"analyzer":"keyword_lowercase","type":"string"},"subCategoryObj":{"dynamic":"true","properties":{"id":{"analyzer":"keyword_lowercase","type":"string"},"name":{"analyzer":"keyword_lowercase","type":"string"}},"type":"object"},"hasWindowsServers":{"analyzer":"keyword_lowercase","type":"string"},"updatedAt":{"format":"date_time","type":"date"},"idle":{"format":"date_time","type":"date"},"category":{"analyzer":"keyword_lowercase","type":"string"},"sourceSystem":{"analyzer":"keyword_lowercase","type":"string"},"hasLinuxServers":{"analyzer":"keyword_lowercase","type":"string"},"account":{"dynamic":"true","properties":{"teamSegment":{"analyzer":"keyword_lowercase","type":"string"},"id":{"analyzer":"keyword_lowercase","type":"string"},"rcn":{"analyzer":"keyword_lowercase","type":"string"},"status":{"analyzer":"keyword_lowercase","type":"string"},"teamTerritoryCode":{"analyzer":"keyword_lowercase","type":"string"},"name":{"analyzer":"keyword_lowercase","type":"string"},"highProfile":{"type":"boolean"},"number":{"type":"long"},"serviceLevel":{"analyzer":"keyword_lowercase","type":"string"},"team":{"analyzer":"keyword_lowercase","type":"string"},"type":{"analyzer":"keyword_lowercase","type":"string"},"contacts":{"dynamic":"true","properties":{"name":{"analyzer":"keyword_lowercase","type":"string"},"role":{"analyzer":"keyword_lowercase","type":"string"},"sso":{"analyzer":"keyword_lowercase","type":"string"}},"type":"nested"}},"type":"object"}}}}
+20:12:50.153 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Index does not exist. Creating the Index admin 
+20:12:50.177 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/properties/local/elasticsearch/mappings/admin/index.json
+20:12:50.880 [elasticsearch[ticket.node][clusterService#updateTask][T#1]] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [admin] creating index, cause [api], shards [5]/[0], mappings [index, syncJob, syncRequest]
+20:12:51.369 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Successfully setup Index admin 
+20:12:51.370 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/properties/local/elasticsearch/mappings/admin/syncJob.json
+20:12:51.375 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Setting up Mapping for [admin]/[syncJob]: {"syncJob":{"_source":{"enabled":true},"properties":{"status":{"type":"string"},"status_message":{"type":"string"},"next_execution_at":{"format":"date_time","type":"date"},"sync_status":{"type":"string"},"type":{"type":"string"},"interval_duration":{"type":"string"},"is_enabled":{"type":"string"},"last_updated_at":{"format":"date_time","type":"date"},"last_event_at":{"format":"date_time","type":"date"},"read_marker":{"format":"date_time","type":"date"},"description":{"type":"string"},"processing_node":{"type":"string"},"name":{"type":"string"},"started_at":{"format":"date_time","type":"date"}}}}
+20:12:52.362 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/properties/local/elasticsearch/mappings/admin/syncRequest.json
+20:12:52.366 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Setting up Mapping for [admin]/[syncRequest]: {"syncRequest":{"_source":{"enabled":true},"properties":{"id":{"type":"string"},"documentType":{"analyzer":"keyword_lowercase","type":"string"},"status":{"analyzer":"keyword_lowercase","type":"string"},"lastRunAt":{"format":"date_time","type":"date"},"createdAt":{"format":"date_time","type":"date"},"documentIds":{"type":"string"},"documentLastUpdatedAt":{"format":"date_time","type":"date"},"lastRunDetails":{"type":"string"}}}}
+20:12:53.054 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Index does not exist. Creating the Index account 
+20:12:53.055 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/properties/local/elasticsearch/mappings/account/index.json
+20:12:54.245 [elasticsearch[ticket.node][clusterService#updateTask][T#1]] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [account] creating index, cause [api], shards [5]/[0], mappings [index, coreaccount, account]
+20:12:54.396 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Successfully setup Index account 
+20:12:54.396 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/properties/local/elasticsearch/mappings/account/account.json
+20:12:54.400 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Setting up Mapping for [account]/[account]: {"account":{"_source":{"enabled":true},"properties":{"updatedAt":{"format":"date_time","type":"date"},"id":{"analyzer":"keyword_lowercase","type":"string"},"rcn":{"analyzer":"keyword_lowercase","type":"string"},"status":{"analyzer":"keyword_lowercase","type":"string"},"name":{"analyzer":"keyword_lowercase","type":"string"},"highProfile":{"type":"boolean"},"number":{"type":"long"},"documentLastUpdatedTimestamp":{"format":"date_time","type":"date"},"team":{"analyzer":"keyword_lowercase","type":"string"},"type":{"analyzer":"keyword_lowercase","type":"string"}}}}
+20:12:54.639 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Index does not exist. Creating the Index zendesk 
+20:12:54.640 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/properties/local/elasticsearch/mappings/zendesk/index.json
+20:12:54.997 [elasticsearch[ticket.node][clusterService#updateTask][T#1]] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [zendesk] creating index, cause [api], shards [5]/[0], mappings [index, group, user]
+20:12:56.357 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Successfully setup Index zendesk 
+20:12:56.357 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/properties/local/elasticsearch/mappings/zendesk/user.json
+20:12:56.360 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Setting up Mapping for [zendesk]/[user]: {"user":{"_source":{"enabled":true},"properties":{"updatedAt":{"format":"date_time","type":"date"},"id":{"type":"long"},"createdAt":{"format":"date_time","type":"date"},"name":{"analyzer":"keyword_lowercase","type":"string"},"documentLastUpdatedTimestamp":{"format":"date_time","type":"date"}}}}
+20:12:57.130 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/properties/local/elasticsearch/mappings/zendesk/group.json
+20:12:57.132 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Setting up Mapping for [zendesk]/[group]: {"group":{"_source":{"enabled":true},"properties":{"updatedAt":{"format":"date_time","type":"date"},"id":{"type":"long"},"createdAt":{"format":"date_time","type":"date"},"name":{"analyzer":"keyword_lowercase","type":"string"},"documentLastUpdatedTimestamp":{"format":"date_time","type":"date"}}}}
+20:12:58.634 [search-scheduler-1] INFO  c.r.s.elasticsearch.ElasticSearchServer - ES cluster status is RED. Waiting for ES recovery.
+20:12:58.881 [search-scheduler-3] INFO  c.r.s.elasticsearch.ElasticSearchServer - ES cluster status is RED. Waiting for ES recovery.
+20:12:58.883 [search-scheduler-4] INFO  c.r.s.elasticsearch.ElasticSearchServer - ES cluster status is RED. Waiting for ES recovery.
+20:12:58.884 [search-scheduler-5] INFO  c.r.s.elasticsearch.ElasticSearchServer - ES cluster status is RED. Waiting for ES recovery.
+20:12:58.885 [search-scheduler-6] INFO  c.r.s.elasticsearch.ElasticSearchServer - ES cluster status is RED. Waiting for ES recovery.
+20:12:58.887 [search-scheduler-7] INFO  c.r.s.elasticsearch.ElasticSearchServer - ES cluster status is RED. Waiting for ES recovery.
+20:12:58.888 [search-scheduler-8] INFO  c.r.s.elasticsearch.ElasticSearchServer - ES cluster status is RED. Waiting for ES recovery.
+20:12:58.912 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /indices_structure.json
+20:12:59.193 [search-scheduler-2] INFO  c.r.s.elasticsearch.ElasticSearchServer - ES cluster status is RED. Waiting for ES recovery.
+20:12:59.200 [search-scheduler-9] INFO  c.r.s.elasticsearch.ElasticSearchServer - ES cluster status is RED. Waiting for ES recovery.
+20:12:59.216 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /indices_structure.json
+20:12:59.227 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/properties/local/elasticsearch/mappings/ticket/index.json
+20:12:59.243 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/properties/local/elasticsearch/mappings/admin/index.json
+20:12:59.655 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/properties/local/elasticsearch/mappings/account/index.json
+20:12:59.659 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/target/properties/local/elasticsearch/mappings/zendesk/index.json
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.729 sec
+Running com.rackspace.search.elasticsearch.client.ElasticSearchClientTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.rackspace.search.elasticsearch.client.QueryParserTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.03 sec
+Running com.rackspace.search.elasticsearch.SyncJobTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+20:13:01.274 [Thread-16] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Closing ElasticSearch client
+20:13:01.310 [Thread-16] WARN  o.s.c.a.CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'coreTicketOndemandSyncJob': org.elasticsearch.action.NoShardAvailableActionException: [admin][2] No shard available for [[admin][syncJob][CoreTicketOndemandSyncJob]: routing [null]]
+20:13:01.311 [Thread-16] WARN  o.s.c.a.CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'accountOndemandSyncJob': org.elasticsearch.action.NoShardAvailableActionException: [admin][4] No shard available for [[admin][syncJob][AccountOndemandSyncJob]: routing [null]]
+20:13:01.311 [Thread-16] WARN  o.s.c.a.CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'accountOngoingSyncJob': org.elasticsearch.action.NoShardAvailableActionException: [admin][2] No shard available for [[admin][syncJob][AccountOngoingSyncJob]: routing [null]]
+20:13:01.318 [Thread-16] WARN  o.s.c.a.CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'zendeskGroupOngoingSyncJob': org.elasticsearch.action.NoShardAvailableActionException: [admin][2] No shard available for [[admin][syncJob][ZendeskGroupOngoingSyncJob]: routing [null]]
+20:13:02.410 [Thread-16] WARN  o.s.c.a.CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'zendeskTicketOnetimeSyncJob': org.elasticsearch.action.NoShardAvailableActionException: [admin][4] No shard available for [[admin][syncJob][ZendeskTicketOnetimeSyncJob]: routing [null]]
+20:13:04.128 [Thread-16] INFO  org.elasticsearch.node - [ticket.node] {0.90.2}[19659]: stopping ...
+20:13:07.224 [Thread-16] INFO  org.elasticsearch.node - [ticket.node] {0.90.2}[19659]: stopped
+20:13:07.225 [Thread-16] INFO  org.elasticsearch.node - [ticket.node] {0.90.2}[19659]: closing ...
+20:13:17.270 [Thread-16] INFO  org.elasticsearch.node - [ticket.node] {0.90.2}[19659]: closed
+
+Results :
+
+Tests run: 116, Failures: 0, Errors: 0, Skipped: 0
+
+[JENKINS] Recording test results
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Search POM ........................................ SUCCESS [3.592s]
+[INFO] search ............................................ SUCCESS [2:29.662s]
+[INFO] cucumber .......................................... SUCCESS [10.431s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2:45.963s
+[INFO] Finished at: Wed Oct 09 20:13:33 UTC 2013
+[INFO] Final Memory: 78M/1322M
+[INFO] ------------------------------------------------------------------------
+[JENKINS] Archiving /var/lib/jenkins/jobs/TSearchUnitTest/workspace/cucumber/pom.xml to /var/lib/jenkins/jobs/TSearchUnitTest/modules/com.rackspace.api$cucumber/builds/2013-10-09_20-10-34/archive/com.rackspace.api/cucumber/0.1.0_b184-SNAPSHOT/cucumber-0.1.0_b184-SNAPSHOT.pom
+[JENKINS] Archiving /var/lib/jenkins/jobs/TSearchUnitTest/workspace/pom.xml to /var/lib/jenkins/jobs/TSearchUnitTest/modules/com.rackspace.api$search-pom/builds/2013-10-09_20-10-34/archive/com.rackspace.api/search-pom/0.1.0_b184-SNAPSHOT/search-pom-0.1.0_b184-SNAPSHOT.pom
+[JENKINS] Archiving /var/lib/jenkins/jobs/TSearchUnitTest/workspace/service/pom.xml to /var/lib/jenkins/jobs/TSearchUnitTest/modules/com.rackspace.api$search/builds/2013-10-09_20-10-34/archive/com.rackspace.api/search/0.1.0_b184-SNAPSHOT/search-0.1.0_b184-SNAPSHOT.pom
+Waiting for Jenkins to finish collecting data

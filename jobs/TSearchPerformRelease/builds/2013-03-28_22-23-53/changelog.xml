@@ -1,0 +1,12 @@
+Changes in branch origin/master, between f83013ad5580ddc25a59e69ec112705f01b2e35d and 146f4e6660563117e34db8c967f8e2de34c13350
+commit 80d2ac8a2fb8dd1c41d91a983eb692808781214b
+tree b6e878b1fc77bf516de22724b663e5d47e0d031a
+parent f83013ad5580ddc25a59e69ec112705f01b2e35d
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364506133 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364506133 -0500
+
+    [B44514] : setting up SNAPSHOT version
+
+:100644 100644 b75999eef148905b1aad512def05f75890d5a449 6fdeba77b2c7c3ce21b6387e88303b0afdcd6586 M	cucumber/pom.xml
+:100644 100644 c37f6a06f15364387bbd0ffde9abe6f358374e91 c1ba8fc73b562928850419b5d868c61d23907e29 M	pom.xml
+:100644 100644 77d1917b189362bc09bdfb1166b37f899fff5f91 d4552ff46ce36728af59e0b9b347813c61d2a8c4 M	service/pom.xml

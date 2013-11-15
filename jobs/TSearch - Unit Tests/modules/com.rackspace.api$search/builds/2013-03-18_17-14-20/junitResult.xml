@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result>
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearch - Unit Tests/workspace/service/target/surefire-reports/TEST-com.rackspace.search.elasticsearch.client.CoreTicketProcessorActorTest.xml</file>
+      <name>com.rackspace.search.elasticsearch.client.CoreTicketProcessorActorTest</name>
+      <duration>0.056</duration>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.elasticsearch.client.CoreTicketProcessorActorTest</className>
+          <testName>should post data to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.elasticsearch.client.CoreTicketProcessorActorTest</className>
+          <testName>multiple messages to actor result in posting multiple payloads to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.056</duration>
+          <className>com.rackspace.search.elasticsearch.client.CoreTicketProcessorActorTest</className>
+          <testName>make sure date is converted to UTC time zone</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearch - Unit Tests/workspace/service/target/surefire-reports/TEST-com.rackspace.search.elasticsearch.client.ElasticSearchClientFactoryBeanTest.xml</file>
+      <name>com.rackspace.search.elasticsearch.client.ElasticSearchClientFactoryBeanTest</name>
+      <duration>4.844</duration>
+      <cases>
+        <case>
+          <duration>1.01</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientFactoryBeanTest</className>
+          <testName>is ticket Index exist</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.93</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientFactoryBeanTest</className>
+          <testName>validate Index Settings</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.904</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientFactoryBeanTest</className>
+          <testName>is Mapping Exist for type</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearch - Unit Tests/workspace/service/target/surefire-reports/TEST-com.rackspace.search.elasticsearch.client.ElasticSearchClientTest.xml</file>
+      <name>com.rackspace.search.elasticsearch.client.ElasticSearchClientTest</name>
+      <duration>12.275</duration>
+      <cases>
+        <case>
+          <duration>2.869</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientTest</className>
+          <testName>post bulk data</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.872</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientTest</className>
+          <testName>get All Tickets</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.807</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientTest</className>
+          <testName>test search tickets for string filed user with single &amp; multiple values and negation</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.856</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientTest</className>
+          <testName>test search tickets with a range filter and negated range filter</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>2.478</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientTest</className>
+          <testName>test sort tickets with single &amp; multiple values</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.393</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientTest</className>
+          <testName>test sort tickets for priority field without sorting order</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearch - Unit Tests/workspace/service/target/surefire-reports/TEST-com.rackspace.search.gateway.core.CoreAuthGatewayTest.xml</file>
+      <name>com.rackspace.search.gateway.core.CoreAuthGatewayTest</name>
+      <duration>0.0</duration>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.gateway.core.CoreAuthGatewayTest</className>
+          <testName>should get authtoken</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.gateway.core.CoreAuthGatewayTest</className>
+          <testName>should not call core when authtoken is valid</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearch - Unit Tests/workspace/service/target/surefire-reports/TEST-com.rackspace.search.gateway.core.CoreTicketGatewayTest.xml</file>
+      <name>com.rackspace.search.gateway.core.CoreTicketGatewayTest</name>
+      <duration>0.569</duration>
+      <cases>
+        <case>
+          <duration>0.324</duration>
+          <className>com.rackspace.search.gateway.core.CoreTicketGatewayTest</className>
+          <testName>should get tickets</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.gateway.core.CoreTicketGatewayTest</className>
+          <testName>should get tickets -- session key expired</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.245</duration>
+          <className>com.rackspace.search.gateway.core.CoreTicketGatewayTest</className>
+          <testName>get core tickets -- should throw exception</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.gateway.core.CoreTicketGatewayTest</className>
+          <testName>test for pagination and max tickets parameter</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearch - Unit Tests/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.TicketSearchServiceTest.xml</file>
+      <name>com.rackspace.search.service.TicketSearchServiceTest</name>
+      <duration>21.764</duration>
+      <cases>
+        <case>
+          <duration>19.096</duration>
+          <className>com.rackspace.search.service.TicketSearchServiceTest</className>
+          <testName>should get ticket</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>2.668</duration>
+          <className>com.rackspace.search.service.TicketSearchServiceTest</className>
+          <testName>should throw not found exception</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>39.508</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

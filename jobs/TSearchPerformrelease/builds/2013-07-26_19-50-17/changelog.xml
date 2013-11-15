@@ -1,0 +1,34 @@
+Changes in branch origin/master, between 804ca1a889d50e0d34ecb17a10941359b2b01f71 and e7402e60aed67bf0a8106fb8649762a7e58fd60f
+commit 95714ad57f2829a9c870614baa99c4249db89984
+tree 4a653f3d633652cfd16d6035f185fcf61b93bb94
+parent d89e0781517b2430110ffe79afcef75da52579d3
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1374866758 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1374866758 -0500
+
+    [B-53513] : fixed current node tag
+
+:100644 100644 1e2f25c971c6132fb3f2dc1e44dd39ed19ef0e1e 43b7daba56f367f9cc86531ee0ee1c29a9a98b99 M	service/src/main/scripts/_warhammer.include
+
+commit 8d59544dae7efee11f28c53f33975fc6d1e329a2
+tree 2509a85a548f4e5fb1ad5fbb8240142051309a0b
+parent 3ab9dbcdc22b901bab8cad84f767e918b989be55
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374856105 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374856105 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 52f2e20220b80d7a3fc825180db35f37eedb00eb f470bc416c90635bf35d2fe9cf522c5ba98dec16 M	cucumber/pom.xml
+:100644 100644 bdf8e2392335f902bd97538a63bac33895cc5197 c82c710e21e598e9bdc3c86f7bd3026d6bfe603e M	pom.xml
+:100644 100644 2e21e8ebb8857c49a5a880a11fd4677d8487e5b4 ef6a1a3d51a7c47a2b467da46ba73f8fcf19a9be M	service/pom.xml
+
+commit 3ab9dbcdc22b901bab8cad84f767e918b989be55
+tree 446437a166c402bd334a2b301d3924d5fac7aebd
+parent 804ca1a889d50e0d34ecb17a10941359b2b01f71
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374856101 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374856101 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b137
+
+:100644 100644 e48370f172921ac2160e24cd2b426929b22d9efb 52f2e20220b80d7a3fc825180db35f37eedb00eb M	cucumber/pom.xml
+:100644 100644 1f1d0f4eeddd78f2cab91fba3decee097ee4789d bdf8e2392335f902bd97538a63bac33895cc5197 M	pom.xml
+:100644 100644 788f16fd361360b1eb31b398fdd914b584c4f8bc 2e21e8ebb8857c49a5a880a11fd4677d8487e5b4 M	service/pom.xml

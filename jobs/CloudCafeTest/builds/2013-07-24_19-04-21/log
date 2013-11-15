@@ -1,0 +1,124 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /var/lib/jenkins/jobs/CloudCafeTest/workspace
+Checkout:workspace / /var/lib/jenkins/jobs/CloudCafeTest/workspace - hudson.remoting.LocalChannel@6788af79
+Using strategy: Default
+Last Built Revision: Revision f06f5682a1a34bc5df0e159db85005270d02163c (remotes/origin/new_regression_run)
+Fetching changes from 1 remote Git repository
+Fetching upstream changes from origin
+Commencing build of Revision f06f5682a1a34bc5df0e159db85005270d02163c (remotes/origin/new_regression_run)
+Checking out Revision f06f5682a1a34bc5df0e159db85005270d02163c (remotes/origin/new_regression_run)
+[workspace] $ /bin/bash /tmp/hudson6793296346662001567.sh
+**> virtualenv exists
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+
+======================================================================
+ERROR: setUpClass (testrepo.tq_search.test_health_check.TestHealthCheck)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/common/testfixtures/tq_search.py", line 70, in setUpClass
+    cls.core_provider = _CoreAPIProvider(config=core_config)
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/ccengine/providers/core/core_api.py", line 36, in __init__
+    self.config.misc.deserializer)
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/ccengine/clients/core/core_api.py", line 17, in __init__
+    self.auth_token = eval(auth_token).get("authtoken")
+  File "<string>", line 1
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    ^
+SyntaxError: invalid syntax
+
+======================================================================
+ERROR: setUpClass (testrepo.tq_search.core_ongoing_sync.test_core_ongoing_sync.TestCoreOngoingSync)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/core_ongoing_sync/test_core_ongoing_sync.py", line 19, in setUpClass
+    super(TestCoreOngoingSync, cls).setUpClass()
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/common/testfixtures/tq_search.py", line 70, in setUpClass
+    cls.core_provider = _CoreAPIProvider(config=core_config)
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/ccengine/providers/core/core_api.py", line 36, in __init__
+    self.config.misc.deserializer)
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/ccengine/clients/core/core_api.py", line 17, in __init__
+    self.auth_token = eval(auth_token).get("authtoken")
+  File "<string>", line 1
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    ^
+SyntaxError: invalid syntax
+
+======================================================================
+ERROR: setUpClass (testrepo.tq_search.search_existing_ticket.test_pagination.TestPagination)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/common/testfixtures/tq_search.py", line 70, in setUpClass
+    cls.core_provider = _CoreAPIProvider(config=core_config)
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/ccengine/providers/core/core_api.py", line 36, in __init__
+    self.config.misc.deserializer)
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/ccengine/clients/core/core_api.py", line 17, in __init__
+    self.auth_token = eval(auth_token).get("authtoken")
+  File "<string>", line 1
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    ^
+SyntaxError: invalid syntax
+
+======================================================================
+ERROR: setUpClass (testrepo.tq_search.search_existing_ticket.test_fetch_existing_core_tickets.TestFetchExistingCoreTickets)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/common/testfixtures/tq_search.py", line 70, in setUpClass
+    cls.core_provider = _CoreAPIProvider(config=core_config)
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/ccengine/providers/core/core_api.py", line 36, in __init__
+    self.config.misc.deserializer)
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/ccengine/clients/core/core_api.py", line 17, in __init__
+    self.auth_token = eval(auth_token).get("authtoken")
+  File "<string>", line 1
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    ^
+SyntaxError: invalid syntax
+
+======================================================================
+ERROR: setUpClass (testrepo.tq_search.search_existing_ticket.test_account_information.TestAccountInformation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_account_information.py", line 24, in setUpClass
+    super(TestAccountInformation, cls).setUpClass()
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/common/testfixtures/tq_search.py", line 70, in setUpClass
+    cls.core_provider = _CoreAPIProvider(config=core_config)
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/ccengine/providers/core/core_api.py", line 36, in __init__
+    self.config.misc.deserializer)
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/ccengine/clients/core/core_api.py", line 17, in __init__
+    self.auth_token = eval(auth_token).get("authtoken")
+  File "<string>", line 1
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    ^
+SyntaxError: invalid syntax
+
+======================================================================
+ERROR: setUpClass (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/common/testfixtures/tq_search.py", line 70, in setUpClass
+    cls.core_provider = _CoreAPIProvider(config=core_config)
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/ccengine/providers/core/core_api.py", line 36, in __init__
+    self.config.misc.deserializer)
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/ccengine/clients/core/core_api.py", line 17, in __init__
+    self.auth_token = eval(auth_token).get("authtoken")
+  File "<string>", line 1
+    <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+    ^
+SyntaxError: invalid syntax
+
+----------------------------------------------------------------------
+Ran 0 tests in 1.422s
+
+FAILED (errors=6)
+======================================================================================================================================================
+Log File Path: /var/lib/jenkins/jobs/CloudCafeTest/workspace/.cloudcafe/logs/tq_search/local.search.config/2013-07-24_19_04_22.246531
+======================================================================================================================================================
+Build step 'Execute shell' marked build as failure
+Archiving artifacts
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at BUILD level /var/lib/jenkins/jobs/CloudCafeTest/workspace to /var/lib/jenkins/jobs/CloudCafeTest/builds/2013-07-24_19-04-21/htmlreports/HTML_Report
+Finished: FAILURE

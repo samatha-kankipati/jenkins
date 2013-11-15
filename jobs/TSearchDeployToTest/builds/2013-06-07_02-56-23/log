@@ -1,0 +1,22 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /var/lib/jenkins/jobs/TSearchDeployToTest/workspace
+Checkout:workspace / /var/lib/jenkins/jobs/TSearchDeployToTest/workspace - hudson.remoting.LocalChannel@6788af79
+Using strategy: Default
+Last Built Revision: Revision 6022d856ac13b0b85a2a1e79599000e0120acea1 (origin/master)
+Fetching changes from 1 remote Git repository
+Fetching upstream changes from origin
+Commencing build of Revision 6022d856ac13b0b85a2a1e79599000e0120acea1 (origin/master)
+Checking out Revision 6022d856ac13b0b85a2a1e79599000e0120acea1 (origin/master)
+[workspace] $ /bin/sh -xe /tmp/hudson3300802067198833005.sh
++ sh /var/lib/jenkins/jobs/TSearchDeployToTest/workspace/service/src/main/scripts/deploy-application.sh test
+environment in warhammer is 
+Usage: /var/lib/jenkins/jobs/TSearchDeployToTest/workspace/service/src/main/scripts/deploy-application.sh <version> <environment>
+
+   version: Application version number to be deployed. (2.1.1)
+    environment: Environment to deploy code and configuration to.  Possible values are dev,test,uat
+
+    Note: Local user 'jenkins' must have password-less publickey SSH
+          authentication to all servers or script will fail.
+
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

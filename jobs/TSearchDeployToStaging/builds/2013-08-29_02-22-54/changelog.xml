@@ -1,0 +1,537 @@
+Changes in branch origin/master, between ab90d8dee02b27620757ebfe14bfc0a499ebe49c and ae980eed62e04fbec25efd37c7d06673335c5b15
+commit ae980eed62e04fbec25efd37c7d06673335c5b15
+tree bf7f985972fa7c04ff59a32f6bb8827f936e58ca
+parent c4ddf9dfa34a2d622cc41d5f56e299241790c84e
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377661270 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377661270 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 96e64d7580ff3e3ca54362a3d30c1b6320a77076 54f0639db5c8d98e22b41a3d4b5690b19e95180f M	cucumber/pom.xml
+:100644 100644 a207b94127ded9832c2811fdb23c31aad80a3fcd 033ca88f0660f5f57bb40a406f9485fa0d8d1097 M	pom.xml
+:100644 100644 9d1af5c0e9340c4d5faaa93875906f79db62c23f ee4a24553efa381692b1dbea2e81641897ef6ced M	service/pom.xml
+
+commit c4ddf9dfa34a2d622cc41d5f56e299241790c84e
+tree 6774b065563022fccd0be72bc1c0b425251c4495
+parent 8016ce9819399c4e7e8acb55c7e778b09166d66d
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377661266 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377661266 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b162
+
+:100644 100644 342364465729050f2dd56bec3aed7c4cac0f852c 96e64d7580ff3e3ca54362a3d30c1b6320a77076 M	cucumber/pom.xml
+:100644 100644 94ac003f939749dfa51a6400627e1e98dd7b411d a207b94127ded9832c2811fdb23c31aad80a3fcd M	pom.xml
+:100644 100644 71f9ba31dbc649ab630496729f7952950bce38e2 9d1af5c0e9340c4d5faaa93875906f79db62c23f M	service/pom.xml
+
+commit c83293e4a44dc4251de92bd60acf376bf66b817c
+tree 05482b8dda747f1922a7ebb61a717af08076f54f
+parent 4e719c45329ac44ee1b7b9c6e819f384d3337825
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377659826 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377659826 -0500
+
+    [B-54505]: added logger
+
+:100644 100644 402273efa5fb12974c7a6be450ef38f9e7cca8e1 6047ff8229491ef8c3582384aff3be7230b68ef1 M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+
+commit 3a19b8352398449b4e4a62c1f1d9f10aaf078a16
+tree b03dba523c140edd15d5f2ae7bbdae796143cb74
+parent 18cd185f81bdda1447d21b884d2e429db5a458a6
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377642779 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377642779 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 3077be6868a6477c2fcb7ca4b60267ab682a4432 342364465729050f2dd56bec3aed7c4cac0f852c M	cucumber/pom.xml
+:100644 100644 1e62db9abdbb809997aa8ca79a2a4cc032426a85 94ac003f939749dfa51a6400627e1e98dd7b411d M	pom.xml
+:100644 100644 f1a1013cd8c0ba1fedcb033f6016cf5f13593018 71f9ba31dbc649ab630496729f7952950bce38e2 M	service/pom.xml
+
+commit 18cd185f81bdda1447d21b884d2e429db5a458a6
+tree af9e5e201db211c5895f4c04f39e3cedf9e5dbcd
+parent 0c8189490b4420abf3b859dacc8b104a4bf8e8e0
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377642774 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377642774 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b161
+
+:100644 100644 0a33cd8aa000312dab77e4ceaddeb894bc36f80b 3077be6868a6477c2fcb7ca4b60267ab682a4432 M	cucumber/pom.xml
+:100644 100644 0730d4c48197c983232cd987d70bf9d6ff9fd623 1e62db9abdbb809997aa8ca79a2a4cc032426a85 M	pom.xml
+:100644 100644 9a018f92c660545ed9a5f790d52092cd66ed4868 f1a1013cd8c0ba1fedcb033f6016cf5f13593018 M	service/pom.xml
+
+commit 4e719c45329ac44ee1b7b9c6e819f384d3337825
+tree b97c3f5638222cf1d7006813a25e4afe44002c70
+parent 28f30e4d94c5bafb75abe23cf667415a9bd57991
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377631738 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377631738 -0500
+
+    [B-54505]: formatting code
+
+:100644 100644 f0acf4c7e27ff1390d4f7c9ef159e9884e447103 402273efa5fb12974c7a6be450ef38f9e7cca8e1 M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+
+commit c4969e3d5251b8a45a17a63b584f837873aeb059
+tree a9652aedbad5a159dad500274a87a63581c4a922
+parent d335de5be5f226aba8a743af77499f445b16b846
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377630228 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377630228 -0500
+
+    [B-54505]:  added version check
+
+:100644 100644 37178b22d0bd09b2bbd77ced2024617de727e90b 3256e882d12d762755ddeb917d0cfc53d6ed6520 M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy
+:100644 100644 096c7702a140bfafb2fc0d457ac4b5afb1f8b010 f0acf4c7e27ff1390d4f7c9ef159e9884e447103 M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+
+commit d335de5be5f226aba8a743af77499f445b16b846
+tree 3cb9e9a6d52ef1b01ac4c4003d2f44e9a4ee9a17
+parent 19124d8c3b53ff1241dff8f21e88b44c6585c30a
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377616036 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377616036 -0500
+
+    [B-54505]:  validating job status properly
+
+:100644 100644 bd8f0c6eda6ac3b0675b77a95eefc8bd560dc5bb 17661fda1c0843ee42f53b57af0bced16c7334af M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncJob.groovy
+:100644 100644 7872f8ca7433619408e3990f2d24160265d5dabf 096c7702a140bfafb2fc0d457ac4b5afb1f8b010 M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+:100644 100644 33f9390c5fa6e1349159d7aa93d921f66e6300b7 243c1440ce0aee86f6cd40880881ab395b140657 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+:100644 100644 7727330e009fb414d22685951e7d28737abf19f9 869066763a4effc16d0a67358772497d44f28195 M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncJob.groovy
+:100644 100644 ed9814c820b1eea34d47bb446dae68830f4b52d7 8c9bbcd4ece7273f8bd93e42011b54329e268eee M	service/src/main/groovy/com/rackspace/search/service/admin/CoreTicketOndemandSyncJob.groovy
+:100644 100644 153e43699a772b2293f1ec5ee52d4c84d66a932e cb1617d973b5f2baca89841a1a36e2263295c245 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+:100644 100644 ad026fd4e9f3f4343cf0cc0838d246e0c4d7960a 4134f8aeb1eada8e3c56e284e63798482f3227df M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketSecondPassSyncJob.groovy
+:100644 100644 32cab3c0f98ea765fd91e4b9612aa6b8ba046b6d f32f31ba29f59a4df92aa50961d01ac65ff7a741 M	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+:100644 100644 50d4a975fbf975fbabe106e72530d4119c210f37 6550ff4d63e545f7e63796e5e6ea43f1addfd245 M	service/src/test/groovy/com/rackspace/search/endpoint/AdminResourceTest.groovy
+:100644 100644 3306bca331ac6841ae4e42d442fcc860897ed724 9f9cdb125edd9e3c4197cac23d70f312a698b641 M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketSecondpassSyncJobTest.groovy
+
+commit 19124d8c3b53ff1241dff8f21e88b44c6585c30a
+tree c6d79fece14071b6ef260ff5017d452a4b4d077b
+parent 212f444d2ecb17f562ea9528f4354b2781b0b7c6
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377612871 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377612871 -0500
+
+    [B-54505]:  organizing parathesis properly
+
+:100644 100644 58d348489268e20ad23ab781483bd625193e05ef 1fde385a5cb73a8930619d6382e14d27b9135c23 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOneTimeSyncJob.groovy
+
+commit 212f444d2ecb17f562ea9528f4354b2781b0b7c6
+tree aa02ac8c300253a18bac347da02192eb7988f2e2
+parent d59084d003a08bb071355254c1384420e46192fa
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377612765 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377612765 -0500
+
+    Revert "[B-54505]:  setting last_event_at"
+    
+    This reverts commit d59084d003a08bb071355254c1384420e46192fa.
+
+:100644 100644 a37eeedabc503b4df47fd96472564b8453f77e63 7872f8ca7433619408e3990f2d24160265d5dabf M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+:100644 100644 dfb735630720b0c8bb31f6adf4b04b5ca7c3fe27 eb77a297171253c00fdcfdaf17c76d914cd9d6dd M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncActor.groovy
+:100644 100644 176aeb5aff96e19e3b8682bc13b48b023c6c6f95 529c39765d6c4439029a13e2f9c2f689ba719790 M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncActor.groovy
+:100644 100644 539f1738149d7c540e04a2cef9d2fd73c391cb15 ed9814c820b1eea34d47bb446dae68830f4b52d7 M	service/src/main/groovy/com/rackspace/search/service/admin/CoreTicketOndemandSyncJob.groovy
+:100644 100644 560e8bf0c04284079c9dbe5424dc4bb1d5e39b54 dae2db505844fb13e6835762aabf79c85ee67ea4 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncActor.groovy
+:100644 100644 3be5910fc7bf40bd9c436c57d90b69f3a6b5f64e a25f1563b398a301eff7b26e780e254f8fa29a59 M	service/src/test/groovy/com/rackspace/search/service/account/AccountOngoingSyncActorTest.groovy
+:100644 100644 5c01acac4209bb885b2d85a9e4e5024982db4834 c69e0e1c25340a6de4655a0352d15a8b26e0d2d7 M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncActorTest.groovy
+
+commit 058bedcdd238061c019bbad0e83294aff0995eb4
+tree 879458aaf56ade5a8caca6af15bf5d108090ed2a
+parent 9e7466b234f37d73b521f19e8eacc10e554ec1ff
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377557978 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377557978 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 21621a44de40cc0489bcfa557058d75faf628664 0a33cd8aa000312dab77e4ceaddeb894bc36f80b M	cucumber/pom.xml
+:100644 100644 326da29a68b242df10452f0fd20330cc9880c730 0730d4c48197c983232cd987d70bf9d6ff9fd623 M	pom.xml
+:100644 100644 e475f182905086ac29832290a278da0f9152238f 9a018f92c660545ed9a5f790d52092cd66ed4868 M	service/pom.xml
+
+commit 9e7466b234f37d73b521f19e8eacc10e554ec1ff
+tree 22afbac22ca7cf256cf2d784162799508739c081
+parent 7194494f2473fcd6e2dd2b07115c89c7ffaaddd2
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377557973 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377557973 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b160
+
+:100644 100644 c1d707119184504ad8ea1845a527d8ab74f88334 21621a44de40cc0489bcfa557058d75faf628664 M	cucumber/pom.xml
+:100644 100644 b41be0337faa2cebe19b6af95685f721553fe7d0 326da29a68b242df10452f0fd20330cc9880c730 M	pom.xml
+:100644 100644 c0f8c576ccf77b1aee6cc2e12cca027cfc297f11 e475f182905086ac29832290a278da0f9152238f M	service/pom.xml
+
+commit d59084d003a08bb071355254c1384420e46192fa
+tree a15c0720dd0b62b1aa97a6178472b98b3ffcacad
+parent fdee29e8e32684dd850e5b166332ce803e6d6543
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377548324 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377548324 -0500
+
+    [B-54505]:  setting last_event_at
+
+:100644 100644 7872f8ca7433619408e3990f2d24160265d5dabf a37eeedabc503b4df47fd96472564b8453f77e63 M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+:100644 100644 eb77a297171253c00fdcfdaf17c76d914cd9d6dd dfb735630720b0c8bb31f6adf4b04b5ca7c3fe27 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncActor.groovy
+:100644 100644 529c39765d6c4439029a13e2f9c2f689ba719790 176aeb5aff96e19e3b8682bc13b48b023c6c6f95 M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncActor.groovy
+:100644 100644 ed9814c820b1eea34d47bb446dae68830f4b52d7 539f1738149d7c540e04a2cef9d2fd73c391cb15 M	service/src/main/groovy/com/rackspace/search/service/admin/CoreTicketOndemandSyncJob.groovy
+:100644 100644 dae2db505844fb13e6835762aabf79c85ee67ea4 560e8bf0c04284079c9dbe5424dc4bb1d5e39b54 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncActor.groovy
+:100644 100644 a25f1563b398a301eff7b26e780e254f8fa29a59 3be5910fc7bf40bd9c436c57d90b69f3a6b5f64e M	service/src/test/groovy/com/rackspace/search/service/account/AccountOngoingSyncActorTest.groovy
+:100644 100644 c69e0e1c25340a6de4655a0352d15a8b26e0d2d7 5c01acac4209bb885b2d85a9e4e5024982db4834 M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncActorTest.groovy
+
+commit 3fa5e1aeae250f252e11a6901f856a9e8c8b36d2
+tree 574a8c52704f2a90f12e4b91d1fff9976f64d27e
+parent e94164056ff06843b6baf4dcfd17c226facb2fca
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377499935 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377499935 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 2dacf4a56339a31f6a80781fb20d1c5efd091625 c1d707119184504ad8ea1845a527d8ab74f88334 M	cucumber/pom.xml
+:100644 100644 dde905fc068eba50eae57f34536d062509d8ac5a b41be0337faa2cebe19b6af95685f721553fe7d0 M	pom.xml
+:100644 100644 3e02a7bb1953a75caca335a8e0e5978f87081dab c0f8c576ccf77b1aee6cc2e12cca027cfc297f11 M	service/pom.xml
+
+commit e94164056ff06843b6baf4dcfd17c226facb2fca
+tree 3568b80b90333d72d3e9f18b7a0b313c5b0da4cf
+parent cc85fb2cbc6a3b481b439deacc64fb012f22d103
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377499931 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377499931 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b159
+
+:100644 100644 f7e2eca8ef0d40d4e7422768de661250b780f3db 2dacf4a56339a31f6a80781fb20d1c5efd091625 M	cucumber/pom.xml
+:100644 100644 93f486dd591e2109749517ee9b557bb0692d7574 dde905fc068eba50eae57f34536d062509d8ac5a M	pom.xml
+:100644 100644 8dc87e57cf6bfc83ec3cd513ef9bf59189b60509 3e02a7bb1953a75caca335a8e0e5978f87081dab M	service/pom.xml
+
+commit fdee29e8e32684dd850e5b166332ce803e6d6543
+tree aa02ac8c300253a18bac347da02192eb7988f2e2
+parent 1af90e4d1cbbf0d6e193f675709dd55bfa800565
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377498509 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377498509 -0500
+
+    [B-54505]: fixing job complete
+
+:100644 100644 54162eb7522eb53cf8b340f9e178b1b52f7eca00 7872f8ca7433619408e3990f2d24160265d5dabf M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+
+commit fe93f3d4755a3a8c17ab4cd54eba1c326188b5c6
+tree 103a4d3aae0cbbe910520cd7e07515ad776d739b
+parent 2fdb1205434b0a0bcf04f090cfb7463dc2302d32
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377486382 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377486382 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 ca35c7151d14d2fbf41aa79b022be87d0420a40c f7e2eca8ef0d40d4e7422768de661250b780f3db M	cucumber/pom.xml
+:100644 100644 b303c55f112f9f008e79dcb6e3ce18d71c19eb11 93f486dd591e2109749517ee9b557bb0692d7574 M	pom.xml
+:100644 100644 cc74d4e4cf874569066b052676a409da7d317296 8dc87e57cf6bfc83ec3cd513ef9bf59189b60509 M	service/pom.xml
+
+commit 2fdb1205434b0a0bcf04f090cfb7463dc2302d32
+tree 96a3f5a8b4d347a91670654827d348102200d3d3
+parent beba9132f12c9361af49af14eec33bafa22a6270
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377486377 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377486377 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b158
+
+:100644 100644 d1457a6ed1364460398c26e91861703784753df2 ca35c7151d14d2fbf41aa79b022be87d0420a40c M	cucumber/pom.xml
+:100644 100644 ccd55ae34e356cc18e178320b4e84fc00bb51d2c b303c55f112f9f008e79dcb6e3ce18d71c19eb11 M	pom.xml
+:100644 100644 575cc9be03fdf3fa4d9b37089ef4648202f64103 cc74d4e4cf874569066b052676a409da7d317296 M	service/pom.xml
+
+commit 1af90e4d1cbbf0d6e193f675709dd55bfa800565
+tree 63201229feae08265cc24206c1c2534c6d7493a6
+parent 1070c3e20b5959e28621c24461e82bd21fc24835
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377297732 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377297732 -0500
+
+    [B-54505]: setting next execution time to null when stopped
+
+:100644 100644 ed20b830713c0fbe7054a518f5a4f02eff10505a 54162eb7522eb53cf8b340f9e178b1b52f7eca00 M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+
+commit 1070c3e20b5959e28621c24461e82bd21fc24835
+tree 2dfc4cb10dc18d6d2c0b0419be49490f67c4612e
+parent d0321678fac930260b8f4e053ce30b71e689ac5e
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377279334 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377279334 -0500
+
+    [B-54505]: ignoring timezone part (-05)
+
+:100644 100644 efe5a52edf2f156a87a15139b53012cb2d61e101 5b481fb8463deced008866b5ae890ce7181fce79 M	service/src/main/groovy/com/rackspace/search/util/DateUtil.groovy
+
+commit 218cb0e7a5f0e6d3831f9266f17794e4c678e80c
+tree a4636047062890253ec605510798c1fb9238d3e5
+parent 311c71d2c7c817535e4a9a724390489430e5157d
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377234307 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377234307 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 f627565f5661abe55c26d8bd89dce25fa2e4b8b9 d1457a6ed1364460398c26e91861703784753df2 M	cucumber/pom.xml
+:100644 100644 bf17eab2f5d5f15ceef7ceb72812c2d6952a5b11 ccd55ae34e356cc18e178320b4e84fc00bb51d2c M	pom.xml
+:100644 100644 8ab74db3b333f81f66a1470262af4ecc018eec1e 575cc9be03fdf3fa4d9b37089ef4648202f64103 M	service/pom.xml
+
+commit 311c71d2c7c817535e4a9a724390489430e5157d
+tree c21a3cce000e1226766a4270530b9d5b67d264bb
+parent b500d9b50fc118d805d75365a40c5fc6ca65e30f
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377234300 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377234300 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b157
+
+:100644 100644 44aa4145c071e31735ed7a2561a0b97cb6a87db6 f627565f5661abe55c26d8bd89dce25fa2e4b8b9 M	cucumber/pom.xml
+:100644 100644 b363a19c8dd17c8ee13841535e21ff5115b62f1a bf17eab2f5d5f15ceef7ceb72812c2d6952a5b11 M	pom.xml
+:100644 100644 e4120a1e1ec77ad3ffbb2413ff51caf82ffb4885 8ab74db3b333f81f66a1470262af4ecc018eec1e M	service/pom.xml
+
+commit 4f039dc1fb392a24bc61fe930866707113fe5481
+tree 4794b6415585b91a58ed377461cea91766eadb75
+parent 51c3e2e474476d13c713ab07c6f6b146d5a64a7a
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377232816 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377232816 -0500
+
+    [B-54505]: fixing compilation issue
+
+:100644 100644 5f21577b7970bc9943ef18f924f34a04c0aa292e ad026fd4e9f3f4343cf0cc0838d246e0c4d7960a M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketSecondPassSyncJob.groovy
+
+commit d0321678fac930260b8f4e053ce30b71e689ac5e
+tree 0b558498be4e63cd0ba203f7b4a8d7d5661fc66b
+parent 0a9c5914fce102225d51863b62d3a0f54aa21b54
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377232358 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377232358 -0500
+
+    [B-54505]:   using dateutil to get coredate
+
+:100644 100644 fd67f6a9488ad216f33680e4203198455f2e6c87 b2fb76a77e17c83dd78922cd5dbcdaf3b542727a M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountProcessor.groovy
+:100644 100644 aa2acd3418a79507ac21b0e545b49d777f5ec6d1 f5d138fdde40de5b37193fdcd77fb04c248c68fc M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+:100644 100644 5f21577b7970bc9943ef18f924f34a04c0aa292e ad026fd4e9f3f4343cf0cc0838d246e0c4d7960a M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketSecondPassSyncJob.groovy
+:100644 100644 453b05fe8bb92265584cf35c5cca9ab7d720d539 77ffd5c7d399f54c7421ed2a08d62fc29c367774 M	service/src/test/groovy/com/rackspace/search/service/account/CoreAccountProcessorTest.groovy
+:100644 100644 cf43114646cc802a12cd9c2833faf1eb0bc98113 24af7eca3958ecc1b0282058b2490b087e4d9ccf M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketProcessorTest.groovy
+
+commit 0a9c5914fce102225d51863b62d3a0f54aa21b54
+tree 23f4c30e4150706bc503cb7d4d2a254bd031def9
+parent 0523ac2a995f3b15cbc7c62e6f1c1544440f01df
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377229928 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377229928 -0500
+
+    [B-54505]: adding interval time
+
+:100644 100644 e5dbfa36a1f721f928a0b718a84b6b7111df7472 f576c1a0f2c3aed49bb8cbd3efd3571bec29bbf5 M	service/src/main/config/elasticsearch/mappings/admin/syncJob.json
+:100644 100644 91ab2c60f4babecf53a6362b88cc2ce83aa175d8 0da1d1a4dda833c3e079faf762835d620f09d92e M	service/src/main/groovy/com/rackspace/search/Constants.groovy
+:100644 100644 8d8bd1f32aacd907f4d2c370cf85a47aa60509f9 bd8f0c6eda6ac3b0675b77a95eefc8bd560dc5bb M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncJob.groovy
+:100644 100644 71e170c41622f220e8b88dc70e9a1115af089d18 ed20b830713c0fbe7054a518f5a4f02eff10505a M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+
+commit 0523ac2a995f3b15cbc7c62e6f1c1544440f01df
+tree 3e79b588a14423cde8518bde4159983fe0f19d15
+parent ac830ec4116e1b468fb9381d43ec9d83dfa63c3f
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377209622 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377209622 -0500
+
+    [B-54505]: Renaming actor name
+
+:100644 100644 05ab52bfd965927b67215407ad9f4511a8cfae81 529c39765d6c4439029a13e2f9c2f689ba719790 R098	service/src/main/groovy/com/rackspace/search/service/account/AccountUpdatesSyncActor.groovy	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncActor.groovy
+:100644 100644 db24a7e2391652114dc64e3a906e28730b80e031 7727330e009fb414d22685951e7d28737abf19f9 M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncJob.groovy
+:100644 100644 5cfe949c1c1d4f500cddeba36b3110dac2d96821 c3d43fb4d34a893477b10d839c701d31eb86a850 M	service/src/test/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncJobTest.groovy
+
+commit ac830ec4116e1b468fb9381d43ec9d83dfa63c3f
+tree ee1689fcd58cb2277615d6a2b368d3179e7c0463
+parent 5ea2737750faa68650f77f65672cdc50d9d91f2e
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377209501 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377209501 -0500
+
+    [B-54505]: cleaning imports
+
+:100644 100644 ac3c1ee449e7ac8c7198501a2b0262c963473ade eb77a297171253c00fdcfdaf17c76d914cd9d6dd M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncActor.groovy
+:100644 100644 8863a052eec7ce04f0098951eceb1b2590df87d4 33f9390c5fa6e1349159d7aa93d921f66e6300b7 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+:100644 100644 cba3ab92104a427a42d61ac9562efe6cf896a91a 05ab52bfd965927b67215407ad9f4511a8cfae81 M	service/src/main/groovy/com/rackspace/search/service/account/AccountUpdatesSyncActor.groovy
+:100644 100644 936dc973cb8b5091bad1af334f636e826ccd9cb6 db24a7e2391652114dc64e3a906e28730b80e031 M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncJob.groovy
+:100644 100644 b5b2e14c973596359b904da48b62e3f83bd9f076 153e43699a772b2293f1ec5ee52d4c84d66a932e M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+:100644 100644 cc78ea5abe823ffa8a40b4ebcd7e0f7061f7eb5e 5f21577b7970bc9943ef18f924f34a04c0aa292e M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketSecondPassSyncJob.groovy
+
+commit 5ea2737750faa68650f77f65672cdc50d9d91f2e
+tree 00af153f12f10268a7da92f8d5670cd52d795725
+parent 2c2d18e479c95720796fa87349b94d0b81ce561d
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377208496 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377208496 -0500
+
+    [B-54505]: fixing second pass job
+
+:100644 100644 b4c49fc1200b48284de1301e4b1dc077e17cb671 8d8bd1f32aacd907f4d2c370cf85a47aa60509f9 M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncJob.groovy
+:100644 100644 d20403a8bc46cc4fd666b5fc0e0514428443c904 cc78ea5abe823ffa8a40b4ebcd7e0f7061f7eb5e M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketSecondPassSyncJob.groovy
+:100644 100644 470cba6c10c331f41bdb24f8f1ac6411e6f9523b 3e9a3ec724c4676bdf88197dfe7abdd5e9ae408f M	service/src/test/groovy/com/rackspace/search/service/SyncRequestServiceTest.groovy
+
+commit 2c2d18e479c95720796fa87349b94d0b81ce561d
+tree e37be3a766389caefdcd5d55f170162c16740176
+parent 32d349e19aed2a7ee79e9bd5ac36fa35fb299882
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377205289 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377205289 -0500
+
+    [B-54505]: added next execution time
+
+:100644 100644 68250ce371c60e6ac8eb73a4c084228c55589f89 e5dbfa36a1f721f928a0b718a84b6b7111df7472 M	service/src/main/config/elasticsearch/mappings/admin/syncJob.json
+:100644 100644 e76a71c4782200e54ec62604ca97f82afdf572c2 91ab2c60f4babecf53a6362b88cc2ce83aa175d8 M	service/src/main/groovy/com/rackspace/search/Constants.groovy
+:100644 100644 94748b5f06452d05e50f4d2ad4ef80699c77c24d b4c49fc1200b48284de1301e4b1dc077e17cb671 M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncJob.groovy
+:100644 100644 806cce4afc50d77e2b603837b5da427eb4994286 71e170c41622f220e8b88dc70e9a1115af089d18 M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+:100644 100644 5b3937be33d063f17dbfdf0592ff5c46318939cc 8863a052eec7ce04f0098951eceb1b2590df87d4 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+:100644 100644 492b70d9157ae12c3aa4652704ea68fe3875a203 936dc973cb8b5091bad1af334f636e826ccd9cb6 M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncJob.groovy
+:100644 100644 8f68c8c21d576b92156be65576a6bf2c38a08b33 ed9814c820b1eea34d47bb446dae68830f4b52d7 M	service/src/main/groovy/com/rackspace/search/service/admin/CoreTicketOndemandSyncJob.groovy
+:100644 100644 33eea295a7b2f22a1c8cd394a3b7a72c0ecb6493 b5b2e14c973596359b904da48b62e3f83bd9f076 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+:100644 100644 b3445aa461c0da65d30cf4bc8434a5a26299c2ba d20403a8bc46cc4fd666b5fc0e0514428443c904 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketSecondPassSyncJob.groovy
+:100644 100644 9e8c7bb27816d5f71aa598824320a6850ff29fa7 470cba6c10c331f41bdb24f8f1ac6411e6f9523b M	service/src/test/groovy/com/rackspace/search/service/SyncRequestServiceTest.groovy
+:100644 100644 0f30ecdc24f16cd1dfdd9096111102c0dfb265b2 31af4e95810b43afdad5b9c9b6f51c257188536f M	service/src/test/groovy/com/rackspace/search/service/account/AccountOngoingSyncJobTest.groovy
+:100644 100644 8c385680145e9f4a2affbbef651dd4339d40baff 4e0c29a7c9f963036d138872cd1d69b45e2682f1 M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJobTest.groovy
+
+commit 32d349e19aed2a7ee79e9bd5ac36fa35fb299882
+tree 33ee817be55b7014099162bf3fc5ca8bf2522f98
+parent b360483b1dbd7a1551a82137a78d0cdd1d960337
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377150469 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377150469 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 3ac14caac2746ea0dcb7aca1f66bdf5d5bfc16ba 44aa4145c071e31735ed7a2561a0b97cb6a87db6 M	cucumber/pom.xml
+:100644 100644 5adb080cb75ad603939b61dee7e5b164da1d31e3 b363a19c8dd17c8ee13841535e21ff5115b62f1a M	pom.xml
+:100644 100644 c003b1c76e2fd2961dc5a6729ac538c83b26af7a e4120a1e1ec77ad3ffbb2413ff51caf82ffb4885 M	service/pom.xml
+
+commit b360483b1dbd7a1551a82137a78d0cdd1d960337
+tree 4d53edd30cc940223f0cf233119a8169e202bd17
+parent 96e1f80f9b3ef13a8e746eee959604f9abd6ef80
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377150465 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377150465 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b156
+
+:100644 100644 aa150aba7081eb4831292a60aeb61a12c8c5dc41 3ac14caac2746ea0dcb7aca1f66bdf5d5bfc16ba M	cucumber/pom.xml
+:100644 100644 e991ab1b802a015315bafbebe47585b1d559748b 5adb080cb75ad603939b61dee7e5b164da1d31e3 M	pom.xml
+:100644 100644 60a2384ae6eff58b5523d304a71413c72aefeb5f c003b1c76e2fd2961dc5a6729ac538c83b26af7a M	service/pom.xml
+
+commit b713ed4745f1353dda36476c614427c5376ffefb
+tree 4c09033851884d79a105514744e39195df94ecd8
+parent 20875906bce4577dc8158f6b9032a2ca994fcaf3
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377149103 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377149103 -0500
+
+    [B-52097] : reverted  CoreAccountUpdateSyncJob change
+
+:100644 100644 2b65a8eb887a6e028dcf88f6227c69affad87d31 492b70d9157ae12c3aa4652704ea68fe3875a203 M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncJob.groovy
+
+commit 20875906bce4577dc8158f6b9032a2ca994fcaf3
+tree 048e006d7aea961321c8fd5b39914f77743bc222
+parent a6c2ccf9b9a775873031ded29ccc44d6632d92cb
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377148878 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377148878 -0500
+
+    [B-52097] : coreTicketOnetimesyncJob refactoring fixes.
+
+:100644 100644 970d3865fac45a35861f0673e04cfb07849d86dd 806cce4afc50d77e2b603837b5da427eb4994286 M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+:100644 100644 b7eb1a1a29e46111b2851ed9b1062ffdf048aabd 33eea295a7b2f22a1c8cd394a3b7a72c0ecb6493 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+:100644 100644 7acb4f338d5a6563aea116171a78cb2badbcf284 32cab3c0f98ea765fd91e4b9612aa6b8ba046b6d M	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+
+commit cbf77df136f663ae26ca319fafc0537d9e6dfb87
+tree e247b52b0af9b101f7fd45e6c1d2944a0236f7f7
+parent 55e725d944ce0e7fb0c6185e8010e7953ae1e7a9
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377142126 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377142126 -0500
+
+    [B-52097] : coreTicketOnetimesyncJob refactoring halfway
+
+:100644 100644 10698c971bca577d60ae136355bdd0d0fd7d8fac dd63834f13f740e287e7f7603cc4bb1a2b1ff63b M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncJob.groovy
+:100644 100644 a3866524c14b90b9f5aeedd23680130616c0d8f9 2548d7470a273ed4679ac8e70dd6ee192bc7733b M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+:100644 100644 cd7cd1fa03dc6c0218d260a0ffc1bd6bfd005991 0351c38cb3a2cc866a30d1ae5e5e8e77f1cf5c3b M	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+:100644 100644 7faec712fbd920c2bf8142e9340cf29e3409ee5e 1a2b4548461c1583841d838282953253ab26d169 M	service/src/main/java/com/rackspace/search/scheduling/SyncJobScheduler.java
+
+commit 1fd22b8f4e9d1c7b38ab0989575fe89188d1dfd0
+tree 0712538bfb6b2f5c36e7630184ea451019536abb
+parent ab221ebc3cc9ffa6901296acdbe49d5d67c3fe15
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377123782 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377123782 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 0384e58be6591c9e67d2b4381615cf747ea9ac76 aa150aba7081eb4831292a60aeb61a12c8c5dc41 M	cucumber/pom.xml
+:100644 100644 f7d4005f4dd3b6fad5bc524a7d07def2b4b563de e991ab1b802a015315bafbebe47585b1d559748b M	pom.xml
+:100644 100644 107a779c2c4c17a6727f4cefc96125527e28f71f 60a2384ae6eff58b5523d304a71413c72aefeb5f M	service/pom.xml
+
+commit ab221ebc3cc9ffa6901296acdbe49d5d67c3fe15
+tree 4e26b3869826c5d68115e2d02d5c5e526428943d
+parent 6fa62a1f7e47cceac847c339f8ea4aaf1bc7d4f2
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377123775 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377123775 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b155
+
+:100644 100644 e16743c73bfce6992ea3d7251405d9de8f18d850 0384e58be6591c9e67d2b4381615cf747ea9ac76 M	cucumber/pom.xml
+:100644 100644 5e2ad97245dd0dbb5160463ea6ae4adf7146aacd f7d4005f4dd3b6fad5bc524a7d07def2b4b563de M	pom.xml
+:100644 100644 cec62b6220209447091bed2f2e8bf2d076fa9443 107a779c2c4c17a6727f4cefc96125527e28f71f M	service/pom.xml
+
+commit 4f53f29bd5962f784ca4ae19361303407d0d1739
+tree 30a61f7f88159ddf2347eb9320f3a1cee313cd3e
+parent 55e725d944ce0e7fb0c6185e8010e7953ae1e7a9
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377120156 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377120156 -0500
+
+    [B-54505] : added readMarker support for AccountOngoingSync job.
+
+:100644 100644 8d004a8d9b29bb6109a9bd16f8e29dc9363ed2e3 5b3937be33d063f17dbfdf0592ff5c46318939cc M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+:100644 100644 cd7cd1fa03dc6c0218d260a0ffc1bd6bfd005991 231c8685c735c7f9a02de59db51ca1ecff2ca348 M	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+
+commit d54de1371bafc8635e705a57567749abddb0dc9f
+tree 751113e29201a59916c0b84db33fc8fad695c522
+parent 50123a957653f409b939e15dfc188eca02928731
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377119590 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377119590 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 224e3ca12b8fcc04b49bbff4509ba8d06d652f67 e16743c73bfce6992ea3d7251405d9de8f18d850 M	cucumber/pom.xml
+:100644 100644 039b93096931f3bacbfe7926c3088ebe5b086549 5e2ad97245dd0dbb5160463ea6ae4adf7146aacd M	pom.xml
+:100644 100644 1ee776ab95c3a960137d4c42086aa0495a464335 cec62b6220209447091bed2f2e8bf2d076fa9443 M	service/pom.xml
+
+commit 50123a957653f409b939e15dfc188eca02928731
+tree 7cd1b2653291454aaa1749ed2505a74fd750bd63
+parent 74d6a9a4b2bd70ee755306a257be1d12eb5ef975
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377119586 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377119586 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b154
+
+:100644 100644 c6bd5060635c0865a54b766da59cc9d47ea34092 224e3ca12b8fcc04b49bbff4509ba8d06d652f67 M	cucumber/pom.xml
+:100644 100644 6064a6db5153179542a0d2c5359dea0f6e3a25b9 039b93096931f3bacbfe7926c3088ebe5b086549 M	pom.xml
+:100644 100644 d7626f41b94ae7892b16e033381a3ae3f3ec44c1 1ee776ab95c3a960137d4c42086aa0495a464335 M	service/pom.xml
+
+commit 55e725d944ce0e7fb0c6185e8010e7953ae1e7a9
+tree 09a5ac0e4d275f23c4b020b5f80290c694baaab9
+parent 64cfacbd55545a9e80d08f95498052284f12ae0b
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377115515 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377115515 -0500
+
+    [B-54505] : updated account ongoing sync job to remove readMarker
+
+:100644 100644 2bfef50f9a17ec24266da5b7b6e66af5bf034ed8 8d004a8d9b29bb6109a9bd16f8e29dc9363ed2e3 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+
+commit 64cfacbd55545a9e80d08f95498052284f12ae0b
+tree 757810d146a4ee869d4992fde13e30a668649882
+parent cf855f2b72f1a68e672b349d6693013cf2209794
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377115273 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377115273 -0500
+
+    [B-54505] : updated account ongoing sync job to be added with enabld false
+
+:100644 100644 fcea83342ff7b3532fb13fdd3cc7215bac35b686 2bfef50f9a17ec24266da5b7b6e66af5bf034ed8 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+
+commit 7e0ea8c9605968280861f0b53c46df519bb06b51
+tree d215e8ad79759447488be12bafd3260107c66602
+parent 1ff28d029e0f6edd9b986fe250c3263c2efc9968
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377114089 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377114089 -0500
+
+    [B-54505] : Refactored account ongoing sync job, updated CoreAccountUpdatessyncJob, onDemnad job
+
+:100644 100644 461fe48027951e38c910b7a98f4ff80760045146 fcea83342ff7b3532fb13fdd3cc7215bac35b686 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+:100644 100644 7411e9a36de3a8da63f4c42389e661c9fef083a3 10698c971bca577d60ae136355bdd0d0fd7d8fac M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncJob.groovy
+:100644 100644 e26dafd6720bdccfe50f6e58f39cc2b42c54352b f3aff233a52b80c14ec2dc1113366963b782bcbf M	service/src/main/groovy/com/rackspace/search/service/admin/CoreTicketOndemandSyncJob.groovy
+:100644 100644 866689072e969d910e3ab3f9936f36750ff00337 cd7cd1fa03dc6c0218d260a0ffc1bd6bfd005991 M	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+:100644 100644 112a58f0f007b77644e07163b292877c591756ff 7faec712fbd920c2bf8142e9340cf29e3409ee5e M	service/src/main/java/com/rackspace/search/scheduling/SyncJobScheduler.java
+:100644 100644 8a1388beddc9f4f708093c58d7286bd992725018 0f30ecdc24f16cd1dfdd9096111102c0dfb265b2 M	service/src/test/groovy/com/rackspace/search/service/account/AccountOngoingSyncJobTest.groovy
+
+commit 2dec800962b932924e9c6dce4b953de81a69895b
+tree 531fc196a93a3a11c75d7301d0bc4b2197b9b83f
+parent ccdb032fb6921b7feb65030b959e46b43397394d
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377059759 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377059759 -0500
+
+    [D-14878]: fixing datetime
+
+:100644 100644 5f8cedc9f183d0af4cc432d8e594b49d9ef6c172 da3733169cb79fcbb76a4a8b4d9da5eaf8f8040b M	service/src/main/groovy/com/rackspace/search/service/account/AccountUpdatesSyncActor.groovy
+:100644 100644 7411e9a36de3a8da63f4c42389e661c9fef083a3 a08fab99a0fa665958903a8b5394be4d64cff5fc M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncJob.groovy
+:100644 100644 457c2a03ed28e0cebe6c39271d03ecc971c75946 b0814988d76b0215bf3caa1c1c476b307602c1f7 M	service/src/main/groovy/com/rackspace/search/service/admin/CoreTicketOndemandSyncJob.groovy
+:100644 100644 b15cfb263f3082cfd588b28f09201f4682f586a6 6c4315b4c80a44a086a57473dd81b9323561b486 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncActor.groovy
+:100644 100644 a3866524c14b90b9f5aeedd23680130616c0d8f9 56765c2fa9d09970846b184c554d9708640a0db3 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+:100644 100644 c4a7c1cf792f30e860743c7377cd960d3f9eae1f 885ceea01d080e4349a3e76bca8d322e1783bc30 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketSecondPassSyncJob.groovy
+:000000 100644 0000000000000000000000000000000000000000 efe5a52edf2f156a87a15139b53012cb2d61e101 A	service/src/main/groovy/com/rackspace/search/util/DateUtil.groovy
+:100644 100644 85337e4acffacab94d1ff944c042f6c8671af969 18aeedf4ada8ff619cdc126255eedde2e29cd2b3 M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJobTest.groovy
+:100644 100644 1a5405da1d134f79607a6eab334d0f44bc6501f0 3306bca331ac6841ae4e42d442fcc860897ed724 M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketSecondpassSyncJobTest.groovy
+:000000 100644 0000000000000000000000000000000000000000 babcdf80e33654d25afa698134b6cdf3d2aa25d9 A	service/src/test/groovy/com/rackspace/search/util/DateUtilTest.groovy

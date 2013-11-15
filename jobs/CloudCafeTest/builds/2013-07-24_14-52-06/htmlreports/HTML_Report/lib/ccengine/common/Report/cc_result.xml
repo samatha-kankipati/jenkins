@@ -1,0 +1,99 @@
+<testsuite errors="8" failures="5" name="" skips="0" tests="30" time="268.336560011"><testcase classname="TestFetchExistingCoreTickets" name="test_load_existing_tickets_to_ticket_search" result="PASSED" /><testcase classname="TestListTickets" name="test_list_tickets_by_date_range_in_query_params_with_not_eql_op" result="PASSED" /><testcase classname="TestPagination" name="test_descending_sorting_order_when_fetching_the_tickets" result="PASSED" /><testcase classname="TestFetchExistingCoreTickets" name="test_content_type_of_response" result="PASSED" /><testcase classname="TestListTickets" name="test_list_tickets_query_params_with_single_value_and_eql_op" result="PASSED" /><testcase classname="TestHealthCheck" name="test_info_check_after_installation" result="PASSED" /><testcase classname="TestListTickets" name="test_get_specific_ticket_using_query_parameters" result="PASSED" /><testcase classname="TestPagination" name="test_ascending_sorting_order_when_fetching_the_tickets" result="PASSED" /><testcase classname="TestHealthCheck" name="test_health_check_after_installation" result="PASSED" /><testcase classname="TestListTickets" name="test_list_tickets_eql_and_noteql_op_multiple_vals_in_query_parms" result="PASSED" /><testcase classname="TestPagination" name="test_next_previous_link_of_pagination_during_list_tickets" result="PASSED" /><testcase classname="TestListTickets" name="test_list_tickets_query_params_with_multiple_vals_and_not_eql_op" result="PASSED" /><testcase classname="TestPagination" name="test_default_sorting_order_is_ascending" result="PASSED" /><testcase classname="TestListTickets" name="test_list_tickets_query_params_with_single_value_and_not_eql_op" result="PASSED" /><testcase classname="TestFetchExistingCoreTickets" name="test_all_the_dates_are_converted_to_UTC_format" result="PASSED" /><testcase classname="TestPagination" name="test_first_link_of_pagination_during_list_ticket" result="PASSED" /><testcase classname="TestPagination" name="test_last_link_of_pagination_during_list_ticket" result="PASSED" /><testcase classname="TestCoreOngoingSync" name="test_ticket_created_in_core_reflects_in_one_minute_in_tqsearch" result="FAILED"><failure message="The ticket{%s} is not present in tq_search" type="AssertionError">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/core_ongoing_sync/test_core_ongoing_sync.py", line 79, in test_ticket_created_in_core_reflects_in_one_minute_in_tqsearch
+    "The ticket{%s} is not present in tq_search")
+AssertionError: False is not True : The ticket{%s} is not present in tq_search
+</failure></testcase><testcase classname="TestAccountInformation" name="test_list_tickets_and_verify_the_account_data" result="FAILED"><failure message="&lt;AccountServices object&gt; &#10;status = Active&#10;name = Savills Plc&#10;team = Team EM5&#10;number = 896236&#10;rcn = RCN-000-047-049&#10;highProfile = False&#10;updatedAt = None&#10;type = MANAGED_HOSTING&#10; != &lt;AccountServices object&gt; &#10;userName = UNDEFINED&#10;status = Active&#10;hybridNetworking = false&#10;name = Savills Plc&#10;region = US&#10;team = Team UK M13&#10;salesForceSubType = External Customer&#10;number = 896236&#10;slaType = NONE&#10;rcn = RCN-000-047-049&#10;highProfile = False&#10;accountManagerGeoLocation = GB&#10;type = MANAGED_HOSTING" type="AssertionError">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_account_information.py", line 62, in test_list_tickets_and_verify_the_account_data
+    account_info_from_acc_svs)
+AssertionError: &lt;AccountServices object&gt; 
+status = Active
+name = Savills Plc
+team = Team EM5
+number = 896236
+rcn = RCN-000-047-049
+highProfile = False
+updatedAt = None
+type = MANAGED_HOSTING
+ != &lt;AccountServices object&gt; 
+userName = UNDEFINED
+status = Active
+hybridNetworking = false
+name = Savills Plc
+region = US
+team = Team UK M13
+salesForceSubType = External Customer
+number = 896236
+slaType = NONE
+rcn = RCN-000-047-049
+highProfile = False
+accountManagerGeoLocation = GB
+type = MANAGED_HOSTING
+
+</failure></testcase><testcase classname="TestAccountInformation" name="test_same_number_of_accounts_in_account_svs_and_elastic_search" result="FAILED"><failure message="The number of accounts are not same in elastic                           search and account services" type="AssertionError">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_account_information.py", line 114, in test_same_number_of_accounts_in_account_svs_and_elastic_search
+    search and account services")
+AssertionError: '426608' != '484537' : The number of accounts are not same in elastic                           search and account services
+</failure></testcase><testcase classname="TestAccountInformation" name="test_update_ticket_attributes_and_verify_the_account_data" result="FAILED"><failure message="42.693+0000&#10;highProfile = False&#10;team = Team CS2&#10;type = MANAGED_HOSTING&#10; != &lt;AccountServices object&gt; &#10;userName = UNDEFINED&#10;status = Closed&#10;hybridNetworking = false&#10;name = Rackspace Blog Audit&#10;region = US&#10;team = Team UK M24&#10;salesForceSubType = Internal&#10;number = 829213&#10;slaType = STANDARD&#10;rcn = RCN-659-428-402&#10;highProfile = False&#10;accountManagerGeoLocation = US&#10;type = MANAGED_HOSTING" type="AssertionError">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_account_information.py", line 94, in test_update_ticket_attributes_and_verify_the_account_data
+    get_account_info_from_acc_svs)
+AssertionError: &lt;AccountServices object&gt; 
+status = Closed
+name = Rackspace Blog Audit
+number = 829213
+rcn = RCN-659-428-402
+updatedAt = 2013-07-19T15:58:42.693+0000
+highProfile = False
+team = Team CS2
+type = MANAGED_HOSTING
+ != &lt;AccountServices object&gt; 
+userName = UNDEFINED
+status = Closed
+hybridNetworking = false
+name = Rackspace Blog Audit
+region = US
+team = Team UK M24
+salesForceSubType = Internal
+number = 829213
+slaType = STANDARD
+rcn = RCN-659-428-402
+highProfile = False
+accountManagerGeoLocation = US
+type = MANAGED_HOSTING
+
+</failure></testcase><testcase classname="TestListTickets" name="test_list_tickets_by_single_value_for_equal_operator" result="FAILED"><failure message="The length of two lists does not match. 4 != 3" type="AssertionError">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_list_tickets.py", line 49, in test_list_tickets_by_single_value_for_equal_operator
+    len(results.tickets)))
+AssertionError: False is not True : The length of two lists does not match. 4 != 3
+</failure></testcase><testcase classname="TestCoreOngoingSync" name="test_ticket_updated_in_core_reflects_in_one_minute_in_tqsearch" result="ERROR"><error message="list index out of range" type="IndexError">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/core_ongoing_sync/test_core_ongoing_sync.py", line 104, in test_ticket_updated_in_core_reflects_in_one_minute_in_tqsearch
+    initial_date = string_to_datetime(search_ticket.tickets[0].updatedAt)
+IndexError: list index out of range
+</error></testcase><testcase classname="TestCoreOngoingSync" name="test_updating_priority_in_core_marks_ticket_as_updated_in_search" result="ERROR"><error message="list index out of range" type="IndexError">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/core_ongoing_sync/test_core_ongoing_sync.py", line 189, in test_updating_priority_in_core_marks_ticket_as_updated_in_search
+    initial_date = string_to_datetime(search_ticket.tickets[0].updatedAt)
+IndexError: list index out of range
+</error></testcase><testcase classname="TestCoreOngoingSync" name="test_updating_queue_in_core_marks_ticket_as_updated_in_tq_search" result="ERROR"><error message="list index out of range" type="IndexError">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/core_ongoing_sync/test_core_ongoing_sync.py", line 224, in test_updating_queue_in_core_marks_ticket_as_updated_in_tq_search
+    initial_date = string_to_datetime(search_ticket.tickets[0].updatedAt)
+IndexError: list index out of range
+</error></testcase><testcase classname="TestCoreOngoingSync" name="test_updating_status_in_core_marks_ticket_as_updated_in_search" result="ERROR"><error message="list index out of range" type="IndexError">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/core_ongoing_sync/test_core_ongoing_sync.py", line 156, in test_updating_status_in_core_marks_ticket_as_updated_in_search
+    initial_date = string_to_datetime(search_ticket.tickets[0].updatedAt)
+IndexError: list index out of range
+</error></testcase><testcase classname="TestListTickets" name="test_get_specific_ticket_and_verify_it_exists_in_the_list" result="ERROR"><error message="'NoneType' object has no attribute 'tickets'" type="AttributeError">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_list_tickets.py", line 358, in test_get_specific_ticket_and_verify_it_exists_in_the_list
+    self.assertEquals(tq_search_ticket.tickets[0], core_ticket,
+AttributeError: 'NoneType' object has no attribute 'tickets'
+</error></testcase><testcase classname="TestListTickets" name="test_list_tickets_by_date_range_in_query_params_with_eql_op" result="ERROR"><error message="'NoneType' object has no attribute 'tickets'" type="AttributeError">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_list_tickets.py", line 298, in test_list_tickets_by_date_range_in_query_params_with_eql_op
+    self.assertTrue((len(ticket_list_from_core) == len(results.tickets))
+AttributeError: 'NoneType' object has no attribute 'tickets'
+</error></testcase><testcase classname="TestListTickets" name="test_list_tickets_by_multiple_values_for_equal_operator" result="ERROR"><error message="'NoneType' object has no attribute 'tickets'" type="x">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_list_tickets.py", line 75, in test_list_tickets_by_multiple_values_for_equal_operator
+    results.tickets.sort(key=lambda x: x.number, reverse=False)
+AttributeError: 'NoneType' object has no attribute 'tickets'
+</error></testcase><testcase classname="TestListTickets" name="test_list_tickets_eql_and_not_eql_op_single_val_in_query_params" result="ERROR"><error message="'NoneType' object has no attribute 'tickets'" type="x">Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_list_tickets.py", line 224, in test_list_tickets_eql_and_not_eql_op_single_val_in_query_params
+    results.tickets.sort(key=lambda x: x.number, reverse=False)
+AttributeError: 'NoneType' object has no attribute 'tickets'
+</error></testcase></testsuite>

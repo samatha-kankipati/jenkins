@@ -1,0 +1,21 @@
+Changes in branch origin/master, between 7cfcb7fd8ccfb8ca11f78550d2f9ba1ce837fc4c and 8d80cb38147f9d75aa3acb863ba827cb377fb2ac
+commit 1f956f0892b23276af8531ab2800ee3845f51e6d
+tree e646b74ececf228622145a459b407d52426fe799
+parent d2fa2e72726083d5f055598d808463a2fc7be30d
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1369432063 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1369432063 -0500
+
+    D- 13026:upated api useraname for production
+
+:100644 100644 48e3793e0750dcd4b708ed947d5dbd65757fafa0 00956182250d9f6c2a3499429415fa5c07e6766a M	service/src/main/filters/filter.yaml
+
+commit d2fa2e72726083d5f055598d808463a2fc7be30d
+tree b8e9f429658a07f19747e416b7d877b0f543c3aa
+parent 7cfcb7fd8ccfb8ca11f78550d2f9ba1ce837fc4c
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1369431420 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1369431420 -0500
+
+    D- 13026: fixing cucumber tests failure
+
+:100644 100644 0565742187513d9093d7dbfd61dbd4fa2134412f 0c2b826bab40d1d3c253e443b15902d628ae00db M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+:100644 100644 50730c03b42c4ca5f22313c65d3092180f6240fa 0a8a28de71850dc5f60ba44a5110b1e40a817aee M	service/src/main/java/com/rackspace/search/endpoint/AdminResource.java

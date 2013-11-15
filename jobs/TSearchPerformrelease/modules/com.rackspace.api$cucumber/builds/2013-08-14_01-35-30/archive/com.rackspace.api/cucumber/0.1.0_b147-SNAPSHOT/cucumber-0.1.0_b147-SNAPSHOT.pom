@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.rackspace.api</groupId>
+    <artifactId>cucumber</artifactId>
+    <packaging>jar</packaging>
+    <version>0.1.0_b148-SNAPSHOT</version>
+    <name>cucumber</name>
+
+    <parent>
+        <groupId>com.rackspace.api</groupId>
+        <artifactId>search-pom</artifactId>
+        <version>0.1.0_b148-SNAPSHOT</version>
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
+
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <jersey.version>1.13</jersey.version>
+        <jetty.version>8.1.5.v20120716</jetty.version>
+        <groovy.version>1.8.5</groovy.version>
+        <cucumber.jvm.version>1.0.14</cucumber.jvm.version>
+        <gherkin.version>2.11.1</gherkin.version>
+        <spock.version>0.6-groovy-1.8</spock.version>
+        <spring.version>3.0.6.RELEASE</spring.version>
+
+        <jetty.port>9296</jetty.port>
+        <service.endpoint>http://localhost:${jetty.port}</service.endpoint>
+
+        <cuke.debug.port>8002</cuke.debug.port>
+        <cucumber.jvm.args>-XX:MaxPermSize=256M</cucumber.jvm.args>
+        <cucumber.tags>~@TODO</cucumber.tags>
+
+        <search.environment>local</search.environment>
+        <search.service.version>${project.version}</search.service.version>
+        <search.service.war>${project.basedir}/target/war/search.war</search.service.war>
+        <service.config.location>${project.basedir}/../service/target/properties/${search.environment}</service.config.location>
+    </properties>
+
+
+    <build>
+        <testResources>
+            <testResource>
+                <directory>${project.basedir}/src/test/resources</directory>
+                <filtering>true</filtering>
+            </testResource>
+
+            <!-- cucumber features must be on the test classpath -->
+            <testResource>
+                <directory>${project.basedir}/features</directory>
+                <targetPath>${project.build.testOutputDirectory}/features</targetPath>
+            </testResource>
+        </testResources>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <inherited>true</inherited>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+
+
+            <plugin>
+                <groupId>org.codehaus.gmaven</groupId>
+                <artifactId>gmaven-plugin</artifactId>
+                <version>1.4</version>
+                <configuration>
+                    <providerSelection>1.8</providerSelection>
+                    <source />
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.codehaus.gmaven.runtime</groupId>
+                        <artifactId>gmaven-runtime-1.8</artifactId>
+                        <version>1.4</version>
+                        <exclusions>
+                            <exclusion>
+                                <groupId>org.codehaus.groovy</groupId>
+                                <artifactId>groovy-all</artifactId>
+                            </exclusion>
+                        </exclusions>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.codehaus.groovy</groupId>
+                        <artifactId>groovy-all</artifactId>
+                        <version>${groovy.version}</version>
+                    </dependency>
+                </dependencies>
+                <executions>
+                    <execution>
+                        <id>buildGroovies</id>
+                        <goals>
+                            <goal>generateStubs</goal>
+                            <goal>compile</goal>
+                            <goal>generateTestStubs</goal>
+                            <goal>testCompile</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <!--
+        Cucumber work in progress profile
+        Should only be used by developers to isolate features easily, should NOT be committed into the repo
+         -->
+        <profile>
+            <id>wip</id>
+            <properties>
+                <cucumber.tags>@wip</cucumber.tags>
+            </properties>
+        </profile>
+
+
+        <!-- This profile is to enable feature testing against locally built snapshots -->
+        <profile>
+            <id>copyWars</id>
+
+            <build>
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-antrun-plugin</artifactId>
+                        <version>1.4</version>
+                        <executions>
+                            <execution>
+                                <phase>process-resources</phase>
+                                <configuration>
+                                    <tasks>
+                                        <copy todir="${project.build.directory}/war" verbose="true" overwrite="true">
+                                            <fileset dir="${project.basedir}/../service/target">
+                                                <include name="search*.war" />
+                                            </fileset>
+                                            <mapper type="glob" from="search*.war" to="search.war" />
+                                        </copy>
+                                    </tasks>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+
+        </profile>
+
+        <profile>
+            <id>cucumberTests</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.mortbay.jetty</groupId>
+                        <artifactId>jetty-maven-plugin</artifactId>
+                        <version>${jetty.version}</version>
+                        <configuration>
+                            <stopPort>8966</stopPort>
+                            <stopKey>foo</stopKey>
+                            <war>${search.service.war}</war>
+                            <systemProperties>
+                                <!-- We only want to use the test logback for any run here, because we don't need all the noise -->
+                                <systemProperty>
+                                    <name>logback.configurationFile</name>
+                                    <value>${project.build.testOutputDirectory}/logback-jetty.xml</value>
+                                </systemProperty>
+
+                                <systemProperty>
+                                    <name>jetty.port</name>
+                                    <value>${jetty.port}</value>
+                                </systemProperty>
+
+                                <systemProperty>
+                                    <name>config.location</name>
+                                    <value>${service.config.location}</value>
+                                </systemProperty>
+                            </systemProperties>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <id>start-jetty</id>
+                                <phase>pre-integration-test</phase>
+                                <goals>
+                                    <goal>run-war</goal>
+                                </goals>
+                                <configuration>
+                                    <scanIntervalSeconds>0</scanIntervalSeconds>
+                                    <daemon>true</daemon>
+                                </configuration>
+                            </execution>
+                            <execution>
+                                <id>stop-jetty</id>
+                                <phase>post-integration-test</phase>
+                                <goals>
+                                    <goal>stop</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-antrun-plugin</artifactId>
+                        <version>1.6</version>
+                        <executions>
+
+                            <!-- copy generated local/local resources into the target/test-classes dir -->
+                            <execution>
+                                <id>copyTestResources</id>
+                                <phase>integration-test</phase>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                                <configuration>
+                                    <tasks>
+                                        <echo message="Copying generated test resources to the test classes directory" />
+                                        <!-- this one will properly copy all the files, including the .properties-example -->
+                                        <copy todir="target/test-classes">
+                                            <fileset dir="${project.basedir}/../service/target/properties/${search.environment}">
+                                                <include name="*.*" />
+                                            </fileset>
+                                        </copy>
+
+
+                                        <!-- this one will only rename it, not including any of the other files -->
+                                        <copy todir="target/test-classes">
+                                            <fileset dir="target/test-classes">
+                                                <include name="*.properties-example" />
+                                            </fileset>
+                                            <globmapper from="*.properties-example" to="*.properties" />
+                                        </copy>
+                                    </tasks>
+                                </configuration>
+                            </execution>
+
+                            <!-- this one will execute the cucumbers -->
+                            <execution>
+                                <id>createCucumberTargetDir</id>
+                                <phase>process-resources</phase>
+                                <configuration>
+                                    <tasks>
+                                        <mkdir dir="${project.basedir}/target/cucumber" />
+                                    </tasks>
+                                </configuration>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+
+                            <execution>
+                                <phase>integration-test</phase>
+                                <id>run-cucumbers</id>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                                <configuration>
+                                    <target>
+                                        <echo message="Running Cucumber Ruby Features" />
+                                        <java fork="true" classname="cucumber.cli.Main" classpathref="maven.test.classpath" failonerror="true" maxmemory="1024m">
+                                            <!-- configure the project root for ruby -->
+                                            <env key="PROJECT_ROOT" value="${project.basedir}" />
+
+                                            <jvmarg value="${cucumber.jvm.args}" />
+
+                                            <!-- set up system properties things for the cucumber-spring backend -->
+                                            <arg value="-f" />
+                                            <arg value="pretty" />
+
+                                            <!-- add a second pretty outputter to a file -->
+                                            <arg value="-f" />
+                                            <arg value="pretty:target/cucumber/cucumber.log" />
+                                            <!-- add an html barfer to put an html report out -->
+                                            <arg value="-f" />
+                                            <arg value="html:target/cucumber" />
+                                            <!-- add a JSON barfer to get out lots o JSON -->
+                                            <arg value="-f" />
+                                            <arg value="json-pretty:target/cucumber/cucumber.json" />
+
+                                            <!-- specify a tag or two -->
+                                            <arg value="-t" />
+                                            <arg value="${cucumber.tags}" />
+                                            <arg value="--glue" />
+                                            <arg value="src/test/groovy/features" />
+
+                                            <!-- Feature file path to find features in -->
+                                            <arg value="features" />
+                                        </java>
+                                    </target>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>cucumber-debug</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-antrun-plugin</artifactId>
+                        <version>1.6</version>
+                        <executions>
+                            <execution>
+                                <phase>test</phase>
+                                <id>run-cucumbers</id>
+                                <goals>
+                                    <goal>run</goal>
+                                </goals>
+                                <configuration>
+                                    <target>
+                                        <echo message="Running Cucumber Ruby Features" />
+                                        <java fork="true" classname="cucumber.cli.Main" classpathref="maven.test.classpath" failonerror="true" maxmemory="1024m">
+                                            <!-- configure the project root for ruby -->
+                                            <env key="PROJECT_ROOT" value="${project.basedir}" />
+
+                                            <jvmarg value="${cucumber.jvm.args}" />
+
+                                            <!-- set up system properties things for the cucumber-spring backend -->
+                                            <arg value="-f" />
+                                            <arg value="pretty" />
+
+                                            <!-- add a second pretty outputter to a file -->
+                                            <arg value="-f" />
+                                            <arg value="pretty:target/cucumber/cucumber.log" />
+                                            <!-- add an html barfer to put an html report out -->
+                                            <arg value="-f" />
+                                            <arg value="html:target/cucumber" />
+                                            <!-- add a JSON barfer to get out lots o JSON -->
+                                            <arg value="-f" />
+                                            <arg value="json-pretty:target/cucumber/cucumber.json" />
+
+                                            <!-- specify a tag or two -->
+                                            <arg value="-t" />
+                                            <arg value="${cucumber.tags}" />
+                                            <arg value="--glue" />
+                                            <arg value="src/test/groovy/features" />
+
+                                            <!-- Feature file path to find features in -->
+                                            <arg value="features" />
+                                        </java>
+                                    </target>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+
+        </profile>
+
+    </profiles>
+
+    <dependencies>
+
+        <!-- Cucumber Rocks -->
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-groovy</artifactId>
+            <version>${cucumber.jvm.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>1.0.9</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>gherkin</artifactId>
+            <version>${gherkin.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.10</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>${groovy.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>org.codehaus.groovy</artifactId>
+                    <groupId>groovy</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy</artifactId>
+            <version>1.7.11</version>
+            <scope>test</scope>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.6.6</version>
+        </dependency>
+
+        <!-- Log4J bridge to SLF4j. c3p0 wants to use Log4J, but we want it to come out logback -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>log4j-over-slf4j</artifactId>
+            <version>1.6.6</version>
+        </dependency>
+
+        <!-- Oracle JDBC driver  -->
+        <dependency>
+            <groupId>com.rackspace.api</groupId>
+            <artifactId>search</artifactId>
+            <classifier>service</classifier>
+            <version>${project.version}</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.codehaus.groovy.modules.http-builder</groupId>
+            <artifactId>http-builder</artifactId>
+            <version>0.5.2</version>
+            <exclusions>
+                <!-- we provide a slf4j commons logging bridge, don't use this one -->
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.codehaus.groovy</groupId>
+                    <artifactId>groovy</artifactId>
+                </exclusion>
+                <!-- we have a special version of xercesImpl that we have to use -->
+                <exclusion>
+                    <groupId>xerces</groupId>
+                    <artifactId>xercesImpl</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.apache.httpcomponents</groupId>
+                    <artifactId>httpclient</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.2.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>2.0</version>
+        </dependency>
+
+    </dependencies>
+</project>

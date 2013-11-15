@@ -1,0 +1,29 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /var/lib/jenkins/jobs/CloudCafe(Negative)/workspace
+Checkout:workspace / /var/lib/jenkins/jobs/CloudCafe(Negative)/workspace - hudson.remoting.LocalChannel@6788af79
+Using strategy: Default
+Last Built Revision: Revision ed4dbb498a9c28b6326d98cae2df922fd87c2862 (remotes/origin/regression_run)
+Fetching changes from 1 remote Git repository
+Fetching upstream changes from origin
+Commencing build of Revision ed4dbb498a9c28b6326d98cae2df922fd87c2862 (remotes/origin/regression_run)
+Checking out Revision ed4dbb498a9c28b6326d98cae2df922fd87c2862 (remotes/origin/regression_run)
+[workspace] $ /bin/bash /tmp/hudson624249597392591495.sh
+**> virtualenv exists
+test_incorrect_sorting_specified_raises_bad_request (testrepo.tq_search.search_existing_ticket.test_pagination.TestPagination)
+@summary:verify that incorrect sorting order raise bad request ... ok
+test_incorrect_query_parameter_returns_bad_request_400 (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_incorrect_value_of_query_parameter_returns_no_ticket (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_negative_value_of_limit_throws_bad_request_400 (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+test_no_value_of_limit_returns_zero_tickets (testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 26.950s
+
+OK
+======================================================================================================================================================
+Log File Path: /var/lib/jenkins/jobs/CloudCafe(Negative)/workspace/.cloudcafe/logs/tq_search/local.search.config/2013-09-03_07_18_44.511026
+======================================================================================================================================================
+Archiving artifacts
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at BUILD level /var/lib/jenkins/jobs/CloudCafe(Negative)/workspace to /var/lib/jenkins/jobs/CloudCafe(Negative)/builds/2013-09-03_07-18-43/htmlreports/HTML_Report
+Finished: SUCCESS

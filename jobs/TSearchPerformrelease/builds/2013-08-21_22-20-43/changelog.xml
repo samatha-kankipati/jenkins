@@ -1,0 +1,70 @@
+Changes in branch origin/master, between 74d6a9a4b2bd70ee755306a257be1d12eb5ef975 and 6fa62a1f7e47cceac847c339f8ea4aaf1bc7d4f2
+commit 4f53f29bd5962f784ca4ae19361303407d0d1739
+tree 30a61f7f88159ddf2347eb9320f3a1cee313cd3e
+parent 55e725d944ce0e7fb0c6185e8010e7953ae1e7a9
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377120156 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377120156 -0500
+
+    [B-54505] : added readMarker support for AccountOngoingSync job.
+
+:100644 100644 8d004a8d9b29bb6109a9bd16f8e29dc9363ed2e3 5b3937be33d063f17dbfdf0592ff5c46318939cc M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+:100644 100644 cd7cd1fa03dc6c0218d260a0ffc1bd6bfd005991 231c8685c735c7f9a02de59db51ca1ecff2ca348 M	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+
+commit d54de1371bafc8635e705a57567749abddb0dc9f
+tree 751113e29201a59916c0b84db33fc8fad695c522
+parent 50123a957653f409b939e15dfc188eca02928731
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377119590 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377119590 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 224e3ca12b8fcc04b49bbff4509ba8d06d652f67 e16743c73bfce6992ea3d7251405d9de8f18d850 M	cucumber/pom.xml
+:100644 100644 039b93096931f3bacbfe7926c3088ebe5b086549 5e2ad97245dd0dbb5160463ea6ae4adf7146aacd M	pom.xml
+:100644 100644 1ee776ab95c3a960137d4c42086aa0495a464335 cec62b6220209447091bed2f2e8bf2d076fa9443 M	service/pom.xml
+
+commit 50123a957653f409b939e15dfc188eca02928731
+tree 7cd1b2653291454aaa1749ed2505a74fd750bd63
+parent 74d6a9a4b2bd70ee755306a257be1d12eb5ef975
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377119586 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377119586 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b154
+
+:100644 100644 c6bd5060635c0865a54b766da59cc9d47ea34092 224e3ca12b8fcc04b49bbff4509ba8d06d652f67 M	cucumber/pom.xml
+:100644 100644 6064a6db5153179542a0d2c5359dea0f6e3a25b9 039b93096931f3bacbfe7926c3088ebe5b086549 M	pom.xml
+:100644 100644 d7626f41b94ae7892b16e033381a3ae3f3ec44c1 1ee776ab95c3a960137d4c42086aa0495a464335 M	service/pom.xml
+
+commit 55e725d944ce0e7fb0c6185e8010e7953ae1e7a9
+tree 09a5ac0e4d275f23c4b020b5f80290c694baaab9
+parent 64cfacbd55545a9e80d08f95498052284f12ae0b
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377115515 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377115515 -0500
+
+    [B-54505] : updated account ongoing sync job to remove readMarker
+
+:100644 100644 2bfef50f9a17ec24266da5b7b6e66af5bf034ed8 8d004a8d9b29bb6109a9bd16f8e29dc9363ed2e3 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+
+commit 64cfacbd55545a9e80d08f95498052284f12ae0b
+tree 757810d146a4ee869d4992fde13e30a668649882
+parent cf855f2b72f1a68e672b349d6693013cf2209794
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377115273 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377115273 -0500
+
+    [B-54505] : updated account ongoing sync job to be added with enabld false
+
+:100644 100644 fcea83342ff7b3532fb13fdd3cc7215bac35b686 2bfef50f9a17ec24266da5b7b6e66af5bf034ed8 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+
+commit 7e0ea8c9605968280861f0b53c46df519bb06b51
+tree d215e8ad79759447488be12bafd3260107c66602
+parent 1ff28d029e0f6edd9b986fe250c3263c2efc9968
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377114089 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377114089 -0500
+
+    [B-54505] : Refactored account ongoing sync job, updated CoreAccountUpdatessyncJob, onDemnad job
+
+:100644 100644 461fe48027951e38c910b7a98f4ff80760045146 fcea83342ff7b3532fb13fdd3cc7215bac35b686 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+:100644 100644 7411e9a36de3a8da63f4c42389e661c9fef083a3 10698c971bca577d60ae136355bdd0d0fd7d8fac M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncJob.groovy
+:100644 100644 e26dafd6720bdccfe50f6e58f39cc2b42c54352b f3aff233a52b80c14ec2dc1113366963b782bcbf M	service/src/main/groovy/com/rackspace/search/service/admin/CoreTicketOndemandSyncJob.groovy
+:100644 100644 866689072e969d910e3ab3f9936f36750ff00337 cd7cd1fa03dc6c0218d260a0ffc1bd6bfd005991 M	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+:100644 100644 112a58f0f007b77644e07163b292877c591756ff 7faec712fbd920c2bf8142e9340cf29e3409ee5e M	service/src/main/java/com/rackspace/search/scheduling/SyncJobScheduler.java
+:100644 100644 8a1388beddc9f4f708093c58d7286bd992725018 0f30ecdc24f16cd1dfdd9096111102c0dfb265b2 M	service/src/test/groovy/com/rackspace/search/service/account/AccountOngoingSyncJobTest.groovy

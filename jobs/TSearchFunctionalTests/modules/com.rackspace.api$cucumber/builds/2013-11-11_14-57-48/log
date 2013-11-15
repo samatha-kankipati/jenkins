@@ -1,0 +1,459 @@
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building cucumber 0.1.0_b205-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+2013-11-11 14:59:20.482:INFO:/:Closing Spring root WebApplicationContext null null
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-clean-plugin:2.4.1:clean (default-clean) @ cucumber ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:generateStubs (buildGroovies) @ cucumber ---
+[INFO] No sources found for Java stub generation
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-resources-plugin:2.5:resources (default-resources) @ cucumber ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/src/main/resources
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-antrun-plugin:1.6:run (default) @ cucumber ---
+[8mha:AAAAYx+LCAAAAAAAAABb85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Parameter tasks is deprecated, use target instead
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 1 file to /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/war
+     [copy] Copying /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/search-0.1.0_b205-SNAPSHOT.war to /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/war/search.war
+[INFO] Executed tasks
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-antrun-plugin:1.6:run (createCucumberTargetDir) @ cucumber ---
+[8mha:AAAAYx+LCAAAAAAAAABb85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Parameter tasks is deprecated, use target instead
+[INFO] Executing tasks
+
+main:
+[INFO]     [mkdir] Created dir: /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/cucumber
+[INFO] Executed tasks
+[INFO] No sources to compile
+
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-compiler-plugin:2.3.2:compile (default-compile) @ cucumber ---
+[INFO] [INFO] No sources found to compile
+
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:compile (buildGroovies) @ cucumber ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:generateTestStubs (buildGroovies) @ cucumber ---
+[INFO] Generated 9 Java stubs
+[INFO] [debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-resources-plugin:2.5:testResources (default-testResources) @ cucumber ---
+[INFO] Copying 3 resources to /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/test-classes/features
+[INFO] [INFO] Compiling 9 source files to /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/test-classes
+
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ cucumber ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:testCompile (buildGroovies) @ cucumber ---
+[INFO] Compiled 39 Groovy classes
+[INFO] [INFO] Tests are skipped.
+
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-surefire-plugin:2.10:test (default-test) @ cucumber ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-jar-plugin:2.3.2:jar (default-jar) @ cucumber ---
+[8mha:AAAAYx+LCAAAAAAAAABb85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/cucumber-0.1.0_b205-SNAPSHOT.jar
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:generateStubs (buildGroovies) @ cucumber ---
+[INFO] No sources found for Java stub generation
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-resources-plugin:2.5:resources (default-resources) @ cucumber ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/src/main/resources
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-antrun-plugin:1.6:run (default) @ cucumber ---
+[8mha:AAAAYx+LCAAAAAAAAABb85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Parameter tasks is deprecated, use target instead
+[INFO] Executing tasks
+
+main:
+     [copy] Copying 1 file to /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/war
+     [copy] Copying /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/search-0.1.0_b205-SNAPSHOT.war to /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/war/search.war
+[INFO] Executed tasks
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-antrun-plugin:1.6:run (createCucumberTargetDir) @ cucumber ---
+[8mha:AAAAYx+LCAAAAAAAAABb85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Parameter tasks is deprecated, use target instead
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-compiler-plugin:2.3.2:compile (default-compile) @ cucumber ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:compile (buildGroovies) @ cucumber ---
+[INFO] No sources found to compile
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:generateTestStubs (buildGroovies) @ cucumber ---
+[INFO] Generated 9 Java stubs
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-resources-plugin:2.5:testResources (default-testResources) @ cucumber ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources to /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/test-classes/features
+[INFO] [INFO] Nothing to compile - all classes are up to date
+
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ cucumber ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:testCompile (buildGroovies) @ cucumber ---
+[INFO] Compiled 39 Groovy classes
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-surefire-plugin:2.10:test (default-test) @ cucumber ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-jar-plugin:2.3.2:jar (default-jar) @ cucumber ---
+[INFO] Tests are skipped.
+[8mha:AAAAYx+LCAAAAAAAAABb85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] JAR will be empty - no content was marked for inclusion!
+Nov 11, 2013 2:59:29 PM hudson.maven.ExecutedMojo <init>
+WARNING: Failed to getClass for org.mortbay.jetty.plugin.JettyRunWarMojo
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- jetty-maven-plugin:8.1.5.v20120716:run-war (start-jetty) @ cucumber ---
+[INFO] Configuring Jetty for project: cucumber
+[INFO] Context path = /
+[INFO] Tmp directory = /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/tmp
+[INFO] Web defaults = org/eclipse/jetty/webapp/webdefault.xml
+[INFO] Web overrides =  none
+2013-11-11 14:59:31.466:INFO:oejs.Server:jetty-8.1.5.v20120716
+2013-11-11 14:59:31.496:INFO:oejw.WebInfConfiguration:Extract jar:file:/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/war/search.war!/ to /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/tmp/webapp
+2013-11-11 14:59:33.832:INFO:oejpw.PlusConfiguration:No Transaction manager found - if your webapp requires one, please configure one.
+2013-11-11 14:59:51.530:INFO:oejsh.ContextHandler:started o.m.j.p.JettyWebAppContext{/,file:/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/tmp/webapp/},/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/war/search.war
+2013-11-11 14:59:51.530:INFO:oejsh.ContextHandler:started o.m.j.p.JettyWebAppContext{/,file:/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/tmp/webapp/},/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/war/search.war
+2013-11-11 14:59:51.530:INFO:oejsh.ContextHandler:started o.m.j.p.JettyWebAppContext{/,file:/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/tmp/webapp/},/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/war/search.war
+14:59:51,564 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/test-classes/logback-jetty.xml] at [file:/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/test-classes/logback-jetty.xml]
+14:59:51,741 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+14:59:51,742 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+14:59:51,747 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [ROLLING]
+14:59:51,806 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use gz compression
+14:59:51,807 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/search-%d{yyyy-MM-dd_HH}.%i for the active file
+14:59:51,810 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4c28bdb6 - The date pattern is 'yyyy-MM-dd_HH' from file name pattern '/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/search-%d{yyyy-MM-dd_HH}.%i.gz'.
+14:59:51,810 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4c28bdb6 - Roll-over at the top of every hour.
+14:59:51,810 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4c28bdb6 - Setting initial period to Mon Nov 11 14:59:21 UTC 2013
+14:59:51,831 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[ROLLING] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+14:59:51,831 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[ROLLING] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+14:59:51,831 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[ROLLING] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+14:59:51,831 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ROLLING] - Active log file name: /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/search.log
+14:59:51,831 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ROLLING] - File property is set to [/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/search.log]
+14:59:51,833 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+14:59:51,833 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [RESPONSE_LOG]
+14:59:51,835 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use gz compression
+14:59:51,835 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/response-%d{yyyy-MM-dd_HH}.%i for the active file
+14:59:51,836 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@6bf1eca - The date pattern is 'yyyy-MM-dd_HH' from file name pattern '/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/response-%d{yyyy-MM-dd_HH}.%i.gz'.
+14:59:51,836 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@6bf1eca - Roll-over at the top of every hour.
+14:59:51,836 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@6bf1eca - Setting initial period to Mon Nov 11 14:59:01 UTC 2013
+14:59:51,837 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[RESPONSE_LOG] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+14:59:51,837 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[RESPONSE_LOG] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+14:59:51,837 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[RESPONSE_LOG] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+14:59:51,837 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RESPONSE_LOG] - Active log file name: /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/response.log
+14:59:51,837 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[RESPONSE_LOG] - File property is set to [/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/response.log]
+14:59:51,837 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+14:59:51,837 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FAILURE_LOG]
+14:59:51,840 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use gz compression
+14:59:51,840 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern com.sun.aas.instanceRoot_IS_UNDEFINED/logs/failure-%d{yyyy-MM-dd}.%i for the active file
+14:59:51,840 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@6d7e633b - The date pattern is 'yyyy-MM-dd' from file name pattern 'com.sun.aas.instanceRoot_IS_UNDEFINED/logs/failure-%d{yyyy-MM-dd}.%i.gz'.
+14:59:51,840 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@6d7e633b - Roll-over at midnight.
+14:59:51,841 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@6d7e633b - Setting initial period to Mon Nov 11 14:59:01 UTC 2013
+14:59:51,841 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[FAILURE_LOG] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+14:59:51,842 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[FAILURE_LOG] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+14:59:51,842 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[FAILURE_LOG] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+14:59:51,842 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FAILURE_LOG] - Active log file name: /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/failure.log
+14:59:51,842 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FAILURE_LOG] - File property is set to [/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/failure.log]
+14:59:51,842 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+14:59:51,842 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [ELASTICSEARCH_LOG]
+14:59:51,844 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use gz compression
+14:59:51,844 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/elasticsearch-%d{yyyy-MM-dd}.%i for the active file
+14:59:51,845 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4a4eea6 - The date pattern is 'yyyy-MM-dd' from file name pattern '/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/elasticsearch-%d{yyyy-MM-dd}.%i.gz'.
+14:59:51,845 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4a4eea6 - Roll-over at midnight.
+14:59:51,845 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4a4eea6 - Setting initial period to Mon Nov 11 14:59:01 UTC 2013
+14:59:51,846 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[ELASTICSEARCH_LOG] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+14:59:51,846 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[ELASTICSEARCH_LOG] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+14:59:51,846 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[ELASTICSEARCH_LOG] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+14:59:51,846 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ELASTICSEARCH_LOG] - Active log file name: /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/elasticsearch.log
+14:59:51,846 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ELASTICSEARCH_LOG] - File property is set to [/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/elasticsearch.log]
+14:59:51,846 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+14:59:51,846 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CORE_TICKET_LATENCY_LOG]
+14:59:51,848 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use gz compression
+14:59:51,849 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/coreTicketLatency-%d{yyyy-MM-dd}.%i for the active file
+14:59:51,849 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@682fd6ab - The date pattern is 'yyyy-MM-dd' from file name pattern '/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/coreTicketLatency-%d{yyyy-MM-dd}.%i.gz'.
+14:59:51,849 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@682fd6ab - Roll-over at midnight.
+14:59:51,849 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@682fd6ab - Setting initial period to Mon Nov 11 14:59:01 UTC 2013
+14:59:51,850 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[CORE_TICKET_LATENCY_LOG] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+14:59:51,850 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[CORE_TICKET_LATENCY_LOG] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+14:59:51,850 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[CORE_TICKET_LATENCY_LOG] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+14:59:51,850 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[CORE_TICKET_LATENCY_LOG] - Active log file name: /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/coreTicketLatency.log
+14:59:51,850 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[CORE_TICKET_LATENCY_LOG] - File property is set to [/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/service/target/logs/coreTicketLatency.log]
+14:59:51,850 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - com.rackspace.search level set to INFO
+14:59:51,851 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to INFO
+14:59:51,851 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [ROLLING] to Logger[ROOT]
+14:59:51,852 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [RESPONSE_LOG] to Logger[ROOT]
+14:59:51,852 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FAILURE_LOG] to Logger[ROOT]
+14:59:51,852 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [ELASTICSEARCH_LOG] to Logger[ROOT]
+14:59:51,852 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CORE_TICKET_LATENCY_LOG] to Logger[ROOT]
+
+2013-11-11 14:59:51.857:INFO:/:Initializing Spring root WebApplicationContext
+Nov 11, 2013 3:00:03 PM com.mchange.v2.log.MLog <clinit>
+INFO: MLog clients using java 1.4+ standard logging.
+Nov 11, 2013 3:00:03 PM com.mchange.v2.c3p0.C3P0Registry banner
+INFO: Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2013-11-11 15:00:07.138:INFO:oejsh.ContextHandler:started o.m.j.p.JettyWebAppContext{/,file:/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/tmp/webapp/},/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/war/search.war
+Nov 11, 2013 3:00:07 PM com.sun.jersey.spi.spring.container.servlet.SpringServlet getContext
+INFO: Using default applicationContext
+Nov 11, 2013 3:00:07 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, searchResource, of type com.rackspace.search.endpoint.SearchResource as a root resource class
+Nov 11, 2013 3:00:07 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, syncRequestResource, of type com.rackspace.search.endpoint.SyncRequestResource as a root resource class
+Nov 11, 2013 3:00:07 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, notFoundExceptionMapper, of type com.rackspace.search.endpoint.fault.mapper.NotFoundExceptionMapper as a provider class
+Nov 11, 2013 3:00:07 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, badRequestExceptionMapper, of type com.rackspace.search.endpoint.fault.mapper.BadRequestExceptionMapper as a provider class
+Nov 11, 2013 3:00:07 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, staticResource, of type com.rackspace.search.endpoint.StaticResource as a root resource class
+Nov 11, 2013 3:00:07 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, jobResource, of type com.rackspace.search.endpoint.JobResource as a root resource class
+Nov 11, 2013 3:00:07 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+Nov 11, 2013 3:00:07 PM com.sun.jersey.spi.inject.Errors processErrorMessages
+WARNING: The following warnings have been detected with resource and/or provider classes:
+  WARNING: A sub-resource method, public javax.ws.rs.core.Response com.rackspace.search.endpoint.SearchResource.getTickets(javax.ws.rs.core.UriInfo,int,int) throws java.lang.Exception, with URI template, "/", is treated as a resource method
+  WARNING: A sub-resource method, public javax.ws.rs.core.Response com.rackspace.search.endpoint.SearchResource.getTickets(java.lang.String,javax.ws.rs.core.UriInfo,int,int) throws java.lang.Exception, with URI template, "/", is treated as a resource method
+  WARNING: A sub-resource method, public javax.ws.rs.core.Response com.rackspace.search.endpoint.StaticResource.getServiceProfile() throws java.lang.Exception, with URI template, "/", is treated as a resource method
+2013-11-11 15:00:08.036:INFO:oejs.AbstractConnector:Started SelectChannelConnector@0.0.0.0:9296
+[INFO] Started Jetty Server
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-antrun-plugin:1.6:run (copyTestResources) @ cucumber ---
+[8mha:AAAAYx+LCAAAAAAAAABb85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Parameter tasks is deprecated, use target instead
+[INFO] Executing tasks
+
+main:
+     [echo] Copying generated test resources to the test classes directory
+     [copy] Copying 3 files to /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/test-classes
+[INFO] Executed tasks
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-antrun-plugin:1.6:run (run-cucumbers) @ cucumber ---
+[INFO] Executing tasks
+
+main:
+     [echo] Running Cucumber Ruby Features
+     [java] 15:00:11,741 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+     [java] 15:00:11,742 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback-test.xml] at [file:/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/test-classes/logback-test.xml]
+     [java] 15:00:11,965 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+     [java] 15:00:11,975 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+     [java] 15:00:11,981 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [ROLLING]
+     [java] 15:00:12,067 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use gz compression
+     [java] 15:00:12,070 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/logs/cucumber-%d{yyyy-MM-dd}.%i for the active file
+     [java] 15:00:12,074 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@619646fd - The date pattern is 'yyyy-MM-dd' from file name pattern '/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/logs/cucumber-%d{yyyy-MM-dd}.%i.gz'.
+     [java] 15:00:12,074 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@619646fd - Roll-over at midnight.
+     [java] 15:00:12,080 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@619646fd - Setting initial period to Mon Nov 11 15:00:12 UTC 2013
+     [java] 15:00:12,109 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[ROLLING] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+     [java] 15:00:12,109 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[ROLLING] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+     [java] 15:00:12,109 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[ROLLING] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+     [java] 15:00:12,109 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ROLLING] - Active log file name: /var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/logs/cucumber.log
+     [java] 15:00:12,109 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ROLLING] - File property is set to [/var/lib/jenkins/jobs/TSearchFunctionalTests/workspace/cucumber/target/logs/cucumber.log]
+     [java] 15:00:12,111 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - com.rackspace level set to INFO
+     [java] 15:00:12,111 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to INFO
+     [java] 15:00:12,111 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [ROLLING] to Logger[ROOT]
+     [java] 
+     [java] Feature: Admin
+     [java]   
+     [java]   As a search service admin
+     [java]   I want to be able to Start Core Tickets one time import task
+     [java]   So that I can have Core tickets in search service
+     [java] 
+     [java]   Scenario: Starting core one time sync job                             [90m# Admin.feature:7[0m
+     [java]     [90mWhen [0m[90mI PUT my payload to "[0m[90m[1m/admin/syncJobs/CoreTicketOnetimeSyncJob[0m[90m"[0m [90m# AdminSteps.groovy:19[0m
+     [java] [1A    [32mWhen [0m[32mI PUT my payload to "[0m[32m[1m/admin/syncJobs/CoreTicketOnetimeSyncJob[0m[32m"[0m [90m# AdminSteps.groovy:19[0m
+     [java]     [90mThen [0m[90ma response of [0m[90m[1m204[0m[90m is returned[0m                                  [90m# AdminSteps.groovy:58[0m
+     [java] [1A    [32mThen [0m[32ma response of [0m[32m[1m204[0m[32m is returned[0m                                  [90m# AdminSteps.groovy:58[0m
+     [java] acceptType=application/json
+     [java] path=http://localhost:9296/admin/syncJobs/CoreTicketOnetimeSyncJob
+     [java] payload=
+     [java] responseCode=204
+     [java] exception=null
+     [java] null
+     [java] 
+     [java]   Scenario: Getting the SyncJob details                            [90m# Admin.feature:11[0m
+     [java]     [90mGiven [0m[90ma default job exists with the following values[0m           [90m# AdminSteps.groovy:62[0m
+     [java] [1A    [32mGiven [0m[32ma default job exists with the following values[0m           [90m# AdminSteps.groovy:62[0m
+     [java]     [90mAnd [0m[90mI know the jobName for the default job as "[0m[90m[1mdefaultJobName[0m[90m"[0m [90m# AdminSteps.groovy:84[0m
+     [java] [1A    [32mAnd [0m[32mI know the jobName for the default job as "[0m[32m[1mdefaultJobName[0m[32m"[0m [90m# AdminSteps.groovy:84[0m
+     [java]     [90mWhen [0m[90mI GET "[0m[90m[1m/admin/syncJobs/{defaultJobName}[0m[90m"[0m                  [90m# ReadTicketSteps.groovy:49[0m
+Nov 11, 2013 3:00:16 PM com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource getPoolManager
+INFO: Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 1, acquireRetryAttempts -> 10, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 10000, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 2sgr248yjvyhe3frgtji|676b8a78, debugUnreturnedConnectionStackTraces -> true, description -> null, driverClass -> org.postgresql.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 2sgr248yjvyhe3frgtji|676b8a78, idleConnectionTestPeriod -> 100, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://integration.db.core.rackspace.com:5432/core_dev, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 300, maxIdleTime -> 180, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 5, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 1, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> select 1;, properties -> {user=******, password=******, socketTimeout=300}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 300, usesTraditionalReflectiveProxies -> false ]
+     [java] [1A    [32mWhen [0m[32mI GET "[0m[32m[1m/admin/syncJobs/{defaultJobName}[0m[32m"[0m                  [90m# ReadTicketSteps.groovy:49[0m
+     [java]     [90mThen [0m[90ma response of [0m[90m[1m200[0m[90m is returned[0m                             [90m# AdminSteps.groovy:58[0m
+     [java] [1A    [32mThen [0m[32ma response of [0m[32m[1m200[0m[32m is returned[0m                             [90m# AdminSteps.groovy:58[0m
+     [java]     [90mAnd [0m[90mthe JSON response contains the following job values[0m        [90m# AdminSteps.groovy:93[0m
+     [java] {"SyncJob":{"last_updated_at":["2013-02-19T13:53:36.000+0000"],"status":["scheduled"],"description":["get the core tickets"],"processing_node":["DEV"],"name":["coreOngoingSyncJob"],"started_at":["2013-02-18T08:56:50.000+0000"]}}
+     [java] [1A    [32mAnd [0m[32mthe JSON response contains the following job values[0m        [90m# AdminSteps.groovy:93[0m
+     [java] acceptType=application/json
+     [java] path=http://localhost:9296/admin/syncJobs/coreOngoingSyncJob
+     [java] payload=
+     [java] responseCode=200
+     [java] response={"SyncJob":{"last_updated_at":["2013-02-19T13:53:36.000+0000"],"status":["scheduled"],"description":["get the core tickets"],"processing_node":["DEV"],"name":["coreOngoingSyncJob"],"started_at":["2013-02-18T08:56:50.000+0000"]}}
+     [java] exception=null
+     [java] null
+     [java] 
+     [java]   Scenario: User request for job not exists           [90m# Admin.feature:34[0m
+     [java]     [90mWhen [0m[90mI GET "[0m[90m[1m/admin/syncJobs/{notExistingJobName}[0m[90m"[0m [90m# ReadTicketSteps.groovy:49[0m
+     [java] response [itemNotFound:[message:Not Found, detail:job not found, code:404]]
+     [java] [1A    [32mWhen [0m[32mI GET "[0m[32m[1m/admin/syncJobs/{notExistingJobName}[0m[32m"[0m [90m# ReadTicketSteps.groovy:49[0m
+     [java]     [90mThen [0m[90ma response of [0m[90m[1m404[0m[90m is returned[0m                [90m# AdminSteps.groovy:58[0m
+     [java] [1A    [32mThen [0m[32ma response of [0m[32m[1m404[0m[32m is returned[0m                [90m# AdminSteps.groovy:58[0m
+     [java]     [90mAnd [0m[90mthe JSON response contains:[0m                   [90m# AdminSteps.groovy:120[0m
+     [java]       """
+     [java]       {
+     [java]           "itemNotFound" : {
+     [java]               "code" : 404,
+     [java]               "message" : "Not Found",
+     [java]               "detail" : "job not found"
+     [java]           }
+     [java]       }
+     [java]       """
+     [java] [1A    [32mAnd [0m[32mthe JSON response contains:[0m                   [90m# AdminSteps.groovy:120[0m
+     [java]       """
+     [java]       {
+     [java]           "itemNotFound" : {
+     [java]               "code" : 404,
+     [java]               "message" : "Not Found",
+     [java]               "detail" : "job not found"
+     [java]           }
+     [java]       }
+     [java]       """
+     [java] acceptType=application/json
+     [java] path=http://localhost:9296/admin/syncJobs/{notExistingJobName}
+     [java] payload=
+     [java] responseCode=404
+     [java] response={"itemNotFound":{"message":"Not Found","detail":"job not found","code":404}}
+     [java] exception=groovyx.net.http.HttpResponseException: Not Found
+     [java] null
+     [java] Feature: Read Ticket
+     [java]   
+     [java]   As a service client user
+     [java]   I want to be able to view the ticket information
+     [java] 
+     [java]   Scenario: User request for ticket exists                                [90m# ReadTicket.feature:6[0m
+     [java]     [90mGiven [0m[90ma default ticket exists with the following values[0m               [90m# ReadTicketSteps.groovy:17[0m
+     [java] [1A    [32mGiven [0m[32ma default ticket exists with the following values[0m               [90m# ReadTicketSteps.groovy:17[0m
+     [java]     [90mAnd [0m[90mI know the number for the default ticket as "[0m[90m[1mdefaultTicketNumber[0m[90m"[0m [90m# ReadTicketSteps.groovy:40[0m
+     [java] [1A    [32mAnd [0m[32mI know the number for the default ticket as "[0m[32m[1mdefaultTicketNumber[0m[32m"[0m [90m# ReadTicketSteps.groovy:40[0m
+     [java]     [90mWhen [0m[90mI GET "[0m[90m[1m/tickets/{defaultTicketNumber}[0m[90m"[0m                           [90m# ReadTicketSteps.groovy:49[0m
+     [java] [1A    [32mWhen [0m[32mI GET "[0m[32m[1m/tickets/{defaultTicketNumber}[0m[32m"[0m                           [90m# ReadTicketSteps.groovy:49[0m
+     [java]     [90mThen [0m[90ma response of [0m[90m[1m200[0m[90m is returned[0m                                    [90m# AdminSteps.groovy:58[0m
+     [java] [1A    [32mThen [0m[32ma response of [0m[32m[1m200[0m[32m is returned[0m                                    [90m# AdminSteps.groovy:58[0m
+     [java]     [90mAnd [0m[90mthe JSON response contains the following values[0m                   [90m# ReadTicketSteps.groovy:73[0m
+     [java] [1A    [32mAnd [0m[32mthe JSON response contains the following values[0m                   [90m# ReadTicketSteps.groovy:73[0m
+     [java] acceptType=application/json
+     [java] path=http://localhost:9296/tickets/100112-00001
+     [java] payload=
+     [java] responseCode=200
+     [java] response={"ticket":{"last_public_comment_date":["2013-02-19T11:53:36.000+0000"],"status":["Pending Customer Response"],"subject":["Testing"],"account.teamTerritoryCode":["US"],"number":["100112-00001"],"category":["Server"],"updated_at":["2013-02-19T13:53:36.000+0000"],"priority":["1"],"created_at":["2013-02-18T08:56:50.000+0000"],"account.serviceLevel":["Managed"],"account.number":["841818"],"queue.name":["Account Management - Managed"],"assignee.name":["Pallavi Surve"],"source_system":["CORE"]}}
+     [java] exception=null
+     [java] null
+     [java] 
+     [java]   Scenario: User request for ticket not exists      [90m# ReadTicket.feature:43[0m
+     [java]     [90mWhen [0m[90mI GET "[0m[90m[1m/tickets/{notExistingTicketNumber}[0m[90m"[0m [90m# ReadTicketSteps.groovy:49[0m
+     [java] response [itemNotFound:[message:Not Found, detail:Ticket not found, code:404]]
+     [java] [1A    [32mWhen [0m[32mI GET "[0m[32m[1m/tickets/{notExistingTicketNumber}[0m[32m"[0m [90m# ReadTicketSteps.groovy:49[0m
+     [java]     [90mThen [0m[90ma response of [0m[90m[1m404[0m[90m is returned[0m              [90m# AdminSteps.groovy:58[0m
+     [java] [1A    [32mThen [0m[32ma response of [0m[32m[1m404[0m[32m is returned[0m              [90m# AdminSteps.groovy:58[0m
+     [java]     [90mAnd [0m[90mthe JSON response is:[0m                       [90m# ReadTicketSteps.groovy:106[0m
+     [java]       """
+     [java]       {
+     [java]           "itemNotFound" : {
+     [java]               "code" : 404,
+     [java]               "message" : "Not Found",
+     [java]               "detail" : "Ticket not found"
+     [java]           }
+     [java]       }
+     [java]       """
+     [java] [1A    [32mAnd [0m[32mthe JSON response is:[0m                       [90m# ReadTicketSteps.groovy:106[0m
+     [java]       """
+     [java]       {
+     [java]           "itemNotFound" : {
+     [java]               "code" : 404,
+     [java]               "message" : "Not Found",
+     [java]               "detail" : "Ticket not found"
+     [java]           }
+     [java]       }
+     [java]       """
+     [java] acceptType=application/json
+     [java] path=http://localhost:9296/tickets/{notExistingTicketNumber}
+     [java] payload=
+     [java] responseCode=404
+     [java] response={"itemNotFound":{"message":"Not Found","detail":"Ticket not found","code":404}}
+     [java] exception=groovyx.net.http.HttpResponseException: Not Found
+     [java] null
+     [java] Feature: Service Information
+     [java]   
+     [java]   As a service client developer
+     [java]   I want to be able to be able to view the service information in a human and machine readable format
+     [java]   So that I can find build version of service
+     [java]   So that I can find build timestamp of service
+     [java] 
+     [java]   Scenario: Service Information at root                                          [90m# ServiceInformation.feature:8[0m
+     [java]     [90mWhen [0m[90ma request is made at the "[0m[90m[1mroot[0m[90m" using the media type "[0m[90m[1mapplication/json[0m[90m"[0m [90m# ServiceInformationSteps.groovy:13[0m
+     [java] [1A    [32mWhen [0m[32ma request is made at the "[0m[32m[1mroot[0m[32m" using the media type "[0m[32m[1mapplication/json[0m[32m"[0m [90m# ServiceInformationSteps.groovy:13[0m
+     [java]     [90mThen [0m[90mthe request returns the service information in json[0m                     [90m# ServiceInformationSteps.groovy:42[0m
+     [java] [1A    [32mThen [0m[32mthe request returns the service information in json[0m                     [90m# ServiceInformationSteps.groovy:42[0m
+     [java]     [90mAnd [0m[90mthe response contains ElastisSearch cluster name[0m                         [90m# ServiceInformationSteps.groovy:69[0m
+     [java] [1A    [32mAnd [0m[32mthe response contains ElastisSearch cluster name[0m                         [90m# ServiceInformationSteps.groovy:69[0m
+     [java]     [90mAnd [0m[90mthe response contains ElastisSearch node status[0m                          [90m# ServiceInformationSteps.groovy:85[0m
+     [java] [1A    [32mAnd [0m[32mthe response contains ElastisSearch node status[0m                          [90m# ServiceInformationSteps.groovy:85[0m
+     [java]     [90mAnd [0m[90mthe response contains build version[0m                                      [90m# ServiceInformationSteps.groovy:47[0m
+     [java] [1A    [32mAnd [0m[32mthe response contains build version[0m                                      [90m# ServiceInformationSteps.groovy:47[0m
+     [java]     [90mAnd [0m[90mthe response contains build timestamp[0m                                    [90m# ServiceInformationSteps.groovy:53[0m
+     [java] [1A    [32mAnd [0m[32mthe response contains build timestamp[0m                                    [90m# ServiceInformationSteps.groovy:53[0m
+     [java] acceptType=application/json
+     [java] path=http://localhost:9296/
+     [java] payload=
+     [java] responseCode=200
+     [java] response={"Ticket Search API":{"Health":{"cluster_name":"ticket.cluster","status":"GREEN"},"build-at":"2013-11-11T14:58+0000","version":"0.1.0_b205-SNAPSHOT"}}
+     [java] exception=null
+     [java] null
+     [java] 
+     [java]   Scenario: Service Information in JSON at /info                                  [90m# ServiceInformation.feature:16[0m
+     [java]     [90mWhen [0m[90ma request is made at the "[0m[90m[1m/info[0m[90m" using the media type "[0m[90m[1mapplication/json[0m[90m"[0m [90m# ServiceInformationSteps.groovy:13[0m
+     [java] [1A    [32mWhen [0m[32ma request is made at the "[0m[32m[1m/info[0m[32m" using the media type "[0m[32m[1mapplication/json[0m[32m"[0m [90m# ServiceInformationSteps.groovy:13[0m
+     [java]     [90mThen [0m[90mthe request returns the service information in json[0m                      [90m# ServiceInformationSteps.groovy:42[0m
+     [java] [1A    [32mThen [0m[32mthe request returns the service information in json[0m                      [90m# ServiceInformationSteps.groovy:42[0m
+     [java]     [90mAnd [0m[90mthe response contains ElastisSearch cluster name[0m                          [90m# ServiceInformationSteps.groovy:69[0m
+     [java] [1A    [32mAnd [0m[32mthe response contains ElastisSearch cluster name[0m                          [90m# ServiceInformationSteps.groovy:69[0m
+     [java]     [90mAnd [0m[90mthe response contains ElastisSearch node status[0m                           [90m# ServiceInformationSteps.groovy:85[0m
+     [java] [1A    [32mAnd [0m[32mthe response contains ElastisSearch node status[0m                           [90m# ServiceInformationSteps.groovy:85[0m
+     [java]     [90mAnd [0m[90mthe response contains build version[0m                                       [90m# ServiceInformationSteps.groovy:47[0m
+     [java] [1A    [32mAnd [0m[32mthe response contains build version[0m                                       [90m# ServiceInformationSteps.groovy:47[0m
+     [java]     [90mAnd [0m[90mthe response contains build timestamp[0m                                     [90m# ServiceInformationSteps.groovy:53[0m
+     [java] [1A    [32mAnd [0m[32mthe response contains build timestamp[0m                                     [90m# ServiceInformationSteps.groovy:53[0m
+     [java] acceptType=application/json
+     [java] path=http://localhost:9296/info
+     [java] payload=
+     [java] responseCode=200
+     [java] response={"Ticket Search API":{"Health":{"cluster_name":"ticket.cluster","status":"GREEN"},"build-at":"2013-11-11T14:58+0000","version":"0.1.0_b205-SNAPSHOT"}}
+     [java] exception=null
+     [java] null
+     [java] 
+     [java]   Scenario: Service Information in JSON at /healthStatus                                  [90m# ServiceInformation.feature:24[0m
+     [java]     [90mWhen [0m[90ma request is made at the "[0m[90m[1m/healthStatus[0m[90m" using the media type "[0m[90m[1mapplication/json[0m[90m"[0m [90m# ServiceInformationSteps.groovy:13[0m
+     [java] [1A    [32mWhen [0m[32ma request is made at the "[0m[32m[1m/healthStatus[0m[32m" using the media type "[0m[32m[1mapplication/json[0m[32m"[0m [90m# ServiceInformationSteps.groovy:13[0m
+     [java]     [90mThen [0m[90mthe request returns the ElasticSearch node information in json[0m                   [90m# ServiceInformationSteps.groovy:63[0m
+     [java] [1A    [32mThen [0m[32mthe request returns the ElasticSearch node information in json[0m                   [90m# ServiceInformationSteps.groovy:63[0m
+     [java]     [90mAnd [0m[90mthe response contains cluster name[0m                                                [90m# ServiceInformationSteps.groovy:94[0m
+     [java] [1A    [32mAnd [0m[32mthe response contains cluster name[0m                                                [90m# ServiceInformationSteps.groovy:94[0m
+     [java]     [90mAnd [0m[90mthe response contains node status[0m                                                 [90m# ServiceInformationSteps.groovy:102[0m
+     [java] [1A    [32mAnd [0m[32mthe response contains node status[0m                                                 [90m# ServiceInformationSteps.groovy:102[0m
+     [java] acceptType=application/json
+     [java] path=http://localhost:9296/healthStatus
+     [java] payload=
+     [java] responseCode=200
+     [java] response={"cluster_name":"ticket.cluster","status":"GREEN"}
+     [java] exception=null
+     [java] null
+     [java] 
+[INFO] Executed tasks
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- jetty-maven-plugin:8.1.5.v20120716:stop (stop-jetty) @ cucumber ---
+Stopping server 0

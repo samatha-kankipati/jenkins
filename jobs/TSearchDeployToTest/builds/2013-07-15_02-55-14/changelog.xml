@@ -1,0 +1,118 @@
+Changes in branch origin/master, between 40e891148972f2b232e3610f232997d92fc7bb0e and 517768a2b7a98e22ff4469648fbadded6651f5cb
+commit 517768a2b7a98e22ff4469648fbadded6651f5cb
+tree 266e7c50ba8d091e4142ac291eeb199f2dc69507
+parent 241a22ac5b6d56916f7afc3cb7324b2e01f8ce1d
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1373856728 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1373856728 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 455d9809868db742e8ca97f92280fb3095b74e89 9904fa386bebac8710a8f9bee27b371075a92258 M	cucumber/pom.xml
+:100644 100644 21715d8c8696e7a87e3465534216e6129f3ba058 ab04336493af9a618f9284eb17a69417d1d0b0a4 M	pom.xml
+:100644 100644 28cecddf93b62af8bb09b4ebf2e67c4fcc79aca1 f6c5ab80baaf749ac347722f15192256ccd055d0 M	service/pom.xml
+
+commit 241a22ac5b6d56916f7afc3cb7324b2e01f8ce1d
+tree f692d620fa438d4b1fd1f2f9738d2d9b0b720945
+parent 6076b741082cde13807cdb2bd93e07898462f656
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1373856724 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1373856724 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b123
+
+:100644 100644 fcb820ab637d07d2be0f872f0c8cd0cff06b8bbe 455d9809868db742e8ca97f92280fb3095b74e89 M	cucumber/pom.xml
+:100644 100644 88415116bc17f336e5aa5b5afc81d8fead4124f3 21715d8c8696e7a87e3465534216e6129f3ba058 M	pom.xml
+:100644 100644 8618c88466d221f59194197f9b256821bcfab657 28cecddf93b62af8bb09b4ebf2e67c4fcc79aca1 M	service/pom.xml
+
+commit 3ce797168c197cc367f95e44cecd67d60bf0bc37
+tree 1c61f0bd25521cc586b9cd6d5a2eaf033576ba9d
+parent cae032dd2c78711aadae9b0a69662b522e98c8fb
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1373835659 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1373835659 -0500
+
+    [B-51736]:  added some test cases
+
+:000000 100644 0000000000000000000000000000000000000000 9e8c7bb27816d5f71aa598824320a6850ff29fa7 A	service/src/test/groovy/com/rackspace/search/service/SyncRequestServiceTest.groovy
+
+commit cae032dd2c78711aadae9b0a69662b522e98c8fb
+tree 42622f171ce15418b31e6f0c46d614c946be0d83
+parent 078cf588e9a26a7b8f2641bb6cb557ad1e22301c
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1373834837 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1373834837 -0500
+
+    [B-51736]:  fixing  review comments except scheduler
+
+:100644 100644 b12c3a05f032b32e7a6160fc87d68306c7e5eae0 1b236693a33bd88d89097bd8ae2bf80eaec07ab2 M	service/src/main/config/search.properties
+:100644 100644 b350c9a747c962de3932d90629e06c06f9d2c900 78d8afbb6322e6a22583ef2135b0063ef310ab36 M	service/src/main/groovy/com/rackspace/search/service/SyncRequestService.groovy
+:100644 100644 257afbbc9efb43ec2ead77590361801ed5178477 98edabd083afbc38fa3a19113966d3fa319ef204 M	service/src/main/java/com/rackspace/search/endpoint/SyncRequestResource.java
+
+commit 7767188628cfe8d806903e0e2fdaea10d717b7dc
+tree 7898515f9545e21098a9c10bd3f722f5477d5557
+parent 58c0e9f978059ff8b73b46f4988af32894c814d2
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1373829494 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1373829494 -0500
+
+    [B-51736]:  fixing some review comments
+
+:100644 100644 eec7342e29abef9872c1e32a6dc10c62f0033b83 fa83f56624e8d5b8edc32f995b6984d0395a939a M	service/src/main/config/elasticsearch/mappings/admin/syncRequest.json
+:100644 100644 c74994b181b0de77f985a2ef17f38051bc5d8f91 7083007cb51bb7f9c513925d4162d7f1717b87d1 M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncRequest.groovy
+:100644 100644 8f8dc4de9ab26df152d87a372cf08fc0ba150ab0 b350c9a747c962de3932d90629e06c06f9d2c900 M	service/src/main/groovy/com/rackspace/search/service/SyncRequestService.groovy
+:100644 100644 9c44423be60274b9541d4b1acffb19f5461fd97a 0e7914f63f3fe0b8a0b0949493a71a025a0527fe M	service/src/main/groovy/com/rackspace/search/service/admin/CoreTicketOndemandSyncJob.groovy
+
+commit 58c0e9f978059ff8b73b46f4988af32894c814d2
+tree e621d22b216b885b027638e2701cfe493bd1a6f6
+parent b7abaccf3ef7a3b3841ddc6f463b9f13798f7c70
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1373667151 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1373667151 -0500
+
+    [B-51736]:  ondemand sync of ticket
+
+:100644 100644 5392cd78d3549e6163b8b0ff92d6d069b0aa0585 507a74002324be8a4543ceac1bdd2a01679ec593 M	service/src/main/config/search.properties
+:100644 100644 c3f9ba5870bef112ad1da681d8a7e25cf5e52f49 a7c0edcd8dee97739ee4fd8be9b180fbc6dd84b2 M	service/src/main/groovy/com/rackspace/search/Constants.groovy
+:100644 100644 74f0bf086f9dc80863663d1ee4cebe9bd4a27a75 fb5a9713b91b8d0c4c7c9c28f5dc291600282093 M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncJob.groovy
+:100644 100644 f29d35549cb436e856efa45fd24a292ba5091163 c74994b181b0de77f985a2ef17f38051bc5d8f91 M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncRequest.groovy
+:100644 100644 fa1d11d41ccfad5181979366f979f06d9391b414 4aebbaa4da6941efb58db59d8e418d1426024eaf M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreDBGateway.groovy
+:100644 100644 ea0c8f392e455c932ff34c5daae4ac5f5198ac0a 8f8dc4de9ab26df152d87a372cf08fc0ba150ab0 M	service/src/main/groovy/com/rackspace/search/service/SyncRequestService.groovy
+:000000 100644 0000000000000000000000000000000000000000 9c44423be60274b9541d4b1acffb19f5461fd97a A	service/src/main/groovy/com/rackspace/search/service/admin/CoreTicketOndemandSyncJob.groovy
+:100644 100644 9a3f828353772ecdf7602c6c4ecb8e6332a23c3f bed40060cb900d45bc5d06d401f6d07d38ab27b3 M	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+
+commit 49689eb26f32cd9b5040f5bd95137ca37c9cf713
+tree ff4341c96ab5543a97ce62cb42558ca9b4674f8b
+parent 06111b8d56b9a0b48860108295d7e030b6f2c1a2
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1372797815 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1372797815 -0500
+
+    [B-51736]:  creating sync request and getting the sync request details
+
+:100644 100644 4a7c8334153aab170f6809de6e7fb7263439a55a 5392cd78d3549e6163b8b0ff92d6d069b0aa0585 M	service/src/main/config/search.properties
+:100644 100644 0daf514ec59c83a2d5f1219ed4cdb495f5b2b4e1 47a57b471c8d26be8142fe217b026661999cc96c M	service/src/main/filters/filter.yaml
+:100644 100644 bfbecb74441f735dd9fdbef79c52259527d1d46d c3f9ba5870bef112ad1da681d8a7e25cf5e52f49 M	service/src/main/groovy/com/rackspace/search/Constants.groovy
+:000000 100644 0000000000000000000000000000000000000000 f29d35549cb436e856efa45fd24a292ba5091163 A	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncRequest.groovy
+:000000 100644 0000000000000000000000000000000000000000 ea0c8f392e455c932ff34c5daae4ac5f5198ac0a A	service/src/main/groovy/com/rackspace/search/service/SyncRequestService.groovy
+:100644 100644 8454a54fb5cc6443dcb78d312440544eba528f8f 9a3f828353772ecdf7602c6c4ecb8e6332a23c3f R099	service/src/main/java/com/rackspace/search/endpoint/AdminResource.java	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+:000000 100644 0000000000000000000000000000000000000000 257afbbc9efb43ec2ead77590361801ed5178477 A	service/src/main/java/com/rackspace/search/endpoint/SyncRequestResource.java
+:100644 100644 88e1733d0b19e95b8e2cd9b3579054015b305bff 50d4a975fbf975fbabe106e72530d4119c210f37 M	service/src/test/groovy/com/rackspace/search/endpoint/AdminResourceTest.groovy
+
+commit 06111b8d56b9a0b48860108295d7e030b6f2c1a2
+tree e485587bf731ccc92f3121395ca193f3f02c552f
+parent 1a55e484b03394eba94f1afe174772ec2c3460dc
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1372716528 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1372716528 -0500
+
+    [B-51736]: added new document type for 'syncRequest'
+
+:100644 100644 1d543a92fdc4a607173f653861a79491986d0081 c9f66efb8e4c13d09821857efbee764cfe262480 M	service/pom.xml
+:000000 100644 0000000000000000000000000000000000000000 eec7342e29abef9872c1e32a6dc10c62f0033b83 A	service/src/main/config/elasticsearch/mappings/admin/syncRequest.json
+:100644 100644 04a07afbd1f8f6ec831eb1bc0e1395b1edfff0a5 4a7c8334153aab170f6809de6e7fb7263439a55a M	service/src/main/config/search.properties
+:100644 100644 fcfebcf1a8c843cebd5882a02b5938511d490cec 0daf514ec59c83a2d5f1219ed4cdb495f5b2b4e1 M	service/src/main/filters/filter.yaml
+:100644 100644 918a13e456ac75fc0c17c4d27e878fbccb6e3bc3 8ed302e046c18364f3ac31da2731011afcf2f1ee M	service/src/main/groovy/com/rackspace/search/elasticsearch/ElasticSearchClientFactoryBean.groovy
+:100644 100644 9397e1bdd35ff6ff07c70b39f563d933f6722504 f3c4db64d467cbae29aca96c78e822ac57279681 M	service/src/main/resources/indices_structure.json
+
+commit 3d9f65636bbf11585dfc03cb7f05b182a92e5c55
+tree 19ea1dc88d6b90e9db4289cd0617b49eb6c739e1
+parent bdd12fca3c895d7f9f8b47251d70f06523180857
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1372452174 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1372452174 -0500
+
+    adding jmx file for load testing
+
+:000000 100644 0000000000000000000000000000000000000000 7491e43483603c1db632fe0926f8e397bed9d391 A	service/src/test/resources/searchapijmx.jmx

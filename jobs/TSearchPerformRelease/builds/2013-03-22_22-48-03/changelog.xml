@@ -1,0 +1,10 @@
+Changes in branch origin/master, between e34f96d23e230250ff8261ad76b9d8538d94c764 and 7764c63240984d4e429d824197319b6ac9330b1d
+commit 6f99cf04d5df6313c59d9b806378e7bef151f818
+tree 87d915f28bdbd2b7130da0e93bb9042e0848e6eb
+parent e34f96d23e230250ff8261ad76b9d8538d94c764
+author unknown <saty0902@L8Y0YGV1.RACKSPACE.CORP> 1363992392 -0500
+committer unknown <saty0902@L8Y0YGV1.RACKSPACE.CORP> 1363992392 -0500
+
+    FIxed merge issues
+
+:100644 100644 4c4d28be06ad4f5372b7ec70ac9c8676fcf91387 28621b3738ecb31b51b8b4d93119ad25eaa255e7 M	service/src/test/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClientTest.groovy

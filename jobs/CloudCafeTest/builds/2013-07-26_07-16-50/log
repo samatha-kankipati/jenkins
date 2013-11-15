@@ -1,0 +1,56 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /var/lib/jenkins/jobs/CloudCafeTest/workspace
+Checkout:workspace / /var/lib/jenkins/jobs/CloudCafeTest/workspace - hudson.remoting.LocalChannel@6788af79
+Using strategy: Default
+Last Built Revision: Revision f06f5682a1a34bc5df0e159db85005270d02163c (remotes/origin/new_regression_run)
+Fetching changes from 1 remote Git repository
+Fetching upstream changes from origin
+Commencing build of Revision 14f4719c6df2fb87aa262f72767f0aaa64ea65df (remotes/origin/high_profile_team)
+Checking out Revision 14f4719c6df2fb87aa262f72767f0aaa64ea65df (remotes/origin/high_profile_team)
+No change to record in branch remotes/origin/high_profile_team
+[workspace] $ /bin/bash /tmp/hudson6270134771956248194.sh
+**> virtualenv exists
+test_list_tickets_and_verify_the_account_data (testrepo.tq_search.search_existing_ticket.test_account_information.TestAccountInformation) ... FAIL
+test_same_number_of_accounts_in_account_svs_and_elastic_search (testrepo.tq_search.search_existing_ticket.test_account_information.TestAccountInformation) ... FAIL
+test_updating_team_attribute_from_account_services_doesnt_showup_in_tq_search (testrepo.tq_search.search_existing_ticket.test_account_information.TestAccountInformation) ... ERROR
+
+======================================================================
+ERROR: test_updating_team_attribute_from_account_services_doesnt_showup_in_tq_search (testrepo.tq_search.search_existing_ticket.test_account_information.TestAccountInformation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_account_information.py", line 196, in test_updating_team_attribute_from_account_services_doesnt_showup_in_tq_search
+    initial_team_name = get_account_info_from_acc_svs.team
+AttributeError: 'NoneType' object has no attribute 'team'
+
+======================================================================
+FAIL: test_list_tickets_and_verify_the_account_data (testrepo.tq_search.search_existing_ticket.test_account_information.TestAccountInformation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_account_information.py", line 70, in test_list_tickets_and_verify_the_account_data
+    high_profile_value)
+AssertionError: None != False
+
+======================================================================
+FAIL: test_same_number_of_accounts_in_account_svs_and_elastic_search (testrepo.tq_search.search_existing_ticket.test_account_information.TestAccountInformation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_account_information.py", line 248, in test_same_number_of_accounts_in_account_svs_and_elastic_search
+    search and account services")
+AssertionError: '290826' != '348873' : The number of accounts are not same in elastic                           search and account services
+
+----------------------------------------------------------------------
+Ran 3 tests in 9.690s
+
+FAILED (failures=2, errors=1)
+======================================================================================================================================================
+Log File Path: /var/lib/jenkins/jobs/CloudCafeTest/workspace/.cloudcafe/logs/tq_search/local.search.config/2013-07-26_07_16_51.793855
+======================================================================================================================================================
+NOW 1:
+[]
+290826
+348873
+Build step 'Execute shell' marked build as failure
+Archiving artifacts
+[htmlpublisher] Archiving HTML reports...
+[htmlpublisher] Archiving at BUILD level /var/lib/jenkins/jobs/CloudCafeTest/workspace to /var/lib/jenkins/jobs/CloudCafeTest/builds/2013-07-26_07-16-50/htmlreports/HTML_Report
+Finished: FAILURE

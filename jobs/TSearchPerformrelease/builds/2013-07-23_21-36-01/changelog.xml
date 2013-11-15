@@ -1,0 +1,44 @@
+Changes in branch origin/master, between fa495740ceffbeb4b46b98446a40b03d1ffcd296 and 2b8d775c0025e381f65825a6389e20fbf23b3609
+commit 16e7103f60a082dde58f86bf97c7568148b915de
+tree 1c7fd648da5fa579aee1c5dc371745636ea87ffe
+parent d8cbfa37b558d4009fc0ec68f9f22d9d3b35731d
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1374613332 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1374613332 -0500
+
+    [B-52758]: removed version check
+
+:100644 100644 c19e48311208f8d29242732364b3a65efb3f39fd 79bfcb4cd4cdc8fc782a15f7808bf47cea439770 M	service/src/main/groovy/com/rackspace/search/service/account/AccountUpdatesSyncActor.groovy
+
+commit 49bb1a9e9920b94ec64d1dd308d77da9bd4e6d0f
+tree df362a3af987726dcc95be851c072d9e454eb374
+parent 914ba1283823647f635699e522772c3174276cae
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374529652 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374529652 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 0408b67a8b8d1e8bc6982cb833b16d76ae6a4e77 6131321dbc2eed00cedb21ecc80f19cc3d0ad0fd M	cucumber/pom.xml
+:100644 100644 8bd4bb61ab554db3e4c79915472c741b8b39ad1c e21cdd6804abd988669ce8b62c9fd8d478ec5810 M	pom.xml
+:100644 100644 1a72ec28c12f6a1b2e4c48cc7cd0419e34efb4e6 f1f373804414535ca046efa4ba2f4469bd1285f0 M	service/pom.xml
+
+commit 914ba1283823647f635699e522772c3174276cae
+tree b3fb1e80f874f32b72c4f818ed003716b4e14964
+parent fa495740ceffbeb4b46b98446a40b03d1ffcd296
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374529647 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374529647 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b132
+
+:100644 100644 8003edb0b09a1f835fec6f0cd0836eb824a05710 0408b67a8b8d1e8bc6982cb833b16d76ae6a4e77 M	cucumber/pom.xml
+:100644 100644 90b64c81ba081c5c2e1fb8e54ea4b4639edfaac8 8bd4bb61ab554db3e4c79915472c741b8b39ad1c M	pom.xml
+:100644 100644 2c60545bd53bdd2e2d07fdecac4e7cc2e5e09ed8 1a72ec28c12f6a1b2e4c48cc7cd0419e34efb4e6 M	service/pom.xml
+
+commit 4cb838200b3cb5eba6339d6e2f70e95cd77a87d8
+tree e06dbaa63e51f437ba2fbf3e4346a70bcc24174e
+parent 25c578b370f5e65af5e9e9036b997c3efcf21c36
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1374269028 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1374269028 -0500
+
+    [B-52758]:  need to set job type...
+
+:100644 100644 6dce1f53370152d1cef327587b9eeca352b63dde 94748b5f06452d05e50f4d2ad4ef80699c77c24d M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncJob.groovy

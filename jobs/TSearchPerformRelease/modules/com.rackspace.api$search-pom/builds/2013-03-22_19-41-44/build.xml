@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@1.504">
+  <actions>
+    <hudson.maven.reporters.MavenArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+      <pomArtifact>
+        <groupId>com.rackspace.api</groupId>
+        <artifactId>search-pom</artifactId>
+        <version>0.1.0_b10-SNAPSHOT</version>
+        <type>pom</type>
+        <fileName>pom.xml</fileName>
+        <canonicalName>search-pom-0.1.0_b10-SNAPSHOT.pom</canonicalName>
+        <md5sum>aab56e1346fb227d0d7a94caaa9603ff</md5sum>
+      </pomArtifact>
+      <mainArtifact reference="../pomArtifact"/>
+      <attachedArtifacts/>
+      <repositoryId>snapshots</repositoryId>
+      <repositoryUrl>http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/snapshots</repositoryUrl>
+    </hudson.maven.reporters.MavenArtifactRecord>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <build class="hudson.maven.MavenBuild" reference="../../.."/>
+      <record>
+        <entry>
+          <string>com.rackspace.api:search-pom:pom.xml</string>
+          <string>17a921aa66036d93704079dd05c339e5</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <number>3</number>
+  <startTime>1363981315203</startTime>
+  <result>FAILURE</result>
+  <duration>285282</duration>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/jobs/TSearch - Perform Release/workspace</workspace>
+  <executedMojos class="java.util.concurrent.CopyOnWriteArrayList">
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-release-plugin</artifactId>
+      <version>2.3.2</version>
+      <goal>clean</goal>
+      <executionId>default-cli</executionId>
+      <duration>5432</duration>
+      <digest>08beb022e4cf36ccad791756c57a6c3b</digest>
+    </hudson.maven.ExecutedMojo>
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-release-plugin</artifactId>
+      <version>2.3.2</version>
+      <goal>prepare</goal>
+      <executionId>default-cli</executionId>
+      <duration>276197</duration>
+      <digest>08beb022e4cf36ccad791756c57a6c3b</digest>
+    </hudson.maven.ExecutedMojo>
+  </executedMojos>
+</hudson.maven.MavenBuild>

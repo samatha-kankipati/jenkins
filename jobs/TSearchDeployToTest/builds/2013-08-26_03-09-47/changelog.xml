@@ -1,0 +1,58 @@
+Changes in branch origin/master, between 218cb0e7a5f0e6d3831f9266f17794e4c678e80c and fe93f3d4755a3a8c17ab4cd54eba1c326188b5c6
+commit fe93f3d4755a3a8c17ab4cd54eba1c326188b5c6
+tree 103a4d3aae0cbbe910520cd7e07515ad776d739b
+parent 2fdb1205434b0a0bcf04f090cfb7463dc2302d32
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377486382 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377486382 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 ca35c7151d14d2fbf41aa79b022be87d0420a40c f7e2eca8ef0d40d4e7422768de661250b780f3db M	cucumber/pom.xml
+:100644 100644 b303c55f112f9f008e79dcb6e3ce18d71c19eb11 93f486dd591e2109749517ee9b557bb0692d7574 M	pom.xml
+:100644 100644 cc74d4e4cf874569066b052676a409da7d317296 8dc87e57cf6bfc83ec3cd513ef9bf59189b60509 M	service/pom.xml
+
+commit 2fdb1205434b0a0bcf04f090cfb7463dc2302d32
+tree 96a3f5a8b4d347a91670654827d348102200d3d3
+parent beba9132f12c9361af49af14eec33bafa22a6270
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377486377 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377486377 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b158
+
+:100644 100644 d1457a6ed1364460398c26e91861703784753df2 ca35c7151d14d2fbf41aa79b022be87d0420a40c M	cucumber/pom.xml
+:100644 100644 ccd55ae34e356cc18e178320b4e84fc00bb51d2c b303c55f112f9f008e79dcb6e3ce18d71c19eb11 M	pom.xml
+:100644 100644 575cc9be03fdf3fa4d9b37089ef4648202f64103 cc74d4e4cf874569066b052676a409da7d317296 M	service/pom.xml
+
+commit 1af90e4d1cbbf0d6e193f675709dd55bfa800565
+tree 63201229feae08265cc24206c1c2534c6d7493a6
+parent 1070c3e20b5959e28621c24461e82bd21fc24835
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377297732 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377297732 -0500
+
+    [B-54505]: setting next execution time to null when stopped
+
+:100644 100644 ed20b830713c0fbe7054a518f5a4f02eff10505a 54162eb7522eb53cf8b340f9e178b1b52f7eca00 M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+
+commit 1070c3e20b5959e28621c24461e82bd21fc24835
+tree 2dfc4cb10dc18d6d2c0b0419be49490f67c4612e
+parent d0321678fac930260b8f4e053ce30b71e689ac5e
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377279334 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377279334 -0500
+
+    [B-54505]: ignoring timezone part (-05)
+
+:100644 100644 efe5a52edf2f156a87a15139b53012cb2d61e101 5b481fb8463deced008866b5ae890ce7181fce79 M	service/src/main/groovy/com/rackspace/search/util/DateUtil.groovy
+
+commit d0321678fac930260b8f4e053ce30b71e689ac5e
+tree 0b558498be4e63cd0ba203f7b4a8d7d5661fc66b
+parent 0a9c5914fce102225d51863b62d3a0f54aa21b54
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377232358 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377232358 -0500
+
+    [B-54505]:   using dateutil to get coredate
+
+:100644 100644 fd67f6a9488ad216f33680e4203198455f2e6c87 b2fb76a77e17c83dd78922cd5dbcdaf3b542727a M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountProcessor.groovy
+:100644 100644 aa2acd3418a79507ac21b0e545b49d777f5ec6d1 f5d138fdde40de5b37193fdcd77fb04c248c68fc M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+:100644 100644 5f21577b7970bc9943ef18f924f34a04c0aa292e ad026fd4e9f3f4343cf0cc0838d246e0c4d7960a M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketSecondPassSyncJob.groovy
+:100644 100644 453b05fe8bb92265584cf35c5cca9ab7d720d539 77ffd5c7d399f54c7421ed2a08d62fc29c367774 M	service/src/test/groovy/com/rackspace/search/service/account/CoreAccountProcessorTest.groovy
+:100644 100644 cf43114646cc802a12cd9c2833faf1eb0bc98113 24af7eca3958ecc1b0282058b2490b087e4d9ccf M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketProcessorTest.groovy

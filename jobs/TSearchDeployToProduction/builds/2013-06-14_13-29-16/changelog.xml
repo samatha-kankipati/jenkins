@@ -1,0 +1,34 @@
+Changes in branch origin/master, between 794bbf67fa30f31323f5555b970f382363e6d7d7 and 9b60bfbce890450cae1f2a06b9c1964215316e02
+commit 9b60bfbce890450cae1f2a06b9c1964215316e02
+tree 817cb99bafb983c51c2f5dfa036ec76bf51c55d2
+parent 648f7d145818b4929a370b0bf291ce1cec8357d7
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371161719 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371161719 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 20f3cb888194091d1cabc95b4980078abde96977 cf5d297124a6b6f5b23ed355671ee57a4c381558 M	cucumber/pom.xml
+:100644 100644 3fbd61f5137fe54f2df529a904f4a9985d1365ed 0c4eca8d5cfe5d06e384d3fe5ac2285d933d519a M	pom.xml
+:100644 100644 911e78c6f4ecf72bdd98af7bcd5c5f2b562b7f60 f801f2988ffcf66653bbb48877bd91aa47dda01e M	service/pom.xml
+
+commit 648f7d145818b4929a370b0bf291ce1cec8357d7
+tree d98db599bdcffe22be07ab4b3897cf191f7d07e0
+parent cc9856965d00eded1ce6f391af6f814d170185fa
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371161715 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371161715 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b98
+
+:100644 100644 7941ce47641979cadedf1041c1dc3b250733e735 20f3cb888194091d1cabc95b4980078abde96977 M	cucumber/pom.xml
+:100644 100644 ad92d89b3c5e3ed30cee1f22c8f1ddd43caff2fa 3fbd61f5137fe54f2df529a904f4a9985d1365ed M	pom.xml
+:100644 100644 9ff67d3eab240f806b20c848d2591804c030980b 911e78c6f4ecf72bdd98af7bcd5c5f2b562b7f60 M	service/pom.xml
+
+commit 5a28abe26e9970dd1455859ca6d29a20f228f775
+tree 463382b1763be4e7b4d7b150dbade53ecdd9cbd8
+parent 794bbf67fa30f31323f5555b970f382363e6d7d7
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1371152961 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1371152961 -0500
+
+    [D-13323] added order by to make sure that we are not missing any accounts
+
+:100644 100644 1724e9c6519bfa6c9f8d7f6552b1bfe401607aa9 bdf3a498a5a736dd4287fd1c1c87e78d3d6f632d M	service/src/main/groovy/com/rackspace/search/gateway/account/AccountGateway.groovy

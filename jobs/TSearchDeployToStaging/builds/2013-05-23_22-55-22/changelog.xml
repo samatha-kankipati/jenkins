@@ -1,0 +1,11 @@
+Changes in branch origin/master, between 4f5c15b7dfecf7504c0a8137090029d7ce79b7f9 and 14608d2172663ff058967abc9cc303114f5c029b
+commit 0d8e02052ff4c4fa5740d887d71e5d66b0a5cb13
+tree 8c94f4d95bfe1393fd83a2b95332ef54fd8bd77b
+parent e41013aab3ab8bc346e7b09355e06499ddfe967d
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1369349039 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1369349039 -0500
+
+    [D-13026] : fixed one timesync stop action.
+
+:100644 100644 7908c2d987afd3849cfc13cc4dc001417ff8e1c9 f2020eebd132edf582785075f6ec67b43d3a9282 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOneTimeSyncJob.groovy
+:100644 100644 c43743d676b60cc4e4dd08196658bf2bcf7b07a6 31f49971d5c8003a97a2767fffa6aa18ee7b4ae4 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOneTimeSyncJob.groovy

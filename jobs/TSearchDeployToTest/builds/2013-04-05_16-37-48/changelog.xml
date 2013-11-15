@@ -1,0 +1,41 @@
+Changes in branch origin/master, between 6aca711c520a7b1eeade4bc64d8616e59bd660f3 and 7b630dfb535cb3cc076c69d769433fec39ddc87b
+commit 7b630dfb535cb3cc076c69d769433fec39ddc87b
+tree 0130c920969089c8b67463c269cc2896378d6316
+parent 56d3513e4fede0c141675b4c5485f517bd4ea254
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1365179713 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1365179713 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 d9c9f7ce3f8ea18abdf201dd94d5e3f75d536dff 66aa2fd4b82b736debcbbc72f4f6853f1298e840 M	cucumber/pom.xml
+:100644 100644 7762c2967c2451a71a42345925f82b30e8b0ab7b a34bcf1f0fa5dd883e32048729cb409a2cf574d8 M	pom.xml
+:100644 100644 7cc05a5f71b01e48d1318b4985fb7cab273d3ec9 0ffd35bba002c897add85cd0efd75b0341b258b2 M	service/pom.xml
+
+commit 56d3513e4fede0c141675b4c5485f517bd4ea254
+tree 0157ff9287ece3a0ef2b906cdbeef7a8c750c923
+parent 6cb7db29892c67aca5aee90cb9aa63128b9ab674
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1365179708 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1365179708 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b50
+
+:100644 100644 05c97708ab8c1916cb02d6d40ac41120dfa64ba5 d9c9f7ce3f8ea18abdf201dd94d5e3f75d536dff M	cucumber/pom.xml
+:100644 100644 c9562a78411d382f11a58b77b8029f673bb0145f 7762c2967c2451a71a42345925f82b30e8b0ab7b M	pom.xml
+:100644 100644 db02a5a8e1e2e6d64e282f4e987e8d96035cf549 7cc05a5f71b01e48d1318b4985fb7cab273d3ec9 M	service/pom.xml
+
+commit f5b171aed2f4faa9b31425336446efc5af8e279a
+tree dfcd0f3578ff79d7b1dfac4a0dd0e0a23dd851c9
+parent 9578bc14da88718330d321f7c9b2d7be3638e3fe
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1365103191 -0500
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1365103191 -0500
+
+    B-45667: Adding links
+
+:100644 100644 6d03c4ef01f3c47b999ea9c7f493432615178d87 69cafdf30cdd746e8598099ba61d6010a40ee300 M	service/src/main/config/search.properties
+:100644 100644 c2a267c0c0f3a65101304da42fd393c59804dba4 b0a2deb40b39e45d43c829448b6477db97466308 M	service/src/main/filters/filter.yaml
+:100644 100644 f5b4ac47d7648af74290d6a90243356417ba5e56 36c574decb743221e8b5709ec14534443e635bea M	service/src/main/groovy/com/rackspace/search/Constants.groovy
+:100644 100644 cfccacdd9268acb50d45f5d3052ccfd65075d6d3 68237e6afca69dfd3671396ce933d4cd6983b2ea M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+:100644 100644 96cb021ebe99ed118c35a41d1198f7a0621e8cf1 066dba798e32203013748ba67c8061f016b25c19 M	service/src/main/groovy/com/rackspace/search/service/TicketSearchService.groovy
+:000000 100644 0000000000000000000000000000000000000000 1ca6c50d8f28cbbb3ddcc9cd1b433c74e00daa24 A	service/src/main/java/com/rackspace/search/endpoint/AbstractResource.java
+:100644 100644 6b278d7d01835fc5eb35211bed2f6a992b43c017 ef829dcfb970151a208917e273bf269ad9b364b3 M	service/src/main/java/com/rackspace/search/endpoint/AdminResource.java
+:100644 100644 e54b75728baa67902fd618a556bcb4f6236d6bd8 ed5f6f5691834e3290fade27acf754169108836d M	service/src/main/java/com/rackspace/search/endpoint/SearchResource.java

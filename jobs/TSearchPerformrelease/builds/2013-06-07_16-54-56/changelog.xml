@@ -1,0 +1,36 @@
+Changes in branch origin/master, between 6022d856ac13b0b85a2a1e79599000e0120acea1 and 78339ee5c8674fc821cfe8a48938536a7f454fb5
+commit 226408b3697797d4d09b7ac2ec1c3411e8db1f8f
+tree a5dcf805586e26922811d23583fc968055c8303b
+parent 4f48a660008091a1c5fa453ee54f04eb3367711e
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1370619467 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1370619467 -0500
+
+    [D-13160]: Fixed onetime sync job not stoppin issue.
+
+:100644 100644 b62cfc3390edab0d72af81afdbb72fa7ebcfc5d7 0fb3946c1517d83dba52059bf34a9e385aa24b3c M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreTicketGateway.groovy
+:100644 100644 4cee7409761cd0843fcb8dc33035c5fdde200ac2 c7212ee2811ae1725c0a84ef3f1381ebc1b51f2c M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOneTimeSyncJob.groovy
+:100644 100644 d6a4c05fc2ab8bbf83b2d5fcaf8660b15abc6aa3 d1354ff1ef8354cdae89b45bd478e9e6664bffcc M	service/src/test/groovy/com/rackspace/search/gateway/core/CoreTicketGatewayTest.groovy
+
+commit e385c18fa38460b324da4c29bf1b59c9a2b5809f
+tree f6915ea8fc41ebfc6af6c6b95c307ae91700cdbf
+parent 710ee9446d602d2a2a4d0d073196c51818b3b9fd
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370574092 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370574092 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 166d586527637633a7201bc92cd3e6343f15e9f6 1c1f8c1ea318c68e0f8754002ec4f545e6730949 M	cucumber/pom.xml
+:100644 100644 f0f37e88a7dcab8ef7d4dbea2c5781515d3b1393 c9a77ccacd1a1e943c46bc8ae8df749943f00184 M	pom.xml
+:100644 100644 efdd016fe96f10df1085de58f92173e1ed6eeb90 f3a4377052800c9cd496aed7290185190aa1673a M	service/pom.xml
+
+commit 710ee9446d602d2a2a4d0d073196c51818b3b9fd
+tree 2f20b8217bb42f4066c5ba887d9c585ba90fc3bd
+parent 6022d856ac13b0b85a2a1e79599000e0120acea1
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370574088 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370574088 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b87
+
+:100644 100644 1aebc4096613c33a70938593bdc2e9ff04998cab 166d586527637633a7201bc92cd3e6343f15e9f6 M	cucumber/pom.xml
+:100644 100644 a6535bd30e8f60f479b5712078734d5147308b57 f0f37e88a7dcab8ef7d4dbea2c5781515d3b1393 M	pom.xml
+:100644 100644 fd6b81b8e3cb688854512e01065921531a886606 efdd016fe96f10df1085de58f92173e1ed6eeb90 M	service/pom.xml

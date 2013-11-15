@@ -1,0 +1,102 @@
+Changes in branch origin/master, between fe4f60f91f876c3c8379365401c0bcf700c5ef18 and f10dbd2c3ebb8e8b12b3e96d62491a15dab3282c
+commit f10dbd2c3ebb8e8b12b3e96d62491a15dab3282c
+tree 13827c05f033f7c8a6968fc713982f5c207d2168
+parent 7ffd6a4e33d6ed1ee2d0484656a8666f58f14370
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1376444259 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1376444259 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 f2c6e97966e6cdf5b2a32e06b35052043c24f070 ab15f7c066309cec5c1865d5bf79ebe3df3f8b38 M	cucumber/pom.xml
+:100644 100644 9fb4a01a3947b57e8daf9fa7a2e51afb96210989 a3aab9881acb77f8687618641d0e93cc8ad7b9fc M	pom.xml
+:100644 100644 078f23425b753c2e28fa2df977977487a7dbe119 d113e4826937247197a08b10f7a71196a3c3030d M	service/pom.xml
+
+commit 7ffd6a4e33d6ed1ee2d0484656a8666f58f14370
+tree 1aabd5d0d61ec13c460abae0029d87b44e883200
+parent 3504218d46d2ca45924e1b8f57980616751fd8e7
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1376444255 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1376444255 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b147
+
+:100644 100644 26cf81ca1ad8c34e397fe5186d8178c7d746624c f2c6e97966e6cdf5b2a32e06b35052043c24f070 M	cucumber/pom.xml
+:100644 100644 8dc29f9a99f99046624db29394196dda5a354803 9fb4a01a3947b57e8daf9fa7a2e51afb96210989 M	pom.xml
+:100644 100644 dc88b03d9db5f100e644492aeb80176e6f443e19 078f23425b753c2e28fa2df977977487a7dbe119 M	service/pom.xml
+
+commit 539e5bfdc7b8e63380f3992184cb12662d4997fa
+tree efbd8d8b1dd499b82f172bd139962c74ab21f757
+parent 459335b36f742d90a865bea7f810045084ffaf62
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1376421555 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1376421555 -0500
+
+    [B-54328]: adding unit test  account fields changed
+
+:100644 100644 e8e28875d03e12462bc9d7da3f6b0dced2e1931d 461fe48027951e38c910b7a98f4ff80760045146 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+:100644 100644 b03b8e6eb809290076812f5c5e534c46a323134e 8a1388beddc9f4f708093c58d7286bd992725018 M	service/src/test/groovy/com/rackspace/search/service/account/AccountOngoingSyncJobTest.groovy
+
+commit 459335b36f742d90a865bea7f810045084ffaf62
+tree 81beeb94b32e7edd1035333d4bf2aac203971214
+parent df10b55377222c507e4cbe401ca23fb5a60b5b66
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1376421181 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1376421181 -0500
+
+    [B-54328]: adding unit test core account fields changed
+
+:100644 100644 ce7b22037481ee41ee807ae45a53ccd5eeb72078 fa93c707958e92818d41b76b022f903c9bd966b3 M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreAccountUpdate.groovy
+:100644 100644 faa5b884a4ccea4a726940a596ef53b56fd381ef 4b573d5e59678533736aab5e1d41f7f8f20a1763 M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncJob.groovy
+:000000 100644 0000000000000000000000000000000000000000 5cfe949c1c1d4f500cddeba36b3110dac2d96821 A	service/src/test/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncJobTest.groovy
+
+commit df10b55377222c507e4cbe401ca23fb5a60b5b66
+tree 033e3a791627a91a9a215ddb9d6f7c0452c22720
+parent 9fbff09d812e2186c70bfa1cea4fdf835348c447
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1376418618 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1376418618 -0500
+
+    [B-54328]: Adding unit tests
+
+:000000 100644 0000000000000000000000000000000000000000 a3f60aff0622957a54fecbbc286f502fdf7a27fa A	service/src/test/groovy/com/rackspace/search/service/CoreAccountServiceTest.groovy
+
+commit 9fbff09d812e2186c70bfa1cea4fdf835348c447
+tree a40e570207fb71ae0922f62a5a7667c34ab586be
+parent 43415123fb918e26c718f50409f6e9d3cba5b7d3
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1376415781 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1376415781 -0500
+
+    [B-54328]: getting only necessary updates for account
+
+:100644 100644 968343672c5f1b58ceecda06d2a9fa9cc193cd18 e8e28875d03e12462bc9d7da3f6b0dced2e1931d M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+
+commit 43415123fb918e26c718f50409f6e9d3cba5b7d3
+tree 7079810c88fe23292ac592dd8735aaecc89c4dd8
+parent 0164c4e928b4fcbdb3a550313807d3c8c43c5c1b
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1376412248 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1376412248 -0500
+
+    [B-54328]: getting only necessary updates for account
+
+:100644 100644 79ea4cb854e724c6f55bb887ed733065b55c3c6e bee1713d288115b9df12a7926bec8b465553ece1 M	service/src/main/config/search.properties
+:100644 100644 806eaf3b3954830fc0dede124640043f2df2004d 968343672c5f1b58ceecda06d2a9fa9cc193cd18 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+:100644 100644 c040c8a0bb8e2f876f21f56154ae48bb9ec74e71 10ccb19ce709f4efea045eca8bc94239c5177c90 M	service/src/main/groovy/com/rackspace/search/service/account/AccountProcessor.groovy
+
+commit 0164c4e928b4fcbdb3a550313807d3c8c43c5c1b
+tree 19afd02512bc9780b4398852caed4f175a1dd4f3
+parent 56b1a5039a2ad04c8b5e8812c6c4ce07789bb57e
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1376343864 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1376343864 -0500
+
+    [B-54328]: getting only necessary updates
+
+:000000 100644 0000000000000000000000000000000000000000 33d1cf064986d4443f05fdd4857faaa1dce74bf1 A	service/src/main/groovy/com/rackspace/search/service/CoreAccountService.groovy
+
+commit 56b1a5039a2ad04c8b5e8812c6c4ce07789bb57e
+tree a4962db303a8e68cbe041f1e816cca78411c88c3
+parent d454113dd17a108a17a1bdfdb1e63ea557974961
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1376343797 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1376343797 -0500
+
+    [B-54328]: getting only necessary updates
+
+:100644 100644 e9e53ae769067fe5fdfe88c2503b802cd02051bd 79ea4cb854e724c6f55bb887ed733065b55c3c6e M	service/src/main/config/search.properties
+:100644 100644 22a39f105305ff6eca04de8596ddb6b0a486bed2 37178b22d0bd09b2bbd77ced2024617de727e90b M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy
+:100644 100644 99e9acb03cbc3977dda12c3a1c2e3e6bfb7031ba ce7b22037481ee41ee807ae45a53ccd5eeb72078 M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreAccountUpdate.groovy
+:100644 100644 0fcb203ba0d3b78dca849a715203c5b991f468b7 faa5b884a4ccea4a726940a596ef53b56fd381ef M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncJob.groovy

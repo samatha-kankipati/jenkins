@@ -1,0 +1,301 @@
+Changes in branch origin/master, between 9185c10dfd3cf11d4e44ddb2bfaf688f12dc0559 and 6ad1b7ceb13b8027da5ae00f3ba4bb125d00740c
+commit 852ddea9e6e1465e451e4860a5d52041421509c2
+tree f13fe4b67c65883b573a4de6d30f0a50b86bb924
+parent 84c2c861d30a4e791f0499781bbb060e5424216e
+author Satya Boddu <satya.boddu@rackspace.com> 1368564885 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1368564885 -0500
+
+    Commented test case , Need to fix it in next iteration
+
+:100644 100644 2711a1d6585cff61fd2fd7f02104493d3cb3111b 39b6590d83aa558f6229f22c774b3ad8f12e862e M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+:100644 100644 27caed0169fb845e21749d4a9ec6c3e4283ad3dc 99e96eeea5e5392d3b5a5d56acf4090946fa6c9f M	service/src/test/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClientFactoryBeanTest.groovy
+
+commit b0c2a619d42b049561f9fb8cfca3e3a8b98bc600
+tree 7f03409f7751f949f4e35797a25652d7d69024fd
+parent 84c2c861d30a4e791f0499781bbb060e5424216e
+author Satya Boddu <satya.boddu@rackspace.com> 1368564495 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1368564495 -0500
+
+     Modified deployment script functions to reflect latest environments
+
+:100644 100644 1a8e7832b6c745f22a9a55021e315be03d481b95 b61e30d44654aa7416f5c5a3646832423af1cf60 M	service/src/main/scripts/deployment-functions.sh
+
+commit 84c2c861d30a4e791f0499781bbb060e5424216e
+tree b66e02e6c80ea6c73e0963847da9299769a3f9f1
+parent 2a8b8bf80ef447dd02da4ae3399e7d4951e30f06
+author rnreekez <roger.enriquezjr@rackspace.com> 1368473321 -0500
+committer rnreekez <roger.enriquezjr@rackspace.com> 1368473321 -0500
+
+    FIX Support multiple nodes
+
+:100644 100644 d90b41b985610f990ba089445fcf79451590f033 47602a7d1c928857991bf9e5230d3451508d0361 M	service/src/main/scripts/_warhammer.include
+:100644 100644 c4ae0bcd5f21430494576a9810057feb077c4c03 1a8e7832b6c745f22a9a55021e315be03d481b95 M	service/src/main/scripts/deployment-functions.sh
+
+commit 30ca4324d1d4a3e8561f73333ca9f0c45e729f32
+tree d9765b21d17c2ba9005b4a8de247c8d92e019b6a
+parent 004e1d721e2cb60bd6f56c333858fb4df0256a5a
+author Satya Boddu <satya.boddu@rackspace.com> 1368220012 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1368220012 -0500
+
+    Fixed review comment
+
+:100644 100644 9d4455d1c51e446f6d05922c21d878537e1d304b 2711a1d6585cff61fd2fd7f02104493d3cb3111b M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+
+commit 004e1d721e2cb60bd6f56c333858fb4df0256a5a
+tree ca2255ea0b7e453858fc9d5c513bb194400c1aa0
+parent 3ad7930ee78899c5f2cc880a62c130978793fa74
+author Satya Boddu <satya.boddu@rackspace.com> 1368219395 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1368219395 -0500
+
+    Fixed review comment
+
+:100644 100644 dd4f3c466f4ddff872e5833a250e3fcafff5ae54 9d4455d1c51e446f6d05922c21d878537e1d304b M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+
+commit 3ad7930ee78899c5f2cc880a62c130978793fa74
+tree 0c219c373866bd38a7f5ffc0d40256f12a04013a
+parent 07c738c172c510615a5ba2d687078f1b5613bb6e
+author Satya Boddu <satya.boddu@rackspace.com> 1368219145 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1368219145 -0500
+
+    Fixed review comment
+
+:100644 100644 9faaa9320b300e1cf83c4a0f5897f31388b66c0f dd4f3c466f4ddff872e5833a250e3fcafff5ae54 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+
+commit 07c738c172c510615a5ba2d687078f1b5613bb6e
+tree 53c323c5258438128c0040718fd663378862dd49
+parent 6bfa4b2a11245b80a96e2d1f06ef9ad85290f827
+author Satya Boddu <satya.boddu@rackspace.com> 1367963089 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1367963089 -0500
+
+    Fixed review comments
+
+:100644 100644 d89f001d88821879fc985124ba2f7d408547207a 5f630495fda21809d58995015f267af44004bc94 M	service/src/main/config/elasticsearch/mappings/ticket/ticket.json
+:100644 100644 8531bf095ed4d722ea5e4babf571a8aba140a337 0a695ff0e62f2e3d9740f137a3f3e9c8d21fef22 M	service/src/main/config/search.properties
+:100644 100644 0cd0f49a703f7f91e1445e111ce24bf81475cc39 9faaa9320b300e1cf83c4a0f5897f31388b66c0f M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+
+commit 6bfa4b2a11245b80a96e2d1f06ef9ad85290f827
+tree f073d0bd4bc78ae2704261b18a3b0717a3907bfe
+parent 87de0398bbb533386856a89c74292ca95195f06d
+author Satya Boddu <satya.boddu@rackspace.com> 1367893448 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1367893448 -0500
+
+    [B-46843] Added implementation to add account details to ticket index
+
+:100644 100644 43e0dc959df50fbd3854b15758cce3a4c6e5d1a7 e3d594ed1a326bc2193715cd79cbc32029d40f15 M	service/pom.xml
+:100644 100644 d23a1f97e81b95b9b477f67cc0aeed2240623f43 5740165b344464f3810b208ac405436d0a0d28a6 M	service/src/main/config/elasticsearch/mappings/account/account.json
+:100644 100644 6dc0d7a375753ddcc13a0a8fea2b30836f752c51 d89f001d88821879fc985124ba2f7d408547207a M	service/src/main/config/elasticsearch/mappings/ticket/ticket.json
+:100644 100644 b790c43c753756a3edb8c139edc001b537e8aadc 8531bf095ed4d722ea5e4babf571a8aba140a337 M	service/src/main/config/search.properties
+:100644 100644 a1d9400f7a4227b322fa793dd16ad1c376ad786b 1fc4a61bd50f11741e4b763a18cdd8ab7aef2ccc M	service/src/main/groovy/com/rackspace/search/service/account/AccountProcessor.groovy
+:100644 100644 76e874f1cffdc901bdb61487a43f87ac9d0413f1 0cd0f49a703f7f91e1445e111ce24bf81475cc39 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+
+commit eac208890eee74f94f1ff65094e10cdf2c6c0f44
+tree 8e49dffa13246e199f3d5b27af0b48b17a599728
+parent 18921d7081d38fd3ddd2b2e735072c411280df08
+author Satya Boddu <satya.boddu@rackspace.com> 1367598374 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1367598374 -0500
+
+    Fixed review comments with version changes
+
+:100644 100644 dc3a8e4cbb4b1401ad3c35fe42c0eeff6cbb5e27 019cd993f9d7c51b232fd0dc9cb4dd148b7bc777 M	service/pom.xml
+:100644 100644 09fe388fa351e67d2c785f756560a9cbd50ae807 f73836aee4542165555bcd45fc09599f93ca613c M	service/src/main/groovy/com/rackspace/search/Constants.groovy
+:100644 100644 162b8b15ab354f992ccb605c8ac6e9e4142efd1b 45232b3352e2dba0cbc5b26d985bb43a136482e0 M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreDBGateway.groovy
+:100644 100644 402b75b1e5680f2608c215bdd21b4727b96e0384 f11622d3186dc7fbe632033098727fe0bba38da8 M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreTicket.groovy
+:100644 100644 a0f1ce1a40122d341881ff081e9ff41b65a82b06 76e874f1cffdc901bdb61487a43f87ac9d0413f1 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+
+commit 02038dcd4eb66551ab73a3790c543d9daa277e04
+tree 0f4d58ff962f8f08a53ab71cd3f074e38f0f76f8
+parent a70ff0d5901f860f8544b9e7c4f6099c281c4272
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1367597127 -0500
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1367597127 -0500
+
+    B-46843: added analyzer
+
+:100644 100644 5d74f37bf30e942d8aa1b1de74de9cf195e056e2 d23a1f97e81b95b9b477f67cc0aeed2240623f43 M	service/src/main/config/elasticsearch/mappings/account/account.json
+
+commit 18921d7081d38fd3ddd2b2e735072c411280df08
+tree 33db98535d96a959beb2c6e54e1d0a4b9897cf4d
+parent 18686f1e974bb787ae874a37cbff46eb287a1a0b
+author Satya Boddu <satya.boddu@rackspace.com> 1367596149 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1367596149 -0500
+
+    Fixed review comments
+
+:100644 100644 3964ba81797e15cf3e78392d4a5d91e0bb316777 6dc0d7a375753ddcc13a0a8fea2b30836f752c51 M	service/src/main/config/elasticsearch/mappings/ticket/ticket.json
+:100644 100644 cd95246f2875c75ecb3ae57cf4a44816fa739834 ff3c9045a970aebd7da1f7eeb8b98abe6b23b77c M	service/src/main/config/search.properties
+:100644 100644 124ef78b8732351eeb18d38fb1dfa33ada8ebc14 a0f1ce1a40122d341881ff081e9ff41b65a82b06 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+:100644 100644 db31487f62cbae5c662444e55ff72df8d4c5e611 fa85f0c502e3f0d3c4fcdb79c017019abfc54171 M	service/src/test/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClientTest.groovy
+
+commit 18686f1e974bb787ae874a37cbff46eb287a1a0b
+tree 956878abb497ff978e763c42f13f1257b54622ac
+parent c35516a466318ab3cb53db2bf798b9fbaa3fd271
+author Satya Boddu <satya.boddu@rackspace.com> 1366815618 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1366815618 -0500
+
+    test
+
+:100644 100644 019cd993f9d7c51b232fd0dc9cb4dd148b7bc777 dc3a8e4cbb4b1401ad3c35fe42c0eeff6cbb5e27 M	service/pom.xml
+:100644 100644 66e537f80aebb8146da2a89b57cddb92d5389a85 cd95246f2875c75ecb3ae57cf4a44816fa739834 M	service/src/main/config/search.properties
+:100644 100644 9f0f45d17fa968a1092f5cd16a685d6055de0182 db31487f62cbae5c662444e55ff72df8d4c5e611 M	service/src/test/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClientTest.groovy
+
+commit 9fa7c1327e71a6c7aa8b6731b54f3e1df95e51d5
+tree 9f5175aac325734e8ad37498691e8a56183a9804
+parent 979ca7caed7ab2a4852c2901f8e63c3bf5ea4965
+author Satya Boddu <satya.boddu@rackspace.com> 1366243040 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1366243040 -0500
+
+    [B-46843] Made changes to ctk api query and db query for ticket attributes
+
+:100644 100644 8dd47b5b5a3f2fba200c9eae66d9d4f3265d1c80 3964ba81797e15cf3e78392d4a5d91e0bb316777 M	service/src/main/config/elasticsearch/mappings/ticket/ticket.json
+:100644 100644 4af445b38d85082533ebf7f3a87bd89f38c4091b 66e537f80aebb8146da2a89b57cddb92d5389a85 M	service/src/main/config/search.properties
+:100644 100644 3840cc1789943ecfedfd2169db53949c23e64fe8 c397ef16dd11d8bafcc99226f315bca6e5bcb00f M	service/src/main/filters/filter.yaml
+:100644 100644 36c574decb743221e8b5709ec14534443e635bea 09fe388fa351e67d2c785f756560a9cbd50ae807 M	service/src/main/groovy/com/rackspace/search/Constants.groovy
+:100644 100644 9304b0f6d2e62d04e767c5c86021bf369e634abb cdd35b3f6e2b1395d0eb3ab00df9775128b9a6a3 M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreDBGateway.groovy
+:100644 100644 81d24fcb2f7da944a882fe60c197810f653300ca 402b75b1e5680f2608c215bdd21b4727b96e0384 M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreTicket.groovy
+:100644 100644 174c1727738abf62b8fd9ad9366ac657779efc5e 124ef78b8732351eeb18d38fb1dfa33ada8ebc14 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+:100644 100644 db403cee3a0cd21fb3da4cb1192f84561ea223bf bef25887befa0bb8671ead31e43e8a74b408806b M	service/src/main/resources/coreTicketRequest.json
+
+commit a70ff0d5901f860f8544b9e7c4f6099c281c4272
+tree d0d15ff63cc46311d9b825c68b71d7f158ba7dab
+parent 1051d657f802e2777a60416718286e4ffc67771e
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1366228366 -0500
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1366228366 -0500
+
+    B-46843: adding unit tests
+
+:100644 100644 9cf6f5aaebe02b19230a399e4048e773d0b4e5c7 ef7baa07e6eebba4283a5b3655c73af50eb2b888 M	service/src/main/filters/filter.yaml
+:100644 100644 794f081ddd40968ade900e50e76588dcd687241a 788e038efe9107fac6657cb45dfc39956d7d37dd M	service/src/main/groovy/com/rackspace/search/gateway/account/AccountGateway.groovy
+:000000 100644 0000000000000000000000000000000000000000 b49b44800c6e31b3e3cff919709cc1cf95fc29e1 A	service/src/test/groovy/com/rackspace/search/gateway/account/AccountGatewayTest.groovy
+:100644 100644 f6bb894978f7496f8a3b85c701c2922bf362b225 c551d491f164e31492c3a0070c686729a51899d0 M	service/src/test/groovy/com/rackspace/search/gateway/core/CoreTicketGatewayTest.groovy
+:000000 100644 0000000000000000000000000000000000000000 b56bb7f51319b7778a714474b5d93814e8960896 A	service/src/test/groovy/com/rackspace/search/service/account/AccountOnetimeSyncActorTest.groovy
+:000000 100644 0000000000000000000000000000000000000000 0c1e83f9c4933383e1526380f3ad4c6ef0ece53d A	service/src/test/groovy/com/rackspace/search/service/account/AccountOnetimeSyncJobTest.groovy
+:100644 100644 de0a823ac27f96c0626b4f9273a1dc079da90a64 dd0f2fe00eefd89c969eb0caefdaf95b1f2c266e M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncActorTest.groovy
+:100644 100644 326d42ba7e1f269acba5942b849849be6fbfdd60 cdb499fd3f013b90528ad230cc30be914587a330 M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketOneTimeSyncJobTest.groovy
+
+commit 1051d657f802e2777a60416718286e4ffc67771e
+tree 33fe2ba352f48c1023dd34f191f353eae8ed134d
+parent e0cb2091f30a6b1855dccb43ce5fb5057a4e39ba
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1366220842 -0500
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1366220842 -0500
+
+    B-46843: Getting account data
+
+:100644 100644 b0fc53982d6980babacca04c46ee7958dfd714ba 15863b856d3e2490d90c8e7f88462ba047b5367c M	service/src/main/config/search.properties
+:100644 100644 9fbf2ec7e460a487d1e04f0d5c6a2bb97dafb613 9cf6f5aaebe02b19230a399e4048e773d0b4e5c7 M	service/src/main/filters/filter.yaml
+
+commit e3d1bbe8cab988998ca4335373d7d49d7fcba56f
+tree 4dfbe28356a09754167b1d9f569505d3fc78ed3b
+parent 103fe242b6caaf0c83cd6b22395f16d4a9426bcd
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1366219681 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1366219681 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b57
+
+:100644 100644 5e68c89d941ccf59e11ec42837149f90f313d186 fdd300a2d510bf31ad91e6d6e34a2ceeee498f36 M	cucumber/pom.xml
+:100644 100644 be06a167a32cda73b6ad7023e677a273eaf9a1dd e53f0f1de1579fce96785599b7f977ff9da406f4 M	pom.xml
+:100644 100644 a94a8a802c334b907695c56863885d1a4789bd63 019cd993f9d7c51b232fd0dc9cb4dd148b7bc777 M	service/pom.xml
+
+commit 045a07ca18e02900fb5387be6be264d3807242c9
+tree 12696411add8f169090abe2316211346ccfe272e
+parent 31a9757c3e2d8051c1c6faa8cfb8dda98ffa8242
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1366219638 -0500
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1366219638 -0500
+
+    B-46843: Getting account data
+
+:100644 100644 2d5803f2ad7a2eeb07a92ffc6bf16376adf64c3c 7bdda811c41347e75d8be9e2c07f36b246c9a355 M	service/pom.xml
+:000000 100644 0000000000000000000000000000000000000000 5d74f37bf30e942d8aa1b1de74de9cf195e056e2 A	service/src/main/config/elasticsearch/mappings/account/account.json
+:000000 100644 0000000000000000000000000000000000000000 2ae5e2aea1e12bdc81e195d2424e0da4ca8b1699 A	service/src/main/config/elasticsearch/mappings/account/index.json
+:100644 100644 4af445b38d85082533ebf7f3a87bd89f38c4091b b0fc53982d6980babacca04c46ee7958dfd714ba M	service/src/main/config/search.properties
+:100644 100644 1357098afa45f752543a063cc798a219d646fcfa fca2080ee1e43e5f480142c1c9f1f5a5fa0c40de M	service/src/main/config/search.secrets.properties
+:100644 100644 6970836424855302c672a617792fce126186064c c293265175d6b1939769b46e140fe3ce41e5bfa8 M	service/src/main/filters/filter.yaml
+:100644 100644 b6a4ae3c358d77c987d2d69854e42f1ad8171cdc 874787508b2e501a2c8bc0a4d42ec32f64b169f9 M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncJob.groovy
+:000000 100644 0000000000000000000000000000000000000000 794f081ddd40968ade900e50e76588dcd687241a A	service/src/main/groovy/com/rackspace/search/gateway/account/AccountGateway.groovy
+:000000 100644 0000000000000000000000000000000000000000 fd2a32b64a54d8afac57d5d3244b0ddcd70a71b3 A	service/src/main/groovy/com/rackspace/search/service/account/AccountOneTimeSyncJob.groovy
+:000000 100644 0000000000000000000000000000000000000000 d4f7a8547c665047119e539dbff47c5e648af8a5 A	service/src/main/groovy/com/rackspace/search/service/account/AccountOnetimeSyncActor.groovy
+:000000 100644 0000000000000000000000000000000000000000 a1d9400f7a4227b322fa793dd16ad1c376ad786b A	service/src/main/groovy/com/rackspace/search/service/account/AccountProcessor.groovy
+:100644 100644 ef829dcfb970151a208917e273bf269ad9b364b3 047a7b9dbf6922b196b17caa6efdec0397dee1c3 M	service/src/main/java/com/rackspace/search/endpoint/AdminResource.java
+:100644 100644 a4ed6e071ea40450a33fc6cab7010aae7d688aae 9397e1bdd35ff6ff07c70b39f563d933f6722504 M	service/src/main/resources/indices_structure.json
+
+commit 979ca7caed7ab2a4852c2901f8e63c3bf5ea4965
+tree 6ba23a4e7bf812686d7efd54364bb38f4f0fed08
+parent df5275bca4a70c0aea2304a7535e4c82904ed536
+author Satya Boddu <satya.boddu@rackspace.com> 1366208714 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1366208714 -0500
+
+    [B-46843] 2nd Commit , Made changes to coreTicketRequest.json to match the all ticket attributes
+
+:100644 100644 00292de6cc0c4ab8a29dfb10238ad2dbe8361516 db403cee3a0cd21fb3da4cb1192f84561ea223bf M	service/src/main/resources/coreTicketRequest.json
+
+commit df5275bca4a70c0aea2304a7535e4c82904ed536
+tree 51f131e318eae7a2c570eb75e678f4842528219e
+parent 9185c10dfd3cf11d4e44ddb2bfaf688f12dc0559
+author Satya Boddu <satya.boddu@rackspace.com> 1366172187 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1366172187 -0500
+
+    [B-46843] Made changes to ticket.json to match the all ticket attributes
+
+:100644 100644 0a44860f59f144b6d601f18bd4f4225e5daba71e 8dd47b5b5a3f2fba200c9eae66d9d4f3265d1c80 M	service/src/main/config/elasticsearch/mappings/ticket/ticket.json
+
+commit 954c9bd7d61aab28b7c1b098d70e3a9230cfe8fe
+tree 6262d75516d1126ae081c29ea7f63ca35add9d9b
+parent ccb2efbd6c1f78620655cf96ba702e259ec9f410
+author Satya Boddu <satya.boddu@rackspace.com> 1366167775 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1366167775 -0500
+
+    Fixed review comments
+
+:100644 100644 9d18d3652c3a6c852d8704c71137139b2b4fa448 e69100d2009ee2e1f458e82afbf2cc074d4b7541 M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreDBGateway.groovy
+:100644 100644 d32a2f894afa5bd21fb8a421b34460f7f3b731e3 a195df9c61820d556f56048162ad697ffb50f651 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+
+commit e8b1eaf83a8eb97b3342cb07b9e31635d4d92261
+tree 92c4f468dfce67db09f69631a2fce883811c2588
+parent cdac60d0cf9ec55126764988a79cb6bf9989947f
+author Satya Boddu <satya.boddu@rackspace.com> 1366136866 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1366136866 -0500
+
+    Fixed merge issues
+
+:100644 100644 b720395e047d6d512a82920400a5cabd0549440d 219ddf64718d360df7020c74edc0fc679e951f84 M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy
+
+commit cdac60d0cf9ec55126764988a79cb6bf9989947f
+tree ad3ea738cd0756860c6fa8a8d4264555e4326c97
+parent cb4fa9239e822dd73cad792f8fa7b2946c6c659a
+author Satya Boddu <satya.boddu@rackspace.com> 1366131451 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1366131451 -0500
+
+    [B-46843] Added new version to ES
+
+:100644 100644 67833a78a3c1b2330f4f189bb217054a34881838 a94a8a802c334b907695c56863885d1a4789bd63 M	service/pom.xml
+
+commit cb4fa9239e822dd73cad792f8fa7b2946c6c659a
+tree ba301aa191db669f9c31766b2779ca662ccb5642
+parent 9185c10dfd3cf11d4e44ddb2bfaf688f12dc0559
+author Satya Boddu <satya.boddu@rackspace.com> 1366055239 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1366055239 -0500
+
+    [B-46843] TK-81239 Update the Elastic Search version number
+
+:100644 100644 9d2b945d090d7f7abdb5ba3e250afa95a3e55d30 67833a78a3c1b2330f4f189bb217054a34881838 M	service/pom.xml
+:100644 100644 528e650f73273336bbf24f982191a104bc102b45 8a721d090e9201aa4273c0b924cec32c4148551a M	service/src/main/groovy/com/rackspace/search/elasticsearch/ElasticSearchServer.groovy
+:100644 100644 372283f476395d352b92f89ac395f45ec1634ee8 b720395e047d6d512a82920400a5cabd0549440d M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy
+:100644 100644 ade7cc0d4d6bfd670af996d2339ff7b50da21e67 9f0f45d17fa968a1092f5cd16a685d6055de0182 M	service/src/test/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClientTest.groovy
+
+commit 1e5c7aa1917da6b40aa3265117775608d0fbf88b
+tree c1edf3c708bea927619649a753bcf5d462c18c6b
+parent c50d2b2a69c94d7ce17cc5f6f60f2bc1cb46e82b
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1366049679 -0500
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1366049679 -0500
+
+    B-46910: added read timeout for core db
+
+:100644 100644 53335933129d3988da7e6ee1ca8c7800f7289c24 f34f0cff49c9d6a584842400220ca707d9b3c248 M	service/src/main/resources/coreDbContext.xml
+
+commit ccb2efbd6c1f78620655cf96ba702e259ec9f410
+tree e39b837cdfb2518bdc6c330b82f9a73c9ea5c0bc
+parent b231373c8eff189390c1cb2dfd718fe700b14e1c
+author Satya Boddu <satya.boddu@rackspace.com> 1366045175 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1366045175 -0500
+
+    [B-43056] Added logic to retry CoreTicketOngoingSync job if there are any failures
+
+:100644 100644 9304b0f6d2e62d04e767c5c86021bf369e634abb 9d18d3652c3a6c852d8704c71137139b2b4fa448 M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreDBGateway.groovy

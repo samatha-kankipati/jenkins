@@ -1,0 +1,34 @@
+Changes in branch origin/master, between b7c8dd44bd199523d6c13ccf828313d267cee3d7 and 453eb9098c3ef4d49e1f54b897eff21b94145077
+commit 2256d3bac01f334da86979366ac25506042e3216
+tree 428f256a7f574a47f4284de6715e4e8b6c9fff7a
+parent dfc456951b0c19a500833d86754f0eede7a307df
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364511262 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364511262 -0500
+
+    [B44514] : advancing version to make sure of release job
+
+:100644 100644 658aad5852d7102214be3b4d79d53b483a68e211 e1f671d5be39524ccb0c6fa81aa8be06073a2035 M	service/pom.xml
+
+commit dfc456951b0c19a500833d86754f0eede7a307df
+tree 4687e13b472f14692b4d2d45be25972ca9add868
+parent 195bafe1a86fdd2c6efb35211535e3a8d8ac7705
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364511230 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364511230 -0500
+
+    [B44514] : advancing version to make sure of release job
+
+:100644 100644 6fdeba77b2c7c3ce21b6387e88303b0afdcd6586 147b8210f25e75fb8777d81466d5b3e57554afe2 M	cucumber/pom.xml
+:100644 100644 ff8b6e81ef851dfcca73b512ae647a40f6e8db84 4564f2764405c6d4dd64a0cbd1e04f9b9537bd5d M	pom.xml
+:100644 100644 d4552ff46ce36728af59e0b9b347813c61d2a8c4 658aad5852d7102214be3b4d79d53b483a68e211 M	service/pom.xml
+
+commit 195bafe1a86fdd2c6efb35211535e3a8d8ac7705
+tree 73b162483a076d6f4d656cca746e1d7fb3b75f5f
+parent b7c8dd44bd199523d6c13ccf828313d267cee3d7
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364511075 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364511075 -0500
+
+    [B44514] : setting up SNAPSHOT version.Release job failed again
+
+:100644 100644 b75999eef148905b1aad512def05f75890d5a449 6fdeba77b2c7c3ce21b6387e88303b0afdcd6586 M	cucumber/pom.xml
+:100644 100644 c37f6a06f15364387bbd0ffde9abe6f358374e91 ff8b6e81ef851dfcca73b512ae647a40f6e8db84 M	pom.xml
+:100644 100644 77d1917b189362bc09bdfb1166b37f899fff5f91 d4552ff46ce36728af59e0b9b347813c61d2a8c4 M	service/pom.xml

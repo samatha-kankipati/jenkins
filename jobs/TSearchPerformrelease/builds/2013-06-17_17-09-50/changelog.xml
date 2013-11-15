@@ -1,0 +1,67 @@
+Changes in branch origin/master, between 390e34e9b3499b559ee35aed5db2c5a3e6b859ca and 14db6fdf257dfac4e4b95b186871cb6d664cdcc7
+commit c882e7ee9ce7d77522fc8b93eabd49590e5e2d9c
+tree c5dfde065e87042e453b32dcdde9f7a0714c9ebd
+parent 22dc0143e8ff0f82191e5f4f211f0f6edf10cec1
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1371488004 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1371488004 -0500
+
+    [B-50912] : refactored Job shhutdown logic to stop job only if it is owned by current node.
+
+:100644 100644 d1214c30e0bcd6785d2a660a206ba1eca379c217 c03d0d49153296d045ddf85ad9bb7ca805c33613 M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+:100644 100644 1a7e8209b50ec316e4aefa3036f7508affd7ab46 84d19ac97673e871918199dc625f6d328d63a1b2 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOneTimeSyncJob.groovy
+:100644 100644 95eff8d548606a39c36def459da31e0298afbded 93c51aa3229eca2fd46907a7c321118f21e994e8 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+:100644 100644 abd8f773995cb31511413bba7d2263928dce937d a76ec137502098ed29e0b1ea219e9e4c2d17d4db M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+:100644 100644 58ef990fe64f3a0942443559ed43041308bf4c70 b19d6cb9d1f7b9851c6388af94516d2323ea18ae M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOneTimeSyncJob.groovy
+
+commit 22dc0143e8ff0f82191e5f4f211f0f6edf10cec1
+tree ae32e48d214e2ddb95024d63fb0acf536a47553a
+parent b5282469300967eccdff9a37828146addc09fd14
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1371486897 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1371486897 -0500
+
+    [B-50912] : Reverting temporary changes.
+
+:100644 100644 75dc4e37a3e6ae3b652958308d6feafc1249ae11 dc4f0856eeeae8fb25cdd6bf3120f880d7bdc557 M	service/src/main/groovy/com/rackspace/search/gateway/account/AccountGateway.groovy
+
+commit b5282469300967eccdff9a37828146addc09fd14
+tree a46eeee29df9dca9a69f1fc7ab4b1f85ba25b458
+parent 62ccb4195c49b2688a1701229dbc901d756ff282
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1371486672 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1371486672 -0500
+
+    [B-50912] : Refactored syncJob name references and hostname reference.
+
+:100644 100644 dc4f0856eeeae8fb25cdd6bf3120f880d7bdc557 75dc4e37a3e6ae3b652958308d6feafc1249ae11 M	service/src/main/groovy/com/rackspace/search/gateway/account/AccountGateway.groovy
+:100644 100644 0ad973764d5a2f76888c4adaea5e0610a854c9cb d1214c30e0bcd6785d2a660a206ba1eca379c217 M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+:100644 100644 8beef164f22cd8af4e4f7dade581e629f60fc1ae 1a7e8209b50ec316e4aefa3036f7508affd7ab46 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOneTimeSyncJob.groovy
+:100644 100644 b1724fb13704c5c85c32f89f931987ad25cf4720 95eff8d548606a39c36def459da31e0298afbded M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+:100644 100644 0e90fdcf8d4f35e79ecead129cfee584d52412e6 abd8f773995cb31511413bba7d2263928dce937d M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+:100644 100644 81c6c480974fd523ab29bb4d3c6ff073928f8608 58ef990fe64f3a0942443559ed43041308bf4c70 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOneTimeSyncJob.groovy
+:100644 100644 809b4981563354fd9aabaf939579522bebf7349e a46722da04c3707f98cd7a1cc22f251f3e7ccaee M	service/src/test/groovy/com/rackspace/search/service/account/AccountOnetimeSyncJobTest.groovy
+:100644 100644 44b640a2402233ab1c6b631d6ce5d9ec40f226fc 1774ac1d3bd09dde6baed547325a7ac214099d98 M	service/src/test/groovy/com/rackspace/search/service/account/AccountOngoingSyncJobTest.groovy
+:100644 100644 1e448df3090dba54bce14ac525c9374bc15c56a8 2bb2579823bca86c0b95f36f6947fa91069bf8f0 M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJobTest.groovy
+:100644 100644 753455b5abc48e7c2cd771234ec72a3d9598608d 83a57ecb439cf85c884e40a2ee90c0ede6148529 M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketOneTimeSyncJobTest.groovy
+
+commit 6553a754637712450c0ce2fc7bd2c234ac645eea
+tree c63b6a21252579302344dcfdc9cfe8f7c355d72e
+parent 15591388f75d45258cd82d0f3694783cfb4d239d
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371270946 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371270946 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 d7acfbc75b4529b30dff0562b1c20df1abdcb319 b05afbc6c9d2bf9da40a26da0ba057777982abc6 M	cucumber/pom.xml
+:100644 100644 b6e3c73bad0010066c77876192e9c01452dae7fd 0f670c44c0754f55d2471d4ce6b4e04f3c815aff M	pom.xml
+:100644 100644 fca43e60ca49ce4321aca293673881b17694a15c 049c615d7af26c71a6d44907c7d59db619c45558 M	service/pom.xml
+
+commit 15591388f75d45258cd82d0f3694783cfb4d239d
+tree abeb05ec108b918ed2f613a90497148837ffeff9
+parent 390e34e9b3499b559ee35aed5db2c5a3e6b859ca
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371270941 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371270941 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b100
+
+:100644 100644 5cd8041dd3e137f8a33e9f50664b97e7d29158c3 d7acfbc75b4529b30dff0562b1c20df1abdcb319 M	cucumber/pom.xml
+:100644 100644 42d85ab1c2a6425ad1d46415ff23944c374f2344 b6e3c73bad0010066c77876192e9c01452dae7fd M	pom.xml
+:100644 100644 058da1743fffe4c16eace9d7e010db55e780b468 fca43e60ca49ce4321aca293673881b17694a15c M	service/pom.xml

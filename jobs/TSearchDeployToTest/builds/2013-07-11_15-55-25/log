@@ -1,0 +1,138 @@
+Started by upstream project "[8mha:AAAApx+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgZp/az8JP2Q4NTEouSMgNSitPyi3KLUnNTE4lR9AEszS6zQAAAA[0mTSearchPerformrelease" build number [8mha:AAAAqR+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZZ/az8JP2Q4NTEouSMgNSitPyi3KLUnNTE4lR9C0MA9k6Re9IAAAA=[0m81
+originally caused by:
+ Started by upstream project "[8mha:AAAAqB+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYZ/az8JP2Q4NTEouQMt9K85JLM/LzEnJDU4pJifQCSGu4I0QAAAA==[0mTSearchFunctionalTests" build number [8mha:AAAAqx+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZ5/az8JP2Q4NTEouQMt9K85JLM/LzEnJDU4pJifUMTIwBupfxh1AAAAA==[0m142
+ originally caused by:
+  Started by upstream project "[8mha:AAAAoR+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JP2Q4NTEouSM0LzMkpDU4hJ9ANsqA0/KAAAA[0mTSearchUnitTest" build number [8mha:AAAApB+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgYJ/az8JP2Q4NTEouSM0LzMkpDU4hJ9Q2MjANdwr+jNAAAA[0m132
+  originally caused by:
+   Started by an SCM change
+Building in workspace /var/lib/jenkins/jobs/TSearchDeployToTest/workspace
+Checkout:workspace / /var/lib/jenkins/jobs/TSearchDeployToTest/workspace - hudson.remoting.LocalChannel@6788af79
+Using strategy: Default
+Last Built Revision: Revision 71964cff74bc08672b683287bff2766708a14dd8 (origin/master)
+Fetching changes from 1 remote Git repository
+Fetching upstream changes from origin
+Commencing build of Revision 5005375bc61fa577361e6f43ea90114be9c92860 (origin/master)
+Checking out Revision 5005375bc61fa577361e6f43ea90114be9c92860 (origin/master)
+[workspace] $ /bin/sh -xe /tmp/hudson367056851799865098.sh
++ sh /var/lib/jenkins/jobs/TSearchDeployToTest/workspace/service/src/main/scripts/deploy-application.sh 0.1.0_b121 test
+environment in warhammer is test
+environment is test
+======================= Starting Deployment =======================
+Version:	'0.1.0_b121'
+Server:		'node1.test.search.api.rackspace.com'
+===================================================================
+
+
+Using temporary directory '/tmp/deploy.S9882'.
+
+
+Fetching files...
+--2013-07-11 15:55:28--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b121/search-0.1.0_b121.war
+Resolving d-build1.iad2.corp.rackspace.com... 10.4.39.20
+Connecting to d-build1.iad2.corp.rackspace.com|10.4.39.20|:8100... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 34329563 (33M) [application/octet-stream]
+Saving to: `/tmp/deploy.S9882/search-0.1.0_b121.war'
+
+     0K ........ ........ ........ ........ ........ ........  9% 3.05M 10s
+  3072K ........ ........ ........ ........ ........ ........ 18% 2.15M 11s
+  6144K ........ ........ ........ ........ ........ ........ 27% 1.55M 11s
+  9216K ........ ........ ........ ........ ........ ........ 36% 1.51M 11s
+ 12288K ........ ........ ........ ........ ........ ........ 45% 1.44M 10s
+ 15360K ........ ........ ........ ........ ........ ........ 54% 1.54M 8s
+ 18432K ........ ........ ........ ........ ........ ........ 64% 1.50M 7s
+ 21504K ........ ........ ........ ........ ........ ........ 73% 1.51M 5s
+ 24576K ........ ........ ........ ........ ........ ........ 82% 1.38M 4s
+ 27648K ........ ........ ........ ........ ........ ........ 91% 1.12M 2s
+ 30720K ........ ........ ........ ........ ........ ...     100% 1.07M=22s
+
+2013-07-11 15:55:50 (1.51 MB/s) - `/tmp/deploy.S9882/search-0.1.0_b121.war' saved [34329563/34329563]
+
+--2013-07-11 15:55:50--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b121/search-0.1.0_b121.war.md5
+Reusing existing connection to d-build1.iad2.corp.rackspace.com:8100.
+HTTP request sent, awaiting response... 200 OK
+Length: 32 [text/plain]
+Saving to: `/tmp/deploy.S9882/search-0.1.0_b121.war.md5'
+
+     0K                                                      100% 2.54M=0s
+
+2013-07-11 15:55:50 (2.54 MB/s) - `/tmp/deploy.S9882/search-0.1.0_b121.war.md5' saved [32/32]
+
+--2013-07-11 15:55:50--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b121/search-0.1.0_b121-config.zip
+Reusing existing connection to d-build1.iad2.corp.rackspace.com:8100.
+HTTP request sent, awaiting response... 200 OK
+Length: 32275 (32K) [application/zip]
+Saving to: `/tmp/deploy.S9882/search-0.1.0_b121-config.zip'
+
+     0K                                                      100%  201K=0.2s
+
+2013-07-11 15:55:50 (201 KB/s) - `/tmp/deploy.S9882/search-0.1.0_b121-config.zip' saved [32275/32275]
+
+--2013-07-11 15:55:50--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b121/search-0.1.0_b121-config.zip.md5
+Reusing existing connection to d-build1.iad2.corp.rackspace.com:8100.
+HTTP request sent, awaiting response... 200 OK
+Length: 32 [text/plain]
+Saving to: `/tmp/deploy.S9882/search-0.1.0_b121-config.zip.md5'
+
+     0K                                                      100% 2.54M=0s
+
+2013-07-11 15:55:51 (2.54 MB/s) - `/tmp/deploy.S9882/search-0.1.0_b121-config.zip.md5' saved [32/32]
+
+FINISHED --2013-07-11 15:55:51--
+Downloaded: 4 files, 33M in 22s (1.50 MB/s)
+...done.
+
+
+Verifying MD5s...
+OK 211a923d7d5146cedd8df19b328ceffd  /tmp/deploy.S9882/search-0.1.0_b121.war
+OK e82278cf87d96fb3c3e009bf6609f732  /tmp/deploy.S9882/search-0.1.0_b121-config.zip
+done.
+
+
+Copying files to server 'node1.test.search.api.rackspace.com'...
+...done.
+
+Verifying MD5s...
+OK 211a923d7d5146cedd8df19b328ceffd  node1.test.search.api.rackspace.com:/home/search/artifacts/search-0.1.0_b121.war
+OK e82278cf87d96fb3c3e009bf6609f732  node1.test.search.api.rackspace.com:/home/search/artifacts/search-0.1.0_b121-config.zip
+...done.
+
+Copying files to server 'node2.test.search.api.rackspace.com'...
+...done.
+
+Verifying MD5s...
+OK 211a923d7d5146cedd8df19b328ceffd  node2.test.search.api.rackspace.com:/home/search/artifacts/search-0.1.0_b121.war
+OK e82278cf87d96fb3c3e009bf6609f732  node2.test.search.api.rackspace.com:/home/search/artifacts/search-0.1.0_b121-config.zip
+...done.
+
+
+
+Deploying to server 'node1.test.search.api.rackspace.com'...Waiting for the domain to stop ...
+Command stop-domain executed successfully.
+done.
+Waiting for search to start ........................................................
+Successfully started the domain : search
+domain  Location: /opt/glassfish/glassfish/domains/search
+Log File: /opt/glassfish/glassfish/domains/search/logs/server.log
+Admin Port: 4848
+Command start-domain executed successfully.
+
+Deploying to server 'node2.test.search.api.rackspace.com'...Waiting for the domain to stop ....
+Command stop-domain executed successfully.
+done.
+Waiting for search to start ...........................................................
+Successfully started the domain : search
+domain  Location: /opt/glassfish/glassfish/domains/search
+Log File: /opt/glassfish/glassfish/domains/search/logs/server.log
+Admin Port: 4848
+Command start-domain executed successfully.
+
+
+
+Cleaning up...done.
+
+
+======================= Deployment Complete =======================
+
+Triggering a new build of [8mha:AAAAmx+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH3nnPzSFGdHN1d9ALwYXv7EAAAA[0mCloudCAFE #487
+Finished: SUCCESS

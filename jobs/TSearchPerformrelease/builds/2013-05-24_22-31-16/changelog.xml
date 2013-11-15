@@ -1,0 +1,35 @@
+Changes in branch origin/master, between 8d80cb38147f9d75aa3acb863ba827cb377fb2ac and 577131eef05100ec438ae098ec920bfc8937982a
+commit 4086493d0bc89de303e06d29f8c9d8919f09c5aa
+tree 5d58a1f0672a82aff5c03473afde6ccf904252d9
+parent cec9a286905a94142965c83cf9655a44223699b8
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1369433970 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1369433970 -0500
+
+    [D-13026] :  fixed code to update syncjob status when there are no updates
+
+:100644 100644 53d4aeb4c5462cf4136866f6fd90c14bfcb32648 ac6ee936c133c7a2ecd5359644d6e12d6695906e M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+:100644 100644 a0b42162905e59647d8783d1dc56840c845d79eb 0eecf3af416ac8e0bd57913139df8df16d41283b M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+
+commit d6574cd2ef23e60685dce3e6439a6cfd43712364
+tree 96d26a6e109e9c72f582d4b3e2e5a05ccfebcfa6
+parent c3905ae56bd29d946f3fed1a6c779f977f62b1f0
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369433015 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369433015 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 0cde33c8121d38c9ecd120d64c61c9b822c5649e bc667a707ee96f395a72606442632ce356ce5ad2 M	cucumber/pom.xml
+:100644 100644 bf8864440a5751063bc90bac35468754643fdd2e c490d5df539a4a4438c37fcf2e7c94f8c961fbbc M	pom.xml
+:100644 100644 86f0c52c25181ee8286193cc681705aed444d351 c216e22cb58421c5e8bf1d9aaf433fd83f61c9f8 M	service/pom.xml
+
+commit c3905ae56bd29d946f3fed1a6c779f977f62b1f0
+tree 15bd6dfd104342c06e67893d2991ec0bac365b2d
+parent 8d80cb38147f9d75aa3acb863ba827cb377fb2ac
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369433010 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369433010 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b75
+
+:100644 100644 85f8ac41ee77cee0f88fb18e04975c589161b4cd 0cde33c8121d38c9ecd120d64c61c9b822c5649e M	cucumber/pom.xml
+:100644 100644 8ed14851e1c9ca9b10747d95982b0c4480d93023 bf8864440a5751063bc90bac35468754643fdd2e M	pom.xml
+:100644 100644 92cc4cfc31848747a3b02adf6df7222fd43c59e0 86f0c52c25181ee8286193cc681705aed444d351 M	service/pom.xml

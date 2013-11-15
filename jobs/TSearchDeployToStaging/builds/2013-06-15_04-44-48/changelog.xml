@@ -1,0 +1,99 @@
+Changes in branch origin/master, between 9b60bfbce890450cae1f2a06b9c1964215316e02 and 6553a754637712450c0ce2fc7bd2c234ac645eea
+commit 6553a754637712450c0ce2fc7bd2c234ac645eea
+tree c63b6a21252579302344dcfdc9cfe8f7c355d72e
+parent 15591388f75d45258cd82d0f3694783cfb4d239d
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371270946 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371270946 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 d7acfbc75b4529b30dff0562b1c20df1abdcb319 b05afbc6c9d2bf9da40a26da0ba057777982abc6 M	cucumber/pom.xml
+:100644 100644 b6e3c73bad0010066c77876192e9c01452dae7fd 0f670c44c0754f55d2471d4ce6b4e04f3c815aff M	pom.xml
+:100644 100644 fca43e60ca49ce4321aca293673881b17694a15c 049c615d7af26c71a6d44907c7d59db619c45558 M	service/pom.xml
+
+commit 15591388f75d45258cd82d0f3694783cfb4d239d
+tree abeb05ec108b918ed2f613a90497148837ffeff9
+parent 390e34e9b3499b559ee35aed5db2c5a3e6b859ca
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371270941 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371270941 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b100
+
+:100644 100644 5cd8041dd3e137f8a33e9f50664b97e7d29158c3 d7acfbc75b4529b30dff0562b1c20df1abdcb319 M	cucumber/pom.xml
+:100644 100644 42d85ab1c2a6425ad1d46415ff23944c374f2344 b6e3c73bad0010066c77876192e9c01452dae7fd M	pom.xml
+:100644 100644 058da1743fffe4c16eace9d7e010db55e780b468 fca43e60ca49ce4321aca293673881b17694a15c M	service/pom.xml
+
+commit 0c6c16b4506bbe10c5ac4ec36cb71a16ebf28b57
+tree 7fbf9604b65086957352846235008d8a63ce4dd3
+parent 80ebd557c4d8c897c5af87a652620f563035c07e
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1371246166 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1371246166 -0500
+
+    [D-13342]:  Changing scope to prototype. Running simultaneously account onetime and ongoing sync...
+
+:100644 100644 dc4f0856eeeae8fb25cdd6bf3120f880d7bdc557 6a33d5b0f2ebd19b306e63f0b75eed77e66bad78 M	service/src/main/groovy/com/rackspace/search/gateway/account/AccountGateway.groovy
+
+commit 80ebd557c4d8c897c5af87a652620f563035c07e
+tree 49940adf1ee1e7514554b80e8b2e772c1bc42c2d
+parent cc5bd3761ecccf45c49b29648967b8ea7360ff54
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371240729 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371240729 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 8a38f2c81f5b175019ce0b65d21465e09201bdc9 5cd8041dd3e137f8a33e9f50664b97e7d29158c3 M	cucumber/pom.xml
+:100644 100644 d3dd5868e2bf04cd14aad877ef7c0233feae78d2 42d85ab1c2a6425ad1d46415ff23944c374f2344 M	pom.xml
+:100644 100644 e499677222f768bb1109f500904563cdd1000ef5 058da1743fffe4c16eace9d7e010db55e780b468 M	service/pom.xml
+
+commit cc5bd3761ecccf45c49b29648967b8ea7360ff54
+tree 7fc5373d2e2c784ac51d0bac27854d35b3113b84
+parent 73d55111dfaaec4eac021a5e0749c323e7bd371e
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371240724 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371240724 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b99
+
+:100644 100644 cf5d297124a6b6f5b23ed355671ee57a4c381558 8a38f2c81f5b175019ce0b65d21465e09201bdc9 M	cucumber/pom.xml
+:100644 100644 0c4eca8d5cfe5d06e384d3fe5ac2285d933d519a d3dd5868e2bf04cd14aad877ef7c0233feae78d2 M	pom.xml
+:100644 100644 f801f2988ffcf66653bbb48877bd91aa47dda01e e499677222f768bb1109f500904563cdd1000ef5 M	service/pom.xml
+
+commit 62ccb4195c49b2688a1701229dbc901d756ff282
+tree ac29b1d1101f93a1cc2c28e7caed512c29c7781d
+parent 3ab6f3b8ad5b7ca07acb03b04d06b009af4ac6ae
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1371239608 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1371239608 -0500
+
+    [D-13342] : more logging to find details about account call failures.
+
+:100644 100644 7548987a863c73579f02807715877468b5f21318 dc4f0856eeeae8fb25cdd6bf3120f880d7bdc557 M	service/src/main/groovy/com/rackspace/search/gateway/account/AccountGateway.groovy
+
+commit 3ab6f3b8ad5b7ca07acb03b04d06b009af4ac6ae
+tree 10e35e99e47900f3381f5f0154a51475e091e556
+parent bd18ed813ffdaeb5cb7c88fd8b9dc0d815c17d11
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1371239035 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1371239035 -0500
+
+    [D-13342] : more logging to find details about account call failures.
+
+:100644 100644 f7a425f7563c765653be1a674e3425d8f9570ff8 9ca8f3fa23eaed2364f5b9a99b5ac96e793371ce M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy
+:100644 100644 bdf3a498a5a736dd4287fd1c1c87e78d3d6f632d 7548987a863c73579f02807715877468b5f21318 M	service/src/main/groovy/com/rackspace/search/gateway/account/AccountGateway.groovy
+
+commit 543c9862027c9ba80963320ce2becb7ff7e3ec00
+tree adf4bd56256ae384be6ba715aff564af43c3bb3d
+parent e4c87765be3bc2485d0b8e4ca5de2f6de3e3f1f2
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1371151979 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1371151979 -0500
+
+    reverting exception handling in Actor changes
+
+:100644 100644 21b1a5c3b3464787bdc25f1246fd544bfad1e47f 81c6c480974fd523ab29bb4d3c6ff073928f8608 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOneTimeSyncJob.groovy
+
+commit e4c87765be3bc2485d0b8e4ca5de2f6de3e3f1f2
+tree 9417cc28c799bd5b7873f727d571d78ccba63f1c
+parent 796f588ea055ca8fd8ed6b8eca564de7a1dbcf1d
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1371151795 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1371151795 -0500
+
+    reverting exception handling in Actor changes
+
+:100644 100644 81c6c480974fd523ab29bb4d3c6ff073928f8608 21b1a5c3b3464787bdc25f1246fd544bfad1e47f M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOneTimeSyncJob.groovy

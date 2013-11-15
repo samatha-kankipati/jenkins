@@ -1,0 +1,99 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /var/lib/jenkins/jobs/TSearchDeployToProduction/workspace
+Checkout:workspace / /var/lib/jenkins/jobs/TSearchDeployToProduction/workspace - hudson.remoting.LocalChannel@6788af79
+Using strategy: Default
+Last Built Revision: Revision 9b60bfbce890450cae1f2a06b9c1964215316e02 (origin/master)
+Fetching changes from 1 remote Git repository
+Fetching upstream changes from origin
+Commencing build of Revision 9b60bfbce890450cae1f2a06b9c1964215316e02 (origin/master)
+Checking out Revision 9b60bfbce890450cae1f2a06b9c1964215316e02 (origin/master)
+[workspace] $ /bin/sh -xe /tmp/hudson1200003077218943610.sh
++ sh /var/lib/jenkins/jobs/TSearchDeployToProduction/workspace/service/src/main/scripts/deploy-application.sh 0.1.0_b98 production
+environment in warhammer is production
+environment is production
+======================= Starting Deployment =======================
+Version:	'0.1.0_b98'
+Server:		'node1.prod.search.api.rackspace.com'
+===================================================================
+
+
+Using temporary directory '/tmp/deploy.W6732'.
+
+
+Fetching files...
+--2013-06-14 15:04:49--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b98/search-0.1.0_b98.war
+Resolving d-build1.iad2.corp.rackspace.com... 10.4.39.20
+Connecting to d-build1.iad2.corp.rackspace.com|10.4.39.20|:8100... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 34293604 (33M) [application/octet-stream]
+Saving to: `/tmp/deploy.W6732/search-0.1.0_b98.war'
+
+     0K ........ ........ ........ ........ ........ ........  9% 1.92M 16s
+  3072K ........ ........ ........ ........ ........ ........ 18% 2.28M 13s
+  6144K ........ ........ ........ ........ ........ ........ 27% 2.32M 11s
+  9216K ........ ........ ........ ........ ........ ........ 36% 1.96M 10s
+ 12288K ........ ........ ........ ........ ........ ........ 45% 1.59M 9s
+ 15360K ........ ........ ........ ........ ........ ........ 55% 1.65M 8s
+ 18432K ........ ........ ........ ........ ........ ........ 64% 2.14M 6s
+ 21504K ........ ........ ........ ........ ........ ........ 73% 2.31M 4s
+ 24576K ........ ........ ........ ........ ........ ........ 82% 2.19M 3s
+ 27648K ........ ........ ........ ........ ........ ........ 91% 1.42M 1s
+ 30720K ........ ........ ........ ........ ........ ...     100% 2.16M=17s
+
+2013-06-14 15:05:06 (1.94 MB/s) - `/tmp/deploy.W6732/search-0.1.0_b98.war' saved [34293604/34293604]
+
+--2013-06-14 15:05:06--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b98/search-0.1.0_b98.war.md5
+Reusing existing connection to d-build1.iad2.corp.rackspace.com:8100.
+HTTP request sent, awaiting response... 200 OK
+Length: 32 [text/plain]
+Saving to: `/tmp/deploy.W6732/search-0.1.0_b98.war.md5'
+
+     0K                                                      100% 3.05M=0s
+
+2013-06-14 15:05:06 (3.05 MB/s) - `/tmp/deploy.W6732/search-0.1.0_b98.war.md5' saved [32/32]
+
+--2013-06-14 15:05:06--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b98/search-0.1.0_b98-config.zip
+Reusing existing connection to d-build1.iad2.corp.rackspace.com:8100.
+HTTP request sent, awaiting response... 200 OK
+Length: 31458 (31K) [application/zip]
+Saving to: `/tmp/deploy.W6732/search-0.1.0_b98-config.zip'
+
+     0K                                                      100%  130M=0s
+
+2013-06-14 15:05:06 (130 MB/s) - `/tmp/deploy.W6732/search-0.1.0_b98-config.zip' saved [31458/31458]
+
+--2013-06-14 15:05:06--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b98/search-0.1.0_b98-config.zip.md5
+Reusing existing connection to d-build1.iad2.corp.rackspace.com:8100.
+HTTP request sent, awaiting response... 200 OK
+Length: 32 [text/plain]
+Saving to: `/tmp/deploy.W6732/search-0.1.0_b98-config.zip.md5'
+
+     0K                                                      100% 3.05M=0s
+
+2013-06-14 15:05:06 (3.05 MB/s) - `/tmp/deploy.W6732/search-0.1.0_b98-config.zip.md5' saved [32/32]
+
+FINISHED --2013-06-14 15:05:06--
+Downloaded: 4 files, 33M in 17s (1.94 MB/s)
+...done.
+
+
+Verifying MD5s...
+OK 7908c63e5a587b156d9c2bd5f1e64533  /tmp/deploy.W6732/search-0.1.0_b98.war
+OK 0c20fa990d4ac7a55c42eaaf8c6b2c03  /tmp/deploy.W6732/search-0.1.0_b98-config.zip
+done.
+
+
+Copying files to server 'node1.prod.search.api.rackspace.com'...
+...done.
+
+Verifying MD5s...
+OK 7908c63e5a587b156d9c2bd5f1e64533  node1.prod.search.api.rackspace.com:/home/search/artifacts/search-0.1.0_b98.war
+OK 0c20fa990d4ac7a55c42eaaf8c6b2c03  node1.prod.search.api.rackspace.com:/home/search/artifacts/search-0.1.0_b98-config.zip
+...done.
+
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+Error: Unable to create artifacts dir on server 'node2.prod.search.api.rackspace.com'.  Is ~/.ssh/authorized_keys properly set up for user 'search' on this server?
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

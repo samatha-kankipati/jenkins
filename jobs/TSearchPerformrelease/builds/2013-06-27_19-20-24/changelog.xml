@@ -1,0 +1,34 @@
+Changes in branch origin/master, between ea5d475d8d77b8812f20f0dfe41696859b39ee62 and 692f8178fd7efeb0d97f5074602f0a1b09f9d84f
+commit 6bc1670de8ccb94cebeaa67694e8dba9213d7c96
+tree fd2acd5bde74938421c73228d82ce685d4440145
+parent 407e7b38981895ca40c6b531fe90ea11f24883f1
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1372359685 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1372359685 -0500
+
+    [D-13404]: fixing the sync validation
+
+:100644 100644 808c14247d80750aeb130bdb1c51e73d0602d615 0623f15cfc7efa7420b7cdf96f400782f6084d6f M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+
+commit 18e57ef2b5af102c5019d5bad11db04189dcf455
+tree ba1b63e05333da78112b7f5d429abfebe149053d
+parent 49eb673b4d6aea295bc8a7d71e79c94c3f01aa5f
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372308301 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372308301 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 64b138d2b85784f183a6ce6eabf946269ff93b9f f011a7bda0f61f3b9e7bb033d39a7df5bc70a1c7 M	cucumber/pom.xml
+:100644 100644 0b00b8a54a9756baf7b53dc680ce7b447db5970e c5bf6a8b977e9d23bb78b4d0e9bba4e5079f8da5 M	pom.xml
+:100644 100644 69b540a6e7376d486733381dfd7bf9216414273a 07de4af47568cdb67e418c0cbe19c4e2cbd096dd M	service/pom.xml
+
+commit 49eb673b4d6aea295bc8a7d71e79c94c3f01aa5f
+tree d937a5b3641881b64d37780a6f1077801534b535
+parent ea5d475d8d77b8812f20f0dfe41696859b39ee62
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372308297 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372308297 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b112
+
+:100644 100644 eab7d339d4dbc50ac32dec5b075175faff2c3a83 64b138d2b85784f183a6ce6eabf946269ff93b9f M	cucumber/pom.xml
+:100644 100644 e6c5d33ed07916ca004080efbba90cbc6145cb58 0b00b8a54a9756baf7b53dc680ce7b447db5970e M	pom.xml
+:100644 100644 ad0a8e418773fd5fbd381fada168c04d073ac0da 69b540a6e7376d486733381dfd7bf9216414273a M	service/pom.xml

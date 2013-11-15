@@ -1,0 +1,24 @@
+Changes in branch origin/master, between 0afc0794df76d89b5731adda39cd2c168c8df871 and d8640999d4c5c3e6e2cac374c2de82893003d9a4
+commit d8640999d4c5c3e6e2cac374c2de82893003d9a4
+tree 975422ced70ad9a7cb8b5cc3f97f9df42fa1aa0c
+parent a32b9c3e8255847470143de9f683b5bd9119309e
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1368733970 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1368733970 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 f5a576eb0963d8b18c4919b12ce3a93f429f1bc8 36ed675309b7c4732762da9557624a1f5b6ac135 M	cucumber/pom.xml
+:100644 100644 9622d8aceb6b9eed45bf4e93cb8cda70821eab40 c6720221ecb865df2ac7b37ce6dc1796b72ea264 M	pom.xml
+:100644 100644 51dabf53d5e471ce71b3fa5478bdda9380c12eb5 dc613124b581ed5847405222fb8ff05fa2123c28 M	service/pom.xml
+
+commit a32b9c3e8255847470143de9f683b5bd9119309e
+tree 3bf05ab69cc3feca140d9af53f52cae12097cb00
+parent 0afc0794df76d89b5731adda39cd2c168c8df871
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1368733963 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1368733963 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b64
+
+:100644 100644 392276c5e1ee8e2d3f2369ca5f089f68584b0c40 f5a576eb0963d8b18c4919b12ce3a93f429f1bc8 M	cucumber/pom.xml
+:100644 100644 1074fba9a8ccfc7d9b85311094fce89cfcb81e6b 9622d8aceb6b9eed45bf4e93cb8cda70821eab40 M	pom.xml
+:100644 100644 477a4761a474cbff5e3db7daafd00147a492b82f 51dabf53d5e471ce71b3fa5478bdda9380c12eb5 M	service/pom.xml

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@1.504">
+  <actions>
+    <org.jvnet.hudson.plugins.DownstreamBuildViewAction plugin="downstream-buildview@1.8">
+      <build class="hudson.maven.MavenBuild" reference="../../.."/>
+    </org.jvnet.hudson.plugins.DownstreamBuildViewAction>
+  </actions>
+  <number>170</number>
+  <startTime>1383940015646</startTime>
+  <result>NOT_BUILT</result>
+  <duration>1</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/jobs/TSearchPerformrelease/workspace/service</workspace>
+</hudson.maven.MavenBuild>

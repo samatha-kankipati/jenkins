@@ -1,0 +1,41 @@
+Changes in branch origin/master, between 8d78becb706f9154ea303715cafbb06624db7bff and 1ca0237842224c2e3cf93bbe9b220d81e6c7646f
+commit 50533ec41bd0ec8761640050edd46c6fd6a35b17
+tree 329845386107edf1e1f0fc8805d8d21f0a7492b3
+parent 018d9295a79952dd71a294541d3063e70b68d038
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1363623681 -0500
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1363623681 -0500
+
+    B-43038: uploading config
+
+:100644 100644 bbd0877c9609132a7b888c6dd449f2978d7db8de d59bc6fa1ed5fd0e85b489e2e2e92dceb345eefd M	service/pom.xml
+:000000 100644 0000000000000000000000000000000000000000 9fb84334d718ac89a2df4cc45f11b6254aa47e5e A	service/src/main/assembly/config.xml
+
+commit 1864a1329ce0da3a0ffeea0d27f1c3e04ea88ff0
+tree a2ce5ec20ee45ab35d49f0c5c9210c340246c4d5
+parent 9f8c4178807a6177fef23ee5a651bf0468bb0cfb
+author unknown <saty0902@L8Y0YGV1.RACKSPACE.CORP> 1363622443 -0500
+committer unknown <saty0902@L8Y0YGV1.RACKSPACE.CORP> 1363622443 -0500
+
+    Fixed test failures
+
+:100644 100644 d19d2b2ef6434b9dbbf26ed678ac50cd5f665403 7c30915d4fce1c20708caf1eb8c61d55f55fc6a0 M	service/src/test/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClientTest.groovy
+
+commit 9f8c4178807a6177fef23ee5a651bf0468bb0cfb
+tree 4f738aca186b449e5521093d1956da9e51013ac3
+parent 055e04674a59cdc44ed30bf7129cb4d7a41f1acb
+author unknown <saty0902@L8Y0YGV1.RACKSPACE.CORP> 1363618235 -0500
+committer unknown <saty0902@L8Y0YGV1.RACKSPACE.CORP> 1363618235 -0500
+
+    D-11903
+
+:100644 100644 387842d517a6d04da4e078e4083dcc34a9577cb0 e54b75728baa67902fd618a556bcb4f6236d6bd8 M	service/src/main/java/com/rackspace/search/endpoint/SearchResource.java
+
+commit 018d9295a79952dd71a294541d3063e70b68d038
+tree 83b565488565a1c5fa6d092c051e89d91fdb834e
+parent 055e04674a59cdc44ed30bf7129cb4d7a41f1acb
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1363616029 -0500
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1363616029 -0500
+
+    D-11903: fixing media type
+
+:100644 100644 387842d517a6d04da4e078e4083dcc34a9577cb0 4864cd34584b2bd769278e5b2315d7c4aaf5679f M	service/src/main/java/com/rackspace/search/endpoint/SearchResource.java

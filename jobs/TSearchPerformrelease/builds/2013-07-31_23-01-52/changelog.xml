@@ -1,0 +1,45 @@
+Changes in branch origin/master, between 516fa20ba417233abb1331cc518e06589d507205 and 07428449619493af912f806ae1c144617454388f
+commit 18f644a147dfad5ac0c4b5c6470817a2def51eaf
+tree c4b042281cf2897833a0fd3f9e9ffb205524eb8b
+parent f21da697acd2a913a8456eb87931273569672cf8
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1375310131 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1375310131 -0500
+
+    [B-52761]: added node 3 to prod deployment scripts.
+
+:100644 100644 d84094af2cb10c17b289fd3901186a00dfb77b22 5220a0d9f05e04a69ba05824ccc036b97e797e01 M	service/src/main/scripts/deployment-functions.sh
+
+commit f21da697acd2a913a8456eb87931273569672cf8
+tree 5ead5934bd151b270127c5df1b8737b8494bb016
+parent 5392e25682caa3588bb06d30a6b129d3217855e7
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1375307164 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1375307164 -0500
+
+    [B-52761]: Updated deployment script to cooperate with Load balancer to have no downtime deployments.
+
+:100644 100644 43b7daba56f367f9cc86531ee0ee1c29a9a98b99 0241a8e992745489dafee39859a4d6f56134787f M	service/src/main/scripts/_warhammer.include
+:100644 100644 110a29b663dc737093179afa8c2deb4a7518ba54 d84094af2cb10c17b289fd3901186a00dfb77b22 M	service/src/main/scripts/deployment-functions.sh
+
+commit 5392e25682caa3588bb06d30a6b129d3217855e7
+tree 072172f24f398f0621e6c0a3b5930e2bb81f7ff1
+parent 863892827ca8fada87f00026db356226d0c8adff
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1375200416 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1375200416 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 542cbe323b7235f9c7c04c8e7c9f00f4f825e011 5fc4e32e1542d57a3cc6109edfcd0ec4bc9adf07 M	cucumber/pom.xml
+:100644 100644 05658e03012d73eb7538dc9efd750254210def94 29b4509154ce7cdfb5f1425433731805adb19913 M	pom.xml
+:100644 100644 c5d56a978ce4361273aabcbcd6f2d96dfd334ba4 422af238ccf71552e6e3452b84af5f95a1364d3e M	service/pom.xml
+
+commit 863892827ca8fada87f00026db356226d0c8adff
+tree 6bda40060cd1badc88cac668834423edae6346e4
+parent 516fa20ba417233abb1331cc518e06589d507205
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1375200411 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1375200411 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b141
+
+:100644 100644 92c3aee31799cf1ab874717e62ec040cf3d0bce6 542cbe323b7235f9c7c04c8e7c9f00f4f825e011 M	cucumber/pom.xml
+:100644 100644 0dd20af5dc5405d98cb2470a8990b026b0922757 05658e03012d73eb7538dc9efd750254210def94 M	pom.xml
+:100644 100644 4fb1852dfd5c5213e7123b62ed59d9b825331923 c5d56a978ce4361273aabcbcd6f2d96dfd334ba4 M	service/pom.xml

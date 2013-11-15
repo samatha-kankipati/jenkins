@@ -1,0 +1,45 @@
+Changes in branch origin/master, between 4f5c15b7dfecf7504c0a8137090029d7ce79b7f9 and d0b96a4e97391746a8fb2ecbac3efc15c25667ad
+commit d0b96a4e97391746a8fb2ecbac3efc15c25667ad
+tree f01c0f3e0bad5b57c6cc164377bed3f85b9b8635
+parent 06c596877a78dc3138ea1f9b14a24831730b05d6
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369353101 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369353101 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 1451f5a3b5782145980338c9dd7b15faa494b816 90330675085785ebb07925f49936c46b5f423254 M	cucumber/pom.xml
+:100644 100644 5c533749ba50f54d975ce03448160c633178dd41 2a5e4be592591bf8a3ec020147db88ca9da2377a M	pom.xml
+:100644 100644 614d6e81ba51930e21a2b36f9357148713d64b81 48722f81fa5a05d9625e7378a9994ad388877001 M	service/pom.xml
+
+commit 06c596877a78dc3138ea1f9b14a24831730b05d6
+tree a1e7e19ce8d1948c63f4deb8581d1ea26308e2c3
+parent 5a79e2e3811e8b6b93fec9bf6885ee980fe457a9
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369353097 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369353097 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b71
+
+:100644 100644 f7f4d36aa9291f9b83c18b55046138e216347f87 1451f5a3b5782145980338c9dd7b15faa494b816 M	cucumber/pom.xml
+:100644 100644 b9c3acba0c259d2040041b4632f22d11bbcdee63 5c533749ba50f54d975ce03448160c633178dd41 M	pom.xml
+:100644 100644 dac7e60df779696a652da846fbd3934803033cbf 614d6e81ba51930e21a2b36f9357148713d64b81 M	service/pom.xml
+
+commit f17f3beea05d26f9b8e5cbcc68b343e7e6f70932
+tree 045caae162f817ebf0049897531b08026d650ade
+parent 6c8ea4c8fd3870f89cd2b118410f4ed154d664d3
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1369351448 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1369351448 -0500
+
+    [D-13026] : fixed deployment script to copy credentials
+
+:100644 100644 d9210013bd5103208656022588f32713771dab2c 17c0c28ba290d59babe4b41e90d62239785a0b15 M	service/src/main/scripts/_warhammer.include
+
+commit 0d8e02052ff4c4fa5740d887d71e5d66b0a5cb13
+tree 8c94f4d95bfe1393fd83a2b95332ef54fd8bd77b
+parent e41013aab3ab8bc346e7b09355e06499ddfe967d
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1369349039 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1369349039 -0500
+
+    [D-13026] : fixed one timesync stop action.
+
+:100644 100644 7908c2d987afd3849cfc13cc4dc001417ff8e1c9 f2020eebd132edf582785075f6ec67b43d3a9282 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOneTimeSyncJob.groovy
+:100644 100644 c43743d676b60cc4e4dd08196658bf2bcf7b07a6 31f49971d5c8003a97a2767fffa6aa18ee7b4ae4 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOneTimeSyncJob.groovy

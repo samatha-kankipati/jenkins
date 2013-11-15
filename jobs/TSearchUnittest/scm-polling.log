@@ -1,0 +1,10 @@
+Started on Nov 15, 2013 6:35:56 PM
+Using strategy: Default
+[poll] Last Build : #68
+[poll] Last Built Revision: Revision 9494928f14c7ee95b9dfb5fa9f2a66299867c961 (origin/master)
+Fetching changes from the remote Git repositories
+Fetching upstream changes from origin
+Polling for changes in
+Ignored commit 0a70cb82d69aac4b032b5eb28e13e63e7444e8a7: Found excluded author: Jenkins Continuous Build server
+Done. Took 1 sec
+No changes

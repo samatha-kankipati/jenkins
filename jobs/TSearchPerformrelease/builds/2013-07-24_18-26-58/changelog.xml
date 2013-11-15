@@ -1,0 +1,81 @@
+Changes in branch origin/master, between 1d75084138ad45db9cd3fd34148201939b63ab7a and 74a5930173808f848b79210cabca65ac686884af
+commit 07feab3e468552f4213e3f3f598c21ff73f30404
+tree 5bf03ea50c5429a8b5ff0f3ffcfa607c108a5ccc
+parent ac2d30e4bf83ad72c7566fbccd0952487d548e4b
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1374684672 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1374684672 -0500
+
+    [ B-52758 ] :  fixing date time format
+
+:100644 100644 b77bd461fdae426a723dae727078a5a5f6d4d3dd 5e283d869c1e86b117d608d71dc185163b6a7e9a M	service/src/main/filters/filter.yaml
+:100644 100644 ce7e627141697947f938afb7ce190ee07fa3b359 524c4be94094b4dc8c735e753bc9f147a3f49170 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+:100644 100644 64b8793844dda70a72fced352a03ff7d2c4b6849 666a645ca553de8e0f79bca8581b3b72082c0bcb M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketProcessorTest.groovy
+
+commit ac2d30e4bf83ad72c7566fbccd0952487d548e4b
+tree 3c46a032914e3c4ab35ee1663bbaf92b60d17c24
+parent 4fae4cc2fe9d84399066e7f2faa6eda88bc016c5
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1374680773 +0100
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1374680773 +0100
+
+    [ B-52758 ] : added unit tests
+
+:100644 100644 6b8b00ff6d85a861476cf0036b8543142d00b709 961d1132ecde30e4a296cd184ccf6f3175823b2a M	service/src/test/groovy/com/rackspace/search/service/TicketCacheServiceTest.groovy
+
+commit 4fae4cc2fe9d84399066e7f2faa6eda88bc016c5
+tree f57b06cccf68678e7deec8318114cf2a3538bdf2
+parent 8e1afc31f5d2edb2616f895b57c36018d0e6823b
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1374679153 +0100
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1374679153 +0100
+
+    [ B-52758 ] : fixing millis part for core ticket
+
+:100644 100644 17e2f527b5769c34c076a74e3a60a8495ea12adf 54d8902845b0a75ce754c74928e647000708be27 M	service/src/main/groovy/com/rackspace/search/service/admin/CoreTicketOndemandSyncJob.groovy
+:100644 100644 97977472529c3a8ac4e69cef0ae3ea2741372b82 744190cbd245154b6508deca9580c456cd2ae71f M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncActor.groovy
+:100644 100644 5a985ccda22d5e07cb3051e0b40df56896ebdaca b11cfba8d312710205c3bf89994c05ef4463a782 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+:100644 100644 5d4fcf365c54c0a52e6fb20b6bef0295603998f8 ce7e627141697947f938afb7ce190ee07fa3b359 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+:100644 100644 ca41209e345556758ab6f787553b833487b86aac c4a7c1cf792f30e860743c7377cd960d3f9eae1f M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketSecondPassSyncJob.groovy
+:100644 100644 babd76e4a5bc1064ac9ed7f5c55f78dbc3e297ac 85337e4acffacab94d1ff944c042f6c8671af969 M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJobTest.groovy
+:100644 100644 421dd5d592b17fde625433541e1fa4ab2339594a 64b8793844dda70a72fced352a03ff7d2c4b6849 M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketProcessorTest.groovy
+:100644 100644 09c13f1f7e94744b5d625e9bf81c58768dbea82c 1a5405da1d134f79607a6eab334d0f44bc6501f0 M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketSecondpassSyncJobTest.groovy
+
+commit 8e1afc31f5d2edb2616f895b57c36018d0e6823b
+tree 89f8fafc1579acc54917335a18015f1bd43c8583
+parent c96d40b9cb95a4e09690e509800a3a235259723d
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1374642546 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1374642546 -0500
+
+    [ B-52758 ] : fixing millis part for core ticket
+
+:100644 100644 06a02964a31a61253739e0b83f13bfc760ddc028 aef9efaf53929d04d5c78c5ece235aada54bc12f M	service/src/main/config/search.properties
+:100644 100644 019600997e6534b1b084669570b7c793cd4ed724 b77bd461fdae426a723dae727078a5a5f6d4d3dd M	service/src/main/filters/filter.yaml
+:100644 100644 4282251c84c099e7ad9be79a46908a82dff6c00c 17e2f527b5769c34c076a74e3a60a8495ea12adf M	service/src/main/groovy/com/rackspace/search/service/admin/CoreTicketOndemandSyncJob.groovy
+:100644 100644 64493ecec0e9e524ba5fe6fcdf7244f49e407ae6 97977472529c3a8ac4e69cef0ae3ea2741372b82 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncActor.groovy
+:100644 100644 ffab68f50d8ae1d35b8bdc788d0cec6298c93b8b 5a985ccda22d5e07cb3051e0b40df56896ebdaca M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+:100644 100644 967e5ae7d1748a6aaf574960c38d240cc8aeaa88 5d4fcf365c54c0a52e6fb20b6bef0295603998f8 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+:100644 100644 144f2a51357d4f3e5f087c1b8f9d3f7f0bf042a6 ca41209e345556758ab6f787553b833487b86aac M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketSecondPassSyncJob.groovy
+:100644 100644 6a4af5a3cd3fb6442e5c5a7828098011481db414 babd76e4a5bc1064ac9ed7f5c55f78dbc3e297ac M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJobTest.groovy
+:100644 100644 c9ab2dd49c3e472b69789c1c4d239bbd973911ab 421dd5d592b17fde625433541e1fa4ab2339594a M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketProcessorTest.groovy
+
+commit af71a0d099409bf58b6e11154ff3f3bab8b1c1dc
+tree 19b877fdead56f8d89a55bb8a2f527d226415d6d
+parent 796767449f24ae69b1e8a81b69730227004cc29d
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374623860 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374623860 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 0a2885f740efcebbaee2c3ebbc15966ff9832baf 606032318df62147e5d91617705450d333062e86 M	cucumber/pom.xml
+:100644 100644 fc01039fb54b0b72c95a997192324c48e7f2b313 af495a6e8e18dad74c5309f1b1652c29f79d421e M	pom.xml
+:100644 100644 bb80ffaeba9cadf53230b41ab77875892c774943 bf212b7e8ca2cefc576e145f17820cc3d3a338e5 M	service/pom.xml
+
+commit 796767449f24ae69b1e8a81b69730227004cc29d
+tree 412f12b8e5f8daedb935b9a5b0de468c99cc18e5
+parent 1d75084138ad45db9cd3fd34148201939b63ab7a
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374623856 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374623856 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b135
+
+:100644 100644 6dade6a80751f89ca9569c2171e139d80aeb3f87 0a2885f740efcebbaee2c3ebbc15966ff9832baf M	cucumber/pom.xml
+:100644 100644 4e0977cdbf9a8e5c981ee8615a40ddbeb5f5c501 fc01039fb54b0b72c95a997192324c48e7f2b313 M	pom.xml
+:100644 100644 b8a8a0a7c115fe99e622e1adacd8fa317402bc72 bb80ffaeba9cadf53230b41ab77875892c774943 M	service/pom.xml

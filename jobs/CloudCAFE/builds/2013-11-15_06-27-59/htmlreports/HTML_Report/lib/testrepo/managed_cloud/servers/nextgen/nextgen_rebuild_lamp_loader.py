@@ -1,0 +1,122 @@
+from testrepo.managed_cloud.servers.nextgen. \
+    test_parameterized_linux_nextgen_servers \
+    import ManagedLinuxNextGenServersTest
+from ccengine.common.loaders.base_parameterized_loader \
+    import BaseParameterizedLoader
+from ccengine.common.data_generators.managed_cloud. \
+    nextgen_rebuild_lamp_servers_generator \
+    import ManagedCloudLampNextGenRebuildDataGenerator
+from unittest2.suite import TestSuite
+
+
+def load_tests(loader, standard_tests, pattern):
+    suite = TestSuite()
+    smoke_data_gen = ManagedCloudLampNextGenRebuildDataGenerator()
+    custom_loader = BaseParameterizedLoader(smoke_data_gen)
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_managed_server_active"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_managed_automation_process_started"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_managed_automation_complete"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_rack_account_password_from_valkyrie"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_can_authenticate"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_rackspace_monitoring_agent_file"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_rackspace_monitoring_agent_running"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_mckick_complete"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_monitoring_entity_is_registered"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_monitoring_agent_is_registered"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_monitoring_agents_list"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_apache_open_port_80"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_apache_open_port_443"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_listen_port_80"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_listen_port_443"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_apache_http_200"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_apache_http_404"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_php_apc"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_fail2ban_firewall"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_fail2ban_running"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_listen_port_3306"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_open_port_3306"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_show_processlist"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_phpmyadmin"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_localhost_in_hosts"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_rhn_check"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_root_statuspass"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_root_muninpass"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_root_phpmyadminpass"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_driveclient_installed"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_driveclient_bootstrap"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_driveclient_running"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_munin_running"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_swap_exists"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_rack_user_exists"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_monitoring_agent_running"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_monitoring_agent_configured"))
+    # TODO[Siva] need to figure out pagination in monitoring api calls.
+    # custom_loader.addTest(ManagedLinuxNextGenServersTest(
+    #    "test_monitoring_agent_is_registered"))
+    # custom_loader.addTest(ManagedLinuxNextGenServersTest(
+    #    "test_monitoring_agents_list"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_postfix_config_file"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_sendmail_file"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_mailgun_configured"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_mailgun_sendmail"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_listen_port_25"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_listen_port_587"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_listen_port_465"))
+    # Removing Holland tests from Rebuild tests as Holland
+    # Checks are expected to fail on rebuild
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_backup_enabled"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_backup_config"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_yumcron_file"))
+    custom_loader.addTest(ManagedLinuxNextGenServersTest(
+        "test_yumcron_activated"))
+    # [Deepak] removing test_delete_server from suite as we'll be cleaning up
+    # test servers via Cleanup script scheduled to run in Jenkins
+    suite.addTest(custom_loader.getSuite())
+    return suite

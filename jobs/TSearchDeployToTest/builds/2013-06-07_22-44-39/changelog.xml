@@ -1,0 +1,34 @@
+Changes in branch origin/master, between 65542786db63e51cd1a1c3e012bc994ebfbc901c and 2297ceda13331e4f479df5e9511ac62c09961414
+commit 2297ceda13331e4f479df5e9511ac62c09961414
+tree 9e23d3cf027a1f3350883fcdcfe62941f00bfb17
+parent a078a40134cd268904e573c35619a5c794666da6
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370644909 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370644909 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 c7c81df4c32ba41d6835916c00f12d41a9d072e5 a2ebb2a379fe1d05b566b882b1cc2db861ead1c3 M	cucumber/pom.xml
+:100644 100644 fc19b5879658f58ade658e3ba9d03d08162e47b2 293734a36410a9ed6cf7b549f5d0e5aff08324ef M	pom.xml
+:100644 100644 9b3f3388468e2a77c58f4ea1afe9c348ab386f07 9e16e75d205da0a517593b3fa6e0e1e4966e3b1b M	service/pom.xml
+
+commit a078a40134cd268904e573c35619a5c794666da6
+tree c31a2f9f125c1aa9a53dc7e7d941e19b8f9695ea
+parent b925f98df1aa810b35fd09ee788fe16db4bd9878
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370644905 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370644905 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b90
+
+:100644 100644 1da47ea4625569604ce8b0812679f081fb804cdd c7c81df4c32ba41d6835916c00f12d41a9d072e5 M	cucumber/pom.xml
+:100644 100644 2ff9a35c5810ac1d59193b9cd60ac6573af6a9c0 fc19b5879658f58ade658e3ba9d03d08162e47b2 M	pom.xml
+:100644 100644 3eb4591d3e73a3b0034204198e885eb118f4504a 9b3f3388468e2a77c58f4ea1afe9c348ab386f07 M	service/pom.xml
+
+commit aba7dc923c2d99c9613989a00d253fde359b0f72
+tree 4d03e44bc932cf051b83d7ab02727745cf644273
+parent 5deab8714d60eb2ae3c6054734b9793f7d382099
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1370644040 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1370644040 -0500
+
+    [B-50344] : setting hostname for job.setting propr message when requesting stop job
+
+:100644 100644 7ca554e5b5f5ce73152a4b0998a8e0dfc92daf65 f55344b1d9193718fc6e5649a7b970e49971846a M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy

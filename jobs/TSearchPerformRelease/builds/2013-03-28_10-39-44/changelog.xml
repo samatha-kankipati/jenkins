@@ -1,0 +1,106 @@
+Changes in branch origin/master, between 12861a70a9a35d10789a5661ac3a2085952d4bf9 and feff7d6e0fa3bf8e2a74790408c105b6c1274f8f
+commit feff7d6e0fa3bf8e2a74790408c105b6c1274f8f
+tree 696d9bc35c28d7c97bea8e6fadde518aaa3fa346
+parent 703b762844bfab74eec56084df064a5f2124e5ac
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1364336956 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1364336956 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 bedd09e1b5d400f1c5c070aa1345b8c69a675e0f 6fdeba77b2c7c3ce21b6387e88303b0afdcd6586 M	cucumber/pom.xml
+:100644 100644 7a5df5ed40e26b68911f78ed4463ab8b91791410 8baa7b92829d59ed6284003b8b7fa344aee4de01 M	pom.xml
+:100644 100644 57e724dbc918054cdb2f939aa92506a1fc5d527b 128222e1750a2a20ad7572c441ab2acffe9826cf M	service/pom.xml
+
+commit 703b762844bfab74eec56084df064a5f2124e5ac
+tree f6b22437f39778dfd66f66b5f1b5748a2b5f6a01
+parent e2cfa4717691a1bd22f864dd6b221bae7882af39
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1364336949 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1364336949 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b28
+
+:100644 100644 390cf92f236e97dc919c2657dcd6754f4277afc1 bedd09e1b5d400f1c5c070aa1345b8c69a675e0f M	cucumber/pom.xml
+:100644 100644 f637bd506051754e8c158b6343d830b8230e0d14 7a5df5ed40e26b68911f78ed4463ab8b91791410 M	pom.xml
+:100644 100644 2e8cb0dc715ece0ea4b934000a769dc0e1ccdec4 57e724dbc918054cdb2f939aa92506a1fc5d527b M	service/pom.xml
+
+commit 62f854e8d88eaa895b56ce8e58c6095eee017cab
+tree e0c198b6428fa290a3c7a0f54f07ce50ff10545a
+parent 047168291093224988f8946d23e0a4939be7a96b
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364335634 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364335634 -0500
+
+    [B44514] : moved start-jetty into a default profile to avoid unnecessary activation during release.
+
+:100644 100644 79b94423e5e34cc7c251e903d5c757a98c9e2ee2 2e8cb0dc715ece0ea4b934000a769dc0e1ccdec4 M	service/pom.xml
+
+commit 047168291093224988f8946d23e0a4939be7a96b
+tree b4ddd4bcc1615c541153b64df214751e19d9c59e
+parent 2bf5ed2004882e110ce0a3924816a9c7d21d8dea
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364334536 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364334536 -0500
+
+    [B44514] : Setting project to SNAPSHOT version. perform release failed midway
+
+:100644 100644 1466a26d601bb993885234cf4dd92836bbd86dc8 390cf92f236e97dc919c2657dcd6754f4277afc1 M	cucumber/pom.xml
+:100644 100644 eaf1a942c01ea15a3c7eaf92f957ad24d29a8a30 f637bd506051754e8c158b6343d830b8230e0d14 M	pom.xml
+:100644 100644 96937b00ae8042ed73c6220d5af48ec7cf0b6203 79b94423e5e34cc7c251e903d5c757a98c9e2ee2 M	service/pom.xml
+
+commit 2bf5ed2004882e110ce0a3924816a9c7d21d8dea
+tree 528715e0f47cd7c9c03901d538a6f1cbd4940ec9
+parent 9d478f3f2d4b43d6786f8362ba003229e863d6bb
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1364278490 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1364278490 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b27
+
+:100644 100644 cf81f80a228d7c8ba8e90fe0646096c6439a4e31 1466a26d601bb993885234cf4dd92836bbd86dc8 M	cucumber/pom.xml
+:100644 100644 f929ae41b38ff50c5d0c8c790fba9888d09586d1 eaf1a942c01ea15a3c7eaf92f957ad24d29a8a30 M	pom.xml
+:100644 100644 062ea256cc9108f72f0bbf7ba202a404029e20af 96937b00ae8042ed73c6220d5af48ec7cf0b6203 M	service/pom.xml
+
+commit 9d478f3f2d4b43d6786f8362ba003229e863d6bb
+tree 333700d05147f4cf8b8c6ed568d18be2138313d9
+parent 2be4ab18264256e55930344ea2984b398665cc8f
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1364276938 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1364276938 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 cbe87934b8ac7deff9a7cfa0bd82c94e4d5b2dbb cf81f80a228d7c8ba8e90fe0646096c6439a4e31 M	cucumber/pom.xml
+:100644 100644 24f0780476ff8e386bbd59a29f837249f2e292ae f929ae41b38ff50c5d0c8c790fba9888d09586d1 M	pom.xml
+:100644 100644 c5a81474c3220b311a331641086b4d4985e258fe 062ea256cc9108f72f0bbf7ba202a404029e20af M	service/pom.xml
+
+commit 2be4ab18264256e55930344ea2984b398665cc8f
+tree e8aad456d389d87d06f202d1d496f5be38072067
+parent 2ba00adeaed1c01815f1d9e4daf2b1e56ac7b28c
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1364276934 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1364276934 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b26
+
+:100644 100644 f1ed77e7a35ec4141365838e4ea017574e2a08d9 cbe87934b8ac7deff9a7cfa0bd82c94e4d5b2dbb M	cucumber/pom.xml
+:100644 100644 9adb0dc23ed306ecb7ec08c588d4542758bba2bc 24f0780476ff8e386bbd59a29f837249f2e292ae M	pom.xml
+:100644 100644 3cb118de8d470368f55effc228da07e849ba292f c5a81474c3220b311a331641086b4d4985e258fe M	service/pom.xml
+
+commit 2ba00adeaed1c01815f1d9e4daf2b1e56ac7b28c
+tree 5c5033537e13141eef26ddc8bde4abe6aa271e18
+parent 2e25b51ca0cf71de08a24196e0632c798d1b4876
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1364250937 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1364250937 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 633d0ba3a71b8e4d53607ed5ba2f2eb0d81bc996 f1ed77e7a35ec4141365838e4ea017574e2a08d9 M	cucumber/pom.xml
+:100644 100644 414573dacddf33cf41c4c7ec3e0839ce2e5a96e1 9adb0dc23ed306ecb7ec08c588d4542758bba2bc M	pom.xml
+:100644 100644 62e8d3b5d1fc943c3f355a97210bf1e3513a1fe8 3cb118de8d470368f55effc228da07e849ba292f M	service/pom.xml
+
+commit 2e25b51ca0cf71de08a24196e0632c798d1b4876
+tree 9cb229de3c96eaff07e7644617c3fca9d2349a05
+parent 12861a70a9a35d10789a5661ac3a2085952d4bf9
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1364250933 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1364250933 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b25
+
+:100644 100644 d08a44b278711e1e2fd764d9a48ba7ee927d78f8 633d0ba3a71b8e4d53607ed5ba2f2eb0d81bc996 M	cucumber/pom.xml
+:100644 100644 7e13a0802fc0db8dea6a6b5a17756d8730117055 414573dacddf33cf41c4c7ec3e0839ce2e5a96e1 M	pom.xml
+:100644 100644 469b74a98dcf908f6d19fdde17f8b3787da041f7 62e8d3b5d1fc943c3f355a97210bf1e3513a1fe8 M	service/pom.xml

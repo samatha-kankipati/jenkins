@@ -1,0 +1,92 @@
+Changes in branch origin/master, between 0ab824539ffa699ef9212172fb233a14241224fe and ecab6e17d9a45fd3d3d644785880493c73b80a62
+commit ecab6e17d9a45fd3d3d644785880493c73b80a62
+tree 3d6e1fa39bc3d5b6d67acabea9dd24f47fe091cd
+parent f0b230f3a983404b33fd9dc8e021514f3b64e6ca
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1378932640 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1378932640 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 f710ddeff24f6e38a08c24008b280d924d38018e 848cd969bc2b2021e80764c3b88bb34bd738f74d M	cucumber/pom.xml
+:100644 100644 b20fefc29174d1305ce9471688ab37521b8506b8 54583d1c00f21efa7b1a46a847493b55e5392f9d M	pom.xml
+:100644 100644 4b8e4b7633bd7c7b9ce7b8b21c3df3fa0c62f56d e167f7bd7b7b8a845d1bb14340db992acc0427dc M	service/pom.xml
+
+commit f0b230f3a983404b33fd9dc8e021514f3b64e6ca
+tree 28dfc36bd5a7d59c596f62bd56a270907ac3353c
+parent 68b048f4e3f128b3d7cc6c3870261deb07239499
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1378932634 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1378932634 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b170
+
+:100644 100644 6d463fb2bd7139a47f9a7a7949e940e4129e74c8 f710ddeff24f6e38a08c24008b280d924d38018e M	cucumber/pom.xml
+:100644 100644 78879788017f6bfac883c24852ffea578458de88 b20fefc29174d1305ce9471688ab37521b8506b8 M	pom.xml
+:100644 100644 a67f5b7f9d494e7ecdb5ef1251d6302fc14188eb 4b8e4b7633bd7c7b9ce7b8b21c3df3fa0c62f56d M	service/pom.xml
+
+commit 68b048f4e3f128b3d7cc6c3870261deb07239499
+tree fff2a45a265cac18e5e95057c3e65a8cc5cf00b9
+parent 4dfd2abee265513ced3b61e9df8f058309c19636
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1378930529 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1378930529 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 4fcf433ff4af80e6d73e25e64d38451be88d6825 6d463fb2bd7139a47f9a7a7949e940e4129e74c8 M	cucumber/pom.xml
+:100644 100644 8b8ca92596a472c9bd8d3d3d7e9ba920f455cfa4 78879788017f6bfac883c24852ffea578458de88 M	pom.xml
+:100644 100644 024be0440fe15972391fa1d6d5545c40140a0516 a67f5b7f9d494e7ecdb5ef1251d6302fc14188eb M	service/pom.xml
+
+commit 4dfd2abee265513ced3b61e9df8f058309c19636
+tree 0e89dfec41f4b2cefa9a22c387464534b15084b2
+parent c5c0d0d31ee415c50c8e906deae37c65ff589624
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1378930519 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1378930519 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b169
+
+:100644 100644 abadd2828350f35224fb2436e8f1ccf5d4d95090 4fcf433ff4af80e6d73e25e64d38451be88d6825 M	cucumber/pom.xml
+:100644 100644 222341c0c29dd4bd59b5954c0db191f3bd920540 8b8ca92596a472c9bd8d3d3d7e9ba920f455cfa4 M	pom.xml
+:100644 100644 76eb08caeb13687cc3261faf2bd38f50c3b87dca 024be0440fe15972391fa1d6d5545c40140a0516 M	service/pom.xml
+
+commit 5e5872774c9729b27f8a329ae096f724c87c0068
+tree f9c3abed8e618983f255496347bd1783ee7d188d
+parent 0928cf8fcd721496a1d0fb6d1f4dc61055d8d80d
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1378925110 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1378925110 -0500
+
+    [B-55765] : fixing testcase as it is flaky
+
+:100644 100644 4b78fccbdfbb51f4c5ee7a4012efc7f0bfc4ce0b 3211f26078b5de23d66e6a35df9d12bd0781f28d M	service/src/test/groovy/com/rackspace/search/service/JobServiceTest.groovy
+
+commit 2b2181b23529b6c2204199d8ea957423a6eaf5b8
+tree 1d2738cfded641f0123ecd81f29f7545aa54edf2
+parent 48d66144d5bb8d3c57ae347c7957a6c71d5e2a55
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1378923393 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1378923393 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 3f33f31ff5e4ab299c4b9f8916080996e0dfef23 abadd2828350f35224fb2436e8f1ccf5d4d95090 M	cucumber/pom.xml
+:100644 100644 e33fc5fdd0892187515bfe138b079fa131afea16 222341c0c29dd4bd59b5954c0db191f3bd920540 M	pom.xml
+:100644 100644 9e5963ebae97274e0c4b4f2d31790b6be858c4c9 76eb08caeb13687cc3261faf2bd38f50c3b87dca M	service/pom.xml
+
+commit 48d66144d5bb8d3c57ae347c7957a6c71d5e2a55
+tree ce6cd7d32de3e2b729fefdc2f29824d53f7a117e
+parent 1d5d553ec05b035c1b4876fbf5888815e6591ed8
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1378923387 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1378923387 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b168
+
+:100644 100644 dac43308a1c0074ba84b2a83e7e3941cc662cc1a 3f33f31ff5e4ab299c4b9f8916080996e0dfef23 M	cucumber/pom.xml
+:100644 100644 70fe7f23e0d913df4b0c6fd382668d21f3f78146 e33fc5fdd0892187515bfe138b079fa131afea16 M	pom.xml
+:100644 100644 7249b998db645065e09c95500fcadb7b39b87b40 9e5963ebae97274e0c4b4f2d31790b6be858c4c9 M	service/pom.xml
+
+commit 0928cf8fcd721496a1d0fb6d1f4dc61055d8d80d
+tree 50bb5819d59d9ba36f3d0d82b0d7e05b7527db8a
+parent 4a8c3e74b953b5d732a840cb904e9db9e6f31147
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1378921441 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1378921441 -0500
+
+    [B-55765] : fixing ondemand sync for no accounts from account service
+
+:100644 100644 a11c56e05c28d2f64fd44fcdb7afa42185fa88a7 e6e696330be54dc806a56ea73be5f4ad91774e46 M	service/src/main/groovy/com/rackspace/search/service/admin/AccountOndemandSyncJob.groovy

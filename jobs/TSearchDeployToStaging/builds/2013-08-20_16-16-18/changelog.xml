@@ -1,0 +1,48 @@
+Changes in branch origin/master, between b7f53f610946e5e5344575bab523097b7adf97ca and 5634c6cb9619d6f139edc47b78dd46ffcebb82a5
+commit 5634c6cb9619d6f139edc47b78dd46ffcebb82a5
+tree bf4f7bacc5864a62d7ac7afb6f87dde87fab2010
+parent 4eafcdd2c37b858252976f167e52cee677dd9a15
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1376970484 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1376970484 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 10a6a53d7868e80a3bd377c36a8e5a8b142886a2 67079f27c463bbaca2e4b08d1e7b079e096c7d6e M	cucumber/pom.xml
+:100644 100644 dbd5918994c5747b8560d95044e79e324a6ea3c2 926ea2fe1a4add0f35678041188f7297f59c952e M	pom.xml
+:100644 100644 c38c6da0a1764f624c495384d92fca4563ea68de 7cf60906f77e1ed9494b96efff6275e1476e122d M	service/pom.xml
+
+commit 4eafcdd2c37b858252976f167e52cee677dd9a15
+tree 334a9b5f42380a430e9e7c55b839ac739bcd0291
+parent fce8948c6db395dda940ffd5e32b7d4d65c5672b
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1376970480 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1376970480 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b150
+
+:100644 100644 f2672d1016e45e287d2fbc4fd0b5cdb000ca46cd 10a6a53d7868e80a3bd377c36a8e5a8b142886a2 M	cucumber/pom.xml
+:100644 100644 9e0ed7ca491efc7336ec2049808ec54b665134ad dbd5918994c5747b8560d95044e79e324a6ea3c2 M	pom.xml
+:100644 100644 260cbca76408163bc10db0e768457dbe58b74419 c38c6da0a1764f624c495384d92fca4563ea68de M	service/pom.xml
+
+commit c6c71da7bd469d78f20bfb1ddb9e1d3105c28072
+tree 200e5337afef4bc5ca78713de262a1a43b322833
+parent 2871b9000c1d13da1567eac135413a579859f502
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1376678832 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1376678832 -0500
+
+    [ B-54693]: configuring the pagesize
+
+:100644 100644 a0b05d178e723e4f97c13e5a765cbbd001e13c19 04e2c58b8bbc7dbb6ac5d5dacc9ffbd78d1def0f M	service/src/main/config/search.properties
+:100644 100644 7499730c3135ce709bd6cf3c862dcd23519c85de a4f0188a29c96ec1c8a81e65760027f77f6fadb5 M	service/src/main/groovy/com/rackspace/search/service/TicketSearchService.groovy
+
+commit 2871b9000c1d13da1567eac135413a579859f502
+tree 8a1a56d3d55fd6de5660b95d02df30f517f889f2
+parent f10dbd2c3ebb8e8b12b3e96d62491a15dab3282c
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1376678350 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1376678350 -0500
+
+    [ B-54693]: updating ticket when account updates
+
+:100644 100644 bee1713d288115b9df12a7926bec8b465553ece1 a0b05d178e723e4f97c13e5a765cbbd001e13c19 M	service/src/main/config/search.properties
+:100644 100644 7ab1cd8fe3f679d1d5d7011ce97970d717bc7f84 7499730c3135ce709bd6cf3c862dcd23519c85de M	service/src/main/groovy/com/rackspace/search/service/TicketSearchService.groovy
+:100644 100644 70dd9e80317dcdf7bd5d71f06328603f5fc92f45 bbabc12418fb1ed10c318351df0d3b016898608b M	service/src/main/groovy/com/rackspace/search/service/account/AccountUpdatesSyncActor.groovy
+:100644 100644 c76b9f3fb785dfcfe617477d99d93caf4f7da5d8 d99e470beac5fb24bfb54128612ce4c6f13992ee M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketAccountActor.groovy

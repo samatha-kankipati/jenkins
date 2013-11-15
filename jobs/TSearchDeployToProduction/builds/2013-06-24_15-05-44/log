@@ -1,0 +1,132 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /var/lib/jenkins/jobs/TSearchDeployToProduction/workspace
+Checkout:workspace / /var/lib/jenkins/jobs/TSearchDeployToProduction/workspace - hudson.remoting.LocalChannel@6788af79
+Using strategy: Default
+Last Built Revision: Revision 16a4a41c45d22326dffd54e9026e679152ce3198 (origin/master)
+Fetching changes from 1 remote Git repository
+Fetching upstream changes from origin
+Commencing build of Revision 407e7b38981895ca40c6b531fe90ea11f24883f1 (origin/master)
+Checking out Revision 407e7b38981895ca40c6b531fe90ea11f24883f1 (origin/master)
+[workspace] $ /bin/sh -xe /tmp/hudson4683350219302669526.sh
++ sh /var/lib/jenkins/jobs/TSearchDeployToProduction/workspace/service/src/main/scripts/deploy-application.sh 0.1.0_b111 production
+environment in warhammer is production
+environment is production
+======================= Starting Deployment =======================
+Version:	'0.1.0_b111'
+Server:		'node1.prod.search.api.rackspace.com'
+===================================================================
+
+
+Using temporary directory '/tmp/deploy.14486'.
+
+
+Fetching files...
+--2013-06-24 15:05:46--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b111/search-0.1.0_b111.war
+Resolving d-build1.iad2.corp.rackspace.com... 10.4.39.20
+Connecting to d-build1.iad2.corp.rackspace.com|10.4.39.20|:8100... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 34305835 (33M) [application/octet-stream]
+Saving to: `/tmp/deploy.14486/search-0.1.0_b111.war'
+
+     0K ........ ........ ........ ........ ........ ........  9% 3.80M 8s
+  3072K ........ ........ ........ ........ ........ ........ 18% 10.7M 5s
+  6144K ........ ........ ........ ........ ........ ........ 27% 5.82M 4s
+  9216K ........ ........ ........ ........ ........ ........ 36% 5.83M 4s
+ 12288K ........ ........ ........ ........ ........ ........ 45% 6.22M 3s
+ 15360K ........ ........ ........ ........ ........ ........ 55% 3.86M 3s
+ 18432K ........ ........ ........ ........ ........ ........ 64% 5.99M 2s
+ 21504K ........ ........ ........ ........ ........ ........ 73% 3.01M 2s
+ 24576K ........ ........ ........ ........ ........ ........ 82% 4.58M 1s
+ 27648K ........ ........ ........ ........ ........ ........ 91% 3.85M 1s
+ 30720K ........ ........ ........ ........ ........ ...     100% 2.18M=7.5s
+
+2013-06-24 15:05:54 (4.34 MB/s) - `/tmp/deploy.14486/search-0.1.0_b111.war' saved [34305835/34305835]
+
+--2013-06-24 15:05:54--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b111/search-0.1.0_b111.war.md5
+Reusing existing connection to d-build1.iad2.corp.rackspace.com:8100.
+HTTP request sent, awaiting response... 200 OK
+Length: 32 [text/plain]
+Saving to: `/tmp/deploy.14486/search-0.1.0_b111.war.md5'
+
+     0K                                                      100% 2.54M=0s
+
+2013-06-24 15:05:54 (2.54 MB/s) - `/tmp/deploy.14486/search-0.1.0_b111.war.md5' saved [32/32]
+
+--2013-06-24 15:05:54--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b111/search-0.1.0_b111-config.zip
+Reusing existing connection to d-build1.iad2.corp.rackspace.com:8100.
+HTTP request sent, awaiting response... 200 OK
+Length: 31716 (31K) [application/zip]
+Saving to: `/tmp/deploy.14486/search-0.1.0_b111-config.zip'
+
+     0K                                                      100%  187M=0s
+
+2013-06-24 15:05:54 (187 MB/s) - `/tmp/deploy.14486/search-0.1.0_b111-config.zip' saved [31716/31716]
+
+--2013-06-24 15:05:54--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b111/search-0.1.0_b111-config.zip.md5
+Reusing existing connection to d-build1.iad2.corp.rackspace.com:8100.
+HTTP request sent, awaiting response... 200 OK
+Length: 32 [text/plain]
+Saving to: `/tmp/deploy.14486/search-0.1.0_b111-config.zip.md5'
+
+     0K                                                      100% 2.77M=0s
+
+2013-06-24 15:05:54 (2.77 MB/s) - `/tmp/deploy.14486/search-0.1.0_b111-config.zip.md5' saved [32/32]
+
+FINISHED --2013-06-24 15:05:54--
+Downloaded: 4 files, 33M in 7.5s (4.35 MB/s)
+...done.
+
+
+Verifying MD5s...
+OK e3f8f6663ecfbcadfd199d943843a77a  /tmp/deploy.14486/search-0.1.0_b111.war
+OK 40c21962b0c1dd5393909c845291d43f  /tmp/deploy.14486/search-0.1.0_b111-config.zip
+done.
+
+
+Copying files to server 'node1.prod.search.api.rackspace.com'...
+...done.
+
+Verifying MD5s...
+OK e3f8f6663ecfbcadfd199d943843a77a  node1.prod.search.api.rackspace.com:/home/search/artifacts/search-0.1.0_b111.war
+OK 40c21962b0c1dd5393909c845291d43f  node1.prod.search.api.rackspace.com:/home/search/artifacts/search-0.1.0_b111-config.zip
+...done.
+
+Copying files to server 'node2.prod.search.api.rackspace.com'...
+...done.
+
+Verifying MD5s...
+OK e3f8f6663ecfbcadfd199d943843a77a  node2.prod.search.api.rackspace.com:/home/search/artifacts/search-0.1.0_b111.war
+OK 40c21962b0c1dd5393909c845291d43f  node2.prod.search.api.rackspace.com:/home/search/artifacts/search-0.1.0_b111-config.zip
+...done.
+
+
+
+Deploying to server 'node1.prod.search.api.rackspace.com'...Waiting for the domain to stop ....
+Command stop-domain executed successfully.
+done.
+Waiting for search to start ........................................
+Successfully started the domain : search
+domain  Location: /opt/glassfish/glassfish/domains/search
+Log File: /opt/glassfish/glassfish/domains/search/logs/server.log
+Admin Port: 4848
+Command start-domain executed successfully.
+
+Deploying to server 'node2.prod.search.api.rackspace.com'...Waiting for the domain to stop ..........................................................
+Timed out (60 seconds) waiting for the domain to stop.
+Command stop-domain failed.
+done.
+Waiting for search to start ......................................................
+Successfully started the domain : search
+domain  Location: /opt/glassfish/glassfish/domains/search
+Log File: /opt/glassfish/glassfish/domains/search/logs/server.log
+Admin Port: 4848
+Command start-domain executed successfully.
+
+
+
+Cleaning up...done.
+
+
+======================= Deployment Complete =======================
+
+Finished: SUCCESS

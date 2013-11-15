@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@1.504">
+  <actions/>
+  <number>10</number>
+  <startTime>1365626072602</startTime>
+  <result>SUCCESS</result>
+  <duration>3195</duration>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/jobs/TSearchUnittest/workspace</workspace>
+  <executedMojos class="java.util.concurrent.CopyOnWriteArrayList">
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-clean-plugin</artifactId>
+      <version>2.4.1</version>
+      <goal>clean</goal>
+      <executionId>default-clean</executionId>
+      <duration>539</duration>
+      <digest>039798515986413679ca6ddda1a8b5ec</digest>
+    </hudson.maven.ExecutedMojo>
+  </executedMojos>
+</hudson.maven.MavenBuild>

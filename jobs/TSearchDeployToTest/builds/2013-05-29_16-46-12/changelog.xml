@@ -1,0 +1,34 @@
+Changes in branch origin/master, between 36cdbfe82f22087db696d3bb8524e2bdd307feaa and fbdcad8124ca5fc2fca6409102230de4fa0205c7
+commit fbdcad8124ca5fc2fca6409102230de4fa0205c7
+tree 49c7f412b39d74cee44a986dd96d444a47f88766
+parent 29ff1634d11c7fb8b3bfb7e2b2ec6ba08ccf6e45
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369845796 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369845796 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 17758abd588a22192996d34347af6edbc1ad7092 a252b67848ae2d274cb7a5b4c2fc5dc30afabd8e M	cucumber/pom.xml
+:100644 100644 bcd66515210e97f0e23fb16df69764fc11d0f3ce 4724454a77b61f1c8f8c52504675f3dfbcb8604f M	pom.xml
+:100644 100644 8f6b248dfdd712ed5ea1dbc798ee04bdda22741e c419fb3113b1a69e7a507b676e039165effeef28 M	service/pom.xml
+
+commit 29ff1634d11c7fb8b3bfb7e2b2ec6ba08ccf6e45
+tree b1db634d7b806f8e66b369d3eecdff57a4f1ad0d
+parent 54d43916f8296777b3a15d61fc606b8fc1eeab27
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369845789 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369845789 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b79
+
+:100644 100644 f6a4542ef22158d55ba024a7e133060cce11b2c2 17758abd588a22192996d34347af6edbc1ad7092 M	cucumber/pom.xml
+:100644 100644 6bf25ab8d3dc837ac93bd4205e27b80c56c9a078 bcd66515210e97f0e23fb16df69764fc11d0f3ce M	pom.xml
+:100644 100644 3093e4d25f1b74f0ff92cec7d3a7aa3d86d7b45d 8f6b248dfdd712ed5ea1dbc798ee04bdda22741e M	service/pom.xml
+
+commit 32ff0899b0a039e230aff91d907260937d2d15b7
+tree 1791782be08e7314efc423833ef40acacf511831
+parent 36cdbfe82f22087db696d3bb8524e2bdd307feaa
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1369844606 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1369844606 -0500
+
+    D-13097: fixing updatebyQuery
+
+:100644 100644 2b0d6c513d2f61b2f371d905a63ee4820b0c1012 d10fbdfc98dcf8d032c95c999011d2b1c8c92ddc M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy

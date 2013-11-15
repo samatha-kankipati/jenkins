@@ -1,0 +1,34 @@
+Changes in branch origin/master, between 6139db8e3df02812bed04bd4df26975c4633bcae and b925f98df1aa810b35fd09ee788fe16db4bd9878
+commit aba7dc923c2d99c9613989a00d253fde359b0f72
+tree 4d03e44bc932cf051b83d7ab02727745cf644273
+parent 5deab8714d60eb2ae3c6054734b9793f7d382099
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1370644040 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1370644040 -0500
+
+    [B-50344] : setting hostname for job.setting propr message when requesting stop job
+
+:100644 100644 7ca554e5b5f5ce73152a4b0998a8e0dfc92daf65 f55344b1d9193718fc6e5649a7b970e49971846a M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+
+commit 65542786db63e51cd1a1c3e012bc994ebfbc901c
+tree 326ce9be7050b0a74fd528c88a66831e0d2582e3
+parent c8556b22b5360f9d2c0f7dfa7dad482923508f3a
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370642211 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370642211 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 d6cee098ae4c57c6f331127b94c9bb18aa240929 1da47ea4625569604ce8b0812679f081fb804cdd M	cucumber/pom.xml
+:100644 100644 4af045af439f7f143e2cf6c75e726d9e1a6f10ee 2ff9a35c5810ac1d59193b9cd60ac6573af6a9c0 M	pom.xml
+:100644 100644 fa2b3f16fa290a3f044289987235ce3e9ca91b6b 3eb4591d3e73a3b0034204198e885eb118f4504a M	service/pom.xml
+
+commit c8556b22b5360f9d2c0f7dfa7dad482923508f3a
+tree 22d55c54ff1b14d5b03ae6486dfbebb5859904ae
+parent 6139db8e3df02812bed04bd4df26975c4633bcae
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370642206 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370642206 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b89
+
+:100644 100644 df413d90f957f451cb66cd724391850e945235f3 d6cee098ae4c57c6f331127b94c9bb18aa240929 M	cucumber/pom.xml
+:100644 100644 1b35f9bf30141f0b7ae1ec6db7a5e72422c27859 4af045af439f7f143e2cf6c75e726d9e1a6f10ee M	pom.xml
+:100644 100644 883bc2d7031299f3380e932923281f80438ae35a fa2b3f16fa290a3f044289987235ce3e9ca91b6b M	service/pom.xml

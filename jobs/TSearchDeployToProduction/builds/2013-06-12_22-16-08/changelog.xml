@@ -1,0 +1,35 @@
+Changes in branch origin/master, between 98f74fa129cc77cea619f23c21d32a529f8ec8f8 and e7ace07951ab183231407039eee4088248e98109
+commit e7ace07951ab183231407039eee4088248e98109
+tree 2de691953678d73064039350b35a4f61b3b0b95e
+parent 098e91f14d2a7d2f8143d614a12c6f7806c24ad1
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371074846 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371074846 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 9e4e0d3d3b588b4cbe7324a423dc844f81da5ba1 4f0b309ea43495b2c7fd180a65059bb7771d2d52 M	cucumber/pom.xml
+:100644 100644 ed36f3324ac158dfddf6b8d770dc3a07b54ed391 9b7adf2fd08173574f19db9e575bfa3d9b48bd1a M	pom.xml
+:100644 100644 e1aa95bb35ae51a55d146c5897bde5c1b6a8b312 c971272958ce63ab81c14d48537273da82ea6f44 M	service/pom.xml
+
+commit 098e91f14d2a7d2f8143d614a12c6f7806c24ad1
+tree eb407d5705262c6080e22931b38c8708a708e31f
+parent 28a3d1315601a2a31fdf5916d4515d65df38f456
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371074841 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371074841 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b96
+
+:100644 100644 fd3256531e36552df0638c1ad488fe2572512e8f 9e4e0d3d3b588b4cbe7324a423dc844f81da5ba1 M	cucumber/pom.xml
+:100644 100644 b1dd1b643a805acc11665784662fe99c395ff5f3 ed36f3324ac158dfddf6b8d770dc3a07b54ed391 M	pom.xml
+:100644 100644 8d22e34ad0a067b3f21d32a7ef766ba31cca2244 e1aa95bb35ae51a55d146c5897bde5c1b6a8b312 M	service/pom.xml
+
+commit 41f90b1a0eff03a0dab9268c7514c49819c5c5cc
+tree d05b77eb02b0f3b44119cf7745d941d890854e5f
+parent 98f74fa129cc77cea619f23c21d32a529f8ec8f8
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1371072958 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1371072958 -0500
+
+    [D-13268]: fixing the retry delay time
+
+:100644 100644 cc2cbd0482df67cd1e743b13094ed1dbc4767339 fcfebcf1a8c843cebd5882a02b5938511d490cec M	service/src/main/filters/filter.yaml
+:100644 100644 5d79d950e154d7a89b52aed6eea6d2b54a68611c 0e90fdcf8d4f35e79ecead129cfee584d52412e6 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy

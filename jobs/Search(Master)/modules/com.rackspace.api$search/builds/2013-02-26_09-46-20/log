@@ -1,0 +1,329 @@
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building search 0.1.0_b1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:generateStubs (buildGroovies) @ search ---
+[INFO] [INFO] No sources found for Java stub generation
+
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-resources-plugin:2.4.3:copy-resources (copy-webapp) @ search ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-resources-plugin:2.4.3:resources (default-resources) @ search ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-compiler-plugin:2.3.2:compile (default-compile) @ search ---
+[INFO] Compiling 3 source files to /var/lib/jenkins/jobs/Master_search/workspace/service/target/classes
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:compile (buildGroovies) @ search ---
+[INFO] No sources found to compile
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:generateTestStubs (buildGroovies) @ search ---
+[INFO] No sources found for Java stub generation
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-resources-plugin:2.4.3:testResources (default-testResources) @ search ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/jobs/Master_search/workspace/service/src/test/resources
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ search ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:testCompile (buildGroovies) @ search ---
+[INFO] No sources found to compile
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-surefire-plugin:2.10:test (default-test) @ search ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/Master_search/workspace/service/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+[JENKINS] Recording test results
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-war-plugin:2.3:war (default-war) @ search ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [search] in [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Webapp assembled in [581 msecs]
+[INFO] Building war: /var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT.war
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-assembly-plugin:2.2:single (make-assembly) @ search ---
+[INFO] Reading assembly descriptor: /var/lib/jenkins/jobs/Master_search/workspace/service/src/main/assembly/search.xml
+[INFO] Building jar: /var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT-service.jar
+Feb 26, 2013 9:46:50 AM hudson.maven.ExecutedMojo <init>
+WARNING: Failed to getClass for org.mortbay.jetty.plugin.JettyDeployWar
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- jetty-maven-plugin:7.1.5.v20100705:deploy-war (start-jetty) @ search ---
+[INFO] Configuring Jetty for project: search
+[INFO] Context path = /
+[INFO] Tmp directory = /var/lib/jenkins/jobs/Master_search/workspace/service/target/tmp
+[INFO] Web defaults = org/eclipse/jetty/webapp/webdefault.xml
+[INFO] Web overrides =  none
+[INFO] Starting jetty 7.1.5.v20100705 ...
+2013-02-26 09:46:51.950:INFO::jetty-7.1.5.v20100705
+2013-02-26 09:46:51.991:INFO::Extract jar:file:/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT.war!/ to /var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT
+2013-02-26 09:46:54.340:INFO::No Transaction manager found - if your webapp requires one, please configure one.
+2013-02-26 09:46:57.121:WARN::Skipping PostConstruct annotation on com.sun.jersey.server.impl.ejb.EJBInjectionInterceptor.init: has parameters
+2013-02-26 09:46:58.916:WARN::Skipping PostConstruct annotation on org.springframework.ejb.interceptor.SpringBeanAutowiringInterceptor.autowireBean: has parameters
+2013-02-26 09:46:58.916:WARN::Skipping PreDestroy annotation on org.springframework.ejb.interceptor.SpringBeanAutowiringInterceptor.releaseBean: has parameters
+2013-02-26 09:47:04.356:INFO:/:Initializing Spring root WebApplicationContext null null
+09:47:04.360 [pool-1-thread-2] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization started
+09:47:04.399 [pool-1-thread-2] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Tue Feb 26 09:47:04 UTC 2013]; root of context hierarchy
+09:47:04.449 [pool-1-thread-2] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [applicationContext.xml]
+09:47:04.455 [pool-1-thread-2] DEBUG o.s.b.f.xml.DefaultDocumentLoader - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+09:47:04.492 [pool-1-thread-2] DEBUG o.s.b.f.xml.PluggableSchemaResolver - Loading schema mappings from [META-INF/spring.schemas]
+09:47:04.494 [pool-1-thread-2] DEBUG o.s.b.f.xml.PluggableSchemaResolver - Loaded schema mappings: {http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd}
+09:47:04.495 [pool-1-thread-2] DEBUG o.s.b.f.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+09:47:04.590 [pool-1-thread-2] DEBUG o.s.b.f.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/context/spring-context.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+09:47:04.636 [pool-1-thread-2] DEBUG o.s.b.f.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+09:47:04.650 [pool-1-thread-2] DEBUG o.s.b.f.x.DefaultBeanDefinitionDocumentReader - Loading bean definitions
+09:47:04.665 [pool-1-thread-2] DEBUG o.s.b.f.x.DefaultNamespaceHandlerResolver - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+09:47:04.775 [pool-1-thread-2] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com/rackspace/search]
+09:47:04.776 [pool-1-thread-2] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com/rackspace/search] for files matching pattern [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com/rackspace/search/**/*.class]
+09:47:04.778 [pool-1-thread-2] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com/rackspace/search/common] for files matching pattern [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com/rackspace/search/**/*.class]
+09:47:04.778 [pool-1-thread-2] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com/rackspace/search/common/property] for files matching pattern [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com/rackspace/search/**/*.class]
+09:47:04.780 [pool-1-thread-2] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com/rackspace/search/endpoint] for files matching pattern [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com/rackspace/search/**/*.class]
+09:47:04.781 [pool-1-thread-2] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com/rackspace/search/elasticsearch] for files matching pattern [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com/rackspace/search/**/*.class]
+09:47:04.784 [pool-1-thread-2] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/rackspace/search/**/*.class] to resources [file [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com/rackspace/search/common/property/EnvAwareResourceLoader.class], file [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com/rackspace/search/endpoint/StaticResource.class], file [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com/rackspace/search/elasticsearch/ElasticSearchServer.class]]
+09:47:04.838 [pool-1-thread-2] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com/rackspace/search/endpoint/StaticResource.class]
+09:47:04.843 [pool-1-thread-2] DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 5 bean definitions from location pattern [classpath:applicationContext.xml]
+09:47:04.843 [pool-1-thread-2] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [applicationContext-elasticsearch.xml]
+09:47:04.845 [pool-1-thread-2] DEBUG o.s.b.f.xml.DefaultDocumentLoader - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+09:47:04.847 [pool-1-thread-2] DEBUG o.s.b.f.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+09:47:04.931 [pool-1-thread-2] DEBUG o.s.b.f.x.DefaultBeanDefinitionDocumentReader - Loading bean definitions
+09:47:04.939 [pool-1-thread-2] DEBUG o.s.b.f.x.BeanDefinitionParserDelegate - Neither XML 'id' nor 'name' specified - using generated bean name [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]
+09:47:04.942 [pool-1-thread-2] DEBUG o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 3 bean definitions from location pattern [classpath:applicationContext-elasticsearch.xml]
+09:47:04.943 [pool-1-thread-2] DEBUG o.s.w.c.s.XmlWebApplicationContext - Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@74e07abd: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,staticResource,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,elasticSearchConfiguration,esServer]; root of factory hierarchy
+09:47:05.010 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+09:47:05.011 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+09:47:05.033 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+09:47:05.034 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+09:47:05.074 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+09:47:05.074 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+09:47:05.077 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0' to allow for resolving potential circular references
+09:47:05.117 [pool-1-thread-2] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes]
+09:47:05.118 [pool-1-thread-2] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes] for files matching pattern [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/**/elasticsearch.properties]
+09:47:05.123 [pool-1-thread-2] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com] for files matching pattern [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/**/elasticsearch.properties]
+09:47:05.124 [pool-1-thread-2] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com/rackspace] for files matching pattern [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/**/elasticsearch.properties]
+09:47:05.124 [pool-1-thread-2] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com/rackspace/search] for files matching pattern [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/**/elasticsearch.properties]
+09:47:05.125 [pool-1-thread-2] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com/rackspace/search/common] for files matching pattern [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/**/elasticsearch.properties]
+09:47:05.125 [pool-1-thread-2] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com/rackspace/search/common/property] for files matching pattern [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/**/elasticsearch.properties]
+09:47:05.127 [pool-1-thread-2] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com/rackspace/search/endpoint] for files matching pattern [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/**/elasticsearch.properties]
+09:47:05.128 [pool-1-thread-2] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/com/rackspace/search/elasticsearch] for files matching pattern [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/**/elasticsearch.properties]
+09:47:05.157 [pool-1-thread-2] DEBUG o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:**/elasticsearch.properties] to resources [file [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/elasticsearch.properties]]
+09:47:05.161 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+09:47:05.161 [pool-1-thread-2] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from file [/var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT/WEB-INF/classes/elasticsearch.properties]
+09:47:05.166 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+09:47:05.166 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+09:47:05.168 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+09:47:05.168 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+09:47:05.168 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+09:47:05.168 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+09:47:05.169 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+09:47:05.169 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+09:47:05.169 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+09:47:05.170 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+09:47:05.190 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+09:47:05.190 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+09:47:05.193 [pool-1-thread-2] DEBUG o.s.w.c.s.XmlWebApplicationContext - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@37359a67]
+09:47:05.196 [pool-1-thread-2] DEBUG o.s.w.c.s.XmlWebApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@35dd051f]
+09:47:05.198 [pool-1-thread-2] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@598da1c3]
+09:47:05.199 [pool-1-thread-2] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@74e07abd: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,staticResource,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,elasticSearchConfiguration,esServer]; root of factory hierarchy
+09:47:05.199 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+09:47:05.199 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+09:47:05.200 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+09:47:05.200 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+09:47:05.200 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+09:47:05.200 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'elasticSearchConfiguration'
+09:47:05.200 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'elasticSearchConfiguration'
+09:47:05.204 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'elasticSearchConfiguration' to allow for resolving potential circular references
+09:47:05.211 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'elasticSearchConfiguration'
+09:47:05.211 [pool-1-thread-2] INFO  o.s.b.f.config.PropertiesFactoryBean - Loading properties file from class path resource [elasticsearch.properties]
+09:47:05.213 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'elasticSearchConfiguration'
+09:47:05.214 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'esServer'
+09:47:05.214 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'esServer'
+09:47:05.466 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'elasticSearchConfiguration'
+09:47:05.476 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'esServer' to allow for resolving potential circular references
+09:47:05.479 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking init method  'start' on bean with name 'esServer'
+09:47:05.480 [pool-1-thread-2] INFO  c.r.s.e.ElasticSearchServer - Starting the Elastic Search server node
+09:47:05.568 [pool-1-thread-2] INFO  org.elasticsearch.node - [search.node] {elasticsearch/0.16.2}[7651]: initializing ...
+09:47:05.576 [pool-1-thread-2] INFO  org.elasticsearch.plugins - [search.node] loaded []
+09:47:09.412 [pool-1-thread-2] DEBUG org.elasticsearch.cache.memory - [search.node] using bytebuffer cache with small_buffer_size [1kb], large_buffer_size [1mb], small_cache_size [10mb], large_cache_size [500mb], direct [true]
+09:47:09.426 [pool-1-thread-2] DEBUG org.elasticsearch.threadpool - [search.node] creating thread_pool [cached], type [cached], keep_alive [5m]
+09:47:09.427 [pool-1-thread-2] DEBUG org.elasticsearch.threadpool - [search.node] creating thread_pool [index], type [cached], keep_alive [5m]
+09:47:09.427 [pool-1-thread-2] DEBUG org.elasticsearch.threadpool - [search.node] creating thread_pool [search], type [cached], keep_alive [5m]
+09:47:09.427 [pool-1-thread-2] DEBUG org.elasticsearch.threadpool - [search.node] creating thread_pool [percolate], type [cached], keep_alive [5m]
+09:47:09.429 [pool-1-thread-2] DEBUG org.elasticsearch.threadpool - [search.node] creating thread_pool [management], type [scaling], min [1], size [20], keep_alive [5m]
+09:47:09.433 [pool-1-thread-2] DEBUG org.elasticsearch.threadpool - [search.node] creating thread_pool [merge], type [scaling], min [1], size [20], keep_alive [5m]
+09:47:09.435 [pool-1-thread-2] DEBUG org.elasticsearch.threadpool - [search.node] creating thread_pool [snapshot], type [scaling], min [1], size [5], keep_alive [5m]
+09:47:09.520 [pool-1-thread-2] DEBUG org.elasticsearch.env - [search.node] using node location [/var/lib/jenkins/jobs/Master_search/workspace/service/target/data/search.cluster/nodes/0], local_node_id [0]
+09:47:09.712 [pool-1-thread-2] DEBUG o.e.cluster.routing.allocation - [search.node] using node_concurrent_recoveries [2], node_initial_primaries_recoveries [4]
+09:47:09.713 [pool-1-thread-2] DEBUG o.e.cluster.routing.allocation - [search.node] using [allow_rebalance] with [indices_all_active]
+09:47:09.713 [pool-1-thread-2] DEBUG o.e.cluster.routing.allocation - [search.node] using [cluster_concurrent_rebalance] with [2]
+09:47:09.758 [pool-1-thread-2] DEBUG org.elasticsearch.monitor.os - [search.node] Using probe [org.elasticsearch.monitor.os.JmxOsProbe@77c2b66a] with refresh_interval [5s]
+09:47:09.759 [pool-1-thread-2] DEBUG org.elasticsearch.monitor.process - [search.node] Using probe [org.elasticsearch.monitor.process.JmxProcessProbe@56dfbac3] with refresh_interval [5s]
+09:47:09.760 [pool-1-thread-2] DEBUG org.elasticsearch.monitor.network - [search.node] Using probe [org.elasticsearch.monitor.network.JmxNetworkProbe@1f2d093e] with refresh_interval [5s]
+09:47:09.763 [pool-1-thread-2] DEBUG org.elasticsearch.monitor.network - [search.node] net_info
+host [usq-api-new-dev1]
+eth1	display_name [eth1]
+		address [/fe80:0:0:0:bcef:faff:fe00:2fa%3] [/10.179.192.252] 
+		mtu [1500] multicast [true] ptp [false] loopback [false] up [true] virtual [false]
+eth0	display_name [eth0]
+		address [/fe80:0:0:0:bcef:faff:fe00:2fb%2] [/10.14.208.252] 
+		mtu [1500] multicast [true] ptp [false] loopback [false] up [true] virtual [false]
+lo	display_name [lo]
+		address [/0:0:0:0:0:0:0:1%1] [/127.0.0.1] 
+		mtu [16436] multicast [false] ptp [false] loopback [true] up [true] virtual [false]
+
+09:47:10.018 [pool-1-thread-2] DEBUG o.elasticsearch.index.shard.recovery - [search.node] using concurrent_streams [5], file_chunk_size [100kb], translog_size [100kb], translog_ops [1000], and compress [true]
+09:47:10.020 [pool-1-thread-2] DEBUG org.elasticsearch.indices.memory - [search.node] using index_buffer_size [48mb], with min_shard_index_buffer_size [4mb], max_shard_index_buffer_size [512mb], shard_inactive_time [30m]
+09:47:10.032 [pool-1-thread-2] DEBUG o.elasticsearch.indices.cache.filter - [search.node] using [node] filter cache with size [49.5mb]
+09:47:10.036 [pool-1-thread-2] INFO  org.elasticsearch.node - [search.node] {elasticsearch/0.16.2}[7651]: initialized
+09:47:10.037 [pool-1-thread-2] INFO  c.r.s.e.ElasticSearchServer - Starting the Elastic Search server node with these settings:
+09:47:10.037 [pool-1-thread-2] INFO  c.r.s.e.ElasticSearchServer -     cluster.name : search.cluster
+09:47:10.037 [pool-1-thread-2] INFO  c.r.s.e.ElasticSearchServer -     discovery.zen.ping.multicast.enabled : false
+09:47:10.037 [pool-1-thread-2] INFO  c.r.s.e.ElasticSearchServer -     http.enabled : true
+09:47:10.037 [pool-1-thread-2] INFO  c.r.s.e.ElasticSearchServer -     index.analysis.analyzer.search_standard.filter : [lowercase]
+09:47:10.038 [pool-1-thread-2] INFO  c.r.s.e.ElasticSearchServer -     index.analysis.analyzer.search_standard.type : standard
+09:47:10.038 [pool-1-thread-2] INFO  c.r.s.e.ElasticSearchServer -     index.number_of_shards : 3
+09:47:10.038 [pool-1-thread-2] INFO  c.r.s.e.ElasticSearchServer -     index.store.fs.memory.enabled : false
+09:47:10.038 [pool-1-thread-2] INFO  c.r.s.e.ElasticSearchServer -     name : search.node
+09:47:10.038 [pool-1-thread-2] INFO  c.r.s.e.ElasticSearchServer -     node.local : true
+09:47:10.038 [pool-1-thread-2] INFO  c.r.s.e.ElasticSearchServer -     path.data : /var/lib/jenkins/jobs/Master_search/workspace/service/target/data
+09:47:10.038 [pool-1-thread-2] INFO  c.r.s.e.ElasticSearchServer -     path.data_with_cluster : /var/lib/jenkins/jobs/Master_search/workspace/service/target/data/search.cluster
+09:47:10.038 [pool-1-thread-2] INFO  c.r.s.e.ElasticSearchServer -     path.home : /var/lib/jenkins/jobs/Master_search/workspace
+09:47:10.039 [pool-1-thread-2] INFO  c.r.s.e.ElasticSearchServer -     path.logs : /var/lib/jenkins/jobs/Master_search/workspace/logs
+09:47:10.039 [pool-1-thread-2] INFO  c.r.s.e.ElasticSearchServer -     path.work : /var/lib/jenkins/jobs/Master_search/workspace/work
+09:47:10.039 [pool-1-thread-2] INFO  c.r.s.e.ElasticSearchServer -     path.work_with_cluster : /var/lib/jenkins/jobs/Master_search/workspace/work/search.cluster
+09:47:10.039 [pool-1-thread-2] INFO  org.elasticsearch.node - [search.node] {elasticsearch/0.16.2}[7651]: starting ...
+09:47:10.051 [pool-1-thread-2] INFO  org.elasticsearch.transport - [search.node] bound_address {local[1]}, publish_address {local[1]}
+09:47:10.052 [pool-1-thread-2] DEBUG org.elasticsearch.discovery.local - [search.node] Connected to cluster [Cluster [search.cluster]]
+09:47:10.056 [elasticsearch[search.node]clusterService#updateTask-pool-13-thread-1] DEBUG org.elasticsearch.cluster.service - [search.node] processing [local-disco-initial_connect(master)]: execute
+09:47:10.057 [elasticsearch[search.node]clusterService#updateTask-pool-13-thread-1] DEBUG org.elasticsearch.cluster.service - [search.node] cluster state updated, version [1], source [local-disco-initial_connect(master)]
+09:47:10.059 [elasticsearch[search.node]clusterService#updateTask-pool-13-thread-1] INFO  org.elasticsearch.cluster.service - [search.node] new_master [search.node][1][local[1]]{local=true}, reason: local-disco-initial_connect(master)
+09:47:10.063 [elasticsearch[search.node]clusterService#updateTask-pool-13-thread-1] DEBUG org.elasticsearch.cluster.service - [search.node] processing [local-disco-initial_connect(master)]: done applying updated cluster_state
+09:47:10.064 [elasticsearch[search.node]riverClusterService#updateTask-pool-12-thread-1] DEBUG org.elasticsearch.river.cluster - [search.node] processing [reroute_rivers_node_changed]: execute
+09:47:10.064 [elasticsearch[search.node]riverClusterService#updateTask-pool-12-thread-1] DEBUG org.elasticsearch.river.cluster - [search.node] processing [reroute_rivers_node_changed]: no change in cluster_state
+09:47:10.064 [pool-1-thread-2] INFO  org.elasticsearch.discovery - [search.node] search.cluster/1
+09:47:10.073 [pool-1-thread-2] DEBUG org.elasticsearch.gateway.local - [search.node] no state elected
+09:47:10.089 [pool-1-thread-2] DEBUG n.c.socket.nio.NioProviderMetadata - Using the autodetected NIO constraint level: 0
+09:47:10.139 [elasticsearch[search.node]clusterService#updateTask-pool-13-thread-1] DEBUG org.elasticsearch.cluster.service - [search.node] processing [local-gateway-elected-state]: execute
+09:47:10.141 [elasticsearch[search.node]clusterService#updateTask-pool-13-thread-1] DEBUG org.elasticsearch.cluster.service - [search.node] cluster state updated, version [1], source [local-gateway-elected-state]
+09:47:10.145 [pool-1-thread-2] INFO  org.elasticsearch.http - [search.node] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/10.14.208.252:9200]}
+09:47:10.145 [pool-1-thread-2] INFO  org.elasticsearch.node - [search.node] {elasticsearch/0.16.2}[7651]: started
+09:47:10.153 [elasticsearch[search.node]riverClusterService#updateTask-pool-12-thread-1] DEBUG org.elasticsearch.river.cluster - [search.node] processing [reroute_rivers_node_changed]: execute
+09:47:10.153 [elasticsearch[search.node]riverClusterService#updateTask-pool-12-thread-1] DEBUG org.elasticsearch.river.cluster - [search.node] processing [reroute_rivers_node_changed]: no change in cluster_state
+09:47:10.513 [pool-1-thread-2] INFO  c.r.s.e.ElasticSearchServer - ES cluster status is GREEN
+09:47:10.514 [pool-1-thread-2] INFO  c.r.s.e.ElasticSearchServer - Elastic Search server is started.
+09:47:10.514 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'esServer'
+09:47:10.518 [pool-1-thread-2] DEBUG o.s.w.c.s.XmlWebApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@46764885]
+09:47:10.518 [pool-1-thread-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+09:47:10.519 [pool-1-thread-2] DEBUG o.s.web.context.ContextLoader - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+09:47:10.520 [pool-1-thread-2] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6155 ms
+Feb 26, 2013 9:47:10 AM com.sun.jersey.spi.spring.container.servlet.SpringServlet getContext
+INFO: Using default applicationContext
+Feb 26, 2013 9:47:10 AM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+INFO: Registering Spring bean, staticResource, of type com.rackspace.search.endpoint.StaticResource as a root resource class
+Feb 26, 2013 9:47:10 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.9 09/02/2011 11:17 AM'
+09:47:10.879 [elasticsearch[search.node]clusterService#updateTask-pool-13-thread-1] INFO  org.elasticsearch.gateway - [search.node] recovered [0] indices into cluster_state
+09:47:10.879 [elasticsearch[search.node]clusterService#updateTask-pool-13-thread-1] DEBUG org.elasticsearch.cluster.service - [search.node] processing [local-gateway-elected-state]: done applying updated cluster_state
+09:47:10.879 [elasticsearch[search.node]clusterService#updateTask-pool-13-thread-1] DEBUG org.elasticsearch.cluster.service - [search.node] processing [routing-table-updater]: execute
+09:47:10.880 [elasticsearch[search.node]clusterService#updateTask-pool-13-thread-1] DEBUG org.elasticsearch.cluster.service - [search.node] processing [routing-table-updater]: no change in cluster_state
+09:47:11.072 [elasticsearch[search.node][scheduler]-pool-10-thread-1] DEBUG org.elasticsearch.monitor.jvm - [search.node] [gc][Copy][117] took [8ms]/[764ms], reclaimed [16.5mb], leaving [87.7mb] used, max [377.5mb]
+09:47:11.073 [elasticsearch[search.node][scheduler]-pool-10-thread-1] DEBUG org.elasticsearch.monitor.jvm - [search.node] [gc][MarkSweepCompact][9] took [325ms]/[2.2s], reclaimed [14.4mb], leaving [85.5mb] used, max [377.5mb]
+Feb 26, 2013 9:47:11 AM com.sun.jersey.spi.inject.Errors processErrorMessages
+WARNING: The following warnings have been detected with resource and/or provider classes:
+  WARNING: A sub-resource method, public javax.ws.rs.core.Response com.rackspace.search.endpoint.StaticResource.getServiceProfile() throws java.lang.Exception, with URI template, "/", is treated as a resource method
+09:47:12.202 [elasticsearch[search.node][scheduler]-pool-10-thread-1] DEBUG org.elasticsearch.monitor.jvm - [search.node] [gc][Copy][118] took [11ms]/[775ms], reclaimed [16.3mb], leaving [90.8mb] used, max [377.5mb]
+09:47:12.202 [elasticsearch[search.node][scheduler]-pool-10-thread-1] DEBUG org.elasticsearch.monitor.jvm - [search.node] [gc][MarkSweepCompact][10] took [343ms]/[2.5s], reclaimed [5.1mb], leaving [92mb] used, max [377.5mb]
+2013-02-26 09:47:12.209:INFO::Started SelectChannelConnector@0.0.0.0:9296
+[INFO] Started Jetty Server
+[INFO] [INFO] Stopping server 0
+
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- jetty-maven-plugin:7.1.5.v20100705:stop (stop-jetty) @ search ---
+[INFO] [INFO] Installing /var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT.war to /home/jenkins/.m2/repository/com/rackspace/api/search/0.1.0_b1-SNAPSHOT/search-0.1.0_b1-SNAPSHOT.war
+
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-install-plugin:2.3.1:install (default-install) @ search ---
+[INFO] Installing /var/lib/jenkins/jobs/Master_search/workspace/service/pom.xml to /home/jenkins/.m2/repository/com/rackspace/api/search/0.1.0_b1-SNAPSHOT/search-0.1.0_b1-SNAPSHOT.pom
+[INFO] Installing /var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT-service.jar to /home/jenkins/.m2/repository/com/rackspace/api/search/0.1.0_b1-SNAPSHOT/search-0.1.0_b1-SNAPSHOT-service.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Search POM ........................................ SUCCESS [4.748s]
+[INFO] search ............................................ SUCCESS [40.880s]
+[INFO] cucumber .......................................... FAILURE [15.168s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1:01.608s
+[INFO] Finished at: Tue Feb 26 09:47:27 UTC 2013
+[INFO] Final Memory: 36M/87M
+[INFO] ------------------------------------------------------------------------
+[JENKINS] Archiving /var/lib/jenkins/jobs/Master_search/workspace/cucumber/pom.xml to /var/lib/jenkins/jobs/Master_search/modules/com.rackspace.api$cucumber/builds/2013-02-26_09-46-20/archive/com.rackspace.api/cucumber/0.1.0_b1-SNAPSHOT/cucumber-0.1.0_b1-SNAPSHOT.pom
+[JENKINS] Archiving /var/lib/jenkins/jobs/Master_search/workspace/cucumber/target/cucumber-0.1.0_b1-SNAPSHOT.jar to /var/lib/jenkins/jobs/Master_search/modules/com.rackspace.api$cucumber/builds/2013-02-26_09-46-20/archive/com.rackspace.api/cucumber/0.1.0_b1-SNAPSHOT/cucumber-0.1.0_b1-SNAPSHOT.jar
+[JENKINS] Archiving /var/lib/jenkins/jobs/Master_search/workspace/pom.xml to /var/lib/jenkins/jobs/Master_search/modules/com.rackspace.api$search-pom/builds/2013-02-26_09-46-20/archive/com.rackspace.api/search-pom/0.1.0_b1-SNAPSHOT/search-pom-0.1.0_b1-SNAPSHOT.pom
+[JENKINS] Archiving /var/lib/jenkins/jobs/Master_search/workspace/service/pom.xml to /var/lib/jenkins/jobs/Master_search/modules/com.rackspace.api$search/builds/2013-02-26_09-46-20/archive/com.rackspace.api/search/0.1.0_b1-SNAPSHOT/search-0.1.0_b1-SNAPSHOT.pom
+[JENKINS] Archiving /var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT.war to /var/lib/jenkins/jobs/Master_search/modules/com.rackspace.api$search/builds/2013-02-26_09-46-20/archive/com.rackspace.api/search/0.1.0_b1-SNAPSHOT/search-0.1.0_b1-SNAPSHOT.war
+[JENKINS] Archiving /var/lib/jenkins/jobs/Master_search/workspace/service/target/search-0.1.0_b1-SNAPSHOT-service.jar to /var/lib/jenkins/jobs/Master_search/modules/com.rackspace.api$search/builds/2013-02-26_09-46-20/archive/com.rackspace.api/search/0.1.0_b1-SNAPSHOT/search-0.1.0_b1-SNAPSHOT-service.jar
+Waiting for Jenkins to finish collecting data
+mavenExecutionResult exceptions not empty
+message : Failed to execute goal org.apache.maven.plugins:maven-antrun-plugin:1.6:run (run-cucumbers) on project cucumber: An Ant BuildException has occured: Java returned: 1
+cause : An Ant BuildException has occured: Java returned: 1
+Stack trace : 
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-antrun-plugin:1.6:run (run-cucumbers) on project cucumber: An Ant BuildException has occured: Java returned: 1
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:217)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:84)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:59)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.singleThreadedBuild(LifecycleStarter.java:183)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:161)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:320)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:156)
+	at org.jvnet.hudson.maven3.launcher.Maven3Launcher.main(Maven3Launcher.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchStandard(Launcher.java:329)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:239)
+	at org.jvnet.hudson.maven3.agent.Maven3Main.launch(Maven3Main.java:158)
+	at hudson.maven.Maven3Builder.call(Maven3Builder.java:100)
+	at hudson.maven.Maven3Builder.call(Maven3Builder.java:66)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:118)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:48)
+	at hudson.remoting.Request$2.run(Request.java:326)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: org.apache.maven.plugin.MojoExecutionException: An Ant BuildException has occured: Java returned: 1
+	at org.apache.maven.plugin.antrun.AntRunMojo.execute(AntRunMojo.java:283)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:101)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:209)
+	... 27 more
+Caused by: /var/lib/jenkins/jobs/Master_search/workspace/cucumber/target/antrun/build-main.xml:5: Java returned: 1
+	at org.apache.tools.ant.taskdefs.Java.execute(Java.java:111)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:291)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at org.apache.tools.ant.Task.perform(Task.java:348)
+	at org.apache.tools.ant.Target.execute(Target.java:390)
+	at org.apache.tools.ant.Target.performTasks(Target.java:411)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1397)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1366)
+	at org.apache.maven.plugin.antrun.AntRunMojo.execute(AntRunMojo.java:270)
+	... 29 more

@@ -1,0 +1,38 @@
+Changes in branch origin/master, between f13b50943d9ac8e55826f568faf28cbd43f6ba79 and 0a70cb82d69aac4b032b5eb28e13e63e7444e8a7
+commit 0a70cb82d69aac4b032b5eb28e13e63e7444e8a7
+tree 05170fba13771ef362dcf299ad27b049225e3293
+parent 4b274d1cc7911119a5e8e82edd781ba79f08e2a4
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1384400249 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1384400249 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 69e09838260e1f1569e9c546d8bec9e18c05376b 1e620c5e244ddd772dc403182915f95366a248a6 M	cucumber/pom.xml
+:100644 100644 87f49655a1693ccedd17253c80381cddbe395864 dea730232fcd0f0fc1e03ab9cfa7bc2ed67926a7 M	pom.xml
+:100644 100644 3479f59b8daa612fa53aa4d41e73e6723c8884cf 781ff384dbf8e2d8a3d91192354c2c329840633e M	service/pom.xml
+
+commit 4b274d1cc7911119a5e8e82edd781ba79f08e2a4
+tree 86fd989988c5694df5a3c3f269554593beb6e79e
+parent 9494928f14c7ee95b9dfb5fa9f2a66299867c961
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1384400246 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1384400246 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b207
+
+:100644 100644 d6fb12d02675231c3881e420a80d0ffba4ac7fc5 69e09838260e1f1569e9c546d8bec9e18c05376b M	cucumber/pom.xml
+:100644 100644 52437df1c99a9647fa2c73113a11bb2493e57613 87f49655a1693ccedd17253c80381cddbe395864 M	pom.xml
+:100644 100644 162320a4d8d5ac8bdb121027b43311962cc333c5 3479f59b8daa612fa53aa4d41e73e6723c8884cf M	service/pom.xml
+
+commit 4589a56d3e4f06086fa9d7fc176ae8ac5d525beb
+tree e42bb6e49f0cbd63166c09ada567f75e625808f4
+parent 50e550879020dca1b7aeae3322c835109761d2b6
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1384399574 -0600
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1384399574 -0600
+
+    [D-16238]: getting account number properly
+
+:100644 100644 5baa0958184e1f514de72f3dca43cd1c9f79816e b5939ad7ae0171d316b78a4be048eb64f0a14bb6 M	service/src/main/config/search.properties
+:100644 100644 07100b62839e7efb25445caf2929e441fe43b737 efcc84e5fd1fce9f4f5ff1409b6597dcf8e702d6 M	service/src/main/filters/filter.yaml
+:100644 100644 a1b65795b6a01c70e834bb6d198726ada2aba110 3e1e862776032c07757d4420aec6de501e678543 M	service/src/main/groovy/com/rackspace/search/gateway/zendesk/ZendeskGateway.groovy
+:000000 100644 0000000000000000000000000000000000000000 37fac111d3de7d6b30a2f5a0270b11d0b4d0e289 A	service/src/main/groovy/com/rackspace/search/service/zendesk/UserSearchService.groovy
+:100644 100644 90dbb2e5e63b9082dad456ab2f410bd579375a74 0018825e6bdd3d821f60ace56b20062c2e3d8736 M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskTicketProcessor.groovy

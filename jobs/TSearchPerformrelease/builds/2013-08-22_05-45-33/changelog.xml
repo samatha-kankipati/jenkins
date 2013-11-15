@@ -1,0 +1,59 @@
+Changes in branch origin/master, between 6fa62a1f7e47cceac847c339f8ea4aaf1bc7d4f2 and 96e1f80f9b3ef13a8e746eee959604f9abd6ef80
+commit b713ed4745f1353dda36476c614427c5376ffefb
+tree 4c09033851884d79a105514744e39195df94ecd8
+parent 20875906bce4577dc8158f6b9032a2ca994fcaf3
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377149103 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377149103 -0500
+
+    [B-52097] : reverted  CoreAccountUpdateSyncJob change
+
+:100644 100644 2b65a8eb887a6e028dcf88f6227c69affad87d31 492b70d9157ae12c3aa4652704ea68fe3875a203 M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncJob.groovy
+
+commit 20875906bce4577dc8158f6b9032a2ca994fcaf3
+tree 048e006d7aea961321c8fd5b39914f77743bc222
+parent a6c2ccf9b9a775873031ded29ccc44d6632d92cb
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377148878 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377148878 -0500
+
+    [B-52097] : coreTicketOnetimesyncJob refactoring fixes.
+
+:100644 100644 970d3865fac45a35861f0673e04cfb07849d86dd 806cce4afc50d77e2b603837b5da427eb4994286 M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+:100644 100644 b7eb1a1a29e46111b2851ed9b1062ffdf048aabd 33eea295a7b2f22a1c8cd394a3b7a72c0ecb6493 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+:100644 100644 7acb4f338d5a6563aea116171a78cb2badbcf284 32cab3c0f98ea765fd91e4b9612aa6b8ba046b6d M	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+
+commit cbf77df136f663ae26ca319fafc0537d9e6dfb87
+tree e247b52b0af9b101f7fd45e6c1d2944a0236f7f7
+parent 55e725d944ce0e7fb0c6185e8010e7953ae1e7a9
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377142126 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377142126 -0500
+
+    [B-52097] : coreTicketOnetimesyncJob refactoring halfway
+
+:100644 100644 10698c971bca577d60ae136355bdd0d0fd7d8fac dd63834f13f740e287e7f7603cc4bb1a2b1ff63b M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncJob.groovy
+:100644 100644 a3866524c14b90b9f5aeedd23680130616c0d8f9 2548d7470a273ed4679ac8e70dd6ee192bc7733b M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+:100644 100644 cd7cd1fa03dc6c0218d260a0ffc1bd6bfd005991 0351c38cb3a2cc866a30d1ae5e5e8e77f1cf5c3b M	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+:100644 100644 7faec712fbd920c2bf8142e9340cf29e3409ee5e 1a2b4548461c1583841d838282953253ab26d169 M	service/src/main/java/com/rackspace/search/scheduling/SyncJobScheduler.java
+
+commit 1fd22b8f4e9d1c7b38ab0989575fe89188d1dfd0
+tree 0712538bfb6b2f5c36e7630184ea451019536abb
+parent ab221ebc3cc9ffa6901296acdbe49d5d67c3fe15
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377123782 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377123782 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 0384e58be6591c9e67d2b4381615cf747ea9ac76 aa150aba7081eb4831292a60aeb61a12c8c5dc41 M	cucumber/pom.xml
+:100644 100644 f7d4005f4dd3b6fad5bc524a7d07def2b4b563de e991ab1b802a015315bafbebe47585b1d559748b M	pom.xml
+:100644 100644 107a779c2c4c17a6727f4cefc96125527e28f71f 60a2384ae6eff58b5523d304a71413c72aefeb5f M	service/pom.xml
+
+commit ab221ebc3cc9ffa6901296acdbe49d5d67c3fe15
+tree 4e26b3869826c5d68115e2d02d5c5e526428943d
+parent 6fa62a1f7e47cceac847c339f8ea4aaf1bc7d4f2
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377123775 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377123775 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b155
+
+:100644 100644 e16743c73bfce6992ea3d7251405d9de8f18d850 0384e58be6591c9e67d2b4381615cf747ea9ac76 M	cucumber/pom.xml
+:100644 100644 5e2ad97245dd0dbb5160463ea6ae4adf7146aacd f7d4005f4dd3b6fad5bc524a7d07def2b4b563de M	pom.xml
+:100644 100644 cec62b6220209447091bed2f2e8bf2d076fa9443 107a779c2c4c17a6727f4cefc96125527e28f71f M	service/pom.xml

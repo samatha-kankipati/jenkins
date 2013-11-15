@@ -1,0 +1,190 @@
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building search 0.1.0_b54-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-clean-plugin:2.4.1:clean (default-clean) @ search ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.0:execute (default) @ search ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:generateStubs (buildGroovies) @ search ---
+[INFO] Generated 24 Java stubs
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-resources-plugin:2.6:copy-resources (copy-webapp) @ search ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-resources-plugin:2.6:resources (default-resources) @ search ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 7 resources
+[INFO] Copying 1 resource to ../
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-compiler-plugin:2.3.2:compile (default-compile) @ search ---
+[INFO] Compiling 37 source files to /var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/classes
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:compile (buildGroovies) @ search ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:execute (filterResources) @ search ---
+[INFO] Compiled 42 Groovy classes
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:generateTestStubs (buildGroovies) @ search ---
+[INFO] Generated 13 Java stubs
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-resources-plugin:2.6:testResources (default-testResources) @ search ---
+[INFO] Copying 5 resources
+[INFO] [INFO] Compiling 13 source files to /var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/test-classes
+
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ search ---
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- gmaven-plugin:1.4:testCompile (buildGroovies) @ search ---
+[INFO] Compiled 30 Groovy classes
+[INFO] 
+[INFO] [8mha:AAAAYB+LCAAAAAAAAABb85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m--- maven-surefire-plugin:2.10:test (default-test) @ search ---
+[INFO] Surefire report directory: /var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.rackspace.search.service.core.CoreTicketOngoingSyncJobTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.844 sec
+Running com.rackspace.search.service.core.CoreTicketOneTimeSyncJobTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.369 sec
+Running com.rackspace.search.service.core.CoreTicketProcessorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 sec
+Running com.rackspace.search.service.core.CoreTicketOnGoingSyncActorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.282 sec
+Running com.rackspace.search.service.core.CoreTicketOnetimeSyncActorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec
+Running com.rackspace.search.service.JobServiceTest
+14:51:58.927 [main] INFO  c.r.s.common.property.PropertyProvider - Loading properties file from file [/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/properties/local/search.properties]
+14:51:58.932 [main] INFO  c.r.s.common.property.PropertyProvider - Loading properties file from file [/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/properties/local/search.secrets.properties]
+14:51:58.933 [main] INFO  c.r.s.common.property.PropertyProvider - Loading properties file from file [/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/properties/local/elasticsearch.properties]
+14:51:59.113 [main] INFO  c.r.s.elasticsearch.ElasticSearchServer - Starting the Elastic Search server node:
+14:51:59.298 [main] INFO  org.elasticsearch.node - [ticket.node] {elasticsearch/0.16.2}[29859]: initializing ...
+14:51:59.325 [main] INFO  org.elasticsearch.plugins - [ticket.node] loaded []
+14:52:02.931 [main] INFO  org.elasticsearch.node - [ticket.node] {elasticsearch/0.16.2}[29859]: initialized
+14:52:02.933 [main] INFO  c.r.s.elasticsearch.ElasticSearchServer - Starting the Elastic Search server node with these settings:
+14:52:02.939 [main] INFO  c.r.s.elasticsearch.ElasticSearchServer - Elasticsearch Settings :  [core.db.url:jdbc:postgresql://dev.db.core.rackspace.com:5432/core_dev, node.local:true, index.analysis.analyzer.search_standard.filter:[lowercase], elastic.config.path:/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/properties/local/elasticsearch, ticket.core.dateformat:yyyy-MM-dd HH:mm:ss, path.data:/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/elasticsearch/data, cluster.name:ticket.cluster, index.analysis.analyzer.search_standard.type:standard, core.db.password:, path.conf:/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/properties/local/elasticsearch, core.api.password:qwerty, ticket.ongoingsync.delay.seconds:2000, name:ticket.node, http.enabled:true, path.logs:/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/elasticsearch/logs, index.number_of_replicas:0, ticket.document.idName:number, ticket.document.versionParam:updated_at, core.api.endpoint:https://ws.staging.core.rackspace.com/ctkapi, ticket.document.type:ticket, ticket.index.name:ticket, admin.index.name:admin, indices.structure:/indices_structure.json, core.loopback.time.seconds:120, index.number_of_shards:5, index.store.fs.memory.enabled:false, admin.document.idName:name, admin.document.type:syncJob, core.db.username:search_api, ticket.core.date.timezone:CST, ticket.search.allowedRangeParams:created_at,updated_at,last_public_response_date, ticket.search.allowedTermParams:source_system,number,created_at,updated_at,last_public_response_date,status,queue,category,priority,assignee.name,account.number, core.driver.class:org.postgresql.Driver, core.api.username:rcameron, ticket.elastic.dateformat:yyyy-MM-dd'T'HH:mm:ss.SSSZZ, action.auto_create_index:1, discovery.zen.ping.multicast.enabled:false, path.home:/var/lib/jenkins/jobs/TSearchUnittest/workspace/service, path.work:/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/work, path.work_with_cluster:/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/work/ticket.cluster, path.data_with_cluster:/var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/elasticsearch/data/ticket.cluster]
+14:52:02.943 [main] INFO  org.elasticsearch.node - [ticket.node] {elasticsearch/0.16.2}[29859]: starting ...
+14:52:02.958 [main] INFO  org.elasticsearch.transport - [ticket.node] bound_address {local[1]}, publish_address {local[1]}
+14:52:02.966 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.service - [ticket.node] new_master [ticket.node][1][local[1]]{local=true}, reason: local-disco-initial_connect(master)
+14:52:02.972 [main] INFO  org.elasticsearch.discovery - [ticket.node] ticket.cluster/1
+14:52:03.074 [main] INFO  org.elasticsearch.http - [ticket.node] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/10.14.208.252:9200]}
+14:52:03.076 [main] INFO  org.elasticsearch.node - [ticket.node] {elasticsearch/0.16.2}[29859]: started
+14:52:03.077 [main] INFO  c.r.s.elasticsearch.ElasticSearchServer - Elastic Search server is started.
+14:52:03.140 [main] INFO  c.r.s.elasticsearch.ElasticSearchServer - ES cluster status is GREEN
+14:52:03.573 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.gateway - [ticket.node] recovered [0] indices into cluster_state
+14:52:03.768 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Starting ElasticSearch client
+14:52:03.778 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /indices_structure.json
+14:52:03.795 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Index does not exist. Creating the Index ticket 
+14:52:03.821 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/properties/local/elasticsearch/mappings/ticket/index.json
+14:52:04.939 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticket] creating index, cause [api], shards [5]/[0], mappings [index, ticket]
+14:52:05.375 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Successfully setup Index ticket 
+14:52:05.377 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/properties/local/elasticsearch/mappings/ticket/ticket.json
+14:52:05.387 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Setting up Mapping for [ticket]/[ticket]: {"ticket":{"_source":{"enabled":true},"properties":{"queue":{"analyzer":"keyword_lowercase","type":"string"},"last_public_response_date":{"format":"date_time","type":"date"},"idle":{"format":"date_time","type":"date"},"category":{"analyzer":"keyword_lowercase","type":"string"},"updated_at":{"format":"date_time","type":"date"},"status":{"analyzer":"keyword_lowercase","type":"string"},"priority":{"analyzer":"keyword_lowercase","type":"string"},"created_at":{"format":"date_time","type":"date"},"number":{"analyzer":"keyword_lowercase","type":"string"},"account.number":{"analyzer":"keyword_lowercase","type":"string"},"assignee.name":{"analyzer":"keyword_lowercase","type":"string"},"source_system":{"analyzer":"keyword_lowercase","type":"string"}}}}
+14:52:05.432 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Index does not exist. Creating the Index admin 
+14:52:05.434 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/properties/local/elasticsearch/mappings/admin/index.json
+14:52:05.847 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [admin] creating index, cause [api], shards [5]/[0], mappings [index, syncJob]
+14:52:06.109 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Successfully setup Index admin 
+14:52:06.109 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/properties/local/elasticsearch/mappings/admin/syncJob.json
+14:52:06.115 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Setting up Mapping for [admin]/[syncJob]: {"syncJob":{"_source":{"enabled":true},"properties":{"is_enabled":{"type":"string"},"last_updated_at":{"format":"date_time","type":"date"},"status":{"type":"string"},"processing_node":{"type":"string"},"description":{"type":"string"},"status_message":{"type":"string"},"name":{"type":"string"},"started_at":{"format":"date_time","type":"date"},"last_ticket_modified_at":{"format":"date_time","type":"date"},"type":{"type":"string"}}}}
+14:52:06.969 [Timer-2] INFO  c.r.s.s.core.CoreTicketOngoingSyncJob - 
+14:52:12.783 [main] INFO  c.r.s.e.client.ElasticSearchClient - Started Query Request Builder with query params [:]
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.9 sec
+Running com.rackspace.search.service.TicketSearchServiceTest
+14:52:12.950 [main] INFO  c.r.s.e.client.ElasticSearchClient - Executing the tickets to post to Elastic Search
+14:52:12.998 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticket] update_mapping [ticket] (dynamic)
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.281 sec
+Running com.rackspace.search.gateway.core.CoreAuthGatewayTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.rackspace.search.gateway.core.CoreTicketGatewayTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.rackspace.search.elasticsearch.client.ElasticSearchClientFactoryBeanTest
+14:52:20.227 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /indices_structure.json
+14:52:20.252 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /indices_structure.json
+14:52:20.265 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/properties/local/elasticsearch/mappings/ticket/index.json
+14:52:20.272 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/properties/local/elasticsearch/mappings/admin/index.json
+14:52:20.275 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /indices_structure.json
+14:52:20.282 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/properties/local/elasticsearch/mappings/ticket/ticket.json
+14:52:20.305 [main] INFO  c.r.s.e.ElasticSearchClientFactoryBean - About to read index setting file : /var/lib/jenkins/jobs/TSearchUnittest/workspace/service/target/properties/local/elasticsearch/mappings/admin/syncJob.json
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.143 sec
+Running com.rackspace.search.elasticsearch.client.ElasticSearchClientTest
+14:52:20.372 [main] INFO  c.r.s.e.client.ElasticSearchClient - Executing the tickets to post to Elastic Search
+14:52:21.285 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] creating index, cause [auto(bulk api)], shards [5]/[0], mappings []
+14:52:21.644 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] update_mapping [ticketdoc] (dynamic)
+14:52:24.899 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] deleting index
+14:52:25.022 [main] INFO  c.r.s.e.client.ElasticSearchClient - Executing the tickets to post to Elastic Search
+14:52:25.245 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] creating index, cause [auto(bulk api)], shards [5]/[0], mappings []
+14:52:25.499 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] update_mapping [ticketdoc] (dynamic)
+14:52:28.516 [main] INFO  c.r.s.e.client.ElasticSearchClient - Started Query Request Builder with query params [:]
+14:52:28.539 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] deleting index
+14:52:28.570 [main] INFO  c.r.s.e.client.ElasticSearchClient - Executing the tickets to post to Elastic Search
+14:52:28.768 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] creating index, cause [auto(bulk api)], shards [5]/[0], mappings []
+14:52:28.981 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] update_mapping [ticketdoc] (dynamic)
+14:52:31.996 [main] INFO  c.r.s.e.client.ElasticSearchClient - Started Query Request Builder with query params [user:[testing1]]
+14:52:32.050 [main] INFO  c.r.s.e.client.ElasticSearchClient - Started Query Request Builder with query params [user:[testing1,testing3]]
+14:52:32.064 [main] INFO  c.r.s.e.client.ElasticSearchClient - Started Query Request Builder with query params [user!:[testing1,testing3]]
+14:52:32.086 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] deleting index
+14:52:32.136 [main] INFO  c.r.s.e.client.ElasticSearchClient - Executing the tickets to post to Elastic Search
+14:52:32.319 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] creating index, cause [auto(bulk api)], shards [5]/[0], mappings []
+14:52:32.632 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] update_mapping [ticketdoc] (dynamic)
+14:52:35.645 [main] INFO  c.r.s.e.client.ElasticSearchClient - Started Query Request Builder with query params [priority_range:[[1,2]]]
+14:52:35.683 [main] INFO  c.r.s.e.client.ElasticSearchClient - Started Query Request Builder with query params [priority_range!:[[1,2]]]
+14:52:35.697 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] deleting index
+14:52:35.729 [main] INFO  c.r.s.e.client.ElasticSearchClient - Executing the tickets to post to Elastic Search
+14:52:35.903 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] creating index, cause [auto(bulk api)], shards [5]/[0], mappings []
+14:52:36.084 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] update_mapping [ticketdoc] (dynamic)
+14:52:39.081 [main] INFO  c.r.s.e.client.ElasticSearchClient - Started Query Request Builder with query params [sort:[number|desc]]
+14:52:39.139 [main] INFO  c.r.s.e.client.ElasticSearchClient - Started Query Request Builder with query params [sort:[number|desc,priority]]
+14:52:39.153 [main] INFO  c.r.s.e.client.ElasticSearchClient - Started Query Request Builder with query params [sort:[assignee.name|asc]]
+14:52:39.164 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] deleting index
+14:52:39.199 [main] INFO  c.r.s.e.client.ElasticSearchClient - Executing the tickets to post to Elastic Search
+14:52:39.366 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] creating index, cause [auto(bulk api)], shards [5]/[0], mappings []
+14:52:39.533 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] update_mapping [ticketdoc] (dynamic)
+14:52:42.533 [main] INFO  c.r.s.e.client.ElasticSearchClient - Started Query Request Builder with query params [sort:[priority]]
+14:52:42.547 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] deleting index
+14:52:42.572 [main] INFO  c.r.s.e.client.ElasticSearchClient - Executing the tickets to post to Elastic Search
+14:52:42.723 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] creating index, cause [auto(bulk api)], shards [5]/[0], mappings []
+14:52:42.843 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] update_mapping [ticketdoc] (dynamic)
+14:52:45.854 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] deleting index
+14:52:45.878 [main] INFO  c.r.s.e.client.ElasticSearchClient - Executing the tickets to post to Elastic Search
+14:52:46.118 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] creating index, cause [auto(bulk api)], shards [5]/[0], mappings []
+14:52:46.250 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] update_mapping [ticketdoc] (dynamic)
+14:52:49.249 [main] INFO  c.r.s.e.client.ElasticSearchClient - Started Query Request Builder with query params [:]
+14:52:49.260 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] deleting index
+14:52:49.286 [main] INFO  c.r.s.e.client.ElasticSearchClient - Executing the tickets to post to Elastic Search
+14:52:49.426 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] creating index, cause [auto(bulk api)], shards [5]/[0], mappings []
+14:52:49.563 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] update_mapping [ticketdoc] (dynamic)
+14:52:52.558 [main] INFO  c.r.s.e.client.ElasticSearchClient - Started Query Request Builder with query params [limit:[20]]
+14:52:52.568 [elasticsearch[ticket.node]clusterService#updateTask-pool-11-thread-1] INFO  org.elasticsearch.cluster.metadata - [ticket.node] [ticketsearch] deleting index
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.194 sec
+14:52:52.591 [Thread-5] INFO  c.r.s.e.ElasticSearchClientFactoryBean - Closing ElasticSearch client
+14:52:52.596 [Thread-5] WARN  o.s.c.a.CommonAnnotationBeanPostProcessor - Invocation of destroy method failed on bean with name 'coreTicketOneTimeSyncJob': java.lang.NullPointerException: Cannot invoke method setEnabled() on null object
+14:52:52.597 [Thread-5] INFO  org.elasticsearch.node - [ticket.node] {elasticsearch/0.16.2}[29859]: stopping ...
+14:52:52.628 [Thread-5] INFO  org.elasticsearch.node - [ticket.node] {elasticsearch/0.16.2}[29859]: stopped
+14:52:52.628 [Thread-5] INFO  org.elasticsearch.node - [ticket.node] {elasticsearch/0.16.2}[29859]: closing ...
+14:52:52.642 [Thread-5] INFO  org.elasticsearch.node - [ticket.node] {elasticsearch/0.16.2}[29859]: closed
+
+Results :
+
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 0
+
+[JENKINS] Recording test results
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Search POM ........................................ SUCCESS [2.517s]
+[INFO] search ............................................ SUCCESS [1:22.328s]
+[INFO] cucumber .......................................... SUCCESS [4.748s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1:30.302s
+[INFO] Finished at: Thu Apr 11 14:52:59 UTC 2013
+[INFO] Final Memory: 56M/981M
+[INFO] ------------------------------------------------------------------------
+[JENKINS] Archiving /var/lib/jenkins/jobs/TSearchUnittest/workspace/cucumber/pom.xml to /var/lib/jenkins/jobs/TSearchUnittest/modules/com.rackspace.api$cucumber/builds/2013-04-11_14-51-24/archive/com.rackspace.api/cucumber/0.1.0_b54-SNAPSHOT/cucumber-0.1.0_b54-SNAPSHOT.pom
+[JENKINS] Archiving /var/lib/jenkins/jobs/TSearchUnittest/workspace/pom.xml to /var/lib/jenkins/jobs/TSearchUnittest/modules/com.rackspace.api$search-pom/builds/2013-04-11_14-51-24/archive/com.rackspace.api/search-pom/0.1.0_b54-SNAPSHOT/search-pom-0.1.0_b54-SNAPSHOT.pom
+[JENKINS] Archiving /var/lib/jenkins/jobs/TSearchUnittest/workspace/service/pom.xml to /var/lib/jenkins/jobs/TSearchUnittest/modules/com.rackspace.api$search/builds/2013-04-11_14-51-24/archive/com.rackspace.api/search/0.1.0_b54-SNAPSHOT/search-0.1.0_b54-SNAPSHOT.pom
+Waiting for Jenkins to finish collecting data

@@ -1,0 +1,476 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result>
+  <suites>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnitTest-tag/workspace/service/target/surefire-reports/TEST-com.rackspace.search.elasticsearch.SyncJobTest.xml</file>
+      <name>com.rackspace.search.elasticsearch.SyncJobTest</name>
+      <duration>0.018</duration>
+      <cases>
+        <case>
+          <duration>0.01</duration>
+          <className>com.rackspace.search.elasticsearch.SyncJobTest</className>
+          <testName>verifying health status for Ongoing sync job</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0080</duration>
+          <className>com.rackspace.search.elasticsearch.SyncJobTest</className>
+          <testName>verifying health status for Onetime sync job</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnitTest-tag/workspace/service/target/surefire-reports/TEST-com.rackspace.search.elasticsearch.client.ElasticSearchClientFactoryBeanTest.xml</file>
+      <name>com.rackspace.search.elasticsearch.client.ElasticSearchClientFactoryBeanTest</name>
+      <duration>0.366</duration>
+      <cases>
+        <case>
+          <duration>0.366</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientFactoryBeanTest</className>
+          <testName>is Index exist</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientFactoryBeanTest</className>
+          <testName>validate Index Settings</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnitTest-tag/workspace/service/target/surefire-reports/TEST-com.rackspace.search.elasticsearch.client.ElasticSearchClientTest.xml</file>
+      <name>com.rackspace.search.elasticsearch.client.ElasticSearchClientTest</name>
+      <duration>34.121</duration>
+      <cases>
+        <case>
+          <duration>3.442</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientTest</className>
+          <testName>post bulk data</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.462</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientTest</className>
+          <testName>get All Tickets</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.964</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientTest</className>
+          <testName>test search tickets for string filed user with single &amp; multiple values and negation</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.373</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientTest</className>
+          <testName>test search tickets with a range filter and negated range filter</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.452</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientTest</className>
+          <testName>test sort tickets with single &amp; multiple values</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.239</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientTest</className>
+          <testName>test sort tickets for Priority field without sorting order</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.302</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientTest</className>
+          <testName>should throw Bad Request If the limit value has less than 0</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.361</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientTest</className>
+          <testName>if there is no value set for limit in the QueryParams\u002C should return default size as 100 </testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.245</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientTest</className>
+          <testName>if there is a valid value set to limit in the QueryParams\u002C should return given size</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.281</duration>
+          <className>com.rackspace.search.elasticsearch.client.ElasticSearchClientTest</className>
+          <testName>if limit is greater than maxpagesize\u002C should return given size</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnitTest-tag/workspace/service/target/surefire-reports/TEST-com.rackspace.search.endpoint.AdminResourceTest.xml</file>
+      <name>com.rackspace.search.endpoint.AdminResourceTest</name>
+      <duration>1.475</duration>
+      <cases>
+        <case>
+          <duration>1.382</duration>
+          <className>com.rackspace.search.endpoint.AdminResourceTest</className>
+          <testName>Job should stop .. If the request Json has is_enabled = false</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0060</duration>
+          <className>com.rackspace.search.endpoint.AdminResourceTest</className>
+          <testName>Job already running .. should throw exception</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.087</duration>
+          <className>com.rackspace.search.endpoint.AdminResourceTest</className>
+          <testName>sync job not exists.. create new one</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnitTest-tag/workspace/service/target/surefire-reports/TEST-com.rackspace.search.gateway.account.AccountGatewayTest.xml</file>
+      <name>com.rackspace.search.gateway.account.AccountGatewayTest</name>
+      <duration>0.0</duration>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.gateway.account.AccountGatewayTest</className>
+          <testName>should get account data</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.gateway.account.AccountGatewayTest</className>
+          <testName>get accounts -- should throw exception</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnitTest-tag/workspace/service/target/surefire-reports/TEST-com.rackspace.search.gateway.core.CoreAuthGatewayTest.xml</file>
+      <name>com.rackspace.search.gateway.core.CoreAuthGatewayTest</name>
+      <duration>0.0010</duration>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.gateway.core.CoreAuthGatewayTest</className>
+          <testName>should get authtoken</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0010</duration>
+          <className>com.rackspace.search.gateway.core.CoreAuthGatewayTest</className>
+          <testName>should not call core when authtoken is valid</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnitTest-tag/workspace/service/target/surefire-reports/TEST-com.rackspace.search.gateway.core.CoreTicketGatewayTest.xml</file>
+      <name>com.rackspace.search.gateway.core.CoreTicketGatewayTest</name>
+      <duration>0.168</duration>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.gateway.core.CoreTicketGatewayTest</className>
+          <testName>should get tickets</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.168</duration>
+          <className>com.rackspace.search.gateway.core.CoreTicketGatewayTest</className>
+          <testName>should get tickets -- session key expired</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.gateway.core.CoreTicketGatewayTest</className>
+          <testName>get core tickets -- should throw exception</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnitTest-tag/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.JobServiceTest.xml</file>
+      <name>com.rackspace.search.service.JobServiceTest</name>
+      <duration>18.808</duration>
+      <cases>
+        <case>
+          <duration>14.421</duration>
+          <className>com.rackspace.search.service.JobServiceTest</className>
+          <testName>should get scheduled job details</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>2.009</duration>
+          <className>com.rackspace.search.service.JobServiceTest</className>
+          <testName>should return null If job is not exist</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>2.378</duration>
+          <className>com.rackspace.search.service.JobServiceTest</className>
+          <testName>get All jobs</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnitTest-tag/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.TicketSearchServiceTest.xml</file>
+      <name>com.rackspace.search.service.TicketSearchServiceTest</name>
+      <duration>7.092</duration>
+      <cases>
+        <case>
+          <duration>5.071</duration>
+          <className>com.rackspace.search.service.TicketSearchServiceTest</className>
+          <testName>should get ticket</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>2.021</duration>
+          <className>com.rackspace.search.service.TicketSearchServiceTest</className>
+          <testName>should throw not found exception</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnitTest-tag/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.account.AccountOnetimeSyncActorTest.xml</file>
+      <name>com.rackspace.search.service.account.AccountOnetimeSyncActorTest</name>
+      <duration>0.0</duration>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.account.AccountOnetimeSyncActorTest</className>
+          <testName>should post data to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.account.AccountOnetimeSyncActorTest</className>
+          <testName>multiple messages to actor result in posting multiple payloads to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.rackspace.search.service.account.AccountOnetimeSyncActorTest</className>
+          <testName>should test when completed message is sent</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnitTest-tag/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.account.AccountOnetimeSyncJobTest.xml</file>
+      <name>com.rackspace.search.service.account.AccountOnetimeSyncJobTest</name>
+      <duration>0.017</duration>
+      <cases>
+        <case>
+          <duration>0.017</duration>
+          <className>com.rackspace.search.service.account.AccountOnetimeSyncJobTest</className>
+          <testName>should test starting job</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnitTest-tag/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.account.AccountOngoingSyncActorTest.xml</file>
+      <name>com.rackspace.search.service.account.AccountOngoingSyncActorTest</name>
+      <duration>0.018</duration>
+      <cases>
+        <case>
+          <duration>0.0020</duration>
+          <className>com.rackspace.search.service.account.AccountOngoingSyncActorTest</className>
+          <testName>should post data to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0050</duration>
+          <className>com.rackspace.search.service.account.AccountOngoingSyncActorTest</className>
+          <testName>multiple messages to actor result in posting multiple payloads to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.011</duration>
+          <className>com.rackspace.search.service.account.AccountOngoingSyncActorTest</className>
+          <testName>should post data to searchClient If syncJob status is not STOPPED</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnitTest-tag/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.account.AccountOngoingSyncJobTest.xml</file>
+      <name>com.rackspace.search.service.account.AccountOngoingSyncJobTest</name>
+      <duration>0.185</duration>
+      <cases>
+        <case>
+          <duration>0.099</duration>
+          <className>com.rackspace.search.service.account.AccountOngoingSyncJobTest</className>
+          <testName>should test starting job</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.077</duration>
+          <className>com.rackspace.search.service.account.AccountOngoingSyncJobTest</className>
+          <testName>should test sync accounts</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0070</duration>
+          <className>com.rackspace.search.service.account.AccountOngoingSyncJobTest</className>
+          <testName>ongoing sync should not go beyond threshold days into past</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0020</duration>
+          <className>com.rackspace.search.service.account.AccountOngoingSyncJobTest</className>
+          <testName>ongoing sync should move forward with new Synctime when within threshold even if it is in the past</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnitTest-tag/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.core.CoreTicketOnetimeSyncActorTest.xml</file>
+      <name>com.rackspace.search.service.core.CoreTicketOnetimeSyncActorTest</name>
+      <duration>0.69</duration>
+      <cases>
+        <case>
+          <duration>0.677</duration>
+          <className>com.rackspace.search.service.core.CoreTicketOnetimeSyncActorTest</className>
+          <testName>should post data to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0070</duration>
+          <className>com.rackspace.search.service.core.CoreTicketOnetimeSyncActorTest</className>
+          <testName>multiple messages to actor result in posting multiple payloads to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0060</duration>
+          <className>com.rackspace.search.service.core.CoreTicketOnetimeSyncActorTest</className>
+          <testName>should test when completed message is sent</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnitTest-tag/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.core.CoreTicketOnetimeSyncJobTest.xml</file>
+      <name>com.rackspace.search.service.core.CoreTicketOnetimeSyncJobTest</name>
+      <duration>0.228</duration>
+      <cases>
+        <case>
+          <duration>0.228</duration>
+          <className>com.rackspace.search.service.core.CoreTicketOnetimeSyncJobTest</className>
+          <testName>should test starting job</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnitTest-tag/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.core.CoreTicketOngoingSyncActorTest.xml</file>
+      <name>com.rackspace.search.service.core.CoreTicketOngoingSyncActorTest</name>
+      <duration>0.021000002</duration>
+      <cases>
+        <case>
+          <duration>0.011</duration>
+          <className>com.rackspace.search.service.core.CoreTicketOngoingSyncActorTest</className>
+          <testName>should post data to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0060</duration>
+          <className>com.rackspace.search.service.core.CoreTicketOngoingSyncActorTest</className>
+          <testName>multiple messages to actor result in posting multiple payloads to searchClient</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0040</duration>
+          <className>com.rackspace.search.service.core.CoreTicketOngoingSyncActorTest</className>
+          <testName>should post data to searchClient If syncJob status is not STOPPED</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnitTest-tag/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.core.CoreTicketOngoingSyncJobTest.xml</file>
+      <name>com.rackspace.search.service.core.CoreTicketOngoingSyncJobTest</name>
+      <duration>0.138</duration>
+      <cases>
+        <case>
+          <duration>0.138</duration>
+          <className>com.rackspace.search.service.core.CoreTicketOngoingSyncJobTest</className>
+          <testName>should test starting job</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/var/lib/jenkins/jobs/TSearchUnitTest-tag/workspace/service/target/surefire-reports/TEST-com.rackspace.search.service.core.CoreTicketProcessorTest.xml</file>
+      <name>com.rackspace.search.service.core.CoreTicketProcessorTest</name>
+      <duration>0.079</duration>
+      <cases>
+        <case>
+          <duration>0.079</duration>
+          <className>com.rackspace.search.service.core.CoreTicketProcessorTest</className>
+          <testName>make sure date is converted to UTC time zone</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>63.42499</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

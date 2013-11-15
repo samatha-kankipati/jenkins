@@ -1,0 +1,34 @@
+Changes in branch origin/master, between 74c70aa25c0b18703ff9cd3b1bc1b1147b0d9c0a and de87852f1cc541d951d3df3e4b5b69148b184665
+commit de87852f1cc541d951d3df3e4b5b69148b184665
+tree d7747a46f672ca3e36717bc4d82b5e6bc933139c
+parent f83b3a50bdc152398b65c6fca4796da2e2953ab8
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1380912517 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1380912517 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 749183832fb478c54527ccb3f15746daa8ef1c1a 0af29da1fe539bf858114c9d8ad3e8ee4177663c M	cucumber/pom.xml
+:100644 100644 fe46fd856b25d25b35359087a42acc3225860783 6b52ebedf39f341dcee139ff54c1eb503a34b235 M	pom.xml
+:100644 100644 571faf1b56973135302eb493c7fa95e9a75b7c0e a97b8dc3086ea7e6a6fd5b4837c1e46eff9323b6 M	service/pom.xml
+
+commit f83b3a50bdc152398b65c6fca4796da2e2953ab8
+tree 38e9755b7d2b3919770210f06c9fc24b6ee6ae80
+parent 31fcaf1a918f99a69e54d5884b50540fb61baf0d
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1380912509 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1380912509 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b181
+
+:100644 100644 eb07f5cdcc434f378336aa1923f56c329600eb40 749183832fb478c54527ccb3f15746daa8ef1c1a M	cucumber/pom.xml
+:100644 100644 c62e6f04c91b40904dd90dc36e89fd5a455f14b4 fe46fd856b25d25b35359087a42acc3225860783 M	pom.xml
+:100644 100644 466972b9ca160ccf0a6da15f08269030bad7ed6e 571faf1b56973135302eb493c7fa95e9a75b7c0e M	service/pom.xml
+
+commit 9bd208605875942b6b4f87969a85ee503446ed33
+tree ab010fb3d40a2f7dd086485476d52accebcff343
+parent 1db37f9b2fbe21bab252291d697ebc021fbb6051
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380910030 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380910030 -0500
+
+    [B-57444]: fixing error
+
+:100644 100644 f3380481e664aa4cbf988e94a875b7747f770050 211e0a555d6c51dc5c53d2056f1f3462df97a0ac M	service/src/main/groovy/com/rackspace/search/service/TicketSearchService.groovy

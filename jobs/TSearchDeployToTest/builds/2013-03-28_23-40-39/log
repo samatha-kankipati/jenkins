@@ -1,0 +1,120 @@
+Started by upstream project "[8mha:AAAApx+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgZp/az8JP2Q4NTEouSMgNSitPyi3KDUnNTE4lR9AB1RPVXQAAAA[0mTSearchPerformRelease" build number [8mha:AAAAqR+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZZ/az8JP2Q4NTEouSMgNSitPyi3KDUnNTE4lR9MxMAJ5Ql2tIAAAA=[0m64
+originally caused by:
+ Started by upstream project "[8mha:AAAAmx+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH3nnPzSFGdHN1d9ALwYXv7EAAAA[0mCloudCAFE" build number [8mha:AAAAnR+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxmoBn6WflJ+s45+aUpzo5urvpGRhYAlqMqbMcAAAA=[0m228
+ originally caused by:
+  Started by upstream project "[8mha:AAAAqB+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYZ/az8JP2Q4NTEouQMt9K85JLM/LzEnJDU4pJifQCSGu4I0QAAAA==[0mTSearchFunctionalTests" build number [8mha:AAAAqh+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgY5/az8JP2Q4NTEouQMt9K85JLM/LzEnJDU4pJifSMTAO4neJnTAAAA[0m24
+  originally caused by:
+   Started by upstream project "[8mha:AAAAoR+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JP2Q4NTEouSM0LzMkpDU4hJ9ANsqA0/KAAAA[0mTSearchUnitTest" build number [8mha:AAAAox+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZx/az8JP2Q4NTEouSM0LzMkpDU4hJ9QwsAU12FAswAAAA=[0m18
+   originally caused by:
+    Started by an SCM change
+Building in workspace /var/lib/jenkins/jobs/TSearchDeployToTest/workspace
+Checkout:workspace / /var/lib/jenkins/jobs/TSearchDeployToTest/workspace - hudson.remoting.LocalChannel@68443a3
+Using strategy: Default
+Last Built Revision: Revision eb05cf2335733567b25fc6f6056f273b1e74cc1a (origin/master)
+Fetching changes from 1 remote Git repository
+Fetching upstream changes from origin
+Commencing build of Revision e6de3fbfedfba592e0c22321142c4ea3a52e4d7d (origin/master)
+Checking out Revision e6de3fbfedfba592e0c22321142c4ea3a52e4d7d (origin/master)
+[workspace] $ /bin/sh -xe /tmp/hudson2770711285609910163.sh
++ sh /var/lib/jenkins/jobs/TSearchDeployToTest/workspace/service/src/main/scripts/deploy-application.sh 0.1.0_b34 test
+environment in warhammer is test
+environment is test
+======================= Starting Deployment =======================
+Version:	'0.1.0_b34'
+Server:		'10.14.209.119'
+===================================================================
+
+
+Using temporary directory '/tmp/deploy.14188'.
+
+
+Fetching files...
+--2013-03-28 23:40:40--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b34/search-0.1.0_b34.war
+Resolving d-build1.iad2.corp.rackspace.com... 10.4.39.20
+Connecting to d-build1.iad2.corp.rackspace.com|10.4.39.20|:8100... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 30603002 (29M) [application/octet-stream]
+Saving to: `/tmp/deploy.14188/search-0.1.0_b34.war'
+
+     0K ........ ........ ........ ........ ........ ........ 10% 4.15M 6s
+  3072K ........ ........ ........ ........ ........ ........ 20% 8.39M 4s
+  6144K ........ ........ ........ ........ ........ ........ 30% 8.36M 3s
+  9216K ........ ........ ........ ........ ........ ........ 41% 8.35M 3s
+ 12288K ........ ........ ........ ........ ........ ........ 51% 9.14M 2s
+ 15360K ........ ........ ........ ........ ........ ........ 61% 8.38M 2s
+ 18432K ........ ........ ........ ........ ........ ........ 71% 8.38M 1s
+ 21504K ........ ........ ........ ........ ........ ........ 82% 8.39M 1s
+ 24576K ........ ........ ........ ........ ........ ........ 92% 9.17M 0s
+ 27648K ........ ........ ........ ........ ..               100% 7.08M=3.8s
+
+2013-03-28 23:40:44 (7.61 MB/s) - `/tmp/deploy.14188/search-0.1.0_b34.war' saved [30603002/30603002]
+
+--2013-03-28 23:40:44--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b34/search-0.1.0_b34.war.md5
+Reusing existing connection to d-build1.iad2.corp.rackspace.com:8100.
+HTTP request sent, awaiting response... 200 OK
+Length: 32 [text/plain]
+Saving to: `/tmp/deploy.14188/search-0.1.0_b34.war.md5'
+
+     0K                                                      100% 3.05M=0s
+
+2013-03-28 23:40:44 (3.05 MB/s) - `/tmp/deploy.14188/search-0.1.0_b34.war.md5' saved [32/32]
+
+--2013-03-28 23:40:44--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b34/search-0.1.0_b34-config.zip
+Reusing existing connection to d-build1.iad2.corp.rackspace.com:8100.
+HTTP request sent, awaiting response... 200 OK
+Length: 18222 (18K) [application/zip]
+Saving to: `/tmp/deploy.14188/search-0.1.0_b34-config.zip'
+
+     0K                                                      100%  138M=0s
+
+2013-03-28 23:40:44 (138 MB/s) - `/tmp/deploy.14188/search-0.1.0_b34-config.zip' saved [18222/18222]
+
+--2013-03-28 23:40:44--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b34/search-0.1.0_b34-config.zip.md5
+Reusing existing connection to d-build1.iad2.corp.rackspace.com:8100.
+HTTP request sent, awaiting response... 200 OK
+Length: 32 [text/plain]
+Saving to: `/tmp/deploy.14188/search-0.1.0_b34-config.zip.md5'
+
+     0K                                                      100% 2.77M=0s
+
+2013-03-28 23:40:44 (2.77 MB/s) - `/tmp/deploy.14188/search-0.1.0_b34-config.zip.md5' saved [32/32]
+
+FINISHED --2013-03-28 23:40:44--
+Downloaded: 4 files, 29M in 3.8s (7.61 MB/s)
+...done.
+
+
+Verifying MD5s...
+OK 638b28d80a420de5411993eb38bdda38  /tmp/deploy.14188/search-0.1.0_b34.war
+OK 61d25d2cdee43b847fa5efdc657ad4ad  /tmp/deploy.14188/search-0.1.0_b34-config.zip
+done.
+
+
+Copying files to server '10.14.209.119'...
+...done.
+
+Verifying MD5s...
+OK 638b28d80a420de5411993eb38bdda38  10.14.209.119:/home/search/artifacts/search-0.1.0_b34.war
+OK 61d25d2cdee43b847fa5efdc657ad4ad  10.14.209.119:/home/search/artifacts/search-0.1.0_b34-config.zip
+...done.
+
+
+
+Deploying to server '10.14.209.119'...Waiting for the domain to stop ....
+Command stop-domain executed successfully.
+done.
+Waiting for search to start .........................................
+Successfully started the domain : search
+domain  Location: /usr/local/glassfish/glassfish/domains/search
+Log File: /usr/local/glassfish/glassfish/domains/search/logs/server.log
+Admin Port: 4848
+Command start-domain executed successfully.
+
+
+
+Cleaning up...done.
+
+
+======================= Deployment Complete =======================
+
+Finished: SUCCESS

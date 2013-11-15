@@ -1,0 +1,64 @@
+Changes in branch origin/master, between f12773bcec159e0eb1979c6a11474d15313d35d6 and 261ecc618cc0ae0974eed5a92e726f6e4de9ebc2
+commit c50d2b2a69c94d7ce17cc5f6f60f2bc1cb46e82b
+tree af87545110a0d844d6efc408e5861b63ed45fec5
+parent c9e67a25b730fd92a7b5371ec99ca825b29da948
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1365800517 -0500
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1365800517 -0500
+
+    B-46520: logging elastic search post data  to new log file
+
+:100644 100644 d25276494f967588ec9a7f49b8aafa029e9f1553 372283f476395d352b92f89ac395f45ec1634ee8 M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy
+:000000 100644 0000000000000000000000000000000000000000 ddc7349020e61ea7d28f46ff80f59c8c1596fbd5 A	service/src/main/groovy/com/rackspace/search/logging/ElasticSearchLogger.groovy
+:000000 100644 0000000000000000000000000000000000000000 a8b0763659855763d9b7f6690584cdad654fec2f A	service/src/main/java/com/rackspace/search/logging/ElasticSearchLogFilter.java
+:100644 100644 5e4bacf66d6ef3740ee141ba9c68b628957a4189 96204f59140f89e697630950613d79d4f2499348 M	service/src/main/java/com/rackspace/search/logging/ResponseLogFilter.java
+:100644 100644 9df91fa76783bd77532336a3a9bdd6ce977bffd9 b66e909a40c94279df0717f4e040ea430895a6d2 M	service/src/main/resources/logback.xml
+:100644 100644 8a74ceb1529ea61d741ab80dfc49183b48675248 48d765ca191cd416ec9c0a4efa4f452f26b79a63 M	service/src/test/resources/logback-jetty.xml
+
+commit c9e67a25b730fd92a7b5371ec99ca825b29da948
+tree 8e8d02172c5ab9915d8cf79e80821f23dd310e91
+parent 628300e511732d2e91156ebdc949733ccde94d8b
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1365696842 -0500
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1365696842 -0500
+
+    B-46520: logging data post failures to new log file
+
+:100644 100644 86c643b940434e84f04af66ab12fe72df1c7f3a4 a9e476e58ad9fa369ddbb9cbc76ae248039a4d41 M	service/src/main/java/com/rackspace/search/logging/FailureLogFilter.java
+
+commit 628300e511732d2e91156ebdc949733ccde94d8b
+tree c40440ae75db0f581cc2cd1d6b5ef8cd06ecff35
+parent b231373c8eff189390c1cb2dfd718fe700b14e1c
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1365696705 -0500
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1365696705 -0500
+
+    B-46520: logging data post failures to new log file
+
+:100644 100644 a77695c6ea0a08793a436e65dfe39a19b4123f8d d25276494f967588ec9a7f49b8aafa029e9f1553 M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy
+:000000 100644 0000000000000000000000000000000000000000 ce1188bedaef36ffcaef3ad10909ed48e8169f17 A	service/src/main/groovy/com/rackspace/search/logging/FailureLogger.groovy
+:100644 000000 d6cfce2cf7ede695849cc3927a7be59d40d7b4bc 0000000000000000000000000000000000000000 D	service/src/main/java/com/rackspace/search/exception/DataPostFailureException.java
+:000000 100644 0000000000000000000000000000000000000000 86c643b940434e84f04af66ab12fe72df1c7f3a4 A	service/src/main/java/com/rackspace/search/logging/FailureLogFilter.java
+:100644 100644 99ac7ffcf1ef7eee9711d8de6d6b171acb305868 9df91fa76783bd77532336a3a9bdd6ce977bffd9 M	service/src/main/resources/logback.xml
+:100644 100644 6e0422d8d28ab9ed4be3c6d536140a10bdd79ed0 8a74ceb1529ea61d741ab80dfc49183b48675248 M	service/src/test/resources/logback-jetty.xml
+
+commit b231373c8eff189390c1cb2dfd718fe700b14e1c
+tree 1cb5ecdad1c3a4019986e8aa6cbbc1bfc7772e8a
+parent 8170d940f7fba6011628708dcddd9bee587632a8
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1365692243 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1365692243 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 bf45e63a7d69e0dfa3113c9d8403681a35954a64 5a8a85e9dab3835a2d8e076d962aa25cfed4135e M	cucumber/pom.xml
+:100644 100644 e82854b7f4ffc5c04ecc27c83ccdf9448f5abe9c 5e96249553fe3343a7f390551462763b6f6cb932 M	pom.xml
+:100644 100644 0332c1ff7ed26d82e2f15bbdc18790aaac692c3a 2d5803f2ad7a2eeb07a92ffc6bf16376adf64c3c M	service/pom.xml
+
+commit 8170d940f7fba6011628708dcddd9bee587632a8
+tree f1a54c5e1714f194c560ae6517099f99791e95f5
+parent f12773bcec159e0eb1979c6a11474d15313d35d6
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1365692238 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1365692238 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b54
+
+:100644 100644 91849f100f0421a7920e686c3a09c6cbc258416e bf45e63a7d69e0dfa3113c9d8403681a35954a64 M	cucumber/pom.xml
+:100644 100644 de20ee3b1995191cff27b766499718fffb978e1e e82854b7f4ffc5c04ecc27c83ccdf9448f5abe9c M	pom.xml
+:100644 100644 f3e1fa5c3c984a81b6ca9d27a97d55a90deef404 0332c1ff7ed26d82e2f15bbdc18790aaac692c3a M	service/pom.xml

@@ -1,0 +1,6 @@
+epydoc
+unittest2
+requests
+python-dateutil
+paramiko
+python-novaclient

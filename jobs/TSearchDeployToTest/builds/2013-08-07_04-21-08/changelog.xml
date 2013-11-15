@@ -1,0 +1,99 @@
+Changes in branch origin/master, between 327e639d480fea6adfb9289cad3fb8c1d319de63 and f3959484330d1313578efb839d8b224e69eec403
+commit f3959484330d1313578efb839d8b224e69eec403
+tree f727693eb02557c02ab4928dffcc6ace64b18b42
+parent 83df67de6a877a8bd1e6c33e3e82a0f784de1b6d
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1375849066 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1375849066 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 2368b2b8e61eb1cc67105ccbad2219c08b1bfdb5 9ad53730b1688bfe4ee04404059d3c3e488c6df8 M	cucumber/pom.xml
+:100644 100644 93fd82294a3c2ca5d1f45b886519a2145f451010 86b40d2e317d0b007d75241e0aa9ce4b5ec19268 M	pom.xml
+:100644 100644 33311d88c979894592ac2b287e30865ef15947d9 f31fdbdc0961c499b1adeae03c11d0e121003f29 M	service/pom.xml
+
+commit 83df67de6a877a8bd1e6c33e3e82a0f784de1b6d
+tree 92d6172d008bd77dba110a4930b8286aebb403bc
+parent 0354602fdfe96c16d302c2bee680b491bf406340
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1375849061 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1375849061 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b145
+
+:100644 100644 7ff4736c76f2d2b92aec70a06bea0a5ca8355bdc 2368b2b8e61eb1cc67105ccbad2219c08b1bfdb5 M	cucumber/pom.xml
+:100644 100644 694f32eec1be44b424b689824613bc4e770db9aa 93fd82294a3c2ca5d1f45b886519a2145f451010 M	pom.xml
+:100644 100644 97debf1f39ffdf93e4cc2657600bdcdb14b2b675 33311d88c979894592ac2b287e30865ef15947d9 M	service/pom.xml
+
+commit 292b0678be85b4fc31b87293489ba9cd3ef3bf82
+tree f35a4372d50cc652b81cbab61bf9e52ae40d70a2
+parent 327e639d480fea6adfb9289cad3fb8c1d319de63
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1375819158 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1375819158 -0500
+
+    [B-54190] : adding bigdesk, paramedi ES plgins. updated loadbalancer config to better serve these plugins.
+
+:100644 100644 9420aea4aa09de0eca7d227d768795e8b1f01f70 97debf1f39ffdf93e4cc2657600bdcdb14b2b675 M	service/pom.xml
+:100644 100644 d66d8453e63958c975330e1890278d690330664d c1a1edec034329fc5f2b7c9c9d3bea423a7ae500 M	service/src/main/webapp/WEB-INF/web.xml
+:000000 100644 0000000000000000000000000000000000000000 063cc529cf23628bf599cd4085d25ab433416c63 A	service/src/main/webapp/_plugin/bigdesk.zip
+:000000 100644 0000000000000000000000000000000000000000 ac13d3b12c5155410f469938fc16d9a0824fe2c2 A	service/src/main/webapp/_plugin/paramedic.zip
+
+commit fd6c9fbaf097b518a611e87d61d7a31cae249541
+tree 09d1644889805f462a681ab72a5e8f9c668db77b
+parent e248b7a7d0ba58f58ad90e0f1387f23daf81b91c
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1375796114 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1375796114 -0500
+
+    [B-49775]: fixing review comments
+
+:100644 100644 55ed6c152363d09840e60569cb1b957d73000e05 e42e05aae1081aa2b9fdae9b7b8efbc85b80bab9 M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/QueryParser.groovy
+
+commit e248b7a7d0ba58f58ad90e0f1387f23daf81b91c
+tree af412db5f5f592ebac2550bb7f4ee7fb1b4ec461
+parent 637cd3309ab9cc9b9e1316f10c8320d9887a7fc3
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1375795499 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1375795499 -0500
+
+    [B-49775]: fixing review comments
+
+:100644 100644 33950ec29bf6220316e25197d78fbb8b2571191b 55ed6c152363d09840e60569cb1b957d73000e05 M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/QueryParser.groovy
+
+commit 637cd3309ab9cc9b9e1316f10c8320d9887a7fc3
+tree f6e5200fa280531efc46cad3b4f9109e8e7ed0fd
+parent 717685bb62b5f36caca304e53a3a8c087a01400c
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1375741231 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1375741231 -0500
+
+    [B-49775]: fixing review comments
+
+:100644 100644 18460c59fa30b479c54df2be4c2a9c702e2865ae 33950ec29bf6220316e25197d78fbb8b2571191b M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/QueryParser.groovy
+
+commit 717685bb62b5f36caca304e53a3a8c087a01400c
+tree c8ab6fed6efda41f4b298555cdaeb64144ea08b2
+parent 327e639d480fea6adfb9289cad3fb8c1d319de63
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1375466841 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1375466841 -0500
+
+    [B-49775]: fixing complex queries
+
+:100644 100644 693d39496a09b6d55ddea336f34be1dd6e0e3fd8 18460c59fa30b479c54df2be4c2a9c702e2865ae M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/QueryParser.groovy
+
+commit 80c34a5e82e4f0a3781a1dd3c235a1f3253db8a2
+tree 7bad628a9f578f4efb1f669179639e95b6198ccf
+parent 80053572d5462d43ae3302135c8f7aa0a54d5dc8
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1375308968 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1375308968 -0500
+
+    [B-52433]: fixing pagination
+
+:100644 100644 28b8677172b907a0ff6159da7f6b8f29b3a33a93 a3866524c14b90b9f5aeedd23680130616c0d8f9 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+
+commit b90423c59cb6963d9f3af4ace399364d406e507b
+tree 050237007207923cffd86bc6e71c3d9d7221ba06
+parent 5881294dc4c74595fd3bcf5ccfa348fd50a5977f
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1374272258 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1374272258 -0500
+
+    [ B-52433 ] :  fixing pagination for same milliseconds tickets
+
+:100644 100644 f9ff791e1f2c980a3686464a7c5149907cb90c01 0d237c7f3bcdf133ac5578ff461467da3dbd7baa M	service/src/main/groovy/com/rackspace/search/Constants.groovy
+:100644 100644 c82a1830c1da5e593ed7a72cc2d05d62b816ae82 8afec9afe69e81197c762549b0cc28d4c5bac8dd M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreDBGateway.groovy
+:100644 100644 ffab68f50d8ae1d35b8bdc788d0cec6298c93b8b 5ed5dffc187a99ac0eb12d2deb803b0709d4252a M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy

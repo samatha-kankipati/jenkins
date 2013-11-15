@@ -1,0 +1,613 @@
+2013-11-15 06:28:00,118: DEBUG: root: 
+========================================================
+SETTING UP testrepo.tq_search.core_ongoing_sync.test_core_ongoing_sync.TestCoreOngoingSync at 2013-11-15 06:28:00.118695
+========================================================
+2013-11-15 06:28:00,120: ERROR: ccengine.domain.configuration.TQSearchConfig: No option 'account_service_level' in section: 'gate'
+2013-11-15 06:28:00,120: ERROR: ccengine.domain.configuration.TQSearchConfig: No option 'account_territory_code' in section: 'gate'
+2013-11-15 06:28:00,123: ERROR: ccengine.domain.configuration.AuthConfig: No option 'api_key' in section: 'auth'
+2013-11-15 06:28:00,124: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.auth.auth_client.AuthClient object at 0x126a3790>, 'POST', 'https://ws.staging.core.rackspace.com/ctkapi//login/melissa.biles') {'headers': {'Content-Type': 'application/json', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'data': '{"password": "qwerty"}'}
+2013-11-15 06:28:00,135: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): ws.staging.core.rackspace.com
+2013-11-15 06:28:00,395: DEBUG: requests.packages.urllib3.connectionpool: "POST /ctkapi//login/melissa.biles HTTP/1.1" 200 None
+2013-11-15 06:28:00,458: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://ws.staging.core.rackspace.com/ctkapi//login/melissa.biles
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'22', 'Content-Type': 'application/json', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : {"password": "qwerty"}
+
+2013-11-15 06:28:00,459: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.334238052368
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:27:56 GMT', 'transfer-encoding': 'chunked', 'content-type': 'application/json', 'server': 'Apache/2.2.3 (Red Hat)'})
+response body    : {"authtoken": "0cf908cb7c16229fa7daaa915e5098c2"}
+-------------------------------------------------------------------------------
+2013-11-15 06:28:00,467: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.core.ticket_api.TicketAPIClient object at 0x126a3dd0>, 'POST', 'https://ws.staging.core.rackspace.com/ctkapi/query') {'headers': {'Content-Type': 'application/json', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'data': '[{"load_arg": "11", "args": ["11", "11206", "1", "1", "\\"Generic core ticket\\"", "\\"Ticket Text Message\\""], "class": "Account.Account", "result_map": {"assignee.name": "assignee.name", "number": "number", "status.name": "status.name", "last_public_response_date": "last_public_response_date", "subject": "subject", "queue.name": "queue.name", "created": "created", "account.number": "account.number", "modified": "modified", "category.name": "category.name", "priority": "priority.id"}, "method": "addTicket"}]'}
+2013-11-15 06:28:00,468: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): ws.staging.core.rackspace.com
+2013-11-15 06:28:10,880: DEBUG: requests.packages.urllib3.connectionpool: "POST /ctkapi/query HTTP/1.1" 200 None
+2013-11-15 06:28:10,947: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://ws.staging.core.rackspace.com/ctkapi/query
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'511', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Content-Type': 'application/json'})
+request body    : [{"load_arg": "11", "args": ["11", "11206", "1", "1", "\"Generic core ticket\"", "\"Ticket Text Message\""], "class": "Account.Account", "result_map": {"assignee.name": "assignee.name", "number": "number", "status.name": "status.name", "last_public_response_date": "last_public_response_date", "subject": "subject", "queue.name": "queue.name", "created": "created", "account.number": "account.number", "modified": "modified", "category.name": "category.name", "priority": "priority.id"}, "method": "addTicket"}]
+
+2013-11-15 06:28:10,947: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 10.4796760082
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:27:56 GMT', 'transfer-encoding': 'chunked', 'content-type': 'application/json', 'server': 'Apache/2.2.3 (Red Hat)'})
+response body    : [{"count": 1, "load_arg": "11", "success": true, "method": "addTicket", "limit": 1, "result": {"queue.name": "Engineering - SAT2", "created": "2013-11-15 00:27:57", "account.number": "11", "assignee.name": null, "number": "131115-00015", "status.name": "New", "modified": "2013-11-15 00:27:59", "priority": 1, "last_public_response_date": null, "category.name": "RMA", "subject": "\"Generic core ticket\""}, "offset": 0, "class": "Account.Account"}]
+-------------------------------------------------------------------------------
+2013-11-15 06:28:10,948: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.core.ticket_api.TicketAPIClient object at 0x126a3dd0>, 'POST', 'https://ws.staging.core.rackspace.com/ctkapi/query') {'headers': {'Content-Type': 'application/json', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'data': '[{"load_arg": "942261", "args": ["11", "11206", "1", "1", "\\"Generic core ticket\\"", "\\"Ticket Text Message\\""], "class": "Account.Account", "result_map": {"assignee.name": "assignee.name", "number": "number", "status.name": "status.name", "last_public_response_date": "last_public_response_date", "subject": "subject", "queue.name": "queue.name", "created": "created", "account.number": "account.number", "modified": "modified", "category.name": "category.name", "priority": "priority.id"}, "method": "addTicket"}]'}
+2013-11-15 06:28:10,950: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): ws.staging.core.rackspace.com
+2013-11-15 06:28:13,958: DEBUG: requests.packages.urllib3.connectionpool: "POST /ctkapi/query HTTP/1.1" 200 None
+2013-11-15 06:28:14,039: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://ws.staging.core.rackspace.com/ctkapi/query
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'515', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Content-Type': 'application/json'})
+request body    : [{"load_arg": "942261", "args": ["11", "11206", "1", "1", "\"Generic core ticket\"", "\"Ticket Text Message\""], "class": "Account.Account", "result_map": {"assignee.name": "assignee.name", "number": "number", "status.name": "status.name", "last_public_response_date": "last_public_response_date", "subject": "subject", "queue.name": "queue.name", "created": "created", "account.number": "account.number", "modified": "modified", "category.name": "category.name", "priority": "priority.id"}, "method": "addTicket"}]
+
+2013-11-15 06:28:14,040: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 3.09066510201
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:28:07 GMT', 'transfer-encoding': 'chunked', 'content-type': 'application/json', 'server': 'Apache/2.2.3 (Red Hat)'})
+response body    : [{"count": 1, "load_arg": "942261", "success": true, "method": "addTicket", "limit": 1, "result": {"queue.name": "Engineering - SAT2", "created": "2013-11-15 00:28:07", "account.number": "942261", "assignee.name": null, "number": "131115-00016", "status.name": "New", "modified": "2013-11-15 00:28:09", "priority": 1, "last_public_response_date": null, "category.name": "RMA", "subject": "\"Generic core ticket\""}, "offset": 0, "class": "Account.Account"}]
+-------------------------------------------------------------------------------
+2013-11-15 06:28:14,040: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.core.ticket_api.TicketAPIClient object at 0x126a3dd0>, 'POST', 'https://ws.staging.core.rackspace.com/ctkapi/query') {'headers': {'Content-Type': 'application/json', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'data': '[{"load_arg": "11", "args": ["11", "11206", "1", "1", "\\"Generic core ticket two\\"", "\\"Ticket Text Message\\""], "class": "Account.Account", "result_map": {"assignee.name": "assignee.name", "number": "number", "status.name": "status.name", "last_public_response_date": "last_public_response_date", "subject": "subject", "queue.name": "queue.name", "created": "created", "account.number": "account.number", "modified": "modified", "category.name": "category.name", "priority": "priority.id"}, "method": "addTicket"}]'}
+2013-11-15 06:28:14,042: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): ws.staging.core.rackspace.com
+2013-11-15 06:28:23,453: DEBUG: requests.packages.urllib3.connectionpool: "POST /ctkapi/query HTTP/1.1" 200 None
+2013-11-15 06:28:23,535: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://ws.staging.core.rackspace.com/ctkapi/query
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'515', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Content-Type': 'application/json'})
+request body    : [{"load_arg": "11", "args": ["11", "11206", "1", "1", "\"Generic core ticket two\"", "\"Ticket Text Message\""], "class": "Account.Account", "result_map": {"assignee.name": "assignee.name", "number": "number", "status.name": "status.name", "last_public_response_date": "last_public_response_date", "subject": "subject", "queue.name": "queue.name", "created": "created", "account.number": "account.number", "modified": "modified", "category.name": "category.name", "priority": "priority.id"}, "method": "addTicket"}]
+
+2013-11-15 06:28:23,536: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 9.49436593056
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:28:10 GMT', 'transfer-encoding': 'chunked', 'content-type': 'application/json', 'server': 'Apache/2.2.3 (Red Hat)'})
+response body    : [{"count": 1, "load_arg": "11", "success": true, "method": "addTicket", "limit": 1, "result": {"queue.name": "Engineering - SAT2", "created": "2013-11-15 00:28:10", "account.number": "11", "assignee.name": null, "number": "131115-00017", "status.name": "New", "modified": "2013-11-15 00:28:12", "priority": 1, "last_public_response_date": null, "category.name": "RMA", "subject": "\"Generic core ticket two\""}, "offset": 0, "class": "Account.Account"}]
+-------------------------------------------------------------------------------
+2013-11-15 06:30:03,541: DEBUG: root: 
+========================================================
+test_contacts_roles_in_the_ticket STARTING at 2013-11-15 06:30:03.541253
+========================================================
+2013-11-15 06:30:03,541: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.SearchApiClient object at 0x126a0550>, 'GET', 'http://staging.search.api.rackspace.com/tickets') {'headers': {}, 'params': {'status': None, 'sort': None, 'queue': None, 'number': u'131115-00016', 'priority': None, 'limit': 100, 'createdAt_range': None, 'offset': 0, 'category': None, 'createdAt': None, 'subject': None}, 'verify': False, 'data': None}
+2013-11-15 06:30:03,543: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-11-15 06:30:03,578: DEBUG: requests.packages.urllib3.connectionpool: "GET /tickets?number=131115-00016&limit=100&offset=0 HTTP/1.1" 200 None
+2013-11-15 06:30:03,579: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/tickets
+request params  : number=131115-00016&limit=100&offset=0
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-11-15 06:30:03,579: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.0374228954315
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:32:36 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"response":{"total":1,"limit":100,"offset":0,"tickets":[{"queue":{"id":"11","name":"Engineering - SAT2"},"subject":"Generic core ticket","submitter":{"name":"Melissa Biles","sso":"melissa.biles"},"categoryObj":{"id":"1858","name":"RMA"},"difficulty":"1","documentLastUpdatedTimestamp":"2013-11-15T06:28:28.982Z","accountTeamTerritoryCode":"US","priority":"Normal","createdAt":"2013-11-15T06:28:07.000+0000","statusTypes":["Awake","New","Alive"],"status":"New","subCategory":"Waiting On Parts","lastPublicCommentDate":null,"updateEventDate":"2013-11-15T06:28:07.315+0000","assignee":null,"accountServiceLevel":"Rackspace Cloud","number":"131115-00016","severityName":"Standard","subCategoryObj":{"id":"11206","name":"Waiting On Parts"},"hasWindowsServers":false,"updatedAt":"2013-11-15T06:28:09.000+0000","category":"RMA","sourceSystem":"CORE","hasLinuxServers":false,"account":{"teamSegment":"Rackspace Cloud","id":"MANAGED_HOSTING942261","rcn":"RCN-000-006-333","status":"Active","teamTerritoryCode":"US","name":"Cloud Iops","number":942261,"highProfile":true,"serviceLevel":"Rackspace Cloud","team":"Team CS2","documentLastUpdatedTimestamp":"2013-08-21T20:13:44.130Z","type":"MANAGED_HOSTING","contacts":[{"name":"Tina Buchholtz","role":"Business Development Consultant","sso":"tbuchhol"},{"name":"Mary Ann Rodriguez-Briones","role":"Account Manager","sso":"mrodrigu"}]},"link":{"href":"http://staging.search.api.rackspace.com/tickets/131115-00016","rel":"via"}}],"facets":[],"links":[{"rel":"last","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=131115-00016&offset=0"},{"rel":"first","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=131115-00016&offset=0"}]}}
+-------------------------------------------------------------------------------
+2013-11-15 06:30:03,582: DEBUG: root: 
+========================================================
+test_contacts_roles_in_the_ticket COMPLETED at 2013-11-15 06:30:03.582229
+========================================================
+2013-11-15 06:30:03,582: DEBUG: root: 
+========================================================
+test_ticket_created_in_core_reflects_in_one_minute_in_tqsearch STARTING at 2013-11-15 06:30:03.582621
+========================================================
+2013-11-15 06:30:03,582: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.SearchApiClient object at 0x126a0550>, 'GET', 'http://staging.search.api.rackspace.com/tickets') {'headers': {}, 'params': {'status': None, 'sort': None, 'queue': None, 'number': u'131115-00015', 'priority': None, 'limit': 100, 'createdAt_range': None, 'offset': 0, 'category': None, 'createdAt': None, 'subject': None}, 'verify': False, 'data': None}
+2013-11-15 06:30:03,584: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-11-15 06:30:03,610: DEBUG: requests.packages.urllib3.connectionpool: "GET /tickets?number=131115-00015&limit=100&offset=0 HTTP/1.1" 200 None
+2013-11-15 06:30:03,611: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/tickets
+request params  : number=131115-00015&limit=100&offset=0
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-11-15 06:30:03,611: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.0284948348999
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:32:36 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"response":{"total":1,"limit":100,"offset":0,"tickets":[{"queue":{"id":"11","name":"Engineering - SAT2"},"subject":"Generic core ticket","submitter":{"name":"Melissa Biles","sso":"melissa.biles"},"categoryObj":{"id":"1858","name":"RMA"},"difficulty":"1","documentLastUpdatedTimestamp":"2013-11-15T06:28:19.160Z","accountTeamTerritoryCode":"US","priority":"Normal","createdAt":"2013-11-15T06:27:57.000+0000","statusTypes":["Awake","New","Alive"],"status":"New","subCategory":"Waiting On Parts","lastPublicCommentDate":null,"updateEventDate":"2013-11-15T06:27:56.819+0000","assignee":null,"accountServiceLevel":"Racker IT","number":"131115-00015","severityName":"Standard","subCategoryObj":{"id":"11206","name":"Waiting On Parts"},"hasWindowsServers":false,"updatedAt":"2013-11-15T06:27:59.000+0000","category":"RMA","sourceSystem":"CORE","hasLinuxServers":false,"account":{"teamSegment":"Racker IT","id":"MANAGED_HOSTING11","rcn":"RCN-000-059-575","status":"Active","teamTerritoryCode":"US","name":"Core Testing Account11","highProfile":false,"number":11,"serviceLevel":"Racker IT","team":"Team Racker IT","documentLastUpdatedTimestamp":"2013-10-16T07:13:14.383Z","type":"MANAGED_HOSTING","contacts":[{"name":"Ginger Lee","role":"Account Manager","sso":"ginger.lee"},{"name":"Ginger Lee","role":"Business Development Consultant","sso":"ginger.lee"}]},"link":{"href":"http://staging.search.api.rackspace.com/tickets/131115-00015","rel":"via"}}],"facets":[],"links":[{"rel":"last","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=131115-00015&offset=0"},{"rel":"first","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=131115-00015&offset=0"}]}}
+-------------------------------------------------------------------------------
+2013-11-15 06:30:03,613: DEBUG: root: 
+========================================================
+test_ticket_created_in_core_reflects_in_one_minute_in_tqsearch COMPLETED at 2013-11-15 06:30:03.613562
+========================================================
+2013-11-15 06:30:03,613: DEBUG: root: 
+========================================================
+test_ticket_updated_in_core_reflects_in_one_minute_in_tqsearch STARTING at 2013-11-15 06:30:03.613933
+========================================================
+2013-11-15 06:30:03,614: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.SearchApiClient object at 0x126a0550>, 'GET', 'http://staging.search.api.rackspace.com/tickets') {'headers': {}, 'params': {'status': None, 'sort': None, 'queue': None, 'number': u'131115-00015', 'priority': None, 'limit': 100, 'createdAt_range': None, 'offset': 0, 'category': None, 'createdAt': None, 'subject': None}, 'verify': False, 'data': None}
+2013-11-15 06:30:03,615: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-11-15 06:30:03,647: DEBUG: requests.packages.urllib3.connectionpool: "GET /tickets?number=131115-00015&limit=100&offset=0 HTTP/1.1" 200 None
+2013-11-15 06:30:03,648: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/tickets
+request params  : number=131115-00015&limit=100&offset=0
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-11-15 06:30:03,648: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.033411026001
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:32:36 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"response":{"total":1,"limit":100,"offset":0,"tickets":[{"queue":{"id":"11","name":"Engineering - SAT2"},"subject":"Generic core ticket","submitter":{"name":"Melissa Biles","sso":"melissa.biles"},"categoryObj":{"id":"1858","name":"RMA"},"difficulty":"1","documentLastUpdatedTimestamp":"2013-11-15T06:28:19.160Z","accountTeamTerritoryCode":"US","priority":"Normal","createdAt":"2013-11-15T06:27:57.000+0000","statusTypes":["Awake","New","Alive"],"status":"New","subCategory":"Waiting On Parts","lastPublicCommentDate":null,"updateEventDate":"2013-11-15T06:27:56.819+0000","assignee":null,"accountServiceLevel":"Racker IT","number":"131115-00015","severityName":"Standard","subCategoryObj":{"id":"11206","name":"Waiting On Parts"},"hasWindowsServers":false,"updatedAt":"2013-11-15T06:27:59.000+0000","category":"RMA","sourceSystem":"CORE","hasLinuxServers":false,"account":{"teamSegment":"Racker IT","id":"MANAGED_HOSTING11","rcn":"RCN-000-059-575","status":"Active","teamTerritoryCode":"US","name":"Core Testing Account11","highProfile":false,"number":11,"serviceLevel":"Racker IT","team":"Team Racker IT","documentLastUpdatedTimestamp":"2013-10-16T07:13:14.383Z","type":"MANAGED_HOSTING","contacts":[{"name":"Ginger Lee","role":"Account Manager","sso":"ginger.lee"},{"name":"Ginger Lee","role":"Business Development Consultant","sso":"ginger.lee"}]},"link":{"href":"http://staging.search.api.rackspace.com/tickets/131115-00015","rel":"via"}}],"facets":[],"links":[{"rel":"last","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=131115-00015&offset=0"},{"rel":"first","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=131115-00015&offset=0"}]}}
+-------------------------------------------------------------------------------
+2013-11-15 06:30:03,665: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.core.ticket_api.TicketAPIClient object at 0x126a3dd0>, 'POST', 'https://ws.staging.core.rackspace.com/ctkapi/query') {'headers': {'Content-Type': 'application/json', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'data': '[{"load_arg": "131115-00015", "args": ["In Progress"], "class": "Ticket.Ticket", "method": "setStatusByName"}]'}
+2013-11-15 06:30:03,667: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): ws.staging.core.rackspace.com
+2013-11-15 06:30:04,006: DEBUG: requests.packages.urllib3.connectionpool: "POST /ctkapi/query HTTP/1.1" 200 None
+2013-11-15 06:30:04,086: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://ws.staging.core.rackspace.com/ctkapi/query
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'110', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Content-Type': 'application/json'})
+request body    : [{"load_arg": "131115-00015", "args": ["In Progress"], "class": "Ticket.Ticket", "method": "setStatusByName"}]
+
+2013-11-15 06:30:04,086: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.419715166092
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:29:59 GMT', 'transfer-encoding': 'chunked', 'content-type': 'application/json', 'server': 'Apache/2.2.3 (Red Hat)'})
+response body    : [{"count": 1, "load_arg": "131115-00015", "success": true, "method": "setStatusByName", "limit": 1, "result": {"description": "In Progress", "class_name": "Ticket.Status", "name": "In Progress", "methods": "https://ws.staging.core.rackspace.com/ctkapi/methods/Ticket.Status", "values": "https://ws.staging.core.rackspace.com/ctkapi/values/Ticket.Status", "attributes": "https://ws.staging.core.rackspace.com/ctkapi/attributes/Ticket.Status", "id": 55, "class_type": "Value_Table"}, "offset": 0, "class": "Ticket.Ticket"}]
+-------------------------------------------------------------------------------
+2013-11-15 06:30:04,087: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.core.ticket_api.TicketAPIClient object at 0x126a3dd0>, 'POST', 'https://ws.staging.core.rackspace.com/ctkapi/query') {'headers': {'Content-Type': 'application/json', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'data': '[{"set_attribute": {"queue": {"load_arg": "13", "class": "Ticket.Queue"}}, "load_arg": "131115-00015", "class": "Ticket.Ticket"}]'}
+2013-11-15 06:30:04,088: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): ws.staging.core.rackspace.com
+2013-11-15 06:30:05,105: DEBUG: requests.packages.urllib3.connectionpool: "POST /ctkapi/query HTTP/1.1" 200 None
+2013-11-15 06:30:05,171: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://ws.staging.core.rackspace.com/ctkapi/query
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'129', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Content-Type': 'application/json'})
+request body    : [{"set_attribute": {"queue": {"load_arg": "13", "class": "Ticket.Queue"}}, "load_arg": "131115-00015", "class": "Ticket.Ticket"}]
+
+2013-11-15 06:30:05,171: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 1.08346796036
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:30:00 GMT', 'transfer-encoding': 'chunked', 'content-type': 'application/json', 'server': 'Apache/2.2.3 (Red Hat)'})
+response body    : [{"count": 1, "load_arg": "131115-00015", "limit": 0, "result": [{"queue": "success", "id": "131115-00015"}], "offset": 0, "class": "Ticket.Ticket"}]
+-------------------------------------------------------------------------------
+2013-11-15 06:30:05,172: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.core.ticket_api.TicketAPIClient object at 0x126a3dd0>, 'POST', 'https://ws.staging.core.rackspace.com/ctkapi/query') {'headers': {'Content-Type': 'application/json', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'data': '[{"set_attribute": {"priority": {"load_arg": "3", "class": "Ticket.Priority"}}, "load_arg": "131115-00015", "class": "Ticket.Ticket"}]'}
+2013-11-15 06:30:05,173: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): ws.staging.core.rackspace.com
+2013-11-15 06:30:05,553: DEBUG: requests.packages.urllib3.connectionpool: "POST /ctkapi/query HTTP/1.1" 200 None
+2013-11-15 06:30:05,621: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://ws.staging.core.rackspace.com/ctkapi/query
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'134', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Content-Type': 'application/json'})
+request body    : [{"set_attribute": {"priority": {"load_arg": "3", "class": "Ticket.Priority"}}, "load_arg": "131115-00015", "class": "Ticket.Ticket"}]
+
+2013-11-15 06:30:05,621: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.448587179184
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:30:01 GMT', 'transfer-encoding': 'chunked', 'content-type': 'application/json', 'server': 'Apache/2.2.3 (Red Hat)'})
+response body    : [{"count": 1, "load_arg": "131115-00015", "limit": 250, "result": [{"priority": "success", "id": "131115-00015"}], "offset": 0, "class": "Ticket.Ticket"}]
+-------------------------------------------------------------------------------
+2013-11-15 06:30:05,622: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.core.ticket_api.TicketAPIClient object at 0x126a3dd0>, 'POST', 'https://ws.staging.core.rackspace.com/ctkapi/query') {'headers': {'Content-Type': 'application/json', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'data': '[{"set_attribute": {"subject": "New subject"}, "load_arg": "131115-00015", "class": "Ticket.Ticket"}]'}
+2013-11-15 06:30:05,623: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): ws.staging.core.rackspace.com
+2013-11-15 06:30:05,917: DEBUG: requests.packages.urllib3.connectionpool: "POST /ctkapi/query HTTP/1.1" 200 None
+2013-11-15 06:30:05,999: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://ws.staging.core.rackspace.com/ctkapi/query
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'101', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Content-Type': 'application/json'})
+request body    : [{"set_attribute": {"subject": "New subject"}, "load_arg": "131115-00015", "class": "Ticket.Ticket"}]
+
+2013-11-15 06:30:05,999: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.376543045044
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:30:01 GMT', 'transfer-encoding': 'chunked', 'content-type': 'application/json', 'server': 'Apache/2.2.3 (Red Hat)'})
+response body    : [{"count": 1, "load_arg": "131115-00015", "limit": 0, "result": [{"id": "131115-00015", "subject": "success"}], "offset": 0, "class": "Ticket.Ticket"}]
+-------------------------------------------------------------------------------
+2013-11-15 06:30:06,000: ERROR: ccengine.domain.core.request.core_request.CoreQuery: Error occured during domain object serialization
+2013-11-15 06:30:06,000: ERROR: ccengine.domain.core.request.core_request.CoreQuery: <LoadArgs object> 
+value = <Where object> 
+where_values = <WhereEquals object> 
+column = employee_userid
+operator = =
+value = matt.printz
+
+offset = None
+limit = None
+where_class = Contact.ContactWhere
+
+ is not JSON serializable
+Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCAFE/workspace/lib/ccengine/domain/base_domain.py", line 78, in serialize
+    return getattr(self, '_obj_to_%s' % format_type)()
+  File "/var/lib/jenkins/jobs/CloudCAFE/workspace/lib/ccengine/domain/core/request/core_request.py", line 87, in _obj_to_json
+    return json.dumps(list_ret)
+  File "/home/jenkins/.localpython/lib/python2.7/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/home/jenkins/.localpython/lib/python2.7/json/encoder.py", line 201, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/home/jenkins/.localpython/lib/python2.7/json/encoder.py", line 264, in iterencode
+    return _iterencode(o, 0)
+  File "/home/jenkins/.localpython/lib/python2.7/json/encoder.py", line 178, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <LoadArgs object> 
+value = <Where object> 
+where_values = <WhereEquals object> 
+column = employee_userid
+operator = =
+value = matt.printz
+
+offset = None
+limit = None
+where_class = Contact.ContactWhere
+
+ is not JSON serializable
+2013-11-15 06:30:06,001: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.core.ticket_api.TicketAPIClient object at 0x126a3dd0>, 'POST', 'https://ws.staging.core.rackspace.com/ctkapi/query') {'headers': {'Content-Type': 'application/json', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'data': None}
+2013-11-15 06:30:06,003: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): ws.staging.core.rackspace.com
+2013-11-15 06:30:06,242: DEBUG: requests.packages.urllib3.connectionpool: "POST /ctkapi/query HTTP/1.1" 400 None
+2013-11-15 06:30:06,243: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://ws.staging.core.rackspace.com/ctkapi/query
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': '0', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Content-Type': 'application/json'})
+request body    : None
+
+2013-11-15 06:30:06,244: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [400]>
+response time    : 0.241600036621
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:30:02 GMT', 'transfer-encoding': 'chunked', 'connection': 'close', 'content-type': 'application/json', 'server': 'Apache/2.2.3 (Red Hat)'})
+response body    : {"status_code": 400, "error_message": "There is an error with this request.", "request": "/ctkapi/query"}
+-------------------------------------------------------------------------------
+2013-11-15 06:30:06,244: ERROR: ccengine.domain.core.response.core.Core: 0
+Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCAFE/workspace/lib/ccengine/domain/base_domain.py", line 93, in deserialize
+    ret = getattr(cls, '_%s_to_obj' % format_type)(serialized_str)
+  File "/var/lib/jenkins/jobs/CloudCAFE/workspace/lib/ccengine/domain/core/response/core.py", line 18, in _json_to_obj
+    json_dict = json_dict[0]
+KeyError: 0
+2013-11-15 06:30:06,244: DEBUG: ccengine.domain.core.response.core.Core: Deserialization Error: Attempted to deserialize type using type: json
+2013-11-15 06:30:06,245: DEBUG: ccengine.domain.core.response.core.Core: Deserialization Error: Unble to deserialize the following:
+{"status_code": 400, "error_message": "There is an error with this request.", "request": "/ctkapi/query"}
+2013-11-15 06:30:06,245: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.core.ticket_api.TicketAPIClient object at 0x126a3dd0>, 'POST', 'https://ws.staging.core.rackspace.com/ctkapi/query') {'headers': {'Content-Type': 'application/json', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'data': '[{"load_arg": {"values": ["number", "=", "131115-00015"], "class": "Ticket.TicketWhere"}, "class": "Ticket.Ticket", "attributes": ["number", "last_public_response_date", "status.name", "created", "modified", "priority.name", "category.name", "queue.name", "queue.id", "subject", "has_linux_servers", "has_windows_servers", "subcategory.name", "difficulty", "severity.name", "account.number", "account.service_level_name", "account.support_team.support_territory.code", "assignee.name", "assignee.employee_userid", "submitter.name", "submitter.employee_userid", "status.types.name", "account.segment", "subcategory.id", "category.id"]}]'}
+2013-11-15 06:30:06,246: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): ws.staging.core.rackspace.com
+2013-11-15 06:30:06,612: DEBUG: requests.packages.urllib3.connectionpool: "POST /ctkapi/query HTTP/1.1" 200 None
+2013-11-15 06:30:06,642: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://ws.staging.core.rackspace.com/ctkapi/query
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'635', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Content-Type': 'application/json'})
+request body    : [{"load_arg": {"values": ["number", "=", "131115-00015"], "class": "Ticket.TicketWhere"}, "class": "Ticket.Ticket", "attributes": ["number", "last_public_response_date", "status.name", "created", "modified", "priority.name", "category.name", "queue.name", "queue.id", "subject", "has_linux_servers", "has_windows_servers", "subcategory.name", "difficulty", "severity.name", "account.number", "account.service_level_name", "account.support_team.support_territory.code", "assignee.name", "assignee.employee_userid", "submitter.name", "submitter.employee_userid", "status.types.name", "account.segment", "subcategory.id", "category.id"]}]
+
+2013-11-15 06:30:06,642: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.396084070206
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:30:02 GMT', 'transfer-encoding': 'chunked', 'content-type': 'application/json', 'server': 'Apache/2.2.3 (Red Hat)'})
+response body    : [{"count": 1, "load_arg": {"values": ["number", "=", "131115-00015"], "class": "Ticket.TicketWhere"}, "limit": 250, "result": [{"subcategory.id": 11206, "account.segment": {"description": "Racker IT", "class_name": "Account.Type", "name": "Racker IT", "methods": "https://ws.staging.core.rackspace.com/ctkapi/methods/Account.Type", "values": "https://ws.staging.core.rackspace.com/ctkapi/values/Account.Type", "attributes": "https://ws.staging.core.rackspace.com/ctkapi/attributes/Account.Type", "id": 102160, "class_type": "Value_Table"}, "severity.name": "Standard", "status.name": "New", "account.service_level_name": "Racker IT", "subcategory.name": "Waiting On Parts", "subject": "New subject", "account.support_team.support_territory.code": "US", "queue.name": "Contract Processing", "status.types.name": ["Awake", "New", "Alive"], "account.number": "11", "category.name": "RMA", "assignee.employee_userid": null, "queue.id": 13, "has_linux_servers": false, "has_windows_servers": false, "assignee.name": null, "number": "131115-00015", "difficulty": 1, "submitter.name": "Melissa Biles", "last_public_response_date": null, "priority.name": "High", "created": "2013-11-15 00:27:57", "submitter.employee_userid": "melissa.biles", "modified": "2013-11-15 00:30:02", "category.id": 1858}], "offset": 0, "class": "Ticket.Ticket"}]
+-------------------------------------------------------------------------------
+2013-11-15 06:30:36,643: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.SearchApiClient object at 0x126a0550>, 'GET', 'http://staging.search.api.rackspace.com/tickets') {'headers': {}, 'params': {'status': None, 'sort': None, 'queue': None, 'number': u'131115-00015', 'priority': None, 'limit': 100, 'createdAt_range': None, 'offset': 0, 'category': None, 'createdAt': None, 'subject': None}, 'verify': False, 'data': None}
+2013-11-15 06:30:36,645: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-11-15 06:30:36,670: DEBUG: requests.packages.urllib3.connectionpool: "GET /tickets?number=131115-00015&limit=100&offset=0 HTTP/1.1" 200 None
+2013-11-15 06:30:36,670: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/tickets
+request params  : number=131115-00015&limit=100&offset=0
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-11-15 06:30:36,671: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.0270149707794
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:33:09 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"response":{"total":1,"limit":100,"offset":0,"tickets":[{"queue":{"id":"13","name":"Contract Processing"},"subject":"New subject","submitter":{"name":"Melissa Biles","sso":"melissa.biles"},"categoryObj":{"id":"1858","name":"RMA"},"difficulty":"1","documentLastUpdatedTimestamp":"2013-11-15T06:30:20.452Z","accountTeamTerritoryCode":"US","priority":"High","createdAt":"2013-11-15T06:27:57.000+0000","statusTypes":["Awake","New","Alive"],"status":"New","subCategory":"Waiting On Parts","lastPublicCommentDate":null,"updateEventDate":"2013-11-15T06:30:01.957+0000","assignee":null,"accountServiceLevel":"Racker IT","number":"131115-00015","severityName":"Standard","subCategoryObj":{"id":"11206","name":"Waiting On Parts"},"hasWindowsServers":false,"updatedAt":"2013-11-15T06:30:02.000+0000","category":"RMA","sourceSystem":"CORE","hasLinuxServers":false,"account":{"teamSegment":"Racker IT","id":"MANAGED_HOSTING11","rcn":"RCN-000-059-575","status":"Active","teamTerritoryCode":"US","name":"Core Testing Account11","highProfile":false,"number":11,"serviceLevel":"Racker IT","team":"Team Racker IT","documentLastUpdatedTimestamp":"2013-10-16T07:13:14.383Z","type":"MANAGED_HOSTING","contacts":[{"name":"Ginger Lee","role":"Account Manager","sso":"ginger.lee"},{"name":"Ginger Lee","role":"Business Development Consultant","sso":"ginger.lee"}]},"link":{"href":"http://staging.search.api.rackspace.com/tickets/131115-00015","rel":"via"}}],"facets":[],"links":[{"rel":"last","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=131115-00015&offset=0"},{"rel":"first","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=131115-00015&offset=0"}]}}
+-------------------------------------------------------------------------------
+2013-11-15 06:30:36,673: DEBUG: root: 
+========================================================
+test_ticket_updated_in_core_reflects_in_one_minute_in_tqsearch COMPLETED at 2013-11-15 06:30:36.673425
+========================================================
+2013-11-15 06:30:36,673: DEBUG: root: 
+========================================================
+test_updating_priority_in_core_marks_ticket_as_updated_in_search STARTING at 2013-11-15 06:30:36.673773
+========================================================
+2013-11-15 06:30:36,674: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.SearchApiClient object at 0x126a0550>, 'GET', 'http://staging.search.api.rackspace.com/tickets') {'headers': {}, 'params': {'status': None, 'sort': None, 'queue': None, 'number': u'131115-00017', 'priority': None, 'limit': 100, 'createdAt_range': None, 'offset': 0, 'category': None, 'createdAt': None, 'subject': None}, 'verify': False, 'data': None}
+2013-11-15 06:30:36,675: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-11-15 06:30:36,701: DEBUG: requests.packages.urllib3.connectionpool: "GET /tickets?number=131115-00017&limit=100&offset=0 HTTP/1.1" 200 None
+2013-11-15 06:30:36,702: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/tickets
+request params  : number=131115-00017&limit=100&offset=0
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-11-15 06:30:36,702: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.0279541015625
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:33:09 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"response":{"total":1,"limit":100,"offset":0,"tickets":[{"queue":{"id":"11","name":"Engineering - SAT2"},"subject":"Generic core ticket two","submitter":{"name":"Melissa Biles","sso":"melissa.biles"},"categoryObj":{"id":"1858","name":"RMA"},"difficulty":"1","documentLastUpdatedTimestamp":"2013-11-15T06:28:38.895Z","accountTeamTerritoryCode":"US","priority":"Normal","createdAt":"2013-11-15T06:28:10.000+0000","statusTypes":["Awake","New","Alive"],"status":"New","subCategory":"Waiting On Parts","lastPublicCommentDate":null,"updateEventDate":"2013-11-15T06:28:10.404+0000","assignee":null,"accountServiceLevel":"Racker IT","number":"131115-00017","severityName":"Standard","subCategoryObj":{"id":"11206","name":"Waiting On Parts"},"hasWindowsServers":false,"updatedAt":"2013-11-15T06:28:12.000+0000","category":"RMA","sourceSystem":"CORE","hasLinuxServers":false,"account":{"teamSegment":"Racker IT","id":"MANAGED_HOSTING11","rcn":"RCN-000-059-575","status":"Active","teamTerritoryCode":"US","name":"Core Testing Account11","highProfile":false,"number":11,"serviceLevel":"Racker IT","team":"Team Racker IT","documentLastUpdatedTimestamp":"2013-10-16T07:13:14.383Z","type":"MANAGED_HOSTING","contacts":[{"name":"Ginger Lee","role":"Account Manager","sso":"ginger.lee"},{"name":"Ginger Lee","role":"Business Development Consultant","sso":"ginger.lee"}]},"link":{"href":"http://staging.search.api.rackspace.com/tickets/131115-00017","rel":"via"}}],"facets":[],"links":[{"rel":"last","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=131115-00017&offset=0"},{"rel":"first","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=131115-00017&offset=0"}]}}
+-------------------------------------------------------------------------------
+2013-11-15 06:30:36,704: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.core.ticket_api.TicketAPIClient object at 0x126a3dd0>, 'POST', 'https://ws.staging.core.rackspace.com/ctkapi/query') {'headers': {'Content-Type': 'application/json', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'data': '[{"set_attribute": {"priority": {"load_arg": "2", "class": "Ticket.Priority"}}, "load_arg": "131115-00017", "class": "Ticket.Ticket"}]'}
+2013-11-15 06:30:36,706: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): ws.staging.core.rackspace.com
+2013-11-15 06:30:37,062: DEBUG: requests.packages.urllib3.connectionpool: "POST /ctkapi/query HTTP/1.1" 200 None
+2013-11-15 06:30:37,128: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://ws.staging.core.rackspace.com/ctkapi/query
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'134', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Content-Type': 'application/json'})
+request body    : [{"set_attribute": {"priority": {"load_arg": "2", "class": "Ticket.Priority"}}, "load_arg": "131115-00017", "class": "Ticket.Ticket"}]
+
+2013-11-15 06:30:37,128: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.422773122787
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:30:33 GMT', 'transfer-encoding': 'chunked', 'content-type': 'application/json', 'server': 'Apache/2.2.3 (Red Hat)'})
+response body    : [{"count": 1, "load_arg": "131115-00017", "limit": 250, "result": [{"priority": "success", "id": "131115-00017"}], "offset": 0, "class": "Ticket.Ticket"}]
+-------------------------------------------------------------------------------
+2013-11-15 06:31:07,129: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.SearchApiClient object at 0x126a0550>, 'GET', 'http://staging.search.api.rackspace.com/tickets') {'headers': {}, 'params': {'status': None, 'sort': None, 'queue': None, 'number': u'131115-00017', 'priority': None, 'limit': 100, 'createdAt_range': None, 'offset': 0, 'category': None, 'createdAt': None, 'subject': None}, 'verify': False, 'data': None}
+2013-11-15 06:31:07,131: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-11-15 06:31:07,156: DEBUG: requests.packages.urllib3.connectionpool: "GET /tickets?number=131115-00017&limit=100&offset=0 HTTP/1.1" 200 None
+2013-11-15 06:31:07,157: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/tickets
+request params  : number=131115-00017&limit=100&offset=0
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-11-15 06:31:07,157: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.0277879238129
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:33:39 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"response":{"total":1,"limit":100,"offset":0,"tickets":[{"queue":{"id":"11","name":"Engineering - SAT2"},"subject":"Generic core ticket two","submitter":{"name":"Melissa Biles","sso":"melissa.biles"},"categoryObj":{"id":"1858","name":"RMA"},"difficulty":"1","documentLastUpdatedTimestamp":"2013-11-15T06:30:50.230Z","accountTeamTerritoryCode":"US","priority":"Low","createdAt":"2013-11-15T06:28:10.000+0000","statusTypes":["Awake","New","Alive"],"status":"New","subCategory":"Waiting On Parts","lastPublicCommentDate":null,"updateEventDate":"2013-11-15T06:30:33.047+0000","assignee":null,"accountServiceLevel":"Racker IT","number":"131115-00017","severityName":"Standard","subCategoryObj":{"id":"11206","name":"Waiting On Parts"},"hasWindowsServers":false,"updatedAt":"2013-11-15T06:30:33.000+0000","category":"RMA","sourceSystem":"CORE","hasLinuxServers":false,"account":{"teamSegment":"Racker IT","id":"MANAGED_HOSTING11","rcn":"RCN-000-059-575","status":"Active","teamTerritoryCode":"US","name":"Core Testing Account11","highProfile":false,"number":11,"serviceLevel":"Racker IT","team":"Team Racker IT","documentLastUpdatedTimestamp":"2013-10-16T07:13:14.383Z","type":"MANAGED_HOSTING","contacts":[{"name":"Ginger Lee","role":"Account Manager","sso":"ginger.lee"},{"name":"Ginger Lee","role":"Business Development Consultant","sso":"ginger.lee"}]},"link":{"href":"http://staging.search.api.rackspace.com/tickets/131115-00017","rel":"via"}}],"facets":[],"links":[{"rel":"last","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=131115-00017&offset=0"},{"rel":"first","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=131115-00017&offset=0"}]}}
+-------------------------------------------------------------------------------
+2013-11-15 06:31:07,160: DEBUG: root: 
+========================================================
+test_updating_priority_in_core_marks_ticket_as_updated_in_search COMPLETED at 2013-11-15 06:31:07.160395
+========================================================
+2013-11-15 06:31:07,160: DEBUG: root: 
+========================================================
+test_updating_queue_in_core_marks_ticket_as_updated_in_tq_search STARTING at 2013-11-15 06:31:07.160736
+========================================================
+2013-11-15 06:31:07,161: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.SearchApiClient object at 0x126a0550>, 'GET', 'http://staging.search.api.rackspace.com/tickets') {'headers': {}, 'params': {'status': None, 'sort': None, 'queue': None, 'number': u'131115-00017', 'priority': None, 'limit': 100, 'createdAt_range': None, 'offset': 0, 'category': None, 'createdAt': None, 'subject': None}, 'verify': False, 'data': None}
+2013-11-15 06:31:07,162: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-11-15 06:31:07,187: DEBUG: requests.packages.urllib3.connectionpool: "GET /tickets?number=131115-00017&limit=100&offset=0 HTTP/1.1" 200 None
+2013-11-15 06:31:07,187: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/tickets
+request params  : number=131115-00017&limit=100&offset=0
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-11-15 06:31:07,188: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.026535987854
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:33:39 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"response":{"total":1,"limit":100,"offset":0,"tickets":[{"queue":{"id":"11","name":"Engineering - SAT2"},"subject":"Generic core ticket two","submitter":{"name":"Melissa Biles","sso":"melissa.biles"},"categoryObj":{"id":"1858","name":"RMA"},"difficulty":"1","documentLastUpdatedTimestamp":"2013-11-15T06:30:50.230Z","accountTeamTerritoryCode":"US","priority":"Low","createdAt":"2013-11-15T06:28:10.000+0000","statusTypes":["Awake","New","Alive"],"status":"New","subCategory":"Waiting On Parts","lastPublicCommentDate":null,"updateEventDate":"2013-11-15T06:30:33.047+0000","assignee":null,"accountServiceLevel":"Racker IT","number":"131115-00017","severityName":"Standard","subCategoryObj":{"id":"11206","name":"Waiting On Parts"},"hasWindowsServers":false,"updatedAt":"2013-11-15T06:30:33.000+0000","category":"RMA","sourceSystem":"CORE","hasLinuxServers":false,"account":{"teamSegment":"Racker IT","id":"MANAGED_HOSTING11","rcn":"RCN-000-059-575","status":"Active","teamTerritoryCode":"US","name":"Core Testing Account11","highProfile":false,"number":11,"serviceLevel":"Racker IT","team":"Team Racker IT","documentLastUpdatedTimestamp":"2013-10-16T07:13:14.383Z","type":"MANAGED_HOSTING","contacts":[{"name":"Ginger Lee","role":"Account Manager","sso":"ginger.lee"},{"name":"Ginger Lee","role":"Business Development Consultant","sso":"ginger.lee"}]},"link":{"href":"http://staging.search.api.rackspace.com/tickets/131115-00017","rel":"via"}}],"facets":[],"links":[{"rel":"last","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=131115-00017&offset=0"},{"rel":"first","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=131115-00017&offset=0"}]}}
+-------------------------------------------------------------------------------
+2013-11-15 06:31:07,190: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.core.ticket_api.TicketAPIClient object at 0x126a3dd0>, 'POST', 'https://ws.staging.core.rackspace.com/ctkapi/query') {'headers': {'Content-Type': 'application/json', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'data': '[{"set_attribute": {"queue": {"load_arg": "2", "class": "Ticket.Queue"}}, "load_arg": "131115-00017", "class": "Ticket.Ticket"}]'}
+2013-11-15 06:31:07,191: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): ws.staging.core.rackspace.com
+2013-11-15 06:31:18,415: DEBUG: requests.packages.urllib3.connectionpool: "POST /ctkapi/query HTTP/1.1" 200 None
+2013-11-15 06:31:18,479: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://ws.staging.core.rackspace.com/ctkapi/query
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'128', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Content-Type': 'application/json'})
+request body    : [{"set_attribute": {"queue": {"load_arg": "2", "class": "Ticket.Queue"}}, "load_arg": "131115-00017", "class": "Ticket.Ticket"}]
+
+2013-11-15 06:31:18,479: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 11.2884938717
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:31:03 GMT', 'transfer-encoding': 'chunked', 'content-type': 'application/json', 'server': 'Apache/2.2.3 (Red Hat)'})
+response body    : [{"count": 1, "load_arg": "131115-00017", "limit": 250, "result": [{"queue": "success", "id": "131115-00017"}], "offset": 0, "class": "Ticket.Ticket"}]
+-------------------------------------------------------------------------------
+2013-11-15 06:31:48,479: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.SearchApiClient object at 0x126a0550>, 'GET', 'http://staging.search.api.rackspace.com/tickets') {'headers': {}, 'params': {'status': None, 'sort': None, 'queue': None, 'number': u'131115-00017', 'priority': None, 'limit': 100, 'createdAt_range': None, 'offset': 0, 'category': None, 'createdAt': None, 'subject': None}, 'verify': False, 'data': None}
+2013-11-15 06:31:48,481: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-11-15 06:31:48,505: DEBUG: requests.packages.urllib3.connectionpool: "GET /tickets?number=131115-00017&limit=100&offset=0 HTTP/1.1" 200 None
+2013-11-15 06:31:48,506: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/tickets
+request params  : number=131115-00017&limit=100&offset=0
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-11-15 06:31:48,507: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.0265860557556
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:34:21 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"response":{"total":1,"limit":100,"offset":0,"tickets":[{"queue":{"id":"2","name":"DCOPS (SAT1)"},"subject":"Generic core ticket two","submitter":{"name":"Melissa Biles","sso":"melissa.biles"},"categoryObj":{"id":"1858","name":"RMA"},"difficulty":"1","documentLastUpdatedTimestamp":"2013-11-15T06:31:20.584Z","accountTeamTerritoryCode":"US","priority":"Low","createdAt":"2013-11-15T06:28:10.000+0000","statusTypes":["Awake","New","Alive"],"status":"New","subCategory":"Waiting On Parts","lastPublicCommentDate":null,"updateEventDate":"2013-11-15T06:31:03.527+0000","assignee":null,"accountServiceLevel":"Racker IT","number":"131115-00017","severityName":"Standard","subCategoryObj":{"id":"11206","name":"Waiting On Parts"},"hasWindowsServers":false,"updatedAt":"2013-11-15T06:31:04.000+0000","category":"RMA","sourceSystem":"CORE","hasLinuxServers":false,"account":{"teamSegment":"Racker IT","id":"MANAGED_HOSTING11","rcn":"RCN-000-059-575","status":"Active","teamTerritoryCode":"US","name":"Core Testing Account11","highProfile":false,"number":11,"serviceLevel":"Racker IT","team":"Team Racker IT","documentLastUpdatedTimestamp":"2013-10-16T07:13:14.383Z","type":"MANAGED_HOSTING","contacts":[{"name":"Ginger Lee","role":"Account Manager","sso":"ginger.lee"},{"name":"Ginger Lee","role":"Business Development Consultant","sso":"ginger.lee"}]},"link":{"href":"http://staging.search.api.rackspace.com/tickets/131115-00017","rel":"via"}}],"facets":[],"links":[{"rel":"last","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=131115-00017&offset=0"},{"rel":"first","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=131115-00017&offset=0"}]}}
+-------------------------------------------------------------------------------
+2013-11-15 06:31:48,509: DEBUG: root: 
+========================================================
+test_updating_queue_in_core_marks_ticket_as_updated_in_tq_search COMPLETED at 2013-11-15 06:31:48.509963
+========================================================
+2013-11-15 06:31:48,510: DEBUG: root: 
+========================================================
+test_updating_status_in_core_marks_ticket_as_updated_in_search STARTING at 2013-11-15 06:31:48.510303
+========================================================
+2013-11-15 06:31:48,510: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.SearchApiClient object at 0x126a0550>, 'GET', 'http://staging.search.api.rackspace.com/tickets') {'headers': {}, 'params': {'status': None, 'sort': None, 'queue': None, 'number': u'131115-00017', 'priority': None, 'limit': 100, 'createdAt_range': None, 'offset': 0, 'category': None, 'createdAt': None, 'subject': None}, 'verify': False, 'data': None}
+2013-11-15 06:31:48,512: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-11-15 06:31:48,535: DEBUG: requests.packages.urllib3.connectionpool: "GET /tickets?number=131115-00017&limit=100&offset=0 HTTP/1.1" 200 None
+2013-11-15 06:31:48,536: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/tickets
+request params  : number=131115-00017&limit=100&offset=0
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-11-15 06:31:48,536: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.0254530906677
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:34:21 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"response":{"total":1,"limit":100,"offset":0,"tickets":[{"queue":{"id":"2","name":"DCOPS (SAT1)"},"subject":"Generic core ticket two","submitter":{"name":"Melissa Biles","sso":"melissa.biles"},"categoryObj":{"id":"1858","name":"RMA"},"difficulty":"1","documentLastUpdatedTimestamp":"2013-11-15T06:31:20.584Z","accountTeamTerritoryCode":"US","priority":"Low","createdAt":"2013-11-15T06:28:10.000+0000","statusTypes":["Awake","New","Alive"],"status":"New","subCategory":"Waiting On Parts","lastPublicCommentDate":null,"updateEventDate":"2013-11-15T06:31:03.527+0000","assignee":null,"accountServiceLevel":"Racker IT","number":"131115-00017","severityName":"Standard","subCategoryObj":{"id":"11206","name":"Waiting On Parts"},"hasWindowsServers":false,"updatedAt":"2013-11-15T06:31:04.000+0000","category":"RMA","sourceSystem":"CORE","hasLinuxServers":false,"account":{"teamSegment":"Racker IT","id":"MANAGED_HOSTING11","rcn":"RCN-000-059-575","status":"Active","teamTerritoryCode":"US","name":"Core Testing Account11","highProfile":false,"number":11,"serviceLevel":"Racker IT","team":"Team Racker IT","documentLastUpdatedTimestamp":"2013-10-16T07:13:14.383Z","type":"MANAGED_HOSTING","contacts":[{"name":"Ginger Lee","role":"Account Manager","sso":"ginger.lee"},{"name":"Ginger Lee","role":"Business Development Consultant","sso":"ginger.lee"}]},"link":{"href":"http://staging.search.api.rackspace.com/tickets/131115-00017","rel":"via"}}],"facets":[],"links":[{"rel":"last","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=131115-00017&offset=0"},{"rel":"first","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=131115-00017&offset=0"}]}}
+-------------------------------------------------------------------------------
+2013-11-15 06:31:48,538: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.core.ticket_api.TicketAPIClient object at 0x126a3dd0>, 'POST', 'https://ws.staging.core.rackspace.com/ctkapi/query') {'headers': {'Content-Type': 'application/json', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'data': '[{"load_arg": "131115-00017", "args": ["In Progress"], "class": "Ticket.Ticket", "method": "setStatusByName"}]'}
+2013-11-15 06:31:48,540: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): ws.staging.core.rackspace.com
+2013-11-15 06:31:48,931: DEBUG: requests.packages.urllib3.connectionpool: "POST /ctkapi/query HTTP/1.1" 200 None
+2013-11-15 06:31:49,004: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://ws.staging.core.rackspace.com/ctkapi/query
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'110', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen', 'X-Auth': '0cf908cb7c16229fa7daaa915e5098c2', 'Content-Type': 'application/json'})
+request body    : [{"load_arg": "131115-00017", "args": ["In Progress"], "class": "Ticket.Ticket", "method": "setStatusByName"}]
+
+2013-11-15 06:31:49,004: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.464752197266
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:31:44 GMT', 'transfer-encoding': 'chunked', 'content-type': 'application/json', 'server': 'Apache/2.2.3 (Red Hat)'})
+response body    : [{"count": 1, "load_arg": "131115-00017", "success": true, "method": "setStatusByName", "limit": 1, "result": {"description": "In Progress", "class_name": "Ticket.Status", "name": "In Progress", "methods": "https://ws.staging.core.rackspace.com/ctkapi/methods/Ticket.Status", "values": "https://ws.staging.core.rackspace.com/ctkapi/values/Ticket.Status", "attributes": "https://ws.staging.core.rackspace.com/ctkapi/attributes/Ticket.Status", "id": 26, "class_type": "Value_Table"}, "offset": 0, "class": "Ticket.Ticket"}]
+-------------------------------------------------------------------------------
+2013-11-15 06:32:19,005: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.SearchApiClient object at 0x126a0550>, 'GET', 'http://staging.search.api.rackspace.com/tickets') {'headers': {}, 'params': {'status': None, 'sort': None, 'queue': None, 'number': u'131115-00017', 'priority': None, 'limit': 100, 'createdAt_range': None, 'offset': 0, 'category': None, 'createdAt': None, 'subject': None}, 'verify': False, 'data': None}
+2013-11-15 06:32:19,007: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-11-15 06:32:19,034: DEBUG: requests.packages.urllib3.connectionpool: "GET /tickets?number=131115-00017&limit=100&offset=0 HTTP/1.1" 200 None
+2013-11-15 06:32:19,035: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/tickets
+request params  : number=131115-00017&limit=100&offset=0
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-11-15 06:32:19,035: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.0291740894318
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 06:34:51 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"response":{"total":1,"limit":100,"offset":0,"tickets":[{"queue":{"id":"2","name":"DCOPS (SAT1)"},"subject":"Generic core ticket two","submitter":{"name":"Melissa Biles","sso":"melissa.biles"},"categoryObj":{"id":"1858","name":"RMA"},"difficulty":"1","documentLastUpdatedTimestamp":"2013-11-15T06:32:01.117Z","accountTeamTerritoryCode":"US","priority":"Low","createdAt":"2013-11-15T06:28:10.000+0000","statusTypes":["Awake","Default Open","Timeout-No Feedback","Alive"],"status":"In Progress","subCategory":"Waiting On Parts","lastPublicCommentDate":null,"updateEventDate":"2013-11-15T06:31:44.902+0000","assignee":null,"accountServiceLevel":"Racker IT","number":"131115-00017","severityName":"Standard","subCategoryObj":{"id":"11206","name":"Waiting On Parts"},"hasWindowsServers":false,"updatedAt":"2013-11-15T06:31:45.000+0000","category":"RMA","sourceSystem":"CORE","hasLinuxServers":false,"account":{"teamSegment":"Racker IT","id":"MANAGED_HOSTING11","rcn":"RCN-000-059-575","status":"Active","teamTerritoryCode":"US","name":"Core Testing Account11","highProfile":false,"number":11,"serviceLevel":"Racker IT","team":"Team Racker IT","documentLastUpdatedTimestamp":"2013-10-16T07:13:14.383Z","type":"MANAGED_HOSTING","contacts":[{"name":"Ginger Lee","role":"Account Manager","sso":"ginger.lee"},{"name":"Ginger Lee","role":"Business Development Consultant","sso":"ginger.lee"}]},"link":{"href":"http://staging.search.api.rackspace.com/tickets/131115-00017","rel":"via"}}],"facets":[],"links":[{"rel":"last","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=131115-00017&offset=0"},{"rel":"first","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=131115-00017&offset=0"}]}}
+-------------------------------------------------------------------------------
+2013-11-15 06:32:19,038: DEBUG: root: 
+========================================================
+test_updating_status_in_core_marks_ticket_as_updated_in_search COMPLETED at 2013-11-15 06:32:19.038417
+========================================================
+2013-11-15 06:32:19,038: DEBUG: root: 
+========================================================
+TEARING DOWN TestCoreOngoingSync at 2013-11-15 06:32:19.038728
+========================================================

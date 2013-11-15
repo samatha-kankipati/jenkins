@@ -1,0 +1,10 @@
+Started on Nov 15, 2013 6:40:56 PM
+Using strategy: Default
+[poll] Last Build : #4
+[poll] Last Built Revision: Revision b86fec6676e9a0251b942372780d95a6344addc1 (origin/search-pom-0.1.0_b111_fix)
+Fetching changes from the remote Git repositories
+Fetching upstream changes from origin
+Polling for changes in
+Ignored commit cad72e710ac81c07acee9490d8fe598a18dbcecb: Found excluded author: Jenkins Continuous Build server
+Done. Took 12 sec
+No changes

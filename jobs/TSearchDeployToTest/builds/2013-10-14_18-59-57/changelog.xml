@@ -1,0 +1,46 @@
+Changes in branch origin/master, between 2a8b0969ab3407a1b6c2d67308bbd3858ce367a8 and b28f2d9ded6f533e08677d532ded0094df06bddd
+commit b28f2d9ded6f533e08677d532ded0094df06bddd
+tree 527a9fcf410b7ac66719680874a55d068e30bee0
+parent 73498964ac5e15c7f0141128b114619fb3a17511
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1381776789 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1381776789 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 0fbd402d554ff5009b8ebeeb00fbb99029c239b7 9148af09398777463b4d96e59e8d057313cd6efc M	cucumber/pom.xml
+:100644 100644 9cda5a27ac8112804f690cfac81204710b739c49 98ddf1785e4200ac7365247126f7fbc62c4df41d M	pom.xml
+:100644 100644 41acd6c84ae5c3e2f94c2311bb626fdd4fcaa7f8 1cd95ce2bf5f148c45388405fcdc7fed8ce10cb2 M	service/pom.xml
+
+commit 73498964ac5e15c7f0141128b114619fb3a17511
+tree 64d1ca3bac005169bc9692798c8bb944674276ba
+parent 562b10a32575bffc4a501faf2d937c86bd5217bb
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1381776777 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1381776777 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b187
+
+:100644 100644 841554631175e072df59253e7788c14c03beb7a6 0fbd402d554ff5009b8ebeeb00fbb99029c239b7 M	cucumber/pom.xml
+:100644 100644 72155b20c7b6e88dcb8290af06f42390071e837b 9cda5a27ac8112804f690cfac81204710b739c49 M	pom.xml
+:100644 100644 00fab98513a227c9722f99fafd78ef16120b32d6 41acd6c84ae5c3e2f94c2311bb626fdd4fcaa7f8 M	service/pom.xml
+
+commit b53194b9c9beec6404d62e15650f8660f5e60c30
+tree bc748afa95c62566433329cac428ce2ddb61eca7
+parent a2fcab06c44bdd0cc7c909959bce5c1788f98717
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1381774378 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1381774378 -0500
+
+    [ B-58329]: adding alternative queries
+
+:000000 100644 0000000000000000000000000000000000000000 e1ba046ced5c2ca237d6ea47de2fc3db874e4b2f A	service/src/main/groovy/com/rackspace/search/NewQueryConstants.groovy
+
+commit a2fcab06c44bdd0cc7c909959bce5c1788f98717
+tree d0f01c24cc061bc784e6c756cc699aa68b5b1df0
+parent 5a31efcc3e78d27120abda7e86af947b10f502fa
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1381773892 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1381773892 -0500
+
+    [B-57978]:  fixing core queries
+
+:100644 100644 532194e44ac1570f5695306d90d524e5c2ac8d3c a7e9eba45c9806085ad7c948b49333de36150fbd M	service/src/main/config/search.properties
+:100644 100644 cfe6b26653018af2f528a234e335928e1347d58c d8ed96ce7ba1c23d2e3a84420be0c42364dd0670 M	service/src/main/filters/filter.yaml
+:100644 100644 2a48a1aa875241e30dc5c469d78fa88d21ed7f6a 43c84f1e2e09e058b4d485eb7ba31a14918b478c M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreDBGateway.groovy

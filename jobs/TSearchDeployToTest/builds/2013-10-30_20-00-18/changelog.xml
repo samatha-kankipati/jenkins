@@ -1,0 +1,34 @@
+Changes in branch origin/master, between c5f889b8059b1f7b41eccac769708efbb79f65f0 and 31b11e7e5e8d76eddf337e7a8095e1388758adec
+commit 31b11e7e5e8d76eddf337e7a8095e1388758adec
+tree 4d4786a84a0f69d0fb5f51d38a03db44fd582cbd
+parent 3bd07a1606a5d7109228cc0ae384daffbb859518
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1383163025 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1383163025 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 83bf4f57fa43a70c49718592577b43fe68e8754c 19c1d7b4844852f09862669faceb7fd8a6f04dde M	cucumber/pom.xml
+:100644 100644 da58a9554ed102694b9782a6f956046f227aa1a3 017e6035dbc02eaf2008fe57fae8ce62a4ac1b7f M	pom.xml
+:100644 100644 202c6849d4c87213bdae0a389f013cc3288aefff 6cac3032fc37acb954f83a3e2845bd6ae223b315 M	service/pom.xml
+
+commit 3bd07a1606a5d7109228cc0ae384daffbb859518
+tree 07a72f4b7949eff413f9023033e241cbf2d676b1
+parent 6bd6b85115816e8a7c020421cec0e31778e92a79
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1383163022 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1383163022 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b195
+
+:100644 100644 d8f74e2927a5abe96298621144c4cc513679eafe 83bf4f57fa43a70c49718592577b43fe68e8754c M	cucumber/pom.xml
+:100644 100644 2ffb8e3d8950457420afcd685060e748634c5ff0 da58a9554ed102694b9782a6f956046f227aa1a3 M	pom.xml
+:100644 100644 087d7d99e45d4ea42310a12aa1f24103d664e25f 202c6849d4c87213bdae0a389f013cc3288aefff M	service/pom.xml
+
+commit 6a7474bfc2c864fad8d7f688641e626a02f37094
+tree 104d13fd083369e30c3a20c6fd6feea77e0520e6
+parent 130de5f52aa202f92b08a12fca2565e653948087
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1383162411 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1383162411 -0500
+
+    [D-16040] : removing content type
+
+:100644 100644 ea084f74827b9dcd7b45cbaba067dc856edf0324 bad73c098d575abdbdf53dbef092ae455ac65930 M	service/src/main/groovy/com/rackspace/search/gateway/zendesk/ZendeskGateway.groovy

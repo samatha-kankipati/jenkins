@@ -1,0 +1,34 @@
+Changes in branch origin/master, between 3e346992243c467a61eb0ccfc6edda89b17dc5d1 and 3111008a00efff7b5a0ad5e6081ba27e00e91ca6
+commit 3111008a00efff7b5a0ad5e6081ba27e00e91ca6
+tree 693225133de3fc14bfd2058ad3bba9595f943a77
+parent fa7bc60c9720c28fc0783a5f62be853d99718f72
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1378250929 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1378250929 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 1389638b81963e4c4c349fafb039c67cd2f3b0ab 9a7ab9bad62cd6aab1b783d5fe1cf5a0d3731e2e M	cucumber/pom.xml
+:100644 100644 12c022e0327ed34571727aacc1a6f86b9e0c3cfe d81525338e78236b76a62cbe42f89264a3ae7b29 M	pom.xml
+:100644 100644 807a917ab6ae7af025e681018a729ee506a57f08 626e80a80ff3b2fe5032fe47fd62300170590b87 M	service/pom.xml
+
+commit fa7bc60c9720c28fc0783a5f62be853d99718f72
+tree bb7f0ee584179b1ef535cdc65886f284fcc3c348
+parent ab4be9f847a9cae2fea48335b9f2c1aea0c6bb77
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1378250925 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1378250925 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b164
+
+:100644 100644 f4f227756bd3768d582548ca49c43d903324185a 1389638b81963e4c4c349fafb039c67cd2f3b0ab M	cucumber/pom.xml
+:100644 100644 9abd87453a047222eb30eabb43e67fdf3e7774b3 12c022e0327ed34571727aacc1a6f86b9e0c3cfe M	pom.xml
+:100644 100644 7dba4ccca0019916adc3a9098ef2dfdd92ccae41 807a917ab6ae7af025e681018a729ee506a57f08 M	service/pom.xml
+
+commit 452ea9778649891932dec8744f567c537c48eba7
+tree 7febe86bfaa1055c82b9040bff9d8672b08ca302
+parent 9abae047470843f1be6f11c854c78794005d91bf
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1378249243 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1378249243 -0500
+
+    [B-55764] : adding service level even nulls
+
+:100644 100644 c7b79d4ab49fbd843ccec945281078b18a184de9 6ce9dbca3ac4a0817c68c1e343c0daf5b20fe42d M	service/src/main/groovy/com/rackspace/search/service/core/CoreAccountUtil.groovy

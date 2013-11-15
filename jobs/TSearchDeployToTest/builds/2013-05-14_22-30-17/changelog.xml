@@ -1,0 +1,48 @@
+Changes in branch origin/master, between 509dd12fea34adfe322771528a5347a28e41193f and b427c1458b75980a0f7e4a00236d95a3157d131e
+commit b427c1458b75980a0f7e4a00236d95a3157d131e
+tree db098db66d434caf02edcf4a59db35db517b4716
+parent 0c520eb11064fd20c668249e78551f1dd6994edd
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1368570443 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1368570443 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 9470a286b978d8dd823576caf45c550e545e3d67 4015865be8281e11359f943ebf5063f06ed0dd8e M	cucumber/pom.xml
+:100644 100644 661fd37e7715d9f2ea3ee80efc0fc794374e528b 26a8eb538cb09ea08943d1dfd6d5b4651eed1ca5 M	pom.xml
+:100644 100644 10a220bc788832317c3cc4015d99cc1b1158d09a 941778fa9a50b2b53944b165656333c869befda8 M	service/pom.xml
+
+commit 0c520eb11064fd20c668249e78551f1dd6994edd
+tree b5e6c2b2f9a08205a63e7b092313b9df5effd31b
+parent 60f19dfcd5cd03f80094230e320f4665c4391c64
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1368570437 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1368570437 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b58
+
+:100644 100644 e6e69c47ab68b5e08ebeb14a841f11d4bb5e5d3b 9470a286b978d8dd823576caf45c550e545e3d67 M	cucumber/pom.xml
+:100644 100644 287de040b2ea5f2a66bc95f03a3bfc782a493228 661fd37e7715d9f2ea3ee80efc0fc794374e528b M	pom.xml
+:100644 100644 8ef3bce333dedc77337379fdd4653f7028eb4cf8 10a220bc788832317c3cc4015d99cc1b1158d09a M	service/pom.xml
+
+commit cf6341d2a36daa2b59110d70c8fecdbdf5360a85
+tree b89871ad148535dce199ed1acd9b59cf535c479c
+parent 6ca6723eb648240b7f89374553a39cfc03bb2f99
+author Satya Boddu <satya.boddu@rackspace.com> 1368569124 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1368569124 -0500
+
+    Fixed the build snapshot version
+
+:100644 100644 5e68c89d941ccf59e11ec42837149f90f313d186 e6e69c47ab68b5e08ebeb14a841f11d4bb5e5d3b M	cucumber/pom.xml
+:100644 100644 be06a167a32cda73b6ad7023e677a273eaf9a1dd 287de040b2ea5f2a66bc95f03a3bfc782a493228 M	pom.xml
+:100644 100644 3241fa6026e35fc5cecc1df321985191f8c2b769 8ef3bce333dedc77337379fdd4653f7028eb4cf8 M	service/pom.xml
+
+commit 6ca6723eb648240b7f89374553a39cfc03bb2f99
+tree 69722c7003ff21aee16decceb5eb6474599acb37
+parent 334543aaee3afb0ce99e704353a56bd924b74194
+author Satya Boddu <satya.boddu@rackspace.com> 1368568773 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1368568773 -0500
+
+    Fixed the build snapshot version
+
+:100644 100644 fdd300a2d510bf31ad91e6d6e34a2ceeee498f36 5e68c89d941ccf59e11ec42837149f90f313d186 M	cucumber/pom.xml
+:100644 100644 e53f0f1de1579fce96785599b7f977ff9da406f4 be06a167a32cda73b6ad7023e677a273eaf9a1dd M	pom.xml
+:100644 100644 e3d594ed1a326bc2193715cd79cbc32029d40f15 3241fa6026e35fc5cecc1df321985191f8c2b769 M	service/pom.xml

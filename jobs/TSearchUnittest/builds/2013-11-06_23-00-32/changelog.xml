@@ -1,0 +1,12 @@
+Changes in branch origin/master, between 8808a567e6d9d18245e2cb0ca0915041eb31a749 and 249984744f526923cd79cc42684d7f8fde680b6e
+commit 00d5f08df370973a922a77d304e81de132a8c1fd
+tree d249b4fa0ed0b60203f707dbee5ee8e6f5540dd2
+parent fe56dc2edb3770bfc5a5ac593d2625a262234b57
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1383778632 -0600
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1383778632 -0600
+
+    [ B-59846] : fixing unit tests
+
+:100644 100644 86fc74a559fe6a04cf75e800e26c9e99a290804e 25a295808a9cf07f5f8360da197bbdbeffbebbac M	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskGroupOnetimeSyncActorTest.groovy
+:100644 100644 e28acd57609b72c9b21e8fc6125d59e8a3cdf1c4 5f3ca73305d01e4f0085157808e1e34e3bdb9ce2 M	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskGroupOngoingSyncActorTest.groovy
+:100644 100644 7e1316758fcde4999584b6683bf14e7335554e0a 28dffd76ee6291e669dbe9bbbad5e2ad5f18e2c0 M	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskUserOngoingSyncActorTest.groovy

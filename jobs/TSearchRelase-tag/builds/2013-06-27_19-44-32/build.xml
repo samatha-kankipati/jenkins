@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@1.504">
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause/>
+      </causes>
+    </hudson.model.CauseAction>
+    <org.jvnet.hudson.plugins.DownstreamBuildViewAction plugin="downstream-buildview@1.8">
+      <build class="hudson.maven.MavenModuleSetBuild" reference="../../.."/>
+      <downstreamBuilds class="concurrent-hash-map">
+        <entry>
+          <string>TSearchDeployToTest</string>
+          <int>0</int>
+        </entry>
+      </downstreamBuilds>
+    </org.jvnet.hudson.plugins.DownstreamBuildViewAction>
+  </actions>
+  <number>1</number>
+  <startTime>1372362272277</startTime>
+  <result>FAILURE</result>
+  <duration>13645</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/jobs/TSearchRelase-tag/workspace</workspace>
+  <hudsonVersion>1.504</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</hudson.maven.MavenModuleSetBuild>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@1.504">
+  <actions>
+    <hudson.maven.reporters.MavenArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+      <pomArtifact>
+        <groupId>com.rackspace.api</groupId>
+        <artifactId>cucumber</artifactId>
+        <version>0.1.0_b27</version>
+        <type>pom</type>
+        <fileName>pom.xml</fileName>
+        <canonicalName>cucumber-0.1.0_b27.pom</canonicalName>
+        <md5sum>63bb3fc7064556a25cb68e61fdf04bdf</md5sum>
+      </pomArtifact>
+      <mainArtifact reference="../pomArtifact"/>
+      <attachedArtifacts/>
+      <repositoryId>releases</repositoryId>
+      <repositoryUrl>http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases</repositoryUrl>
+    </hudson.maven.reporters.MavenArtifactRecord>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <build class="hudson.maven.MavenBuild" reference="../../.."/>
+      <record>
+        <entry>
+          <string>com.rackspace.api:search-pom:pom.xml</string>
+          <string>c4279ea7a9be7b70c576e44bb8389f98</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <number>40</number>
+  <startTime>1364302046039</startTime>
+  <result>NOT_BUILT</result>
+  <duration>1</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/jobs/TSearchPerformRelease/workspace/cucumber</workspace>
+</hudson.maven.MavenBuild>

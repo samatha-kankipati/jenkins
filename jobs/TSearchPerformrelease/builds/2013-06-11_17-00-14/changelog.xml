@@ -1,0 +1,67 @@
+Changes in branch origin/master, between 74cdcd80720785a523536b4653b23b52500f5c8b and 852763714be4c316f15b00b7305f54601700ef84
+commit 10fb46c7752474d52941d11b705059facb9ce81f
+tree 83e1cf1e233396a5b547d2beeabc2e39f773b368
+parent b8055445249ed5ec4f5db3bba65436bf123684e5
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1370966392 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1370966392 -0500
+
+    D-13160: fixing account one time sync stopping issue
+
+:100644 100644 54ce592aa98d078af5ad88e628c98237d7283197 8beef164f22cd8af4e4f7dade581e629f60fc1ae M	service/src/main/groovy/com/rackspace/search/service/account/AccountOneTimeSyncJob.groovy
+
+commit 5f75ef84c9f3a91ff1a3a54b329e891f89c2fbc6
+tree 6725752d9d14107a0b92cc7a9824606fc6d80244
+parent 2b103e1a4aa850c6375768e449a181ed981d8636
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370963726 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370963726 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 4658458abfce53f8aa2119c30022402876989a40 1c10749d909646973df57fb78c034c773623a3af M	cucumber/pom.xml
+:100644 100644 82b8611cb2ee5d5d404d04c96e6be49991e2df7a 5989c57f0ff8c47b53fa4eab957b6d49bfcce072 M	pom.xml
+:100644 100644 2ff5e4281f99460b9d18a2975271092595efcb65 a8b8dfd1f019b1c9cc3b10afb89ca49d0bf95092 M	service/pom.xml
+
+commit 2b103e1a4aa850c6375768e449a181ed981d8636
+tree e51a1d16aa94f9dd87cab518fba706c299705e41
+parent 74cdcd80720785a523536b4653b23b52500f5c8b
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370963717 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370963717 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b91
+
+:100644 100644 a2ebb2a379fe1d05b566b882b1cc2db861ead1c3 4658458abfce53f8aa2119c30022402876989a40 M	cucumber/pom.xml
+:100644 100644 293734a36410a9ed6cf7b549f5d0e5aff08324ef 82b8611cb2ee5d5d404d04c96e6be49991e2df7a M	pom.xml
+:100644 100644 9e16e75d205da0a517593b3fa6e0e1e4966e3b1b 2ff5e4281f99460b9d18a2975271092595efcb65 M	service/pom.xml
+
+commit 63f6cab5220bf7024deb659016a2880c6426d962
+tree 43684ca1065e9ab6f0432e0a0935228263c0e6ec
+parent dc32423c19da981af9bd8cf56cc1b9dc35b3d430
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1370902022 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1370902022 -0500
+
+    D-13160:  getting limit from constants
+
+:100644 100644 b2b05d15a895b3a3c0d6e6acb0f6ff39483ab46a b39f01acb2d00d1e919cd35e9b70fc85d40e4c73 M	service/src/main/groovy/com/rackspace/search/Constants.groovy
+:100644 100644 e1a1a3cc9e4920e46835a6a2b021a213fe8cf86c 54ce592aa98d078af5ad88e628c98237d7283197 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOneTimeSyncJob.groovy
+:100644 100644 ac6ee936c133c7a2ecd5359644d6e12d6695906e b1724fb13704c5c85c32f89f931987ad25cf4720 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+
+commit dc32423c19da981af9bd8cf56cc1b9dc35b3d430
+tree 8f5a2bf481b813d6557524069743f8ae530ba101
+parent f40711dc69bf6f971c163c249d118495f31c2212
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1370896373 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1370896373 -0500
+
+    D-13160: updating log statements
+
+:100644 100644 35e4071d0e83efd3e5abba8216395a78a2060736 3b63976e6b126dec29d8d70deec583057e9c6997 M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreDBGateway.groovy
+:100644 100644 f55344b1d9193718fc6e5649a7b970e49971846a 105cd66817462df0bb0f168c12cdff972a8d5171 M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+
+commit f40711dc69bf6f971c163c249d118495f31c2212
+tree 8687b58b1a77380e63dbe64998008cdf566de505
+parent 2297ceda13331e4f479df5e9511ac62c09961414
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1370893344 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1370893344 -0500
+
+    D-13160:  Checking if the accounts list is empty or not
+
+:100644 100644 72c2ea2e7cbc5381058987d2edaa48cf3fbe7431 e1a1a3cc9e4920e46835a6a2b021a213fe8cf86c M	service/src/main/groovy/com/rackspace/search/service/account/AccountOneTimeSyncJob.groovy

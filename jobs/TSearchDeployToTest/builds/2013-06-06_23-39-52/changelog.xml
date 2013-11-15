@@ -1,0 +1,113 @@
+Changes in branch origin/master, between fda510a278408056ede2a73b2d38a2fc0d6f87a2 and 6022d856ac13b0b85a2a1e79599000e0120acea1
+commit 6022d856ac13b0b85a2a1e79599000e0120acea1
+tree 24bd7c6c4ac41b7bede2d7784ad7ffe285c8aff6
+parent 9106d5028050234929f5825a6b5fb9278d727829
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370561814 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370561814 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 f3a12146636e7ca698535a75f90c4a8df1aa5328 1aebc4096613c33a70938593bdc2e9ff04998cab M	cucumber/pom.xml
+:100644 100644 325f9259b7c9c557a49280b8ec31111f878b090e a6535bd30e8f60f479b5712078734d5147308b57 M	pom.xml
+:100644 100644 c070a1ee0910f6ad39a01f4e61fb3f57d5a1d7b0 fd6b81b8e3cb688854512e01065921531a886606 M	service/pom.xml
+
+commit 9106d5028050234929f5825a6b5fb9278d727829
+tree 6cb2463bb37e7c362c69b85a517d1204c3c6d8a0
+parent cac9c753e889afc046706cb2a0bcdb7686a54054
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370561807 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370561807 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b86
+
+:100644 100644 5b9410d0b1a6665ed253f6df4df0d357b9bf5365 f3a12146636e7ca698535a75f90c4a8df1aa5328 M	cucumber/pom.xml
+:100644 100644 a1b7a31196e838fdf03d268442d26850a0254ba6 325f9259b7c9c557a49280b8ec31111f878b090e M	pom.xml
+:100644 100644 662eb5dab09340a3e9074d0338e4d64948c10b95 c070a1ee0910f6ad39a01f4e61fb3f57d5a1d7b0 M	service/pom.xml
+
+commit e5d14bf15d6f1ae96bd59680cab31d67bd507cb4
+tree 18a9b735663f2913a5b78c60a226b9c23b24a6f1
+parent 9000bb1be029859e752f0d607bfa6d7f0ef06240
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1370559137 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1370559137 -0500
+
+    B-50257: fixing functional tests
+
+:100644 100644 a58b83687bc191add026ac1888963e0bcbd5a255 f21eb551945b331f78ff07ef155bd9d165821084 M	cucumber/features/ReadTicket.feature
+:100644 100644 6b0da74e889fbde40ad161d75f9c8d5dfd6f840e 46fcd4cba05a68b02ad7f5a8493ce27d88064c96 M	cucumber/src/test/groovy/features/ReadTicketSteps.groovy
+
+commit 9000bb1be029859e752f0d607bfa6d7f0ef06240
+tree 3e797d32c5fde829b912eee41b714873e8cf4daa
+parent cf8bc902cc5d202210cb08a04f053a6dc0492943
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1370558217 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1370558217 -0500
+
+    B-50014: getting status types for one time sync
+
+:100644 100644 68751761dbbd8e204e975d2ed343458af9132d15 3c721085c21f25a0cdfd95a2cdbeefc7d79f9c5c M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreTicket.groovy
+:100644 100644 df9f0a461530c9e2248c902246f210575362f67f a5b28415e6f737aea762f0e4d312ec8c400fe44e M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+:100644 100644 cf212b0e867bcd1314a05b883b07dd5aa2aef52a 6964e3b9b45788a02a2232df25398a9417a62a6d M	service/src/main/resources/coreTicketRequest.json
+
+commit 2c0a89679e5b8f1a5eda15cefd891bfc1eb92702
+tree fb1e797cb772e451f1320a8f0f863dc1dfa567c2
+parent 6baf277f3c3fce7d1467875d2655d854890a2285
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1370555707 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1370555707 -0500
+
+    B-20257: converting to string
+
+:100644 100644 8d95bb66a9a41390cde38f86c6fe8bc2eb76abea 3914aa88d8f58ec8d133a370b05cc784ae4df7d3 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+
+commit 45e41c60b6af5a7a88292af85f01a7e9e3a15843
+tree 54a935cf6e4417d675cddbcb4640f08046e7b771
+parent f8a60c44954a6c9998a0017c14ce74256fb55b5a
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1370555602 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1370555602 -0500
+
+    [B-50014] : added status_types
+
+:100644 100644 04882a8742e82ef2d28217525db511224564d01c 6c334a8d7ac386f48654f2040f9ce03fdec333d3 M	service/src/main/config/elasticsearch/mappings/ticket/ticket.json
+:100644 100644 9fb283fb47011fd29f981a4281b361e6c9e9e7ae a8d024388b7026430a2d3231d0e18c63a54c3835 M	service/src/main/config/search.properties
+:100644 100644 494f7297ff49f7da25e9db623a4c2e3d158c4e27 13b75a630b0de1339716c774645d9367f6526d85 M	service/src/main/groovy/com/rackspace/search/Constants.groovy
+:100644 100644 82cec265bacef41f8d6a76a053aab0e761193612 ceb8ab5e060ba3d3bd5b1c887a958f0fb8e47366 M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreDBGateway.groovy
+:100644 100644 dc30130481c53222823f6c373620368b271efb7a df255a0f9ed166239bacc773b418d7b56b4acc22 M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreTicket.groovy
+:100644 100644 9e468a700baa5479bd8d701caaa317c12615aae7 685f4cbd2d14a5e7d067fc76b6d17f3c68245d72 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+
+commit ae4de81f119b11965c4186c3c5daac9735a39db9
+tree aa8bc25e537b2af6eb86420e031a63749ba53ef2
+parent 3491a80a7a385997e8bc8ab9ac6ef9bf8b0cbd35
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1370554138 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1370554138 -0500
+
+    Merge branch 'master' of github.com:/rackerlabs/search into B-50257
+    
+    Conflicts:
+    	service/src/main/config/search.properties
+
+:100644 100644 134ad1a5174177ee2985fd669d757241c0113561 e690c326c13eb020f3b4ef8c68ca8934de4530cd M	service/src/main/config/elasticsearch/mappings/ticket/ticket.json
+:100644 100644 dc30130481c53222823f6c373620368b271efb7a eef2629d65c49aff3258cab26a2010d0684ed33f M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreTicket.groovy
+:100644 100644 d97fd07e7080cfdd87c86f6b9dd5a1409bbd1ffe 8d95bb66a9a41390cde38f86c6fe8bc2eb76abea M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+
+commit 9c787dc5496afdae7a34563f576f9d8574e48463
+tree 04662bd3a8d5c24c127e866ca39eebe28410f4e5
+parent 13b393fcc58efd6889242223dec4191f3b4828a4
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1370551293 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1370551293 -0500
+
+    B-50258 : getting sso
+
+:100644 100644 a08101d2fae8f9078920cca8cb4cb724376e3f7d cf2851b059871124d461a4900166512c2bca8964 M	service/src/main/config/elasticsearch/mappings/ticket/ticket.json
+:100644 100644 63acb5310f157f2d26813d8713b68f7f1677e740 8d95bb66a9a41390cde38f86c6fe8bc2eb76abea M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+:100644 100644 498dcf1dfdc1841e28d40f6c069b4bae057432d0 cf212b0e867bcd1314a05b883b07dd5aa2aef52a M	service/src/main/resources/coreTicketRequest.json
+:100644 100644 14153750f2be3abfbca4f0180fa643680b249776 b73160b6730259394887fdb1382b51b8ccb40275 M	service/src/test/groovy/com/rackspace/search/service/TicketSearchServiceTest.groovy
+
+commit 13b393fcc58efd6889242223dec4191f3b4828a4
+tree b0c1aa70731a51309c23d79f577f7173e2c17916
+parent 8c47f69759eb3de0e7a38082e2f77681fafdf49c
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1370548010 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1370548010 -0500
+
+    B-50257: getting queue id
+
+:100644 100644 797e71e1a3af1755af3b72dd1708ab08645dcf67 a08101d2fae8f9078920cca8cb4cb724376e3f7d M	service/src/main/config/elasticsearch/mappings/ticket/ticket.json
+:100644 100644 6af9eb67dcab3189cfc4ce5024b27fa4718b5ba9 3ded85bfbb0dead3660ef4556829ef96d04ba097 M	service/src/main/config/search.properties
+:100644 100644 7102ddab5ab2f2bb85bc0292eb79a2b9ef58d438 63acb5310f157f2d26813d8713b68f7f1677e740 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+:100644 100644 bab5af07678f298c00f3de5b220e6522ceb5489c 498dcf1dfdc1841e28d40f6c069b4bae057432d0 M	service/src/main/resources/coreTicketRequest.json

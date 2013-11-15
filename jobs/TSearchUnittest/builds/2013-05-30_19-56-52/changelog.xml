@@ -1,0 +1,10 @@
+Changes in branch origin/master, between 17f0c2716deb2a1d1ec8ea334294d73803d37f7e and 1c43045cfb4563c2b24aa5b3d4bfbadd63a5be64
+commit 7a34f3eaa0312a3af213b61c5edabe575954cf56
+tree d3592d12a770b4455d14e787b1f8b3e3821594d7
+parent 17f0c2716deb2a1d1ec8ea334294d73803d37f7e
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1369943148 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1369943148 -0500
+
+    [D-13126] : fixed: job last event date input is not considered.
+
+:100644 100644 30163e4ae2593411b838643aa47863c9c67be285 02813e36e238277c1878faa373777813c190da22 M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncJob.groovy

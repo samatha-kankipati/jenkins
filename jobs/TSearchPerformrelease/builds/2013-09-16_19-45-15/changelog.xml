@@ -1,0 +1,34 @@
+Changes in branch origin/master, between cb7083a38a2cfa806033dae8bcd1fb4c8b25666f and 4adbca327724e3214bddc123774cb43ed09fc81a
+commit 71880ff493602dbadceb21d4cdc4cbe2c90ecfa2
+tree 4bbfec88c1290c85141b4c7c5b3439ba04ca68d1
+parent 19176f5a6a8eed181e9c756868e604058044f8dc
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1379359322 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1379359322 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 beddc12d1bd4f2dfef429d933e83db233fc1b3af af34eea730c1281ba13d1ac8c879deb4c075cb38 M	cucumber/pom.xml
+:100644 100644 47e6fe9cb8062fc81f4be7f3c7badf5965416dca 96e9ffbe38f2a600d6ed5cff687e8992c39e346b M	pom.xml
+:100644 100644 4c62f65b16f7163fe233c79d4584765a3c3479b2 4f0d4bc68c1ec98eeb651790d9ffc184c5289145 M	service/pom.xml
+
+commit 19176f5a6a8eed181e9c756868e604058044f8dc
+tree 595f97d2bf128856f2c2efa3c2b600e1eede1a73
+parent cb7083a38a2cfa806033dae8bcd1fb4c8b25666f
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1379359315 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1379359315 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b172
+
+:100644 100644 7996962c297208e3c5565e41e098fc6eff33e369 beddc12d1bd4f2dfef429d933e83db233fc1b3af M	cucumber/pom.xml
+:100644 100644 4e913d767db7cff6eb2cf7340fc8b675005225b6 47e6fe9cb8062fc81f4be7f3c7badf5965416dca M	pom.xml
+:100644 100644 385613f2e33b0a9a27f828cc49231aa0607c0749 4c62f65b16f7163fe233c79d4584765a3c3479b2 M	service/pom.xml
+
+commit b31014c345de3f3bf46e1e654fa886c283399df6
+tree 7cf0b3ecf607aee7b7eb26959326379817433e51
+parent 425860e2858f115fe2d407c53437cf6cb03cb7e9
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1379359104 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1379359104 -0500
+
+    [D-15262] : fixing code for team update
+
+:100644 100644 7c8f35ffb9f25df9d45f9f91fb99c9457a9424e1 dcd1f974d7ea20e7c0fcd36659245f98e36f9e98 M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreDBGateway.groovy

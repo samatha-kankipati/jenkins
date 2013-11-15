@@ -1,0 +1,67 @@
+Changes in branch origin/master, between 6afbfe4959d7f3092d57df63c89c1587773e1d25 and 103fe242b6caaf0c83cd6b22395f16d4a9426bcd
+commit e8b1eaf83a8eb97b3342cb07b9e31635d4d92261
+tree 92c4f468dfce67db09f69631a2fce883811c2588
+parent cdac60d0cf9ec55126764988a79cb6bf9989947f
+author Satya Boddu <satya.boddu@rackspace.com> 1366136866 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1366136866 -0500
+
+    Fixed merge issues
+
+:100644 100644 b720395e047d6d512a82920400a5cabd0549440d 219ddf64718d360df7020c74edc0fc679e951f84 M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy
+
+commit cdac60d0cf9ec55126764988a79cb6bf9989947f
+tree ad3ea738cd0756860c6fa8a8d4264555e4326c97
+parent cb4fa9239e822dd73cad792f8fa7b2946c6c659a
+author Satya Boddu <satya.boddu@rackspace.com> 1366131451 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1366131451 -0500
+
+    [B-46843] Added new version to ES
+
+:100644 100644 67833a78a3c1b2330f4f189bb217054a34881838 a94a8a802c334b907695c56863885d1a4789bd63 M	service/pom.xml
+
+commit cb4fa9239e822dd73cad792f8fa7b2946c6c659a
+tree ba301aa191db669f9c31766b2779ca662ccb5642
+parent 9185c10dfd3cf11d4e44ddb2bfaf688f12dc0559
+author Satya Boddu <satya.boddu@rackspace.com> 1366055239 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1366055239 -0500
+
+    [B-46843] TK-81239 Update the Elastic Search version number
+
+:100644 100644 9d2b945d090d7f7abdb5ba3e250afa95a3e55d30 67833a78a3c1b2330f4f189bb217054a34881838 M	service/pom.xml
+:100644 100644 528e650f73273336bbf24f982191a104bc102b45 8a721d090e9201aa4273c0b924cec32c4148551a M	service/src/main/groovy/com/rackspace/search/elasticsearch/ElasticSearchServer.groovy
+:100644 100644 372283f476395d352b92f89ac395f45ec1634ee8 b720395e047d6d512a82920400a5cabd0549440d M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy
+:100644 100644 ade7cc0d4d6bfd670af996d2339ff7b50da21e67 9f0f45d17fa968a1092f5cd16a685d6055de0182 M	service/src/test/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClientTest.groovy
+
+commit 9185c10dfd3cf11d4e44ddb2bfaf688f12dc0559
+tree 570d27e649785f80c2e2b8324e83f38d4421943f
+parent 092715932b42854ce9a72c4d1272c6d10fdd6afd
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1366054637 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1366054637 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 c98a696746cfa8f4e4cdff96390037437ea2dcbd 5e68c89d941ccf59e11ec42837149f90f313d186 M	cucumber/pom.xml
+:100644 100644 727121a75206d384123abdb183f970e28423ce2c be06a167a32cda73b6ad7023e677a273eaf9a1dd M	pom.xml
+:100644 100644 9807f250b0aae0e52b0d596ee9f69478f1b823a4 9d2b945d090d7f7abdb5ba3e250afa95a3e55d30 M	service/pom.xml
+
+commit 092715932b42854ce9a72c4d1272c6d10fdd6afd
+tree 937a0096fcd137238e66bc41dc52a61753baddf4
+parent 6afbfe4959d7f3092d57df63c89c1587773e1d25
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1366054633 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1366054633 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b56
+
+:100644 100644 7b513fd2c85ec378072bd5170a8f691bd8d16254 c98a696746cfa8f4e4cdff96390037437ea2dcbd M	cucumber/pom.xml
+:100644 100644 3c2a2310a00873df00428b83e508a6758acf173f 727121a75206d384123abdb183f970e28423ce2c M	pom.xml
+:100644 100644 7ac037efa082beaa0395a415997916c5ce88fcb0 9807f250b0aae0e52b0d596ee9f69478f1b823a4 M	service/pom.xml
+
+commit 1e5c7aa1917da6b40aa3265117775608d0fbf88b
+tree c1edf3c708bea927619649a753bcf5d462c18c6b
+parent c50d2b2a69c94d7ce17cc5f6f60f2bc1cb46e82b
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1366049679 -0500
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1366049679 -0500
+
+    B-46910: added read timeout for core db
+
+:100644 100644 53335933129d3988da7e6ee1ca8c7800f7289c24 f34f0cff49c9d6a584842400220ca707d9b3c248 M	service/src/main/resources/coreDbContext.xml

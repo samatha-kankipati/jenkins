@@ -1,0 +1,84 @@
+Changes in branch origin/master, between fce8948c6db395dda940ffd5e32b7d4d65c5672b and ccdb032fb6921b7feb65030b959e46b43397394d
+commit 2b8808790ca4bb9d8efe150cc973482dbf68f3d6
+tree f3fb580188541729fbeb83e4cda60c2946ff02b5
+parent ae35d1e87a725b5f8465a8de696ed04c5fdacf67
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377028062 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377028062 -0500
+
+    Merge branch 'master' of github.com:/rackerlabs/search into B-52433
+    
+    Conflicts:
+    	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncJob.groovy
+
+:100644 100644 7eb26eed6480d0dd192ecb587652eb3c17257013 5f8cedc9f183d0af4cc432d8e594b49d9ef6c172 M	service/src/main/groovy/com/rackspace/search/service/account/AccountUpdatesSyncActor.groovy
+
+commit 5634c6cb9619d6f139edc47b78dd46ffcebb82a5
+tree bf4f7bacc5864a62d7ac7afb6f87dde87fab2010
+parent 4eafcdd2c37b858252976f167e52cee677dd9a15
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1376970484 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1376970484 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 10a6a53d7868e80a3bd377c36a8e5a8b142886a2 67079f27c463bbaca2e4b08d1e7b079e096c7d6e M	cucumber/pom.xml
+:100644 100644 dbd5918994c5747b8560d95044e79e324a6ea3c2 926ea2fe1a4add0f35678041188f7297f59c952e M	pom.xml
+:100644 100644 c38c6da0a1764f624c495384d92fca4563ea68de 7cf60906f77e1ed9494b96efff6275e1476e122d M	service/pom.xml
+
+commit 4eafcdd2c37b858252976f167e52cee677dd9a15
+tree 334a9b5f42380a430e9e7c55b839ac739bcd0291
+parent fce8948c6db395dda940ffd5e32b7d4d65c5672b
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1376970480 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1376970480 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b150
+
+:100644 100644 f2672d1016e45e287d2fbc4fd0b5cdb000ca46cd 10a6a53d7868e80a3bd377c36a8e5a8b142886a2 M	cucumber/pom.xml
+:100644 100644 9e0ed7ca491efc7336ec2049808ec54b665134ad dbd5918994c5747b8560d95044e79e324a6ea3c2 M	pom.xml
+:100644 100644 260cbca76408163bc10db0e768457dbe58b74419 c38c6da0a1764f624c495384d92fca4563ea68de M	service/pom.xml
+
+commit b1e3b35465e379b03256cef6a4eedd5a18c31014
+tree dfdb72440084de112187148d39bd487dbf9ecc76
+parent 2cd9b845dc97c72e4fab791f7d5ca359c7dbb83c
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1376513277 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1376513277 -0500
+
+    [B-54505] : added isRunning validation for onDemand sync jb
+
+:100644 100644 3b3efe900864e02e091f0ed08023575bf04c6760 457c2a03ed28e0cebe6c39271d03ecc971c75946 M	service/src/main/groovy/com/rackspace/search/service/admin/CoreTicketOndemandSyncJob.groovy
+
+commit 2cd9b845dc97c72e4fab791f7d5ca359c7dbb83c
+tree 10e68cdda48be2117d614e08c126864b9458d429
+parent d454113dd17a108a17a1bdfdb1e63ea557974961
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1376363539 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1376363539 -0500
+
+    [B-54505] : Refactored CoreTicketOndemand sync job
+
+:100644 100644 0fcb203ba0d3b78dca849a715203c5b991f468b7 6908d66d5a7ea18dde5dde5bebfae6df0e6bfc31 M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncJob.groovy
+:100644 100644 54d8902845b0a75ce754c74928e647000708be27 3b3efe900864e02e091f0ed08023575bf04c6760 M	service/src/main/groovy/com/rackspace/search/service/admin/CoreTicketOndemandSyncJob.groovy
+:100644 100644 d8cf508265dee0a6d430ade386cf7735cc6a32e8 866689072e969d910e3ab3f9936f36750ff00337 M	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+:100644 100644 ff74c78c79e88d6e7bfb5ef65e6f5079cf12ed5e fd8899326af77a860c8a19f867f2cbc8a542c65e R050	service/src/main/java/com/rackspace/search/scheduling/CoreTicketOndemandScheduler.java	service/src/main/java/com/rackspace/search/scheduling/SyncJobScheduler.java
+
+commit cffa63efecd8596a8812b0276eeab6b674919dde
+tree 3567af50f0cf4f0844daab945d161cb86bd0b127
+parent b826a65d573e5ed3d0d7e2008d609c6e8b7a10a4
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1375975777 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1375975777 -0500
+
+    [B-52433]: added unit test
+
+:100644 100644 6df27748b90ca04e0e0872a9afbd156595e712ce 325e925bba11786a7540a57d8a26e29ddf2a974e M	service/src/main/groovy/com/rackspace/search/service/account/AccountUpdatesSyncActor.groovy
+:100644 100644 ee2a316ab7a6b4823b4d6c2c8465ff2e61cb782a 552645443b606583b014e45f4a7ca61f29c19141 M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountOnetimeSyncActor.groovy
+:000000 100644 0000000000000000000000000000000000000000 453b05fe8bb92265584cf35c5cca9ab7d720d539 A	service/src/test/groovy/com/rackspace/search/service/account/CoreAccountProcessorTest.groovy
+
+commit b826a65d573e5ed3d0d7e2008d609c6e8b7a10a4
+tree a8c32034349728cedf7c7c8dfd519e71b5882dfc
+parent 327e639d480fea6adfb9289cad3fb8c1d319de63
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1375740626 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1375740626 -0500
+
+    [B-52433]: fixing pagination for core account
+
+:100644 100644 70dd9e80317dcdf7bd5d71f06328603f5fc92f45 6df27748b90ca04e0e0872a9afbd156595e712ce M	service/src/main/groovy/com/rackspace/search/service/account/AccountUpdatesSyncActor.groovy
+:100644 100644 340239146a263ba88484cd480f3be0d5e19a6827 faa1cc461759af5c7c84bc131a372a6244cba7d9 M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountProcessor.groovy
+:100644 100644 0fcb203ba0d3b78dca849a715203c5b991f468b7 c467c1c58cd1e2463055105a4a9be068574a72b9 M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncJob.groovy

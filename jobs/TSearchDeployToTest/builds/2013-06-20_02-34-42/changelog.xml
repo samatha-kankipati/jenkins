@@ -1,0 +1,44 @@
+Changes in branch origin/master, between c10c08837b00eab5f03fe38620c0068207fe319d and f8f3baecd65ffbbfe3357228d099c97363d520c1
+commit f8f3baecd65ffbbfe3357228d099c97363d520c1
+tree 07c6a49642b4ad7e3c94f300771dfa7fe737ae4d
+parent 71cda54422309be3631eb2dc4ec43ea9d25c2a3b
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371695494 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371695494 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 cbdf38f3a9eb7fb0fa3a8fabca8e72c9a4b38220 4288920498cb1296851448549f016a3e557df026 M	cucumber/pom.xml
+:100644 100644 1342bc2ab0ef12753aea678ca5398c2c084653a5 8026ff9ab4cfaa4ab429c0ac2f347ca360380e90 M	pom.xml
+:100644 100644 fc267a4d79f23aadf5f0a4868d6531d94768c845 c31304a9d37b15d293fc92b0a71be0a02e4b5efa M	service/pom.xml
+
+commit 71cda54422309be3631eb2dc4ec43ea9d25c2a3b
+tree fa3e89bc3b7a6b39647f8e4f269a8daf0dc212a3
+parent ad2dc361ca72087c7376a75e38c727b4a62f2495
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371695490 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371695490 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b106
+
+:100644 100644 0ea655d2a3678e656bc885620e297f1f93915c4e cbdf38f3a9eb7fb0fa3a8fabca8e72c9a4b38220 M	cucumber/pom.xml
+:100644 100644 5872fd92dbe599fc26e48e98c5e58b899f89a0bd 1342bc2ab0ef12753aea678ca5398c2c084653a5 M	pom.xml
+:100644 100644 7c8b7138156593afd90346fa7a287e8669155828 fc267a4d79f23aadf5f0a4868d6531d94768c845 M	service/pom.xml
+
+commit 83de66420b52ed785a05286ecd17f9266cac7eb1
+tree d4c6d8c401aeb7d2c2bd1d092bee042ac412ca16
+parent 5c046981dc00b45479e58c8c789faa3695b14a33
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1371684951 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1371684951 -0500
+
+    [D-13404]:  before logging check if messages are there or not
+
+:100644 100644 89b04f5f38cd6ef78b1057b4bccf0cca57a2882e d738cc44bb5f68ff5784fda85db74270f662f38f M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy
+
+commit 5c046981dc00b45479e58c8c789faa3695b14a33
+tree c834309ff6e96fc40bef32134d16ff0a785c1a88
+parent 6dd552c9bf431a7edd3355ad2f13aa6e54d3fad4
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1371679454 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1371679454 -0500
+
+    [D-13404]:  getting childname properly
+
+:100644 100644 07d4d5b6bd8e9331f44efb5260a4a5f88dbfb1ee c040c8a0bb8e2f876f21f56154ae48bb9ec74e71 M	service/src/main/groovy/com/rackspace/search/service/account/AccountProcessor.groovy

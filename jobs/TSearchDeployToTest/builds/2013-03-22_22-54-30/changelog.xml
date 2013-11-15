@@ -1,0 +1,61 @@
+Changes in branch origin/master, between 763d03e80d69ebee18da9825430a42b2d320e15d and 3b6c91c441421e992962ee805b5b9d0d111811e8
+commit 3b6c91c441421e992962ee805b5b9d0d111811e8
+tree c51c71b6dc62404a455fd96cc6924f26bd25ea1c
+parent 856110f6163323396c3346919e627861b839605a
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1363992634 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1363992634 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 dfe72c6d265743dc1af69329c155404d57971fbd 8ac6dcdccd1b992c5bd9d200a31d1a58fd589c70 M	cucumber/pom.xml
+:100644 100644 3511664840de25e73ae77d89e6cb8013c0b0c0b8 db3f8e7623234e995add636c10c32276f40afae3 M	pom.xml
+:100644 100644 fd33b3176331c31d80b8358b466e6e65616efd50 3eee1ffa1f4daa555420b8f7f0ab56866d17373c M	service/pom.xml
+
+commit 856110f6163323396c3346919e627861b839605a
+tree 2284ab638a5a8105d6609abdd8c234fb544b64db
+parent 7764c63240984d4e429d824197319b6ac9330b1d
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1363992629 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1363992629 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b17
+
+:100644 100644 ffa49540c601ae9faf205b92edcbc506fee2b068 dfe72c6d265743dc1af69329c155404d57971fbd M	cucumber/pom.xml
+:100644 100644 7ef2f7ebdfa31d89eac6b4bdb600951e60a35c27 3511664840de25e73ae77d89e6cb8013c0b0c0b8 M	pom.xml
+:100644 100644 1db63f0a2033e6ccb567bd22feee620521130648 fd33b3176331c31d80b8358b466e6e65616efd50 M	service/pom.xml
+
+commit 6f99cf04d5df6313c59d9b806378e7bef151f818
+tree 87d915f28bdbd2b7130da0e93bb9042e0848e6eb
+parent e34f96d23e230250ff8261ad76b9d8538d94c764
+author unknown <saty0902@L8Y0YGV1.RACKSPACE.CORP> 1363992392 -0500
+committer unknown <saty0902@L8Y0YGV1.RACKSPACE.CORP> 1363992392 -0500
+
+    FIxed merge issues
+
+:100644 100644 4c4d28be06ad4f5372b7ec70ac9c8676fcf91387 28621b3738ecb31b51b8b4d93119ad25eaa255e7 M	service/src/test/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClientTest.groovy
+
+commit ed456d8b8cb1e7826766a2248a92ce8837b386f9
+tree bfaeddcaf99fe8b7e2496cc6369fd604a069ef3c
+parent e6345835eb583842fa8862c048a651fc12e660bd
+author unknown <saty0902@L8Y0YGV1.RACKSPACE.CORP> 1363990508 -0500
+committer unknown <saty0902@L8Y0YGV1.RACKSPACE.CORP> 1363990508 -0500
+
+    Fixed review comments
+
+:100644 100644 939629c6b247f771045150edc7f806bb28691b48 1d77e9f93b525a6cbe245c95bb67739f2e7a0bc9 M	service/pom.xml
+:100644 100644 c80b8bb7b8c264b17b97bce1b11499cf8035dac4 c80b8bb7b8c264b17b97bce1b11499cf8035dac4 R100	service/src/main/config/elasticsearch/mappings/admin/scheduledJob.json	service/src/main/config/elasticsearch/mappings/admin/syncJob.json
+
+commit e6345835eb583842fa8862c048a651fc12e660bd
+tree 8b3fbfdc089e04248405efb50c627027f0821e07
+parent bd24efc748f5e5a5889b9310ef7315fc83233931
+author unknown <saty0902@L8Y0YGV1.RACKSPACE.CORP> 1363989712 -0500
+committer unknown <saty0902@L8Y0YGV1.RACKSPACE.CORP> 1363989712 -0500
+
+    [B-43056] Added Index for syncJobs and added wrapper to get the job details
+
+:100644 100644 bb9d413e318b9058b4eb6c011516f619babc66d5 c80b8bb7b8c264b17b97bce1b11499cf8035dac4 M	service/src/main/config/elasticsearch/mappings/admin/scheduledJob.json
+:100644 100644 35b34eb008be98d908c3cec3ea9920e1e9c006c8 0a44860f59f144b6d601f18bd4f4225e5daba71e M	service/src/main/config/elasticsearch/mappings/ticket/ticket.json
+:100644 100644 6768bfc7be7226f74e1e61d9d786812051bd6799 9fba9522a4a0be5f46f2dd139ecdbe89cd14c3cc M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy
+:000000 100644 0000000000000000000000000000000000000000 dfd9394f6a5fba1d49cc9c59b9a331abd16bad74 A	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+:100644 100644 e9c775a7dded2d3c14eb5b61c826f59e9f369aa9 c6a1c96ba1ebb9e56120b101dd04694d0304462a M	service/src/main/java/com/rackspace/search/endpoint/AdminResource.java
+:100644 100644 dccbea78c15e7cfe269811e6838094b8f72a945e 4c4d28be06ad4f5372b7ec70ac9c8676fcf91387 M	service/src/test/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClientTest.groovy
+:000000 100644 0000000000000000000000000000000000000000 679ac499f076a8f05090d672991041aa483881f7 A	service/src/test/groovy/com/rackspace/search/service/JobServiceTest.groovy

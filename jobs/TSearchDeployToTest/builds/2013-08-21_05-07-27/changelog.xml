@@ -1,0 +1,47 @@
+Changes in branch origin/master, between 14f08ccd775df7e5b972c8762cb5863aa1de0e16 and ab90d8dee02b27620757ebfe14bfc0a499ebe49c
+commit ab90d8dee02b27620757ebfe14bfc0a499ebe49c
+tree 5df0e58038627607ff3e8f96932acef71157a33c
+parent 0904db0d0cad3a8787e59b6daa7fac25056b96e7
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377061443 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377061443 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 e76c53bb8d2844a0c810a32715a8f02ae04da452 c6bd5060635c0865a54b766da59cc9d47ea34092 M	cucumber/pom.xml
+:100644 100644 032efd91a9d20eebf450cdf9608b60bb1e485a8f 6064a6db5153179542a0d2c5359dea0f6e3a25b9 M	pom.xml
+:100644 100644 ebc3994d8830cdd1ef6500544e56ba2e97f346d4 d7626f41b94ae7892b16e033381a3ae3f3ec44c1 M	service/pom.xml
+
+commit 0904db0d0cad3a8787e59b6daa7fac25056b96e7
+tree 796459b312f9ee3f115a3347f6043f802c3ab4f8
+parent 13b1af3a3d152bd4384ee18f54b7c8dac1a49d20
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377061438 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377061438 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b153
+
+:100644 100644 17dba875157706cc29fd33ce22f6de0d241a7c29 e76c53bb8d2844a0c810a32715a8f02ae04da452 M	cucumber/pom.xml
+:100644 100644 0a88d893dd217fdd3ca129a2371832d451528235 032efd91a9d20eebf450cdf9608b60bb1e485a8f M	pom.xml
+:100644 100644 829fa398e0d862c49976186822f1d1fc33bc80ed ebc3994d8830cdd1ef6500544e56ba2e97f346d4 M	service/pom.xml
+
+commit 860a48e8ad9a480bedad9f6a697873538bab6bd0
+tree c5e2041c148d89aeabd50a6a1466d5b1b117cd8d
+parent 1ca0261a816882b15754202b30e731d1aa566a88
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377059942 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377059942 -0500
+
+    [B-54693]: fixing review comments
+
+:100644 100644 0c029f2ab0f80c945fa75f57e09814438fed0565 ea37a71d68c8da1389ff72d29ff5387297a25258 M	service/src/main/groovy/com/rackspace/search/service/TicketSearchService.groovy
+
+commit 1ca0261a816882b15754202b30e731d1aa566a88
+tree b5293aec1451227748fb8d5df05f8ae57d3c5b1e
+parent 722e64f009fe2265de42eacc37360306c40e3dad
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1377036269 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1377036269 -0500
+
+    [B-54693]: fixing review comments
+
+:100644 100644 04e2c58b8bbc7dbb6ac5d5dacc9ffbd78d1def0f 4f7185c431de210e7a9ca6934192f59279a5a180 M	service/src/main/config/search.properties
+:100644 100644 a4f0188a29c96ec1c8a81e65760027f77f6fadb5 0c029f2ab0f80c945fa75f57e09814438fed0565 M	service/src/main/groovy/com/rackspace/search/service/TicketSearchService.groovy
+:100644 100644 bbabc12418fb1ed10c318351df0d3b016898608b a4b1928ebefee20804168a108fd1b089b4140ea2 M	service/src/main/groovy/com/rackspace/search/service/account/AccountUpdatesSyncActor.groovy
+:100644 100644 d99e470beac5fb24bfb54128612ce4c6f13992ee 5480fa189daa781eff83c6b5a59d72f0464b4cdc M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketAccountActor.groovy

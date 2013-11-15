@@ -1,0 +1,35 @@
+Changes in branch origin/master, between 401ed5b33c03190c0a142064281209071d00c261 and 95962cc72786d0258b061e538eb56c3522533345
+commit 6b57e2c156eb604d995fe8aa481bf5f2e6a9cfe2
+tree c3598d6d84cf6a4b19d55bd8674a8e8132356fa8
+parent 586b575440754ee2cd49053c69da63637e1901cb
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380293462 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380293462 -0500
+
+    [B-56926] :  fixing ongoing sync job properties
+
+:100644 100644 29f868199aa431763693c0633426353ce9dea6ec 559295816c6ecf835ab39f5274f7b21c8726c622 M	service/src/main/config/search.properties
+:100644 100644 815289d3b14a2d2eacbd957b5303be624a13902d c0270f9736e89fb38b5d84629189fb52339341d5 M	service/src/main/filters/filter.yaml
+
+commit 586b575440754ee2cd49053c69da63637e1901cb
+tree fecad35e32b25213f021a50cde0c7d824bb75612
+parent 7c1682ad6cb8232a8d5863a2c7420b92d3180512
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1379981730 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1379981730 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 289cf2b57b3e4b31f4ff8fe2a50cade2db48ca47 e10fb8cbb02f12f6ecc32cfae6f690bc7b1d2b60 M	cucumber/pom.xml
+:100644 100644 4274dce2958a5bcae9b3bf065f0b69c7ba1d1872 288b016ba290c6b752fec434e1ff8e9da868dc2d M	pom.xml
+:100644 100644 78903331b16ee3160ec208724fddc683a921540c e96870f1d26ffa1f9bf12fe7ad22fe42da90c12d M	service/pom.xml
+
+commit 7c1682ad6cb8232a8d5863a2c7420b92d3180512
+tree 2c5e6aafbd6cdc4fc2103445742a6f96387f5739
+parent 401ed5b33c03190c0a142064281209071d00c261
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1379981724 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1379981724 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b176
+
+:100644 100644 344113172067b6432d9c58bac44bc4e73b8f3f0f 289cf2b57b3e4b31f4ff8fe2a50cade2db48ca47 M	cucumber/pom.xml
+:100644 100644 9fc471be1af00836ee3d02ed16cbf97dfd26743f 4274dce2958a5bcae9b3bf065f0b69c7ba1d1872 M	pom.xml
+:100644 100644 31769ac756f3ed14c89c9b52cc1f9eddfb26411b 78903331b16ee3160ec208724fddc683a921540c M	service/pom.xml

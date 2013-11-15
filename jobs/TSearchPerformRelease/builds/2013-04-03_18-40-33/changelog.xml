@@ -1,0 +1,74 @@
+Changes in branch origin/master, between ee8a1f80c10b7961c2c62c4e1ed9cfcbec371cfe and e3ca91003f110540010e865544a11cf1c5da9cd3
+commit 84b6f36b24971478ed89797f186ecda69f869cab
+tree 0f365782defa7f1402469e5e75418b436e43b1bf
+parent ee8a1f80c10b7961c2c62c4e1ed9cfcbec371cfe
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1365003799 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1365003799 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b46
+
+:100644 100644 cd26c26e886ef728e89f1437c279fe0ef88b4957 8416ef2b1bf2a2fac6d04fcbb98e8c8638d14396 M	cucumber/pom.xml
+:100644 100644 7a405f6aa0a4eaae227b6108fcc56b85cc2c3403 ee64a5874f44b2c254c6ea963d3b940418e55f1a M	pom.xml
+:100644 100644 5055932254d5064692f89dc29145853e43a90c79 2f1d93e907e1926d33f86f2fe1d662d33205f28f M	service/pom.xml
+
+commit d1f80f8eb4e6692736c6e22505a4551c7f8d0b44
+tree e0d6c0d942ef5d97fc32fe8ba8a7d8f65cdf4139
+parent 8a289c6d961a63b33cdf66a269ccb0bbcfa8bb77
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1364939019 -0700
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1364939019 -0700
+
+    B-43056: fixing timezone issue
+
+:100644 100644 bc571906aec13d44dbc27fd52801c5ad24b266ca 254fd0617c6b37029fb5e32c42b00e68114d625c M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreDBGateway.groovy
+
+commit 8a289c6d961a63b33cdf66a269ccb0bbcfa8bb77
+tree 9b99e62d94dd54847f7e784aba0498929435d34c
+parent 10e4c5533e550fb2674977422b558fa1f0e866a7
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1364930090 -0700
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1364930090 -0700
+
+    B-43056: fixing timezone issue
+
+:100644 100644 ddb3e903bca9440aca12dc2d7da664ddd6341395 bc571906aec13d44dbc27fd52801c5ad24b266ca M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreDBGateway.groovy
+:100644 100644 024a299ab9fe615eacd38aec8c214e6ab1bee41c 057d97b84023fae382206fa994c9f122ed1887eb M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreTicket.groovy
+
+commit 10e4c5533e550fb2674977422b558fa1f0e866a7
+tree b58e2804238c0947c497366a1e2ac16344869f1c
+parent 41e30895c5cded84e883b3b9d3c27dc3715165d6
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1364920281 -0500
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1364920281 -0500
+
+    B-43056: test datasource
+
+:000000 100644 0000000000000000000000000000000000000000 e3295de810c645d8b0f32072736f5b65600dd193 A	service/src/test/groovy/com/rackspace/search/TestDatasource.groovy
+
+commit 41e30895c5cded84e883b3b9d3c27dc3715165d6
+tree e7177154e543b0ab9a845e35fc09e59fe3951ba1
+parent c8b3b1ccbbd863de1edfb5629fb4b0dfe9e44a59
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1364920144 -0500
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1364920144 -0500
+
+    B-43056: adding db properties to yaml and using mock datasource for testing
+
+:100644 100644 2f1d93e907e1926d33f86f2fe1d662d33205f28f a8a456cb6fe0d67d153eb0bdfa8f20cf1e80e80f M	service/pom.xml
+:100644 100644 d150aeaf3748275d6ca8ca0f1bc1367d344f7a15 6d03c4ef01f3c47b999ea9c7f493432615178d87 M	service/src/main/config/search.properties
+:100644 100644 0362b560b6c661b858912bc9af9caba5bdec3ed1 f4ed49a15eac1279d8506fc76d265d7e82b6b04e M	service/src/main/filters/filter.yaml
+:100644 100644 05a22800f6dd94dce4e7aebb4a1599c21c2bc016 53335933129d3988da7e6ee1ca8c7800f7289c24 M	service/src/main/resources/coreDbContext.xml
+:100644 100644 13d33fef60d0fecbf1b4d3ea94ac737f3f90858b c34254e1fa2d13dfa880241dd1b083bef69083ca M	service/src/test/resources/test-context.xml
+:000000 100644 0000000000000000000000000000000000000000 a3ffbf3bc47977c693c9b3363dde91ab884a2645 A	service/src/test/resources/test-coreDbContext.xml
+
+commit 7036bd621848ac1fd1e0b631d6ad9d82fa29ba81
+tree b0c476738472dbd375ddc30f801e1ddfe730a0a8
+parent 647a750e90595697d1b683e6ec28c3a661d5a88f
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1364854546 -0700
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1364854546 -0700
+
+    B-43056: integrating core db with ongoing sync
+
+:100644 100644 541561b8b2a647e65213810a8646bcfca14ddbe8 15d5d19b8f942eac15b2b48387cb14b05a68fe31 M	service/src/main/config/elasticsearch/mappings/admin/syncJob.json
+:100644 100644 4b7c4e9cf469690c36b6071d0a5e82ed16356cc3 b6a4ae3c358d77c987d2d69854e42f1ad8171cdc M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncJob.groovy
+:100644 100644 4de27a23db28c39f1bc97a0f4ef59a50c3e24b56 d909fd1c4034b0bb21b527c33a20095784d24c40 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncActor.groovy
+:100644 100644 e1ed4d692e9a6fb27ab0dcde12432929c06cf7de b112129d7c3fbde81475b8b65eddd8dbdaa76cd2 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+:100644 100644 ac7ad834b9548ce3bd5a9b38386b5fcd617dc37b d5e27c9b7802e2351d276274494dff01a593430d M	service/src/main/java/com/rackspace/search/endpoint/AdminResource.java
+:100644 100644 ecd50b565f62ade2a0798126cfa68b2379987ef0 a274cdcfb8bc94ff22f68c592fa0ebf71c08eba2 M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncActorTest.groovy
+:100644 100644 12e159738c3e2ec629dae8604a49aa78a3ad2972 b0d11b4935bda72c45293e2b3e90ffc9762ea3fc M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJobTest.groovy

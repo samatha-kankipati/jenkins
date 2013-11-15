@@ -1,0 +1,34 @@
+Changes in branch origin/master, between ab2c6d372498bf5c13db3aba0224abb38abe049d and bdd12fca3c895d7f9f8b47251d70f06523180857
+commit bdd12fca3c895d7f9f8b47251d70f06523180857
+tree 91c42f944ae639bcba03b3266e274de15f08d237
+parent 5a73a8cf9b2fd08f6db664b6f01dbfa382d23e14
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372391236 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372391236 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 8f4388988684345eb3d927c128b71876f1e88261 5500b63715d08e0a031749de486da7d1f719b7fd M	cucumber/pom.xml
+:100644 100644 00bcd2309a9cb0e2a3bbcfe93abdc95213560d5f aa14c5f3c513aa4c45f4e4a63bdcb5d6da811dfb M	pom.xml
+:100644 100644 c55047d4896beb046067f6a091691af4e0c5a3b7 1d543a92fdc4a607173f653861a79491986d0081 M	service/pom.xml
+
+commit 5a73a8cf9b2fd08f6db664b6f01dbfa382d23e14
+tree fac6c793acba3f72a53f3af2da0f2dfd411a81c4
+parent b0b7b502231eda3d6404477353665f246d4de130
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372391230 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372391230 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b114
+
+:100644 100644 0eb51c265fc3d2e545ed459117a02393470a7ae4 8f4388988684345eb3d927c128b71876f1e88261 M	cucumber/pom.xml
+:100644 100644 974085b9a9e0f709fda2d42907168e570c1d8d6c 00bcd2309a9cb0e2a3bbcfe93abdc95213560d5f M	pom.xml
+:100644 100644 ff179c3dc81ece70b0756e5e941fb9d9aba2e3c6 c55047d4896beb046067f6a091691af4e0c5a3b7 M	service/pom.xml
+
+commit 246d9645e8aeda732cb1a26636eca49302ab0313
+tree 17546822784a10444e5cf298880e04fd20ca64d5
+parent 7e74cc985a0852da86a52ab873f85f3bd58b5293
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1372351299 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1372351299 -0500
+
+    [B-49775]:  Refactoring the code and supporting more/multiple query params
+
+:100644 100644 8f2bec810054e39fefdc447d504291308c81d38a f087b2bd1dae80d5744e06e9c93e622c615756fc M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/QueryParser.groovy

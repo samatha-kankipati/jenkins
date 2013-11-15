@@ -1,0 +1,14 @@
+Changes in branch origin/master, between f707cdf8f7df7238a76cc26caf064feb72cc5886 and 5765b53d7de44c08a7e0e84874ccc6bd344dd0d7
+commit d2ee92b7a3448b4e16dc656d05867c307b853494
+tree 8b430b7ee3587e6eb8e2abe29fa8c071995e2598
+parent f83013ad5580ddc25a59e69ec112705f01b2e35d
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1364507907 -0500
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1364507907 -0500
+
+    B-43056: fixing urls and logs
+
+:000000 100644 0000000000000000000000000000000000000000 13a961466a76f1f4657b7e20c351413f26abc9cc A	cucumber/src/test/resources/logback-jetty.xml
+:000000 100644 0000000000000000000000000000000000000000 13a961466a76f1f4657b7e20c351413f26abc9cc A	cucumber/src/test/resources/logback-test.xml
+:100644 100644 27db6be55694a54eaa5b65cb2dcfd114bcab006f 84cd4c045d080439a52ba916ad44c2cf191f96ac M	service/src/main/java/com/rackspace/search/endpoint/AdminResource.java
+:000000 100644 0000000000000000000000000000000000000000 787e5a2a8cc0d09a879e24dd7b36670b24f66a0c A	service/src/test/resources/logback-jetty.xml
+:000000 100644 0000000000000000000000000000000000000000 19849fab81d6895a2f4dad3dcfaf3fa3f483eded A	service/src/test/resources/logback-test.xml

@@ -1,0 +1,39 @@
+Changes in branch origin/zd, between 99e322d4bdbb5cd6e26ce5cb05d7483cd8084467 and 22ae746cea6c37422d5591841256304959ae1fc5
+commit c80a6a98d51554a9a2706c49aedb6ea92fcada51
+tree ba1f616bea02cbdc122a7072bc767339fda282a6
+parent dd2ae10d78eddf0c88c1741344feb2cb62819c12
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1380751082 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1380751082 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 9550ea9d49f5b2b6f6b3c1e77f39742c8d4188d7 c17d0cde56f40c6dcfc8d66de1751484c234fb06 M	cucumber/pom.xml
+:100644 100644 7821dfeee848f7a67f0e4275b4bdf18cf8a920c8 937276bbe62df6378d8b3923cafe4f2ad612a82e M	pom.xml
+:100644 100644 4278420f12d6d9377a95143dd54e136593b8ef91 9a7a3e097cc6df87374369b5d9da0a05c5327a12 M	service/pom.xml
+
+commit dd2ae10d78eddf0c88c1741344feb2cb62819c12
+tree 419fb0a64fd767f775d68ff334eba2221d889e9e
+parent bbec57a2e50186ebe22d9821fb147b7deaf16b68
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1380751076 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1380751076 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b179
+
+:100644 100644 5883990ed1873ab77e2754137b1a2ead3de4aa8b 9550ea9d49f5b2b6f6b3c1e77f39742c8d4188d7 M	cucumber/pom.xml
+:100644 100644 ec2576c469221caa5a228197e6453a06cfd31487 7821dfeee848f7a67f0e4275b4bdf18cf8a920c8 M	pom.xml
+:100644 100644 566da74c3ca98d8277cb5c51ef5f45a20c154be8 4278420f12d6d9377a95143dd54e136593b8ef91 M	service/pom.xml
+
+commit d5588ac95fe2c277a9e83bf9e902335c92ef78f7
+tree 0ab9256cd32896713af2959e6f8b897d2fa071ed
+parent 426147f2311957980933c7a0b1f343663681f914
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380742828 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380742828 -0500
+
+    [B-57849] :  Getting category and subcategory
+
+:100644 100644 3a3ab0ae5c8b6a866be10efd606636b700822735 f65c150cea23d9580c8c0057f8b7b22e61d13f74 M	service/src/main/config/elasticsearch/mappings/ticket/ticket.json
+:100644 100644 559295816c6ecf835ab39f5274f7b21c8726c622 48a49c1e352e1f10ab1c8a3a38e2894749a760a7 M	service/src/main/config/search.properties
+:100644 100644 83858f9bda493d08404937d27e1df9d17ab7d8d9 f51c3910f4d363bc41ded24aec931ab9bd4634f4 M	service/src/main/groovy/com/rackspace/search/Constants.groovy
+:100644 100644 cd0728a1d1424a1c1d18f8b477616576890c384d 2a48a1aa875241e30dc5c469d78fa88d21ed7f6a M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreDBGateway.groovy
+:100644 100644 4539b07244a66c78c31b335c67deb905f67fc286 df3b843ec70d2602f98581d4da7810ea78d23a04 M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreTicket.groovy
+:100644 100644 dca5ac660c7f9eb73bf4a8e4c8a806c9e1e3e03c c55eda107c7c32fadf7e5aa8e5117f93d4f78142 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy

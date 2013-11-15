@@ -1,0 +1,10 @@
+Changes in branch origin/zd, between 22ae746cea6c37422d5591841256304959ae1fc5 and 31eb4e418c21c90a050f500ad36cc1065f11b0d8
+commit 31eb4e418c21c90a050f500ad36cc1065f11b0d8
+tree 9554899d2adfb3f8f8b1c365fe911a1769c179a7
+parent 22ae746cea6c37422d5591841256304959ae1fc5
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380750566 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380750566 -0500
+
+    Fixing merge conflicts
+
+:100644 100644 216827cb6bb8d6c0da7745403b285680c43f1149 532194e44ac1570f5695306d90d524e5c2ac8d3c M	service/src/main/config/search.properties

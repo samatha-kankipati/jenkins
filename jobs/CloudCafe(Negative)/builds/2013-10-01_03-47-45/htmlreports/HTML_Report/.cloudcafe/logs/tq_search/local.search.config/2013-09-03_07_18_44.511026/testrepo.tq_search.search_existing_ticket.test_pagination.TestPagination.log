@@ -1,0 +1,69 @@
+2013-09-03 07:18:44,646: DEBUG: root: 
+========================================================
+SETTING UP testrepo.tq_search.search_existing_ticket.test_pagination.TestPagination at 2013-09-03 07:18:44.646173
+========================================================
+2013-09-03 07:18:44,649: ERROR: ccengine.domain.configuration.AuthConfig: No option 'api_key' in section: 'auth'
+2013-09-03 07:18:44,650: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.auth.auth_client.AuthClient object at 0x11447590>, 'POST', 'https://ws.staging.core.rackspace.com/ctkapi/login/melissa.biles') {'headers': {}, 'params': {}, 'data': '{"password": "qwerty"}', 'auth': None, 'verify': False}
+2013-09-03 07:18:44,661: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): ws.staging.core.rackspace.com
+2013-09-03 07:18:44,928: DEBUG: requests.packages.urllib3.connectionpool: "POST /ctkapi/login/melissa.biles HTTP/1.1" 200 None
+2013-09-03 07:18:44,998: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://ws.staging.core.rackspace.com/ctkapi/login/melissa.biles
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'22', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/1.2.3 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : {"password": "qwerty"}
+
+2013-09-03 07:18:44,998: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.347645998001
+response headers : CaseInsensitiveDict({'date': 'Tue, 03 Sep 2013 07:03:34 GMT', 'transfer-encoding': 'chunked', 'content-type': 'application/json', 'server': 'Apache/2.2.3 (Red Hat)'})
+response body    : {"authtoken": "57c1e2e9525d795b780eb4356a2ef759"}
+-------------------------------------------------------------------------------
+2013-09-03 07:18:45,002: DEBUG: root: 
+========================================================
+test_incorrect_sorting_specified_raises_bad_request STARTING at 2013-09-03 07:18:45.002060
+========================================================
+2013-09-03 07:18:45,002: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.SearchApiClient object at 0x11443710>, 'GET', 'http://staging.search.api.rackspace.com/tickets') {'headers': {}, 'params': {'status': None, 'sort': 'number|xyz', 'queue': None, 'updatedAt': None, 'number': None, 'priority': None, 'limit': 100, 'createdAt_range': '[2013-03-12T08:00:26.000Z,2013-03-12T11:02:26.000Z]', 'offset': 0, 'category': None, 'createdAt': None, 'subject': None}, 'data': None, 'auth': None, 'verify': False}
+2013-09-03 07:18:45,003: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-09-03 07:18:45,029: DEBUG: requests.packages.urllib3.connectionpool: "GET /tickets?sort=number%7Cxyz&limit=100&createdAt_range=%5B2013-03-12T08%3A00%3A26.000Z%2C2013-03-12T11%3A02%3A26.000Z%5D&offset=0 HTTP/1.1" 400 None
+2013-09-03 07:18:45,030: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/tickets
+request params  : sort=number%7Cxyz&limit=100&createdAt_range=%5B2013-03-12T08%3A00%3A26.000Z%2C2013-03-12T11%3A02%3A26.000Z%5D&offset=0
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/1.2.3 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-09-03 07:18:45,030: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [400]>
+response time    : 0.0274069309235
+response headers : CaseInsensitiveDict({'date': 'Tue, 03 Sep 2013 07:05:14 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"badRequest":{"message":"Bad Request","detail":"No enum constant org.elasticsearch.search.sort.SortOrder.XYZ","code":400}}
+-------------------------------------------------------------------------------
+2013-09-03 07:18:45,030: ERROR: ccengine.domain.tq_search.response.tq_search.Search: argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCafe(Negative)/workspace/lib/ccengine/domain/base_domain.py", line 93, in deserialize
+    ret = getattr(cls, '_%s_to_obj' % format_type)(serialized_str)
+  File "/var/lib/jenkins/jobs/CloudCafe(Negative)/workspace/lib/ccengine/domain/tq_search/response/tq_search.py", line 94, in _json_to_obj
+    ret.ticket = TicketDetails(response)
+  File "/var/lib/jenkins/jobs/CloudCafe(Negative)/workspace/lib/ccengine/domain/tq_search/response/tq_search.py", line 114, in __init__
+    if not "source_system" in ticket:
+TypeError: argument of type 'NoneType' is not iterable
+2013-09-03 07:18:45,031: DEBUG: ccengine.domain.tq_search.response.tq_search.Search: Deserialization Error: Attempted to deserialize type using type: json
+2013-09-03 07:18:45,031: DEBUG: ccengine.domain.tq_search.response.tq_search.Search: Deserialization Error: Unble to deserialize the following:
+{"badRequest":{"message":"Bad Request","detail":"No enum constant org.elasticsearch.search.sort.SortOrder.XYZ","code":400}}
+2013-09-03 07:18:45,032: DEBUG: root: 
+========================================================
+TEARING DOWN TestPagination at 2013-09-03 07:18:45.032219
+========================================================

@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.plugins.git.GitSCM" plugin="git@1.2.0">
+    <configVersion>2</configVersion>
+    <userRemoteConfigs>
+      <hudson.plugins.git.UserRemoteConfig>
+        <name></name>
+        <refspec>+refs/heads/*:refs/remotes/origin/*</refspec>
+        <url>git://github.rackspace.com/jayd0870/CloudCAFE-Python.git</url>
+      </hudson.plugins.git.UserRemoteConfig>
+    </userRemoteConfigs>
+    <branches>
+      <hudson.plugins.git.BranchSpec>
+        <name>remotes/origin/dev_updated_code</name>
+      </hudson.plugins.git.BranchSpec>
+    </branches>
+    <disableSubmodules>false</disableSubmodules>
+    <recursiveSubmodules>false</recursiveSubmodules>
+    <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+    <authorOrCommitter>false</authorOrCommitter>
+    <clean>false</clean>
+    <wipeOutWorkspace>false</wipeOutWorkspace>
+    <pruneBranches>false</pruneBranches>
+    <remotePoll>false</remotePoll>
+    <ignoreNotifyCommit>false</ignoreNotifyCommit>
+    <useShallowClone>false</useShallowClone>
+    <buildChooser class="hudson.plugins.git.util.DefaultBuildChooser"/>
+    <gitTool>Default</gitTool>
+    <submoduleCfg class="list"/>
+    <relativeTargetDir></relativeTargetDir>
+    <reference></reference>
+    <excludedRegions></excludedRegions>
+    <excludedUsers></excludedUsers>
+    <gitConfigName></gitConfigName>
+    <gitConfigEmail></gitConfigEmail>
+    <skipTag>false</skipTag>
+    <includedRegions></includedRegions>
+    <scmName></scmName>
+  </scm>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers class="vector"/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+if [ -d &quot;.env&quot; ]; then
+    echo &quot;**&gt; virtualenv exists&quot;
+else
+    echo &quot;**&gt; creating virtualenv&quot;
+    ~/.localpython/bin/python2.7 ~/.localpython/lib/python2.7/site-packages/virtualenv.py .env
+fi
+source .env/bin/activate
+pip install python-dateutil requests logging unittest2 argparse paramiko &gt; /dev/null
+export CLOUDCAFE_TEST_CONFIG=&quot;$WORKSPACE/config/tq_search/local.search.config&quot;
+export CLOUDCAFE_LOG_PATH=&quot;$WORKSPACE/data&quot;
+export PYTHONPATH=&quot;$PYTHONPATH:$WORKSPACE/lib&quot;
+
+
+cat &gt; &quot;$CLOUDCAFE_TEST_CONFIG&quot; &lt;&lt;-&quot;EOF_CAT&quot;
+# ======================================================
+# local.search.config
+# Use this configuration file to run against search local
+# ======================================================
+
+[misc]
+serializer=json
+deserializer=json
+
+[auth]
+base_url=
+username=
+password=
+version=
+core_auth_url=https://ws.staging.core.rackspace.com/ctkapi/
+core_username=jayd0870
+core_password=qwerty
+core_version=core
+
+[gate]
+base_url=http://test.search.api.rackspace.com:8080/
+
+EOF_CAT
+
+./bin/runner.py tq_search local.search.config -t defect=true</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers>
+    <hudson.plugins.parameterizedtrigger.BuildTrigger plugin="parameterized-trigger@2.16">
+      <configs>
+        <hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
+          <configs class="empty-list"/>
+          <projects>TSearchPerformRelease</projects>
+          <condition>SUCCESS</condition>
+          <triggerWithNoParameters>true</triggerWithNoParameters>
+        </hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
+      </configs>
+    </hudson.plugins.parameterizedtrigger.BuildTrigger>
+  </publishers>
+  <buildWrappers/>
+</project>

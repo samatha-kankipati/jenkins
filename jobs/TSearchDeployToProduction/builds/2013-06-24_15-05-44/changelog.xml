@@ -1,0 +1,45 @@
+Changes in branch origin/master, between 16a4a41c45d22326dffd54e9026e679152ce3198 and 407e7b38981895ca40c6b531fe90ea11f24883f1
+commit 407e7b38981895ca40c6b531fe90ea11f24883f1
+tree 60e525805d95813b958842c5c7b8b8d5b393c3a2
+parent 0933cc850263c2ed5d930157d5d54495dd265cd9
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372085535 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372085535 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 5327211c6e2d1eb13675fe6b42806713642aa203 eab7d339d4dbc50ac32dec5b075175faff2c3a83 M	cucumber/pom.xml
+:100644 100644 82666462b4da2f8a038bab6d0a01822b50b76aac e6c5d33ed07916ca004080efbba90cbc6145cb58 M	pom.xml
+:100644 100644 30b73286c40ded4864a71177b92990a263c3a827 ad0a8e418773fd5fbd381fada168c04d073ac0da M	service/pom.xml
+
+commit 0933cc850263c2ed5d930157d5d54495dd265cd9
+tree 8e734c63ce73ff079ab2f9c1d4c3f29e91495bec
+parent 66b523bcc1427cfcd8d552d24a48bd5b26df068c
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372085530 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372085530 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b111
+
+:100644 100644 b640e50560300fc84e9f59d2e685f6884ac62834 5327211c6e2d1eb13675fe6b42806713642aa203 M	cucumber/pom.xml
+:100644 100644 edf7879c0822772b1f0e0c435cbd82650c925452 82666462b4da2f8a038bab6d0a01822b50b76aac M	pom.xml
+:100644 100644 81007bc4cf27e61f20cdb9e5126ab4777ffa501a 30b73286c40ded4864a71177b92990a263c3a827 M	service/pom.xml
+
+commit 94bb72be9134495c0aa539ff890e5a202a586167
+tree 6ffb5bb356428ab5656c760d8ee3b3cd489e5325
+parent 69ab651a80a2a8f0320762eab264374d17c20700
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1372079580 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1372079580 -0500
+
+    [B-51290] : Adding Facets, fixing review comments.
+
+:100644 100644 cd2a01b4657850c29e59bff4a4d55e00f3656262 c18ddf214681879b3f5d6e48e9c8cc1d42c64fb0 M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy
+
+commit ece94a4de5b9dcf91db45b7637ccdd98c2a6fe08
+tree 24e43feb82b872cef9435bf7d38d76a3b552118e
+parent 3cfd9a9d6576526e8ba42a69deb2753385f16158
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1371956956 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1371956956 -0500
+
+    [B-51290] : Adding Facets
+
+:100644 100644 5f1c711113c281b3c4e71cf25a737775e5e4a3d7 8e0fb9b47e5aa214e59b06c58b626431639c9204 M	service/src/main/config/search.properties
+:100644 100644 51828ece016bfd1dbf968c067aa054d2d6001bba cd2a01b4657850c29e59bff4a4d55e00f3656262 M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy

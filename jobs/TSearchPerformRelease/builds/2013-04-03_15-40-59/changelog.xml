@@ -1,0 +1,155 @@
+Changes in branch origin/master, between 5765b53d7de44c08a7e0e84874ccc6bd344dd0d7 and ee8a1f80c10b7961c2c62c4e1ed9cfcbec371cfe
+commit 9dde0fe1c6253ae998b0756dd213a627503c2f36
+tree 0cd41ddd794e3f3eed93ef9cacfd3d8dbceb59bb
+parent b058b6d4b88b215376880e68e2cbd12eb77c9c2c
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364944706 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364944706 -0500
+
+    [B-42997]: Fixed cucumber test and pom version.
+
+:100644 100644 8416ef2b1bf2a2fac6d04fcbb98e8c8638d14396 cd26c26e886ef728e89f1437c279fe0ef88b4957 M	cucumber/pom.xml
+:100644 100644 c51c2d50d65a290a5edeb165f3a2f1eab3dad82f 7a405f6aa0a4eaae227b6108fcc56b85cc2c3403 M	pom.xml
+:100644 100644 2f1d93e907e1926d33f86f2fe1d662d33205f28f 5055932254d5064692f89dc29145853e43a90c79 M	service/pom.xml
+:100644 100644 ac7ad834b9548ce3bd5a9b38386b5fcd617dc37b 877e79856c086e47a8a277392b37ae98ce84c392 M	service/src/main/java/com/rackspace/search/endpoint/AdminResource.java
+
+commit bcb14013297ecbecf27d0ab98d484ebd01484e7d
+tree 361006b63ee56f17b2a82689a3762c17ff8e303e
+parent a1831718b66fc4b79a054976d4ebb6ac6d5c321e
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364942118 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364942118 -0500
+
+    [B-42997]: debugging Test failures on jenkins
+
+:100644 100644 281082305097ab7173cf20766d926615e888ac0f 5674040d9373464cbf659a894ea1a41c45ebd35c M	service/src/test/groovy/com/rackspace/search/service/JobServiceTest.groovy
+
+commit a1831718b66fc4b79a054976d4ebb6ac6d5c321e
+tree f5a8140448b2341ba0250183c0946e1d6812889d
+parent 99a87b7b6ced8beb89410cca2b794e75714edbec
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364941478 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364941478 -0500
+
+    [B-42997]: debugging Test failures on jenkins
+
+:100644 100644 5c13ce5ea8f5c4031958e7d9a465a542dcd2c49b d15857aca0d26eb9b824e3ccc8dd28773f0d4f97 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+:100644 100644 8ae9811bd84e0a8d0956cecd6c20b882028a2d1c 281082305097ab7173cf20766d926615e888ac0f M	service/src/test/groovy/com/rackspace/search/service/JobServiceTest.groovy
+
+commit 99a87b7b6ced8beb89410cca2b794e75714edbec
+tree 52cfabdfd95ff3b1945cda0bf0fed70cb0683470
+parent d11a4bf10b5466acd7d2219b0118ad0ce64d4410
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364938768 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364938768 -0500
+
+    [B-42997]: debugging Test failures on jenkins
+
+:100644 100644 c84f194dd3e69187a3089b1028feb2126b1e00b5 5c13ce5ea8f5c4031958e7d9a465a542dcd2c49b M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+
+commit d11a4bf10b5466acd7d2219b0118ad0ce64d4410
+tree 860ad35b4a6f467898760b36f40267218bb56aa7
+parent 097a60dee9bbd6115ce6650a3d7d4fdac7b796cf
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364937546 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364937546 -0500
+
+    [B-42997]: debugging Test failures on jenkins
+
+:100644 100644 9b086a881ac84706c851d2485bf0a59573e7a2db c84f194dd3e69187a3089b1028feb2126b1e00b5 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+
+commit 097a60dee9bbd6115ce6650a3d7d4fdac7b796cf
+tree eb128772adc49eb89b66007d599486f0c02c4656
+parent 4055f87f1067c7b3bc1ce6c9681f1b3483c043a0
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364937092 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364937092 -0500
+
+    [B-42997]: debugging Test failures on jenkins
+
+:100644 100644 8094ad989080e258db8b4249d4923bbcfced0a0d 9b086a881ac84706c851d2485bf0a59573e7a2db M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+
+commit a366bc4705ee0f8ae29f7c5ab67b245c2682016f
+tree 8cbf24872da234a3b3613497a3f70ef33cecd3ca
+parent 647a750e90595697d1b683e6ec28c3a661d5a88f
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364848548 +0100
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1364848548 +0100
+
+    [B-43056] : Fixed test cases.
+
+:100644 100644 791a901779fddf3b473d6970cc51653c9aad6bf1 cfccacdd9268acb50d45f5d3052ccfd65075d6d3 M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+:100644 100644 e1ed4d692e9a6fb27ab0dcde12432929c06cf7de 8094ad989080e258db8b4249d4923bbcfced0a0d M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+
+commit e111f801fb334420a1806e957ad267add0cee5d6
+tree 72bf2fbd2056ceabbf37e9037934844fc0be45f2
+parent cbfe30b04854145b4990f452515db0b8197bcd87
+author Satya Boddu <satya.boddu@rackspace.com> 1364830365 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1364830365 -0500
+
+    [B-43056] Fixed review comments
+
+:100644 100644 667b1a864ac8b62ce3abd8abb882c51c8f353eab e033cfe9e22a915ad6087bcdadfffee8ef96ab4b M	service/src/main/groovy/com/rackspace/search/Constants.groovy
+:100644 100644 39567373290d9afb9cbf7a962a8f286317947167 4de27a23db28c39f1bc97a0f4ef59a50c3e24b56 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncActor.groovy
+:100644 100644 90087822ed2516e59e6bc2248df2508585d36869 ac7ad834b9548ce3bd5a9b38386b5fcd617dc37b M	service/src/main/java/com/rackspace/search/endpoint/AdminResource.java
+:100644 100644 5d62083843d4625048378b1fd6102121b4bde961 ecd50b565f62ade2a0798126cfa68b2379987ef0 M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncActorTest.groovy
+
+commit ec3afb2efb2a28857cf48b1dbbaeb3e9050d53f4
+tree 7570204f742b0925049e78bfeba630ec12467c82
+parent fa499ed93e537a47e3dc449042482ca5d48a26e9
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1364828640 -0500
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1364828640 -0500
+
+    B-43056: fixing urls and logs
+
+:100644 100644 f80885058bc7b99221fee86ff23de1877d911580 13d33fef60d0fecbf1b4d3ea94ac737f3f90858b M	service/src/test/resources/test-context.xml
+
+commit e5d7edf6363057002657d5309e40e438c2095b1b
+tree 0cf9334133f749db0cc2ac6602575fade70ea598
+parent 8559bd11aaa5e728065648754647ef55a7af0a08
+author Satya Boddu <satya.boddu@rackspace.com> 1364827272 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1364827272 -0500
+
+    Fixed Merge issues
+
+:100644 100644 134c55519564c092a04ba875df89835ae48b7c19 fa79dcf4d8c85c8956cc8ef3200cc60cfcc9bb10 M	service/src/main/groovy/com/rackspace/search/Constants.groovy
+
+commit fa499ed93e537a47e3dc449042482ca5d48a26e9
+tree 25f75727c01fba85711d7f164a48d73e5e4fa756
+parent b004402ac2da936ed8032a67892db464a7cc2dac
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1364594152 -0500
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1364594152 -0500
+
+    B-43056: commit context file
+
+:000000 100644 0000000000000000000000000000000000000000 05a22800f6dd94dce4e7aebb4a1599c21c2bc016 A	service/src/main/resources/coreDbContext.xml
+
+commit 8559bd11aaa5e728065648754647ef55a7af0a08
+tree a7988d426f335a115bea6b610ae97b1df5f27937
+parent 5765b53d7de44c08a7e0e84874ccc6bd344dd0d7
+author Satya Boddu <satya.boddu@rackspace.com> 1364593150 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1364593150 -0500
+
+    [B-43056] Added implementation for CoreTicketongoingSyncJob
+
+:100644 100644 ea4aeaa8f7a017f627abe7a251d2ed29e0939c54 541561b8b2a647e65213810a8646bcfca14ddbe8 M	service/src/main/config/elasticsearch/mappings/admin/syncJob.json
+:100644 100644 1cbde59c1b5f2028b17e7c3eccf090fc9890c34b d150aeaf3748275d6ca8ca0f1bc1367d344f7a15 M	service/src/main/config/search.properties
+:100644 100644 d5cfd1bd9fe21cfecca5f08bacd9164b950a3d00 0362b560b6c661b858912bc9af9caba5bdec3ed1 M	service/src/main/filters/filter.yaml
+:100644 100644 fa79dcf4d8c85c8956cc8ef3200cc60cfcc9bb10 134c55519564c092a04ba875df89835ae48b7c19 M	service/src/main/groovy/com/rackspace/search/Constants.groovy
+:100644 100644 8cca6a1e595180be7d6c752885369009048ed7b1 4b7c4e9cf469690c36b6071d0a5e82ed16356cc3 M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncJob.groovy
+:100644 100644 2537ac94938d73451bffea0a98edc8de131e0075 b4225067bc19c1ebbfa41fba5871f89117ef0462 M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreTicketGateway.groovy
+:000000 100644 0000000000000000000000000000000000000000 39567373290d9afb9cbf7a962a8f286317947167 A	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncActor.groovy
+:000000 100644 0000000000000000000000000000000000000000 e1ed4d692e9a6fb27ab0dcde12432929c06cf7de A	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+:100644 100644 84cd4c045d080439a52ba916ad44c2cf191f96ac 90087822ed2516e59e6bc2248df2508585d36869 M	service/src/main/java/com/rackspace/search/endpoint/AdminResource.java
+:100644 100644 a8a56ec809c35b3404a39d95624f8872b4de29f3 c91c8cb3068c94e2aa0e955ddb6d66d0982ba2e4 M	service/src/test/groovy/com/rackspace/search/gateway/core/CoreTicketGatewayTest.groovy
+:100644 100644 fd23444716857dec0203293424153ec39200dd82 8ae9811bd84e0a8d0956cecd6c20b882028a2d1c M	service/src/test/groovy/com/rackspace/search/service/JobServiceTest.groovy
+:000000 100644 0000000000000000000000000000000000000000 5d62083843d4625048378b1fd6102121b4bde961 A	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncActorTest.groovy
+:000000 100644 0000000000000000000000000000000000000000 12e159738c3e2ec629dae8604a49aa78a3ad2972 A	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJobTest.groovy
+
+commit b004402ac2da936ed8032a67892db464a7cc2dac
+tree f7420060c834b8ce9d5d6cc6bd2bae58f39bd929
+parent d2ee92b7a3448b4e16dc656d05867c307b853494
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1364592296 -0500
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1364592296 -0500
+
+    B-43056: fixing urls and logs
+
+:100644 100644 77d1917b189362bc09bdfb1166b37f899fff5f91 097c16ec30a1607a45d0d9996dafe17d131093b0 M	service/pom.xml
+:100644 100644 fa79dcf4d8c85c8956cc8ef3200cc60cfcc9bb10 667b1a864ac8b62ce3abd8abb882c51c8f353eab M	service/src/main/groovy/com/rackspace/search/Constants.groovy
+:000000 100644 0000000000000000000000000000000000000000 ddb3e903bca9440aca12dc2d7da664ddd6341395 A	service/src/main/groovy/com/rackspace/search/gateway/core/CoreDBGateway.groovy
+:000000 100644 0000000000000000000000000000000000000000 024a299ab9fe615eacd38aec8c214e6ab1bee41c A	service/src/main/groovy/com/rackspace/search/gateway/core/CoreTicket.groovy
+:000000 100644 0000000000000000000000000000000000000000 1eb50d7380acd0983eba7e550c67168c13e17eda A	service/src/main/java/com/rackspace/search/exception/CoreDBException.java
+:100644 100644 4b6addcde2fb8a039e48bdaf5077156c02c464a1 d66d8453e63958c975330e1890278d690330664d M	service/src/main/webapp/WEB-INF/web.xml

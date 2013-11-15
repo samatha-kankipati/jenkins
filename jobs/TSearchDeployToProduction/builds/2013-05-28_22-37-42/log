@@ -1,0 +1,23 @@
+Started by user [8mha:AAAApB+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/dLi1CL94tKi1LyUokS9xIKCRKCBqXmZAPPLBnDOAAAA[0msurendra.appalaneni
+Building in workspace /var/lib/jenkins/jobs/TSearchDeployToProduction/workspace
+Checkout:workspace / /var/lib/jenkins/jobs/TSearchDeployToProduction/workspace - hudson.remoting.LocalChannel@16c6cc5e
+Using strategy: Default
+Last Built Revision: Revision 83e8a1296ce9f6b279ef476b6864e69f3fb20218 (origin/master)
+Fetching changes from 1 remote Git repository
+Fetching upstream changes from origin
+Commencing build of Revision 7d358464c85ca0aca39a9dbd247c8298a9365329 (origin/master)
+Checking out Revision 7d358464c85ca0aca39a9dbd247c8298a9365329 (origin/master)
+[workspace] $ /bin/sh -xe /tmp/hudson7783114621139249191.sh
++ sh /var/lib/jenkins/jobs/TSearchDeployToProduction/workspace/service/src/main/scripts/deploy-application.sh 0.1.0_b76 prod
+environment in warhammer is prod
+environment is prod
+Usage: /var/lib/jenkins/jobs/TSearchDeployToProduction/workspace/service/src/main/scripts/deploy-application.sh <version> <environment>
+
+   version: Application version number to be deployed. (2.1.1)
+    environment: Environment to deploy code and configuration to.  Possible values are dev,test,uat
+
+    Note: Local user 'jenkins' must have password-less publickey SSH
+          authentication to all servers or script will fail.
+
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

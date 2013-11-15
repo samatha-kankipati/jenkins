@@ -1,0 +1,81 @@
+Changes in branch origin/master, between 404f4efb036da35c8078dc6b8270e5ace7e7656d and e30596865fbaa6dbfecd0cdbb149f773ca3626a1
+commit 53fc0327dbb67b09ea869a60672c7a855cc670c7
+tree e08400cee54258d2cb1164ab36c3a20eff2b2eac
+parent cf9231bd6edbdc3772bd00390de82ab141d9d8a9
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1368724349 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1368724349 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 05a1f49c64db1d3ee0357631989786ed836c0d4e 2897cfeea0164a2649b7dae6c67a399cc460a31c M	cucumber/pom.xml
+:100644 100644 ecbafcb929b1af6653aed896a54e063dab397b7c 1a010329d36aaa0424b6742b646450a36d72dfca M	pom.xml
+:100644 100644 60d26fb10e31f2753c5ac621a9afcf81a877325d 24316e1a65b504fb8a377aed1c5daf50be800bc4 M	service/pom.xml
+
+commit cf9231bd6edbdc3772bd00390de82ab141d9d8a9
+tree 4c25c452c6c44f3fb2c898070c1c768a36de0f36
+parent 404f4efb036da35c8078dc6b8270e5ace7e7656d
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1368724343 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1368724343 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b60
+
+:100644 100644 7785a4b72723dd36e323fbe04092616ef4f98955 05a1f49c64db1d3ee0357631989786ed836c0d4e M	cucumber/pom.xml
+:100644 100644 bac9c305ff74949f7322e0c011e1ff37a83be99a ecbafcb929b1af6653aed896a54e063dab397b7c M	pom.xml
+:100644 100644 47bfa6974a8e19d18663c7d83e60dc79b113ad77 60d26fb10e31f2753c5ac621a9afcf81a877325d M	service/pom.xml
+
+commit c911f9d9db3ce8657c30234f931fe3919fac40f6
+tree 01b133777be805259394a6e259ebd4ab794dd174
+parent 1616aa9138aca51b67d337a379a36921946b9fee
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1368723859 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1368723859 -0500
+
+    [B-48392] : correctred cluster configuration
+
+:100644 100644 93e4519cc70d8110e7fb4f9e8375bcadba9eebbe c240cfeca8b5b58243ab99d462e5de9585f19845 M	service/src/main/config/elasticsearch.properties
+:100644 100644 096c4432d140436bb314d81b81998be23516ed05 4a58e56ffc5bbe9d7b8bb7915af9287a604222c6 M	service/src/main/filters/filter.yaml
+
+commit dadbc42e7679d6bd6516f22d1a61610955baef61
+tree 64a58026d57f8c7ca53e0741ac303ffb3abd555d
+parent ab250c5349e53ea7bb71b3aa058def8678893a61
+author Satya Boddu <satya.boddu@rackspace.com> 1368722886 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1368722886 -0500
+
+     Removed account.id from ticket field and pointed to account object
+
+:100644 100644 8a7967d7a1aa29f8d9d5e4c7f805c9a82ef143a5 93213693cb9f2c74dcaa05e164a73799c954ebcf M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+
+commit ab250c5349e53ea7bb71b3aa058def8678893a61
+tree 7b6736ad9cb40bd8c2b78eb8b1dd510ebd429efc
+parent 0cc15d9d534705cf9d1f84c6aa82e89841ab100b
+author Satya Boddu <satya.boddu@rackspace.com> 1368722594 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1368722594 -0500
+
+     Removed account.id from ticket field and pointed to account object
+
+:100644 100644 59b70012f89438991c6a317da5d712344c44d58d 2acd6f1ed88820861318c0f00350ca7a49cbba92 M	service/src/main/config/elasticsearch/mappings/ticket/ticket.json
+:100644 100644 09729b0b2a5e52173332a8687374e8a2651d3908 666539f854e95ee728acbb7b3c584a262ac155fc M	service/src/main/config/search.properties
+:100644 100644 09a9ffa76e106a469b7b60739a8b8ceeb713af90 8a7967d7a1aa29f8d9d5e4c7f805c9a82ef143a5 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+
+commit 0cc15d9d534705cf9d1f84c6aa82e89841ab100b
+tree 99ab3b8a744df8241ea1b2d9e2353a11c72b7042
+parent f513e675a845571e4e3de9d05cdfe0bd374d458b
+author Satya Boddu <satya.boddu@rackspace.com> 1368654628 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1368654628 -0500
+
+    Refactor account.number field in ticket data
+
+:100644 100644 d18f874c004ba8702e29e6f668d342898296c4e4 c9044d0a4e025d7db8b357ec9c7169e23007b56e M	service/src/main/groovy/com/rackspace/search/service/account/AccountOneTimeSyncJob.groovy
+:100644 100644 4a840d5042a2822df60cb26563a224df735f6f5f 2ad616367f316950cde588ea51906caed45bca2f M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOneTimeSyncJob.groovy
+:100644 100644 6716c74476a065a65ad1d005d440ab255c66ed4e 09a9ffa76e106a469b7b60739a8b8ceeb713af90 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+
+commit 3992dbf51143a8be36c8e28579c59259b0895727
+tree a54e59f41a5458cb24c3562d2c78a626ad6bfd7a
+parent b427c1458b75980a0f7e4a00236d95a3157d131e
+author Satya Boddu <satya.boddu@rackspace.com> 1368651999 -0500
+committer Satya Boddu <satya.boddu@rackspace.com> 1368651999 -0500
+
+    Refactor account.number field in ticket data
+
+:100644 100644 5f630495fda21809d58995015f267af44004bc94 59b70012f89438991c6a317da5d712344c44d58d M	service/src/main/config/elasticsearch/mappings/ticket/ticket.json
+:100644 100644 0a695ff0e62f2e3d9740f137a3f3e9c8d21fef22 09729b0b2a5e52173332a8687374e8a2651d3908 M	service/src/main/config/search.properties
+:100644 100644 39b6590d83aa558f6229f22c774b3ad8f12e862e 6716c74476a065a65ad1d005d440ab255c66ed4e M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy

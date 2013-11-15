@@ -1,0 +1,140 @@
+Started by upstream project "[8mha:AAAApx+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgZp/az8JP2Q4NTEouSMgNSitPyi3KLUnNTE4lR9AEszS6zQAAAA[0mTSearchPerformrelease" build number [8mha:AAAAqh+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgY5/az8JP2Q4NTEouSMgNSitPyi3KLUnNTE4lR9QyNDANkpL8TTAAAA[0m121
+originally caused by:
+ Started by upstream project "[8mha:AAAAqB+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyxEgYZ/az8JP2Q4NTEouQMt9K85JLM/LzEnJDU4pJifQCSGu4I0QAAAA==[0mTSearchFunctionalTests" build number [8mha:AAAAqx+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZ5/az8JP2Q4NTEouQMt9K85JLM/LzEnJDU4pJifUMLIwBi6knN1AAAAA==[0m182
+ originally caused by:
+  Started by upstream project "[8mha:AAAAoR+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JP2Q4NTEouSM0LzMkpDU4hJ9ANsqA0/KAAAA[0mTSearchUnitTest" build number [8mha:AAAApB+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgYJ/az8JP2Q4NTEouSM0LzMkpDU4hJ9Q0sjAF2YQBLNAAAA[0m192
+  originally caused by:
+   Started by user [8mha:AAAAlh+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /var/lib/jenkins/jobs/TSearchDeployToTest/workspace
+Checkout:workspace / /var/lib/jenkins/jobs/TSearchDeployToTest/workspace - hudson.remoting.LocalChannel@6788af79
+Using strategy: Default
+Last Built Revision: Revision fe93f3d4755a3a8c17ab4cd54eba1c326188b5c6 (origin/master)
+Fetching changes from 1 remote Git repository
+Fetching upstream changes from origin
+Commencing build of Revision 3fa5e1aeae250f252e11a6901f856a9e8c8b36d2 (origin/master)
+Checking out Revision 3fa5e1aeae250f252e11a6901f856a9e8c8b36d2 (origin/master)
+[workspace] $ /bin/sh -xe /tmp/hudson1060005099796273013.sh
++ sh /var/lib/jenkins/jobs/TSearchDeployToTest/workspace/service/src/main/scripts/deploy-application.sh 0.1.0_b159 test
+environment in warhammer is test
+environment is test
+======================= Starting Deployment =======================
+Version:	'0.1.0_b159'
+Server:		'node2.test.search.api.rackspace.com'
+===================================================================
+
+
+Using temporary directory '/tmp/deploy.G2975'.
+
+
+Fetching files...
+--2013-08-26 06:55:45--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b159/search-0.1.0_b159.war
+Resolving d-build1.iad2.corp.rackspace.com... 10.4.39.20
+Connecting to d-build1.iad2.corp.rackspace.com|10.4.39.20|:8100... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 38754500 (37M) [application/octet-stream]
+Saving to: `/tmp/deploy.G2975/search-0.1.0_b159.war'
+
+     0K ........ ........ ........ ........ ........ ........  8% 4.06M 8s
+  3072K ........ ........ ........ ........ ........ ........ 16% 22.7M 4s
+  6144K ........ ........ ........ ........ ........ ........ 24% 1.74M 8s
+  9216K ........ ........ ........ ........ ........ ........ 32% 2.09M 8s
+ 12288K ........ ........ ........ ........ ........ ........ 40% 7.54M 6s
+ 15360K ........ ........ ........ ........ ........ ........ 48% 9.83M 5s
+ 18432K ........ ........ ........ ........ ........ ........ 56% 12.9M 4s
+ 21504K ........ ........ ........ ........ ........ ........ 64% 15.1M 3s
+ 24576K ........ ........ ........ ........ ........ ........ 73% 13.0M 2s
+ 27648K ........ ........ ........ ........ ........ ........ 81% 15.1M 1s
+ 30720K ........ ........ ........ ........ ........ ........ 89% 15.5M 1s
+ 33792K ........ ........ ........ ........ ........ ........ 97% 15.6M 0s
+ 36864K ........ .......                                     100% 18.6M=6.0s
+
+2013-08-26 06:55:51 (6.13 MB/s) - `/tmp/deploy.G2975/search-0.1.0_b159.war' saved [38754500/38754500]
+
+--2013-08-26 06:55:51--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b159/search-0.1.0_b159.war.md5
+Reusing existing connection to d-build1.iad2.corp.rackspace.com:8100.
+HTTP request sent, awaiting response... 200 OK
+Length: 32 [text/plain]
+Saving to: `/tmp/deploy.G2975/search-0.1.0_b159.war.md5'
+
+     0K                                                      100% 3.05M=0s
+
+2013-08-26 06:55:52 (3.05 MB/s) - `/tmp/deploy.G2975/search-0.1.0_b159.war.md5' saved [32/32]
+
+--2013-08-26 06:55:52--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b159/search-0.1.0_b159-config.zip
+Reusing existing connection to d-build1.iad2.corp.rackspace.com:8100.
+HTTP request sent, awaiting response... 200 OK
+Length: 39245 (38K) [application/zip]
+Saving to: `/tmp/deploy.G2975/search-0.1.0_b159-config.zip'
+
+     0K                                                      100%  100M=0s
+
+2013-08-26 06:55:52 (100 MB/s) - `/tmp/deploy.G2975/search-0.1.0_b159-config.zip' saved [39245/39245]
+
+--2013-08-26 06:55:52--  http://d-build1.iad2.corp.rackspace.com:8100/nexus/content/repositories/releases/com/rackspace/api/search/0.1.0_b159/search-0.1.0_b159-config.zip.md5
+Reusing existing connection to d-build1.iad2.corp.rackspace.com:8100.
+HTTP request sent, awaiting response... 200 OK
+Length: 32 [text/plain]
+Saving to: `/tmp/deploy.G2975/search-0.1.0_b159-config.zip.md5'
+
+     0K                                                      100% 3.39M=0s
+
+2013-08-26 06:55:52 (3.39 MB/s) - `/tmp/deploy.G2975/search-0.1.0_b159-config.zip.md5' saved [32/32]
+
+FINISHED --2013-08-26 06:55:52--
+Downloaded: 4 files, 37M in 6.0s (6.13 MB/s)
+...done.
+
+
+Verifying MD5s...
+OK 1c7575a162337c3919e8b835dd7c1bd3  /tmp/deploy.G2975/search-0.1.0_b159.war
+OK 4bf9e36dbab700502314fa832dcf3c63  /tmp/deploy.G2975/search-0.1.0_b159-config.zip
+done.
+
+
+Copying files to server 'node2.test.search.api.rackspace.com'...
+...done.
+
+Verifying MD5s...
+OK 1c7575a162337c3919e8b835dd7c1bd3  node2.test.search.api.rackspace.com:/home/search/artifacts/search-0.1.0_b159.war
+OK 4bf9e36dbab700502314fa832dcf3c63  node2.test.search.api.rackspace.com:/home/search/artifacts/search-0.1.0_b159-config.zip
+...done.
+
+Copying files to server 'node1.test.search.api.rackspace.com'...
+...done.
+
+Verifying MD5s...
+OK 1c7575a162337c3919e8b835dd7c1bd3  node1.test.search.api.rackspace.com:/home/search/artifacts/search-0.1.0_b159.war
+OK 4bf9e36dbab700502314fa832dcf3c63  node1.test.search.api.rackspace.com:/home/search/artifacts/search-0.1.0_b159-config.zip
+...done.
+
+
+
+Mon Aug 26 06:56:02 UTC 2013 : Deploying to server 'node2.test.search.api.rackspace.com'...Waiting for the domain to stop ....
+Command stop-domain executed successfully.
+Mon Aug 26 06:56:10 UTC 2013 : deployment done. starting server...
+Waiting for search to start ............................................................
+Successfully started the domain : search
+domain  Location: /opt/glassfish/glassfish/domains/search
+Log File: /opt/glassfish/glassfish/domains/search/logs/server.log
+Admin Port: 4848
+Command start-domain executed successfully.
+Mon Aug 26 06:57:13 UTC 2013 : start server completed. adding breathing space of 1min, before getting to next server.
+Mon Aug 26 06:58:13 UTC 2013 : Deploying to server 'node1.test.search.api.rackspace.com'...Waiting for the domain to stop .....
+Command stop-domain executed successfully.
+Mon Aug 26 06:58:22 UTC 2013 : deployment done. starting server...
+Waiting for search to start ...........................................................
+Successfully started the domain : search
+domain  Location: /opt/glassfish/glassfish/domains/search
+Log File: /opt/glassfish/glassfish/domains/search/logs/server.log
+Admin Port: 4848
+Command start-domain executed successfully.
+Mon Aug 26 06:59:24 UTC 2013 : start server completed. adding breathing space of 1min, before getting to next server.
+
+
+Mon Aug 26 07:00:24 UTC 2013 : Cleaning up...done.
+
+
+======================= Deployment Complete =======================
+
+Triggering a new build of [8mha:AAAAmx+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JH3nnPzSFGdHN1d9ALwYXv7EAAAA[0mCloudCAFE #578
+Finished: SUCCESS

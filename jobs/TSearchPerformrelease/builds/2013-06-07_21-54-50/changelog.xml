@@ -1,0 +1,52 @@
+Changes in branch origin/master, between 78339ee5c8674fc821cfe8a48938536a7f454fb5 and 6139db8e3df02812bed04bd4df26975c4633bcae
+commit d380d064f6e42d01e06d184b71a85496933a2efa
+tree 762b00072758f123ad92a3c53578ca0afefa5616
+parent 79dbbb892dc942c62a684fcf990c74b0226dee3d
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1370640843 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1370640843 -0500
+
+    [B-50344] : switching onetime sync source to DB with feature toggle.
+
+:100644 100644 db45a04a05d563e446b12cb471561301c8d743da 4779347cbd37cf90e5984b0e220e0c42b104a268 M	service/src/main/config/search.properties
+:100644 100644 ca172f75ef90ef38a9dfd1f8608024707d16bcdc cc2cbd0482df67cd1e743b13094ed1dbc4767339 M	service/src/main/filters/filter.yaml
+:100644 100644 46ef93edfc3f798a58763d72046988afa58a458a b2b05d15a895b3a3c0d6e6acb0f6ff39483ab46a M	service/src/main/groovy/com/rackspace/search/Constants.groovy
+:100644 100644 3c721085c21f25a0cdfd95a2cdbeefc7d79f9c5c 5be2109b40115e6cf33f37738f4967a41da6c6ab M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreTicket.groovy
+
+commit 79dbbb892dc942c62a684fcf990c74b0226dee3d
+tree bea9d439a5d648e0ccfcf6dd118b9649d51f6ff3
+parent 955f9cd474c91c67de77386c666aa3e692da098f
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1370625590 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1370625590 -0500
+
+    [B-50344] : switching onetime sync source to DB with feature toggle.
+
+:100644 100644 0d13a16c185654e6e9fa39869d06654c9c6c1e23 db45a04a05d563e446b12cb471561301c8d743da M	service/src/main/config/search.properties
+:100644 100644 39c5a0e9936911bb0734e45451c58c038a97fb77 ca172f75ef90ef38a9dfd1f8608024707d16bcdc M	service/src/main/filters/filter.yaml
+:100644 100644 13b75a630b0de1339716c774645d9367f6526d85 46ef93edfc3f798a58763d72046988afa58a458a M	service/src/main/groovy/com/rackspace/search/Constants.groovy
+:100644 100644 ceb8ab5e060ba3d3bd5b1c887a958f0fb8e47366 35e4071d0e83efd3e5abba8216395a78a2060736 M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreDBGateway.groovy
+:100644 100644 0eecf3af416ac8e0bd57913139df8df16d41283b c93745789c6b6825e8262d879b6c76dce874026d M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+:100644 100644 c7212ee2811ae1725c0a84ef3f1381ebc1b51f2c ac7cc0d9e79af981031a941df700e69e68c0b6b9 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOneTimeSyncJob.groovy
+
+commit 31765b185f67aeea738874c2eb8481312a342245
+tree 9211b4e84f1258a2b77d91e15e9c2c8a4b2b78b2
+parent 851f5acff90380f403492371d967b45af8e874d8
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370624219 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370624219 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 87e35a3049ac7c382b6f80de1581ae463a833079 df413d90f957f451cb66cd724391850e945235f3 M	cucumber/pom.xml
+:100644 100644 83ffab259ba9c0573347c9edce90667332e103d6 1b35f9bf30141f0b7ae1ec6db7a5e72422c27859 M	pom.xml
+:100644 100644 9f31bce1274e87e2808487e16edb013e4b0f32a5 883bc2d7031299f3380e932923281f80438ae35a M	service/pom.xml
+
+commit 851f5acff90380f403492371d967b45af8e874d8
+tree 1ba2995710ab816b5e299bbe559fde95a9ec59a0
+parent 78339ee5c8674fc821cfe8a48938536a7f454fb5
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370624213 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370624213 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b88
+
+:100644 100644 1c1f8c1ea318c68e0f8754002ec4f545e6730949 87e35a3049ac7c382b6f80de1581ae463a833079 M	cucumber/pom.xml
+:100644 100644 c9a77ccacd1a1e943c46bc8ae8df749943f00184 83ffab259ba9c0573347c9edce90667332e103d6 M	pom.xml
+:100644 100644 f3a4377052800c9cd496aed7290185190aa1673a 9f31bce1274e87e2808487e16edb013e4b0f32a5 M	service/pom.xml

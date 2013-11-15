@@ -1,0 +1,34 @@
+Changes in branch origin/master, between 18e57ef2b5af102c5019d5bad11db04189dcf455 and ab2c6d372498bf5c13db3aba0224abb38abe049d
+commit ab2c6d372498bf5c13db3aba0224abb38abe049d
+tree 4b0d43341c29d9ab9c9bc73f5454bfc057f62664
+parent 62673a1bb2a6b7a9e6d94a4007b6efdf7fffdfae
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372360965 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372360965 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 9282d0e950cffdb54c0e86fa2c18251e16aad4df 0eb51c265fc3d2e545ed459117a02393470a7ae4 M	cucumber/pom.xml
+:100644 100644 c5a1bbd926edc2a0bef67773abda36b51de6e580 974085b9a9e0f709fda2d42907168e570c1d8d6c M	pom.xml
+:100644 100644 53ec37cf8cde804c7c5fe864cac79aa06bd85daf ff179c3dc81ece70b0756e5e941fb9d9aba2e3c6 M	service/pom.xml
+
+commit 62673a1bb2a6b7a9e6d94a4007b6efdf7fffdfae
+tree 01122425ad48801a4afbe67e163c83ccc20b511d
+parent 692f8178fd7efeb0d97f5074602f0a1b09f9d84f
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372360959 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372360959 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b113
+
+:100644 100644 f011a7bda0f61f3b9e7bb033d39a7df5bc70a1c7 9282d0e950cffdb54c0e86fa2c18251e16aad4df M	cucumber/pom.xml
+:100644 100644 c5bf6a8b977e9d23bb78b4d0e9bba4e5079f8da5 c5a1bbd926edc2a0bef67773abda36b51de6e580 M	pom.xml
+:100644 100644 07de4af47568cdb67e418c0cbe19c4e2cbd096dd 53ec37cf8cde804c7c5fe864cac79aa06bd85daf M	service/pom.xml
+
+commit 6bc1670de8ccb94cebeaa67694e8dba9213d7c96
+tree fd2acd5bde74938421c73228d82ce685d4440145
+parent 407e7b38981895ca40c6b531fe90ea11f24883f1
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1372359685 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1372359685 -0500
+
+    [D-13404]: fixing the sync validation
+
+:100644 100644 808c14247d80750aeb130bdb1c51e73d0602d615 0623f15cfc7efa7420b7cdf96f400782f6084d6f M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy

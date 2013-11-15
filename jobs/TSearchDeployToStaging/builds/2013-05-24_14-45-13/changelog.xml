@@ -1,0 +1,94 @@
+Changes in branch origin/master, between 958d734770510afe25524166e57bc4f981357ae1 and 34a699b035f79fa044a2761d1957db2e989d41c3
+commit 34a699b035f79fa044a2761d1957db2e989d41c3
+tree ed78de918e10ff8bf4860a3cba7eb13bd8e536f5
+parent 8b2b2abddee6665850d5bccad15c44bf607107d2
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369405334 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369405334 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 7432a011005a9e08c8d2601b15e784551f796d07 85f8ac41ee77cee0f88fb18e04975c589161b4cd M	cucumber/pom.xml
+:100644 100644 5f07e515be9c3dcc1bbc33fa477587376a2417b3 8ed14851e1c9ca9b10747d95982b0c4480d93023 M	pom.xml
+:100644 100644 36a84cc611239d955a4958c5fee5e1395a8f4477 92cc4cfc31848747a3b02adf6df7222fd43c59e0 M	service/pom.xml
+
+commit 8b2b2abddee6665850d5bccad15c44bf607107d2
+tree bba3533db5d9bf02dae6209c060e6eccd58c0d37
+parent 80961994265e4f28d9e1e845e0a98e97bd74d06b
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369405329 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369405329 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b74
+
+:100644 100644 27349adba03a2fa00ce1978731b40066a67d8984 7432a011005a9e08c8d2601b15e784551f796d07 M	cucumber/pom.xml
+:100644 100644 af9aaa4ea40bbbe350e25c8ba26cfffd3b20ec57 5f07e515be9c3dcc1bbc33fa477587376a2417b3 M	pom.xml
+:100644 100644 115274335aebae1797a03bdefa087ce6755ffb74 36a84cc611239d955a4958c5fee5e1395a8f4477 M	service/pom.xml
+
+commit 55ec4846b488536a93c9ef16838280a15f21fcb5
+tree fc5451b45f1883d22007cf91d60bd0e1af3096b5
+parent b9f78d38d6011351fcaa07cf1f12882d282a0038
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1369404408 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1369404408 -0500
+
+    D-12961: fixing name
+
+:100644 100644 f2020eebd132edf582785075f6ec67b43d3a9282 8fbf92655dfd850e30e70ce305b4d4e06437b14b M	service/src/main/groovy/com/rackspace/search/service/account/AccountOneTimeSyncJob.groovy
+
+commit ab488f245278a8dd936b6b4a0c290dd7aaab62b6
+tree bfb1bfb8f559cc597f1ef132634dac8a4a5066ab
+parent e9745c26a721e92a443a0ff7b17e63a0e32ae8bb
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1369345319 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1369345319 -0500
+
+    D-12961: fixing review comments
+
+:100644 100644 606120c9bcfab6c4dcc81f986e2a7ab49a32515b 2b0d6c513d2f61b2f371d905a63ee4820b0c1012 M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy
+
+commit e9745c26a721e92a443a0ff7b17e63a0e32ae8bb
+tree 11f8bc8b08c9d2fe88de9ed07eff7c5b5c8a5afa
+parent a1c13a7a228a4e59eb26899d753f6cb7c6a03fe0
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1369337133 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1369337133 -0500
+
+    D-12961: udpated staging endpoint and username for account service
+
+:100644 100644 3bc8c5a29d1cd4ee6be39e4ee4b53b8c290eb1ee 48e3793e0750dcd4b708ed947d5dbd65757fafa0 M	service/src/main/filters/filter.yaml
+
+commit a1c13a7a228a4e59eb26899d753f6cb7c6a03fe0
+tree f835701fcf161d5c2c0a6897262572ebf07f2bb3
+parent 72e0ca9a9ed84d39b58e4ed40bf5eb6c939ab69b
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1369328473 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1369328473 -0500
+
+    D-12961: udpated staging endpoint and username for account service
+
+:100644 100644 0d4a0fbc0cbeb6d04a1d01ea5d7a423fa5cbb510 3bc8c5a29d1cd4ee6be39e4ee4b53b8c290eb1ee M	service/src/main/filters/filter.yaml
+
+commit 72e0ca9a9ed84d39b58e4ed40bf5eb6c939ab69b
+tree f5da73cbf4843acea9a80df915d3d4aca3681e7c
+parent 0133da2010effdf7612c42c25ceddb3a7cf491d8
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1369328208 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1369328208 -0500
+
+    D-12961: fixing index missing error
+
+:100644 100644 5cc22059bb15b78fd2f997d5edaf12d3c817c64f 606120c9bcfab6c4dcc81f986e2a7ab49a32515b M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy
+
+commit eaf9cad89e0829879aca4d341d70c275ea791be4
+tree 69474924b5e032eda8bee2331b1c53e79912619f
+parent f31993945b8261572ea333494126e525bcc61fba
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1369260960 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1369260960 -0500
+
+    D-12949: fixing log statement
+
+:100644 100644 3b9d1ffffbf150173b1e6b7dc83ec3d698700e4c 5cc22059bb15b78fd2f997d5edaf12d3c817c64f M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy
+
+commit f31993945b8261572ea333494126e525bcc61fba
+tree 92ff398cb3576abaf1ccebb86867dbdee13a4d58
+parent 80077f0d68b5a02705bc6611acecd73214cc758b
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1369259988 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1369259988 -0500
+
+    D-12949: Removed unused/Duplicate method
+
+:100644 100644 da7ce6891dd8872d8f009a0e4f18c47cac64f6c5 f5270cc93b19b0d774e36b80901409fd8bb84a9b M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy

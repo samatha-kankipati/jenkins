@@ -1,0 +1,24 @@
+Changes in branch origin/master, between 621fc0081bab8cce538c2a03000c78b0d85d8326 and 448e8274cfad44878eda9570cd8dd5bdbf1a60f3
+commit 5a2159444f9d63dbfcefd798020c8b1db7fec296
+tree 25d00c9072039b8cf8f163386cb504e37bb8a07c
+parent e2e87a9d31786278b6707c57dfea3a71820d3e50
+author Samatha Kankipati <samantha.kankipati@rackspace.com> 1365015603 -0500
+committer Samatha Kankipati <samantha.kankipati@rackspace.com> 1365015603 -0500
+
+    B-43056: fixing version
+
+:100644 100644 8416ef2b1bf2a2fac6d04fcbb98e8c8638d14396 c3152096f50a148f3b72b0e00745d9f449c6a515 M	cucumber/pom.xml
+:100644 100644 ee64a5874f44b2c254c6ea963d3b940418e55f1a b1db346e431ac477e198264f171de89b57d07e2a M	pom.xml
+:100644 100644 a8a456cb6fe0d67d153eb0bdfa8f20cf1e80e80f 9f78b79e6da08653e1f71adbe8e808a95f618eae M	service/pom.xml
+
+commit e2e87a9d31786278b6707c57dfea3a71820d3e50
+tree f06db0402f0ded73fed6a0688187c3d824c54326
+parent 621fc0081bab8cce538c2a03000c78b0d85d8326
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1365015430 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1365015430 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b46
+
+:100644 100644 cd26c26e886ef728e89f1437c279fe0ef88b4957 8416ef2b1bf2a2fac6d04fcbb98e8c8638d14396 M	cucumber/pom.xml
+:100644 100644 f57be0a5c2b1a240f1af28246d5607f36bbca30d ee64a5874f44b2c254c6ea963d3b940418e55f1a M	pom.xml
+:100644 100644 8086d0a455bcabccebd023f9c0f4ec12f2d1f5e3 a8a456cb6fe0d67d153eb0bdfa8f20cf1e80e80f M	service/pom.xml

@@ -1,0 +1,34 @@
+Changes in branch origin/master, between 8d59544dae7efee11f28c53f33975fc6d1e329a2 and 9e364127ebb08231bb340ae0b69c13cf2c635807
+commit 9e364127ebb08231bb340ae0b69c13cf2c635807
+tree 0603d7c95bbbc3884a56d414d37c6ed41ded5a1f
+parent 2eb6fa7d49f12789237a0ff52ab770d36136b069
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374868352 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374868352 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 c610dce22af67569d5d84b4dc498d409cceddedc 3fb63147e9040f9b9dde6f865c3be37f85569943 M	cucumber/pom.xml
+:100644 100644 ead172dced8e8fbd4dfbe9edd6c6269c77d1654b 7726e139d844f8936f5986c7959f782b8950bd80 M	pom.xml
+:100644 100644 d9c5feed94b129eb14996ac2de4c846603ff0216 66ada0ef7755d6b2424a8e5473e8aa53299ba6f4 M	service/pom.xml
+
+commit 2eb6fa7d49f12789237a0ff52ab770d36136b069
+tree 7ca66147d10a045067c90446f718d951ee944105
+parent e7402e60aed67bf0a8106fb8649762a7e58fd60f
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374868348 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1374868348 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b138
+
+:100644 100644 f470bc416c90635bf35d2fe9cf522c5ba98dec16 c610dce22af67569d5d84b4dc498d409cceddedc M	cucumber/pom.xml
+:100644 100644 c82c710e21e598e9bdc3c86f7bd3026d6bfe603e ead172dced8e8fbd4dfbe9edd6c6269c77d1654b M	pom.xml
+:100644 100644 ef6a1a3d51a7c47a2b467da46ba73f8fcf19a9be d9c5feed94b129eb14996ac2de4c846603ff0216 M	service/pom.xml
+
+commit 95714ad57f2829a9c870614baa99c4249db89984
+tree 4a653f3d633652cfd16d6035f185fcf61b93bb94
+parent d89e0781517b2430110ffe79afcef75da52579d3
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1374866758 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1374866758 -0500
+
+    [B-53513] : fixed current node tag
+
+:100644 100644 1e2f25c971c6132fb3f2dc1e44dd39ed19ef0e1e 43b7daba56f367f9cc86531ee0ee1c29a9a98b99 M	service/src/main/scripts/_warhammer.include

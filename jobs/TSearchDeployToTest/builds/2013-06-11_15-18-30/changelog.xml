@@ -1,0 +1,56 @@
+Changes in branch origin/master, between 2297ceda13331e4f479df5e9511ac62c09961414 and 5f75ef84c9f3a91ff1a3a54b329e891f89c2fbc6
+commit 5f75ef84c9f3a91ff1a3a54b329e891f89c2fbc6
+tree 6725752d9d14107a0b92cc7a9824606fc6d80244
+parent 2b103e1a4aa850c6375768e449a181ed981d8636
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370963726 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370963726 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 4658458abfce53f8aa2119c30022402876989a40 1c10749d909646973df57fb78c034c773623a3af M	cucumber/pom.xml
+:100644 100644 82b8611cb2ee5d5d404d04c96e6be49991e2df7a 5989c57f0ff8c47b53fa4eab957b6d49bfcce072 M	pom.xml
+:100644 100644 2ff5e4281f99460b9d18a2975271092595efcb65 a8b8dfd1f019b1c9cc3b10afb89ca49d0bf95092 M	service/pom.xml
+
+commit 2b103e1a4aa850c6375768e449a181ed981d8636
+tree e51a1d16aa94f9dd87cab518fba706c299705e41
+parent 74cdcd80720785a523536b4653b23b52500f5c8b
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370963717 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370963717 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b91
+
+:100644 100644 a2ebb2a379fe1d05b566b882b1cc2db861ead1c3 4658458abfce53f8aa2119c30022402876989a40 M	cucumber/pom.xml
+:100644 100644 293734a36410a9ed6cf7b549f5d0e5aff08324ef 82b8611cb2ee5d5d404d04c96e6be49991e2df7a M	pom.xml
+:100644 100644 9e16e75d205da0a517593b3fa6e0e1e4966e3b1b 2ff5e4281f99460b9d18a2975271092595efcb65 M	service/pom.xml
+
+commit 55b825cd4b8b4950ebfb85202425f2bb3123f28e
+tree 85232601cea3a0194f6f10533f64b46949a8aca7
+parent 1354e4a3a39841bfa3fdd88ab19c2004ef78ff96
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1370900578 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1370900578 -0500
+
+    B-50257: fixing review comments
+
+:100644 100644 908842f3e858a75b89f392ef817622f9828419ed a533ae9887c4dbcba8bc7277344f77af0232288c M	service/src/main/config/search.properties
+:100644 100644 dca67d304b7f1d6b067cb27bf9538976bc618b64 5264da0964b92a3e24e02abb94c609972dbacfdb M	service/src/test/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClientTest.groovy
+
+commit 309f4302c26497cc5ecfddd9adf58f3bd63f5606
+tree 48d15a4cbd53140610861bfbfa4bc87655a01d8e
+parent a1dbb07ab2fd57b2f37ace4f8bbc39dbc35d8395
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1370881660 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1370881660 -0500
+
+    B-50432: added test case for maxpaze size
+
+:100644 100644 fa85f0c502e3f0d3c4fcdb79c017019abfc54171 dca67d304b7f1d6b067cb27bf9538976bc618b64 M	service/src/test/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClientTest.groovy
+
+commit a1dbb07ab2fd57b2f37ace4f8bbc39dbc35d8395
+tree 90bb5bde4655d9e728a0bb98e86b5e18745b621d
+parent e5d14bf15d6f1ae96bd59680cab31d67bd507cb4
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1370880675 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1370880675 -0500
+
+    B-50432: Increasing page size to 250
+
+:100644 100644 0d13a16c185654e6e9fa39869d06654c9c6c1e23 90d914b26ce658ca02250a32f0b07052f041df02 M	service/src/main/config/search.properties
+:100644 100644 85069c4c6335843be2376652ad4639511ab405a8 849729815b39f412da70fd7356ce73c1ce3b4e76 M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy

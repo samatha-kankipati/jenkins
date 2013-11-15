@@ -1,0 +1,377 @@
+2013-11-15 09:40:50,325: DEBUG: root: 
+========================================================
+SETTING UP testrepo.tq_search.core_ongoing_sync.test_zendesk_ongoing_sync.TestZenDeskOngoingSync at 2013-11-15 09:40:50.325346
+========================================================
+2013-11-15 09:40:50,326: ERROR: ccengine.domain.configuration.TQSearchConfig: No option 'account_service_level' in section: 'gate'
+2013-11-15 09:40:50,326: ERROR: ccengine.domain.configuration.TQSearchConfig: No option 'account_territory_code' in section: 'gate'
+2013-11-15 09:40:50,329: ERROR: ccengine.domain.configuration.AuthConfig: No option 'api_key' in section: 'auth'
+2013-11-15 09:40:50,329: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.auth.auth_client.AuthClient object at 0x28ed3d0>, 'POST', 'https://ws.staging.core.rackspace.com/ctkapi//login/melissa.biles') {'headers': {'Content-Type': 'application/json', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'data': '{"password": "qwerty"}'}
+2013-11-15 09:40:50,331: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): ws.staging.core.rackspace.com
+2013-11-15 09:40:50,613: DEBUG: requests.packages.urllib3.connectionpool: "POST /ctkapi//login/melissa.biles HTTP/1.1" 200 None
+2013-11-15 09:40:50,689: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://ws.staging.core.rackspace.com/ctkapi//login/melissa.biles
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'22', 'Content-Type': 'application/json', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : {"password": "qwerty"}
+
+2013-11-15 09:40:50,690: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.35946393013
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 09:40:45 GMT', 'transfer-encoding': 'chunked', 'content-type': 'application/json', 'server': 'Apache/2.2.3 (Red Hat)'})
+response body    : {"authtoken": "52d4a854ddf46177f4755bfe57c0cfc5"}
+-------------------------------------------------------------------------------
+2013-11-15 09:40:50,696: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.zendesk.zendesk_api.ZendeskTicketClient object at 0x2975550>, 'POST', 'https://mosso.zendesk.com/api/v2/tickets.json') {'headers': {'Content-Type': 'application/json', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'auth': <requests.auth.HTTPBasicAuth object at 0x2975510>, 'data': '{"ticket": {"comment": {"body": "ts-staging"}, "priority": "low", "tags": ["Linux"], "assignee_id": 296396271, "group_id": 20596722, "subject": "zen desk ticket"}}'}
+2013-11-15 09:40:50,698: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): mosso.zendesk.com
+2013-11-15 09:40:51,641: DEBUG: requests.packages.urllib3.connectionpool: "POST /api/v2/tickets.json HTTP/1.1" 201 3528
+2013-11-15 09:40:51,642: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://mosso.zendesk.com/api/v2/tickets.json
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'163', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen', 'Content-Type': 'application/json', 'Authorization': u'Basic aXNsX3FlX3VzcUBsaXN0cy5tb3Nzby5jb206akBja3M='})
+request body    : {"ticket": {"comment": {"body": "ts-staging"}, "priority": "low", "tags": ["Linux"], "assignee_id": 296396271, "group_id": 20596722, "subject": "zen desk ticket"}}
+
+2013-11-15 09:40:51,642: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [201]>
+response time    : 0.945857048035
+response headers : CaseInsensitiveDict({'status': '201 Created', 'content-length': '3528', 'x-zendesk-request-id': '87cddc3a1e8825761b1a', 'x-runtime': '0.694494', 'x-content-type-options': 'nosniff', 'x-zendesk-api-version': 'v2', 'server': 'nginx/1.4.2', 'date': 'Fri, 15 Nov 2013 09:40:46 GMT', 'connection': 'keep-alive', 'x-request-id': 'ca4a1126cac23eaede1a0145e8d36bb3', 'location': 'https://mosso.zendesk.com/api/v2/tickets/1968765.json', 'cache-control': 'max-age=0, private, must-revalidate', 'x-zendesk-user-id': '295324093', 'etag': '"243489ded7c2798ae95197f7f9e59016"', 'x-zendesk-origin-server': 'app25.pod1.ord.zdsys.com', 'content-type': 'application/json; charset=UTF-8', 'x-rack-cache': 'invalidate, pass', 'x-ua-compatible': 'IE=Edge,chrome=1'})
+response body    : {"ticket":{"url":"https://mosso.zendesk.com/api/v2/tickets/1968765.json","id":1968765,"external_id":null,"via":{"channel":"api","source":{"from":{},"to":{},"rel":null}},"created_at":"2013-11-15T09:40:46Z","updated_at":"2013-11-15T09:40:46Z","type":null,"subject":"zen desk ticket","description":"ts-staging","priority":"low","status":"open","recipient":null,"requester_id":295324093,"submitter_id":295324093,"assignee_id":296396271,"organization_id":20825923,"group_id":20596722,"collaborator_ids":[],"forum_topic_id":null,"problem_id":null,"has_incidents":false,"due_at":null,"tags":["linux"],"custom_fields":[{"id":105853,"value":""},{"id":102692,"value":""},{"id":436749,"value":""},{"id":108885,"value":"linux"},{"id":56372,"value":null},{"id":96193,"value":null},{"id":452117,"value":false},{"id":105830,"value":null},{"id":105820,"value":""},{"id":22267031,"value":null},{"id":20674741,"value":null}],"satisfaction_rating":null,"sharing_agreement_ids":[],"fields":[{"id":105853,"value":""},{"id":102692,"value":""},{"id":436749,"value":""},{"id":108885,"value":"linux"},{"id":56372,"value":null},{"id":96193,"value":null},{"id":452117,"value":false},{"id":105830,"value":null},{"id":105820,"value":""},{"id":22267031,"value":null},{"id":20674741,"value":null}]},"audit":{"id":20041703523,"ticket_id":1968765,"created_at":"2013-11-15T09:40:46Z","author_id":295324093,"via":{"channel":"api","source":{"from":{},"to":{},"rel":null}},"metadata":{"system":{"client":"python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen","ip_address":"74.205.117.244","location":"San Antonio, TX, United States","latitude":29.4889,"longitude":-98.3987},"custom":{}},"events":[{"id":20041703533,"type":"Comment","author_id":295324093,"body":"ts-staging\n\n--\r\nHave you tried the New Rackspace Cloud Control Panel yet? Try it today: http://mycloud.rackspace.com","html_body":"<p>ts-staging</p>\n\n<p>--\n<br />Have you tried the New Rackspace Cloud Control Panel yet? Try it today: <a href=\"http://mycloud.rackspace.com\" target=\"_blank\">http://mycloud.rackspace.com</a></p>","public":true,"trusted":true,"attachments":[]},{"id":20041703543,"type":"Create","value":"zen desk ticket","field_name":"subject"},{"id":20041703553,"type":"Create","value":"296396271","field_name":"assignee_id"},{"id":20041703563,"type":"Create","value":"20596722","field_name":"group_id"},{"id":20041703573,"type":"Create","value":["linux"],"field_name":"tags"},{"id":20041703583,"type":"Create","value":"low","field_name":"priority"},{"id":20041703593,"type":"Create","value":"295324093","field_name":"requester_id"},{"id":20041703603,"type":"Create","value":"open","field_name":"status"},{"id":20041703613,"type":"Create","value":null,"field_name":"type"},{"id":20041703623,"type":"Create","value":"20825923","field_name":"organization_id"},{"id":20041703633,"type":"Notification","via":{"channel":"rule","source":{"to":{},"from":{"id":253605,"title":"Notify assignee of assignment"},"rel":"trigger"}},"subject":"[{{ticket.account}}] Assignment: {{ticket.title}}","body":"You have been assigned to this ticket (#{{ticket.id}}).\r\n\r\nTo review the status of the ticket and add updates, follow the link below:\r\nhttp://{{ticket.url}}             \r\n\r\n{{ticket.comments_formatted}}\r\n\r\n--------------------------\r\n\r\nThis notification has been sent via the trigger \"Notify assignee of assignment\" in your zendesk. You can customize this and other triggers from the menu tab \"Manage\" > \"Triggers\"          ","recipients":[296396271]}]}}
+-------------------------------------------------------------------------------
+2013-11-15 09:40:51,644: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.zendesk.zendesk_api.ZendeskTicketClient object at 0x2975550>, 'POST', 'https://mosso.zendesk.com/api/v2/tickets.json') {'headers': {'Content-Type': 'application/json', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'auth': <requests.auth.HTTPBasicAuth object at 0x2975510>, 'data': '{"ticket": {"priority": "low", "comment": {"body": "ts-staging"}, "group_id": 20596722, "assignee_id": 296396271, "subject": "zen desk ticket2"}}'}
+2013-11-15 09:40:51,645: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): mosso.zendesk.com
+2013-11-15 09:40:52,661: DEBUG: requests.packages.urllib3.connectionpool: "POST /api/v2/tickets.json HTTP/1.1" 201 3458
+2013-11-15 09:40:52,662: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://mosso.zendesk.com/api/v2/tickets.json
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'145', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen', 'Content-Type': 'application/json', 'Authorization': u'Basic aXNsX3FlX3VzcUBsaXN0cy5tb3Nzby5jb206akBja3M='})
+request body    : {"ticket": {"priority": "low", "comment": {"body": "ts-staging"}, "group_id": 20596722, "assignee_id": 296396271, "subject": "zen desk ticket2"}}
+
+2013-11-15 09:40:52,663: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [201]>
+response time    : 1.01849102974
+response headers : CaseInsensitiveDict({'status': '201 Created', 'content-length': '3458', 'x-zendesk-request-id': '313cdec7a82a0e8f0581', 'x-runtime': '0.578196', 'x-content-type-options': 'nosniff', 'x-zendesk-api-version': 'v2', 'server': 'nginx/1.4.2', 'date': 'Fri, 15 Nov 2013 09:40:47 GMT', 'connection': 'keep-alive', 'x-request-id': 'c319c803587e690ea54f2d55077f7f66', 'location': 'https://mosso.zendesk.com/api/v2/tickets/1968766.json', 'cache-control': 'max-age=0, private, must-revalidate', 'x-zendesk-user-id': '295324093', 'etag': '"502f4c058a561fb5cde3447177e4557e"', 'x-zendesk-origin-server': 'app24.pod1.ord.zdsys.com', 'content-type': 'application/json; charset=UTF-8', 'x-rack-cache': 'invalidate, pass', 'x-ua-compatible': 'IE=Edge,chrome=1'})
+response body    : {"ticket":{"url":"https://mosso.zendesk.com/api/v2/tickets/1968766.json","id":1968766,"external_id":null,"via":{"channel":"api","source":{"from":{},"to":{},"rel":null}},"created_at":"2013-11-15T09:40:47Z","updated_at":"2013-11-15T09:40:47Z","type":null,"subject":"zen desk ticket2","description":"ts-staging","priority":"low","status":"open","recipient":null,"requester_id":295324093,"submitter_id":295324093,"assignee_id":296396271,"organization_id":20825923,"group_id":20596722,"collaborator_ids":[],"forum_topic_id":null,"problem_id":null,"has_incidents":false,"due_at":null,"tags":[],"custom_fields":[{"id":105853,"value":null},{"id":102692,"value":null},{"id":436749,"value":null},{"id":108885,"value":null},{"id":56372,"value":null},{"id":96193,"value":null},{"id":452117,"value":null},{"id":105830,"value":null},{"id":105820,"value":null},{"id":22267031,"value":null},{"id":20674741,"value":null}],"satisfaction_rating":null,"sharing_agreement_ids":[],"fields":[{"id":105853,"value":null},{"id":102692,"value":null},{"id":436749,"value":null},{"id":108885,"value":null},{"id":56372,"value":null},{"id":96193,"value":null},{"id":452117,"value":null},{"id":105830,"value":null},{"id":105820,"value":null},{"id":22267031,"value":null},{"id":20674741,"value":null}]},"audit":{"id":19974346537,"ticket_id":1968766,"created_at":"2013-11-15T09:40:47Z","author_id":295324093,"via":{"channel":"api","source":{"from":{},"to":{},"rel":null}},"metadata":{"system":{"client":"python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen","ip_address":"74.205.117.244","location":"San Antonio, TX, United States","latitude":29.4889,"longitude":-98.3987},"custom":{}},"events":[{"id":19974346547,"type":"Comment","author_id":295324093,"body":"ts-staging\n\n--\r\nHave you tried the New Rackspace Cloud Control Panel yet? Try it today: http://mycloud.rackspace.com","html_body":"<p>ts-staging</p>\n\n<p>--\n<br />Have you tried the New Rackspace Cloud Control Panel yet? Try it today: <a href=\"http://mycloud.rackspace.com\" target=\"_blank\">http://mycloud.rackspace.com</a></p>","public":true,"trusted":true,"attachments":[]},{"id":19974346557,"type":"Create","value":"zen desk ticket2","field_name":"subject"},{"id":19974346567,"type":"Create","value":"296396271","field_name":"assignee_id"},{"id":19974346577,"type":"Create","value":"20596722","field_name":"group_id"},{"id":19974346587,"type":"Create","value":"low","field_name":"priority"},{"id":19974346597,"type":"Create","value":"295324093","field_name":"requester_id"},{"id":19974346607,"type":"Create","value":"open","field_name":"status"},{"id":19974346617,"type":"Create","value":null,"field_name":"type"},{"id":19974346627,"type":"Create","value":"20825923","field_name":"organization_id"},{"id":19974346637,"type":"Notification","via":{"channel":"rule","source":{"to":{},"from":{"id":253605,"title":"Notify assignee of assignment"},"rel":"trigger"}},"subject":"[{{ticket.account}}] Assignment: {{ticket.title}}","body":"You have been assigned to this ticket (#{{ticket.id}}).\r\n\r\nTo review the status of the ticket and add updates, follow the link below:\r\nhttp://{{ticket.url}}             \r\n\r\n{{ticket.comments_formatted}}\r\n\r\n--------------------------\r\n\r\nThis notification has been sent via the trigger \"Notify assignee of assignment\" in your zendesk. You can customize this and other triggers from the menu tab \"Manage\" > \"Triggers\"          ","recipients":[296396271]}]}}
+-------------------------------------------------------------------------------
+2013-11-15 09:43:22,670: DEBUG: root: 
+========================================================
+test_tkt_create_zen_desk STARTING at 2013-11-15 09:43:22.670112
+========================================================
+2013-11-15 09:43:22,670: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.SearchApiClient object at 0x28ea410>, 'GET', 'http://staging.search.api.rackspace.com/tickets') {'headers': {}, 'params': {'status': None, 'sort': None, 'queue': None, 'number': 1968765, 'priority': None, 'limit': 100, 'createdAt_range': None, 'offset': 0, 'category': None, 'createdAt': None, 'subject': None}, 'verify': False, 'data': None}
+2013-11-15 09:43:22,672: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-11-15 09:43:22,708: DEBUG: requests.packages.urllib3.connectionpool: "GET /tickets?number=1968765&limit=100&offset=0 HTTP/1.1" 200 None
+2013-11-15 09:43:22,709: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/tickets
+request params  : number=1968765&limit=100&offset=0
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-11-15 09:43:22,709: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.0380308628082
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 09:45:54 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"response":{"total":0,"limit":100,"offset":0,"tickets":[],"facets":[],"links":[{"rel":"last","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=1968765&offset=0"},{"rel":"first","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=1968765&offset=0"}]}}
+-------------------------------------------------------------------------------
+2013-11-15 09:43:22,710: DEBUG: root: 
+========================================================
+test_tkt_create_zen_desk COMPLETED at 2013-11-15 09:43:22.710002
+========================================================
+2013-11-15 09:43:22,710: DEBUG: root: 
+========================================================
+test_tkt_faceting STARTING at 2013-11-15 09:43:22.710305
+========================================================
+2013-11-15 09:43:22,710: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.SearchApiClient object at 0x28ea410>, 'GET', 'http://staging.search.api.rackspace.com/tickets/zendesk') {'headers': {}, 'params': {}, 'verify': False, 'data': None}
+2013-11-15 09:43:22,711: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-11-15 09:43:22,746: DEBUG: requests.packages.urllib3.connectionpool: "GET /tickets/zendesk HTTP/1.1" 404 None
+2013-11-15 09:43:22,747: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/tickets/zendesk
+request params  : 
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-11-15 09:43:22,747: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [404]>
+response time    : 0.0361971855164
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 09:45:54 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"itemNotFound":{"message":"Not Found","detail":"Ticket not found","code":404}}
+-------------------------------------------------------------------------------
+2013-11-15 09:43:22,747: ERROR: ccengine.domain.tq_search.response.tq_search.Search: 'NoneType' object has no attribute 'get'
+Traceback (most recent call last):
+  File "/var/lib/jenkins/jobs/CloudCAFE/workspace/lib/ccengine/domain/base_domain.py", line 93, in deserialize
+    ret = getattr(cls, '_%s_to_obj' % format_type)(serialized_str)
+  File "/var/lib/jenkins/jobs/CloudCAFE/workspace/lib/ccengine/domain/tq_search/response/tq_search.py", line 118, in _json_to_obj
+    for ticket in response.get("tickets"):
+AttributeError: 'NoneType' object has no attribute 'get'
+2013-11-15 09:43:22,748: DEBUG: ccengine.domain.tq_search.response.tq_search.Search: Deserialization Error: Attempted to deserialize type using type: json
+2013-11-15 09:43:22,748: DEBUG: ccengine.domain.tq_search.response.tq_search.Search: Deserialization Error: Unble to deserialize the following:
+{"itemNotFound":{"message":"Not Found","detail":"Ticket not found","code":404}}
+2013-11-15 09:45:02,748: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.SearchApiClient object at 0x28ea410>, 'GET', 'http://staging.search.api.rackspace.com/tickets') {'headers': {}, 'params': {'status': None, 'sort': None, 'queue': None, 'number': 1968766, 'priority': None, 'limit': 100, 'createdAt_range': None, 'offset': 0, 'category': None, 'createdAt': None, 'subject': None}, 'verify': False, 'data': None}
+2013-11-15 09:45:02,750: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-11-15 09:45:02,775: DEBUG: requests.packages.urllib3.connectionpool: "GET /tickets?number=1968766&limit=100&offset=0 HTTP/1.1" 200 None
+2013-11-15 09:45:02,775: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/tickets
+request params  : number=1968766&limit=100&offset=0
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-11-15 09:45:02,776: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.0270681381226
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 09:47:34 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"response":{"total":0,"limit":100,"offset":0,"tickets":[],"facets":[],"links":[{"rel":"last","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=1968766&offset=0"},{"rel":"first","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=1968766&offset=0"}]}}
+-------------------------------------------------------------------------------
+2013-11-15 09:45:02,776: DEBUG: root: 
+========================================================
+test_tkt_faceting COMPLETED at 2013-11-15 09:45:02.776617
+========================================================
+2013-11-15 09:45:02,777: DEBUG: root: 
+========================================================
+test_tkt_update_zen_desk_assignee STARTING at 2013-11-15 09:45:02.776982
+========================================================
+2013-11-15 09:45:02,777: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.zendesk.zendesk_api.ZendeskTicketClient object at 0x2975550>, 'PUT', 'https://mosso.zendesk.com/api/v2/tickets/1968766.json') {'headers': {'Content-Type': 'application/json', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'auth': <requests.auth.HTTPBasicAuth object at 0x2975510>, 'data': '{"ticket": {"assignee_id": 472132118}}'}
+2013-11-15 09:45:02,778: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): mosso.zendesk.com
+2013-11-15 09:45:03,472: DEBUG: requests.packages.urllib3.connectionpool: "PUT /api/v2/tickets/1968766.json HTTP/1.1" 200 None
+2013-11-15 09:45:03,473: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : PUT
+request url     : https://mosso.zendesk.com/api/v2/tickets/1968766.json
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'38', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen', 'Content-Type': 'application/json', 'Authorization': u'Basic aXNsX3FlX3VzcUBsaXN0cy5tb3Nzby5jb206akBja3M='})
+request body    : {"ticket": {"assignee_id": 472132118}}
+
+2013-11-15 09:45:03,473: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.69562792778
+response headers : CaseInsensitiveDict({'status': '200 OK', 'x-zendesk-api-version': 'v2', 'x-zendesk-request-id': 'd02bd1fa3e5805c20549', 'x-runtime': '0.493432', 'x-content-type-options': 'nosniff', 'content-encoding': 'gzip', 'transfer-encoding': 'chunked', 'x-request-id': 'afd251d86fdca1837059e229217971c0', 'server': 'nginx/1.4.2', 'date': 'Fri, 15 Nov 2013 09:44:58 GMT', 'connection': 'keep-alive', 'x-ua-compatible': 'IE=Edge,chrome=1', 'cache-control': 'max-age=0, private, must-revalidate', 'x-zendesk-user-id': '295324093', 'content-type': 'application/json; charset=UTF-8', 'x-rack-cache': 'invalidate, pass', 'x-zendesk-origin-server': 'app28.pod1.ord.zdsys.com'})
+response body    : {"ticket":{"url":"https://mosso.zendesk.com/api/v2/tickets/1968766.json","id":1968766,"external_id":null,"via":{"channel":"api","source":{"from":{},"to":{},"rel":null}},"created_at":"2013-11-15T09:40:47Z","updated_at":"2013-11-15T09:44:58Z","type":null,"subject":"zen desk ticket2","description":"ts-staging","priority":"low","status":"open","recipient":null,"requester_id":295324093,"submitter_id":295324093,"assignee_id":472132118,"organization_id":20825923,"group_id":20596722,"collaborator_ids":[],"forum_topic_id":null,"problem_id":null,"has_incidents":false,"due_at":null,"tags":[],"custom_fields":[{"id":105853,"value":null},{"id":102692,"value":null},{"id":436749,"value":null},{"id":108885,"value":null},{"id":56372,"value":null},{"id":96193,"value":null},{"id":452117,"value":null},{"id":105830,"value":null},{"id":105820,"value":null},{"id":22267031,"value":null},{"id":20674741,"value":null}],"satisfaction_rating":null,"sharing_agreement_ids":[],"fields":[{"id":105853,"value":null},{"id":102692,"value":null},{"id":436749,"value":null},{"id":108885,"value":null},{"id":56372,"value":null},{"id":96193,"value":null},{"id":452117,"value":null},{"id":105830,"value":null},{"id":105820,"value":null},{"id":22267031,"value":null},{"id":20674741,"value":null}]},"audit":{"id":20033887868,"ticket_id":1968766,"created_at":"2013-11-15T09:44:58Z","author_id":295324093,"via":{"channel":"api","source":{"from":{},"to":{},"rel":null}},"metadata":{"system":{"client":"python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen","ip_address":"74.205.117.244","location":"San Antonio, TX, United States","latitude":29.4889,"longitude":-98.3987},"custom":{}},"events":[{"id":20033887888,"type":"Change","value":"472132118","field_name":"assignee_id","previous_value":"296396271"},{"id":20033887908,"type":"Notification","via":{"channel":"rule","source":{"to":{},"from":{"id":253605,"title":"Notify assignee of assignment"},"rel":"trigger"}},"subject":"[{{ticket.account}}] Assignment: {{ticket.title}}","body":"You have been assigned to this ticket (#{{ticket.id}}).\r\n\r\nTo review the status of the ticket and add updates, follow the link below:\r\nhttp://{{ticket.url}}             \r\n\r\n{{ticket.comments_formatted}}\r\n\r\n--------------------------\r\n\r\nThis notification has been sent via the trigger \"Notify assignee of assignment\" in your zendesk. You can customize this and other triggers from the menu tab \"Manage\" > \"Triggers\"          ","recipients":[472132118]}]}}
+-------------------------------------------------------------------------------
+2013-11-15 09:46:43,474: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.SearchApiClient object at 0x28ea410>, 'GET', 'http://staging.search.api.rackspace.com/tickets') {'headers': {}, 'params': {'status': None, 'sort': None, 'queue': None, 'number': 1968766, 'priority': None, 'limit': 100, 'createdAt_range': None, 'offset': 0, 'category': None, 'createdAt': None, 'subject': None}, 'verify': False, 'data': None}
+2013-11-15 09:46:43,476: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-11-15 09:46:43,502: DEBUG: requests.packages.urllib3.connectionpool: "GET /tickets?number=1968766&limit=100&offset=0 HTTP/1.1" 200 None
+2013-11-15 09:46:43,503: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/tickets
+request params  : number=1968766&limit=100&offset=0
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-11-15 09:46:43,503: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.0280637741089
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 09:49:15 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"response":{"total":0,"limit":100,"offset":0,"tickets":[],"facets":[],"links":[{"rel":"last","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=1968766&offset=0"},{"rel":"first","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=1968766&offset=0"}]}}
+-------------------------------------------------------------------------------
+2013-11-15 09:46:43,504: DEBUG: root: 
+========================================================
+test_tkt_update_zen_desk_assignee COMPLETED at 2013-11-15 09:46:43.504134
+========================================================
+2013-11-15 09:46:43,504: DEBUG: root: 
+========================================================
+test_tkt_update_zen_desk_devices STARTING at 2013-11-15 09:46:43.504490
+========================================================
+2013-11-15 09:46:43,504: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.zendesk.zendesk_api.ZendeskTicketClient object at 0x2975550>, 'PUT', 'https://mosso.zendesk.com/api/v2/tickets/1968766.json') {'headers': {'Content-Type': 'application/json', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'auth': <requests.auth.HTTPBasicAuth object at 0x2975510>, 'data': '{"ticket": {"tags": ["windows"]}}'}
+2013-11-15 09:46:43,506: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): mosso.zendesk.com
+2013-11-15 09:46:44,210: DEBUG: requests.packages.urllib3.connectionpool: "PUT /api/v2/tickets/1968766.json HTTP/1.1" 200 None
+2013-11-15 09:46:44,211: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : PUT
+request url     : https://mosso.zendesk.com/api/v2/tickets/1968766.json
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'33', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen', 'Content-Type': 'application/json', 'Authorization': u'Basic aXNsX3FlX3VzcUBsaXN0cy5tb3Nzby5jb206akBja3M='})
+request body    : {"ticket": {"tags": ["windows"]}}
+
+2013-11-15 09:46:44,211: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.706387996674
+response headers : CaseInsensitiveDict({'status': '200 OK', 'x-zendesk-api-version': 'v2', 'x-zendesk-request-id': '73acd9ec728e69c0cb68', 'x-runtime': '0.513954', 'x-content-type-options': 'nosniff', 'content-encoding': 'gzip', 'transfer-encoding': 'chunked', 'x-request-id': 'b793e72f162fdfa59f567456c953b98e', 'server': 'nginx/1.4.2', 'date': 'Fri, 15 Nov 2013 09:46:39 GMT', 'connection': 'keep-alive', 'x-ua-compatible': 'IE=Edge,chrome=1', 'cache-control': 'max-age=0, private, must-revalidate', 'x-zendesk-user-id': '295324093', 'content-type': 'application/json; charset=UTF-8', 'x-rack-cache': 'invalidate, pass', 'x-zendesk-origin-server': 'app40.pod1.ord.zdsys.com'})
+response body    : {"ticket":{"url":"https://mosso.zendesk.com/api/v2/tickets/1968766.json","id":1968766,"external_id":null,"via":{"channel":"api","source":{"from":{},"to":{},"rel":null}},"created_at":"2013-11-15T09:40:47Z","updated_at":"2013-11-15T09:46:39Z","type":null,"subject":"zen desk ticket2","description":"ts-staging","priority":"low","status":"open","recipient":null,"requester_id":295324093,"submitter_id":295324093,"assignee_id":472132118,"organization_id":20825923,"group_id":20596722,"collaborator_ids":[],"forum_topic_id":null,"problem_id":null,"has_incidents":false,"due_at":null,"tags":["windows"],"custom_fields":[{"id":105853,"value":""},{"id":102692,"value":""},{"id":436749,"value":""},{"id":108885,"value":"windows"},{"id":56372,"value":null},{"id":96193,"value":null},{"id":452117,"value":false},{"id":105830,"value":null},{"id":105820,"value":""},{"id":22267031,"value":null},{"id":20674741,"value":null}],"satisfaction_rating":null,"sharing_agreement_ids":[],"fields":[{"id":105853,"value":""},{"id":102692,"value":""},{"id":436749,"value":""},{"id":108885,"value":"windows"},{"id":56372,"value":null},{"id":96193,"value":null},{"id":452117,"value":false},{"id":105830,"value":null},{"id":105820,"value":""},{"id":22267031,"value":null},{"id":20674741,"value":null}]},"audit":{"id":19974560967,"ticket_id":1968766,"created_at":"2013-11-15T09:46:39Z","author_id":295324093,"via":{"channel":"api","source":{"from":{},"to":{},"rel":null}},"metadata":{"system":{"client":"python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen","ip_address":"74.205.117.244","location":"San Antonio, TX, United States","latitude":29.4889,"longitude":-98.3987},"custom":{}},"events":[{"id":19974560997,"type":"Change","value":["windows"],"field_name":"tags","previous_value":[]}]}}
+-------------------------------------------------------------------------------
+2013-11-15 09:48:24,208: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.SearchApiClient object at 0x28ea410>, 'GET', 'http://staging.search.api.rackspace.com/tickets') {'headers': {}, 'params': {'status': None, 'sort': None, 'queue': None, 'number': 1968765, 'priority': None, 'limit': 100, 'createdAt_range': None, 'offset': 0, 'category': None, 'createdAt': None, 'subject': None}, 'verify': False, 'data': None}
+2013-11-15 09:48:24,210: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-11-15 09:48:24,237: DEBUG: requests.packages.urllib3.connectionpool: "GET /tickets?number=1968765&limit=100&offset=0 HTTP/1.1" 200 None
+2013-11-15 09:48:24,238: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/tickets
+request params  : number=1968765&limit=100&offset=0
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-11-15 09:48:24,238: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.0285558700562
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 09:50:56 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"response":{"total":1,"limit":100,"offset":0,"tickets":[{"tags":["linux"],"queue":{"id":20596722,"name":"Hybrid - International SMB"},"technology":"linux","location":"NONE","status":"Open","subCategory":null,"submitter":{"id":295324093,"email":"isl_qe_usq@lists.mosso.com","name":"ISL-QE-USQ"},"subject":"zen desk ticket","categoryObj":null,"updateEventDate":"2013-11-15T09:40:46.000+0000","assignee":{"id":296396271,"email":"isl_dev@lists.mosso.com","name":"ISL-DEV"},"number":"1968765","documentLastUpdatedTimestamp":"2013-11-15T09:48:11.645Z","subCategoryObj":null,"hasWindowsServers":false,"updatedAt":"2013-11-15T09:40:46.000+0000","category":null,"sourceSystem":"ZENDESK","createdAt":"2013-11-15T09:40:46.000+0000","priority":"Low","hasLinuxServers":true,"account":{"id":"CLOUD000000","number":"000000","type":"CLOUD"},"link":{"href":"http://staging.search.api.rackspace.com/tickets/1968765","rel":"via"}}],"facets":[],"links":[{"rel":"last","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=1968765&offset=0"},{"rel":"first","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=1968765&offset=0"}]}}
+-------------------------------------------------------------------------------
+2013-11-15 09:48:24,239: DEBUG: root: 
+========================================================
+test_tkt_update_zen_desk_devices COMPLETED at 2013-11-15 09:48:24.239577
+========================================================
+2013-11-15 09:48:24,239: DEBUG: root: 
+========================================================
+test_tkt_update_zen_desk_priority STARTING at 2013-11-15 09:48:24.239963
+========================================================
+2013-11-15 09:48:24,240: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.zendesk.zendesk_api.ZendeskTicketClient object at 0x2975550>, 'PUT', 'https://mosso.zendesk.com/api/v2/tickets/1968765.json') {'headers': {'Content-Type': 'application/json', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'auth': <requests.auth.HTTPBasicAuth object at 0x2975510>, 'data': '{"ticket": {"priority": "urgent"}}'}
+2013-11-15 09:48:24,241: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): mosso.zendesk.com
+2013-11-15 09:48:24,903: DEBUG: requests.packages.urllib3.connectionpool: "PUT /api/v2/tickets/1968765.json HTTP/1.1" 200 None
+2013-11-15 09:48:24,904: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : PUT
+request url     : https://mosso.zendesk.com/api/v2/tickets/1968765.json
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'34', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen', 'Content-Type': 'application/json', 'Authorization': u'Basic aXNsX3FlX3VzcUBsaXN0cy5tb3Nzby5jb206akBja3M='})
+request body    : {"ticket": {"priority": "urgent"}}
+
+2013-11-15 09:48:24,904: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.663539171219
+response headers : CaseInsensitiveDict({'status': '200 OK', 'x-zendesk-api-version': 'v2', 'x-zendesk-request-id': '7cc37ec24c094c61a1ef', 'x-runtime': '0.473266', 'x-content-type-options': 'nosniff', 'content-encoding': 'gzip', 'transfer-encoding': 'chunked', 'x-request-id': 'd8782c38092b43a323d683ae76058ebf', 'server': 'nginx/1.4.2', 'date': 'Fri, 15 Nov 2013 09:48:20 GMT', 'connection': 'keep-alive', 'x-ua-compatible': 'IE=Edge,chrome=1', 'cache-control': 'max-age=0, private, must-revalidate', 'x-zendesk-user-id': '295324093', 'content-type': 'application/json; charset=UTF-8', 'x-rack-cache': 'invalidate, pass', 'x-zendesk-origin-server': 'app38.pod1.ord.zdsys.com'})
+response body    : {"ticket":{"url":"https://mosso.zendesk.com/api/v2/tickets/1968765.json","id":1968765,"external_id":null,"via":{"channel":"api","source":{"from":{},"to":{},"rel":null}},"created_at":"2013-11-15T09:40:46Z","updated_at":"2013-11-15T09:48:20Z","type":null,"subject":"zen desk ticket","description":"ts-staging","priority":"urgent","status":"open","recipient":null,"requester_id":295324093,"submitter_id":295324093,"assignee_id":296396271,"organization_id":20825923,"group_id":20596722,"collaborator_ids":[],"forum_topic_id":null,"problem_id":null,"has_incidents":false,"due_at":null,"tags":["linux"],"custom_fields":[{"id":105853,"value":""},{"id":102692,"value":""},{"id":436749,"value":""},{"id":108885,"value":"linux"},{"id":56372,"value":null},{"id":96193,"value":null},{"id":452117,"value":false},{"id":105830,"value":null},{"id":105820,"value":""},{"id":22267031,"value":null},{"id":20674741,"value":null}],"satisfaction_rating":null,"sharing_agreement_ids":[],"fields":[{"id":105853,"value":""},{"id":102692,"value":""},{"id":436749,"value":""},{"id":108885,"value":"linux"},{"id":56372,"value":null},{"id":96193,"value":null},{"id":452117,"value":false},{"id":105830,"value":null},{"id":105820,"value":""},{"id":22267031,"value":null},{"id":20674741,"value":null}]},"audit":{"id":19974620317,"ticket_id":1968765,"created_at":"2013-11-15T09:48:20Z","author_id":295324093,"via":{"channel":"api","source":{"from":{},"to":{},"rel":null}},"metadata":{"system":{"client":"python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen","ip_address":"74.205.117.244","location":"San Antonio, TX, United States","latitude":29.4889,"longitude":-98.3987},"custom":{}},"events":[{"id":19974620327,"type":"Change","value":"urgent","field_name":"priority","previous_value":"low"}]}}
+-------------------------------------------------------------------------------
+2013-11-15 09:50:04,922: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.SearchApiClient object at 0x28ea410>, 'GET', 'http://staging.search.api.rackspace.com/tickets') {'headers': {}, 'params': {'status': None, 'sort': None, 'queue': None, 'number': 1968765, 'priority': None, 'limit': 100, 'createdAt_range': None, 'offset': 0, 'category': None, 'createdAt': None, 'subject': None}, 'verify': False, 'data': None}
+2013-11-15 09:50:04,924: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-11-15 09:50:04,950: DEBUG: requests.packages.urllib3.connectionpool: "GET /tickets?number=1968765&limit=100&offset=0 HTTP/1.1" 200 None
+2013-11-15 09:50:04,951: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/tickets
+request params  : number=1968765&limit=100&offset=0
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-11-15 09:50:04,951: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.0287148952484
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 09:52:36 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"response":{"total":1,"limit":100,"offset":0,"tickets":[{"tags":["linux"],"queue":{"id":20596722,"name":"Hybrid - International SMB"},"technology":"linux","location":"NONE","status":"Open","subCategory":null,"submitter":{"id":295324093,"email":"isl_qe_usq@lists.mosso.com","name":"ISL-QE-USQ"},"subject":"zen desk ticket","categoryObj":null,"updateEventDate":"2013-11-15T09:48:20.000+0000","assignee":{"id":296396271,"email":"isl_dev@lists.mosso.com","name":"ISL-DEV"},"number":"1968765","documentLastUpdatedTimestamp":"2013-11-15T09:48:22.714Z","subCategoryObj":null,"hasWindowsServers":false,"updatedAt":"2013-11-15T09:48:20.000+0000","category":null,"sourceSystem":"ZENDESK","createdAt":"2013-11-15T09:40:46.000+0000","priority":"Urgent","hasLinuxServers":true,"account":{"id":"CLOUD000000","number":"000000","type":"CLOUD"},"link":{"href":"http://staging.search.api.rackspace.com/tickets/1968765","rel":"via"}}],"facets":[],"links":[{"rel":"last","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=1968765&offset=0"},{"rel":"first","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=1968765&offset=0"}]}}
+-------------------------------------------------------------------------------
+2013-11-15 09:50:04,953: DEBUG: root: 
+========================================================
+test_tkt_update_zen_desk_priority COMPLETED at 2013-11-15 09:50:04.953014
+========================================================
+2013-11-15 09:50:04,953: DEBUG: root: 
+========================================================
+test_tkt_update_zen_desk_status STARTING at 2013-11-15 09:50:04.953404
+========================================================
+2013-11-15 09:50:04,953: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.zendesk.zendesk_api.ZendeskTicketClient object at 0x2975550>, 'PUT', 'https://mosso.zendesk.com/api/v2/tickets/1968765.json') {'headers': {'Content-Type': 'application/json', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'auth': <requests.auth.HTTPBasicAuth object at 0x2975510>, 'data': '{"ticket": {"status": "pending"}}'}
+2013-11-15 09:50:04,954: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): mosso.zendesk.com
+2013-11-15 09:50:05,569: DEBUG: requests.packages.urllib3.connectionpool: "PUT /api/v2/tickets/1968765.json HTTP/1.1" 200 None
+2013-11-15 09:50:05,571: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : PUT
+request url     : https://mosso.zendesk.com/api/v2/tickets/1968765.json
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'33', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen', 'Content-Type': 'application/json', 'Authorization': u'Basic aXNsX3FlX3VzcUBsaXN0cy5tb3Nzby5jb206akBja3M='})
+request body    : {"ticket": {"status": "pending"}}
+
+2013-11-15 09:50:05,571: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.61687207222
+response headers : CaseInsensitiveDict({'status': '200 OK', 'x-zendesk-api-version': 'v2', 'x-zendesk-request-id': '9f9f744b661ef8601f47', 'x-runtime': '0.440175', 'x-content-type-options': 'nosniff', 'content-encoding': 'gzip', 'transfer-encoding': 'chunked', 'x-request-id': 'c7c9dac471d8c71750111ee0f6e0222d', 'server': 'nginx/1.4.2', 'date': 'Fri, 15 Nov 2013 09:50:00 GMT', 'connection': 'keep-alive', 'x-ua-compatible': 'IE=Edge,chrome=1', 'cache-control': 'max-age=0, private, must-revalidate', 'x-zendesk-user-id': '295324093', 'content-type': 'application/json; charset=UTF-8', 'x-rack-cache': 'invalidate, pass', 'x-zendesk-origin-server': 'app18.pod1.ord.zdsys.com'})
+response body    : {"ticket":{"url":"https://mosso.zendesk.com/api/v2/tickets/1968765.json","id":1968765,"external_id":null,"via":{"channel":"api","source":{"from":{},"to":{},"rel":null}},"created_at":"2013-11-15T09:40:46Z","updated_at":"2013-11-15T09:50:00Z","type":null,"subject":"zen desk ticket","description":"ts-staging","priority":"urgent","status":"pending","recipient":null,"requester_id":295324093,"submitter_id":295324093,"assignee_id":296396271,"organization_id":20825923,"group_id":20596722,"collaborator_ids":[],"forum_topic_id":null,"problem_id":null,"has_incidents":false,"due_at":null,"tags":["linux"],"custom_fields":[{"id":105853,"value":""},{"id":102692,"value":""},{"id":436749,"value":""},{"id":108885,"value":"linux"},{"id":56372,"value":null},{"id":96193,"value":null},{"id":452117,"value":false},{"id":105830,"value":null},{"id":105820,"value":""},{"id":22267031,"value":null},{"id":20674741,"value":null}],"satisfaction_rating":null,"sharing_agreement_ids":[],"fields":[{"id":105853,"value":""},{"id":102692,"value":""},{"id":436749,"value":""},{"id":108885,"value":"linux"},{"id":56372,"value":null},{"id":96193,"value":null},{"id":452117,"value":false},{"id":105830,"value":null},{"id":105820,"value":""},{"id":22267031,"value":null},{"id":20674741,"value":null}]},"audit":{"id":20034054058,"ticket_id":1968765,"created_at":"2013-11-15T09:50:00Z","author_id":295324093,"via":{"channel":"api","source":{"from":{},"to":{},"rel":null}},"metadata":{"system":{"client":"python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen","ip_address":"74.205.117.244","location":"San Antonio, TX, United States","latitude":29.4889,"longitude":-98.3987},"custom":{}},"events":[{"id":20034054068,"type":"Change","value":"pending","field_name":"status","previous_value":"open"},{"id":20034054078,"type":"Notification","via":{"channel":"rule","source":{"to":{},"from":{"id":253602,"title":"Notify requester of Comment or Status update"},"rel":"trigger"}},"subject":"[{{ticket.account}}] Re: {{ticket.title}}","body":"<comment_update><status-{{ticket.status}}/>\n<id>{{ticket.id}}</id>\n<title>{{ticket.title}}</title>\n<comments>{{ticket.public_comments_formatted}}</comments>\n<last-comment>{{ticket.latest_public_comment_formatted}}</last-comment>\n<url>{{ticket.url}}</url>\n<status>{{ticket.status}}</status>\n<priority>{{ticket.priority}}</priority>\n<ticket_type>{{ticket.ticket_type}}</ticket_type>\n<index>{{ticket.score}}</index>\n<group>{{ticket.group.name}}</group>\n<account>{{ticket.account}}</account>\n<assignee>{{ticket.assignee.name}}</assignee>\n<assignee_first_name>{{ticket.assignee.first_name}}</assignee_first_name>\n<assignee_last_name>{{ticket.assignee.last_name}}</assignee_last_name>\n<requester>{{ticket.requester.name}}</requester>\n<requester-id>{{ticket.requester.id}}</requester-id>\n<requester_first_name>{{ticket.requester.first_name}}</requester_first_name>\n<requester_last_name>{{ticket.requester.last_name}}</requester_last_name>\n<organization>{{ticket.organization.name}}</organization>\n<current_collaborators>{{ticket.cc_names}}</current_collaborators>\n<domain>{{ticket.ticket_field_56372}}</domain>\n<product>{{ticket.ticket_field_92226}}</product>\n<category>{{ticket.ticket_field_56445}}</category>\n<email_cc>{{ticket.ticket_field_96193}}</email_cc>\n<riid>{{ticket.ticket_field_20674741}}</riid> \n<created-at>{{ticket.created_at |date: \"%Y%m%d\"}}</created-at>\n</comment_update>","recipients":[295324093]}]}}
+-------------------------------------------------------------------------------
+2013-11-15 09:51:45,573: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.SearchApiClient object at 0x28ea410>, 'GET', 'http://staging.search.api.rackspace.com/tickets') {'headers': {}, 'params': {'status': None, 'sort': None, 'queue': None, 'number': 1968765, 'priority': None, 'limit': 100, 'createdAt_range': None, 'offset': 0, 'category': None, 'createdAt': None, 'subject': None}, 'verify': False, 'data': None}
+2013-11-15 09:51:45,575: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-11-15 09:51:45,600: DEBUG: requests.packages.urllib3.connectionpool: "GET /tickets?number=1968765&limit=100&offset=0 HTTP/1.1" 200 None
+2013-11-15 09:51:45,601: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/tickets
+request params  : number=1968765&limit=100&offset=0
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-11-15 09:51:45,602: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.0276439189911
+response headers : CaseInsensitiveDict({'date': 'Fri, 15 Nov 2013 09:54:17 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"response":{"total":1,"limit":100,"offset":0,"tickets":[{"tags":["linux"],"queue":{"id":20596722,"name":"Hybrid - International SMB"},"technology":"linux","location":"NONE","status":"Pending","subCategory":null,"submitter":{"id":295324093,"email":"isl_qe_usq@lists.mosso.com","name":"ISL-QE-USQ"},"subject":"zen desk ticket","categoryObj":null,"updateEventDate":"2013-11-15T09:50:00.777+0000","assignee":{"id":296396271,"email":"isl_dev@lists.mosso.com","name":"ISL-DEV"},"number":"1968765","documentLastUpdatedTimestamp":"2013-11-15T09:50:26.908Z","subCategoryObj":null,"hasWindowsServers":false,"updatedAt":"2013-11-15T09:50:00.000+0000","category":null,"sourceSystem":"ZENDESK","createdAt":"2013-11-15T09:40:46.000+0000","priority":"Urgent","hasLinuxServers":true,"account":{"id":"CLOUD000000","number":"000000","type":"CLOUD"},"link":{"href":"http://staging.search.api.rackspace.com/tickets/1968765","rel":"via"}}],"facets":[],"links":[{"rel":"last","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=1968765&offset=0"},{"rel":"first","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=1968765&offset=0"}]}}
+-------------------------------------------------------------------------------
+2013-11-15 09:51:45,603: DEBUG: root: 
+========================================================
+test_tkt_update_zen_desk_status COMPLETED at 2013-11-15 09:51:45.603317
+========================================================
+2013-11-15 09:51:45,603: DEBUG: root: 
+========================================================
+TEARING DOWN TestZenDeskOngoingSync at 2013-11-15 09:51:45.603655
+========================================================

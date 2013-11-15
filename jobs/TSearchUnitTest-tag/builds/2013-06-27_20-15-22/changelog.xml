@@ -1,0 +1,12 @@
+Changes in branch origin/search-pom-0.1.0_b111_fix, between 6a16e920516ba635864ab7f73fda60b0ab3b2c6c and b86fec6676e9a0251b942372780d95a6344addc1
+commit b86fec6676e9a0251b942372780d95a6344addc1
+tree ec33c2c44dfcba808eebfe17cd5c0f328fee2e77
+parent 6a16e920516ba635864ab7f73fda60b0ab3b2c6c
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1372363588 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1372363588 -0500
+
+    [D-13104]: Updating version number
+
+:100644 100644 5327211c6e2d1eb13675fe6b42806713642aa203 f5f5a5707fa300f6cb105ca956ede83e23126a6d M	cucumber/pom.xml
+:100644 100644 82666462b4da2f8a038bab6d0a01822b50b76aac b4d13406093613fde48cf905cd6380aafaddb872 M	pom.xml
+:100644 100644 30b73286c40ded4864a71177b92990a263c3a827 dde1626cd9c9c6630f53f9b165a8e8f6c714492a M	service/pom.xml

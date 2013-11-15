@@ -1,0 +1,35 @@
+Changes in branch origin/master, between 217b4a3c640d595923092d0b3ce28873a5539883 and 5392e25682caa3588bb06d30a6b129d3217855e7
+commit 5392e25682caa3588bb06d30a6b129d3217855e7
+tree 072172f24f398f0621e6c0a3b5930e2bb81f7ff1
+parent 863892827ca8fada87f00026db356226d0c8adff
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1375200416 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1375200416 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 542cbe323b7235f9c7c04c8e7c9f00f4f825e011 5fc4e32e1542d57a3cc6109edfcd0ec4bc9adf07 M	cucumber/pom.xml
+:100644 100644 05658e03012d73eb7538dc9efd750254210def94 29b4509154ce7cdfb5f1425433731805adb19913 M	pom.xml
+:100644 100644 c5d56a978ce4361273aabcbcd6f2d96dfd334ba4 422af238ccf71552e6e3452b84af5f95a1364d3e M	service/pom.xml
+
+commit 863892827ca8fada87f00026db356226d0c8adff
+tree 6bda40060cd1badc88cac668834423edae6346e4
+parent 516fa20ba417233abb1331cc518e06589d507205
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1375200411 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1375200411 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b141
+
+:100644 100644 92c3aee31799cf1ab874717e62ec040cf3d0bce6 542cbe323b7235f9c7c04c8e7c9f00f4f825e011 M	cucumber/pom.xml
+:100644 100644 0dd20af5dc5405d98cb2470a8990b026b0922757 05658e03012d73eb7538dc9efd750254210def94 M	pom.xml
+:100644 100644 4fb1852dfd5c5213e7123b62ed59d9b825331923 c5d56a978ce4361273aabcbcd6f2d96dfd334ba4 M	service/pom.xml
+
+commit 7a5479ffc343424d69e4e0a4f017192b2711afd0
+tree 53805e24a7d784d7db0d868902798e1f164abec5
+parent 4da29c6fb8d70db6899ed9f8386d207c8fbb7cfc
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1375199004 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1375199004 -0500
+
+    [B-52758]: considering time with no millis
+
+:100644 100644 524c4be94094b4dc8c735e753bc9f147a3f49170 738759ad2ae550056d67fcbbf3a95a47d7463802 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+:100644 100644 666a645ca553de8e0f79bca8581b3b72082c0bcb cf43114646cc802a12cd9c2833faf1eb0bc98113 M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketProcessorTest.groovy

@@ -1,0 +1,34 @@
+Changes in branch origin/master, between e6b03e2621a9456a84ddc9298190149770ca472d and 586b575440754ee2cd49053c69da63637e1901cb
+commit 586b575440754ee2cd49053c69da63637e1901cb
+tree fecad35e32b25213f021a50cde0c7d824bb75612
+parent 7c1682ad6cb8232a8d5863a2c7420b92d3180512
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1379981730 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1379981730 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 289cf2b57b3e4b31f4ff8fe2a50cade2db48ca47 e10fb8cbb02f12f6ecc32cfae6f690bc7b1d2b60 M	cucumber/pom.xml
+:100644 100644 4274dce2958a5bcae9b3bf065f0b69c7ba1d1872 288b016ba290c6b752fec434e1ff8e9da868dc2d M	pom.xml
+:100644 100644 78903331b16ee3160ec208724fddc683a921540c e96870f1d26ffa1f9bf12fe7ad22fe42da90c12d M	service/pom.xml
+
+commit 7c1682ad6cb8232a8d5863a2c7420b92d3180512
+tree 2c5e6aafbd6cdc4fc2103445742a6f96387f5739
+parent 401ed5b33c03190c0a142064281209071d00c261
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1379981724 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1379981724 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b176
+
+:100644 100644 344113172067b6432d9c58bac44bc4e73b8f3f0f 289cf2b57b3e4b31f4ff8fe2a50cade2db48ca47 M	cucumber/pom.xml
+:100644 100644 9fc471be1af00836ee3d02ed16cbf97dfd26743f 4274dce2958a5bcae9b3bf065f0b69c7ba1d1872 M	pom.xml
+:100644 100644 31769ac756f3ed14c89c9b52cc1f9eddfb26411b 78903331b16ee3160ec208724fddc683a921540c M	service/pom.xml
+
+commit 77fdef3775bfd96d2eb2c1fa1702d4c5e9a426bc
+tree bfd5c6e3d97f4f9151d728648887af4bd7e7252e
+parent 21757a5ffc914d283a8b5f48dadd5f5bcab75bb0
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1379979458 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1379979458 -0500
+
+    [B-56926] : fixing user
+
+:100644 100644 d711f525031d4613b23b9892e5104561e63c9a84 815289d3b14a2d2eacbd957b5303be624a13902d M	service/src/main/filters/filter.yaml

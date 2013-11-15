@@ -1,0 +1,19 @@
+Started by upstream project "[8mha:AAAArh+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzJEgZV/az8JP2Q4NTEouQMVSMDXSAOSC1Kyy/KBbKCUnNSE4tT9QG7a2Vj2gAAAA==[0mTSearch - Perform Release" build number [8mha:AAAAsB+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZ1/az8JP2Q4NTEouQMVSMDXSAOSC1Kyy/KBbKCUnNSE4tT9Q2NAOQW2yHcAAAA[0m12
+originally caused by:
+ Started by user [8mha:AAAApB+LCAAAAAAAAABb85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/dLi1CL94tKi1LyUokS9xIKCRKCBqXmZAPPLBnDOAAAA[0msurendra.appalaneni
+Building in workspace /var/lib/jenkins/jobs/TSearch - Deploy to Test/workspace
+Checkout:workspace / /var/lib/jenkins/jobs/TSearch - Deploy to Test/workspace - hudson.remoting.LocalChannel@6815a68d
+Using strategy: Default
+Cloning the remote Git repository
+Cloning repository git@github.com:rackspace/search.git
+git --version
+git version 1.7.4.1
+Fetching upstream changes from origin
+Commencing build of Revision 7bd5c3b716c3b89f60997059ced8c623577797ce (origin/master)
+Checking out Revision 7bd5c3b716c3b89f60997059ced8c623577797ce (origin/master)
+No change to record in branch origin/master
+[workspace] $ /bin/sh -xe /tmp/hudson3988661950913490149.sh
++ /var/lib/jenkins/jobs/TSearch - Deploy to Test/workspace/target/checkout/service/src/main/scripts/deploy-snapshot.sh test
+/tmp/hudson3988661950913490149.sh: line 2: /var/lib/jenkins/jobs/TSearch: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

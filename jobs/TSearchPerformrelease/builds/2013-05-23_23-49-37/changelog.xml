@@ -1,0 +1,45 @@
+Changes in branch origin/master, between 969a66dc08a33ea92671943d681430a95d4d9203 and 5a79e2e3811e8b6b93fec9bf6885ee980fe457a9
+commit f17f3beea05d26f9b8e5cbcc68b343e7e6f70932
+tree 045caae162f817ebf0049897531b08026d650ade
+parent 6c8ea4c8fd3870f89cd2b118410f4ed154d664d3
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1369351448 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1369351448 -0500
+
+    [D-13026] : fixed deployment script to copy credentials
+
+:100644 100644 d9210013bd5103208656022588f32713771dab2c 17c0c28ba290d59babe4b41e90d62239785a0b15 M	service/src/main/scripts/_warhammer.include
+
+commit 0d8e02052ff4c4fa5740d887d71e5d66b0a5cb13
+tree 8c94f4d95bfe1393fd83a2b95332ef54fd8bd77b
+parent e41013aab3ab8bc346e7b09355e06499ddfe967d
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1369349039 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1369349039 -0500
+
+    [D-13026] : fixed one timesync stop action.
+
+:100644 100644 7908c2d987afd3849cfc13cc4dc001417ff8e1c9 f2020eebd132edf582785075f6ec67b43d3a9282 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOneTimeSyncJob.groovy
+:100644 100644 c43743d676b60cc4e4dd08196658bf2bcf7b07a6 31f49971d5c8003a97a2767fffa6aa18ee7b4ae4 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOneTimeSyncJob.groovy
+
+commit 4f5c15b7dfecf7504c0a8137090029d7ce79b7f9
+tree c13d9918604c223dc439159c96a05ea4c3c77b64
+parent 2db791c984246840050e10846a99038160bdf8c6
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369289266 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369289266 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 cf9a48fcd4892f52da54dc3a6398005769e87a79 f7f4d36aa9291f9b83c18b55046138e216347f87 M	cucumber/pom.xml
+:100644 100644 2fd43cfe4de4d7c73af22ce9193380e78f3b9260 b9c3acba0c259d2040041b4632f22d11bbcdee63 M	pom.xml
+:100644 100644 b72e1d533f569eb89d359925d18125750a35e6da dac7e60df779696a652da846fbd3934803033cbf M	service/pom.xml
+
+commit 2db791c984246840050e10846a99038160bdf8c6
+tree 751c1a18cffe8bfa5100077c0c013f14319e83b0
+parent 969a66dc08a33ea92671943d681430a95d4d9203
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369289262 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369289262 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b70
+
+:100644 100644 a617d3a5371ad705a87c8017df07272ce1c9fc72 cf9a48fcd4892f52da54dc3a6398005769e87a79 M	cucumber/pom.xml
+:100644 100644 4991d8a168dacd4ebc2e315888b6f935c852449c 2fd43cfe4de4d7c73af22ce9193380e78f3b9260 M	pom.xml
+:100644 100644 4e0dec890b327eb562c13644dc8c88416d36920f b72e1d533f569eb89d359925d18125750a35e6da M	service/pom.xml

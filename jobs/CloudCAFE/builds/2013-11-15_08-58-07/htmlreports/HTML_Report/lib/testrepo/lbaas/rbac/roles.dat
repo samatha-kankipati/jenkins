@@ -1,0 +1,126 @@
++ Roles | user_admin | creator | observer | prod_admin | global_admin | global_observer
+# LVL:   ^-- ACCT --^ ^----------- PRODUCT ------------^ ^--------- GLOBAL -------------^
+
+# (Role names *MUST* correspond to a property within the fixture)
+
+# ACCESS LIST APIs                    | user_admin | creator |  obsvr | admin | gbl_admin | gbl_obs |
+#-------------------------------------+------------+---------+--------+-------+-----------+---------+
+get_access_list                       |    200     |   200   |  200   |  200  |     200   |   200
+create_access_list                    |    202     |   202   |  405   |  202  |     202   |   405
+delete_access_list                    |    202     |   405   |  405   |  202  |     202   |   405
+delete_access_list_item               |    202     |   405   |  405   |  202  |     202   |   405
+batch_delete_access_list_items        |    202     |   405   |  405   |  202  |     202   |   405
+
+
+# ALLOWED DOMAINS APIs                | user_admin | creator |  obsvr | admin | gbl_admin | gbl_obs |
+#-------------------------------------+------------+---------+--------+-------+-----------+---------+
+list_allowed_domains                  |    200     |   200   |  200   |  200  |     200   |   200  
+
+
+# CONNECTION LOGGING APIs             | user_admin | creator |  obsvr | admin | gbl_admin | gbl_obs | 
+#-------------------------------------+------------+---------+--------+-------+-----------+---------+
+get_connection_logging                |    200     |   200   |  200   |  200  |     200   |   200
+update_connection_logging             |    202     |   202   |  405   |  202  |     202   |   405
+
+
+# CONNECTION THROTTLING APIs          | user_admin | creator |  obsvr | admin | gbl_admin | gbl_obs | 
+#-------------------------------------+------------+---------+--------+-------+-----------+---------+
+get_connection_throttle               |    200     |   200   |  200   |  200  |     200   |   200
+update_connection_throttle            |    202     |   202   |  405   |  202  |     202   |   405
+delete_connection_throttle            |    202     |   405   |  405   |  202  |     202   |   405
+
+
+# CONTENT CACHING APIs                | user_admin | creator |  obsvr | admin | gbl_admin | gbl_obs |
+#-------------------------------------+------------+---------+--------+-------+-----------+---------+
+get_content_caching                   |    200     |   200   |  200   |  200  |     200   |   200
+update_content_caching                |    202     |   202   |  405   |  202  |     202   |   405
+
+
+# ERROR PAGE APIs                     | user_admin | creator |  obsvr | admin | gbl_admin | gbl_obs |
+#-------------------------------------+------------+---------+--------+-------+-----------+---------+
+get_error_page                        |    200     |   200   |  200   |  200  |     200   |   200
+update_error_page                     |    202     |   202   |  405   |  202  |     202   |   405
+delete_error_page                     |    202     |   405   |  405   |  202  |     202   |   405
+
+
+# HEALTH MONITOR APIs                 | user_admin | creator |  obsvr | admin | gbl_admin | gbl_obs |
+#-------------------------------------+------------+---------+--------+-------+-----------+---------+
+delete_health_monitor                 |    202     |   405   |  405   |  202  |     202   |   405
+get_health_monitor                    |    200     |   200   |  200   |  200  |     200   |   200
+update_health_monitor                 |    202     |   202   |  405   |  202  |     202   |   405
+
+
+# LIST APIs                           | user_admin | creator |  obsvr | admin | gbl_admin | gbl_obs |
+#-------------------------------------+------------+---------+--------+-------+-----------+---------+
+list_absolute_limits                  |    200     |   200   |  200   |  200  |     200   |   200
+list_algorithms                       |    200     |   200   |  200   |  200  |     200   |   200
+list_protocols                        |    200     |   200   |  200   |  200  |     200   |   200
+
+
+# LOAD_BALANCER APIs                  | user_admin | creator |  obsvr | admin | gbl_admin | gbl_obs |
+#-------------------------------------+------------+---------+--------+-------+-----------+---------+
+batch_delete_load_balancers           |    202     |   405   |  405   |  202  |     202   |   405
+create_load_balancer                  |    202     |   202   |  405   |  202  |     202   |   405
+delete_load_balancer                  |    202     |   405   |  405   |  202  |     202   |   405
+get_load_balancer                     |    200     |   200   |  200   |  200  |     200   |   200
+list_load_balancers                   |    200     |   200   |  200   |  200  |     200   |   200
+list_load_balancer_stats              |    200     |   200   |  200   |  200  |     200   |   200
+update_load_balancer                  |    202     |   202   |  405   |  202  |     202   |   405
+
+# METADATA - LOAD BALANCER            | user_admin | creator |  obsvr | admin | gbl_admin | gbl_obs |
+#-------------------------------------+------------+---------+--------+-------+-----------+---------+
+add_load_balancer_metadata            |    200     |   200   |  405   |  200  |     200   |   405
+batch_delete_load_balancer_meta_items |    200     |   405   |  405   |  200  |     200   |   405
+delete_load_balancer_meta_item        |    200     |   405   |  405   |  200  |     200   |   405 
+get_load_balancer_meta_item           |    200     |   200   |  200   |  200  |     200   |   200
+list_load_balancer_metadata           |    200     |   200   |  200   |  200  |     200   |   200
+update_load_balancer_meta_item        |    200     |   200   |  405   |  200  |     200   |   405
+
+
+# METADATA - LOAD BALANCER NODE       | user_admin | creator |  obsvr | admin | gbl_admin | gbl_obs |
+#-------------------------------------+------------+---------+--------+-------+-----------+---------+
+add_node_metadata                     |    200     |   200   |  405   |  200  |     200   |   405
+batch_delete_node_meta_items          |    200     |   405   |  405   |  200  |     200   |   405
+delete_node_meta_item                 |    200     |   405   |  405   |  200  |     200   |   405
+get_node_meta_item                    |    200     |   200   |  200   |  200  |     200   |   200
+list_node_metadata                    |    200     |   200   |  200   |  200  |     200   |   200
+update_node_meta_item                 |    200     |   200   |  405   |  200  |     200   |   405
+
+
+# NODE APIs                           | user_admin | creator |  obsvr | admin | gbl_admin | gbl_obs |
+#-------------------------------------+------------+---------+--------+-------+-----------+---------+
+add_nodes                             |    202     |   202   |  405   |  202  |     202   |   405
+batch_delete_nodes                    |    202     |   405   |  405   |  202  |     202   |   405
+delete_node                           |    202     |   405   |  405   |  202  |     202   |   405
+get_node                              |    200     |   200   |  200   |  200  |     200   |   200
+list_nodes                            |    200     |   200   |  200   |  200  |     200   |   200
+list_node_service_events              |    200     |   200   |  200   |  200  |     200   |   200
+update_node                           |    202     |   202   |  405   |  202  |     202   |   405
+
+
+# SESSION PERSISTENCE APIs            | user_admin | creator |  obsvr | admin | gbl_admin | gbl_obs |
+#-------------------------------------+------------+---------+--------+-------+-----------+---------+
+delete_session_persistence            |    202     |   405   |  405   |  202  |     202   |   405
+get_session_persistence               |    200     |   200   |  200   |  200  |     200   |   200
+update_session_persistence            |    202     |   202   |  405   |  202  |     202   |   405
+
+
+# SSL TERMINATION APIs                | user_admin | creator |  obsvr | admin | gbl_admin | gbl_obs |
+#-------------------------------------+------------+---------+--------+-------+-----------+---------+
+delete_ssl_termination                |    202     |   405   |  405   |  202  |     202   |   405
+get_ssl_termination                   |    200     |   200   |  200   |  200  |     200   |   200
+update_ssl_termination                |    202     |   202   |  405   |  202  |     202   |   405
+
+
+# USAGE APIs                          | user_admin | creator |  obsvr | admin | gbl_admin | gbl_obs |
+#-------------------------------------+------------+---------+--------+-------+-----------+---------+
+list_account_usage                    |    200     |   200   |  200   |  200  |     200   |   200
+list_billable_load_balancers          |    200     |   200   |  200   |  200  |     200   |   200
+list_load_balancer_usage              |    200     |   200   |  200   |  200  |     200   |   200
+
+
+# VIRTUAL IP APIs                     | user_admin | creator |  obsvr | admin | gbl_admin | gbl_obs |
+#-------------------------------------+------------+---------+--------+-------+-----------+---------+
+add_virtual_ip                        |    202     |   202   |  405   |  202  |     202   |   405
+delete_virtual_ip                     |    202     |   405   |  405   |  202  |     202   |   405
+list_virtual_ips                      |    200     |   200   |  200   |  200  |     200   |   200

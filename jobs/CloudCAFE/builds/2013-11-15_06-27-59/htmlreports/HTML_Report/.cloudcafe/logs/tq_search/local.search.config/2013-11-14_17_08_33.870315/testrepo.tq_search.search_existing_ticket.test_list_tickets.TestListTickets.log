@@ -1,0 +1,81 @@
+2013-11-14 12:25:57,687: DEBUG: root: 
+========================================================
+SETTING UP testrepo.tq_search.search_existing_ticket.test_list_tickets.TestListTickets at 2013-11-14 12:25:57.687507
+========================================================
+2013-11-14 12:25:57,688: ERROR: ccengine.domain.configuration.TQSearchConfig: No option 'account_service_level' in section: 'gate'
+2013-11-14 12:25:57,689: ERROR: ccengine.domain.configuration.TQSearchConfig: No option 'account_territory_code' in section: 'gate'
+2013-11-14 12:25:57,692: ERROR: ccengine.domain.configuration.AuthConfig: No option 'api_key' in section: 'auth'
+2013-11-14 12:25:57,692: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.auth.auth_client.AuthClient object at 0xc90d290>, 'POST', 'https://ws.staging.core.rackspace.com/ctkapi//login/melissa.biles') {'headers': {'Content-Type': 'application/json', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'data': '{"password": "qwerty"}'}
+2013-11-14 12:25:57,694: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): ws.staging.core.rackspace.com
+2013-11-14 12:25:57,997: DEBUG: requests.packages.urllib3.connectionpool: "POST /ctkapi//login/melissa.biles HTTP/1.1" 200 None
+2013-11-14 12:25:58,061: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://ws.staging.core.rackspace.com/ctkapi//login/melissa.biles
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'22', 'Content-Type': 'application/json', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : {"password": "qwerty"}
+
+2013-11-14 12:25:58,062: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.368948936462
+response headers : CaseInsensitiveDict({'date': 'Thu, 14 Nov 2013 17:25:57 GMT', 'transfer-encoding': 'chunked', 'content-type': 'application/json', 'server': 'Apache/2.2.3 (Red Hat)'})
+response body    : {"authtoken": "c5fac67cec260160d5904cb496f02356"}
+-------------------------------------------------------------------------------
+2013-11-14 12:25:58,068: DEBUG: root: 
+========================================================
+test_get_specific_ticket_and_verify_it_exists_in_the_list STARTING at 2013-11-14 12:25:58.068049
+========================================================
+2013-11-14 12:25:58,068: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.core.ticket_api.TicketAPIClient object at 0xc9121d0>, 'POST', 'https://ws.staging.core.rackspace.com/ctkapi/query') {'headers': {'Content-Type': 'application/json', 'X-Auth': 'c5fac67cec260160d5904cb496f02356', 'Accept': 'application/json'}, 'params': {}, 'verify': False, 'data': '[{"load_arg": {"values": [[["created", ">=", "2013-03-12 03:00:26"], "&", ["created", "<=", "2013-03-12 06:02:26"]], "&", ["status_type", "=", "8"]], "class": "Ticket.TicketWhere"}, "class": "Ticket.Ticket", "attributes": ["number", "last_public_response_date", "status.name", "created", "modified", "priority.name", "category.name", "queue.name", "queue.id", "subject", "has_linux_servers", "has_windows_servers", "subcategory.name", "difficulty", "severity.name", "account.number", "account.service_level_name", "account.support_team.support_territory.code", "assignee.name", "assignee.employee_userid", "submitter.name", "submitter.employee_userid", "status.types.name", "account.segment", "subcategory.id", "category.id"]}]'}
+2013-11-14 12:25:58,070: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): ws.staging.core.rackspace.com
+2013-11-14 12:25:58,506: DEBUG: requests.packages.urllib3.connectionpool: "POST /ctkapi/query HTTP/1.1" 200 None
+2013-11-14 12:25:58,535: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://ws.staging.core.rackspace.com/ctkapi/query
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'727', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': 'application/json', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen', 'X-Auth': 'c5fac67cec260160d5904cb496f02356', 'Content-Type': 'application/json'})
+request body    : [{"load_arg": {"values": [[["created", ">=", "2013-03-12 03:00:26"], "&", ["created", "<=", "2013-03-12 06:02:26"]], "&", ["status_type", "=", "8"]], "class": "Ticket.TicketWhere"}, "class": "Ticket.Ticket", "attributes": ["number", "last_public_response_date", "status.name", "created", "modified", "priority.name", "category.name", "queue.name", "queue.id", "subject", "has_linux_servers", "has_windows_servers", "subcategory.name", "difficulty", "severity.name", "account.number", "account.service_level_name", "account.support_team.support_territory.code", "assignee.name", "assignee.employee_userid", "submitter.name", "submitter.employee_userid", "status.types.name", "account.segment", "subcategory.id", "category.id"]}]
+
+2013-11-14 12:25:58,536: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.46693611145
+response headers : CaseInsensitiveDict({'date': 'Thu, 14 Nov 2013 17:25:57 GMT', 'transfer-encoding': 'chunked', 'content-type': 'application/json', 'server': 'Apache/2.2.3 (Red Hat)'})
+response body    : [{"count": 3, "load_arg": {"values": [[["created", ">=", "2013-03-12 03:00:26"], "&", ["created", "<=", "2013-03-12 06:02:26"]], "&", ["status_type", "=", "8"]], "class": "Ticket.TicketWhere"}, "limit": 250, "result": [{"subcategory.id": 21037, "account.segment": {"description": "Managed Segment", "class_name": "Account.Type", "name": "Managed", "methods": "https://ws.staging.core.rackspace.com/ctkapi/methods/Account.Type", "values": "https://ws.staging.core.rackspace.com/ctkapi/values/Account.Type", "attributes": "https://ws.staging.core.rackspace.com/ctkapi/attributes/Account.Type", "id": 101855, "class_type": "Value_Table"}, "severity.name": "Standard", "status.name": "New", "account.service_level_name": "Intensive", "subcategory.name": "IP QC fail", "subject": "Problem allocating IP Block in Autonomous System: Rackspace UK", "account.support_team.support_territory.code": "US", "queue.name": "Foundations Network Services", "status.types.name": ["Awake", "New", "Alive"], "account.number": "607647", "category.name": "IP QC fail", "assignee.employee_userid": null, "queue.id": 471, "has_linux_servers": false, "has_windows_servers": false, "assignee.name": null, "number": "130312-01315", "difficulty": 1, "submitter.name": "Core_ Dcm", "last_public_response_date": null, "priority.name": "Normal", "created": "2013-03-12 03:59:21", "submitter.employee_userid": "core_dcm", "modified": "2013-03-12 03:59:23", "category.id": 3225}, {"subcategory.id": 21037, "account.segment": {"description": "Managed Segment", "class_name": "Account.Type", "name": "Managed", "methods": "https://ws.staging.core.rackspace.com/ctkapi/methods/Account.Type", "values": "https://ws.staging.core.rackspace.com/ctkapi/values/Account.Type", "attributes": "https://ws.staging.core.rackspace.com/ctkapi/attributes/Account.Type", "id": 101855, "class_type": "Value_Table"}, "severity.name": "Standard", "status.name": "New", "account.service_level_name": "Intensive", "subcategory.name": "IP QC fail", "subject": "Problem allocating IP Block in Autonomous System: Rackspace UK", "account.support_team.support_territory.code": "US", "queue.name": "Foundations Network Services", "status.types.name": ["Awake", "New", "Alive"], "account.number": "607647", "category.name": "IP QC fail", "assignee.employee_userid": null, "queue.id": 471, "has_linux_servers": false, "has_windows_servers": false, "assignee.name": null, "number": "130312-01319", "difficulty": 1, "submitter.name": "Core_ Dcm", "last_public_response_date": null, "priority.name": "Normal", "created": "2013-03-12 03:59:30", "submitter.employee_userid": "core_dcm", "modified": "2013-03-12 03:59:32", "category.id": 3225}, {"subcategory.id": 21037, "account.segment": {"description": "Managed Segment", "class_name": "Account.Type", "name": "Managed", "methods": "https://ws.staging.core.rackspace.com/ctkapi/methods/Account.Type", "values": "https://ws.staging.core.rackspace.com/ctkapi/values/Account.Type", "attributes": "https://ws.staging.core.rackspace.com/ctkapi/attributes/Account.Type", "id": 101855, "class_type": "Value_Table"}, "severity.name": "Standard", "status.name": "New", "account.service_level_name": "Intensive", "subcategory.name": "IP QC fail", "subject": "Problem allocating IP Block in Autonomous System: Rackspace UK", "account.support_team.support_territory.code": "US", "queue.name": "Foundations Network Services", "status.types.name": ["Awake", "New", "Alive"], "account.number": "607647", "category.name": "IP QC fail", "assignee.employee_userid": null, "queue.id": 471, "has_linux_servers": false, "has_windows_servers": false, "assignee.name": null, "number": "130312-01322", "difficulty": 1, "submitter.name": "Core_ Dcm", "last_public_response_date": null, "priority.name": "Normal", "created": "2013-03-12 03:59:37", "submitter.employee_userid": "core_dcm", "modified": "2013-03-12 03:59:39", "category.id": 3225}], "offset": 0, "class": "Ticket.Ticket"}]
+-------------------------------------------------------------------------------
+2013-11-14 12:25:58,537: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.SearchApiClient object at 0xc910190>, 'GET', 'http://staging.search.api.rackspace.com/tickets') {'headers': {}, 'params': {'status': None, 'sort': None, 'queue': None, 'number': u'130312-01315', 'priority': None, 'limit': 100, 'createdAt_range': None, 'offset': 0, 'category': None, 'createdAt': None, 'subject': None}, 'verify': False, 'data': None}
+2013-11-14 12:25:58,538: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-11-14 12:25:58,564: DEBUG: requests.packages.urllib3.connectionpool: "GET /tickets?number=130312-01315&limit=100&offset=0 HTTP/1.1" 200 None
+2013-11-14 12:25:58,565: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/tickets
+request params  : number=130312-01315&limit=100&offset=0
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/2.0.1 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-11-14 12:25:58,565: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.0277099609375
+response headers : CaseInsensitiveDict({'date': 'Thu, 14 Nov 2013 17:28:34 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"response":{"total":1,"limit":100,"offset":0,"tickets":[{"queue":{"id":"471","name":"Foundations Network Services"},"subject":"Problem allocating IP Block in Autonomous System: Rackspace UK","submitter":{"name":"Core_ Dcm","sso":"core_dcm"},"categoryObj":{"id":"3225","name":"IP QC fail"},"difficulty":"1","documentLastUpdatedTimestamp":"2013-11-04T16:39:46.495Z","accountTeamTerritoryCode":"US","priority":"Normal","createdAt":"2013-03-12T08:59:21.000+0000","statusTypes":["Awake","New","Alive"],"status":"New","subCategory":"IP QC fail","lastPublicCommentDate":null,"updateEventDate":"2013-03-27T14:47:45.330+0000","assignee":null,"accountServiceLevel":"Intensive","number":"130312-01315","severityName":"Standard","subCategoryObj":{"id":"21037","name":"IP QC fail"},"hasWindowsServers":false,"updatedAt":"2013-03-12T08:59:23.000+0000","category":"IP QC fail","sourceSystem":"CORE","hasLinuxServers":false,"account":{"teamSegment":"Managed","id":"MANAGED_HOSTING607647","rcn":"RCN-000-048-321","status":"Active","teamTerritoryCode":"US","name":"Autohost --- new 2","highProfile":false,"number":607647,"serviceLevel":"Intensive","team":"Team A2","documentLastUpdatedTimestamp":"2013-08-21T19:59:49.547Z","type":"MANAGED_HOSTING","contacts":[{"name":"Rudy  Sanchez","role":"Account Manager","sso":"rudy4264"},{"name":"Michael  D'Amore ","role":"Business Development Consultant","sso":"mdamore"}]},"link":{"href":"http://staging.search.api.rackspace.com/tickets/130312-01315","rel":"via"}}],"facets":[],"links":[{"rel":"last","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=130312-01315&offset=0"},{"rel":"first","href":"http://staging.search.api.rackspace.com/tickets?limit=100&number=130312-01315&offset=0"}]}}
+-------------------------------------------------------------------------------
+2013-11-14 12:25:58,568: DEBUG: root: 
+========================================================
+TEARING DOWN TestListTickets at 2013-11-14 12:25:58.568190
+========================================================

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<maven2-module-set plugin="maven-plugin@1.502">
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>false</canRoam>
+  <disabled>true</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers class="vector"/>
+  <concurrentBuild>false</concurrentBuild>
+  <reporters/>
+  <displayName>Search POM</displayName>
+  <version>0.1.0_b1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <relativePath></relativePath>
+  <dependencies/>
+  <children>
+    <hudson.maven.ModuleName>
+      <groupId>com.rackspace.api</groupId>
+      <artifactId>search</artifactId>
+    </hudson.maven.ModuleName>
+    <hudson.maven.ModuleName>
+      <groupId>com.rackspace.api</groupId>
+      <artifactId>cucumber</artifactId>
+    </hudson.maven.ModuleName>
+  </children>
+</maven2-module-set>

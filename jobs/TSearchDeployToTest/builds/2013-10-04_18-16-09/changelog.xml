@@ -1,0 +1,313 @@
+Changes in branch origin/master, between c80a6a98d51554a9a2706c49aedb6ea92fcada51 and 74c70aa25c0b18703ff9cd3b1bc1b1147b0d9c0a
+commit 74c70aa25c0b18703ff9cd3b1bc1b1147b0d9c0a
+tree f1d76e8223ee2e4259e06a5ffd867d856d6e88ba
+parent c69a4069699fe6818f41226889d4e89858cc58b1
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1380910091 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1380910091 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 2f826fd3fbbee3e4c0c8fe078463a65628435cec eb07f5cdcc434f378336aa1923f56c329600eb40 M	cucumber/pom.xml
+:100644 100644 803aec1089790251a166d308978fd3df619cd772 c62e6f04c91b40904dd90dc36e89fd5a455f14b4 M	pom.xml
+:100644 100644 7bab1b48feda468c2f974699633826161e00bb0d 466972b9ca160ccf0a6da15f08269030bad7ed6e M	service/pom.xml
+
+commit c69a4069699fe6818f41226889d4e89858cc58b1
+tree 32e310eacc3367556805f07c5951149d668b25b8
+parent cc6e433bea65a9673e05f98204dd80a1f0d84f74
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1380910082 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1380910082 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b180
+
+:100644 100644 c17d0cde56f40c6dcfc8d66de1751484c234fb06 2f826fd3fbbee3e4c0c8fe078463a65628435cec M	cucumber/pom.xml
+:100644 100644 937276bbe62df6378d8b3923cafe4f2ad612a82e 803aec1089790251a166d308978fd3df619cd772 M	pom.xml
+:100644 100644 ff92562d546862ddbd8ed48816352924ccbe3dff 7bab1b48feda468c2f974699633826161e00bb0d M	service/pom.xml
+
+commit 1db37f9b2fbe21bab252291d697ebc021fbb6051
+tree 15d3b60d1205476d1bccbde3b8d2bf236d1f73c7
+parent 5e926f48773ef92eef7439f3c3f74c18d2a8b91c
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380897559 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380897559 -0500
+
+    [B-57444]: commenting tests
+
+:100644 100644 aa77b35d72a4b6ee56fb4edadee1cea6d440d929 fe16932e412988f797284def3cc69e424f68385f M	service/src/test/groovy/com/rackspace/search/service/JobServiceTest.groovy
+:100644 100644 909688f92f3054c8087f3da4ded59891d5d18789 80a89739acf712be638af2b763f45a52ec4ce858 M	service/src/test/groovy/com/rackspace/search/service/TicketSearchServiceTest.groovy
+
+commit 5e926f48773ef92eef7439f3c3f74c18d2a8b91c
+tree c5e8a6b6b74ba00bdf6aa4c06d14cc5d1e1a3e09
+parent ff95842251be0342fda452d7f33988e036c42126
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380857673 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380857673 -0500
+
+    [B-57444]: commenting tests
+
+:100644 100644 53d3522dcf34a780b133dd3aa9253b80a1e30b6d 259279ab9bc1fe48ac433130c4f7c2e04618571c M	service/src/test/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClientTest.groovy
+
+commit ff95842251be0342fda452d7f33988e036c42126
+tree dad27c1132493cc1667ff07a768828f3d2475896
+parent dbdc5e22745260438be695052197f87787066ee3
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380856284 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380856284 -0500
+
+    [B-57444]: fixing tests
+
+:100644 100644 dfb88dac547facba3d5274c7f247dacf5d2795f0 53d3522dcf34a780b133dd3aa9253b80a1e30b6d M	service/src/test/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClientTest.groovy
+
+commit dbdc5e22745260438be695052197f87787066ee3
+tree 9f50f056f91c445a4b5c32fce1f6649c326dcb9f
+parent 830c1339e14a727d41c54a757b063712c6406a0d
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380828522 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380828522 -0500
+
+    [B-57444]: formatting code
+
+:100644 100644 2d7dccd321d8e4b5a50a4f1903600c780b01a655 9f864f751dd090e83682f1653c775d0c127ae677 M	service/src/main/groovy/com/rackspace/search/gateway/zendesk/ZendeskGateway.groovy
+:100644 100644 87b845e1f26adc2cfdd37b7636e9207f9e70b761 c9c555dd9980840c1bb1a89800d2ff0677e390d3 M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskGroupOnetimeSyncActor.groovy
+:100644 100644 3626fa9efccad1c975964bc31592a74925bc6193 ffa28e64126527f05e00082bcc914d77037d8e9f M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskGroupOngoingSyncActor.groovy
+:100644 100644 231dfa181c63c2451fac7d605637719a74a013b3 04a181c9ea7ca0d77081e34bd9489c75532ac2be M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskGroupOngoingSyncJob.groovy
+:100644 100644 2d7e183df956576e43390a3bdf18787ea0ce2a5b df368284617cdfca2006fce1d6b5ce6d53389e55 M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskSearchResultProcessor.groovy
+:100644 100644 29ef0de36b094b74ea8d78faf6bdebf9c25274ee 2d7d0f3115d271d2341ccad3980b02251aac9e9d M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskTicketProcessor.groovy
+:100644 100644 daca66f65d9926f61450980ec7063cbcd44e2497 34fb424f8b6a0d411954b083d5018d4e1dc07237 M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskUserOnetimeSyncJob.groovy
+:100644 100644 9c795c0f92b40160077b55779eb95b0e14924f0b e559f213c2d061a2c14587091fe17b1f8e3f79a8 M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskUserOngoingSyncActor.groovy
+
+commit 830c1339e14a727d41c54a757b063712c6406a0d
+tree 9580d0189be00bb959c9ce8d617cde3ef275ca4e
+parent 31eb4e418c21c90a050f500ad36cc1065f11b0d8
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380828039 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380828039 -0500
+
+    [B-57444]: formatting test cases
+
+:100644 100644 e4e3052204a37d7b3d0bb0ed9106bcbb6ebff827 68b8bf37c737c0ded3f4755b6827650901238f81 M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncJob.groovy
+:100644 100644 33f3cd4f074b7b69e7b5efe619f8b631e16e045c ec75605afa13b1d4d0163fe990b5075d049def32 M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketOnetimeSyncActorTest.groovy
+:100644 100644 bb9c4649676df52a0e728a5d07e67c50807dc5c2 a9035a1686e7c344886d58418d144d930e56a5d5 M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketProcessorTest.groovy
+:100644 100644 c5256f5f577d9518fb015fc56a314f20f9feecd6 874d530fb90120449ba6b0751fce18f4370810b1 M	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskGroupOngoingSyncActorTest.groovy
+:100644 100644 5060ee78ce94e839f0148e43b586109ea6e31354 0766f16a77d1bfde2198650f96ed9cf246c18ec2 M	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskGroupOngoingSyncJobTest.groovy
+:100644 100644 783dcd3a9b907b805728ca36f5da271cc74ec5fd c6f9aac8885f295f764162b884499f76ebb74abd M	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskSearchResultProcessorTest.groovy
+:100644 100644 65e6791c17ad1a6306e4bc16a6b47c5a1d28690a 8aef3b3bd0b68fdeab068feb90dfeb3eb99e4815 M	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskTicketOngoingSyncActorTest.groovy
+:100644 100644 8ad8e5dda48d6974f51f879d2ed60f1b7114c533 4136ca75d36fa0bc6b047a1619b6e8f6f8bfa84c M	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskTicketProcessorTest.groovy
+
+commit 31eb4e418c21c90a050f500ad36cc1065f11b0d8
+tree 9554899d2adfb3f8f8b1c365fe911a1769c179a7
+parent 22ae746cea6c37422d5591841256304959ae1fc5
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380750566 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380750566 -0500
+
+    Fixing merge conflicts
+
+:100644 100644 216827cb6bb8d6c0da7745403b285680c43f1149 532194e44ac1570f5695306d90d524e5c2ac8d3c M	service/src/main/config/search.properties
+
+commit 9d8336c09fa60b029641ef4057c4251cb55d46bf
+tree 96726e0d6752eb708d719db566ad4f3643ca7088
+parent 70b1ded3597fe868469503bc8b25d0118246675c
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380743331 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380743331 -0500
+
+    [B-57444]: getting Zendesk users
+
+:100644 100644 bb3374df11005bd84fa6b74f220c258dcc48effa ef5bb1d00653d8f3a8a1298cb612c7c6dc2d8032 M	service/pom.xml
+:100644 100644 cd631e09a6a08d1a3456eec64fedd2e80ea99bde 4e402e13b5c6ae0fdd6f956c65bcbabdfb84b977 M	service/src/main/config/search.properties
+:100644 100644 fca2080ee1e43e5f480142c1c9f1f5a5fa0c40de 076c4a2d87e5f26e528a41ce92f4f6a56db81ec3 M	service/src/main/config/search.secrets.properties
+:100644 100644 1111f08a499e11978f9c0b71585cd4265831ac97 c64edf76ce45db4fceb9d524dae2800c4856049d M	service/src/main/filters/filter.yaml
+:100644 100644 155744a54d66b58d1dff557f2fc4c1d24be1947b 87bd1582e361e58aeaadafc552ede8ad08e4df22 M	service/src/main/groovy/com/rackspace/search/Constants.groovy
+:100644 100644 68fad4042600a0aab0b51c231b5095c2fcbfd285 e4e3052204a37d7b3d0bb0ed9106bcbb6ebff827 M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncJob.groovy
+:000000 100644 0000000000000000000000000000000000000000 b76d10b829dc09a5befc75351036f8e36310eef4 A	service/src/main/groovy/com/rackspace/search/gateway/tsl/TslDBGateway.groovy
+:000000 100644 0000000000000000000000000000000000000000 4efeeda1977587cb2a237dad83d8babffa676504 A	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskTicketOnetimeSyncActor.groovy
+:000000 100644 0000000000000000000000000000000000000000 078e29031748083b241eac2c684a3fd67e54fc65 A	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskTicketOnetimeSyncJob.groovy
+:100644 100644 580d9c4f84a26cbb09d3ce8980ee772b73ea5914 29ef0de36b094b74ea8d78faf6bdebf9c25274ee M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskTicketProcessor.groovy
+:100644 100644 e326e207be4978e697f34f885aed0a5b3eec151a daca66f65d9926f61450980ec7063cbcd44e2497 M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskUserOnetimeSyncJob.groovy
+:100644 100644 949b322e1e01e1f5b9a6dcd6423c486b4f59a2ab 41bbbc6a1680be8489039e687c880b6b1c877fea M	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+:000000 100644 0000000000000000000000000000000000000000 f4310c883b1c0aa0266aa01934332adfdc3564c6 A	service/src/main/resources/tslDbContext.xml
+:100644 100644 c1a1edec034329fc5f2b7c9c9d3bea423a7ae500 c85888815fd8132be84fcb92db87008baa6b292f M	service/src/main/webapp/WEB-INF/web.xml
+:000000 100644 0000000000000000000000000000000000000000 9593d05fa66552723ee3b81308c69c882ae51710 A	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskTicketOnetimeSyncActorTest.groovy
+:000000 100644 0000000000000000000000000000000000000000 ca9bf2ce9f4f3172008e1f7c796bcc74896a24b2 A	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskTicketOnetimeSyncJobTest.groovy
+:100644 100644 006e2f488f6c78f14a0c1f4f4e14236a61f30fb6 bf820b18a765eb260543ea3dd5a2c831627cd276 M	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskTicketOngoingSyncJobTest.groovy
+:100644 100644 facfe6a0c3899187f01b16a8dda9426077046923 e175900768b32605b9345cc7c6b73cce099d6f60 M	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskUserOnetimeSyncActorTest.groovy
+:100644 100644 f43c687f4ff7d27f423eaffadaaf1654794016b6 edc7789ec7ced7e1785f2389cce23dfadd547d6a M	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskUserOnetimeSyncJobTest.groovy
+:100644 100644 c34254e1fa2d13dfa880241dd1b083bef69083ca c567ab83501f6ab86d8d65cf6de81f1eb0a08cf5 M	service/src/test/resources/test-context.xml
+:100644 100644 a3ffbf3bc47977c693c9b3363dde91ab884a2645 d5c771920378cff397b94ac071fd023b5af2538b R084	service/src/test/resources/test-coreDbContext.xml	service/src/test/resources/test-dbContext.xml
+
+commit 70b1ded3597fe868469503bc8b25d0118246675c
+tree 14b5f9028759c4e61ef17efee27eec9734c84196
+parent 8d9fdace508f96859a9f90fb79205183793c434f
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380557696 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380557696 -0500
+
+    [B-57396]: added unit tests
+
+:100644 100644 3659b7451e6556c22188fe7478fff7343a38eed1 cd631e09a6a08d1a3456eec64fedd2e80ea99bde M	service/src/main/config/search.properties
+:100644 100644 abc74de626d2ec4ca89ae881ca47bf9165fee1a0 2d7dccd321d8e4b5a50a4f1903600c780b01a655 M	service/src/main/groovy/com/rackspace/search/gateway/zendesk/ZendeskGateway.groovy
+:100644 100644 d8706204604eeb459da29cd7848dcc9bba6b4870 f3380481e664aa4cbf988e94a875b7747f770050 M	service/src/main/groovy/com/rackspace/search/service/TicketSearchService.groovy
+:100644 100644 bd7a9dd060e8caaa5635481d11577e2f1d40ca14 2d7e183df956576e43390a3bdf18787ea0ce2a5b M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskSearchResultProcessor.groovy
+:100644 100644 94207e1dfc944318463acade05956573eeae2566 faddff7d5ce5470718bdd6120b0f4ddee050c416 M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskTicketOngoingSyncJob.groovy
+:100644 100644 29b6be55f081285be690068b64c0e493c23981c2 580d9c4f84a26cbb09d3ce8980ee772b73ea5914 M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskTicketProcessor.groovy
+:100644 100644 ecb237a33ef2a8263c2e6ad5a1ab751cf4701e51 d55778d241f9ba839408a29cdb2c7dc264a98e94 M	service/src/test/groovy/com/rackspace/search/elasticsearch/SyncJobTest.groovy
+:100644 100644 d1354ff1ef8354cdae89b45bd478e9e6664bffcc ce1f1a7a3c9f068635a8b2ddf78a2ac279be4a88 M	service/src/test/groovy/com/rackspace/search/gateway/core/CoreTicketGatewayTest.groovy
+:000000 100644 0000000000000000000000000000000000000000 ec983bf95c32d19e10f4d31a1152e86caf1ec4f5 A	service/src/test/groovy/com/rackspace/search/gateway/zendesk/ZendeskGatewayTest.groovy
+:100644 100644 b73160b6730259394887fdb1382b51b8ccb40275 909688f92f3054c8087f3da4ded59891d5d18789 M	service/src/test/groovy/com/rackspace/search/service/TicketSearchServiceTest.groovy
+:100644 100644 cde6499aec8f626bbd71de1645d0a9664ae4e909 33f3cd4f074b7b69e7b5efe619f8b631e16e045c M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketOnetimeSyncActorTest.groovy
+:100644 100644 24af7eca3958ecc1b0282058b2490b087e4d9ccf bb9c4649676df52a0e728a5d07e67c50807dc5c2 M	service/src/test/groovy/com/rackspace/search/service/core/CoreTicketProcessorTest.groovy
+:000000 100644 0000000000000000000000000000000000000000 c965e93396c1779eec41130c9318ab1ab2909e4c A	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskGroupOnetimeSyncActorTest.groovy
+:000000 100644 0000000000000000000000000000000000000000 5a23929406eca956a62158055714857971de0380 A	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskGroupOnetimeSyncJobTest.groovy
+:000000 100644 0000000000000000000000000000000000000000 c5256f5f577d9518fb015fc56a314f20f9feecd6 A	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskGroupOngoingSyncActorTest.groovy
+:000000 100644 0000000000000000000000000000000000000000 5060ee78ce94e839f0148e43b586109ea6e31354 A	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskGroupOngoingSyncJobTest.groovy
+:000000 100644 0000000000000000000000000000000000000000 783dcd3a9b907b805728ca36f5da271cc74ec5fd A	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskSearchResultProcessorTest.groovy
+:000000 100644 0000000000000000000000000000000000000000 65e6791c17ad1a6306e4bc16a6b47c5a1d28690a A	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskTicketOngoingSyncActorTest.groovy
+:000000 100644 0000000000000000000000000000000000000000 006e2f488f6c78f14a0c1f4f4e14236a61f30fb6 A	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskTicketOngoingSyncJobTest.groovy
+:000000 100644 0000000000000000000000000000000000000000 8ad8e5dda48d6974f51f879d2ed60f1b7114c533 A	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskTicketProcessorTest.groovy
+:000000 100644 0000000000000000000000000000000000000000 facfe6a0c3899187f01b16a8dda9426077046923 A	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskUserOnetimeSyncActorTest.groovy
+:000000 100644 0000000000000000000000000000000000000000 f43c687f4ff7d27f423eaffadaaf1654794016b6 A	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskUserOnetimeSyncJobTest.groovy
+:000000 100644 0000000000000000000000000000000000000000 6f5d2b382b2843534376b105c97eda1e1b6274fb A	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskUserOngoingSyncActorTest.groovy
+:000000 100644 0000000000000000000000000000000000000000 94e51c554eef6c91ab191055bd41313c77f0fbe5 A	service/src/test/groovy/com/rackspace/search/service/zendesk/ZendeskUserOngoingSyncJobTest.groovy
+
+commit 8290ed68828a61449de4671cdd99e5dddb809953
+tree a075cb3d04c4f7fc73f9d67c2e73bc2a0815a5f2
+parent e4750b63b2228240c4ab68bf0889f4d9c4ee7963
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380227728 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380227728 -0500
+
+    [B-57396]: getting Zendesk ticket updates
+
+:100644 100644 51a8d9e1db8af6f1c5d3bcff58f70a78b509bdd6 6982ddc622d309ea66a386654db5ad2d50b3e8b2 M	service/src/main/config/elasticsearch/mappings/ticket/ticket.json
+:100644 100644 6301d0eb5f0b4115cfdf7e73d8bfe51b6e9d735b 1ac683b6dd94226c45c75f2292d7637440632dfa M	service/src/main/config/search.properties
+:100644 100644 199aa4f4ad3fc522ac50ebb04d97c67ff63e7db7 b2c63317991b4e8049dd7b3e8dfa51556ce5183f M	service/src/main/groovy/com/rackspace/search/service/TicketSearchService.groovy
+:100644 100644 a4d328fb4295ecf6637a99b35ba45e6acae30fe8 3626fa9efccad1c975964bc31592a74925bc6193 M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskGroupOngoingSyncActor.groovy
+:100644 100644 02e76a7ad3a7d66e31da0837ce0afc6f3a127a23 231dfa181c63c2451fac7d605637719a74a013b3 M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskGroupOngoingSyncJob.groovy
+:100644 100644 680bf130cd9831041f7eacfc63a0c46db33907dc bd7a9dd060e8caaa5635481d11577e2f1d40ca14 M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskSearchResultProcessor.groovy
+:100644 100644 79e693edd1f201f46ca671316b599166e7241de3 e2b88b4738d9bf72a7f0c051101bd2442f5c4181 M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskTicketOngoingSyncActor.groovy
+:100644 100644 dfcb90fdf887f4160de8519048a8a022fc6df645 94207e1dfc944318463acade05956573eeae2566 M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskTicketOngoingSyncJob.groovy
+:100644 100644 5c3adc4c940f17178e16e5110ce0c0a287b94354 29b6be55f081285be690068b64c0e493c23981c2 M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskTicketProcessor.groovy
+:100644 100644 241cdf47aa418d88befedd4038539a050ec3c809 9c795c0f92b40160077b55779eb95b0e14924f0b M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskUserOngoingSyncActor.groovy
+:100644 100644 193a65425794b03c8285f8b8463c429b4e071d28 8db2e09f50ff5ecc86eabb4028e70d955b65ef6c M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskUserOngoingSyncJob.groovy
+
+commit e4750b63b2228240c4ab68bf0889f4d9c4ee7963
+tree d28e1bf7d2bffbfe4e1ad6270a6dd81ee8119b20
+parent 233d8a94629ebb6b9e77c707f56e3c16fbf689f2
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380144922 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380144922 -0500
+
+    [B-57471]: getting Zendesk groups
+
+:100644 100644 09eb043a819b3d2e73841d174ce54c52539ac84b 02e76a7ad3a7d66e31da0837ce0afc6f3a127a23 M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskGroupOngoingSyncJob.groovy
+
+commit 233d8a94629ebb6b9e77c707f56e3c16fbf689f2
+tree 2f249f6c167b1130f101e515f205d993aebe68d8
+parent ba2c8d76f81a3a566769b92297805ce6d2515094
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380144881 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380144881 -0500
+
+    [B-57444]: getting Zendesk users
+
+:100644 100644 0802798c11fa16822a3fc1378ac530a85d016f75 193a65425794b03c8285f8b8463c429b4e071d28 M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskUserOngoingSyncJob.groovy
+
+commit ba2c8d76f81a3a566769b92297805ce6d2515094
+tree 3ed3a0d7f947ecb118b6bfb6e0ae619d9cd7a45f
+parent 60c21acb47929132844fad79ba260dbbdf135905
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380144660 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380144660 -0500
+
+    [B-57471]: getting Zendesk groups
+
+:100644 100644 41c7c0da0f3fc83859c563af3eae0a1ad2f8cd5e 68fad4042600a0aab0b51c231b5095c2fcbfd285 M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncJob.groovy
+:100644 100644 606f308594ba34af84988c66d39c8e381f4475c8 abc74de626d2ec4ca89ae881ca47bf9165fee1a0 M	service/src/main/groovy/com/rackspace/search/gateway/zendesk/ZendeskGateway.groovy
+:100644 100644 ad2749e69d4503ece2e29c27e60aa55892e56f1f 6400a04a5be66c51ef68193e520d5d3c10b0f322 M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskGroupOnetimeSyncJob.groovy
+:000000 100644 0000000000000000000000000000000000000000 a4d328fb4295ecf6637a99b35ba45e6acae30fe8 A	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskGroupOngoingSyncActor.groovy
+:000000 100644 0000000000000000000000000000000000000000 09eb043a819b3d2e73841d174ce54c52539ac84b A	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskGroupOngoingSyncJob.groovy
+:100644 100644 cb0acdab81534035e010ec3e979548a0e596ca98 949b322e1e01e1f5b9a6dcd6423c486b4f59a2ab M	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+:100644 100644 f422eebddf99d0b7991b9e43268e515e5e760ec5 ff757daf730e4f2e0788ac9082fea1bef1911a5a M	service/src/main/java/com/rackspace/search/scheduling/SyncJobScheduler.java
+
+commit 60c21acb47929132844fad79ba260dbbdf135905
+tree 7f1b244c0444bacba7d0c20d894f7314458bbfd5
+parent 5ca7ac0f04c1aeee6cd4b22c65213dd0322b0b43
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380138230 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380138230 -0500
+
+    [B-57471]: getting Zendesk groups
+
+:100644 100644 6b9432af157c93bab3e6ba2f5ec2c01ad5966f53 4cd124e685d8f8be66da6462accdd3efd5b9a547 M	service/pom.xml
+:000000 100644 0000000000000000000000000000000000000000 460e1cb7ab685cc1b759f8cb8384c7178770d09f A	service/src/main/config/elasticsearch/mappings/zendesk/group.json
+:100644 100644 3df79c6c72742c52718efe4d5d00e1ad05f7f58a 6301d0eb5f0b4115cfdf7e73d8bfe51b6e9d735b M	service/src/main/config/search.properties
+:100644 100644 f8be96b7c1e57c7b329c35e39f5ce61018329eb5 1111f08a499e11978f9c0b71585cd4265831ac97 M	service/src/main/filters/filter.yaml
+:100644 100644 9ad485231700bc13593e0ef083c8451a8394770e 41c7c0da0f3fc83859c563af3eae0a1ad2f8cd5e M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncJob.groovy
+:100644 100644 a2e18329e3a7c39432517ea224d5cf5dcef8e2b3 606f308594ba34af84988c66d39c8e381f4475c8 M	service/src/main/groovy/com/rackspace/search/gateway/zendesk/ZendeskGateway.groovy
+:000000 100644 0000000000000000000000000000000000000000 87b845e1f26adc2cfdd37b7636e9207f9e70b761 A	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskGroupOnetimeSyncActor.groovy
+:000000 100644 0000000000000000000000000000000000000000 ad2749e69d4503ece2e29c27e60aa55892e56f1f A	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskGroupOnetimeSyncJob.groovy
+:100644 100644 0ab13f113bb3b350fd0e4b6884e597250ce126b9 e326e207be4978e697f34f885aed0a5b3eec151a M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskUserOnetimeSyncJob.groovy
+:100644 100644 050a4f573484c34353f2f44a24fd32141b8a9aed cb0acdab81534035e010ec3e979548a0e596ca98 M	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+:100644 100644 43aaeb27ed0d3236ea951891602b113415e45ee6 40f4e377ae1c76b6a41a685f2a5eec1fb933b2d2 M	service/src/main/resources/indices_structure.json
+
+commit 5ca7ac0f04c1aeee6cd4b22c65213dd0322b0b43
+tree 3e1e7c92b565a3bbdb15463948b8b32474875044
+parent 92000c2211f0ec6c2bfee7ae878a5ee489faafd5
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380136337 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380136337 -0500
+
+    [B-57444]: getting Zendesk users
+
+:000000 100644 0000000000000000000000000000000000000000 0ab13f113bb3b350fd0e4b6884e597250ce126b9 A	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskUserOnetimeSyncJob.groovy
+
+commit 92000c2211f0ec6c2bfee7ae878a5ee489faafd5
+tree 737d56d14a042856737543a65eb42ec8ee60d9ed
+parent 025a11500381945012cbb42b022359ca5c732460
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380133701 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380133701 -0500
+
+    [B-57444]: getting Zendesk users
+
+:100644 100644 6881e95bed2942fe75d99a080ab8147b54b0a1ab 9ad485231700bc13593e0ef083c8451a8394770e M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncJob.groovy
+:100644 100644 51ed3b5738cdbe91e39eb6335980aaac83875682 a2e18329e3a7c39432517ea224d5cf5dcef8e2b3 M	service/src/main/groovy/com/rackspace/search/gateway/zendesk/ZendeskGateway.groovy
+:000000 100644 0000000000000000000000000000000000000000 949a1f566b332266773829f56d80dd3b2cf5e083 A	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskUserOnetimeSyncActor.groovy
+:100644 100644 e33364158cc1e771b09eaf9d1a40a5e081358398 0802798c11fa16822a3fc1378ac530a85d016f75 M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskUserOngoingSyncJob.groovy
+:100644 100644 148f4879a812d6ab7fe3a1e53aef7bf1ac8eb523 050a4f573484c34353f2f44a24fd32141b8a9aed M	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+
+commit 025a11500381945012cbb42b022359ca5c732460
+tree f0edaea37ec410d0204a51d69ba0eaabcbc41f45
+parent 9a28206eb95db5dc5e0f9069a00b1e4ada00a3a4
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380130577 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380130577 -0500
+
+    [B-57444]: getting Zendesk user updates
+
+:100644 100644 94f8075185295b49baff98f287130bb0092ad1a4 6b9432af157c93bab3e6ba2f5ec2c01ad5966f53 M	service/pom.xml
+:000000 100644 0000000000000000000000000000000000000000 2ae5e2aea1e12bdc81e195d2424e0da4ca8b1699 A	service/src/main/config/elasticsearch/mappings/zendesk/index.json
+:000000 100644 0000000000000000000000000000000000000000 048dd7f7e7015436f28797796eb1bda74afa5c58 A	service/src/main/config/elasticsearch/mappings/zendesk/user.json
+:100644 100644 eaac36f012ba84cb2b3bc6b97991203b17ae6911 3df79c6c72742c52718efe4d5d00e1ad05f7f58a M	service/src/main/config/search.properties
+:100644 100644 c734b16066b6f6eb6631288a9411c16d44ea5dfd f8be96b7c1e57c7b329c35e39f5ce61018329eb5 M	service/src/main/filters/filter.yaml
+:100644 100644 0869a90354f060046f7aac246215eaf3f03a2de2 6881e95bed2942fe75d99a080ab8147b54b0a1ab M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncJob.groovy
+:100644 100644 489f594e51f9da02b0e566aed3386e5648e9b0a1 51ed3b5738cdbe91e39eb6335980aaac83875682 M	service/src/main/groovy/com/rackspace/search/gateway/zendesk/ZendeskGateway.groovy
+:000000 100644 0000000000000000000000000000000000000000 680bf130cd9831041f7eacfc63a0c46db33907dc A	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskSearchResultProcessor.groovy
+:100644 100644 909787bc744a13e88ab9ca2dcf02ccc94cefcb4e 5c3adc4c940f17178e16e5110ce0c0a287b94354 M	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskTicketProcessor.groovy
+:000000 100644 0000000000000000000000000000000000000000 241cdf47aa418d88befedd4038539a050ec3c809 A	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskUserOngoingSyncActor.groovy
+:000000 100644 0000000000000000000000000000000000000000 e33364158cc1e771b09eaf9d1a40a5e081358398 A	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskUserOngoingSyncJob.groovy
+:100644 100644 e2158a7e3cd39dc15063759d7eb326d0fe62b2a4 148f4879a812d6ab7fe3a1e53aef7bf1ac8eb523 M	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+:100644 100644 29aeef816407b7eef81cf9481347befa762cf18c f422eebddf99d0b7991b9e43268e515e5e760ec5 M	service/src/main/java/com/rackspace/search/scheduling/SyncJobScheduler.java
+:100644 100644 f3c4db64d467cbae29aca96c78e822ac57279681 43aaeb27ed0d3236ea951891602b113415e45ee6 M	service/src/main/resources/indices_structure.json
+
+commit 9a28206eb95db5dc5e0f9069a00b1e4ada00a3a4
+tree f2b88e79d13e7a59e068a19bb8540c43222d1574
+parent 69b1ef551ff15198952e20e2965e1883f9a53e9a
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380054325 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380054325 -0500
+
+    [B-57396]: getting Zendesk ticket updates
+
+:000000 100644 0000000000000000000000000000000000000000 79e693edd1f201f46ca671316b599166e7241de3 A	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskTicketOngoingSyncActor.groovy
+
+commit 69b1ef551ff15198952e20e2965e1883f9a53e9a
+tree dfc7ceb927978c034eeaa10bc394a7452fe17997
+parent 85cacae14fa8e2ed454102ae4a8cb4b39457593f
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1380054165 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1380054165 -0500
+
+    [B-57396]: getting Zendesk ticket updates
+
+:100644 100644 90f06464116736c240526adf4c74b58d6a535e55 eaac36f012ba84cb2b3bc6b97991203b17ae6911 M	service/src/main/config/search.properties
+:100644 100644 815289d3b14a2d2eacbd957b5303be624a13902d c734b16066b6f6eb6631288a9411c16d44ea5dfd M	service/src/main/filters/filter.yaml
+:100644 100644 c1b89f7202c8d3920b322ed90131398addf942ef 0869a90354f060046f7aac246215eaf3f03a2de2 M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncJob.groovy
+:000000 100644 0000000000000000000000000000000000000000 489f594e51f9da02b0e566aed3386e5648e9b0a1 A	service/src/main/groovy/com/rackspace/search/gateway/zendesk/ZendeskGateway.groovy
+:000000 100644 0000000000000000000000000000000000000000 dfcb90fdf887f4160de8519048a8a022fc6df645 A	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskTicketOngoingSyncJob.groovy
+:000000 100644 0000000000000000000000000000000000000000 909787bc744a13e88ab9ca2dcf02ccc94cefcb4e A	service/src/main/groovy/com/rackspace/search/service/zendesk/ZendeskTicketProcessor.groovy
+:100644 100644 5fb96f973172baa1d07ced8c97d5f15e9a1e1cdf e2158a7e3cd39dc15063759d7eb326d0fe62b2a4 M	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+:000000 100644 0000000000000000000000000000000000000000 002854b8627bf236bbb1b689f34d8294af366eba A	service/src/main/java/com/rackspace/search/exception/PageNotFoundException.java
+:100644 100644 7a510e41ae8007d648b8bf8f10c6c581b1707aea 29aeef816407b7eef81cf9481347befa762cf18c M	service/src/main/java/com/rackspace/search/scheduling/SyncJobScheduler.java

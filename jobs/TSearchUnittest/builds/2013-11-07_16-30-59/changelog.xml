@@ -1,0 +1,34 @@
+Changes in branch origin/master, between 249984744f526923cd79cc42684d7f8fde680b6e and 10ddfa84da2d641e5378df1a4be541f38400d6b2
+commit 340bd77ae8da42f611a2bd271bc09e8a090b11be
+tree db428323a0717bee47233964592026eef81f6133
+parent 00d5f08df370973a922a77d304e81de132a8c1fd
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1383841508 -0600
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1383841508 -0600
+
+    [ B-59846] :  search by email
+
+:100644 100644 d5f762664052cb4967227b518ee380fc3a2c2e37 92937f6c41e96a56a39b2c1c6a780e0ad2d24904 M	service/src/main/config/search.properties
+
+commit deebe6ccb6a56bf8cad24855ceac01b34eb32dda
+tree c87e3babccdf23961dded5a3510b79806858ef9a
+parent 6c842a8e6bc1cbe43d953250b0cde9b4b4a9535c
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1383779215 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1383779215 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 83b546342a46b007d3d110b5aa8a1bd1a857b527 9a4bd939fa470fa0163ecf81b14e474d01535d7a M	cucumber/pom.xml
+:100644 100644 4d63fbb943eb4c3573c12f2ab5c8b02cba8abb74 06efda6bfcb4d2923dd6edbf314b0f57969140cb M	pom.xml
+:100644 100644 51ddf1e583d1757f319cb8b8c1b0c9b9322dc49b e759955bd9b6933c8a5460ca396f85d52b89948a M	service/pom.xml
+
+commit 6c842a8e6bc1cbe43d953250b0cde9b4b4a9535c
+tree e3de8bfe14d8751e9c521f5734050762367ca611
+parent 249984744f526923cd79cc42684d7f8fde680b6e
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1383779212 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1383779212 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b200
+
+:100644 100644 7c5f460e3cfb47af12d6baee49188abf9c0bf4b5 83b546342a46b007d3d110b5aa8a1bd1a857b527 M	cucumber/pom.xml
+:100644 100644 e930511576e7a29b7643f12183552e9a9776b0b2 4d63fbb943eb4c3573c12f2ab5c8b02cba8abb74 M	pom.xml
+:100644 100644 ca74f2a59bf50794c4455d7e312d940e501fde63 51ddf1e583d1757f319cb8b8c1b0c9b9322dc49b M	service/pom.xml

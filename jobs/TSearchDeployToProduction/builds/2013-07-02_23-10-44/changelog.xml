@@ -1,0 +1,150 @@
+Changes in branch origin/master, between ab2c6d372498bf5c13db3aba0224abb38abe049d and 559a7728a300fee9d00194681387edf04eca28aa
+commit 559a7728a300fee9d00194681387edf04eca28aa
+tree 54d58962df3fb4b22e0fb8b1d43b4afdd3a801e3
+parent 62dc0303c0355b988508830d6a618424a244102d
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372806324 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372806324 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 ffa450ef5cb11cea68f2c2b5e59ac7d81bf70c1a 4dff9c00ff69d2f63214da935c6177da5f9f260a M	cucumber/pom.xml
+:100644 100644 38c48af759baaed0aeb0377c8d5644aed379f9f4 4fcc27795ec3b33d99b58dcbe607115c431be17a M	pom.xml
+:100644 100644 ae490de8be4ac5ea00c8b884e64d57883fa209f8 3e1ca342e6a7d2ea963a1cf6a529559639748fc8 M	service/pom.xml
+
+commit 62dc0303c0355b988508830d6a618424a244102d
+tree c51c7480250c60a4e0fcb777d911d1093c7e4c1b
+parent 64ab7dc3a972f57f1fd80f97d31203fe584c1e72
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372806320 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372806320 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b116
+
+:100644 100644 c418ff292a4ecb51c1d68f54b03aa231eae08bbf ffa450ef5cb11cea68f2c2b5e59ac7d81bf70c1a M	cucumber/pom.xml
+:100644 100644 74497b3101bc782e02b4b473bbde5416fb0d0e45 38c48af759baaed0aeb0377c8d5644aed379f9f4 M	pom.xml
+:100644 100644 1b11ac3b29119ec0ba7d4ad986a3ff5504e13681 ae490de8be4ac5ea00c8b884e64d57883fa209f8 M	service/pom.xml
+
+commit a170a967ef523d20eea8614184085e40969dc385
+tree ec6490f1a8fe6af12c2a52c1fa34171c51903042
+parent 209e1ac3818fc275c7e772f1fd5c280f0ac00440
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1372805006 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1372805006 -0500
+
+    [D-13404] : added logging for account-ticket updates.Fixed tests
+
+:100644 100644 d640c99c01d330de319b058254670090da06c6cf 23cea93225f31a73a6e697101af8230405e0a374 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+:100644 100644 3e125e2ff76866492bdce3d3f875673d2b55983c 43efa29dcc42ee576f34aded2694aae589b527bb M	service/src/test/groovy/com/rackspace/search/service/account/AccountOngoingSyncJobTest.groovy
+
+commit 209e1ac3818fc275c7e772f1fd5c280f0ac00440
+tree 1a90ee551568e957c6f0a8764fc5763cfcdd03a3
+parent 3cfd9a9d6576526e8ba42a69deb2753385f16158
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1372803077 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1372803321 -0500
+
+    [D-13404] : added logging for account-ticket updates.
+
+:100644 100644 0393cb1b46c298975c0d9a0572cdb67a1b121534 d640c99c01d330de319b058254670090da06c6cf M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+:100644 100644 82941567316a4dc0c3b0dd97a51757fe5a3895d0 d7bbcda6b5542bb7586994681bbb7e5f5cae0a42 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketAccountActor.groovy
+
+commit a8d17b431eaf473d6d1803aae92aced2da22350a
+tree 6039a09cb539bc5a2c1ca2d71b514bd491e088eb
+parent 95bc8f0db7e4065a6922376a3544003a97178969
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372791140 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372791140 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 47caddf065ec42eca12f48ddd4ba2014c4a611ed c418ff292a4ecb51c1d68f54b03aa231eae08bbf M	cucumber/pom.xml
+:100644 100644 52e53f0dc2601c36761ed37b4ee589fc14ec590a 74497b3101bc782e02b4b473bbde5416fb0d0e45 M	pom.xml
+:100644 100644 f12d140c53a1a77265658a5fed57080d7b01d691 1b11ac3b29119ec0ba7d4ad986a3ff5504e13681 M	service/pom.xml
+
+commit 95bc8f0db7e4065a6922376a3544003a97178969
+tree aea1b4469dd271888fdfa8d5a1b6ad54d42fa5dd
+parent 44410b3f74af8d911f9d86fd551fa7cc4d2d59fa
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372791128 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372791128 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b115
+
+:100644 100644 5500b63715d08e0a031749de486da7d1f719b7fd 47caddf065ec42eca12f48ddd4ba2014c4a611ed M	cucumber/pom.xml
+:100644 100644 aa14c5f3c513aa4c45f4e4a63bdcb5d6da811dfb 52e53f0dc2601c36761ed37b4ee589fc14ec590a M	pom.xml
+:100644 100644 1d543a92fdc4a607173f653861a79491986d0081 f12d140c53a1a77265658a5fed57080d7b01d691 M	service/pom.xml
+
+commit 9e75c70de65b34579a89551095900f735e2305e1
+tree ccbc3b3ca72490a03343ada91f020794fde1faa7
+parent 306b36363704a858de8ca4985e15a80ebce23042
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1372788103 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1372788103 -0500
+
+    B-49775: updating test
+
+:100644 100644 a7574be81747cef13162ee22f8cf2ffc4c084a5f 71f4c5cd54356f8fbc05ec9cb1b756a823455d25 M	service/src/test/groovy/com/rackspace/search/elasticsearch/client/QueryParserTest.groovy
+
+commit 1660a957eb009ea4305161f04a3e55969ae6fbc1
+tree 5b37ea56307a877147d44e539d3bbf724cf53e72
+parent 2d95e418a729bfb6b6a744a7bc05782679ac6c76
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1372458777 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1372458777 -0500
+
+    [B-49775]:added unit tests
+
+:100644 100644 0a9a5f012d3a1da604a91a8b737b17b94dc24e21 f8b15258c14a21bd3eac9bd73ad7ff89e1ba335c M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy
+:100644 100644 df3f7a60af464eb1b52111537e4443059de91fa8 693d39496a09b6d55ddea336f34be1dd6e0e3fd8 M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/QueryParser.groovy
+:100644 100644 07470f185ac76c89443bc9d5e9bbad113f38619e e50bb023013dcee77c6f5702f515a5dcaa89b749 M	service/src/test/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClientTest.groovy
+:000000 100644 0000000000000000000000000000000000000000 a7574be81747cef13162ee22f8cf2ffc4c084a5f A	service/src/test/groovy/com/rackspace/search/elasticsearch/client/QueryParserTest.groovy
+
+commit 2d95e418a729bfb6b6a744a7bc05782679ac6c76
+tree 8ae49d29f9a3f2bd87c78be21aa7110e78eee947
+parent 5e9b3a99a125f16a79f764f3d21d99f397e829bd
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1372446465 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1372446465 -0500
+
+    [B-49775]: organize imports
+
+:100644 100644 571560abbba330a0ea3964cb6db2b465d0908a10 918a13e456ac75fc0c17c4d27e878fbccb6e3bc3 M	service/src/main/groovy/com/rackspace/search/elasticsearch/ElasticSearchClientFactoryBean.groovy
+:100644 100644 23e7c22d7fc02b98c833da79c32b2443a36930b7 74f0bf086f9dc80863663d1ee4cebe9bd4a27a75 M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncJob.groovy
+:100644 100644 8c46c036e9e4ff682e79f071c6692abfbeea9e36 0a9a5f012d3a1da604a91a8b737b17b94dc24e21 M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/ElasticSearchClient.groovy
+:100644 100644 5802747df44d14c93b371a4817261bdbfa923136 c2308bcde94219e75629fbd04bfe28d67ccc32f3 M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/SimpleQueryParser.groovy
+
+commit 5e9b3a99a125f16a79f764f3d21d99f397e829bd
+tree 798e069d464d344d85e13ec6bb4ba4c016661fed
+parent 9f58142b2be695a8c9515ade16d70d575f14244b
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1372445146 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1372445146 -0500
+
+    [B-49775]: supporting range and not
+
+:100644 100644 f087b2bd1dae80d5744e06e9c93e622c615756fc df3f7a60af464eb1b52111537e4443059de91fa8 M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/QueryParser.groovy
+
+commit bdd12fca3c895d7f9f8b47251d70f06523180857
+tree 91c42f944ae639bcba03b3266e274de15f08d237
+parent 5a73a8cf9b2fd08f6db664b6f01dbfa382d23e14
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372391236 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372391236 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 8f4388988684345eb3d927c128b71876f1e88261 5500b63715d08e0a031749de486da7d1f719b7fd M	cucumber/pom.xml
+:100644 100644 00bcd2309a9cb0e2a3bbcfe93abdc95213560d5f aa14c5f3c513aa4c45f4e4a63bdcb5d6da811dfb M	pom.xml
+:100644 100644 c55047d4896beb046067f6a091691af4e0c5a3b7 1d543a92fdc4a607173f653861a79491986d0081 M	service/pom.xml
+
+commit 5a73a8cf9b2fd08f6db664b6f01dbfa382d23e14
+tree fac6c793acba3f72a53f3af2da0f2dfd411a81c4
+parent b0b7b502231eda3d6404477353665f246d4de130
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372391230 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1372391230 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b114
+
+:100644 100644 0eb51c265fc3d2e545ed459117a02393470a7ae4 8f4388988684345eb3d927c128b71876f1e88261 M	cucumber/pom.xml
+:100644 100644 974085b9a9e0f709fda2d42907168e570c1d8d6c 00bcd2309a9cb0e2a3bbcfe93abdc95213560d5f M	pom.xml
+:100644 100644 ff179c3dc81ece70b0756e5e941fb9d9aba2e3c6 c55047d4896beb046067f6a091691af4e0c5a3b7 M	service/pom.xml
+
+commit 246d9645e8aeda732cb1a26636eca49302ab0313
+tree 17546822784a10444e5cf298880e04fd20ca64d5
+parent 7e74cc985a0852da86a52ab873f85f3bd58b5293
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1372351299 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1372351299 -0500
+
+    [B-49775]:  Refactoring the code and supporting more/multiple query params
+
+:100644 100644 8f2bec810054e39fefdc447d504291308c81d38a f087b2bd1dae80d5744e06e9c93e622c615756fc M	service/src/main/groovy/com/rackspace/search/elasticsearch/client/QueryParser.groovy

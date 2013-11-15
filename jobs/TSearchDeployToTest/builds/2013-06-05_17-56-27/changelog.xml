@@ -1,0 +1,52 @@
+Changes in branch origin/master, between cbd39be8ed088a6115697ead45219c275181f8f8 and ceced304c69dba74d0fa3a14d13ae64412d56790
+commit ceced304c69dba74d0fa3a14d13ae64412d56790
+tree 54b470cedf94a033b5e72a6ed609753a74cc7e35
+parent 7471c3df8d180d2da1076279b2b4da32b11a9bc8
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370454813 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370454813 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 2ec26f2c95e88daf77a1f75a2cc1073e26fbf90b 1dc55b61ab2b14b3d4ce5464cd9b9d9ee0b0cce2 M	cucumber/pom.xml
+:100644 100644 2cec444e7d9317cb5778bcfe0eb3d8623f5cd84b c6f641a23c4592b00c11075487621b1b4e86e174 M	pom.xml
+:100644 100644 eb39bd521c579d3e59a118d6135404837d5f37fb 0755b3620269e0d2448d70dad343d336e93e947f M	service/pom.xml
+
+commit 7471c3df8d180d2da1076279b2b4da32b11a9bc8
+tree e06f435c515c96e510676a775291521b936eabb4
+parent 9bfd5aec619e98fb0cffe9d9a030775439eaa8f8
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370454804 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1370454804 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b83
+
+:100644 100644 d33296de75615b9abe8b36babbdf58bbe3d22ccc 2ec26f2c95e88daf77a1f75a2cc1073e26fbf90b M	cucumber/pom.xml
+:100644 100644 385a7b764886285387e5a707f1d3dfef9d1697fe 2cec444e7d9317cb5778bcfe0eb3d8623f5cd84b M	pom.xml
+:100644 100644 cc9a072f9e96c0614f811aa5e5bcea2e28d160dc eb39bd521c579d3e59a118d6135404837d5f37fb M	service/pom.xml
+
+commit 3a4981f380c09969e8753076da6aa56879de6ca4
+tree c2160a07357badde43f09f6df07b825dd2ee1337
+parent 58686eeb3b00444a6f7373b961d588a5d0ba8e7c
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1370450642 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1370450642 -0500
+
+    B-50012: fixing review comments
+
+:100644 100644 a014d295c315b1666a452f1c4dcdedc70eeddce6 a9faabe3d98abffd2a17626806dd45adca13776e M	cucumber/features/ReadTicket.feature
+:100644 100644 9c29c80c2aa3e21e7eb788d9770829230b7fb085 3496acc4734d353a2460f214fcc56515afb787b3 M	cucumber/src/test/groovy/features/ReadTicketSteps.groovy
+:100644 100644 c57da20ebb661dd733f61f2c71381e45d8a28ad3 141ba424789da23be9dd56026442bd5106f4c04f M	service/src/main/config/elasticsearch/mappings/ticket/ticket.json
+:100644 100644 c0651ce06eadc3da1db26b738a7951f20014e23f 283687a81404be47b824c8a49e1f63fb48e0e05e M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+
+commit 58686eeb3b00444a6f7373b961d588a5d0ba8e7c
+tree 4311a5d90a565338dcf67c2229748de0d8ae4d36
+parent cbd39be8ed088a6115697ead45219c275181f8f8
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1370444889 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1370444889 -0500
+
+    B-50012: Getting serviceLevel for Onetime sync
+
+:100644 100644 9d38dd8f75d98fd317f427e0a00b4eaef0fab6fa a014d295c315b1666a452f1c4dcdedc70eeddce6 M	cucumber/features/ReadTicket.feature
+:100644 100644 f035033decdedceededdbc67dedde3752830b3d1 9c29c80c2aa3e21e7eb788d9770829230b7fb085 M	cucumber/src/test/groovy/features/ReadTicketSteps.groovy
+:100644 100644 2acd6f1ed88820861318c0f00350ca7a49cbba92 c57da20ebb661dd733f61f2c71381e45d8a28ad3 M	service/src/main/config/elasticsearch/mappings/ticket/ticket.json
+:100644 100644 17bfe9fb195bf2559c6dba1e43499d36ca5da859 b62cfc3390edab0d72af81afdbb72fa7ebcfc5d7 M	service/src/main/groovy/com/rackspace/search/gateway/core/CoreTicketGateway.groovy
+:100644 100644 e2cca673b8c85d3425f07cc96f2b5e0752ad4dbf c0651ce06eadc3da1db26b738a7951f20014e23f M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketProcessor.groovy
+:100644 100644 bef25887befa0bb8671ead31e43e8a74b408806b ebdb525ccc618b307f800dc01a3cb8f54152cc3a M	service/src/main/resources/coreTicketRequest.json

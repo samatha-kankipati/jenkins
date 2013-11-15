@@ -1,0 +1,4 @@
+These tests should not be run under normal circumstances.
+They are disabled by default.
+
+In order to enable them, create an empty __init__.py file in this directory.

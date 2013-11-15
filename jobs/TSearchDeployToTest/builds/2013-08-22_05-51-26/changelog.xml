@@ -1,0 +1,59 @@
+Changes in branch origin/master, between 1fd22b8f4e9d1c7b38ab0989575fe89188d1dfd0 and 32d349e19aed2a7ee79e9bd5ac36fa35fb299882
+commit 32d349e19aed2a7ee79e9bd5ac36fa35fb299882
+tree 33ee817be55b7014099162bf3fc5ca8bf2522f98
+parent b360483b1dbd7a1551a82137a78d0cdd1d960337
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377150469 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377150469 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 3ac14caac2746ea0dcb7aca1f66bdf5d5bfc16ba 44aa4145c071e31735ed7a2561a0b97cb6a87db6 M	cucumber/pom.xml
+:100644 100644 5adb080cb75ad603939b61dee7e5b164da1d31e3 b363a19c8dd17c8ee13841535e21ff5115b62f1a M	pom.xml
+:100644 100644 c003b1c76e2fd2961dc5a6729ac538c83b26af7a e4120a1e1ec77ad3ffbb2413ff51caf82ffb4885 M	service/pom.xml
+
+commit b360483b1dbd7a1551a82137a78d0cdd1d960337
+tree 4d53edd30cc940223f0cf233119a8169e202bd17
+parent 96e1f80f9b3ef13a8e746eee959604f9abd6ef80
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377150465 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1377150465 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b156
+
+:100644 100644 aa150aba7081eb4831292a60aeb61a12c8c5dc41 3ac14caac2746ea0dcb7aca1f66bdf5d5bfc16ba M	cucumber/pom.xml
+:100644 100644 e991ab1b802a015315bafbebe47585b1d559748b 5adb080cb75ad603939b61dee7e5b164da1d31e3 M	pom.xml
+:100644 100644 60a2384ae6eff58b5523d304a71413c72aefeb5f c003b1c76e2fd2961dc5a6729ac538c83b26af7a M	service/pom.xml
+
+commit b713ed4745f1353dda36476c614427c5376ffefb
+tree 4c09033851884d79a105514744e39195df94ecd8
+parent 20875906bce4577dc8158f6b9032a2ca994fcaf3
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377149103 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377149103 -0500
+
+    [B-52097] : reverted  CoreAccountUpdateSyncJob change
+
+:100644 100644 2b65a8eb887a6e028dcf88f6227c69affad87d31 492b70d9157ae12c3aa4652704ea68fe3875a203 M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncJob.groovy
+
+commit 20875906bce4577dc8158f6b9032a2ca994fcaf3
+tree 048e006d7aea961321c8fd5b39914f77743bc222
+parent a6c2ccf9b9a775873031ded29ccc44d6632d92cb
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377148878 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377148878 -0500
+
+    [B-52097] : coreTicketOnetimesyncJob refactoring fixes.
+
+:100644 100644 970d3865fac45a35861f0673e04cfb07849d86dd 806cce4afc50d77e2b603837b5da427eb4994286 M	service/src/main/groovy/com/rackspace/search/service/JobService.groovy
+:100644 100644 b7eb1a1a29e46111b2851ed9b1062ffdf048aabd 33eea295a7b2f22a1c8cd394a3b7a72c0ecb6493 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+:100644 100644 7acb4f338d5a6563aea116171a78cb2badbcf284 32cab3c0f98ea765fd91e4b9612aa6b8ba046b6d M	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+
+commit cbf77df136f663ae26ca319fafc0537d9e6dfb87
+tree e247b52b0af9b101f7fd45e6c1d2944a0236f7f7
+parent 55e725d944ce0e7fb0c6185e8010e7953ae1e7a9
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377142126 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1377142126 -0500
+
+    [B-52097] : coreTicketOnetimesyncJob refactoring halfway
+
+:100644 100644 10698c971bca577d60ae136355bdd0d0fd7d8fac dd63834f13f740e287e7f7603cc4bb1a2b1ff63b M	service/src/main/groovy/com/rackspace/search/service/account/CoreAccountUpdateSyncJob.groovy
+:100644 100644 a3866524c14b90b9f5aeedd23680130616c0d8f9 2548d7470a273ed4679ac8e70dd6ee192bc7733b M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+:100644 100644 cd7cd1fa03dc6c0218d260a0ffc1bd6bfd005991 0351c38cb3a2cc866a30d1ae5e5e8e77f1cf5c3b M	service/src/main/java/com/rackspace/search/endpoint/JobResource.java
+:100644 100644 7faec712fbd920c2bf8142e9340cf29e3409ee5e 1a2b4548461c1583841d838282953253ab26d169 M	service/src/main/java/com/rackspace/search/scheduling/SyncJobScheduler.java

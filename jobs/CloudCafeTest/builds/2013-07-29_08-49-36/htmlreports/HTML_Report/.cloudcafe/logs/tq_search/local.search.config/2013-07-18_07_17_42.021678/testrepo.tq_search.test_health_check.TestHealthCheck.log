@@ -1,0 +1,91 @@
+2013-07-18 07:17:42,190: DEBUG: root: 
+========================================================
+SETTING UP testrepo.tq_search.test_health_check.TestHealthCheck at 2013-07-18 07:17:42.189899
+========================================================
+2013-07-18 07:17:42,193: ERROR: ccengine.domain.configuration.AuthConfig: No option 'api_key' in section: 'auth'
+2013-07-18 07:17:42,194: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.auth.auth_client.AuthClient object at 0x1f130650>, 'POST', 'https://ws.staging.core.rackspace.com/ctkapi/login/melissa.biles') {'headers': {}, 'params': {}, 'data': '{"password": "qwerty"}', 'auth': None, 'verify': False}
+2013-07-18 07:17:42,206: INFO: requests.packages.urllib3.connectionpool: Starting new HTTPS connection (1): ws.staging.core.rackspace.com
+2013-07-18 07:17:42,449: DEBUG: requests.packages.urllib3.connectionpool: "POST /ctkapi/login/melissa.biles HTTP/1.1" 200 None
+2013-07-18 07:17:42,518: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : POST
+request url     : https://ws.staging.core.rackspace.com/ctkapi/login/melissa.biles
+request params  : 
+request headers : CaseInsensitiveDict({'Content-Length': u'22', 'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/1.2.3 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : {"password": "qwerty"}
+
+2013-07-18 07:17:42,518: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.323976039886
+response headers : CaseInsensitiveDict({'date': 'Thu, 18 Jul 2013 07:07:25 GMT', 'transfer-encoding': 'chunked', 'content-type': 'application/json', 'server': 'Apache/2.2.3 (Red Hat)'})
+response body    : {"authtoken": "ed54103bbb1932aab5945d0aa9c87bef"}
+-------------------------------------------------------------------------------
+2013-07-18 07:17:42,522: DEBUG: root: 
+========================================================
+test_health_check_after_installation STARTING at 2013-07-18 07:17:42.522104
+========================================================
+2013-07-18 07:17:42,522: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.GateAPIClient object at 0x1f12d650>, 'GET', 'http://staging.search.api.rackspace.com/healthStatus') {'headers': {}, 'params': {}, 'data': None, 'auth': None, 'verify': False}
+2013-07-18 07:17:42,523: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-07-18 07:17:42,561: DEBUG: requests.packages.urllib3.connectionpool: "GET /healthStatus HTTP/1.1" 200 None
+2013-07-18 07:17:42,562: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/healthStatus
+request params  : 
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/1.2.3 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-07-18 07:17:42,562: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.0393538475037
+response headers : CaseInsensitiveDict({'date': 'Thu, 18 Jul 2013 07:08:28 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"cluster_name":"ticket.cluster","status":"GREEN"}
+-------------------------------------------------------------------------------
+2013-07-18 07:17:42,562: DEBUG: root: 
+========================================================
+test_health_check_after_installation COMPLETED at 2013-07-18 07:17:42.562919
+========================================================
+2013-07-18 07:17:42,563: DEBUG: root: 
+========================================================
+test_info_check_after_installation STARTING at 2013-07-18 07:17:42.563303
+========================================================
+2013-07-18 07:17:42,563: DEBUG: ccengine.common.connectors.rest: (<ccengine.clients.tq_search.gate_api.GateAPIClient object at 0x1f12d650>, 'GET', 'http://staging.search.api.rackspace.com/info') {'headers': {}, 'params': {}, 'data': None, 'auth': None, 'verify': False}
+2013-07-18 07:17:42,564: INFO: requests.packages.urllib3.connectionpool: Starting new HTTP connection (1): staging.search.api.rackspace.com
+2013-07-18 07:17:42,584: DEBUG: requests.packages.urllib3.connectionpool: "GET /info HTTP/1.1" 200 None
+2013-07-18 07:17:42,585: DEBUG: ccengine.common.connectors.rest: 
+------------
+REQUEST SENT
+------------
+request method  : GET
+request url     : http://staging.search.api.rackspace.com/info
+request params  : 
+request headers : CaseInsensitiveDict({'Accept-Encoding': 'gzip, deflate, compress', 'Accept': '*/*', 'User-Agent': 'python-requests/1.2.3 CPython/2.7.3 Linux/2.6.18-348.2.1.el5xen'})
+request body    : None
+
+2013-07-18 07:17:42,585: DEBUG: ccengine.common.connectors.rest: 
+-----------------
+RESPONSE RECIEVED
+-----------------
+response status  : <Response [200]>
+response time    : 0.0214540958405
+response headers : CaseInsensitiveDict({'date': 'Thu, 18 Jul 2013 07:08:28 GMT', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'content-type': 'application/json', 'server': 'nginx/1.1.19'})
+response body    : {"Ticket Search API":{"Health":{"cluster_name":"ticket.cluster","status":"GREEN"},"build-at":"2013-07-17T23:18+0000","version":"0.1.0_b128"}}
+-------------------------------------------------------------------------------
+2013-07-18 07:17:42,586: DEBUG: root: 
+========================================================
+test_info_check_after_installation COMPLETED at 2013-07-18 07:17:42.586014
+========================================================
+2013-07-18 07:17:42,586: DEBUG: root: 
+========================================================
+TEARING DOWN TestHealthCheck at 2013-07-18 07:17:42.586336
+========================================================

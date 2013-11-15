@@ -1,0 +1,34 @@
+Changes in branch origin/master, between fd6bad4b2f5218bd0325adeea0f672e174784bfa and c10c08837b00eab5f03fe38620c0068207fe319d
+commit c10c08837b00eab5f03fe38620c0068207fe319d
+tree 43008189ad9cd2d062ee645c65041db7afe26f66
+parent b2002af838912dbb0628150d875944c1dde8cb6d
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371661288 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371661288 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 6c0767210f1e54327239c0b8edeea1a3cf0e2c55 0ea655d2a3678e656bc885620e297f1f93915c4e M	cucumber/pom.xml
+:100644 100644 15b5582e01754fb5fd3afd145591c9fc87c98db1 5872fd92dbe599fc26e48e98c5e58b899f89a0bd M	pom.xml
+:100644 100644 d97f8c530bfe750aeed702408b32ecc080f1d3b9 7c8b7138156593afd90346fa7a287e8669155828 M	service/pom.xml
+
+commit b2002af838912dbb0628150d875944c1dde8cb6d
+tree 00d76fac050dbfe1146b1bfa98fa20ffd8ab0d6e
+parent 8d8ae40c8f597c410ccc65fdf483d40cf6a0c3e2
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371661278 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371661278 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b105
+
+:100644 100644 75a90b30db2415d74d8239b45473811c0535ae4b 6c0767210f1e54327239c0b8edeea1a3cf0e2c55 M	cucumber/pom.xml
+:100644 100644 532b62357bba5d67a5546569d8f1276b55698692 15b5582e01754fb5fd3afd145591c9fc87c98db1 M	pom.xml
+:100644 100644 c6f3b695e4ea489777a68aeb52223c493358b3d1 d97f8c530bfe750aeed702408b32ecc080f1d3b9 M	service/pom.xml
+
+commit 84d45e9d98be84accaf1a2b652755fedf06007da
+tree 081cd8ca9caf0fd56f9dfc56591b71d1319ce6fc
+parent 0dab966e78c595186761caf26f99ffd00d760714
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1371660032 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1371660032 -0500
+
+    [B-50997] : updated code to handle null date values for last_public_comment_Date
+
+:100644 100644 aaee3454970e7aac9ee54bca6320b0decd61e79e e8f785d29dd04cd804e137b9d6dee8a88d2ab1dd M	service/src/main/groovy/com/rackspace/search/Constants.groovy

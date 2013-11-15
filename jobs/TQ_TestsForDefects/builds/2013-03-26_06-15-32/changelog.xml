@@ -1,0 +1,126 @@
+Changes in branch remotes/origin/dev_updated_code, between a268a4ca558648a49959995ef5e26785a1bde4f2 and 99b4e84bb93d260446ff26b8628494aa4e19ceed
+commit 99b4e84bb93d260446ff26b8628494aa4e19ceed
+tree 108d2035f11370113f1f6a3d0dad1e2cc1f59964
+parent 683bf97daae30487e9860fa35611b79cb144f3a5
+author Admin <Admin@INjaydeepc.local> 1364278284 +0530
+committer Admin <Admin@INjaydeepc.local> 1364278284 +0530
+
+    Added pagination tests to dev branch after other tests are merged to master.<JD>
+
+:100644 100644 d50f55e012fa321bc208c4c64328b7492b76fda9 1ebfd79eeaaff4c4f73e0d89a4c6427e60d0adb4 M	lib/ccengine/domain/tq_search/response/tq_search.py
+:000000 100644 0000000000000000000000000000000000000000 1dc85231445d7cf96038c4c92e5bbe415ce82976 A	lib/testrepo/tq_search/search_existing_ticket/test_pagination.py
+
+commit c1a0a8a6f2e221914be39994dd561865dd8dba5e
+tree 3de39c0dfa126b4f2bebbf3834be06020da76b32
+parent aae2ca849a5de0ae8568cd0fa4e1ab6a2003613f
+author ivo5307 <ivo.vasev@rackspace.com> 1364239370 -0500
+committer ivo5307 <ivo.vasev@rackspace.com> 1364239432 -0500
+
+    logical error in new features tests fixed
+
+:100644 100644 24c533b40907d851307f15bc20d00d109fcc9b2e d2ea1c9794f7d3fb6f8efdd899ed5b9dbe5d4850 M	lib/testrepo/identity/v2_0/regression/rax_new_features_test.py
+
+commit 06dadf7d142f0cae235c4fb5b8eb20677d0e8c9f
+tree 877e8529c338bc6fa6dce6854f42c238266d1ccd
+parent d9095f73c684c5eb1bff831935e6dc0c9b36e7d6
+author Admin <Admin@INjaydeepc.local> 1364036583 +0530
+committer Admin <Admin@INjaydeepc.local> 1364234240 +0530
+
+    Modified the tests and some pep8 fixes.<Jaydeep>
+
+:100644 100644 f7f99227c88d9a020cd546a8e70319d7245b90d8 cbf1adaca2bc1aacb3d14297cd061379c4d00d1a M	lib/ccengine/clients/tq_search/gate_api.py
+:100644 100644 0fb58d584908e38645ab54bdfbb01b3126b98f68 9c5e277aab4836376bc3852318d1f397cea797d7 M	lib/ccengine/common/tools/datatools.py
+:100644 100644 9bbbf81d7a851b56e8485ebc4fe86fdfd9fe8c58 bc04a4825c6b2c241589eafc20a52039483a6a34 M	lib/ccengine/domain/core/request/core_request.py
+:100644 100644 a1552313251c0b88ab02ecad7c28760f3fff9acd d50f55e012fa321bc208c4c64328b7492b76fda9 M	lib/ccengine/domain/tq_search/response/tq_search.py
+:100644 100644 476c27ac7dd2912fdcab5ce5c4250231d0b562e3 4352a852637fbfe525d7142b3468827258054d34 M	lib/testrepo/tq_search/search_existing_ticket/test_fetch_existing_core_tickets.py
+:100644 100644 33004d8a5260d563c314ee2bf7a34dd8493e4032 bc13206e66b015b1dcfdabc757847ab401aae46b M	lib/testrepo/tq_search/search_existing_ticket/test_list_tickets.py
+:100644 100644 08e52f0d02b3bc212690123251bcd2a72b36dfb7 be5c6225f6fc3c0285d65166f885b4cd2f7b8f5d M	lib/testrepo/tq_search/test_health_check.py
+
+commit d9095f73c684c5eb1bff831935e6dc0c9b36e7d6
+tree 2077df961c8bd3b7c5888724575b77a7a5432f93
+parent aae2ca849a5de0ae8568cd0fa4e1ab6a2003613f
+author Admin <Admin@INjaydeepc.local> 1363360404 +0530
+committer Admin <Admin@INjaydeepc.local> 1364234240 +0530
+
+    Added tests to filter tickets using different parameters.<JD>
+
+:100644 100644 a7f1d72622acfe02db6ce31b80e2cf7471b5c785 f7f99227c88d9a020cd546a8e70319d7245b90d8 M	lib/ccengine/clients/tq_search/gate_api.py
+:100644 100644 ddf25ca0c159b92d0ca520f7f0c7d5df107bd8ca 0fb58d584908e38645ab54bdfbb01b3126b98f68 M	lib/ccengine/common/tools/datatools.py
+:100644 100644 69f41e04fff580c8219c955be17bcea4a19ac7e5 a1552313251c0b88ab02ecad7c28760f3fff9acd M	lib/ccengine/domain/tq_search/response/tq_search.py
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	lib/testrepo/tq_search/search_existing_ticket/__init__.py
+:000000 100644 0000000000000000000000000000000000000000 33004d8a5260d563c314ee2bf7a34dd8493e4032 A	lib/testrepo/tq_search/search_existing_ticket/test_list_tickets.py
+
+commit 89b23fe63a5aab9aca6ba03c7781ce2c484532da
+tree b1fd2d8de446c83dabed0312731da07849270487
+parent 898a9f6af5b9c4f04982ffd6f5120083e38475e6
+author Jose Idar <jose.idar@rackspace.com> 1364226849 -0500
+committer Jose Idar <jose.idar@rackspace.com> 1364226849 -0500
+
+    Added identity test to test redirect override in requests lib
+
+:100644 100644 fb234f4fe19e21d3c1c2df3b2cda75c9ac9f53d7 8c487acc83a1bd8cb7f21fab25d5f6e6fcc2bb79 M	lib/testrepo/identity/v1_1/smoke/admin_rax_users_test.py
+
+commit 024b8f5af6eede0a3f638b251a82819c1b8ff185
+tree 81f1d5058021c6ebfeae819570d065f88cb6f0ef
+parent d43f574a8509c9b6ff57460912729a82ea61b146
+author vara <vara.chinnappareddy@rackspace.com> 1363895932 -0500
+committer vara <vara.chinnappareddy@rackspace.com> 1364221753 -0500
+
+    changes made to 517_lbaas_integration branch as per code review comments
+
+:100644 100644 1a34c34ba9ab962f79f5f1a0c45bcdae4c88168e 4691b015f405c0e45570f156f5264480bac47e64 M	config/loggingaas/local.config
+:100644 100644 314ec75cee1aa0eb4f6b06a364f0a1aed121a12d d3e197e131d4690719b6514d61a919db3e274f3d M	lib/ccengine/clients/loggingaas/logging_client.py
+:100644 100644 edd9027ff44c884d32dd6df292d4de653aee1af8 31ade67bd3071ce518d0860de5861f792994bb7d M	lib/ccengine/domain/loggingaas/response/logging_response.py
+:100644 100644 01e66e7891915dc144e7a3ca79f9d715b3ffd61a db2d92390974c601cfedc8850841888bc6c81654 M	lib/testrepo/identity/v2_0/integration/dbaas_integration_tests.py
+
+commit d43f574a8509c9b6ff57460912729a82ea61b146
+tree 4690b41a1e77c73cf657cc951843de7bc9d8bfc6
+parent e351685a2d418f07243104d6e22806cbc24bcd1e
+author vara <vara.chinnappareddy@rackspace.com> 1363115044 -0500
+committer vara <vara.chinnappareddy@rackspace.com> 1364221753 -0500
+
+    Added More Identity Integration Tests, Added LoggingAsService Tests
+
+:100644 100644 e8f94696abad2b92094c7099bc9219fd8756be3e 0b6ee844c892156166a80a85db4f8a68a6bb9255 M	config/identity/staging.integration_identity.json.config
+:100644 100644 42f27547b6a4031112c17749f68d0b841e4e4ed1 1a34c34ba9ab962f79f5f1a0c45bcdae4c88168e M	config/loggingaas/local.config
+:100644 100644 c49ac98757fb99a8b540f4c0cd446cd118f8283e 314ec75cee1aa0eb4f6b06a364f0a1aed121a12d M	lib/ccengine/clients/loggingaas/logging_client.py
+:100644 100644 b9d86d7c1742af2d2ebc84da9ca12721472bed10 72b2351690b77bc7e9ab393560a91abcbfca6af5 M	lib/ccengine/domain/configuration.py
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	lib/ccengine/domain/loggingaas/__init__.py
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	lib/ccengine/domain/loggingaas/request/__init__.py
+:000000 100644 0000000000000000000000000000000000000000 4490941f09e0726f1a64b88714b99bdd3d896b11 A	lib/ccengine/domain/loggingaas/request/logging_request.py
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	lib/ccengine/domain/loggingaas/response/__init__.py
+:000000 100644 0000000000000000000000000000000000000000 edd9027ff44c884d32dd6df292d4de653aee1af8 A	lib/ccengine/domain/loggingaas/response/logging_response.py
+:100644 100644 5918d15181e2f6a63338e0f36e83a987f15fd288 0c148d6307f1b219825a5fcd687034c7fa952b2f M	lib/ccengine/providers/loggingaas/logging_provider.py
+:100644 100644 beb002778c80b9b2b226cba8ccf64c2cf8363cb0 22567eacf414113cb9f891d879346d7622ec3ce7 M	lib/testrepo/common/testfixtures/identity/v2_0/identity.py
+:100644 100644 cd8153f3269d369e96b1214ab32ec6fb6d95ef1c 246c20e8995b9b0bbb1974568632ef59b7402214 M	lib/testrepo/common/testfixtures/loggingaas.py
+:000000 100644 0000000000000000000000000000000000000000 01e66e7891915dc144e7a3ca79f9d715b3ffd61a A	lib/testrepo/identity/v2_0/integration/dbaas_integration_tests.py
+:000000 100644 0000000000000000000000000000000000000000 a889d2b9f1f0f48d4eb6095591db99762c83b236 A	lib/testrepo/identity/v2_0/integration/lbaas_integration_tests.py
+:000000 100644 0000000000000000000000000000000000000000 31c73f8b58fde5b2f43c8eded11eabacc2b920ce A	lib/testrepo/identity/v2_0/integration/monitoring_integration_tests.py
+:000000 100644 0000000000000000000000000000000000000000 3054e8c65a7fbc3b18e58867257b7aeefb8b593b A	lib/testrepo/loggingaas/smoke/eventproducer_tests.py
+:000000 100644 0000000000000000000000000000000000000000 898483e021c908fbabc773fb9ed22682daec1ecf A	lib/testrepo/loggingaas/smoke/profile_tests.py
+:000000 100644 0000000000000000000000000000000000000000 19f5c66d0297f862b9b174313b3f85ec248894ea A	lib/testrepo/loggingaas/smoke/tenant_tests.py
+:100644 100644 43e6c893850cef4d28170660e24de4dcd7110dc3 ecc1d0e217f71238c33e58371d08ed4fe47a62f8 M	lib/testrepo/loggingaas/smoke/test_version.py
+
+commit 23807c337d1b264ac0b3d64af5cda834beca359a
+tree b20f4bca37f85a40d1ee2defc7c247be000d3b96
+parent 7f78dc888e4b822051b7f4065a4eb268c5c50794
+author Leonardo Maycotte <leonardo.maycotte@rackspace.com> 1363993566 -0500
+committer Leonardo Maycotte <leonardo.maycotte@rackspace.com> 1363993566 -0500
+
+    minor quantum provider update and network test fix
+
+:100644 100644 12cebfff03026f360e899c4192c607ebd63b93ad a3771496644f82393fc3a3a85f2d454edb2973f0 M	lib/ccengine/providers/quantum/quantum_api.py
+:100644 100644 74357d210b92f3ff332659d94129f5f7fad4b7d6 a8760c2ad6f02926f496ac7181116a9fa85f3ca9 M	lib/testrepo/networks/functional/interfaces/test_create_interface.py
+
+commit 3410cc280a66a4fd73365dc05b20a478b19d3e38
+tree 094dfbc656c775396258d5127384f94b29dfcef7
+parent 7f78dc888e4b822051b7f4065a4eb268c5c50794
+author Leonardo Maycotte <leonardo.maycotte@rackspace.com> 1363906145 -0500
+committer Leonardo Maycotte <leonardo.maycotte@rackspace.com> 1363906258 -0500
+
+    adding Quantum Subne domain object and client methods
+
+:100644 100644 526e5dab8edab69ae4c09381a63d1124e90aa2dc 225b180b6606152078f2c2b39ac0e47c9e7761a2 M	lib/ccengine/clients/quantum/quantum_api.py
+:100644 100644 1823920ca85f365b0a858849429b26f5098c7179 ae392dcff48b8cb0a13854393ae5840046bb4dfa M	lib/ccengine/domain/quantum/request/network.py
+:000000 100644 0000000000000000000000000000000000000000 cf8123c22eae0184c939843666553147e63f8858 A	lib/ccengine/domain/quantum/request/subnet.py
+:000000 100644 0000000000000000000000000000000000000000 5c3c2a89b0e30a4347df17110d12042a200660f6 A	lib/ccengine/domain/quantum/response/subnet.py

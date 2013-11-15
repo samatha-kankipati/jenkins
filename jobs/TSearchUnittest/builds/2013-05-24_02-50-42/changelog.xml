@@ -1,0 +1,24 @@
+Changes in branch origin/master, between 8f9bc6f2bd68f79fd77fe0ac273ceb1f64b13a9c and 534a99b0d3f0b88a9ad5724ce8869d27180d5132
+commit e8f7bd129072c2e37af206bfac57ab1b30386a28
+tree be7605db4476a8774ba1f7be179fc9dc55e517ec
+parent 64d5ff373210c650aa3de57f5f3e62c492f7fa17
+author Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1369362962 -0500
+committer Surendra Appalaneni <surendra.appalaneni@rackspace.com> 1369362962 -0500
+
+    [D-13026] : fixed to SNAPSHOT version
+
+:100644 100644 a22f53be5f1485db83e1c6600dfece07a06ea9b7 90330675085785ebb07925f49936c46b5f423254 M	cucumber/pom.xml
+:100644 100644 9b5020430f1a44da39557b00ed28a36d91ae7a8c 9b5d35bc7fbc735da17a4369681b9c2acb3d9a5f M	pom.xml
+:100644 100644 5e66d2b22cf8f7859b66dfac4398496286ffc326 48722f81fa5a05d9625e7378a9994ad388877001 M	service/pom.xml
+
+commit 64d5ff373210c650aa3de57f5f3e62c492f7fa17
+tree 45a3331e1f012b2aaef1bea4bb61acbfa08f59a4
+parent 8f9bc6f2bd68f79fd77fe0ac273ceb1f64b13a9c
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369355528 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1369355528 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b72
+
+:100644 100644 90330675085785ebb07925f49936c46b5f423254 a22f53be5f1485db83e1c6600dfece07a06ea9b7 M	cucumber/pom.xml
+:100644 100644 2a5e4be592591bf8a3ec020147db88ca9da2377a 9b5020430f1a44da39557b00ed28a36d91ae7a8c M	pom.xml
+:100644 100644 48722f81fa5a05d9625e7378a9994ad388877001 5e66d2b22cf8f7859b66dfac4398496286ffc326 M	service/pom.xml

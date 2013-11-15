@@ -1,0 +1,34 @@
+Changes in branch origin/master, between 1d5d553ec05b035c1b4876fbf5888815e6591ed8 and c5c0d0d31ee415c50c8e906deae37c65ff589624
+commit 5e5872774c9729b27f8a329ae096f724c87c0068
+tree f9c3abed8e618983f255496347bd1783ee7d188d
+parent 0928cf8fcd721496a1d0fb6d1f4dc61055d8d80d
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1378925110 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1378925110 -0500
+
+    [B-55765] : fixing testcase as it is flaky
+
+:100644 100644 4b78fccbdfbb51f4c5ee7a4012efc7f0bfc4ce0b 3211f26078b5de23d66e6a35df9d12bd0781f28d M	service/src/test/groovy/com/rackspace/search/service/JobServiceTest.groovy
+
+commit 2b2181b23529b6c2204199d8ea957423a6eaf5b8
+tree 1d2738cfded641f0123ecd81f29f7545aa54edf2
+parent 48d66144d5bb8d3c57ae347c7957a6c71d5e2a55
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1378923393 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1378923393 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 3f33f31ff5e4ab299c4b9f8916080996e0dfef23 abadd2828350f35224fb2436e8f1ccf5d4d95090 M	cucumber/pom.xml
+:100644 100644 e33fc5fdd0892187515bfe138b079fa131afea16 222341c0c29dd4bd59b5954c0db191f3bd920540 M	pom.xml
+:100644 100644 9e5963ebae97274e0c4b4f2d31790b6be858c4c9 76eb08caeb13687cc3261faf2bd38f50c3b87dca M	service/pom.xml
+
+commit 48d66144d5bb8d3c57ae347c7957a6c71d5e2a55
+tree ce6cd7d32de3e2b729fefdc2f29824d53f7a117e
+parent 1d5d553ec05b035c1b4876fbf5888815e6591ed8
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1378923387 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1378923387 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b168
+
+:100644 100644 dac43308a1c0074ba84b2a83e7e3941cc662cc1a 3f33f31ff5e4ab299c4b9f8916080996e0dfef23 M	cucumber/pom.xml
+:100644 100644 70fe7f23e0d913df4b0c6fd382668d21f3f78146 e33fc5fdd0892187515bfe138b079fa131afea16 M	pom.xml
+:100644 100644 7249b998db645065e09c95500fcadb7b39b87b40 9e5963ebae97274e0c4b4f2d31790b6be858c4c9 M	service/pom.xml

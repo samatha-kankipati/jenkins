@@ -1,0 +1,82 @@
+Changes in branch origin/master, between 3b3ca157d35f264c49b5d494b76d5d6d278b1f62 and 16a4a41c45d22326dffd54e9026e679152ce3198
+commit 16a4a41c45d22326dffd54e9026e679152ce3198
+tree 74ad56511dca765225e70cbee4ce7054d5cde420
+parent 1c1219b8b28c5596de806340aece480e3596ace2
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371853933 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371853933 +0000
+
+    [maven-release-plugin] prepare for next development iteration
+
+:100644 100644 913a05ad63c506ce31c0de36ec4f228b26a5ece1 b640e50560300fc84e9f59d2e685f6884ac62834 M	cucumber/pom.xml
+:100644 100644 b463da5a6cb856e878e8624e26b570afe1f96a3e edf7879c0822772b1f0e0c435cbd82650c925452 M	pom.xml
+:100644 100644 58a9b6dcccc7753733a204985a51b45c0f525d83 81007bc4cf27e61f20cdb9e5126ab4777ffa501a M	service/pom.xml
+
+commit 1c1219b8b28c5596de806340aece480e3596ace2
+tree b40e2d108adc8b37cb90a15d9cbcf96d3a798b9a
+parent 4857bbdab47f021f58da5bdb63a4208c3b6a5457
+author Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371853928 +0000
+committer Jenkins Continuous Build server <jenkins@usq-api-new-dev1.(none)> 1371853928 +0000
+
+    [maven-release-plugin] prepare release search-pom-0.1.0_b110
+
+:100644 100644 fe0ea0f640795069d505c7ce56aed58f6924b910 913a05ad63c506ce31c0de36ec4f228b26a5ece1 M	cucumber/pom.xml
+:100644 100644 9195705d056b61c78864a0ad082075200ece0cfa b463da5a6cb856e878e8624e26b570afe1f96a3e M	pom.xml
+:100644 100644 4eff404870628dfcb61377043498c88d77e8eebf 58a9b6dcccc7753733a204985a51b45c0f525d83 M	service/pom.xml
+
+commit 915c517837c2ccdb3fb2cc8086314dcfc85e546b
+tree 89dee341b724aefbd8279769a70a4e82dc414482
+parent 4d2eec8a0ad6662e4b60a23a9e27a7cd2722fece
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1371852583 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1371852583 -0500
+
+    [D-13404]: fixing the review comments
+
+:100644 100644 34e583eda7b5a3d3df853fddacd27e3bd9cf992f 63669c4624393e6ca0dcdc3c59fab60f472c6ab9 M	service/src/main/groovy/com/rackspace/search/elasticsearch/ElasticSearchServer.groovy
+
+commit 4d2eec8a0ad6662e4b60a23a9e27a7cd2722fece
+tree d33fe4ab3b3d4a36b3392e6a508f691258e5cec2
+parent b3e50a11d3524329fa2cc952e9237e6b23bc1a8a
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1371852200 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1371852200 -0500
+
+    [D-13404]: using wait for yellow status
+
+:100644 100644 9cefcfda53cef79f4d21efb6ef9555794c39a807 34e583eda7b5a3d3df853fddacd27e3bd9cf992f M	service/src/main/groovy/com/rackspace/search/elasticsearch/ElasticSearchServer.groovy
+
+commit b3e50a11d3524329fa2cc952e9237e6b23bc1a8a
+tree 43c7f94e0bad14cdf20226a302a9905245e10074
+parent d8b6a0a5abdd137fda903c0699383a65ffe84f6e
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1371852070 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1371852070 -0500
+
+    [D-13404]: using wait for yellow status
+
+:100644 100644 5f1c711113c281b3c4e71cf25a737775e5e4a3d7 1613b7852e038e90fa3422887e305713c9bf7071 M	service/src/main/config/search.properties
+:100644 100644 54f4b95f706aece144fadacc313532d2c2a4bc3c 9cefcfda53cef79f4d21efb6ef9555794c39a807 M	service/src/main/groovy/com/rackspace/search/elasticsearch/ElasticSearchServer.groovy
+:100644 100644 f894170387d528faf71ebdfcb1af9f88e2b07c0c 708d144a8f994665f4d3b7ab390959710a327a59 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+:100644 100644 76eccf6d8b7a4fbcabe8645ee242c30ff2a8e75f f805103412faba01f87c47dfa48ad837fc99311d M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+
+commit d8b6a0a5abdd137fda903c0699383a65ffe84f6e
+tree 8e626a0420841295994ab25dc6185c82b3bb8d62
+parent e181a13a3e0045dd8611aac3a9c6e3b498de60b2
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1371848030 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1371848030 -0500
+
+    [D-13404]: using wait for yellow status
+
+:100644 100644 5913295c2e93d079bc9d85de6cd35c7eb07b3eb8 54f4b95f706aece144fadacc313532d2c2a4bc3c M	service/src/main/groovy/com/rackspace/search/elasticsearch/ElasticSearchServer.groovy
+:100644 100644 d1b93bf67a32225775dc6f582b397d01df8b8470 f894170387d528faf71ebdfcb1af9f88e2b07c0c M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+:100644 100644 4830ba908b2622e5f9d3f916b25cda2414343236 76eccf6d8b7a4fbcabe8645ee242c30ff2a8e75f M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+
+commit 2d784a5093f4c183e7c4dc9880e110fec9249bd1
+tree 1b996b4692b6d5f878c39dfcf2f884cf8e99ffe9
+parent 55af16cec845f8843281223a0833e525297286d4
+author Samatha Kankipati <samatha.kankipati@rackspace.com> 1371833356 -0500
+committer Samatha Kankipati <samatha.kankipati@rackspace.com> 1371833356 -0500
+
+    [D-13404]: starting the job on server startup when cluster health status is good
+
+:100644 100644 02813e36e238277c1878faa373777813c190da22 23e7c22d7fc02b98c833da79c32b2443a36930b7 M	service/src/main/groovy/com/rackspace/search/elasticsearch/SyncJob.groovy
+:100644 100644 0393cb1b46c298975c0d9a0572cdb67a1b121534 d1b93bf67a32225775dc6f582b397d01df8b8470 M	service/src/main/groovy/com/rackspace/search/service/account/AccountOngoingSyncJob.groovy
+:100644 100644 3a3e0e7536d938004321889feac4bb427714e263 4830ba908b2622e5f9d3f916b25cda2414343236 M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOnGoingSyncJob.groovy
+:100644 100644 b19d6cb9d1f7b9851c6388af94516d2323ea18ae 58d348489268e20ad23ab781483bd625193e05ef M	service/src/main/groovy/com/rackspace/search/service/core/CoreTicketOneTimeSyncJob.groovy
