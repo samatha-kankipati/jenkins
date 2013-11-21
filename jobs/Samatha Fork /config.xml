@@ -52,7 +52,7 @@
     <artifactId>search</artifactId>
   </rootModule>
   <rootPOM>service/pom.xml</rootPOM>
-  <goals>deploy</goals>
+  <goals>package</goals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
   <incrementalBuild>false</incrementalBuild>
   <perModuleEmail>false</perModuleEmail>
