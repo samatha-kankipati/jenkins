@@ -51,7 +51,6 @@
     <groupId>com.rackspace.api</groupId>
     <artifactId>search</artifactId>
   </rootModule>
-  <rootPOM>service/pom.xml</rootPOM>
   <goals>deploy</goals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
   <incrementalBuild>false</incrementalBuild>
