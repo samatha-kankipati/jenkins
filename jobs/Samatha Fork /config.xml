@@ -49,7 +49,7 @@
   <concurrentBuild>false</concurrentBuild>
   <rootModule>
     <groupId>com.rackspace.api</groupId>
-    <artifactId>search</artifactId>
+    <artifactId>search-pom</artifactId>
   </rootModule>
   <goals>deploy</goals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
