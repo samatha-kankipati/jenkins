@@ -18,7 +18,7 @@
         <name>origin/new-master</name>
       </hudson.plugins.git.BranchSpec>
     </branches>
-    <localBranch>search-pom-0.1.0_b111_fix</localBranch>
+    <localBranch>new-master</localBranch>
     <disableSubmodules>false</disableSubmodules>
     <recursiveSubmodules>false</recursiveSubmodules>
     <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
@@ -74,21 +74,7 @@
     </hudson.plugins.ansicolor.AnsiColorBuildWrapper>
   </buildWrappers>
   <prebuilders/>
-  <postbuilders>
-    <hudson.tasks.Shell>
-      <command>#!/bin/bash
-FILE=`find . ${WORKSPACE}/target/checkout/service/target -maxdepth 1 -name &quot;*.war&quot; -type f`
-NAME=&quot;${FILE%.[^.]*}&quot;
-DIR_NAME=&quot;${NAME%/[^/]*}&quot;
-FILE_NAME=&quot;${NAME:${#DIR_NAME} + 1}&quot;
-###VERSION_NO=`echo $FILE_NAME| cut -d&quot;-&quot; -f2`
-
-VERSION_NO=0.1.0_b111_2
-echo &quot;version found: $VERSION_NO&quot;
-echo &quot;VERSION=${VERSION_NO}&quot; &gt; version.properties
-</command>
-    </hudson.tasks.Shell>
-  </postbuilders>
+  <postbuilders/>
   <runPostStepsIfResult>
     <name>SUCCESS</name>
     <ordinal>0</ordinal>
