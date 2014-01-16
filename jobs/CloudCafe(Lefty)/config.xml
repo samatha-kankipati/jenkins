@@ -175,7 +175,7 @@ sync_wait_time=10
 
 EOF_CAT
 
-./bin/runner.py tq_search local.search.config -t type=positive --generateXML=/lib/ccengine/common/Report</command>
+./bin/runner.py tq_search local.search.config -t type=lefty-positive --generateXML=/lib/ccengine/common/Report</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
