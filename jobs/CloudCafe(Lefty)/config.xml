@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <logRotator class="hudson.tasks.LogRotator">
+    <daysToKeep>-1</daysToKeep>
+    <numToKeep>5</numToKeep>
+    <artifactDaysToKeep>-1</artifactDaysToKeep>
+    <artifactNumToKeep>-1</artifactNumToKeep>
+  </logRotator>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.plugins.git.GitSCM" plugin="git@1.2.0">
+    <configVersion>2</configVersion>
+    <userRemoteConfigs>
+      <hudson.plugins.git.UserRemoteConfig>
+        <name></name>
+        <refspec>+refs/heads/*:refs/remotes/origin/*</refspec>
+        <url>git://github.rackspace.com/priy0835/CloudCAFE-Python.git</url>
+      </hudson.plugins.git.UserRemoteConfig>
+    </userRemoteConfigs>
+    <branches>
+      <hudson.plugins.git.BranchSpec>
+        <name>remotes/origin/feedback_zendesk</name>
+      </hudson.plugins.git.BranchSpec>
+    </branches>
+    <disableSubmodules>false</disableSubmodules>
+    <recursiveSubmodules>false</recursiveSubmodules>
+    <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+    <authorOrCommitter>false</authorOrCommitter>
+    <clean>false</clean>
+    <wipeOutWorkspace>false</wipeOutWorkspace>
+    <pruneBranches>false</pruneBranches>
+    <remotePoll>false</remotePoll>
+    <ignoreNotifyCommit>false</ignoreNotifyCommit>
+    <useShallowClone>false</useShallowClone>
+    <buildChooser class="hudson.plugins.git.util.DefaultBuildChooser"/>
+    <gitTool>Default</gitTool>
+    <submoduleCfg class="list"/>
+    <relativeTargetDir></relativeTargetDir>
+    <reference></reference>
+    <excludedRegions></excludedRegions>
+    <excludedUsers></excludedUsers>
+    <gitConfigName></gitConfigName>
+    <gitConfigEmail></gitConfigEmail>
+    <skipTag>false</skipTag>
+    <includedRegions></includedRegions>
+    <scmName></scmName>
+  </scm>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers class="vector"/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>#!/bin/bash
+if [ -d &quot;.env&quot; ]; then
+    echo &quot;**&gt; virtualenv exists&quot;
+else
+    echo &quot;**&gt; creating virtualenv&quot;
+    ~/.localpython/bin/python2.7 ~/.localpython/lib/python2.7/site-packages/virtualenv.py .env
+fi
+source .env/bin/activate
+pip install python-dateutil requests logging unittest2 argparse paramiko &gt; /dev/null
+export CLOUDCAFE_TEST_CONFIG=&quot;$WORKSPACE/config/tq_search/local.search.config&quot;
+export CLOUDCAFE_LOG_PATH=&quot;$WORKSPACE/data&quot;
+export PYTHONPATH=&quot;$PYTHONPATH:$WORKSPACE/lib&quot;
+
+
+cat &gt; &quot;$CLOUDCAFE_TEST_CONFIG&quot; &lt;&lt;-&quot;EOF_CAT&quot;
+# ======================================================
+# local.search.config
+# Use this configuration file to run against search local
+# ======================================================
+
+[misc]
+serializer = json
+deserializer = json
+
+[auth]
+base_url =
+username=
+password=
+version =
+core_auth_url = https://ws.staging.core.rackspace.com/ctkapi/
+core_username = melissa.biles
+core_password = qwerty
+core_version = core
+account_services_url = https://staging.account.api.rackspace.com/v1.0/
+account_services_username = priy0835
+account_services_password = Password=163463
+zendesk_ticket_url = https://mosso.zendesk.com/api/v2/
+zendesk_username = isl_qe_usq@lists.mosso.com
+zendesk_password = j@cks
+zendesk_version = zendesk
+
+[gate]
+base_url = http://staging.search.api.rackspace.com/
+elastic_search_url = http://staging.elastic.search.api.rackspace.com/
+start_time = 2013-03-12 03:00:26
+start_time_1 = 2013-03-12 05:50:26
+start_time_2 = 2004-02-09 09:00:26
+utc_start_time_3 = 2012-01-01T00:00:00.000Z
+utc_end_time_1 = 2013-01-01T00:00:00.000Z
+end_time = 2013-03-12 06:02:26
+utc_start_time = 2013-03-12T08:00:26.000Z
+utc_start_time_1 = 2013-03-12T10:50:26.000Z
+utc_start_time_2 = 2004-02-09T15:00:26.000Z
+utc_end_time = 2013-03-12T11:02:26.000Z
+status_1 = New
+status_2 = Scheduled
+status_3 = In Progress
+status_4 = No Feedback
+status_5 = Unsolved
+status_type = 8
+tq_search_priority_1 = Normal
+tq_search_priority_2 = High
+priority_1 = 1
+priority_2 = 2
+priority_3 = 3
+account_number_1 = 942261
+account_number_2 = 896236
+account_number_3 = 829213
+account_number_4 = 1009995
+account_number_5 = 11
+source_system = 5
+queue_name = AR/Cancellations
+queue_name_1 = Intensive (All Teams)
+utc_date_constant = .000+0000
+content_type = application/json
+account_type_1 = CLOUD
+account_type_2 = MANAGED_HOSTING
+team_name = Team UK M24
+team_name_alt = Team A1
+queue_id = 13
+queue_id_alt = 12
+queue_id_alt_ref_1 = 16
+queue_id_alt_ref_2 = 1
+queue_id_ref = 2
+subject_1 = New subject
+assignee_user_id = matt.printz
+assignee_user_name = Matthew Printz
+sync_queue_id = 11
+sync_sub_category = 11206
+sync_account_id = 11
+sync_ticket_text = &quot;Ticket Text Message&quot;
+sync_ticket_list = []
+sync_ticket_subject = &quot;Generic core ticket&quot;
+sync_ticket_subject2 = &quot;Generic core ticket two&quot;
+sync_source = 1
+sync_severity = 1
+end_time_1 = 2013-02-10 15:00:26
+utc_end_time_1 = 2013-02-10T21:00:26.000Z
+tq_search_account_number_1 = MANAGED_HOSTING858926
+tq_search_account_number_2 = MANAGED_HOSTING918664
+sleep_100_sec = 100
+sleep_30_sec = 30
+team_number = 129
+queue_id_alt_ref = 497
+
+
+
+
+EOF_CAT
+
+./bin/runner.py tq_search local.search.config -t type=positive --generateXML=/lib/ccengine/common/Report</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers>
+    <hudson.tasks.ArtifactArchiver>
+      <artifacts>lib/ccengine/common/Report/</artifacts>
+      <latestOnly>false</latestOnly>
+    </hudson.tasks.ArtifactArchiver>
+    <htmlpublisher.HtmlPublisher plugin="htmlpublisher@1.2">
+      <reportTargets>
+        <htmlpublisher.HtmlPublisherTarget>
+          <reportName>HTML Report</reportName>
+          <reportDir></reportDir>
+          <reportFiles>lib/ccengine/common/Report/index.html</reportFiles>
+          <keepAll>true</keepAll>
+          <wrapperName>htmlpublisher-wrapper.html</wrapperName>
+        </htmlpublisher.HtmlPublisherTarget>
+      </reportTargets>
+    </htmlpublisher.HtmlPublisher>
+  </publishers>
+  <buildWrappers/>
+</project>
