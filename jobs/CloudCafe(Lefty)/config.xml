@@ -21,7 +21,7 @@
     </userRemoteConfigs>
     <branches>
       <hudson.plugins.git.BranchSpec>
-        <name>remotes/origin/feedback_zendesk</name>
+        <name>remotes/origin/lefty_feedback_zendesk</name>
       </hudson.plugins.git.BranchSpec>
     </branches>
     <disableSubmodules>false</disableSubmodules>
@@ -95,6 +95,10 @@ zendesk_ticket_url = https://mosso.zendesk.com/api/v2/
 zendesk_username = isl_qe_usq@lists.mosso.com
 zendesk_password = j@cks
 zendesk_version = zendesk
+lefty_username = controlpanel_alpha
+lefty_password = zxcvBN=30
+lefty_base_url = https://staging.identity-internal.api.rackspacecloud.com
+lefty_version = 2.0_internal
 
 [gate]
 base_url = http://staging.search.api.rackspace.com/
@@ -159,9 +163,15 @@ sleep_100_sec = 100
 sleep_30_sec = 30
 team_number = 129
 queue_id_alt_ref = 497
-
-
-
+base_url_ord = https://api.staging.ord.ticketing.encore.rackspace.com/v1
+account_id=5908639
+data_centre=DFW
+pubsub_url_ord=https://pubsub.staging.ord.ticketing.encore.rackspace.com
+pubsub_url_dfw=https://pubsub.staging.dfw.ticketing.encore.rackspace.com
+base_url_dfw=https://api.staging.dfw.ticketing.encore.rackspace.com/v1
+base_url_ord=https://api.staging.ord.ticketing.encore.rackspace.com/v1
+sync_wait_time=10
+[lefty]
 
 EOF_CAT
 
