@@ -10,7 +10,7 @@
       <hudson.plugins.git.UserRemoteConfig>
         <name></name>
         <refspec></refspec>
-        <url>git@github.com:rackerlabs/search.git</url>
+        <url>git@github.rackspace.com:/rackertools/ticket-queues-api.git</url>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
@@ -76,7 +76,7 @@
       <configs>
         <hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
           <configs class="empty-list"/>
-          <projects>TSearchFunctionalTests</projects>
+          <projects>TQueuesAPIFunctionalTests</projects>
           <condition>SUCCESS</condition>
           <triggerWithNoParameters>true</triggerWithNoParameters>
         </hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
