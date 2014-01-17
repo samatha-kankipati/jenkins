@@ -21,7 +21,7 @@ This parameter is passes by &quot;TSearch - Perform Release&quot; project after 
       <hudson.plugins.git.UserRemoteConfig>
         <name></name>
         <refspec></refspec>
-        <url>git@github.com:rackerlabs/search.git</url>
+        <url>git@github.rackspace.com:rackertools/ticket-queues-api.git</url>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
@@ -64,17 +64,6 @@ This parameter is passes by &quot;TSearch - Perform Release&quot; project after 
 </command>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.plugins.parameterizedtrigger.BuildTrigger plugin="parameterized-trigger@2.16">
-      <configs>
-        <hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
-          <configs class="empty-list"/>
-          <projects>CloudCAFE, </projects>
-          <condition>SUCCESS</condition>
-          <triggerWithNoParameters>true</triggerWithNoParameters>
-        </hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
-      </configs>
-    </hudson.plugins.parameterizedtrigger.BuildTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>
