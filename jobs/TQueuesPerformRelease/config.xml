@@ -73,7 +73,7 @@
         <hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
           <configs>
             <hudson.plugins.parameterizedtrigger.FileBuildParameters>
-              <propertiesFile>version.properties</propertiesFile>
+              <propertiesFile>queueapiversion.properties</propertiesFile>
             </hudson.plugins.parameterizedtrigger.FileBuildParameters>
           </configs>
           <projects>TSearchDeployToTest, </projects>
@@ -98,7 +98,7 @@ DIR_NAME=&quot;${NAME%/[^/]*}&quot;
 FILE_NAME=&quot;${NAME:${#DIR_NAME} + 1}&quot;
 VERSION_NO=`echo $FILE_NAME| cut -d&quot;-&quot; -f2`
 echo &quot;version found: $VERSION_NO&quot;
-echo &quot;VERSION=${VERSION_NO}&quot; &gt; version.properties
+echo &quot;VERSION=${VERSION_NO}&quot; &gt; queueapiversion.properties
 </command>
     </hudson.tasks.Shell>
   </postbuilders>
