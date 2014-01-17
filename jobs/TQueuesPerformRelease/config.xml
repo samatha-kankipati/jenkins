@@ -96,7 +96,7 @@ FILE=`find . ${WORKSPACE}/target/checkout/service/target -maxdepth 1 -name &quot
 NAME=&quot;${FILE%.[^.]*}&quot;
 DIR_NAME=&quot;${NAME%/[^/]*}&quot;
 FILE_NAME=&quot;${NAME:${#DIR_NAME} + 1}&quot;
-VERSION_NO=`echo $FILE_NAME| cut -d&quot;-&quot; -f2`
+VERSION_NO=`echo $FILE_NAME| cut -d&quot;-&quot; -f4`
 echo &quot;version found: $VERSION_NO&quot;
 echo &quot;VERSION=${VERSION_NO}&quot; &gt; queueapiversion.properties
 </command>
