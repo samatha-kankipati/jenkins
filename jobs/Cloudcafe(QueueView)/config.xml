@@ -95,6 +95,7 @@ zendesk_ticket_url = https://mosso.zendesk.com/api/v2/
 zendesk_username = isl_qe_usq@lists.mosso.com
 zendesk_password = j@cks
 zendesk_version = zendesk
+given_url = http://10.14.211.218:8080/queues/
 lefty_username = controlpanel_alpha
 lefty_password = zxcvBN=30
 lefty_base_url = https://staging.identity-internal.api.rackspacecloud.com
@@ -175,7 +176,7 @@ sync_wait_time=10
 
 EOF_CAT
 
-./bin/runner.py tq_search local.search.config -t type=lefty-positive --generateXML=/lib/ccengine/common/Report</command>
+./bin/runner.py tq_search local.search.config -t type=lefty-positive-queue-view1 --generateXML=/lib/ccengine/common/Report</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
