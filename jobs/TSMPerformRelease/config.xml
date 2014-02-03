@@ -73,7 +73,7 @@
         <hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
           <configs>
             <hudson.plugins.parameterizedtrigger.FileBuildParameters>
-              <propertiesFile>queueapiversion.properties</propertiesFile>
+              <propertiesFile>tsmversion.properties</propertiesFile>
             </hudson.plugins.parameterizedtrigger.FileBuildParameters>
           </configs>
           <projects>TSMDeployToTest, </projects>
