@@ -76,7 +76,7 @@
               <propertiesFile>queueapiversion.properties</propertiesFile>
             </hudson.plugins.parameterizedtrigger.FileBuildParameters>
           </configs>
-          <projects>TQueuesDeployToTest</projects>
+          <projects>TSMDeployToTest, </projects>
           <condition>SUCCESS</condition>
           <triggerWithNoParameters>false</triggerWithNoParameters>
         </hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
