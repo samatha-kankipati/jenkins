@@ -98,7 +98,7 @@ DIR_NAME=&quot;${NAME%/[^/]*}&quot;
 FILE_NAME=&quot;${NAME:${#DIR_NAME} + 1}&quot;
 VERSION_NO=`echo $FILE_NAME| cut -d&quot;-&quot; -f4`
 echo &quot;version found: $VERSION_NO&quot;
-echo &quot;VERSION=${VERSION_NO}&quot; &gt; queueapiversion.properties
+echo &quot;VERSION=${VERSION_NO}&quot; &gt; tsmversion.properties
 </command>
     </hudson.tasks.Shell>
   </postbuilders>
