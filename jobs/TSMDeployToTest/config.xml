@@ -60,7 +60,7 @@ This parameter is passes by &quot;TSearch - Perform Release&quot; project after 
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>sh ${WORKSPACE}/service/src/main/scripts/deploy-application.sh $VERSION test
+      <command>sh ${WORKSPACE}/src/main/scripts/deploy-application.sh $VERSION test
 </command>
     </hudson.tasks.Shell>
   </builders>
