@@ -92,7 +92,7 @@
   <postbuilders>
     <hudson.tasks.Shell>
       <command>#!/bin/bash
-FILE=`find . ${WORKSPACE}/target/checkout/service/target -maxdepth 1 -name &quot;*.war&quot; -type f`
+FILE=`find . ${WORKSPACE}/target/checkout/target -maxdepth 1 -name &quot;*.war&quot; -type f`
 NAME=&quot;${FILE%.[^.]*}&quot;
 DIR_NAME=&quot;${NAME%/[^/]*}&quot;
 FILE_NAME=&quot;${NAME:${#DIR_NAME} + 1}&quot;
