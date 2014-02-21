@@ -45,6 +45,7 @@
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <jdk>(Inherit From Job)</jdk>
   <triggers class="vector">
     <hudson.triggers.SCMTrigger>
       <spec>*/5 * * * *</spec>
@@ -72,6 +73,13 @@
   <globalSettings class="jenkins.mvn.DefaultGlobalSettingsProvider"/>
   <reporters/>
   <publishers>
+    <hudson.plugins.sonar.SonarPublisher plugin="sonar@2.0.1">
+      <jdk>(Inherit From Job)</jdk>
+      <branch></branch>
+      <language></language>
+      <mavenOpts></mavenOpts>
+      <jobAdditionalProperties></jobAdditionalProperties>
+    </hudson.plugins.sonar.SonarPublisher>
     <hudson.plugins.parameterizedtrigger.BuildTrigger plugin="parameterized-trigger@2.16">
       <configs>
         <hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
