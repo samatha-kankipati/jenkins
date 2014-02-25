@@ -4,19 +4,21 @@
     <hudson.plugins.sonar.SonarInstallation>
       <name>sonarconfig</name>
       <disabled>false</disabled>
-      <serverUrl>http://10.127.49.233:8080/sonar</serverUrl>
-      <serverPublicUrl>http://10.127.49.233:8080/sonar/</serverPublicUrl>
+      <serverUrl>http://node1.test.q.search.api.rackspace.com:9000</serverUrl>
+      <serverPublicUrl>http://node1.test.q.search.api.rackspace.com:9000</serverPublicUrl>
       <mojoVersion></mojoVersion>
-      <databaseUrl>jdbc:postgresql://10.127.49.233/sonar</databaseUrl>
-      <databaseDriver>org.postgresql.Driver</databaseDriver>
-      <databaseLogin></databaseLogin>
+      <databaseUrl>jdbc:mysql://node1.test.q.search.api.rackspace.com:3306/sonar</databaseUrl>
+      <databaseDriver>com.mysql.jdbc.Driver</databaseDriver>
+      <databaseLogin>root</databaseLogin>
+      <databasePassword>cGFzc3dvcmQ=</databasePassword>
       <additionalProperties></additionalProperties>
       <triggers>
         <skipScmCause>false</skipScmCause>
         <skipUpstreamCause>false</skipUpstreamCause>
         <envVar></envVar>
       </triggers>
-      <sonarLogin></sonarLogin>
+      <sonarLogin>admin</sonarLogin>
+      <sonarPassword>YWRtaW4=</sonarPassword>
     </hudson.plugins.sonar.SonarInstallation>
   </installations>
 </hudson.plugins.sonar.SonarPublisher_-DescriptorImpl>
