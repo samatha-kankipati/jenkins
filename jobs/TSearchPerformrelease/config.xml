@@ -76,7 +76,7 @@
               <propertiesFile>version.properties</propertiesFile>
             </hudson.plugins.parameterizedtrigger.FileBuildParameters>
           </configs>
-          <projects>TSearchDeployToTest, </projects>
+          <projects>TSearchDeployToStaging, </projects>
           <condition>SUCCESS</condition>
           <triggerWithNoParameters>false</triggerWithNoParameters>
         </hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
