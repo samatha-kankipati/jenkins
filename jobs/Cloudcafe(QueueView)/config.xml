@@ -97,7 +97,7 @@ zendesk_password = j@cks
 zendesk_version = zendesk
 given_url = http://10.14.211.218:8080/queues/
 lefty_username = controlpanel_alpha
-lefty_password = zxcvBN=30
+lefty_password = lkjhGF=30
 lefty_base_url = https://staging.identity-internal.api.rackspacecloud.com
 lefty_version = 2.0_internal
 
