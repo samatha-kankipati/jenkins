@@ -10,42 +10,49 @@
     <permission>hudson.model.Computer.Configure:priya.nupur</permission>
     <permission>hudson.model.Computer.Configure:sappalaneni</permission>
     <permission>hudson.model.Computer.Configure:skankipati</permission>
+    <permission>hudson.model.Computer.Configure:step1179</permission>
     <permission>hudson.model.Computer.Configure:stephen.golub</permission>
     <permission>hudson.model.Computer.Configure:surendra.appalaneni</permission>
     <permission>hudson.model.Computer.Connect:bach.nguyen</permission>
     <permission>hudson.model.Computer.Connect:priya.nupur</permission>
     <permission>hudson.model.Computer.Connect:sappalaneni</permission>
     <permission>hudson.model.Computer.Connect:skankipati</permission>
+    <permission>hudson.model.Computer.Connect:step1179</permission>
     <permission>hudson.model.Computer.Connect:stephen.golub</permission>
     <permission>hudson.model.Computer.Connect:surendra.appalaneni</permission>
     <permission>hudson.model.Computer.Create:bach.nguyen</permission>
     <permission>hudson.model.Computer.Create:priya.nupur</permission>
     <permission>hudson.model.Computer.Create:sappalaneni</permission>
     <permission>hudson.model.Computer.Create:skankipati</permission>
+    <permission>hudson.model.Computer.Create:step1179</permission>
     <permission>hudson.model.Computer.Create:stephen.golub</permission>
     <permission>hudson.model.Computer.Create:surendra.appalaneni</permission>
     <permission>hudson.model.Computer.Delete:bach.nguyen</permission>
     <permission>hudson.model.Computer.Delete:priya.nupur</permission>
     <permission>hudson.model.Computer.Delete:sappalaneni</permission>
     <permission>hudson.model.Computer.Delete:skankipati</permission>
+    <permission>hudson.model.Computer.Delete:step1179</permission>
     <permission>hudson.model.Computer.Delete:stephen.golub</permission>
     <permission>hudson.model.Computer.Delete:surendra.appalaneni</permission>
     <permission>hudson.model.Computer.Disconnect:bach.nguyen</permission>
     <permission>hudson.model.Computer.Disconnect:priya.nupur</permission>
     <permission>hudson.model.Computer.Disconnect:sappalaneni</permission>
     <permission>hudson.model.Computer.Disconnect:skankipati</permission>
+    <permission>hudson.model.Computer.Disconnect:step1179</permission>
     <permission>hudson.model.Computer.Disconnect:stephen.golub</permission>
     <permission>hudson.model.Computer.Disconnect:surendra.appalaneni</permission>
     <permission>hudson.model.Hudson.Administer:bach.nguyen</permission>
     <permission>hudson.model.Hudson.Administer:priya.nupur</permission>
     <permission>hudson.model.Hudson.Administer:sappalaneni</permission>
     <permission>hudson.model.Hudson.Administer:skankipati</permission>
+    <permission>hudson.model.Hudson.Administer:step1179</permission>
     <permission>hudson.model.Hudson.Administer:stephen.golub</permission>
     <permission>hudson.model.Hudson.Administer:surendra.appalaneni</permission>
     <permission>hudson.model.Hudson.ConfigureUpdateCenter:bach.nguyen</permission>
     <permission>hudson.model.Hudson.ConfigureUpdateCenter:priya.nupur</permission>
     <permission>hudson.model.Hudson.ConfigureUpdateCenter:sappalaneni</permission>
     <permission>hudson.model.Hudson.ConfigureUpdateCenter:skankipati</permission>
+    <permission>hudson.model.Hudson.ConfigureUpdateCenter:step1179</permission>
     <permission>hudson.model.Hudson.ConfigureUpdateCenter:stephen.golub</permission>
     <permission>hudson.model.Hudson.ConfigureUpdateCenter:surendra.appalaneni</permission>
     <permission>hudson.model.Hudson.Read:anonymous</permission>
@@ -53,54 +60,63 @@
     <permission>hudson.model.Hudson.Read:priya.nupur</permission>
     <permission>hudson.model.Hudson.Read:sappalaneni</permission>
     <permission>hudson.model.Hudson.Read:skankipati</permission>
+    <permission>hudson.model.Hudson.Read:step1179</permission>
     <permission>hudson.model.Hudson.Read:stephen.golub</permission>
     <permission>hudson.model.Hudson.Read:surendra.appalaneni</permission>
     <permission>hudson.model.Hudson.RunScripts:bach.nguyen</permission>
     <permission>hudson.model.Hudson.RunScripts:priya.nupur</permission>
     <permission>hudson.model.Hudson.RunScripts:sappalaneni</permission>
     <permission>hudson.model.Hudson.RunScripts:skankipati</permission>
+    <permission>hudson.model.Hudson.RunScripts:step1179</permission>
     <permission>hudson.model.Hudson.RunScripts:stephen.golub</permission>
     <permission>hudson.model.Hudson.RunScripts:surendra.appalaneni</permission>
     <permission>hudson.model.Hudson.UploadPlugins:bach.nguyen</permission>
     <permission>hudson.model.Hudson.UploadPlugins:priya.nupur</permission>
     <permission>hudson.model.Hudson.UploadPlugins:sappalaneni</permission>
     <permission>hudson.model.Hudson.UploadPlugins:skankipati</permission>
+    <permission>hudson.model.Hudson.UploadPlugins:step1179</permission>
     <permission>hudson.model.Hudson.UploadPlugins:stephen.golub</permission>
     <permission>hudson.model.Hudson.UploadPlugins:surendra.appalaneni</permission>
     <permission>hudson.model.Item.Build:bach.nguyen</permission>
     <permission>hudson.model.Item.Build:priya.nupur</permission>
     <permission>hudson.model.Item.Build:sappalaneni</permission>
     <permission>hudson.model.Item.Build:skankipati</permission>
+    <permission>hudson.model.Item.Build:step1179</permission>
     <permission>hudson.model.Item.Build:stephen.golub</permission>
     <permission>hudson.model.Item.Build:surendra.appalaneni</permission>
     <permission>hudson.model.Item.Cancel:bach.nguyen</permission>
     <permission>hudson.model.Item.Cancel:priya.nupur</permission>
     <permission>hudson.model.Item.Cancel:sappalaneni</permission>
     <permission>hudson.model.Item.Cancel:skankipati</permission>
+    <permission>hudson.model.Item.Cancel:step1179</permission>
     <permission>hudson.model.Item.Cancel:stephen.golub</permission>
     <permission>hudson.model.Item.Cancel:surendra.appalaneni</permission>
     <permission>hudson.model.Item.Configure:bach.nguyen</permission>
     <permission>hudson.model.Item.Configure:priya.nupur</permission>
     <permission>hudson.model.Item.Configure:sappalaneni</permission>
     <permission>hudson.model.Item.Configure:skankipati</permission>
+    <permission>hudson.model.Item.Configure:step1179</permission>
     <permission>hudson.model.Item.Configure:stephen.golub</permission>
     <permission>hudson.model.Item.Configure:surendra.appalaneni</permission>
     <permission>hudson.model.Item.Create:bach.nguyen</permission>
     <permission>hudson.model.Item.Create:priya.nupur</permission>
     <permission>hudson.model.Item.Create:sappalaneni</permission>
     <permission>hudson.model.Item.Create:skankipati</permission>
+    <permission>hudson.model.Item.Create:step1179</permission>
     <permission>hudson.model.Item.Create:stephen.golub</permission>
     <permission>hudson.model.Item.Create:surendra.appalaneni</permission>
     <permission>hudson.model.Item.Delete:bach.nguyen</permission>
     <permission>hudson.model.Item.Delete:priya.nupur</permission>
     <permission>hudson.model.Item.Delete:sappalaneni</permission>
     <permission>hudson.model.Item.Delete:skankipati</permission>
+    <permission>hudson.model.Item.Delete:step1179</permission>
     <permission>hudson.model.Item.Delete:stephen.golub</permission>
     <permission>hudson.model.Item.Delete:surendra.appalaneni</permission>
     <permission>hudson.model.Item.Discover:bach.nguyen</permission>
     <permission>hudson.model.Item.Discover:priya.nupur</permission>
     <permission>hudson.model.Item.Discover:sappalaneni</permission>
     <permission>hudson.model.Item.Discover:skankipati</permission>
+    <permission>hudson.model.Item.Discover:step1179</permission>
     <permission>hudson.model.Item.Discover:stephen.golub</permission>
     <permission>hudson.model.Item.Discover:surendra.appalaneni</permission>
     <permission>hudson.model.Item.Read:anonymous</permission>
@@ -108,48 +124,56 @@
     <permission>hudson.model.Item.Read:priya.nupur</permission>
     <permission>hudson.model.Item.Read:sappalaneni</permission>
     <permission>hudson.model.Item.Read:skankipati</permission>
+    <permission>hudson.model.Item.Read:step1179</permission>
     <permission>hudson.model.Item.Read:stephen.golub</permission>
     <permission>hudson.model.Item.Read:surendra.appalaneni</permission>
     <permission>hudson.model.Item.Release:bach.nguyen</permission>
     <permission>hudson.model.Item.Release:priya.nupur</permission>
     <permission>hudson.model.Item.Release:sappalaneni</permission>
     <permission>hudson.model.Item.Release:skankipati</permission>
+    <permission>hudson.model.Item.Release:step1179</permission>
     <permission>hudson.model.Item.Release:stephen.golub</permission>
     <permission>hudson.model.Item.Release:surendra.appalaneni</permission>
     <permission>hudson.model.Item.Workspace:bach.nguyen</permission>
     <permission>hudson.model.Item.Workspace:priya.nupur</permission>
     <permission>hudson.model.Item.Workspace:sappalaneni</permission>
     <permission>hudson.model.Item.Workspace:skankipati</permission>
+    <permission>hudson.model.Item.Workspace:step1179</permission>
     <permission>hudson.model.Item.Workspace:stephen.golub</permission>
     <permission>hudson.model.Item.Workspace:surendra.appalaneni</permission>
     <permission>hudson.model.Run.Delete:bach.nguyen</permission>
     <permission>hudson.model.Run.Delete:priya.nupur</permission>
     <permission>hudson.model.Run.Delete:sappalaneni</permission>
     <permission>hudson.model.Run.Delete:skankipati</permission>
+    <permission>hudson.model.Run.Delete:step1179</permission>
     <permission>hudson.model.Run.Delete:stephen.golub</permission>
     <permission>hudson.model.Run.Delete:surendra.appalaneni</permission>
     <permission>hudson.model.Run.Update:bach.nguyen</permission>
     <permission>hudson.model.Run.Update:priya.nupur</permission>
     <permission>hudson.model.Run.Update:sappalaneni</permission>
     <permission>hudson.model.Run.Update:skankipati</permission>
+    <permission>hudson.model.Run.Update:step1179</permission>
     <permission>hudson.model.Run.Update:stephen.golub</permission>
     <permission>hudson.model.Run.Update:surendra.appalaneni</permission>
     <permission>hudson.model.View.Configure:bach.nguyen</permission>
     <permission>hudson.model.View.Configure:priya.nupur</permission>
     <permission>hudson.model.View.Configure:sappalaneni</permission>
     <permission>hudson.model.View.Configure:skankipati</permission>
+    <permission>hudson.model.View.Configure:step1179</permission>
     <permission>hudson.model.View.Configure:stephen.golub</permission>
     <permission>hudson.model.View.Configure:surendra.appalaneni</permission>
     <permission>hudson.model.View.Create:bach.nguyen</permission>
     <permission>hudson.model.View.Create:priya.nupur</permission>
     <permission>hudson.model.View.Create:sappalaneni</permission>
     <permission>hudson.model.View.Create:skankipati</permission>
+    <permission>hudson.model.View.Create:step1179</permission>
     <permission>hudson.model.View.Create:stephen.golub</permission>
     <permission>hudson.model.View.Create:surendra.appalaneni</permission>
     <permission>hudson.model.View.Delete:bach.nguyen</permission>
     <permission>hudson.model.View.Delete:priya.nupur</permission>
     <permission>hudson.model.View.Delete:sappalaneni</permission>
     <permission>hudson.model.View.Delete:skankipati</permission>
+    <permission>hudson.model.View.Delete:step1179</permission>
     <permission>hudson.model.View.Delete:stephen.golub</permission>
     <permission>hudson.model.View.Delete:surendra.appalaneni</permission>
     <permission>hudson.model.View.Read:anonymous</permission>
@@ -157,12 +181,14 @@
     <permission>hudson.model.View.Read:priya.nupur</permission>
     <permission>hudson.model.View.Read:sappalaneni</permission>
     <permission>hudson.model.View.Read:skankipati</permission>
+    <permission>hudson.model.View.Read:step1179</permission>
     <permission>hudson.model.View.Read:stephen.golub</permission>
     <permission>hudson.model.View.Read:surendra.appalaneni</permission>
     <permission>hudson.scm.SCM.Tag:bach.nguyen</permission>
     <permission>hudson.scm.SCM.Tag:priya.nupur</permission>
     <permission>hudson.scm.SCM.Tag:sappalaneni</permission>
     <permission>hudson.scm.SCM.Tag:skankipati</permission>
+    <permission>hudson.scm.SCM.Tag:step1179</permission>
     <permission>hudson.scm.SCM.Tag:stephen.golub</permission>
     <permission>hudson.scm.SCM.Tag:surendra.appalaneni</permission>
   </authorizationStrategy>
