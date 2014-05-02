@@ -21,7 +21,7 @@
       <insensitiveSearch>false</insensitiveSearch>
     </hudson.search.UserSearchProperty>
     <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.4">
-      <emailAddress>ivo.vasev@rackspace.com</emailAddress>
+      <emailAddress>ivo.vasev@RACKSPACE.COM</emailAddress>
     </hudson.tasks.Mailer_-UserProperty>
   </properties>
 </user>
