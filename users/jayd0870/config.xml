@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <user>
-  <fullName>jorge.munoz</fullName>
+  <fullName>jayd0870</fullName>
   <properties>
     <jenkins.security.ApiTokenProperty>
-      <apiToken>5UqinfMxZYNUl0lkkE1+cSLsjjCE4ybaFLSAlnlYP9V1ES5d0q7QVZ9IfhXUSFT1</apiToken>
+      <apiToken>lP9wvxixZNQhEynThBAhDLYFkSkCM5xcDz2y94tTxnJ1ES5d0q7QVZ9IfhXUSFT1</apiToken>
     </jenkins.security.ApiTokenProperty>
     <hudson.plugins.ircbot.IrcUserProperty plugin="ircbot@2.21"/>
     <hudson.model.MyViewsProperty>
@@ -21,7 +21,7 @@
       <insensitiveSearch>false</insensitiveSearch>
     </hudson.search.UserSearchProperty>
     <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.4">
-      <emailAddress>jorge.munoz@rackspace.com</emailAddress>
+      <emailAddress>jayd0870@github.rackspace.com</emailAddress>
     </hudson.tasks.Mailer_-UserProperty>
   </properties>
 </user>
