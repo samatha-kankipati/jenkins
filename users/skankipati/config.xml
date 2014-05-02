@@ -24,7 +24,7 @@
       <passwordHash>#jbcrypt:$2a$10$mKdfgFcJ2tSAEn2IPUAFvuORg//MTyG00b4f4TpphHO.0pIoo0HBu</passwordHash>
     </hudson.security.HudsonPrivateSecurityRealm_-Details>
     <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.4">
-      <emailAddress>samatha.kankipati@rackspace.com</emailAddress>
+      <emailAddress>samantha.kankipati@rackspace.com</emailAddress>
     </hudson.tasks.Mailer_-UserProperty>
   </properties>
 </user>
