@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <user>
-  <fullName>ritesh.yadav</fullName>
+  <fullName>priyanka.agrawal</fullName>
   <properties>
     <jenkins.security.ApiTokenProperty>
-      <apiToken>gFlgD9d/293Vh83+mSC6tJl8Py6+rwY1ajYybrupCgh1ES5d0q7QVZ9IfhXUSFT1</apiToken>
+      <apiToken>Puiu6jIFNd9OcX/LNsO/Hp454WWnqXE3DCvFyEBKTHd1ES5d0q7QVZ9IfhXUSFT1</apiToken>
     </jenkins.security.ApiTokenProperty>
     <hudson.plugins.ircbot.IrcUserProperty plugin="ircbot@2.21"/>
     <hudson.model.MyViewsProperty>
@@ -21,7 +21,7 @@
       <insensitiveSearch>false</insensitiveSearch>
     </hudson.search.UserSearchProperty>
     <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.4">
-      <emailAddress>ritesh.yadav@RACKSPACE.COM</emailAddress>
+      <emailAddress>priyanka.agrawal@RACKSPACE.COM</emailAddress>
     </hudson.tasks.Mailer_-UserProperty>
   </properties>
 </user>
