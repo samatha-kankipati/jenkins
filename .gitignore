@@ -5,4 +5,11 @@ workspace
 */workspace/*.*
 */workspace/*
 jobs/*/workspace
+builds/*
+builds/
+builds
+**/builds
+**/builds/*.*
+*/builds/*
+jobs/*/builds
 
