@@ -1,3 +1,0 @@
-'''
-@summary: Classes and Utilities that specifically enable logging, gathering statistics, etc...
-'''

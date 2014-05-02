@@ -1,5 +1,0 @@
-<testsuite errors="0" failures="1" name="" skips="0" tests="3" time="36.2864239216"><testcase classname="TestAccountInformation" name="test_list_tickets_and_verify_the_account_data" result="PASSED" /><testcase classname="TestAccountInformation" name="test_updating_team_attribute_from_account_services_doesnt_showup_in_tq_search" result="PASSED" /><testcase classname="TestAccountInformation" name="test_same_number_of_accounts_in_account_svs_and_elastic_search" result="FAILED"><failure message="The number of accounts are not same in elastic                           search and account services" type="AssertionError">Traceback (most recent call last):
-  File "/var/lib/jenkins/jobs/CloudCafeTest/workspace/lib/testrepo/tq_search/search_existing_ticket/test_account_information.py", line 248, in test_same_number_of_accounts_in_account_svs_and_elastic_search
-    search and account services")
-AssertionError: '427100' != '485029' : The number of accounts are not same in elastic                           search and account services
-</failure></testcase></testsuite>
