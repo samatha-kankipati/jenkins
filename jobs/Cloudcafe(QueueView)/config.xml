@@ -86,18 +86,18 @@ password=
 version =
 core_auth_url = https://ws.staging.core.rackspace.com/ctkapi/
 core_username = melissa.biles
-core_password = qwerty
+core_password = token-core-api-password
 core_version = core
 account_services_url = https://staging.account.api.rackspace.com/v1.0/
 account_services_username = priy0835
-account_services_password = Password=163463
+account_services_password = token-account-api-password
 zendesk_ticket_url = https://mosso.zendesk.com/api/v2/
 zendesk_username = isl_qe_usq@lists.mosso.com
-zendesk_password = j@cks
+zendesk_password = token-zendesk-password
 zendesk_version = zendesk
 given_url = http://10.14.211.218:8080/queues/
 lefty_username = controlpanel_alpha
-lefty_password = lkjhGF=30
+lefty_password = token-lefty-password
 lefty_base_url = https://staging.identity-internal.api.rackspacecloud.com
 lefty_version = 2.0_internal
 
