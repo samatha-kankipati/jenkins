@@ -86,11 +86,11 @@ password =
 version =
 core_auth_url = https://ws.staging.core.rackspace.com/ctkapi/
 core_username = melissa.biles
-core_password = qwerty
+core_password = token-core-api-password
 core_version = core
 account_services_url = https://staging.account.api.rackspace.com/v1.0/
 account_services_username = priy0835
-account_services_password = Password=163463
+account_services_password = token-account-api-password
 
 [gate]
 base_url = http://staging.search.api.rackspace.com/
