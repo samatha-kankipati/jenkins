@@ -80,7 +80,7 @@ password=
 version=
 core_auth_url=https://ws.staging.core.rackspace.com/ctkapi/
 core_username=jayd0870
-core_password=qwerty
+core_password=token-core-password
 core_version=core
 
 [gate]
